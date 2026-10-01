@@ -17,7 +17,7 @@
       try { localStorage.removeItem(k); } catch (e) { /* abaikan */ }
     }
   };
-  var settings = Object.assign({ instant: true, shuffle: false }, STORE.get(SETTINGS_KEY, {}));
+  var settings = Object.assign({ shuffle: false }, STORE.get(SETTINGS_KEY, {}));
 
   /* ---------- util ---------- */
   function h(tag, props) {
@@ -107,7 +107,7 @@
         bySubject[m.subject].push(m);
       });
       var root = h('div', null,
-        h('p', { class: 'intro' }, 'Pilih satu latihan. Jawabanmu diperiksa otomatis, dan kamu bisa mengulang sebanyak yang kamu mau.'));
+        h('p', { class: 'intro' }, 'Pilih satu latihan dan kerjakan sampai selesai. Nilai dan pembahasan baru muncul setelah kamu menekan tombol Selesai.'));
       order.forEach(function (subj) {
         root.append(h('h2', { class: 'subject' }, subj));
         var cards = h('div', { class: 'cards' });
@@ -179,11 +179,8 @@
         default: return null;
       }
     }
-    function revealed(q) {
-      if (st.checked) return true;
-      if (q.type === 'pg') return settings.instant && A(q) !== undefined;
-      if (q.type === 'bs') return settings.instant && answered(q);
-      return !!st.shown[q.id];
+    function revealed() {
+      return !!st.checked;
     }
     function orderOf(q) {
       var n = q.opts.length, i, id = [];
@@ -276,19 +273,11 @@
       var field = h(multi ? 'textarea' : 'input', {
         class: 'txt', type: multi ? false : 'text', rows: multi ? 3 : false,
         placeholder: multi ? 'Tulis jawabanmu di sini' : 'Ketik jawabanmu',
-        autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', disabled: show && st.checked,
-        oninput: function (ev) { st.ans[q.id] = ev.target.value; save(); updateProgress(); },
-        onkeydown: function (ev) {
-          if (!multi && ev.key === 'Enter' && !show) { ev.preventDefault(); st.shown[q.id] = true; save(); refresh(q); }
-        }
+        autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', disabled: show,
+        oninput: function (ev) { st.ans[q.id] = ev.target.value; save(); updateProgress(); }
       });
       field.value = A(q) || '';
-      var wrap = h('div', null, field);
-      if (!show) {
-        wrap.append(h('div', { class: 'row-act' },
-          h('button', { class: 'btn small', type: 'button', onclick: function () { st.shown[q.id] = true; save(); refresh(q); } }, 'Periksa')));
-      }
-      return wrap;
+      return h('div', null, field);
     }
 
     function feedback(q) {
@@ -316,8 +305,8 @@
         var fb = h('div', { class: 'fb info' }, h('strong', null, 'Contoh jawaban: '), h('span', { html: q.answer }));
         var sel = h('div', { class: 'row-act' },
           h('span', null, 'Apakah jawabanmu sudah sesuai?'),
-          h('button', { class: 'btn small' + (m === true ? '' : ' ghost'), type: 'button', onclick: function () { st.marks[q.id] = true; save(); refresh(q); } }, 'Sudah sesuai'),
-          h('button', { class: 'btn small' + (m === false ? '' : ' ghost'), type: 'button', onclick: function () { st.marks[q.id] = false; save(); refresh(q); } }, 'Belum sesuai'));
+          h('button', { class: 'btn small' + (m === true ? '' : ' ghost'), type: 'button', onclick: function () { st.marks[q.id] = true; save(); refresh(q); showResult(false); } }, 'Sudah sesuai'),
+          h('button', { class: 'btn small' + (m === false ? '' : ' ghost'), type: 'button', onclick: function () { st.marks[q.id] = false; save(); refresh(q); showResult(false); } }, 'Belum sesuai'));
         fb.append(sel);
         return fb;
       }
@@ -331,11 +320,8 @@
       var body = h('div', { class: 'body' }, stemEl(q));
       if (q.type === 'pg') body.append(pgControls(q, show));
       else if (q.type === 'bs') body.append(bsControls(q, show));
-      else if (q.type === 'ms') {
-        body.append(msControls(q, show));
-        if (!show) body.append(h('div', { class: 'row-act' },
-          h('button', { class: 'btn small', type: 'button', onclick: function () { st.shown[q.id] = true; save(); refresh(q); } }, 'Periksa')));
-      } else body.append(textControls(q, show));
+      else if (q.type === 'ms') body.append(msControls(q, show));
+      else body.append(textControls(q, show));
       if (show) body.append(feedback(q));
       var card = h('div', { class: cls, id: 'c-' + q.id }, h('div', { class: 'qrow' }, h('div', { class: 'num' }, q.num), body));
       renderMath(card);
@@ -359,14 +345,16 @@
       var good = 0, wrong = [];
       gradable.forEach(function (q) { if (isCorrect(q)) good++; else wrong.push(q); });
       var score = Math.round(100 * good / gradable.length);
+      var pending = gradable.some(function (q) { return q.type === 'self' && st.marks[q.id] === undefined; });
       var best = STORE.get('lso:best:' + data.id, null);
-      if (best == null || score > best) { STORE.set('lso:best:' + data.id, score); best = score; }
+      if (!pending && (best == null || score > best)) { STORE.set('lso:best:' + data.id, score); best = score; }
       var msg = score >= 90 ? 'Luar biasa! Pertahankan ya.' : score >= 75 ? 'Bagus sekali! Sedikit lagi sempurna.' :
         score >= 60 ? 'Lumayan. Pelajari lagi soal yang salah, lalu coba ulang.' : 'Jangan menyerah. Baca lagi materinya, lalu coba lagi.';
       var box = h('div', { class: 'result' },
-        h('h2', null, 'Hasil latihan'),
+        h('h2', null, pending ? 'Nilai sementara' : 'Hasil latihan'),
         h('div', { class: 'big' }, score),
-        h('p', null, good + ' dari ' + gradable.length + ' soal benar. ' + msg + ' (Nilai terbaikmu: ' + best + ')'));
+        h('p', null, good + ' dari ' + gradable.length + ' soal benar. ' + msg + (best != null ? ' (Nilai terbaikmu: ' + best + ')' : '')));
+      if (pending) box.append(h('p', { class: 'hint' }, 'Beberapa soal isian bebas belum kamu nilai. Cocokkan jawabanmu dengan contoh jawaban, lalu tekan "Sudah sesuai" atau "Belum sesuai" agar nilai akhirnya lengkap.'));
       if (wrong.length) {
         var line = h('p', null, 'Soal yang perlu dicek lagi: ');
         wrong.forEach(function (q) {
@@ -385,7 +373,7 @@
     }
     function checkAll() {
       var left = gradable.length - gradable.filter(answered).length;
-      if (left > 0 && !window.confirm('Masih ada ' + left + ' soal yang belum dijawab. Tetap periksa sekarang?')) return;
+      if (left > 0 && !window.confirm('Masih ada ' + left + ' soal yang belum dijawab. Tetap selesai sekarang?')) return;
       st.checked = true; save();
       items.forEach(refresh);
       checkBtn.disabled = true;
@@ -405,10 +393,6 @@
       h('h1', null, data.subject + ': ' + data.title),
       h('p', null, data.desc)));
 
-    var cbInstant = h('input', {
-      type: 'checkbox', checked: settings.instant,
-      onchange: function (ev) { settings.instant = ev.target.checked; STORE.set(SETTINGS_KEY, settings); items.forEach(refresh); }
-    });
     var cbShuffle = h('input', {
       type: 'checkbox', checked: settings.shuffle,
       onchange: function (ev) {
@@ -417,8 +401,8 @@
       }
     });
     root.append(h('div', { class: 'controls' },
-      h('label', null, cbInstant, 'Langsung tahu benar atau salah'),
-      h('label', null, cbShuffle, 'Acak urutan pilihan jawaban')));
+      h('label', null, cbShuffle, 'Acak urutan pilihan jawaban'),
+      h('span', { class: 'hint' }, 'Nilai dan pembahasan baru muncul setelah kamu menekan Selesai.')));
 
     barFill = h('div', { class: 'fill' });
     barText = h('span');
@@ -444,7 +428,7 @@
       });
     });
 
-    checkBtn = h('button', { class: 'btn', type: 'button', onclick: checkAll, disabled: st.checked }, 'Periksa Jawaban');
+    checkBtn = h('button', { class: 'btn', type: 'button', onclick: checkAll, disabled: st.checked }, 'Selesai dan Lihat Nilai');
     root.append(h('div', { class: 'bottom' },
       checkBtn,
       h('button', { class: 'btn ghost', type: 'button', onclick: reset }, 'Ulangi dari Awal'),
