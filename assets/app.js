@@ -3,6 +3,9 @@
 
   var app = document.getElementById('app');
   var SETTINGS_KEY = 'lso:set';
+  var NAME_KEY = 'lso:name';
+  // Atas izin pemilik: nilai dikirim ke email orang tua lewat FormSubmit.co (aktivasi sekali lewat email konfirmasi).
+  var NOTIFY_URL = 'https://formsubmit.co/ajax/m.jamhuri@live.com';
   var manifest = null;
   var cache = {};
 
@@ -153,7 +156,10 @@
     var gradable = items.filter(function (q) { return q.type !== 'uraian'; });
     var cards = {};
 
-    function save() { STORE.set(key, st); }
+    function save() {
+      if (!st.started && Object.keys(st.ans).length) st.started = Date.now();
+      STORE.set(key, st);
+    }
     function A(q) { return st.ans[q.id]; }
 
     function answered(q) {
@@ -341,6 +347,51 @@
       if (barFill) barFill.style.width = (100 * n / gradable.length) + '%';
       if (barText) barText.textContent = 'Terjawab ' + n + ' dari ' + gradable.length;
     }
+    var sendInfo = { text: '', cls: '' };
+    function paintSend() {
+      var el = resultBox && resultBox.querySelector('.sendstatus');
+      if (!el) return;
+      el.className = 'sendstatus ' + sendInfo.cls;
+      el.textContent = sendInfo.text;
+      if (sendInfo.cls === 'bad') {
+        el.append(' ', h('button', { class: 'btn small ghost', type: 'button', onclick: function () { st.sent = null; save(); showResult(false); } }, 'Kirim ulang'));
+      }
+    }
+    function sendScore(score, good, wrong) {
+      var name = (STORE.get(NAME_KEY, '') || '').trim();
+      var mins = st.started ? Math.max(1, Math.round((Date.now() - st.started) / 60000)) : null;
+      var wrongList = wrong.map(function (q) { return (q.type === 'isian' ? 'Isian ' : '') + q.num; }).join(', ') || '-';
+      var payload = {
+        _subject: 'Nilai ' + (name || 'anak') + ': ' + data.subject + ' - ' + data.title + ' = ' + score,
+        _template: 'table',
+        _captcha: 'false',
+        Nama: name || '(tanpa nama)',
+        'Mata pelajaran': data.subject,
+        Latihan: data.title,
+        Nilai: String(score),
+        Benar: good + ' dari ' + gradable.length + ' soal',
+        'Soal yang salah': wrongList,
+        'Lama mengerjakan': mins ? mins + ' menit' : '-',
+        Waktu: new Date().toLocaleString('id-ID', { timeZone: 'Asia/Jakarta' }) + ' WIB'
+      };
+      sendInfo = { text: 'Mengirim nilai ke orang tua\u2026', cls: '' };
+      paintSend();
+      fetch(NOTIFY_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
+      }).then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+        .then(function (res) {
+          if (res.ok && (res.j.success === true || res.j.success === 'true')) {
+            st.sent = score; save();
+            sendInfo = { text: 'Nilai sudah terkirim ke orang tua \u2713', cls: 'good' };
+          } else { throw new Error('gagal'); }
+          paintSend();
+        }).catch(function () {
+          sendInfo = { text: 'Nilai belum terkirim (cek koneksi internet).', cls: 'bad' };
+          paintSend();
+        });
+    }
     function showResult(scroll) {
       var good = 0, wrong = [];
       gradable.forEach(function (q) { if (isCorrect(q)) good++; else wrong.push(q); });
@@ -368,10 +419,19 @@
         });
         box.append(line);
       }
+      box.append(h('p', { class: 'sendstatus' }));
       resultBox.replaceChildren(box);
+      paintSend();
+      if (!pending && st.checked && st.sent !== score) sendScore(score, good, wrong);
       if (scroll) box.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
     function checkAll() {
+      if (!(STORE.get(NAME_KEY, '') || '').trim()) {
+        window.alert('Tulis namamu dulu di kolom Nama di bagian atas, ya.');
+        window.scrollTo(0, 0);
+        nameInput.focus();
+        return;
+      }
       var left = gradable.length - gradable.filter(answered).length;
       if (left > 0 && !window.confirm('Masih ada ' + left + ' soal yang belum dijawab. Tetap selesai sekarang?')) return;
       st.checked = true; save();
@@ -400,7 +460,13 @@
         st.order = {}; save(); items.forEach(refresh);
       }
     });
+    var nameInput = h('input', {
+      type: 'text', class: 'name', placeholder: 'Tulis namamu', maxlength: '40',
+      autocomplete: 'off', value: STORE.get(NAME_KEY, ''),
+      oninput: function (ev) { STORE.set(NAME_KEY, ev.target.value); }
+    });
     root.append(h('div', { class: 'controls' },
+      h('label', { class: 'namefield' }, 'Nama:', nameInput),
       h('label', null, cbShuffle, 'Acak urutan pilihan jawaban'),
       h('span', { class: 'hint' }, 'Nilai dan pembahasan baru muncul setelah kamu menekan Selesai.')));
 

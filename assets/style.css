@@ -122,3 +122,10 @@ textarea.txt { min-height: 5.5em; resize: vertical; }
   .q { padding: 12px; }
   .q .qrow { gap: 8px; }
 }
+
+.controls .namefield { gap: 8px; }
+.controls .name { font: inherit; border: 1.5px solid var(--line); border-radius: 8px; padding: 4px 10px; width: 14em; max-width: 100%; }
+.controls .name:focus { outline: 2px solid var(--blue); border-color: var(--blue); }
+.sendstatus { margin: 8px 0 0; font-size: .95rem; color: var(--muted); }
+.sendstatus.good { color: var(--ok); }
+.sendstatus.bad { color: var(--bad); }
