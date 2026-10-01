@@ -388,7 +388,7 @@
           } else { throw new Error('gagal'); }
           paintSend();
         }).catch(function () {
-          sendInfo = { text: 'Nilai belum terkirim (cek koneksi internet).', cls: 'bad' };
+          sendInfo = { text: 'Nilai belum terkirim. Coba \u201cKirim ulang\u201d, atau beri tahu orang tua.', cls: 'bad' };
           paintSend();
         });
     }
