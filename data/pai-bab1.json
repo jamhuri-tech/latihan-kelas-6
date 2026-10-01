@@ -1,0 +1,554 @@
+{
+ "id": "pai-bab1",
+ "subject": "PAI dan Budi Pekerti",
+ "title": "Bab 1 Belajar Al-Qur'an dan Hadis",
+ "desc": "Turunnya Al-Qur'an, nama-nama Al-Qur'an, hadis, adab, dan tajwid dasar.",
+ "sections": [
+  {
+   "title": "I. Pilihan Ganda",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kitab suci umat Islam yang diturunkan Allah Swt. kepada Nabi Muhammad saw. disebut..."
+      }
+     ],
+     "opts": [
+      "Al-Qur’an",
+      "Taurat",
+      "Zabur",
+      "Injil"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Al-Qur’an diturunkan kepada Nabi Muhammad saw. melalui perantara malaikat..."
+      }
+     ],
+     "opts": [
+      "Mikail",
+      "Jibril",
+      "Israfil",
+      "Izrail"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Wahyu pertama kali diturunkan kepada Nabi Muhammad saw. di..."
+      }
+     ],
+     "opts": [
+      "Masjidil Haram",
+      "Gua Hira",
+      "Kota Madinah",
+      "Bukit Uhud"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ayat Al-Qur’an yang pertama kali diturunkan adalah permulaan surah..."
+      }
+     ],
+     "opts": [
+      "Al-Fatihah ayat 1–7",
+      "Al-Baqarah ayat 1–5",
+      "Al-’Alaq ayat 1–5",
+      "An-Nas ayat 1–6"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Peringatan turunnya Al-Qur’an disebut..."
+      }
+     ],
+     "opts": [
+      "Isra Mi’raj",
+      "Nuzulul Qur’an",
+      "Maulid Nabi",
+      "Hari Raya Idulfitri"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Al-Qur’an terdiri atas..."
+      }
+     ],
+     "opts": [
+      "20 juz",
+      "25 juz",
+      "30 juz",
+      "35 juz"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jumlah surah yang terdapat dalam Al-Qur’an adalah..."
+      }
+     ],
+     "opts": [
+      "99 surah",
+      "104 surah",
+      "109 surah",
+      "114 surah"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Surah dalam Al-Qur’an yang jumlah ayatnya paling banyak adalah..."
+      }
+     ],
+     "opts": [
+      "Al-Fatihah",
+      "Al-Baqarah",
+      "Al-Kautsar",
+      "An-Nas"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Surah dalam Al-Qur’an yang jumlah ayatnya paling sedikit, yaitu hanya 3 ayat, adalah..."
+      }
+     ],
+     "opts": [
+      "Al-Ikhlas",
+      "Al-Kautsar",
+      "An-Nas",
+      "Al-Falaq"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Surah yang diturunkan sebelum Nabi Muhammad saw. hijrah ke Madinah disebut surah..."
+      }
+     ],
+     "opts": [
+      "Madaniyah",
+      "Makkiyah",
+      "Nuzuliyah",
+      "Hijriyah"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Surah Makkiyah pada umumnya berisi tentang..."
+      }
+     ],
+     "opts": [
+      "Hukum waris",
+      "Akidah dan tauhid",
+      "Hukum pernikahan",
+      "Hukum jual beli"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu nama lain Al-Qur’an yang berarti “pembeda antara yang benar dan yang salah” adalah..."
+      }
+     ],
+     "opts": [
+      "Al-Huda",
+      "Al-Furqan",
+      "Az-Zikr",
+      "Asy-Syifa"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nama lain Al-Qur’an yang berarti “petunjuk” adalah..."
+      }
+     ],
+     "opts": [
+      "Al-Furqan",
+      "Al-Huda",
+      "Al-Kitab",
+      "Az-Zikr"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perkataan, perbuatan, dan ketetapan Nabi Muhammad saw. disebut..."
+      }
+     ],
+     "opts": [
+      "Al-Qur’an",
+      "Hadis",
+      "Ijma’",
+      "Qiyas"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hadis yang diriwayatkan oleh banyak perawi pada setiap tingkatan sehingga mustahil mereka bersepakat untuk berdusta disebut hadis..."
+      }
+     ],
+     "opts": [
+      "Ahad",
+      "Mutawatir",
+      "Sahih",
+      "Daif"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sumber hukum Islam yang pertama dan utama adalah..."
+      }
+     ],
+     "opts": [
+      "Hadis",
+      "Ijma’",
+      "Al-Qur’an",
+      "Qiyas"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sumber hukum Islam yang kedua setelah Al-Qur’an adalah..."
+      }
+     ],
+     "opts": [
+      "Qiyas",
+      "Ijma’",
+      "Hadis",
+      "Ijtihad"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu fungsi hadis terhadap Al-Qur’an adalah..."
+      }
+     ],
+     "opts": [
+      "Menggantikan Al-Qur’an",
+      "Menjelaskan dan memperkuat isi Al-Qur’an",
+      "Membatalkan isi Al-Qur’an",
+      "Tidak berkaitan dengan Al-Qur’an"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebelum membaca Al-Qur’an, seorang muslim dianjurkan dalam keadaan suci, yaitu dengan cara..."
+      }
+     ],
+     "opts": [
+      "Mandi wajib saja",
+      "Berwudu",
+      "Tidur terlebih dahulu",
+      "Makan terlebih dahulu"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bacaan yang diucapkan sebelum membaca Al-Qur’an untuk memohon perlindungan dari godaan setan disebut..."
+      }
+     ],
+     "opts": [
+      "Basmalah",
+      "Ta’awuz",
+      "Hamdalah",
+      "Istigfar"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Membaca Al-Qur’an dengan pelan, jelas, dan sesuai kaidah tajwid disebut membaca dengan cara..."
+      }
+     ],
+     "opts": [
+      "Tartil",
+      "Tergesa-gesa",
+      "Cepat",
+      "Sekilas"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan mad yang terjadi karena huruf berharakat fathah bertemu alif, kasrah bertemu ya sukun, atau dhommah bertemu wau sukun disebut..."
+      }
+     ],
+     "opts": [
+      "Mad Wajib Muttasil",
+      "Mad Jaiz Munfasil",
+      "Mad Thobi’i",
+      "Mad Lazim"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mad Thobi’i dibaca panjang selama..."
+      }
+     ],
+     "opts": [
+      "1 harakat",
+      "2 harakat",
+      "4 harakat",
+      "6 harakat"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan yang terjadi ketika nun sukun atau tanwin bertemu huruf ya, nun, mim, atau wau sehingga dibaca melebur dengan dengung disebut..."
+      }
+     ],
+     "opts": [
+      "Idgham Bilagunnah",
+      "Idgham Bigunnah",
+      "Ikhfa",
+      "Iqlab"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Huruf-huruf hijaiah yang termasuk huruf qalqalah adalah..."
+      }
+     ],
+     "opts": [
+      "Alif, ba, ta, sa",
+      "Ba, jim, dal, tha, qaf",
+      "Kaf, lam, mim, nun",
+      "Wau, ya, hamzah"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "II. Isian Singkat",
+   "passage": null,
+   "items": [
+    {
+     "id": "i1",
+     "num": 1,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Al-Qur’an diturunkan kepada Nabi Muhammad saw. secara berangsur-angsur selama kurang lebih <span class=\"blank\">&nbsp;</span> tahun."
+      }
+     ],
+     "answer": "$22$ tahun (kurang lebih 22 tahun 2 bulan 22 hari)",
+     "accept": [
+      "22",
+      "22 tahun",
+      "dua puluh dua",
+      "kurang lebih 22 tahun 2 bulan 22 hari"
+     ],
+     "label": "Isian 1"
+    },
+    {
+     "id": "i2",
+     "num": 2,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Al-Qur’an terbagi menjadi dua kelompok surah berdasarkan tempat turunnya, yaitu surah Makkiyah dan surah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Madaniyah",
+     "accept": [
+      "Madaniyah"
+     ],
+     "label": "Isian 2"
+    },
+    {
+     "id": "i3",
+     "num": 3,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nama lain Al-Qur’an yang berarti “obat/penyembuh” adalah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Asy-Syifa",
+     "accept": [
+      "Asy-Syifa"
+     ],
+     "label": "Isian 3"
+    },
+    {
+     "id": "i4",
+     "num": 4,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang dibaca sebelum memulai suatu pekerjaan, termasuk setelah membaca ta’awuz ketika hendak membaca Al-Qur’an, adalah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Basmalah",
+     "accept": [
+      "Basmalah"
+     ],
+     "label": "Isian 4"
+    },
+    {
+     "id": "i5",
+     "num": 5,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan mad yang terjadi apabila Mad Thobi’i bertemu hamzah dalam satu kata dan wajib dibaca panjang disebut <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Mad Wajib Muttasil",
+     "accept": [
+      "Mad Wajib Muttasil"
+     ],
+     "label": "Isian 5"
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

@@ -1,0 +1,965 @@
+{
+ "id": "bindo-wawancara",
+ "subject": "Bahasa Indonesia",
+ "title": "Wawancara",
+ "desc": "50 soal dengan teks wawancara dan laporan hasil wawancara.",
+ "sections": [
+  {
+   "title": "A. Pengertian dan Tujuan Wawancara",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kegiatan tanya jawab dengan seseorang untuk memperoleh keterangan atau pendapat tentang suatu hal disebut..."
+      }
+     ],
+     "opts": [
+      "Pidato",
+      "Ceramah",
+      "Deklamasi",
+      "Wawancara"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tujuan utama wawancara adalah..."
+      }
+     ],
+     "opts": [
+      "Menghibur penonton",
+      "Menjual barang dagangan",
+      "Mengajarkan senam",
+      "Memperoleh informasi dari narasumber"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Orang yang mengajukan pertanyaan dalam wawancara disebut..."
+      }
+     ],
+     "opts": [
+      "Narasumber",
+      "Pewawancara",
+      "Penerjemah",
+      "Penonton"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Orang yang memberikan jawaban atau informasi dalam wawancara disebut..."
+      }
+     ],
+     "opts": [
+      "Pewawancara",
+      "Narasumber",
+      "Pengamat",
+      "Pembaca"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut ini yang merupakan contoh kegiatan wawancara adalah..."
+      }
+     ],
+     "opts": [
+      "Siswa membaca puisi di depan kelas",
+      "Siswa bermain drama di panggung",
+      "Siswa menyalin teks dari buku",
+      "Siswa menanyai kepala sekolah tentang program literasi sekolah"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Selain bertemu langsung, wawancara juga dapat dilakukan..."
+      }
+     ],
+     "opts": [
+      "Melalui telepon atau media daring",
+      "Hanya di televisi",
+      "Hanya di ruang kelas",
+      "Hanya lewat koran"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu manfaat wawancara bagi siswa adalah..."
+      }
+     ],
+     "opts": [
+      "Menghafal teks tanpa memahami",
+      "Mengurangi jumlah teman",
+      "Melatih keberanian bertanya dan menyimak jawaban",
+      "Menghindari kegiatan belajar"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil wawancara akan lebih dapat dipercaya jika diperoleh dari narasumber yang..."
+      }
+     ],
+     "opts": [
+      "Paling terkenal saja",
+      "Paling muda usianya",
+      "Menguasai atau mengalami langsung hal yang ditanyakan",
+      "Sedang bepergian"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "B. Narasumber, Alat, dan Persiapan Wawancara",
+   "passage": null,
+   "items": [
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Langkah pertama sebelum melakukan wawancara adalah..."
+      }
+     ],
+     "opts": [
+      "Menentukan topik dan narasumber",
+      "Langsung mengajukan pertanyaan",
+      "Menulis laporan",
+      "Mengucapkan terima kasih"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Narasumber yang tepat untuk topik “cara membuat tempe” adalah..."
+      }
+     ],
+     "opts": [
+      "Pilot pesawat",
+      "Atlet renang",
+      "Pengrajin tempe",
+      "Dokter hewan"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Narasumber yang tepat untuk topik “kegiatan perpustakaan sekolah” adalah..."
+      }
+     ],
+     "opts": [
+      "Petani",
+      "Sopir bus",
+      "Nelayan",
+      "Pustakawan sekolah"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebelum wawancara, pewawancara sebaiknya menyusun..."
+      }
+     ],
+     "opts": [
+      "Daftar belanja",
+      "Jadwal piket",
+      "Daftar pertanyaan",
+      "Kunci jawaban"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Alat yang berguna untuk mendukung kegiatan wawancara adalah..."
+      }
+     ],
+     "opts": [
+      "Buku catatan dan alat perekam",
+      "Penggaris dan jangka",
+      "Bola dan raket",
+      "Palu dan paku"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Membuat janji dengan narasumber sebelum wawancara bertujuan agar..."
+      }
+     ],
+     "opts": [
+      "Narasumber menolak",
+      "Wawancara dibatalkan",
+      "Narasumber siap dan waktunya sesuai",
+      "Pewawancara boleh terlambat"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pertanyaan wawancara sebaiknya disusun dengan bahasa yang..."
+      }
+     ],
+     "opts": [
+      "Berbelit-belit",
+      "Jelas, sopan, dan sesuai topik",
+      "Kasar",
+      "Tidak berhubungan dengan topik"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mempelajari informasi dasar tentang narasumber dan topik sebelum wawancara bertujuan agar..."
+      }
+     ],
+     "opts": [
+      "Pertanyaan tepat sasaran",
+      "Narasumber tidak perlu menjawab",
+      "Pewawancara tidak perlu mencatat",
+      "Wawancara tidak memerlukan persiapan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Daftar pertanyaan wawancara sebaiknya disusun secara..."
+      }
+     ],
+     "opts": [
+      "Runtut dari pertanyaan umum ke yang lebih khusus",
+      "Acak tanpa aturan",
+      "Hanya satu pertanyaan",
+      "Sangat panjang dan berulang"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebelum merekam jalannya wawancara, pewawancara sebaiknya..."
+      }
+     ],
+     "opts": [
+      "Merekam diam-diam",
+      "Memaksa narasumber",
+      "Tidak memberi tahu siapa pun",
+      "Meminta izin kepada narasumber"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "C. Pelaksanaan dan Etika Wawancara",
+   "passage": null,
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hal pertama yang dilakukan saat bertemu narasumber adalah..."
+      }
+     ],
+     "opts": [
+      "Langsung menanyakan hal pribadi",
+      "Meminta imbalan",
+      "Memberi salam dan memperkenalkan diri",
+      "Pergi tanpa berpamitan"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Setelah wawancara selesai, pewawancara sebaiknya..."
+      }
+     ],
+     "opts": [
+      "Mengucapkan terima kasih",
+      "Pergi tanpa berpamitan",
+      "Meminta imbalan",
+      "Mengkritik jawaban narasumber"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ketika narasumber sedang menjawab, pewawancara sebaiknya..."
+      }
+     ],
+     "opts": [
+      "Memotong pembicaraan",
+      "Menyimak dengan baik dan tidak memotong",
+      "Bermain gawai",
+      "Mengobrol dengan teman"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bahasa yang sebaiknya digunakan dalam wawancara resmi adalah bahasa..."
+      }
+     ],
+     "opts": [
+      "Gaul yang santai",
+      "Kasar",
+      "Indonesia yang baku dan sopan",
+      "Campuran yang tidak jelas"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika jawaban narasumber belum jelas, pewawancara dapat..."
+      }
+     ],
+     "opts": [
+      "Mengajukan pertanyaan lanjutan dengan sopan",
+      "Memotong jawaban narasumber",
+      "Menyalahkan narasumber",
+      "Mengakhiri wawancara tanpa pamit"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap duduk pewawancara yang baik adalah..."
+      }
+     ],
+     "opts": [
+      "Membelakangi narasumber",
+      "Berbaring di lantai",
+      "Tegap, sopan, dan menghadap narasumber",
+      "Sambil bermain gawai"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Cara mencatat jawaban narasumber yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Tidak mencatat apa pun",
+      "Mencatat poin-poin penting dengan singkat",
+      "Menulis cerita karangan sendiri",
+      "Mencatat hal yang tidak berkaitan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika narasumber tidak bersedia menjawab suatu pertanyaan, sikap yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Memaksanya menjawab",
+      "Marah kepada narasumber",
+      "Menghormatinya dan beralih ke pertanyaan lain",
+      "Mengejek narasumber"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengubah isi jawaban narasumber saat melaporkan hasil wawancara merupakan sikap yang..."
+      }
+     ],
+     "opts": [
+      "Terpuji",
+      "Wajib dilakukan",
+      "Dianjurkan",
+      "Tidak jujur"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hal yang harus dihindari ketika wawancara adalah..."
+      }
+     ],
+     "opts": [
+      "Menanyakan hal yang menyinggung perasaan narasumber",
+      "Menyimak jawaban dengan baik",
+      "Mengucapkan terima kasih",
+      "Bertanya dengan sopan"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "D. Kata Tanya dan Kalimat Tanya",
+   "passage": null,
+   "items": [
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata tanya yang digunakan untuk menanyakan tempat adalah..."
+      }
+     ],
+     "opts": [
+      "Di mana",
+      "Siapa",
+      "Kapan",
+      "Mengapa"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata tanya yang digunakan untuk menanyakan waktu adalah..."
+      }
+     ],
+     "opts": [
+      "Apa",
+      "Kapan",
+      "Siapa",
+      "Bagaimana"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q31",
+     "num": 31,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata tanya yang digunakan untuk menanyakan alasan atau sebab adalah..."
+      }
+     ],
+     "opts": [
+      "Mengapa",
+      "Siapa",
+      "Di mana",
+      "Kapan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q32",
+     "num": 32,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata tanya yang digunakan untuk menanyakan orang adalah..."
+      }
+     ],
+     "opts": [
+      "Siapa",
+      "Apa",
+      "Mengapa",
+      "Di mana"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q33",
+     "num": 33,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata tanya yang digunakan untuk menanyakan cara atau proses adalah..."
+      }
+     ],
+     "opts": [
+      "Kapan",
+      "Siapa",
+      "Bagaimana",
+      "Di mana"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q34",
+     "num": 34,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata tanya pokok dalam wawancara terdiri atas apa, siapa, kapan, di mana, mengapa, dan..."
+      }
+     ],
+     "opts": [
+      "Walaupun",
+      "Seandainya",
+      "Meskipun",
+      "Bagaimana"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q35",
+     "num": 35,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat tanya yang menggunakan tanda baca dengan benar adalah..."
+      }
+     ],
+     "opts": [
+      "Kapan Bapak mulai berjualan di pasar ini.",
+      "Kapan Bapak mulai berjualan di pasar ini?",
+      "Kapan Bapak mulai berjualan di pasar ini!",
+      "Kapan Bapak mulai berjualan di pasar ini,"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q36",
+     "num": 36,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pertanyaan yang jawabannya hanya “ya” atau “tidak” disebut pertanyaan..."
+      }
+     ],
+     "opts": [
+      "Terbuka",
+      "Lanjutan",
+      "Pembuka",
+      "Tertutup"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "E. Bacalah wawancara berikut untuk menjawab soal nomor 37 sampai 42.",
+   "passage": {
+    "title": "Teks Wawancara",
+    "paras": [
+     "<strong>Rina</strong> : Selamat pagi, Bu. Saya Rina dari kelas VI. Terima kasih sudah bersedia diwawancarai.",
+     "<strong>Ibu Sari</strong> : Selamat pagi, Rina. Silakan, apa yang ingin kamu tanyakan?",
+     "<strong>Rina</strong> : Sudah berapa lama Ibu menjadi pustakawan di sekolah ini?",
+     "<strong>Ibu Sari</strong> : Sudah delapan tahun, sejak perpustakaan sekolah ini dibuka.",
+     "<strong>Rina</strong> : Mengapa Ibu memilih pekerjaan ini?",
+     "<strong>Ibu Sari</strong> : Karena Ibu suka membaca dan ingin membantu anak-anak gemar membaca.",
+     "<strong>Rina</strong> : Bagaimana cara Ibu mengajak siswa agar rajin berkunjung ke perpustakaan?",
+     "<strong>Ibu Sari</strong> : Ibu mengadakan lomba resensi buku dan jam membaca bersama setiap hari Jumat.",
+     "<strong>Rina</strong> : Terima kasih atas waktu dan penjelasannya, Bu.",
+     "<strong>Ibu Sari</strong> : Sama-sama, Rina. Semoga bermanfaat."
+    ]
+   },
+   "items": [
+    {
+     "id": "q37",
+     "num": 37,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Narasumber dalam wawancara tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Rina",
+      "Guru kelas",
+      "Kepala sekolah",
+      "Ibu Sari"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q38",
+     "num": 38,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Topik wawancara tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Cara memasak di rumah",
+      "Pekerjaan dan kegiatan pustakawan sekolah",
+      "Pertandingan olahraga",
+      "Wisata keluarga"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q39",
+     "num": 39,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pertanyaan “Mengapa Ibu memilih pekerjaan ini?” menanyakan..."
+      }
+     ],
+     "opts": [
+      "Alasan",
+      "Waktu",
+      "Tempat",
+      "Orang"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q40",
+     "num": 40,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Cara Ibu Sari mengajak siswa berkunjung ke perpustakaan adalah..."
+      }
+     ],
+     "opts": [
+      "Memberi hadiah uang",
+      "Mengadakan lomba resensi buku dan jam membaca bersama",
+      "Memaksa siswa membaca",
+      "Membuat peraturan denda"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q41",
+     "num": 41,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ungkapan Rina untuk menutup wawancara tersebut adalah ungkapan..."
+      }
+     ],
+     "opts": [
+      "Permintaan maaf",
+      "Perintah",
+      "Larangan",
+      "Terima kasih"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q42",
+     "num": 42,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap Rina pada awal wawancara yang patut dicontoh adalah..."
+      }
+     ],
+     "opts": [
+      "Langsung bertanya tanpa salam",
+      "Memberi salam, memperkenalkan diri, dan berterima kasih",
+      "Menuntut narasumber menjawab",
+      "Mengkritik narasumber"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "F. Bacalah laporan hasil wawancara berikut untuk menjawab soal nomor 43 sampai 50.",
+   "passage": {
+    "title": "Laporan Hasil Wawancara",
+    "paras": [
+     "Pada hari Sabtu, kelompok kami mewawancarai Pak Hasan, seorang pengrajin gerabah di kampung dekat sekolah. Wawancara ini bertujuan mengetahui cara membuat gerabah.",
+     "Menurut Pak Hasan, gerabah dibuat dari tanah liat yang dibersihkan dan diaduk hingga lunak. Setelah itu, tanah dibentuk dengan tangan atau alat putar. Hasil cetakan dijemur sampai kering, lalu dibakar di dalam tungku selama kurang lebih sehari semalam. Pak Hasan mengatakan, “Kesabaran adalah kunci utama dalam membuat gerabah.” Beliau juga berpesan agar generasi muda mau melestarikan kerajinan tradisional ini."
+    ]
+   },
+   "items": [
+    {
+     "id": "q43",
+     "num": 43,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Narasumber dalam laporan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Kelompok penulis",
+      "Guru kelas",
+      "Pak Hasan",
+      "Pembeli gerabah"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q44",
+     "num": 44,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Wawancara dalam laporan tersebut bertujuan mengetahui..."
+      }
+     ],
+     "opts": [
+      "Harga gerabah",
+      "Cara membuat gerabah",
+      "Tempat menjual gerabah",
+      "Sejarah kampung"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q45",
+     "num": 45,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bahan utama pembuatan gerabah menurut laporan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Kayu",
+      "Kain",
+      "Plastik",
+      "Tanah liat"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q46",
+     "num": 46,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Urutan pembuatan gerabah yang benar menurut laporan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Membakar, membentuk, menjemur, mengaduk",
+      "Menjemur, membakar, mengaduk, membentuk",
+      "Mengaduk tanah, membentuk, menjemur, membakar",
+      "Membentuk, mengaduk, membakar, menjemur"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q47",
+     "num": 47,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat langsung dalam laporan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Pak Hasan mengatakan, “Kesabaran adalah kunci utama dalam membuat gerabah.”",
+      "Pada hari Sabtu, kelompok kami mewawancarai Pak Hasan.",
+      "Hasil cetakan dijemur sampai kering.",
+      "Beliau juga berpesan agar generasi muda melestarikan kerajinan ini."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q48",
+     "num": 48,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat tidak langsung dari ucapan Pak Hasan dalam laporan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Pak Hasan mengatakan, “Kesabaran adalah kunci utama.”",
+      "“Kesabaran adalah kunci utama,” kata Pak Hasan.",
+      "Pak Hasan mengatakan bahwa kesabaran adalah kunci utama dalam membuat gerabah.",
+      "Pak Hasan, kesabaran adalah kunci utama."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q49",
+     "num": 49,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pesan Pak Hasan kepada generasi muda adalah agar..."
+      }
+     ],
+     "opts": [
+      "Berhenti membuat gerabah",
+      "Membeli produk dari luar negeri",
+      "Meninggalkan kampung halaman",
+      "Melestarikan kerajinan tradisional"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q50",
+     "num": 50,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan yang tepat dari laporan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Gerabah dibuat hanya dalam satu jam",
+      "Membuat gerabah memerlukan proses yang panjang dan kesabaran",
+      "Gerabah tidak perlu dibakar",
+      "Gerabah dibuat dari kaca"
+     ],
+     "ans": 1
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

@@ -1,0 +1,933 @@
+{
+ "id": "pai-bab3",
+ "subject": "PAI dan Budi Pekerti",
+ "title": "Bab 3 Adab terhadap Tetangga dalam Islam",
+ "desc": "50 soal: dalil, adab bertetangga, dan perilaku anak muslim.",
+ "sections": [
+  {
+   "title": "A. Apa Itu Tetangga dan Pentingnya Bertetangga",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Orang yang tempat tinggalnya berdekatan dengan rumah kita disebut..."
+      }
+     ],
+     "opts": [
+      "Sahabat",
+      "Tetangga",
+      "Kerabat",
+      "Tamu"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tetangga adalah orang yang paling pertama dapat kita mintai bantuan ketika kita..."
+      }
+     ],
+     "opts": [
+      "Membutuhkan pertolongan",
+      "Sedang berlibur jauh",
+      "Ingin berbelanja",
+      "Sedang bepergian ke luar kota"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Manusia tidak dapat hidup sendiri dan selalu membutuhkan orang lain. Hal ini menunjukkan bahwa manusia adalah makhluk..."
+      }
+     ],
+     "opts": [
+      "Individu",
+      "Sosial",
+      "Sempurna",
+      "Ekonomi"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu manfaat bertetangga dengan baik adalah..."
+      }
+     ],
+     "opts": [
+      "Tercipta kehidupan rukun dan damai",
+      "Mendapat barang tanpa membayar",
+      "Bebas melakukan apa saja",
+      "Tidak perlu bergaul dengan siapa pun"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut ini yang termasuk tetangga adalah..."
+      }
+     ],
+     "opts": [
+      "Penjual di pasar kota lain",
+      "Saudara yang tinggal di luar negeri",
+      "Teman kelas yang rumahnya sangat jauh",
+      "Orang yang tinggal di rumah sebelah"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tetangga yang rumahnya berada tepat di samping rumah kita disebut tetangga..."
+      }
+     ],
+     "opts": [
+      "Dekat",
+      "Jauh",
+      "Asing",
+      "Tamu"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurut ajaran Islam, kita wajib berbuat baik kepada tetangga..."
+      }
+     ],
+     "opts": [
+      "Yang beragama sama saja",
+      "Yang kaya saja",
+      "Yang sering berkunjung saja",
+      "Baik yang dekat maupun yang jauh"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap yang benar terhadap tetangga yang berbeda agama adalah..."
+      }
+     ],
+     "opts": [
+      "Memusuhinya",
+      "Tetap berlaku baik dan adil",
+      "Tidak perlu menyapanya",
+      "Menjauhinya"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bertetangga dengan baik akan menumbuhkan rasa..."
+      }
+     ],
+     "opts": [
+      "Persaudaraan dan kebersamaan",
+      "Curiga",
+      "Iri hati",
+      "Permusuhan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ketika terjadi musibah pada malam hari, yang paling cepat memberi pertolongan biasanya adalah..."
+      }
+     ],
+     "opts": [
+      "Saudara yang tinggal di luar negeri",
+      "Teman yang tinggal di kota lain",
+      "Kerabat yang rumahnya jauh",
+      "Tetangga terdekat"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hubungan antartetangga yang baik, saling menghormati, dan tidak bertengkar disebut hidup..."
+      }
+     ],
+     "opts": [
+      "Bermusuhan",
+      "Terpisah",
+      "Rukun",
+      "Bersaing"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bertetangga dengan baik merupakan bagian dari hubungan baik dengan sesama manusia yang disebut..."
+      }
+     ],
+     "opts": [
+      "Hablum minallah",
+      "Hablum minal alam",
+      "Hablum minannas",
+      "Hablum minal jin"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "B. Perintah Berbuat Baik kepada Tetangga",
+   "passage": null,
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perintah berbuat baik kepada tetangga dekat dan tetangga jauh terdapat dalam QS. ... ayat 36."
+      }
+     ],
+     "opts": [
+      "Al-Ikhlas",
+      "Al-Kautsar",
+      "An-Nas",
+      "An-Nisa"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dalam QS. An-Nisa ayat 36, selain berbuat baik kepada orang tua, Allah Swt. juga memerintahkan kita berbuat baik kepada..."
+      }
+     ],
+     "opts": [
+      "Orang asing saja",
+      "Tetangga dekat dan tetangga jauh",
+      "Teman sekolah saja",
+      "Hewan peliharaan saja"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rasulullah saw. bersabda bahwa malaikat Jibril terus-menerus berwasiat kepadanya tentang tetangga sampai beliau mengira tetangga akan..."
+      }
+     ],
+     "opts": [
+      "Menjadi sahabat dekatnya",
+      "Menjadi pemimpin kaumnya",
+      "Mendapat bagian warisan",
+      "Menjadi tamu kehormatan"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hadis tentang wasiat Jibril mengenai tetangga menunjukkan bahwa..."
+      }
+     ],
+     "opts": [
+      "Hak tetangga sangat penting dalam Islam",
+      "Tetangga tidak perlu diperhatikan",
+      "Tetangga sebaiknya dijauhi",
+      "Berbuat baik kepada tetangga hanya perlu saat hari raya"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rasulullah saw. bersabda, “Barang siapa beriman kepada Allah dan hari akhir, hendaklah ia ... tetangganya.” Kata yang tepat untuk melengkapi hadis tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Menjauhi",
+      "Mengabaikan",
+      "Memuliakan",
+      "Menegur"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hadis tentang memuliakan tetangga menunjukkan bahwa berbuat baik kepada tetangga merupakan bagian dari..."
+      }
+     ],
+     "opts": [
+      "Kesempurnaan iman",
+      "Kekayaan",
+      "Kepandaian",
+      "Ketampanan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurut hadis riwayat At-Tirmidzi, sebaik-baik tetangga di sisi Allah Swt. adalah tetangga yang..."
+      }
+     ],
+     "opts": [
+      "Paling kaya",
+      "Paling baik kepada tetangganya",
+      "Paling sering bertamu",
+      "Paling pandai berbicara"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rasulullah saw. menasihati Abu Dzar, “Jika engkau memasak kuah, perbanyaklah airnya dan ...” Kelanjutan hadis tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Bagikanlah kepada tetanggamu",
+      "Simpanlah untuk dirimu sendiri",
+      "Jual di pasar",
+      "Berikan kepada hewan peliharaan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nasihat Rasulullah saw. kepada Abu Dzar tentang memperbanyak kuah menunjukkan anjuran untuk..."
+      }
+     ],
+     "opts": [
+      "Makan berlebihan",
+      "Berhemat untuk diri sendiri",
+      "Berbagi dengan tetangga",
+      "Berjualan makanan"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rasulullah saw. mengingatkan agar seseorang tidak meremehkan pemberian kepada tetangganya, walaupun berupa..."
+      }
+     ],
+     "opts": [
+      "Emas berlian",
+      "Rumah yang besar",
+      "Sesuatu yang sederhana",
+      "Kendaraan mewah"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurut hadis, orang yang tetangganya tidak merasa aman dari gangguannya dikatakan..."
+      }
+     ],
+     "opts": [
+      "Sangat sempurna imannya",
+      "Termasuk orang dermawan",
+      "Mendapat pahala yang besar",
+      "Tidak sempurna imannya"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rasulullah saw. mengajarkan bahwa seorang mukmin tidak sepatutnya kenyang sementara tetangganya kelaparan. Ajaran ini mendorong kita untuk..."
+      }
+     ],
+     "opts": [
+      "Menimbun makanan",
+      "Peduli dan membantu tetangga",
+      "Tidak makan sepanjang hari",
+      "Mencari tetangga yang lebih kaya"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap yang sesuai dengan perintah QS. An-Nisa ayat 36 adalah..."
+      }
+     ],
+     "opts": [
+      "Bersikap acuh terhadap tetangga",
+      "Merasa iri kepada tetangga",
+      "Memusuhi tetangga",
+      "Membantu tetangga yang sedang kesulitan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perintah berbuat baik kepada tetangga berasal dari..."
+      }
+     ],
+     "opts": [
+      "Kepala desa saja",
+      "Al-Qur’an dan hadis Rasulullah saw.",
+      "Guru saja",
+      "Orang tua saja"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "C. Adab terhadap Tetangga",
+   "passage": null,
+   "items": [
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Adab yang pertama kali kita lakukan ketika bertemu tetangga adalah..."
+      }
+     ],
+     "opts": [
+      "Memalingkan wajah",
+      "Mengabaikannya",
+      "Menyapa dan mengucapkan salam",
+      "Menegurnya dengan keras"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ketika tetangga sedang sakit, sebaiknya kita..."
+      }
+     ],
+     "opts": [
+      "Menjenguk dan mendoakannya",
+      "Mengejeknya",
+      "Menjauhinya",
+      "Menagih utang kepadanya"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ketika tetangga tertimpa musibah kematian, sebaiknya kita..."
+      }
+     ],
+     "opts": [
+      "Bermain seperti biasa",
+      "Menggelar pesta di dekatnya",
+      "Menghindar agar tidak terlibat",
+      "Bertakziah dan membantu keluarganya"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ketika para tetangga mengadakan kerja bakti, sikap kita yang baik adalah..."
+      }
+     ],
+     "opts": [
+      "Ikut membantu sesuai kemampuan",
+      "Menonton saja dari jauh",
+      "Mengganggu pekerjaan mereka",
+      "Berpura-pura tidak tahu"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q31",
+     "num": 31,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Memutar musik dengan suara keras pada malam hari bertentangan dengan adab bertetangga karena..."
+      }
+     ],
+     "opts": [
+      "Menghemat listrik",
+      "Mengganggu ketenangan tetangga",
+      "Menambah keakraban",
+      "Membuat rumah lebih aman"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q32",
+     "num": 32,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Adab bertamu ke rumah tetangga yang benar adalah..."
+      }
+     ],
+     "opts": [
+      "Langsung masuk tanpa permisi",
+      "Mengintip terlebih dahulu",
+      "Mengucapkan salam dan meminta izin",
+      "Berteriak dari depan pagar"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q33",
+     "num": 33,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika sudah meminta izin tiga kali tetapi tidak diizinkan masuk, sebaiknya kita..."
+      }
+     ],
+     "opts": [
+      "Pulang dan tidak memaksa",
+      "Memaksa masuk",
+      "Menunggu semalaman di depan pintu",
+      "Mengetuk pintu terus-menerus"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q34",
+     "num": 34,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap yang benar ketika mengetahui aib tetangga adalah..."
+      }
+     ],
+     "opts": [
+      "Menyebarkannya kepada orang lain",
+      "Menutupinya, tidak menyebarkannya",
+      "Mengejeknya di depan umum",
+      "Mengumumkannya di media sosial"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q35",
+     "num": 35,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Membuang sampah ke halaman rumah tetangga termasuk..."
+      }
+     ],
+     "opts": [
+      "Perbuatan terpuji",
+      "Perbuatan yang menyakiti tetangga",
+      "Amal saleh",
+      "Cara berbagi dengan tetangga"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q36",
+     "num": 36,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ketika tetangga mendapat kebahagiaan, seperti kelahiran anak, sebaiknya kita..."
+      }
+     ],
+     "opts": [
+      "Merasa iri dan dengki",
+      "Mencela dan mengejeknya",
+      "Menjauhinya",
+      "Ikut berbahagia dan mendoakan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q37",
+     "num": 37,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ketika tetangga berbuat salah kepada kita, sikap terbaik adalah..."
+      }
+     ],
+     "opts": [
+      "Membalas dendam",
+      "Memaafkan dan menasihati dengan baik",
+      "Memusuhinya selamanya",
+      "Menyebarkan keburukannya"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q38",
+     "num": 38,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengintip ke dalam rumah tetangga tanpa izin termasuk..."
+      }
+     ],
+     "opts": [
+      "Perbuatan tercela",
+      "Sopan santun",
+      "Cara mengenal tetangga",
+      "Perbuatan terpuji"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q39",
+     "num": 39,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menjaga agar anak-anak tidak bermain dengan gaduh di dekat rumah tetangga yang sedang beristirahat merupakan..."
+      }
+     ],
+     "opts": [
+      "Salah satu adab bertetangga",
+      "Larangan agama",
+      "Perbuatan yang sia-sia",
+      "Tanda kemarahan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q40",
+     "num": 40,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berbagi makanan dengan tetangga dapat..."
+      }
+     ],
+     "opts": [
+      "Membuat kita menjadi miskin",
+      "Menimbulkan permusuhan",
+      "Mempererat hubungan persaudaraan",
+      "Menjauhkan tetangga"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q41",
+     "num": 41,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tetangga yang berbeda suku dan agama tetap harus kita..."
+      }
+     ],
+     "opts": [
+      "Musuhi",
+      "Perlakukan dengan baik dan adil",
+      "Hindari",
+      "Ejek"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q42",
+     "num": 42,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ikut ronda malam bersama para tetangga merupakan salah satu bentuk..."
+      }
+     ],
+     "opts": [
+      "Mengganggu waktu tidur",
+      "Kegiatan yang sia-sia",
+      "Menjaga keamanan lingkungan bersama",
+      "Hiburan semata"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "D. Perilaku Anak Muslim",
+   "passage": null,
+   "items": [
+    {
+     "id": "q43",
+     "num": 43,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rina bertemu Bu Aminah, tetangganya, di depan rumah. Sikap Rina yang benar adalah..."
+      }
+     ],
+     "opts": [
+      "Pura-pura tidak melihat",
+      "Berlari masuk rumah",
+      "Memalingkan wajah",
+      "Tersenyum dan mengucapkan salam"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q44",
+     "num": 44,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Budi melihat nenek tetangganya membawa belanjaan yang berat. Yang sebaiknya dilakukan Budi adalah..."
+      }
+     ],
+     "opts": [
+      "Hanya menonton",
+      "Mengejek nenek itu",
+      "Membantu membawakan belanjaan",
+      "Melewatinya begitu saja"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q45",
+     "num": 45,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ibu Sinta membuat kue dan hasilnya cukup banyak. Sikap Sinta yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Menyimpan semuanya sendiri",
+      "Menjualnya dengan harga mahal",
+      "Membuang sebagian kue",
+      "Mengantarkan sebagian ke tetangga"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q46",
+     "num": 46,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Buah mangga jatuh di halaman tetangga saat pemiliknya tidak di rumah. Sikap Dimas yang benar adalah..."
+      }
+     ],
+     "opts": [
+      "Tidak mengambilnya tanpa izin",
+      "Mengambil semuanya",
+      "Membawanya pulang diam-diam",
+      "Menjualnya di pasar"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q47",
+     "num": 47,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rafi ingin bermain bola bersama teman-temannya. Agar tidak mengganggu tetangga, ia sebaiknya bermain di..."
+      }
+     ],
+     "opts": [
+      "Depan jendela rumah tetangga",
+      "Teras rumah tetangga",
+      "Lapangan atau tempat yang sesuai",
+      "Jalan raya"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q48",
+     "num": 48,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah keluarga baru pindah ke sebelah rumah Dina. Sikap terbaik Dina adalah..."
+      }
+     ],
+     "opts": [
+      "Mencurigai mereka",
+      "Menjauhi mereka",
+      "Menyambut dengan ramah",
+      "Mengabaikan mereka"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q49",
+     "num": 49,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pak Rahmat, tetangga Aisyah, sedang sakit. Anak muslim yang baik akan..."
+      }
+     ],
+     "opts": [
+      "Bermain gaduh di dekat rumahnya",
+      "Tidak peduli dengan keadaannya",
+      "Mengejeknya",
+      "Ikut menjenguk dan mendoakannya"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q50",
+     "num": 50,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ali menemukan dompet milik tetangganya yang terjatuh di jalan. Sikap Ali yang benar adalah..."
+      }
+     ],
+     "opts": [
+      "Menyimpannya untuk dirinya sendiri",
+      "Membelanjakan isinya",
+      "Membuangnya",
+      "Mengembalikannya kepada pemiliknya"
+     ],
+     "ans": 3
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

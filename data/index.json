@@ -1,0 +1,90 @@
+[
+ {
+  "id": "koding-kelas6",
+  "subject": "Koding",
+  "title": "Koding Kelas 6",
+  "desc": "Algoritma, flowchart, Scratch, debugging, dan keamanan internet.",
+  "count": 30,
+  "pdf": "pdf/Latihan_Soal_Koding_Kelas6.pdf"
+ },
+ {
+  "id": "mtk-bab1",
+  "subject": "Matematika",
+  "title": "Bilangan, Pecahan, dan Bangun Ruang",
+  "desc": "Bilangan bulat, pecahan, KPK dan FPB, skala, volume, statistika.",
+  "count": 30,
+  "pdf": "pdf/Latihan_Soal_Matematika_Kelas6.pdf"
+ },
+ {
+  "id": "mtk-bab2",
+  "subject": "Matematika",
+  "title": "Bangun Datar, Pengukuran, Statistika, Peluang",
+  "desc": "Dilengkapi 6 gambar: bangun datar, jam, diagram batang, dan diagram lingkaran.",
+  "count": 30,
+  "pdf": "pdf/Latihan_Soal_Matematika_Kelas6_Bab2.pdf"
+ },
+ {
+  "id": "mtk-keliling",
+  "subject": "Matematika",
+  "title": "Keliling Bangun Datar",
+  "desc": "10 gambar bangun datar beserta soal cerita keliling.",
+  "count": 30,
+  "pdf": "pdf/Latihan_Soal_Matematika_Kelas6_Keliling.pdf"
+ },
+ {
+  "id": "mtk-keliling-luas",
+  "subject": "Matematika",
+  "title": "Keliling dan Luas Bangun Datar",
+  "desc": "Keliling, luas, lingkaran, bangun gabungan, dan satuan luas.",
+  "count": 30,
+  "pdf": "pdf/Latihan_Soal_Matematika_Kelas6_Keliling_dan_Luas.pdf"
+ },
+ {
+  "id": "pai-bab1",
+  "subject": "PAI dan Budi Pekerti",
+  "title": "Bab 1 Belajar Al-Qur'an dan Hadis",
+  "desc": "Turunnya Al-Qur'an, nama-nama Al-Qur'an, hadis, adab, dan tajwid dasar.",
+  "count": 30,
+  "pdf": "pdf/Latihan_Soal_PAI_Kelas6_Bab1.pdf"
+ },
+ {
+  "id": "pai-bab2",
+  "subject": "PAI dan Budi Pekerti",
+  "title": "Bab 2 Mengenal Allah melalui Asmaulhusna",
+  "desc": "Al-Gaffar, Al-'Afuw, Al-Wahid, As-Samad, dan cara meneladaninya.",
+  "count": 30,
+  "pdf": "pdf/Latihan_Soal_PAI_Kelas6_Bab2.pdf"
+ },
+ {
+  "id": "pai-bab3",
+  "subject": "PAI dan Budi Pekerti",
+  "title": "Bab 3 Adab terhadap Tetangga dalam Islam",
+  "desc": "50 soal: dalil, adab bertetangga, dan perilaku anak muslim.",
+  "count": 50,
+  "pdf": "pdf/Latihan_Soal_PAI_Kelas6_Bab3.pdf"
+ },
+ {
+  "id": "ppkn-norma-hak-kewajiban",
+  "subject": "PPKn",
+  "title": "Norma, Hak, dan Kewajiban",
+  "desc": "50 soal: macam-macam norma, hak dan kewajiban warga negara.",
+  "count": 50,
+  "pdf": "pdf/Latihan_Soal_PPKn_Kelas6_Norma_Hak_Kewajiban.pdf"
+ },
+ {
+  "id": "bindo-wawancara",
+  "subject": "Bahasa Indonesia",
+  "title": "Wawancara",
+  "desc": "50 soal dengan teks wawancara dan laporan hasil wawancara.",
+  "count": 50,
+  "pdf": "pdf/Latihan_Soal_BahasaIndonesia_Kelas6_Wawancara.pdf"
+ },
+ {
+  "id": "bindo-tka",
+  "subject": "Bahasa Indonesia",
+  "title": "Try Out Persiapan TKA",
+  "desc": "Literasi berbasis teks: pilihan ganda, kompleks, isian, dan uraian.",
+  "count": 27,
+  "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6.pdf"
+ }
+]

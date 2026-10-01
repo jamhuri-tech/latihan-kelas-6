@@ -1,0 +1,558 @@
+{
+ "id": "koding-kelas6",
+ "subject": "Koding",
+ "title": "Koding Kelas 6",
+ "desc": "Algoritma, flowchart, Scratch, debugging, dan keamanan internet.",
+ "sections": [
+  {
+   "title": "I. Pilihan Ganda",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Urutan langkah-langkah logis untuk menyelesaikan suatu masalah disebut..."
+      }
+     ],
+     "opts": [
+      "Algoritma",
+      "Variabel",
+      "Debugging",
+      "Internet"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Proses memecah suatu masalah besar menjadi bagian-bagian yang lebih kecil disebut..."
+      }
+     ],
+     "opts": [
+      "Abstraksi",
+      "Dekomposisi",
+      "Simulasi",
+      "Kompilasi"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kesalahan pada program komputer disebut..."
+      }
+     ],
+     "opts": [
+      "Bug",
+      "Byte",
+      "Script",
+      "Loop"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Proses mencari dan memperbaiki kesalahan pada program disebut..."
+      }
+     ],
+     "opts": [
+      "Uploading",
+      "Debugging",
+      "Searching",
+      "Sorting"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simbol berbentuk jajar genjang pada flowchart digunakan untuk..."
+      }
+     ],
+     "opts": [
+      "Proses/pengolahan data",
+      "Input/output data",
+      "Mulai dan selesai",
+      "Pengambilan keputusan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simbol berbentuk belah ketupat pada flowchart digunakan untuk..."
+      }
+     ],
+     "opts": [
+      "Menampilkan hasil",
+      "Memulai program",
+      "Percabangan/keputusan",
+      "Menyimpan data"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perangkat lunak yang digunakan untuk belajar coding dengan blok-blok seperti puzzle adalah..."
+      }
+     ],
+     "opts": [
+      "Microsoft Word",
+      "Scratch",
+      "Adobe Photoshop",
+      "Windows Media Player"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Blok kode yang digunakan untuk mengulang suatu perintah beberapa kali disebut blok..."
+      }
+     ],
+     "opts": [
+      "Event",
+      "Loop (perulangan)",
+      "Variable",
+      "Sensor"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perintah yang dijalankan hanya jika suatu syarat terpenuhi disebut..."
+      }
+     ],
+     "opts": [
+      "Perulangan",
+      "Percabangan (kondisi)",
+      "Variabel",
+      "Fungsi"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dalam Scratch, blok “jika ... maka ...” termasuk kategori..."
+      }
+     ],
+     "opts": [
+      "Sequence (urutan)",
+      "Loop (perulangan)",
+      "Condition (kondisi/percabangan)",
+      "Output"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tempat menyimpan nilai atau data yang dapat berubah-ubah dalam program disebut..."
+      }
+     ],
+     "opts": [
+      "Variabel",
+      "Prosesor",
+      "Flowchart",
+      "Browser"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Contoh perangkat keras (hardware) komputer adalah..."
+      }
+     ],
+     "opts": [
+      "Microsoft Excel",
+      "Keyboard",
+      "Google Chrome",
+      "Sistem operasi"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Contoh perangkat lunak (software) komputer adalah..."
+      }
+     ],
+     "opts": [
+      "Mouse",
+      "Monitor",
+      "Sistem operasi Windows",
+      "Printer"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kegiatan mengenali ciri atau kemiripan pada suatu data disebut pengenalan..."
+      }
+     ],
+     "opts": [
+      "Warna",
+      "Pola",
+      "Suara",
+      "Bentuk"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebelum membuat program, sebaiknya kita membuat rancangan alur program yang disebut..."
+      }
+     ],
+     "opts": [
+      "Flowchart",
+      "Firewall",
+      "Password",
+      "Hyperlink"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Urutan perintah yang dijalankan satu per satu dari atas ke bawah disebut..."
+      }
+     ],
+     "opts": [
+      "Percabangan",
+      "Perulangan",
+      "Sequence (urutan)",
+      "Variabel"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika kita ingin robot bergerak maju sebanyak 5 langkah, blok yang paling tepat digunakan adalah blok..."
+      }
+     ],
+     "opts": [
+      "Perulangan (loop)",
+      "Percabangan (kondisi)",
+      "Variabel",
+      "Suara"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut ini yang termasuk sikap aman menggunakan internet adalah..."
+      }
+     ],
+     "opts": [
+      "Membagikan kata sandi kepada teman",
+      "Tidak memberikan data pribadi kepada orang tidak dikenal",
+      "Mengklik semua tautan (link) yang muncul",
+      "Mengunduh semua aplikasi tanpa izin orang tua"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata sandi (password) yang baik sebaiknya..."
+      }
+     ],
+     "opts": [
+      "Mudah ditebak, seperti tanggal lahir",
+      "Sama untuk semua akun",
+      "Kombinasi huruf, angka, dan simbol yang unik",
+      "Dibagikan kepada banyak orang"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bahasa yang digunakan komputer untuk memproses data, yang hanya terdiri dari angka 0 dan 1, disebut..."
+      }
+     ],
+     "opts": [
+      "Bahasa biner",
+      "Bahasa Inggris",
+      "Bahasa mesin cetak",
+      "Bahasa isyarat"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tokoh yang menulis program komputer disebut..."
+      }
+     ],
+     "opts": [
+      "Programmer",
+      "Desainer grafis",
+      "Fotografer",
+      "Reporter"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kemampuan berpikir yang digunakan untuk menyelesaikan masalah dengan cara seperti komputer bekerja disebut berpikir..."
+      }
+     ],
+     "opts": [
+      "Kreatif",
+      "Komputasional",
+      "Emosional",
+      "Sosial"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengabaikan detail yang tidak penting dan hanya fokus pada informasi utama suatu masalah disebut..."
+      }
+     ],
+     "opts": [
+      "Abstraksi",
+      "Dekomposisi",
+      "Algoritma",
+      "Kompresi"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika sebuah program dijalankan tetapi hasilnya tidak sesuai harapan, langkah pertama yang tepat dilakukan adalah..."
+      }
+     ],
+     "opts": [
+      "Menghapus semua kode",
+      "Memeriksa kembali (debugging) kode secara berurutan",
+      "Mematikan komputer",
+      "Membiarkannya saja"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perintah “ulangi 10 kali” pada Scratch termasuk contoh penggunaan blok..."
+      }
+     ],
+     "opts": [
+      "Event (kejadian)",
+      "Loop (perulangan)",
+      "Sensing (sensor)",
+      "Looks (tampilan)"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "II. Isian Singkat",
+   "passage": null,
+   "items": [
+    {
+     "id": "i1",
+     "num": 1,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kumpulan langkah-langkah yang tersusun secara sistematis untuk menyelesaikan suatu masalah disebut <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Algoritma",
+     "accept": [
+      "Algoritma"
+     ],
+     "label": "Isian 1"
+    },
+    {
+     "id": "i2",
+     "num": 2,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Blok kode pada Scratch yang digunakan untuk mengulang suatu perintah tanpa berhenti disebut blok <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Perulangan (loop) / ulangi selamanya (forever)",
+     "accept": [
+      "Perulangan",
+      "ulangi selamanya",
+      "loop",
+      "forever"
+     ],
+     "label": "Isian 2"
+    },
+    {
+     "id": "i3",
+     "num": 3,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simbol flowchart berbentuk oval digunakan untuk menandai <span class=\"blank\">&nbsp;</span> dan <span class=\"blank\">&nbsp;</span> suatu program."
+      }
+     ],
+     "answer": "Mulai (start) dan Selesai (end)",
+     "accept": [
+      "mulai dan selesai",
+      "start dan end",
+      "start dan finish",
+      "awal dan akhir"
+     ],
+     "label": "Isian 3"
+    },
+    {
+     "id": "i4",
+     "num": 4,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap yang harus dilakukan sebelum membagikan informasi pribadi di internet adalah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Meminta izin/bertanya kepada orang tua atau guru terlebih dahulu",
+     "accept": [
+      "Meminta izin",
+      "bertanya kepada orang tua atau guru terlebih dahulu"
+     ],
+     "label": "Isian 4"
+    },
+    {
+     "id": "i5",
+     "num": 5,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Proses menemukan kesalahan pada sebuah program disebut <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Debugging",
+     "accept": [
+      "Debugging"
+     ],
+     "label": "Isian 5"
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

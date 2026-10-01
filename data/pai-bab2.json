@@ -1,0 +1,552 @@
+{
+ "id": "pai-bab2",
+ "subject": "PAI dan Budi Pekerti",
+ "title": "Bab 2 Mengenal Allah melalui Asmaulhusna",
+ "desc": "Al-Gaffar, Al-'Afuw, Al-Wahid, As-Samad, dan cara meneladaninya.",
+ "sections": [
+  {
+   "title": "I. Pilihan Ganda",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Asmaulhusna Al-Gaffar memiliki arti..."
+      }
+     ],
+     "opts": [
+      "Maha Pemaaf",
+      "Maha Pengampun",
+      "Maha Esa",
+      "Maha Dibutuhkan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Allah Swt. bersifat Al-Gaffar, artinya Allah senantiasa mengampuni dosa hamba-Nya yang..."
+      }
+     ],
+     "opts": [
+      "Tidak pernah berbuat dosa",
+      "Mau bertobat, meskipun berulang kali melakukan kesalahan",
+      "Tidak pernah memohon ampun",
+      "Hanya berbuat dosa kecil"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Asmaulhusna Al-’Afuw memiliki arti..."
+      }
+     ],
+     "opts": [
+      "Maha Esa",
+      "Maha Pengampun",
+      "Maha Pemaaf",
+      "Maha Dibutuhkan"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perbedaan antara Al-Gaffar dan Al-’Afuw adalah..."
+      }
+     ],
+     "opts": [
+      "Al-Gaffar mengampuni dosa, sedangkan Al-’Afuw menghapuskan dosa hingga seolah tidak pernah terjadi",
+      "Al-Gaffar hanya berlaku untuk manusia, Al-’Afuw hanya untuk jin",
+      "Al-Gaffar berarti Maha Esa, Al-’Afuw berarti Maha Kuasa",
+      "Keduanya tidak memiliki perbedaan makna sama sekali"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Asmaulhusna Al-Wahid memiliki arti..."
+      }
+     ],
+     "opts": [
+      "Maha Pengampun",
+      "Maha Esa/Tunggal",
+      "Maha Pemaaf",
+      "Maha Dibutuhkan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Karena Allah Swt. bersifat Al-Wahid, maka seorang muslim wajib..."
+      }
+     ],
+     "opts": [
+      "Menyembah banyak tuhan",
+      "Meyakini bahwa Allah satu-satunya Tuhan yang berhak disembah",
+      "Meragukan keesaan Allah",
+      "Menyekutukan Allah dengan makhluk lain"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Meyakini Asmaulhusna Al-Wahid berkaitan erat dengan ajaran..."
+      }
+     ],
+     "opts": [
+      "Tauhid",
+      "Ijma’",
+      "Qiyas",
+      "Ijtihad"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Asmaulhusna As-Samad memiliki arti..."
+      }
+     ],
+     "opts": [
+      "Maha Esa",
+      "Maha Pengampun",
+      "Tempat bergantung segala sesuatu",
+      "Maha Pemaaf"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Asmaulhusna As-Samad menunjukkan bahwa Allah Swt...."
+      }
+     ],
+     "opts": [
+      "Membutuhkan bantuan makhluk-Nya",
+      "Tidak membutuhkan siapa pun, tetapi seluruh makhluk membutuhkan-Nya",
+      "Bergantung kepada malaikat",
+      "Membutuhkan sekutu dalam mengatur alam"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Asmaulhusna As-Samad disebutkan secara jelas dalam Al-Qur’an pada surah..."
+      }
+     ],
+     "opts": [
+      "Al-Fatihah",
+      "Al-Ikhlas",
+      "An-Nas",
+      "Al-Falaq"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sifat yang tidak boleh dimiliki Allah Swt., sebagai lawan dari makna As-Samad, adalah..."
+      }
+     ],
+     "opts": [
+      "Berkuasa",
+      "Membutuhkan sesuatu dari makhluk-Nya",
+      "Maha Esa",
+      "Maha Pengampun"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu cara meneladani Asmaulhusna Al-Gaffar dalam kehidupan sehari-hari adalah..."
+      }
+     ],
+     "opts": [
+      "Menyimpan dendam kepada teman",
+      "Segera bertobat dan memohon ampun ketika berbuat salah",
+      "Membalas kesalahan dengan kesalahan",
+      "Mengejek teman yang berbuat salah"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu cara meneladani Asmaulhusna Al-’Afuw dalam kehidupan sehari-hari adalah..."
+      }
+     ],
+     "opts": [
+      "Mengungkit-ungkit kesalahan orang lain",
+      "Memaafkan kesalahan teman dengan tulus tanpa mengungkitnya lagi",
+      "Pura-pura memaafkan tetapi tetap marah",
+      "Menuntut balas atas kesalahan orang lain"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu cara meneladani Asmaulhusna Al-Wahid dalam kehidupan sehari-hari adalah..."
+      }
+     ],
+     "opts": [
+      "Meyakini dan menyembah hanya kepada Allah Swt.",
+      "Meminta pertolongan kepada dukun",
+      "Percaya kepada benda-benda keramat",
+      "Menyembah selain Allah"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu cara meneladani Asmaulhusna As-Samad dalam kehidupan sehari-hari adalah..."
+      }
+     ],
+     "opts": [
+      "Selalu bergantung kepada manusia semata",
+      "Berdoa dan bergantung hanya kepada Allah Swt. dalam segala urusan",
+      "Tidak pernah mau berusaha",
+      "Bersikap sombong karena merasa tidak butuh siapa pun"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ketika seorang anak melakukan kesalahan lalu segera bertobat dan memohon ampun, hal ini mencerminkan keyakinannya terhadap Asmaulhusna..."
+      }
+     ],
+     "opts": [
+      "Al-Wahid",
+      "As-Samad",
+      "Al-Gaffar",
+      "Al-Malik"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap rendah hati dan tidak sombong karena menyadari bahwa hanya Allah yang tidak membutuhkan apa pun mencerminkan pemahaman terhadap Asmaulhusna..."
+      }
+     ],
+     "opts": [
+      "Al-Gaffar",
+      "As-Samad",
+      "Al-’Afuw",
+      "Al-Wahid"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut ini yang termasuk perilaku anak muslim yang mencerminkan Al-Gaffar, Al-’Afuw, Al-Wahid, dan As-Samad adalah..."
+      }
+     ],
+     "opts": [
+      "Mudah memaafkan, hanya menyembah Allah, dan berdoa hanya kepada-Nya",
+      "Pendendam dan menyekutukan Allah",
+      "Sombong dan tidak mau memaafkan",
+      "Bergantung sepenuhnya kepada manusia"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Meminta ampun kepada Allah Swt. atas dosa yang telah diperbuat disebut..."
+      }
+     ],
+     "opts": [
+      "Istigfar",
+      "Tasbih",
+      "Tahmid",
+      "Takbir"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap saling memaafkan antarsesama teman termasuk akhlak yang mencerminkan Asmaulhusna..."
+      }
+     ],
+     "opts": [
+      "Al-Wahid dan As-Samad",
+      "Al-Gaffar dan Al-’Afuw",
+      "Al-Malik dan Al-’Adl",
+      "Ar-Rahman dan Ar-Rahim"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika seorang anak berdoa memohon pertolongan hanya kepada Allah Swt. dan tidak bergantung kepada jimat atau benda lain, ia telah meneladani sifat..."
+      }
+     ],
+     "opts": [
+      "Al-Gaffar",
+      "Al-Wahid dan As-Samad",
+      "Al-’Afuw",
+      "Al-Hakim"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut ini yang bukan termasuk Asmaulhusna yang dipelajari pada bab ini adalah..."
+      }
+     ],
+     "opts": [
+      "Al-Gaffar",
+      "Al-’Afuw",
+      "As-Sami’",
+      "As-Samad"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "“Semua makhluk di alam semesta bergantung kepada Allah Swt., sedangkan Allah Swt. tidak bergantung kepada siapa pun.” Pernyataan ini menggambarkan makna dari Asmaulhusna..."
+      }
+     ],
+     "opts": [
+      "Al-Gaffar",
+      "As-Samad",
+      "Al-’Afuw",
+      "Al-Wahid"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menyekutukan Allah Swt. dengan sesuatu yang lain disebut perbuatan..."
+      }
+     ],
+     "opts": [
+      "Tobat",
+      "Syirik",
+      "Tawakal",
+      "Istigfar"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap yang tepat terhadap Asmaulhusna Al-Gaffar, Al-’Afuw, Al-Wahid, dan As-Samad adalah..."
+      }
+     ],
+     "opts": [
+      "Menghafalkannya saja tanpa memahami maknanya",
+      "Memahami maknanya dan meneladaninya dalam perilaku sehari-hari",
+      "Mengabaikannya karena dianggap sulit",
+      "Hanya mempelajarinya saat akan ujian"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "II. Isian Singkat",
+   "passage": null,
+   "items": [
+    {
+     "id": "i1",
+     "num": 1,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Asmaulhusna yang berarti “Maha Pengampun” adalah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Al-Gaffar",
+     "accept": [
+      "Al-Gaffar"
+     ],
+     "label": "Isian 1"
+    },
+    {
+     "id": "i2",
+     "num": 2,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Asmaulhusna yang berarti “Maha Pemaaf” adalah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Al-’Afuw",
+     "accept": [
+      "Al-'Afuw"
+     ],
+     "label": "Isian 2"
+    },
+    {
+     "id": "i3",
+     "num": 3,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Asmaulhusna As-Samad disebutkan dengan jelas dalam Al-Qur’an surah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Al-Ikhlas",
+     "accept": [
+      "Al-Ikhlas"
+     ],
+     "label": "Isian 3"
+    },
+    {
+     "id": "i4",
+     "num": 4,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Karena Allah Swt. bersifat Al-Wahid, seorang muslim dilarang melakukan perbuatan menyekutukan Allah yang disebut <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Syirik",
+     "accept": [
+      "Syirik"
+     ],
+     "label": "Isian 4"
+    },
+    {
+     "id": "i5",
+     "num": 5,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu cara meneladani sifat As-Samad adalah selalu <span class=\"blank\">&nbsp;</span> hanya kepada Allah Swt."
+      }
+     ],
+     "answer": "Bergantung/bertawakal",
+     "accept": [
+      "Bergantung",
+      "bertawakal"
+     ],
+     "label": "Isian 5"
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

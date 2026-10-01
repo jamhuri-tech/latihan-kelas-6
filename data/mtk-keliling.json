@@ -1,0 +1,720 @@
+{
+ "id": "mtk-keliling",
+ "subject": "Matematika",
+ "title": "Keliling Bangun Datar",
+ "desc": "10 gambar bangun datar beserta soal cerita keliling.",
+ "sections": [
+  {
+   "title": "I. Pilihan Ganda",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 1 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 1
+      },
+      {
+       "t": "p",
+       "html": "Keliling persegi tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$18~\\text{cm}$",
+      "$27~\\text{cm}$",
+      "$36~\\text{cm}$",
+      "$81~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika panjang sisi persegi pada Gambar 1 diperbesar menjadi dua kali panjang semula, keliling persegi yang baru adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 1
+      }
+     ],
+     "opts": [
+      "$36~\\text{cm}$",
+      "$54~\\text{cm}$",
+      "$72~\\text{cm}$",
+      "$144~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 2 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 2
+      },
+      {
+       "t": "p",
+       "html": "Keliling persegi panjang tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$22~\\text{cm}$",
+      "$44~\\text{cm}$",
+      "$88~\\text{cm}$",
+      "$112~\\text{cm}$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika lebar persegi panjang pada Gambar 2 bertambah 2 cm menjadi 10 cm, sedangkan panjangnya tetap, keliling persegi panjang yang baru adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 2
+      }
+     ],
+     "opts": [
+      "$24~\\text{cm}$",
+      "$44~\\text{cm}$",
+      "$48~\\text{cm}$",
+      "$52~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 3 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 3
+      },
+      {
+       "t": "p",
+       "html": "Keliling segitiga sama sisi tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$14~\\text{cm}$",
+      "$21~\\text{cm}$",
+      "$28~\\text{cm}$",
+      "$49~\\text{cm}$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah segitiga sama sisi baru akan dibuat menyerupai Gambar 3 dengan keliling 33 cm. Panjang sisi segitiga baru tersebut adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 3
+      }
+     ],
+     "opts": [
+      "$9~\\text{cm}$",
+      "$10~\\text{cm}$",
+      "$11~\\text{cm}$",
+      "$12~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 4 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 4
+      },
+      {
+       "t": "p",
+       "html": "Keliling segitiga tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$18~\\text{cm}$",
+      "$20~\\text{cm}$",
+      "$24~\\text{cm}$",
+      "$48~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan panjang sisi-sisinya, segitiga pada Gambar 4 termasuk jenis segitiga..."
+      },
+      {
+       "t": "fig",
+       "n": 4
+      }
+     ],
+     "opts": [
+      "Sama sisi",
+      "Sama kaki",
+      "Siku-siku",
+      "Sembarang"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 5 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 5
+      },
+      {
+       "t": "p",
+       "html": "Keliling jajar genjang tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$16~\\text{cm}$",
+      "$32~\\text{cm}$",
+      "$60~\\text{cm}$",
+      "$64~\\text{cm}$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika sisi alas jajar genjang pada Gambar 5 diperbesar menjadi 12 cm sedangkan sisi miringnya tetap 6 cm, keliling jajar genjang yang baru adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 5
+      }
+     ],
+     "opts": [
+      "$18~\\text{cm}$",
+      "$32~\\text{cm}$",
+      "$36~\\text{cm}$",
+      "$72~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 6 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 6
+      },
+      {
+       "t": "p",
+       "html": "Keliling belah ketupat tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$26~\\text{cm}$",
+      "$39~\\text{cm}$",
+      "$52~\\text{cm}$",
+      "$169~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah belah ketupat memiliki keliling 60 cm. Panjang sisi belah ketupat tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$12~\\text{cm}$",
+      "$13~\\text{cm}$",
+      "$14~\\text{cm}$",
+      "$15~\\text{cm}$"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 7 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 7
+      },
+      {
+       "t": "p",
+       "html": "Keliling layang-layang tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$15~\\text{cm}$",
+      "$24~\\text{cm}$",
+      "$30~\\text{cm}$",
+      "$54~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika sisi pendek layang-layang pada Gambar 7 berubah menjadi 8 cm sedangkan sisi panjangnya tetap 9 cm, keliling layang-layang yang baru adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 7
+      }
+     ],
+     "opts": [
+      "$17~\\text{cm}$",
+      "$32~\\text{cm}$",
+      "$34~\\text{cm}$",
+      "$36~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 8 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 8
+      },
+      {
+       "t": "p",
+       "html": "Keliling trapesium tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$20~\\text{cm}$",
+      "$25~\\text{cm}$",
+      "$30~\\text{cm}$",
+      "$35~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jumlah panjang kedua sisi miring (kaki) trapesium pada Gambar 8 adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 8
+      }
+     ],
+     "opts": [
+      "$5~\\text{cm}$",
+      "$8~\\text{cm}$",
+      "$10~\\text{cm}$",
+      "$13~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 9 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 9
+      },
+      {
+       "t": "p",
+       "html": "Keliling lingkaran tersebut adalah... (gunakan $\\pi = \\tfrac{22}{7}$)"
+      }
+     ],
+     "opts": [
+      "$66~\\text{cm}$",
+      "$132~\\text{cm}$",
+      "$264~\\text{cm}$",
+      "$1.386~\\text{cm}$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika jari-jari lingkaran pada Gambar 9 diperbesar menjadi 28 cm, kelilingnya menjadi... (gunakan $\\pi = \\tfrac{22}{7}$)"
+      },
+      {
+       "t": "fig",
+       "n": 9
+      }
+     ],
+     "opts": [
+      "$88~\\text{cm}$",
+      "$144~\\text{cm}$",
+      "$176~\\text{cm}$",
+      "$352~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 10 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 10
+      },
+      {
+       "t": "p",
+       "html": "Keliling bangun datar tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$24~\\text{cm}$",
+      "$30~\\text{cm}$",
+      "$34~\\text{cm}$",
+      "$40~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bangun datar pada Gambar 10 merupakan gabungan dari dua bangun berbentuk..."
+      },
+      {
+       "t": "fig",
+       "n": 10
+      }
+     ],
+     "opts": [
+      "Dua segitiga",
+      "Dua persegi panjang",
+      "Dua lingkaran",
+      "Dua trapesium"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah taman berbentuk persegi panjang dengan panjang 20 m dan lebar 15 m akan dipasang pagar mengelilingi taman tersebut. Panjang pagar yang dibutuhkan adalah..."
+      }
+     ],
+     "opts": [
+      "$35~\\text{m}$",
+      "$60~\\text{m}$",
+      "$70~\\text{m}$",
+      "$80~\\text{m}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah kolam renang berbentuk persegi memiliki keliling 48 m. Panjang sisi kolam renang tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$10~\\text{m}$",
+      "$12~\\text{m}$",
+      "$14~\\text{m}$",
+      "$16~\\text{m}$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rina akan menghias tepi meja berbentuk lingkaran dengan pita. Jika jari-jari meja tersebut 35 cm, panjang pita yang dibutuhkan untuk mengelilingi meja adalah... (gunakan $\\pi = \\tfrac{22}{7}$)"
+      }
+     ],
+     "opts": [
+      "$110~\\text{cm}$",
+      "$154~\\text{cm}$",
+      "$220~\\text{cm}$",
+      "$440~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah bingkai foto berbentuk persegi panjang berukuran panjang 30 cm dan lebar 20 cm akan diberi list kayu pada bagian tepinya. Panjang list kayu yang dibutuhkan adalah..."
+      }
+     ],
+     "opts": [
+      "$50~\\text{cm}$",
+      "$60~\\text{cm}$",
+      "$100~\\text{cm}$",
+      "$120~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebidang sawah berbentuk persegi panjang memiliki keliling 100 m. Jika panjang sawah tersebut 30 m, maka lebar sawah tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$15~\\text{m}$",
+      "$20~\\text{m}$",
+      "$25~\\text{m}$",
+      "$35~\\text{m}$"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "II. Isian Singkat",
+   "passage": null,
+   "items": [
+    {
+     "id": "i1",
+     "num": 1,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Keliling persegi pada Gambar 1 adalah <span class=\"blank\">&nbsp;</span> cm."
+      },
+      {
+       "t": "fig",
+       "n": 1
+      }
+     ],
+     "answer": "$36$ (dari $4 \\times 9$)",
+     "accept": [
+      "36"
+     ],
+     "label": "Isian 1"
+    },
+    {
+     "id": "i2",
+     "num": 2,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Keliling lingkaran pada Gambar 9 adalah <span class=\"blank\">&nbsp;</span> cm (gunakan $\\pi = \\tfrac{22}{7}$)."
+      },
+      {
+       "t": "fig",
+       "n": 9
+      }
+     ],
+     "answer": "$132$ (dari $2 \\times \\tfrac{22}{7} \\times 21$)",
+     "accept": [
+      "132"
+     ],
+     "label": "Isian 2"
+    },
+    {
+     "id": "i3",
+     "num": 3,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah halaman berbentuk persegi panjang memiliki panjang 18 m dan lebar 12 m. Keliling halaman tersebut adalah <span class=\"blank\">&nbsp;</span> m."
+      }
+     ],
+     "answer": "$60$ (dari $2\\times(18+12)$)",
+     "accept": [
+      "60"
+     ],
+     "label": "Isian 3"
+    },
+    {
+     "id": "i4",
+     "num": 4,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Keliling segitiga sama sisi dengan panjang sisi 15 cm adalah <span class=\"blank\">&nbsp;</span> cm."
+      }
+     ],
+     "answer": "$45$ (dari $3 \\times 15$)",
+     "accept": [
+      "45"
+     ],
+     "label": "Isian 4"
+    },
+    {
+     "id": "i5",
+     "num": 5,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Keliling bangun datar gabungan pada Gambar 10 adalah <span class=\"blank\">&nbsp;</span> cm."
+      },
+      {
+       "t": "fig",
+       "n": 10
+      }
+     ],
+     "answer": "$34$ (dari $9+5+3+3+6+8$)",
+     "accept": [
+      "34"
+     ],
+     "label": "Isian 5"
+    }
+   ]
+  }
+ ],
+ "figures": {
+  "1": {
+   "src": "fig/75b09367cb.svg",
+   "caption": "Persegi $ABCD$"
+  },
+  "2": {
+   "src": "fig/4eac8f1c43.svg",
+   "caption": "Persegi panjang $PQRS$"
+  },
+  "3": {
+   "src": "fig/56b0bb76d0.svg",
+   "caption": "Segitiga sama sisi"
+  },
+  "4": {
+   "src": "fig/ad8b05b435.svg",
+   "caption": "Segitiga"
+  },
+  "5": {
+   "src": "fig/4e19e893a6.svg",
+   "caption": "Jajar genjang"
+  },
+  "6": {
+   "src": "fig/256e2931d6.svg",
+   "caption": "Belah ketupat"
+  },
+  "7": {
+   "src": "fig/18b605218f.svg",
+   "caption": "Layang-layang"
+  },
+  "8": {
+   "src": "fig/a489543b03.svg",
+   "caption": "Trapesium sama kaki"
+  },
+  "9": {
+   "src": "fig/add83e6106.svg",
+   "caption": "Lingkaran"
+  },
+  "10": {
+   "src": "fig/765cbb86f3.svg",
+   "caption": "Bangun datar gabungan"
+  }
+ }
+}

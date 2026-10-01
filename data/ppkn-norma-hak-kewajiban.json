@@ -1,0 +1,921 @@
+{
+ "id": "ppkn-norma-hak-kewajiban",
+ "subject": "PPKn",
+ "title": "Norma, Hak, dan Kewajiban",
+ "desc": "50 soal: macam-macam norma, hak dan kewajiban warga negara.",
+ "sections": [
+  {
+   "title": "A. Norma-Norma",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Aturan atau pedoman yang mengatur tingkah laku manusia dalam kehidupan bermasyarakat disebut..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Adat",
+      "Norma",
+      "Budaya"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Norma yang bersumber dari ajaran agama disebut norma..."
+      }
+     ],
+     "opts": [
+      "Agama",
+      "Kesusilaan",
+      "Kesopanan",
+      "Hukum"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Norma yang bersumber dari hati nurani manusia disebut norma..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Kesopanan",
+      "Agama",
+      "Kesusilaan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Norma yang bersumber dari pergaulan masyarakat sehari-hari disebut norma..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Kesopanan",
+      "Agama",
+      "Kesusilaan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Norma yang dibuat dan ditegakkan oleh negara disebut norma..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Agama",
+      "Kesusilaan",
+      "Kesopanan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Contoh pelaksanaan norma agama adalah..."
+      }
+     ],
+     "opts": [
+      "Mengantre saat membeli tiket",
+      "Membayar pajak tepat waktu",
+      "Beribadah sesuai keyakinan masing-masing",
+      "Menghormati orang yang lebih tua"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Contoh pelaksanaan norma kesopanan adalah..."
+      }
+     ],
+     "opts": [
+      "Salat lima waktu",
+      "Berbicara dengan sopan kepada orang yang lebih tua",
+      "Tidak mencuri",
+      "Membayar denda tilang"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Contoh pelaksanaan norma hukum adalah..."
+      }
+     ],
+     "opts": [
+      "Berdoa sebelum makan",
+      "Menyapa tetangga",
+      "Merasa bersalah setelah berbohong",
+      "Mematuhi rambu lalu lintas"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Contoh pelaksanaan norma kesusilaan adalah..."
+      }
+     ],
+     "opts": [
+      "Membayar pajak",
+      "Mengenakan helm saat berkendara",
+      "Jujur dan tidak berbohong",
+      "Mengucapkan salam"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sanksi bagi pelanggar norma agama akan diterima di..."
+      }
+     ],
+     "opts": [
+      "Dunia dan akhirat",
+      "Pengadilan",
+      "Kantor polisi",
+      "Rapat RT"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sanksi bagi pelanggar norma hukum berupa..."
+      }
+     ],
+     "opts": [
+      "Rasa bersalah",
+      "Denda atau kurungan penjara",
+      "Dikucilkan masyarakat",
+      "Dosa"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sanksi bagi pelanggar norma kesopanan biasanya berupa..."
+      }
+     ],
+     "opts": [
+      "Denda dari pemerintah",
+      "Hukuman penjara",
+      "Dosa di akhirat",
+      "Celaan atau kritik dari masyarakat"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sanksi bagi pelanggar norma kesusilaan biasanya berupa..."
+      }
+     ],
+     "opts": [
+      "Penyesalan/rasa bersalah dari hati nurani sendiri",
+      "Denda",
+      "Penjara",
+      "Diusir dari negara"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Norma yang berlaku khusus di suatu daerah dan diwariskan turun-temurun disebut norma..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Agama",
+      "Adat",
+      "Kesusilaan"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu fungsi norma dalam kehidupan bermasyarakat adalah..."
+      }
+     ],
+     "opts": [
+      "Membatasi kebebasan setiap orang tanpa alasan",
+      "Membuat masyarakat saling bermusuhan",
+      "Menghilangkan perbedaan pendapat",
+      "Menciptakan ketertiban dan keharmonisan dalam masyarakat"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Norma yang paling tegas dan memiliki sanksi paling jelas karena dibuat oleh lembaga resmi negara adalah norma..."
+      }
+     ],
+     "opts": [
+      "Kesopanan",
+      "Hukum",
+      "Kesusilaan",
+      "Adat"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut ini yang termasuk empat macam norma yang berlaku dalam masyarakat, <strong>KECUALI</strong>..."
+      }
+     ],
+     "opts": [
+      "Norma ekonomi",
+      "Norma agama",
+      "Norma kesusilaan",
+      "Norma kesopanan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Norma bertujuan untuk mengatur kehidupan manusia agar tercipta kehidupan yang..."
+      }
+     ],
+     "opts": [
+      "Bebas tanpa aturan",
+      "Penuh persaingan",
+      "Tertib, aman, dan sejahtera",
+      "Individualis"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tidak berbohong kepada orang tua merupakan salah satu contoh pelaksanaan norma..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Kesopanan",
+      "Adat",
+      "Kesusilaan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengucapkan terima kasih setelah dibantu orang lain merupakan contoh pelaksanaan norma..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Kesopanan",
+      "Agama",
+      "Adat"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Setiap warga negara wajib menaati peraturan lalu lintas karena hal tersebut termasuk norma..."
+      }
+     ],
+     "opts": [
+      "Kesusilaan",
+      "Kesopanan",
+      "Hukum",
+      "Agama"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika seseorang tidak melaksanakan norma yang berlaku dalam masyarakat, maka ia akan mendapatkan..."
+      }
+     ],
+     "opts": [
+      "Sanksi sesuai jenis norma yang dilanggar",
+      "Pujian dari masyarakat",
+      "Hadiah dari pemerintah",
+      "Tidak ada akibat apa pun"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "B. Hak dan Kewajiban",
+   "passage": null,
+   "items": [
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sesuatu yang diperoleh atau didapatkan oleh seseorang sejak lahir disebut..."
+      }
+     ],
+     "opts": [
+      "Kewajiban",
+      "Tanggung jawab",
+      "Aturan",
+      "Hak"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sesuatu yang harus dilaksanakan dengan penuh tanggung jawab disebut..."
+      }
+     ],
+     "opts": [
+      "Hak",
+      "Kewajiban",
+      "Larangan",
+      "Kebiasaan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut ini yang merupakan hak anak di rumah adalah..."
+      }
+     ],
+     "opts": [
+      "Membersihkan kamar sendiri",
+      "Membayar listrik",
+      "Mendapatkan kasih sayang dari orang tua",
+      "Memasak untuk keluarga"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut ini yang merupakan kewajiban anak di rumah adalah..."
+      }
+     ],
+     "opts": [
+      "Membantu orang tua membersihkan rumah",
+      "Mendapatkan makanan bergizi",
+      "Mendapatkan pendidikan",
+      "Mendapatkan uang saku"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu hak siswa di sekolah adalah..."
+      }
+     ],
+     "opts": [
+      "Membersihkan seluruh sekolah",
+      "Mengatur jadwal pelajaran",
+      "Menggantikan tugas guru",
+      "Mendapatkan pengajaran dari guru"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Salah satu kewajiban siswa di sekolah adalah..."
+      }
+     ],
+     "opts": [
+      "Mendapatkan nilai bagus tanpa belajar",
+      "Menaati tata tertib sekolah",
+      "Bebas memilih pelajaran",
+      "Libur kapan saja"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Contoh hak warga negara Indonesia adalah..."
+      }
+     ],
+     "opts": [
+      "Membayar pajak",
+      "Menaati hukum",
+      "Mendapatkan perlindungan hukum",
+      "Menjaga keamanan negara"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Contoh kewajiban warga negara Indonesia adalah..."
+      }
+     ],
+     "opts": [
+      "Menaati peraturan perundang-undangan",
+      "Mendapatkan pendidikan",
+      "Mendapatkan pekerjaan",
+      "Mendapatkan kesehatan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q31",
+     "num": 31,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hak warga negara untuk mendapatkan pendidikan diatur dalam UUD 1945 pasal..."
+      }
+     ],
+     "opts": [
+      "Pasal 27",
+      "Pasal 29",
+      "Pasal 33",
+      "Pasal 31"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q32",
+     "num": 32,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pasal 31 ayat (2) UUD 1945 menyatakan bahwa setiap warga negara wajib mengikuti..."
+      }
+     ],
+     "opts": [
+      "Pemilihan umum",
+      "Pendidikan dasar",
+      "Wajib militer",
+      "Kerja bakti"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q33",
+     "num": 33,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hak dan kewajiban warga negara dalam upaya pembelaan negara diatur dalam UUD 1945 pasal..."
+      }
+     ],
+     "opts": [
+      "Pasal 28",
+      "Pasal 31",
+      "Pasal 27 ayat (3)",
+      "Pasal 34"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q34",
+     "num": 34,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kemerdekaan setiap warga negara untuk memeluk agama dan beribadat sesuai kepercayaannya dijamin dalam UUD 1945 pasal..."
+      }
+     ],
+     "opts": [
+      "Pasal 29",
+      "Pasal 27",
+      "Pasal 30",
+      "Pasal 33"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q35",
+     "num": 35,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perekonomian Indonesia disusun sebagai usaha bersama berdasarkan asas kekeluargaan sesuai UUD 1945 pasal..."
+      }
+     ],
+     "opts": [
+      "Pasal 31",
+      "Pasal 32",
+      "Pasal 34",
+      "Pasal 33"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q36",
+     "num": 36,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ketentuan bahwa fakir miskin dan anak terlantar dipelihara oleh negara terdapat dalam UUD 1945 pasal..."
+      }
+     ],
+     "opts": [
+      "Pasal 31",
+      "Pasal 34",
+      "Pasal 33",
+      "Pasal 35"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q37",
+     "num": 37,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hak dan kewajiban harus dilaksanakan secara..."
+      }
+     ],
+     "opts": [
+      "Sesuka hati",
+      "Berat sebelah",
+      "Seimbang",
+      "Terpisah"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q38",
+     "num": 38,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika seseorang hanya melaksanakan kewajiban tanpa pernah mendapatkan haknya, maka orang tersebut akan merasa..."
+      }
+     ],
+     "opts": [
+      "Dirugikan",
+      "Puas",
+      "Bahagia",
+      "Sejahtera"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q39",
+     "num": 39,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Contoh hak dalam kehidupan bermasyarakat adalah..."
+      }
+     ],
+     "opts": [
+      "Ikut ronda malam",
+      "Membayar iuran warga",
+      "Mengikuti kerja bakti",
+      "Mendapatkan rasa aman dan nyaman"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q40",
+     "num": 40,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Contoh kewajiban dalam kehidupan bermasyarakat adalah..."
+      }
+     ],
+     "opts": [
+      "Mendapatkan pelayanan kesehatan",
+      "Menjaga keamanan dan ketertiban lingkungan",
+      "Mendapatkan informasi",
+      "Mendapatkan bantuan sosial"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q41",
+     "num": 41,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut ini yang termasuk contoh pelanggaran terhadap hak orang lain adalah..."
+      }
+     ],
+     "opts": [
+      "Menghormati pendapat teman",
+      "Membantu teman yang kesulitan",
+      "Mengejek dan merundung teman",
+      "Berbagi makanan dengan teman"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q42",
+     "num": 42,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Setiap anak memiliki hak untuk mendapatkan perlindungan dari..."
+      }
+     ],
+     "opts": [
+      "Kekerasan dan diskriminasi",
+      "Tugas sekolah",
+      "Bermain bersama teman",
+      "Belajar di sekolah"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q43",
+     "num": 43,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menaati tata tertib sekolah, seperti memakai seragam dan datang tepat waktu, merupakan contoh..."
+      }
+     ],
+     "opts": [
+      "Hak siswa",
+      "Hukuman siswa",
+      "Prestasi siswa",
+      "Kewajiban siswa"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q44",
+     "num": 44,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hak untuk menyampaikan pendapat dalam musyawarah termasuk hak di bidang..."
+      }
+     ],
+     "opts": [
+      "Ekonomi",
+      "Politik",
+      "Sosial budaya",
+      "Pertahanan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q45",
+     "num": 45,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Setiap warga negara berhak mendapatkan perlakuan yang..."
+      }
+     ],
+     "opts": [
+      "Berbeda-beda sesuai kekayaan",
+      "Sesuai keinginan pribadi",
+      "Adil dan tidak diskriminatif",
+      "Berdasarkan suku tertentu"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q46",
+     "num": 46,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Warga negara yang telah memenuhi syarat memiliki hak untuk memilih dalam..."
+      }
+     ],
+     "opts": [
+      "Pemilihan umum",
+      "Ujian sekolah",
+      "Lomba olahraga",
+      "Pertandingan sepak bola"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q47",
+     "num": 47,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Membuang sampah pada tempatnya merupakan salah satu bentuk..."
+      }
+     ],
+     "opts": [
+      "Hak menjaga lingkungan",
+      "Hukuman bagi pelanggar",
+      "Sanksi sosial",
+      "Kewajiban menjaga lingkungan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q48",
+     "num": 48,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mendapatkan pelayanan kesehatan dari puskesmas atau rumah sakit merupakan salah satu contoh..."
+      }
+     ],
+     "opts": [
+      "Kewajiban warga negara",
+      "Hak warga negara di bidang kesehatan",
+      "Larangan bagi warga negara",
+      "Sanksi hukum"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q49",
+     "num": 49,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lembaga negara yang bertugas melindungi dan menegakkan hak asasi manusia di Indonesia adalah..."
+      }
+     ],
+     "opts": [
+      "Mahkamah Agung",
+      "DPR",
+      "Komnas HAM",
+      "BPK"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q50",
+     "num": 50,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pentingnya menjalankan hak dan kewajiban secara seimbang bertujuan untuk mewujudkan kehidupan yang..."
+      }
+     ],
+     "opts": [
+      "Adil, tertib, dan sejahtera",
+      "Individualis",
+      "Penuh persaingan",
+      "Bebas tanpa aturan"
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

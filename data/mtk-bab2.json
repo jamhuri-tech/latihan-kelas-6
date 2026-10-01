@@ -1,0 +1,632 @@
+{
+ "id": "mtk-bab2",
+ "subject": "Matematika",
+ "title": "Bangun Datar, Pengukuran, Statistika, Peluang",
+ "desc": "Dilengkapi 6 gambar: bangun datar, jam, diagram batang, dan diagram lingkaran.",
+ "sections": [
+  {
+   "title": "I. Pilihan Ganda",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 1. Luas segitiga siku-siku tersebut adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 1
+      }
+     ],
+     "opts": [
+      "$14~\\text{cm}^2$",
+      "$24~\\text{cm}^2$",
+      "$48~\\text{cm}^2$",
+      "$28~\\text{cm}^2$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika panjang sisi miring segitiga pada Gambar 1 adalah 10 cm, maka keliling segitiga tersebut adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 1
+      }
+     ],
+     "opts": [
+      "$14~\\text{cm}$",
+      "$20~\\text{cm}$",
+      "$24~\\text{cm}$",
+      "$28~\\text{cm}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 2. Luas persegi panjang tersebut adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 2
+      }
+     ],
+     "opts": [
+      "$19~\\text{cm}^2$",
+      "$38~\\text{cm}^2$",
+      "$84~\\text{cm}^2$",
+      "$90~\\text{cm}^2$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Keliling persegi panjang pada Gambar 2 adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 2
+      }
+     ],
+     "opts": [
+      "$19~\\text{cm}$",
+      "$38~\\text{cm}$",
+      "$84~\\text{cm}$",
+      "$42~\\text{cm}$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 3. Luas lingkaran tersebut adalah... (gunakan $\\pi=\\tfrac{22}{7}$)"
+      },
+      {
+       "t": "fig",
+       "n": 3
+      }
+     ],
+     "opts": [
+      "$44~\\text{cm}^2$",
+      "$88~\\text{cm}^2$",
+      "$308~\\text{cm}^2$",
+      "$616~\\text{cm}^2$"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Keliling lingkaran pada Gambar 3 adalah... (gunakan $\\pi=\\tfrac{22}{7}$)"
+      },
+      {
+       "t": "fig",
+       "n": 3
+      }
+     ],
+     "opts": [
+      "$44~\\text{cm}$",
+      "$88~\\text{cm}$",
+      "$308~\\text{cm}$",
+      "$616~\\text{cm}$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Waktu yang ditunjukkan oleh jarum jam pada Gambar 4 adalah pukul..."
+      },
+      {
+       "t": "fig",
+       "n": 4
+      }
+     ],
+     "opts": [
+      "$07.15$",
+      "$07.45$",
+      "$03.35$",
+      "$08.15$"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Andi berangkat sekolah pada pukul yang ditunjukkan Gambar 4 dan tiba di sekolah pukul 07.45. Lama perjalanan Andi adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 4
+      }
+     ],
+     "opts": [
+      "15 menit",
+      "30 menit",
+      "45 menit",
+      "60 menit"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 5, pada hari apa siswa membaca buku paling banyak?"
+      },
+      {
+       "t": "fig",
+       "n": 5
+      }
+     ],
+     "opts": [
+      "Senin",
+      "Selasa",
+      "Rabu",
+      "Kamis"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jumlah seluruh buku yang dibaca siswa dari Senin sampai Jumat berdasarkan Gambar 5 adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 5
+      }
+     ],
+     "opts": [
+      "18 buku",
+      "20 buku",
+      "22 buku",
+      "24 buku"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 6, olahraga yang paling digemari siswa adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 6
+      }
+     ],
+     "opts": [
+      "Bulu tangkis",
+      "Sepak bola",
+      "Renang",
+      "Lainnya"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika jumlah seluruh siswa adalah 40 anak, banyak siswa yang gemar renang berdasarkan Gambar 6 adalah..."
+      },
+      {
+       "t": "fig",
+       "n": 6
+      }
+     ],
+     "opts": [
+      "6 anak",
+      "8 anak",
+      "10 anak",
+      "16 anak"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah mobil menempuh jarak 180 km dalam waktu 3 jam. Kecepatan rata-rata mobil tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "50 km/jam",
+      "60 km/jam",
+      "70 km/jam",
+      "90 km/jam"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah bus melaju dengan kecepatan 80 km/jam selama 2,5 jam. Jarak yang ditempuh bus tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "150 km",
+      "180 km",
+      "200 km",
+      "220 km"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah kolam diisi air dengan debit 15 liter/menit. Waktu yang dibutuhkan untuk mengisi kolam sebanyak 300 liter adalah..."
+      }
+     ],
+     "opts": [
+      "15 menit",
+      "20 menit",
+      "25 menit",
+      "30 menit"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Debit air yang mengalir sebanyak 600 liter dalam waktu 5 menit adalah..."
+      }
+     ],
+     "opts": [
+      "100 liter/menit",
+      "110 liter/menit",
+      "120 liter/menit",
+      "150 liter/menit"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah dadu dilempar satu kali. Peluang muncul mata dadu bernomor 4 adalah..."
+      }
+     ],
+     "opts": [
+      "$\\dfrac{1}{6}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{1}{2}$",
+      "$\\dfrac{2}{3}$"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah koin dilempar satu kali. Peluang muncul sisi angka adalah..."
+      }
+     ],
+     "opts": [
+      "$\\dfrac{1}{4}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{1}{2}$",
+      "$1$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil pencerminan suatu titik terhadap sumbu-$y$ akan mengubah tanda pada koordinat..."
+      }
+     ],
+     "opts": [
+      "$x$",
+      "$y$",
+      "$x$ dan $y$",
+      "tidak berubah"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bangun datar yang digeser tanpa mengubah bentuk dan ukurannya disebut..."
+      }
+     ],
+     "opts": [
+      "Rotasi",
+      "Refleksi",
+      "Translasi",
+      "Dilatasi"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan pola bilangan berikut: $2, 5, 8, 11, \\ldots$. Bilangan selanjutnya adalah..."
+      }
+     ],
+     "opts": [
+      "12",
+      "13",
+      "14",
+      "15"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nilai dari $n$ pada persamaan $n + 7 = 15$ adalah..."
+      }
+     ],
+     "opts": [
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil pembulatan $4.678$ ke ratusan terdekat adalah..."
+      }
+     ],
+     "opts": [
+      "$4.600$",
+      "$4.650$",
+      "$4.700$",
+      "$4.680$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bentuk baku (notasi ilmiah) dari $25.000$ adalah..."
+      }
+     ],
+     "opts": [
+      "$2{,}5 \\times 10^3$",
+      "$2{,}5 \\times 10^4$",
+      "$25 \\times 10^3$",
+      "$0{,}25 \\times 10^5$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah toko memberikan diskon 20% untuk barang seharga Rp150.000,00. Harga barang tersebut setelah diskon adalah..."
+      }
+     ],
+     "opts": [
+      "Rp100.000,00",
+      "Rp110.000,00",
+      "Rp120.000,00",
+      "Rp130.000,00"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "II. Isian Singkat",
+   "passage": null,
+   "items": [
+    {
+     "id": "i1",
+     "num": 1,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, keliling persegi panjang tersebut adalah <span class=\"blank\">&nbsp;</span> cm."
+      },
+      {
+       "t": "fig",
+       "n": 2
+      }
+     ],
+     "answer": "$38$ (dari $2\\times(12+7)$)",
+     "accept": [
+      "38"
+     ],
+     "label": "Isian 1"
+    },
+    {
+     "id": "i2",
+     "num": 2,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 3, luas lingkaran tersebut adalah <span class=\"blank\">&nbsp;</span> cm$^2$ (gunakan $\\pi = \\tfrac{22}{7}$)."
+      },
+      {
+       "t": "fig",
+       "n": 3
+      }
+     ],
+     "answer": "$616$ (dari $\\tfrac{22}{7}\\times 14\\times 14$)",
+     "accept": [
+      "616"
+     ],
+     "label": "Isian 2"
+    },
+    {
+     "id": "i3",
+     "num": 3,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah sepeda motor menempuh jarak 90 km dalam waktu 1,5 jam. Kecepatan rata-rata sepeda motor tersebut adalah <span class=\"blank\">&nbsp;</span> km/jam."
+      }
+     ],
+     "answer": "$60$ (dari $90 : 1{,}5$)",
+     "accept": [
+      "60"
+     ],
+     "label": "Isian 3"
+    },
+    {
+     "id": "i4",
+     "num": 4,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Peluang muncul mata dadu genap saat sebuah dadu dilempar satu kali adalah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "$\\dfrac{1}{2}$ (mata dadu genap: 2, 4, 6)",
+     "accept": [
+      "1/2"
+     ],
+     "label": "Isian 4"
+    },
+    {
+     "id": "i5",
+     "num": 5,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bangun datar yang digeser tanpa mengubah bentuk dan ukurannya disebut <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Translasi",
+     "accept": [
+      "Translasi"
+     ],
+     "label": "Isian 5"
+    }
+   ]
+  }
+ ],
+ "figures": {
+  "1": {
+   "src": "fig/57060591f4.svg",
+   "caption": "Segitiga siku-siku"
+  },
+  "2": {
+   "src": "fig/1b4a88a2a8.svg",
+   "caption": "Persegi panjang"
+  },
+  "3": {
+   "src": "fig/3c19cab48f.svg",
+   "caption": "Lingkaran"
+  },
+  "4": {
+   "src": "fig/f08d60acda.svg",
+   "caption": "Jam dinding"
+  },
+  "5": {
+   "src": "fig/5b3216866e.svg",
+   "caption": "Buku dibaca siswa (buku/hari)"
+  },
+  "6": {
+   "src": "fig/569769bc93.svg",
+   "caption": "Kegemaran olahraga siswa"
+  }
+ }
+}
