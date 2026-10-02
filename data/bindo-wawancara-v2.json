@@ -1,0 +1,965 @@
+{
+ "id": "bindo-wawancara-v2",
+ "subject": "Bahasa Indonesia",
+ "title": "Wawancara (Versi 2)",
+ "desc": "50 soal baru dengan topik yang sama: wawancara tempe dan laporan wawancara dokter gigi.",
+ "sections": [
+  {
+   "title": "A. Pengertian dan Tujuan Wawancara",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Percakapan tanya jawab antara pewawancara dan narasumber untuk menggali informasi disebut..."
+      }
+     ],
+     "opts": [
+      "Debat",
+      "Pidato",
+      "Dongeng",
+      "Wawancara"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perbedaan wawancara dengan pidato adalah wawancara..."
+      }
+     ],
+     "opts": [
+      "Hanya satu orang yang berbicara",
+      "Berbentuk tanya jawab dua arah",
+      "Tidak memerlukan narasumber",
+      "Selalu disiarkan di televisi"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Wawancara yang dilakukan dengan bertemu langsung disebut wawancara..."
+      }
+     ],
+     "opts": [
+      "Melalui perantara orang lain",
+      "Tatap muka",
+      "Rahasia",
+      "Tertulis di buku"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Wawancara melalui telepon atau panggilan video termasuk wawancara..."
+      }
+     ],
+     "opts": [
+      "Tatap muka langsung",
+      "Tertulis di koran",
+      "Jarak jauh",
+      "Tanpa narasumber"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Wartawan melakukan wawancara terutama untuk..."
+      }
+     ],
+     "opts": [
+      "Menggali berita dari narasumber",
+      "Menjual koran",
+      "Membaca pengumuman",
+      "Menggambar karikatur"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Manfaat wawancara untuk tugas sekolah adalah..."
+      }
+     ],
+     "opts": [
+      "Menyalin jawaban teman",
+      "Memperoleh informasi langsung dari orang yang berpengalaman",
+      "Menghindari membaca buku",
+      "Menghemat waktu tidur"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut yang merupakan pernyataan fakta dari narasumber adalah..."
+      }
+     ],
+     "opts": [
+      "Menurut saya, tokonya paling bagus.",
+      "Sepertinya besok akan ramai.",
+      "Toko ini buka setiap hari pukul 07.00 sampai 17.00.",
+      "Mungkin pelanggan akan bertambah."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan “Menurut saya, olahraga pagi sangat menyenangkan” merupakan..."
+      }
+     ],
+     "opts": [
+      "Fakta ilmiah",
+      "Data statistik",
+      "Pendapat narasumber",
+      "Perintah"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "B. Persiapan Wawancara",
+   "passage": null,
+   "items": [
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hal pertama yang perlu ditentukan sebelum melakukan wawancara adalah..."
+      }
+     ],
+     "opts": [
+      "Warna pakaian",
+      "Topik wawancara",
+      "Jumlah penonton",
+      "Jarak ke rumah narasumber"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Topik wawancara yang baik adalah topik yang..."
+      }
+     ],
+     "opts": [
+      "Terlalu luas",
+      "Jelas, sempit, dan menarik",
+      "Tidak diketahui siapa pun",
+      "Menyinggung perasaan orang"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Narasumber yang tepat untuk topik “cara merawat tanaman hias” adalah..."
+      }
+     ],
+     "opts": [
+      "Penjual atau pecinta tanaman hias",
+      "Penjahit",
+      "Pemain sepak bola",
+      "Sopir truk"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Narasumber yang paling tepat untuk topik “bahaya merokok bagi kesehatan” adalah..."
+      }
+     ],
+     "opts": [
+      "Tukang parkir",
+      "Petani",
+      "Dokter",
+      "Pelukis"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pertanyaan wawancara yang baik diawali dengan kata tanya seperti..."
+      }
+     ],
+     "opts": [
+      "Tetapi, dan, atau",
+      "Wahai, hai, dan nah",
+      "Apa, siapa, mengapa, dan bagaimana",
+      "Semoga dan mudah-mudahan"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pewawancara perlu mencari informasi awal tentang narasumber agar..."
+      }
+     ],
+     "opts": [
+      "Narasumber merasa malu",
+      "Wawancara menjadi lama tanpa isi",
+      "Tidak perlu bertanya",
+      "Pertanyaan sesuai dan tidak mengulang hal yang sudah diketahui"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pakaian yang tepat saat mewawancarai seseorang adalah..."
+      }
+     ],
+     "opts": [
+      "Sobek dan kusut",
+      "Pakaian tidur",
+      "Rapi dan sopan",
+      "Seragam olahraga yang kotor"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebelum berangkat wawancara, alat perekam sebaiknya diperiksa agar..."
+      }
+     ],
+     "opts": [
+      "Narasumber tidak mau bicara",
+      "Baterainya cepat habis",
+      "Terlihat bergaya",
+      "Dapat berfungsi dengan baik saat dipakai"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika janji wawancara pukul 09.00, pewawancara sebaiknya tiba..."
+      }
+     ],
+     "opts": [
+      "Sebelum pukul 09.00",
+      "Setelah pukul 10.00",
+      "Ketika wawancara sudah selesai",
+      "Keesokan harinya"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pertanyaan pembuka yang tepat untuk mengawali wawancara adalah..."
+      }
+     ],
+     "opts": [
+      "Pertanyaan yang menyinggung",
+      "Pertanyaan tentang rahasia pribadi",
+      "Kritik terhadap narasumber",
+      "Pertanyaan ringan tentang pekerjaan atau kegiatan narasumber"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "C. Pelaksanaan dan Etika Wawancara",
+   "passage": null,
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Saat tiba di tempat wawancara, pewawancara sebaiknya..."
+      }
+     ],
+     "opts": [
+      "Mengucapkan salam dan menyampaikan maksud kedatangan",
+      "Langsung duduk tanpa bicara",
+      "Memotret tanpa izin",
+      "Meminta oleh-oleh"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pewawancara menyampaikan tujuan wawancara agar..."
+      }
+     ],
+     "opts": [
+      "Narasumber menjadi bingung",
+      "Narasumber marah",
+      "Wawancara dibatalkan",
+      "Narasumber memahami informasi yang dibutuhkan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ketika bertanya, pewawancara sebaiknya mengajukan pertanyaan..."
+      }
+     ],
+     "opts": [
+      "Banyak sekaligus tanpa jeda",
+      "Dengan berbisik",
+      "Satu per satu dengan jelas",
+      "Sambil berjalan menjauh"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Cara mencatat hasil wawancara yang efisien adalah menulis..."
+      }
+     ],
+     "opts": [
+      "Seluruh percakapan kata demi kata",
+      "Kata kunci atau poin penting",
+      "Hal yang tidak berkaitan",
+      "Hanya nama pewawancara"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika narasumber berbicara terlalu cepat, pewawancara dapat..."
+      }
+     ],
+     "opts": [
+      "Memarahi narasumber",
+      "Meninggalkan narasumber",
+      "Menebak-nebak jawabannya",
+      "Meminta narasumber mengulang dengan sopan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebelum merekam suara narasumber, pewawancara harus..."
+      }
+     ],
+     "opts": [
+      "Merekam diam-diam",
+      "Memaksa narasumber",
+      "Tidak memberi tahu apa pun",
+      "Meminta izin lebih dahulu"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap menyimak yang baik saat wawancara ditunjukkan dengan..."
+      }
+     ],
+     "opts": [
+      "Menatap narasumber dan sesekali mengangguk",
+      "Memalingkan wajah",
+      "Menguap lebar",
+      "Memainkan ponsel"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pertanyaan lanjutan diajukan untuk..."
+      }
+     ],
+     "opts": [
+      "Mengakhiri wawancara",
+      "Memperdalam jawaban narasumber",
+      "Mengubah topik secara tiba-tiba",
+      "Menyalahkan narasumber"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pewawancara menyimpulkan kembali jawaban narasumber sebelum pamit agar..."
+      }
+     ],
+     "opts": [
+      "Wawancara semakin lama",
+      "Narasumber lupa jawabannya",
+      "Informasi yang dicatat tidak keliru",
+      "Waktu terbuang"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ungkapan penutup yang sopan setelah wawancara selesai adalah..."
+      }
+     ],
+     "opts": [
+      "“Sudah ya, saya pulang.”",
+      "“Jawabannya kurang bagus.”",
+      "“Terima kasih atas waktu dan penjelasan Bapak.”",
+      "“Besok tidak usah ditanya lagi.”"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "D. Kata Tanya, Kalimat Tanya, dan Kutipan",
+   "passage": null,
+   "items": [
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata tanya yang tepat untuk menanyakan jumlah adalah..."
+      }
+     ],
+     "opts": [
+      "Berapa",
+      "Siapa",
+      "Kapan",
+      "Di mana"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata tanya yang tepat untuk menanyakan benda atau peristiwa adalah..."
+      }
+     ],
+     "opts": [
+      "Siapa",
+      "Apa",
+      "Kapan",
+      "Berapa"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q31",
+     "num": 31,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pertanyaan yang tepat untuk jawaban “Pak Hasan berjualan di pasar sejak tahun 2010” adalah..."
+      }
+     ],
+     "opts": [
+      "Siapa yang berjualan di pasar?",
+      "Di mana Pak Hasan tinggal?",
+      "Sejak kapan Pak Hasan berjualan di pasar?",
+      "Mengapa Pak Hasan tidak berjualan?"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q32",
+     "num": 32,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pertanyaan “Bagaimana cara Ibu membuat tempe?” dijawab dengan..."
+      }
+     ],
+     "opts": [
+      "Penjelasan langkah-langkah",
+      "Nama tempat",
+      "Waktu kejadian",
+      "Jumlah barang"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q33",
+     "num": 33,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat tanya berikut yang ditulis dengan benar adalah..."
+      }
+     ],
+     "opts": [
+      "Mengapa Bapak memilih pekerjaan ini?",
+      "mengapa bapak memilih pekerjaan ini?",
+      "Mengapa Bapak memilih pekerjaan ini.",
+      "Mengapa, Bapak memilih pekerjaan ini"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q34",
+     "num": 34,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pertanyaan terbuka adalah pertanyaan yang..."
+      }
+     ],
+     "opts": [
+      "Cukup dijawab dengan ya atau tidak",
+      "Menuntut jawaban berupa penjelasan",
+      "Dijawab satu kata saja",
+      "Tidak perlu dijawab"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q35",
+     "num": 35,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat langsung yang ditulis dengan benar adalah..."
+      }
+     ],
+     "opts": [
+      "Bu Rina berkata, “saya mengajar sejak tahun 2012.”",
+      "Bu Rina berkata, Saya mengajar sejak tahun 2012.",
+      "Bu Rina berkata, “Saya mengajar sejak tahun 2012.”",
+      "Bu Rina berkata. “Saya mengajar sejak tahun 2012.”"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q36",
+     "num": 36,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat tidak langsung dari kalimat Pak Dimas berkata, “Saya suka membaca koran.” adalah..."
+      }
+     ],
+     "opts": [
+      "Pak Dimas berkata, “Dia suka membaca koran.”",
+      "Pak Dimas, saya suka membaca koran.",
+      "Saya suka membaca koran, bahwa kata Pak Dimas.",
+      "Pak Dimas berkata bahwa ia suka membaca koran."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "E. Bacalah wawancara berikut untuk menjawab soal nomor 37 sampai 42.",
+   "passage": {
+    "title": "Teks Wawancara",
+    "paras": [
+     "<strong>Dimas</strong> : Selamat siang, Bu. Saya Dimas, siswa kelas VI. Saya ingin mewawancarai Ibu untuk tugas sekolah.",
+     "<strong>Bu Lastri</strong> : Selamat siang, Dimas. Silakan duduk. Mau bertanya apa?",
+     "<strong>Dimas</strong> : Sejak kapan Ibu berjualan tempe?",
+     "<strong>Bu Lastri</strong> : Sejak lima belas tahun yang lalu, Nak.",
+     "<strong>Dimas</strong> : Bagaimana cara Ibu membuat tempe?",
+     "<strong>Bu Lastri</strong> : Kedelai dicuci, direbus, dikupas kulitnya, lalu diberi ragi. Setelah itu dibungkus daun dan didiamkan selama dua hari.",
+     "<strong>Dimas</strong> : Apa kesulitan yang Ibu hadapi?",
+     "<strong>Bu Lastri</strong> : Kadang harga kedelai naik, jadi Ibu harus pandai mengatur uang.",
+     "<strong>Dimas</strong> : Terima kasih banyak atas penjelasannya, Bu.",
+     "<strong>Bu Lastri</strong> : Sama-sama. Semangat belajarnya, ya."
+    ]
+   },
+   "items": [
+    {
+     "id": "q37",
+     "num": 37,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Orang yang berperan sebagai pewawancara dalam teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Bu Lastri",
+      "Guru kelas",
+      "Pembeli tempe",
+      "Dimas"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q38",
+     "num": 38,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Topik wawancara tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Pekerjaan dan cara membuat tempe",
+      "Cara menanam kedelai",
+      "Olahraga di sekolah",
+      "Liburan keluarga"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q39",
+     "num": 39,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bu Lastri sudah berjualan tempe sejak..."
+      }
+     ],
+     "opts": [
+      "Dua hari yang lalu",
+      "Setahun yang lalu",
+      "Lima belas tahun yang lalu",
+      "Sepuluh tahun yang lalu"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q40",
+     "num": 40,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Setelah kulitnya dikupas, kedelai diberi..."
+      }
+     ],
+     "opts": [
+      "Ragi",
+      "Garam",
+      "Gula",
+      "Minyak"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q41",
+     "num": 41,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kesulitan yang dihadapi Bu Lastri adalah..."
+      }
+     ],
+     "opts": [
+      "Tidak ada pembeli sama sekali",
+      "Harga kedelai yang kadang naik",
+      "Daun pembungkus habis",
+      "Pasar selalu tutup"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q42",
+     "num": 42,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap Dimas yang patut dicontoh dalam wawancara tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Memotong jawaban narasumber",
+      "Tidak mendengarkan jawaban",
+      "Meminta oleh-oleh",
+      "Bertanya secara runtut dan sopan"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "F. Bacalah laporan hasil wawancara berikut untuk menjawab soal nomor 43 sampai 50.",
+   "passage": {
+    "title": "Laporan Hasil Wawancara",
+    "paras": [
+     "Pada hari Kamis, kelompok kami mewawancarai dr. Hana, seorang dokter gigi di puskesmas dekat sekolah. Wawancara ini bertujuan mengetahui cara merawat gigi agar tetap sehat.",
+     "Menurut dr. Hana, gigi sebaiknya disikat dua kali sehari, yaitu setelah sarapan dan sebelum tidur malam. Sikat gigi perlu diganti setiap tiga bulan sekali. Anak-anak juga dianjurkan memeriksakan gigi ke dokter gigi setiap enam bulan sekali. Dokter Hana mengatakan, “Mengurangi makanan manis adalah cara sederhana untuk mencegah gigi berlubang.” Beliau berpesan agar kami rajin merawat gigi sejak kecil."
+    ]
+   },
+   "items": [
+    {
+     "id": "q43",
+     "num": 43,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Narasumber dalam laporan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Kelompok penulis",
+      "Guru kelas",
+      "Ibu penulis",
+      "dr. Hana"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q44",
+     "num": 44,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Wawancara dalam laporan tersebut bertujuan mengetahui..."
+      }
+     ],
+     "opts": [
+      "Harga obat di apotek",
+      "Cara merawat gigi agar tetap sehat",
+      "Jam buka puskesmas",
+      "Cara menjadi dokter"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q45",
+     "num": 45,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurut dr. Hana, gigi sebaiknya disikat..."
+      }
+     ],
+     "opts": [
+      "Dua kali sehari",
+      "Sekali seminggu",
+      "Lima kali sehari",
+      "Sebulan sekali"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q46",
+     "num": 46,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikat gigi sebaiknya diganti..."
+      }
+     ],
+     "opts": [
+      "Setiap hari",
+      "Setiap tiga bulan sekali",
+      "Setiap minggu",
+      "Setiap tiga tahun"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q47",
+     "num": 47,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pemeriksaan gigi ke dokter gigi dianjurkan dilakukan setiap..."
+      }
+     ],
+     "opts": [
+      "Enam bulan sekali",
+      "Seminggu sekali",
+      "Sepuluh tahun sekali",
+      "Hanya saat gigi sakit"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q48",
+     "num": 48,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat langsung dalam laporan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Pada hari Kamis, kelompok kami mewawancarai dr. Hana.",
+      "Sikat gigi perlu diganti setiap tiga bulan sekali.",
+      "Dokter Hana mengatakan, “Mengurangi makanan manis adalah cara sederhana untuk mencegah gigi berlubang.”",
+      "Beliau berpesan agar kami rajin merawat gigi sejak kecil."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q49",
+     "num": 49,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat tidak langsung dari ucapan dr. Hana dalam laporan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Dokter Hana mengatakan bahwa mengurangi makanan manis adalah cara sederhana untuk mencegah gigi berlubang.",
+      "Dokter Hana mengatakan, “Mengurangi makanan manis adalah cara sederhana.”",
+      "“Mengurangi makanan manis,” kata dr. Hana.",
+      "Dokter Hana, mengurangi makanan manis adalah cara sederhana."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q50",
+     "num": 50,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan yang tepat dari laporan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Gigi tidak perlu disikat",
+      "Gigi diperiksa hanya saat sakit",
+      "Makanan manis menyehatkan gigi",
+      "Merawat gigi perlu dilakukan secara teratur sejak kecil"
+     ],
+     "ans": 3
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

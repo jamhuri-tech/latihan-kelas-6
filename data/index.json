@@ -66,18 +66,34 @@
  {
   "id": "ppkn-norma-hak-kewajiban",
   "subject": "PPKn",
-  "title": "Norma, Hak, dan Kewajiban",
+  "title": "Norma, Hak, dan Kewajiban (Versi 1)",
   "desc": "50 soal: macam-macam norma, hak dan kewajiban warga negara.",
   "count": 50,
-  "pdf": "pdf/Latihan_Soal_PPKn_Kelas6_Norma_Hak_Kewajiban.pdf"
+  "pdf": "pdf/Latihan_Soal_PPKn_Kelas6_Norma_Hak_Kewajiban_V1.pdf"
+ },
+ {
+  "id": "ppkn-norma-hak-kewajiban-v2",
+  "subject": "PPKn",
+  "title": "Norma, Hak, dan Kewajiban (Versi 2)",
+  "desc": "50 soal baru dengan topik yang sama: norma, UUD 1945, dan contoh sehari-hari.",
+  "count": 50,
+  "pdf": "pdf/Latihan_Soal_PPKn_Kelas6_Norma_Hak_Kewajiban_V2.pdf"
  },
  {
   "id": "bindo-wawancara",
   "subject": "Bahasa Indonesia",
-  "title": "Wawancara",
+  "title": "Wawancara (Versi 1)",
   "desc": "50 soal dengan teks wawancara dan laporan hasil wawancara.",
   "count": 50,
-  "pdf": "pdf/Latihan_Soal_BahasaIndonesia_Kelas6_Wawancara.pdf"
+  "pdf": "pdf/Latihan_Soal_BahasaIndonesia_Kelas6_Wawancara_V1.pdf"
+ },
+ {
+  "id": "bindo-wawancara-v2",
+  "subject": "Bahasa Indonesia",
+  "title": "Wawancara (Versi 2)",
+  "desc": "50 soal baru dengan topik yang sama: wawancara tempe dan laporan wawancara dokter gigi.",
+  "count": 50,
+  "pdf": "pdf/Latihan_Soal_BahasaIndonesia_Kelas6_Wawancara_V2.pdf"
  },
  {
   "id": "bindo-tka",
