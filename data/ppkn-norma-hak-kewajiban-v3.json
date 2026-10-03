@@ -1,0 +1,921 @@
+{
+ "id": "ppkn-norma-hak-kewajiban-v3",
+ "subject": "PPKn",
+ "title": "Norma, Hak, dan Kewajiban (Versi 3)",
+ "desc": "50 soal baru: norma, UUD 1945 Pasal 28, dan contoh kasus di rumah, sekolah, masyarakat.",
+ "sections": [
+  {
+   "title": "A. Norma-Norma",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Aturan yang dibuat untuk mengatur perilaku manusia agar hidup bersama berjalan serasi disebut..."
+      }
+     ],
+     "opts": [
+      "Norma",
+      "Bakat",
+      "Hobi",
+      "Cita-cita"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Norma dibutuhkan karena manusia hidup..."
+      }
+     ],
+     "opts": [
+      "Sendirian di tempat terpencil",
+      "Tanpa memerlukan orang lain",
+      "Bermasyarakat dan saling membutuhkan",
+      "Dengan aturan masing-masing"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pedoman berperilaku yang bersumber dari ajaran kitab suci disebut norma..."
+      }
+     ],
+     "opts": [
+      "Agama",
+      "Hukum",
+      "Kesopanan",
+      "Kesusilaan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Norma kesusilaan bersumber dari..."
+      }
+     ],
+     "opts": [
+      "Peraturan pemerintah",
+      "Kebiasaan pergaulan",
+      "Hati nurani manusia",
+      "Keputusan pengadilan"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Norma kesopanan bersumber dari..."
+      }
+     ],
+     "opts": [
+      "Perintah dan larangan Tuhan",
+      "Undang-undang",
+      "Kebiasaan pergaulan yang dianggap pantas oleh masyarakat",
+      "Hati nurani saja"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Norma hukum bersumber dari..."
+      }
+     ],
+     "opts": [
+      "Kebiasaan keluarga",
+      "Perasaan pribadi",
+      "Ajaran kitab suci saja",
+      "Peraturan yang dibuat oleh pihak yang berwenang"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengerjakan salat lima waktu bagi umat Islam merupakan contoh pelaksanaan norma..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Agama",
+      "Kesopanan",
+      "Adat"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengembalikan barang temuan kepada pemiliknya merupakan contoh pelaksanaan norma..."
+      }
+     ],
+     "opts": [
+      "Kesusilaan",
+      "Hukum",
+      "Adat",
+      "Kesopanan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengantre dengan tertib saat membeli tiket merupakan contoh pelaksanaan norma..."
+      }
+     ],
+     "opts": [
+      "Agama",
+      "Hukum",
+      "Adat",
+      "Kesopanan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Membayar pajak kendaraan tepat waktu merupakan contoh pelaksanaan norma..."
+      }
+     ],
+     "opts": [
+      "Kesopanan",
+      "Kesusilaan",
+      "Adat",
+      "Hukum"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Siti membuang sampah sembarangan di jalan dan didenda oleh petugas. Siti melanggar norma..."
+      }
+     ],
+     "opts": [
+      "Kesopanan",
+      "Hukum",
+      "Agama",
+      "Adat"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dani berkata kasar kepada gurunya sehingga teman-temannya menjauhinya. Dani melanggar norma..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Kesopanan",
+      "Agama",
+      "Adat"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tia tidak menjalankan ibadah yang diwajibkan agamanya. Tia melanggar norma..."
+      }
+     ],
+     "opts": [
+      "Agama",
+      "Hukum",
+      "Kesopanan",
+      "Adat"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sanksi pelanggaran norma agama berupa..."
+      }
+     ],
+     "opts": [
+      "Denda dari petugas",
+      "Hukuman penjara",
+      "Dosa dan pertanggungjawaban kepada Tuhan",
+      "Teguran dari teman"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sanksi pelanggaran norma hukum dijatuhkan oleh..."
+      }
+     ],
+     "opts": [
+      "Tetangga",
+      "Pengadilan atau aparat yang berwenang",
+      "Teman sekelas",
+      "Hati nurani sendiri"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ciri norma hukum yang membedakannya dari norma lain adalah..."
+      }
+     ],
+     "opts": [
+      "Tertulis, mengikat semua warga, dan memiliki sanksi tegas",
+      "Hanya berlaku di rumah",
+      "Tidak memiliki sanksi",
+      "Tergantung selera masing-masing"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perbuatan yang hanya mendapat sanksi berupa celaan dari masyarakat adalah pelanggaran norma..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Agama",
+      "Adat",
+      "Kesopanan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Seseorang yang berbuat curang lalu merasa gelisah dan menyesal sedang merasakan sanksi norma..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Kesusilaan",
+      "Kesopanan",
+      "Adat"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Cara menyapa dan berpakaian yang dianggap pantas dapat berbeda di tiap daerah. Hal ini berkaitan dengan norma..."
+      }
+     ],
+     "opts": [
+      "Hukum",
+      "Agama",
+      "Kesopanan",
+      "Kesusilaan"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perbedaan sanksi norma agama dan norma hukum adalah..."
+      }
+     ],
+     "opts": [
+      "Keduanya dijatuhkan oleh hakim",
+      "Sanksi norma agama berasal dari Tuhan, sanksi norma hukum berasal dari negara",
+      "Keduanya tidak memiliki sanksi",
+      "Sanksi norma agama dari tetangga, norma hukum dari teman"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap yang tepat ketika menyadari telah melanggar norma adalah..."
+      }
+     ],
+     "opts": [
+      "Mengakui kesalahan, meminta maaf, dan memperbaiki diri",
+      "Menyalahkan orang lain",
+      "Mengulangi perbuatan itu",
+      "Menyembunyikan kesalahan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Peran anak dalam menjaga norma adalah dengan..."
+      }
+     ],
+     "opts": [
+      "Melanggar aturan jika tidak diawasi",
+      "Menaati aturan di rumah, sekolah, dan lingkungan sekitar",
+      "Hanya menaati aturan saat ada hadiah",
+      "Tidak peduli aturan orang lain"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "B. Hak dan Kewajiban",
+   "passage": null,
+   "items": [
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hak adalah..."
+      }
+     ],
+     "opts": [
+      "Sesuatu yang dapat diterima atau dilakukan karena dijamin oleh aturan",
+      "Beban yang menyusahkan",
+      "Larangan yang harus dihindari",
+      "Tugas harian saja"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kewajiban adalah..."
+      }
+     ],
+     "opts": [
+      "Sesuatu yang boleh diabaikan",
+      "Hadiah yang diterima",
+      "Hak yang tidak penting",
+      "Sesuatu yang harus dilaksanakan dengan penuh tanggung jawab"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kewajiban orang tua terhadap anak adalah..."
+      }
+     ],
+     "opts": [
+      "Memarahi anak setiap hari",
+      "Merawat, mendidik, dan melindungi anak",
+      "Membiarkan anak tanpa pengawasan",
+      "Meminta anak bekerja seharian"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "UUD 1945 Pasal 28B ayat (2) menyatakan bahwa setiap anak berhak atas..."
+      }
+     ],
+     "opts": [
+      "Penghasilan sendiri",
+      "Kebebasan tanpa aturan",
+      "Jabatan di pemerintahan",
+      "Kelangsungan hidup, tumbuh kembang, dan perlindungan dari kekerasan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Contoh kewajiban anak di rumah adalah..."
+      }
+     ],
+     "opts": [
+      "Merapikan tempat tidur dan membantu pekerjaan rumah",
+      "Meminta jajan setiap saat",
+      "Membiarkan rumah berantakan",
+      "Menunda semua tugas"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hak siswa untuk diperlakukan adil di sekolah berarti guru..."
+      }
+     ],
+     "opts": [
+      "Hanya memperhatikan siswa pintar",
+      "Tidak membeda-bedakan siswa",
+      "Memberi nilai sesuka hati",
+      "Mengabaikan siswa yang pendiam"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kewajiban siswa terhadap guru adalah..."
+      }
+     ],
+     "opts": [
+      "Membantah setiap perintah",
+      "Menghormati dan mengikuti arahan yang baik",
+      "Mengejek cara mengajar",
+      "Meninggalkan kelas sesuka hati"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kewajiban siswa terhadap fasilitas sekolah adalah..."
+      }
+     ],
+     "opts": [
+      "Mencoret-coret meja",
+      "Merusak peralatan",
+      "Menjaga dan merawatnya dengan baik",
+      "Membiarkan kelas kotor"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q31",
+     "num": 31,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Siswa yang mengerjakan ujian dengan jujur telah melaksanakan kewajiban untuk..."
+      }
+     ],
+     "opts": [
+      "Mencontek teman",
+      "Berlaku jujur",
+      "Menyembunyikan jawaban",
+      "Terlambat masuk kelas"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q32",
+     "num": 32,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Warga bersama-sama membersihkan selokan sebelum musim hujan. Kegiatan ini merupakan contoh..."
+      }
+     ],
+     "opts": [
+      "Hak untuk tidak bekerja",
+      "Larangan bagi warga",
+      "Hukuman bagi warga",
+      "Kewajiban warga menjaga lingkungan bersama"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q33",
+     "num": 33,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Warga negara berhak mendapat perlindungan keamanan dari negara. Contohnya adalah..."
+      }
+     ],
+     "opts": [
+      "Warga dilarang keluar rumah",
+      "Warga menjaga diri sendiri tanpa bantuan",
+      "Warga membayar sendiri semua biaya keamanan",
+      "Adanya polisi yang menjaga ketertiban dan keamanan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q34",
+     "num": 34,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "UUD 1945 Pasal 28D ayat (1) menjamin hak setiap orang atas..."
+      }
+     ],
+     "opts": [
+      "Penghasilan yang sama",
+      "Kebebasan melanggar aturan",
+      "Pengakuan dan perlindungan hukum yang adil",
+      "Jabatan tertentu"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q35",
+     "num": 35,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kewajiban setiap orang untuk menghormati hak asasi manusia orang lain tercantum dalam UUD 1945..."
+      }
+     ],
+     "opts": [
+      "Pasal 27 ayat (3)",
+      "Pasal 31 ayat (1)",
+      "Pasal 33 ayat (1)",
+      "Pasal 28J ayat (1)"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q36",
+     "num": 36,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Negara menjamin kemerdekaan setiap penduduk untuk memeluk agama dan beribadat sesuai UUD 1945..."
+      }
+     ],
+     "opts": [
+      "Pasal 27 ayat (1)",
+      "Pasal 30 ayat (1)",
+      "Pasal 29 ayat (2)",
+      "Pasal 34 ayat (1)"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q37",
+     "num": 37,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kewajiban pemerintah membiayai pendidikan dasar tercantum dalam UUD 1945..."
+      }
+     ],
+     "opts": [
+      "Pasal 28B ayat (2)",
+      "Pasal 29 ayat (2)",
+      "Pasal 31 ayat (2)",
+      "Pasal 33 ayat (1)"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q38",
+     "num": 38,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurut UUD 1945 Pasal 27 ayat (3), upaya pembelaan negara adalah hak dan kewajiban..."
+      }
+     ],
+     "opts": [
+      "Tentara saja",
+      "Presiden saja",
+      "Orang dewasa saja",
+      "Setiap warga negara"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q39",
+     "num": 39,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengikuti upacara bendera dengan khidmat merupakan wujud..."
+      }
+     ],
+     "opts": [
+      "Kebiasaan tanpa makna",
+      "Hukuman sekolah",
+      "Cinta tanah air dan bela negara",
+      "Pengisi waktu luang"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q40",
+     "num": 40,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Membayar pajak tepat waktu bagi wajib pajak merupakan..."
+      }
+     ],
+     "opts": [
+      "Kewajiban warga negara",
+      "Hak warga negara",
+      "Hukuman bagi warga",
+      "Pilihan yang boleh diabaikan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q41",
+     "num": 41,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dalam pemilu, asas rahasia berarti..."
+      }
+     ],
+     "opts": [
+      "Semua orang harus mengumumkan pilihannya",
+      "Pilihan boleh dipaksakan",
+      "Pemilih boleh diwakilkan siapa saja",
+      "Pilihan seseorang tidak boleh diketahui orang lain"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q42",
+     "num": 42,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ketua kelas dipilih melalui pemungutan suara. Teman yang kalah sebaiknya..."
+      }
+     ],
+     "opts": [
+      "Memusuhi ketua kelas",
+      "Menolak hasil pemilihan",
+      "Menerima hasil dan mendukung ketua kelas terpilih",
+      "Mengajak teman membolos"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q43",
+     "num": 43,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dina meminjam buku di perpustakaan. Kewajiban Dina adalah..."
+      }
+     ],
+     "opts": [
+      "Menyimpan buku selamanya",
+      "Menjaga buku dan mengembalikannya tepat waktu",
+      "Merobek halaman buku",
+      "Meminjamkan buku ke orang lain tanpa izin"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q44",
+     "num": 44,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rafi boleh bermain gawai, tetapi tidak sampai melalaikan belajar. Sikap Rafi menunjukkan..."
+      }
+     ],
+     "opts": [
+      "Keseimbangan antara hak dan kewajiban",
+      "Mengutamakan hak saja",
+      "Mengabaikan kewajiban",
+      "Melanggar hak orang lain"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q45",
+     "num": 45,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Siswa yang tidak melaksanakan piket kelas akan menyebabkan..."
+      }
+     ],
+     "opts": [
+      "Kelas kotor dan teman terganggu",
+      "Kelas menjadi bersih",
+      "Teman merasa senang",
+      "Guru memberi hadiah"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q46",
+     "num": 46,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Memutar musik keras pada malam hari melanggar hak tetangga untuk..."
+      }
+     ],
+     "opts": [
+      "Memilih pemimpin",
+      "Bersekolah",
+      "Mendapat gaji",
+      "Mendapat ketenangan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q47",
+     "num": 47,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menanam pohon dan tidak menebang pohon sembarangan merupakan kewajiban..."
+      }
+     ],
+     "opts": [
+      "Menambah polusi",
+      "Menghabiskan sumber daya",
+      "Menjaga kelestarian lingkungan",
+      "Merusak alam"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q48",
+     "num": 48,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Memberi kesempatan teman beribadah sesuai agamanya merupakan wujud..."
+      }
+     ],
+     "opts": [
+      "Sikap toleransi dan penghormatan hak orang lain",
+      "Sikap acuh",
+      "Sikap memaksa",
+      "Sikap tidak peduli"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q49",
+     "num": 49,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Setiap siswa berhak menyampaikan pendapat di kelas dan wajib..."
+      }
+     ],
+     "opts": [
+      "Memotong pendapat teman",
+      "Memaksakan pendapatnya",
+      "Menghargai pendapat teman",
+      "Menertawakan pendapat orang lain"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q50",
+     "num": 50,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Warga negara yang baik adalah warga yang..."
+      }
+     ],
+     "opts": [
+      "Menuntut hak sambil melaksanakan kewajiban",
+      "Hanya menuntut hak",
+      "Hanya mencari keuntungan sendiri",
+      "Tidak peduli pada lingkungan"
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

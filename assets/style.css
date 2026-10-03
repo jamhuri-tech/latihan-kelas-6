@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Amiri";
+  src: url("fonts/Amiri-Regular.ttf") format("truetype");
+  font-display: swap;
+}
 :root {
   --blue: #2980b9;
   --blue-dark: #14285a;
@@ -129,3 +134,6 @@ textarea.txt { min-height: 5.5em; resize: vertical; }
 .sendstatus { margin: 8px 0 0; font-size: .95rem; color: var(--muted); }
 .sendstatus.good { color: var(--ok); }
 .sendstatus.bad { color: var(--bad); }
+
+.ar { font-family: "Amiri", "Noto Naskh Arabic", "Geeza Pro", "Al Bayan", "Traditional Arabic", "Arabic Typesetting", serif;
+  font-size: 1.45em; line-height: 1.9; direction: rtl; unicode-bidi: isolate; padding: 0 .12em; white-space: nowrap; }

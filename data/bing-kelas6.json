@@ -1,0 +1,969 @@
+{
+ "id": "bing-kelas6",
+ "subject": "Bahasa Inggris",
+ "title": "English for Grade 6",
+ "desc": "50 soal: vocabulary, simple present, present continuous, simple past, dan 2 teks bacaan.",
+ "sections": [
+  {
+   "title": "A. Vocabulary",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which one is a fruit?"
+      }
+     ],
+     "opts": [
+      "Mango",
+      "Carrot",
+      "Spinach",
+      "Potato"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A person who teaches students at school is a <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "doctor",
+      "farmer",
+      "driver",
+      "teacher"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "We use <span class=\"blank\">&nbsp;</span> to cut paper."
+      }
+     ],
+     "opts": [
+      "rulers",
+      "scissors",
+      "erasers",
+      "pencils"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The opposite of “big” is <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "tall",
+      "small",
+      "long",
+      "fat"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The day after Monday is <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "Tuesday",
+      "Sunday",
+      "Wednesday",
+      "Friday"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Your mother’s sister is your <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "uncle",
+      "cousin",
+      "grandmother",
+      "aunt"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "We borrow books from the <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "hospital",
+      "market",
+      "library",
+      "bank"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "It is raining. I need my <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "sunglasses",
+      "kite",
+      "umbrella",
+      "fan"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "B. Simple Present Tense",
+   "passage": null,
+   "items": [
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "She <span class=\"blank\">&nbsp;</span> to school every day."
+      }
+     ],
+     "opts": [
+      "go",
+      "going",
+      "is go",
+      "goes"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "I <span class=\"blank\">&nbsp;</span> a student."
+      }
+     ],
+     "opts": [
+      "is",
+      "are",
+      "am",
+      "be"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "They <span class=\"blank\">&nbsp;</span> football on Sunday."
+      }
+     ],
+     "opts": [
+      "plays",
+      "play",
+      "playing",
+      "is play"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "He doesn’t <span class=\"blank\">&nbsp;</span> coffee."
+      }
+     ],
+     "opts": [
+      "drink",
+      "drinks",
+      "drank",
+      "drinking"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "<span class=\"blank\">&nbsp;</span> you like fish?"
+      }
+     ],
+     "opts": [
+      "Do",
+      "Does",
+      "Are",
+      "Is"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "My father <span class=\"blank\">&nbsp;</span> a teacher."
+      }
+     ],
+     "opts": [
+      "are",
+      "am",
+      "is",
+      "do"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "<span class=\"blank\">&nbsp;</span> she live in Malang?"
+      }
+     ],
+     "opts": [
+      "Do",
+      "Does",
+      "Is",
+      "Are"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The sun <span class=\"blank\">&nbsp;</span> in the east."
+      }
+     ],
+     "opts": [
+      "rise",
+      "rising",
+      "rises",
+      "rose"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "C. Present Continuous Tense",
+   "passage": null,
+   "items": [
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Look! The children <span class=\"blank\">&nbsp;</span> in the garden."
+      }
+     ],
+     "opts": [
+      "play",
+      "plays",
+      "played",
+      "are playing"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "I am <span class=\"blank\">&nbsp;</span> a book now."
+      }
+     ],
+     "opts": [
+      "read",
+      "reads",
+      "to read",
+      "reading"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "“What is he doing?” “He is <span class=\"blank\">&nbsp;</span>.”"
+      }
+     ],
+     "opts": [
+      "cook",
+      "cooks",
+      "cooking",
+      "cooked"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "They <span class=\"blank\">&nbsp;</span> not watching TV."
+      }
+     ],
+     "opts": [
+      "are",
+      "is",
+      "am",
+      "do"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Is she <span class=\"blank\">&nbsp;</span> a song?"
+      }
+     ],
+     "opts": [
+      "sing",
+      "sings",
+      "sang",
+      "singing"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "D. Simple Past Tense",
+   "passage": null,
+   "items": [
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Yesterday, I <span class=\"blank\">&nbsp;</span> to the zoo."
+      }
+     ],
+     "opts": [
+      "went",
+      "go",
+      "goes",
+      "going"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "She <span class=\"blank\">&nbsp;</span> her homework last night."
+      }
+     ],
+     "opts": [
+      "does",
+      "do",
+      "did",
+      "doing"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "We <span class=\"blank\">&nbsp;</span> football last Sunday."
+      }
+     ],
+     "opts": [
+      "played",
+      "play",
+      "plays",
+      "playing"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Did you <span class=\"blank\">&nbsp;</span> breakfast this morning?"
+      }
+     ],
+     "opts": [
+      "had",
+      "has",
+      "having",
+      "have"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "My mother <span class=\"blank\">&nbsp;</span> a delicious cake yesterday."
+      }
+     ],
+     "opts": [
+      "made",
+      "make",
+      "makes",
+      "making"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The past form of “buy” is <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "buyed",
+      "buys",
+      "bought",
+      "buying"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "E. Prepositions, Articles, and There Is/There Are",
+   "passage": null,
+   "items": [
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The pencil is inside the box. The pencil is <span class=\"blank\">&nbsp;</span> the box."
+      }
+     ],
+     "opts": [
+      "on",
+      "in",
+      "under",
+      "behind"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "There <span class=\"blank\">&nbsp;</span> three chairs in the room."
+      }
+     ],
+     "opts": [
+      "is",
+      "are",
+      "am",
+      "be"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "I have <span class=\"blank\">&nbsp;</span> apple."
+      }
+     ],
+     "opts": [
+      "a",
+      "the",
+      "an",
+      "two"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q31",
+     "num": 31,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The bank is <span class=\"blank\">&nbsp;</span> the post office and the school."
+      }
+     ],
+     "opts": [
+      "on",
+      "above",
+      "into",
+      "between"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q32",
+     "num": 32,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "She sits at my right side. She sits <span class=\"blank\">&nbsp;</span> me."
+      }
+     ],
+     "opts": [
+      "between",
+      "on",
+      "under",
+      "next to"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "F. Question Words, Time, and Numbers",
+   "passage": null,
+   "items": [
+    {
+     "id": "q33",
+     "num": 33,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "<span class=\"blank\">&nbsp;</span> is your birthday? It is on May 5th."
+      }
+     ],
+     "opts": [
+      "Where",
+      "When",
+      "Who",
+      "Why"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q34",
+     "num": 34,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "<span class=\"blank\">&nbsp;</span> are you from? I am from Malang."
+      }
+     ],
+     "opts": [
+      "Where",
+      "What",
+      "When",
+      "How"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q35",
+     "num": 35,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "07.30 is read <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "seven past thirty",
+      "half past seven",
+      "half to seven",
+      "thirty seven"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q36",
+     "num": 36,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The number 15 is read <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "fifty",
+      "fiveteen",
+      "fifteen",
+      "fiftin"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "G. Read the text and answer questions 37 to 43.",
+   "passage": {
+    "title": "My Daily Routine",
+    "paras": [
+     "My name is Dina. I am twelve years old. I am a sixth grade student. I get up at half past five every morning. First, I take a shower and have breakfast with my family. Then, I go to school by bicycle. School starts at seven o’clock. I come home at two o’clock.",
+     "In the afternoon, I do my homework and help my mother in the kitchen. I go to bed at nine o’clock."
+    ]
+   },
+   "items": [
+    {
+     "id": "q37",
+     "num": 37,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "How old is Dina?"
+      }
+     ],
+     "opts": [
+      "Ten",
+      "Twelve",
+      "Eleven",
+      "Thirteen"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q38",
+     "num": 38,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What time does Dina get up?"
+      }
+     ],
+     "opts": [
+      "Half past six",
+      "Five o’clock",
+      "Seven o’clock",
+      "Half past five"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q39",
+     "num": 39,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "How does Dina go to school?"
+      }
+     ],
+     "opts": [
+      "By bus",
+      "On foot",
+      "By bicycle",
+      "By motorcycle"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q40",
+     "num": 40,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What does Dina do before she goes to school?"
+      }
+     ],
+     "opts": [
+      "She plays football",
+      "She takes a shower and has breakfast",
+      "She sleeps again",
+      "She watches TV"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q41",
+     "num": 41,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "When does school start?"
+      }
+     ],
+     "opts": [
+      "At seven o’clock",
+      "At six o’clock",
+      "At eight o’clock",
+      "At five o’clock"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q42",
+     "num": 42,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What does Dina do in the afternoon?"
+      }
+     ],
+     "opts": [
+      "She plays football",
+      "She does her homework and helps her mother",
+      "She goes to the market",
+      "She watches a film"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q43",
+     "num": 43,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The word “help” in the text means <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "membantu",
+      "menolak",
+      "melihat",
+      "menjual"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "H. Read the text and answer questions 44 to 50.",
+   "passage": {
+    "title": "My Pet Cat",
+    "paras": [
+     "I have a pet cat. Its name is Miko. Miko is two years old. It has white fur and big green eyes. Miko likes to play with a small ball. It also likes fish and milk.",
+     "Every morning, I give Miko food and clean water. At night, Miko sleeps in a basket next to my bed. I love Miko very much."
+    ]
+   },
+   "items": [
+    {
+     "id": "q44",
+     "num": 44,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What is the name of the pet?"
+      }
+     ],
+     "opts": [
+      "Mimi",
+      "Miko",
+      "Momo",
+      "Mila"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q45",
+     "num": 45,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "How old is Miko?"
+      }
+     ],
+     "opts": [
+      "One year old",
+      "Three years old",
+      "Two years old",
+      "Four years old"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q46",
+     "num": 46,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What color is Miko’s fur?"
+      }
+     ],
+     "opts": [
+      "Black",
+      "Brown",
+      "Gray",
+      "White"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q47",
+     "num": 47,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What does Miko like to play with?"
+      }
+     ],
+     "opts": [
+      "A small ball",
+      "A rope",
+      "A toy car",
+      "A bird"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q48",
+     "num": 48,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What does Miko like to eat and drink?"
+      }
+     ],
+     "opts": [
+      "Rice and eggs",
+      "Bread and cheese",
+      "Meat and tea",
+      "Fish and milk"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q49",
+     "num": 49,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Where does Miko sleep at night?"
+      }
+     ],
+     "opts": [
+      "In a basket next to the bed",
+      "On the sofa",
+      "In the garden",
+      "Under the table"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q50",
+     "num": 50,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which statement is TRUE?"
+      }
+     ],
+     "opts": [
+      "Miko has black eyes.",
+      "The writer never feeds Miko.",
+      "The writer loves Miko very much.",
+      "Miko is five years old."
+     ],
+     "ans": 2
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

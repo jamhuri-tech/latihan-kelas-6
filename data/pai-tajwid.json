@@ -1,0 +1,951 @@
+{
+ "id": "pai-tajwid",
+ "subject": "PAI dan Budi Pekerti",
+ "title": "Ilmu Tajwid",
+ "desc": "50 soal: makharijul huruf, nun sukun dan tanwin, mim sukun, mad, qalqalah, tafkhim dan tarqiq, waqaf.",
+ "sections": [
+  {
+   "title": "A. Pengertian Tajwid dan Makharijul Huruf",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ilmu yang mempelajari cara membaca Al-Qur’an dengan baik dan benar disebut ilmu..."
+      }
+     ],
+     "opts": [
+      "Tafsir",
+      "Fikih",
+      "Tarikh",
+      "Tajwid"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tempat keluarnya huruf hijaiah disebut..."
+      }
+     ],
+     "opts": [
+      "Sifat",
+      "Makhraj",
+      "Waqaf",
+      "Mad"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Huruf <span class=\"ar\" lang=\"ar\" dir=\"rtl\">ا</span>, <span class=\"ar\" lang=\"ar\" dir=\"rtl\">و</span>, dan <span class=\"ar\" lang=\"ar\" dir=\"rtl\">ي</span> yang menjadi huruf mad keluar dari..."
+      }
+     ],
+     "opts": [
+      "Al-Halq (tenggorokan)",
+      "Asy-Syafatain (dua bibir)",
+      "Al-Khaisyum (rongga hidung)",
+      "Al-Jauf (rongga mulut)"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Huruf <span class=\"ar\" lang=\"ar\" dir=\"rtl\">ب</span>, <span class=\"ar\" lang=\"ar\" dir=\"rtl\">م</span>, dan <span class=\"ar\" lang=\"ar\" dir=\"rtl\">و</span> keluar dari..."
+      }
+     ],
+     "opts": [
+      "Al-Jauf (rongga mulut)",
+      "Al-Halq (tenggorokan)",
+      "Asy-Syafatain (dua bibir)",
+      "Al-Khaisyum (rongga hidung)"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Huruf <span class=\"ar\" lang=\"ar\" dir=\"rtl\">ء</span>, <span class=\"ar\" lang=\"ar\" dir=\"rtl\">ه</span>, <span class=\"ar\" lang=\"ar\" dir=\"rtl\">ع</span>, <span class=\"ar\" lang=\"ar\" dir=\"rtl\">ح</span>, <span class=\"ar\" lang=\"ar\" dir=\"rtl\">غ</span>, dan <span class=\"ar\" lang=\"ar\" dir=\"rtl\">خ</span> keluar dari..."
+      }
+     ],
+     "opts": [
+      "Al-Jauf (rongga mulut)",
+      "Asy-Syafatain (dua bibir)",
+      "Al-Halq (tenggorokan)",
+      "Al-Khaisyum (rongga hidung)"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dengung (ghunnah) keluar dari..."
+      }
+     ],
+     "opts": [
+      "Al-Halq (tenggorokan)",
+      "Asy-Syafatain (dua bibir)",
+      "Al-Jauf (rongga mulut)",
+      "Al-Khaisyum (rongga hidung)"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "B. Hukum Nun Sukun dan Tanwin",
+   "passage": null,
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nun sukun atau tanwin memiliki ... hukum bacaan."
+      }
+     ],
+     "opts": [
+      "Tiga",
+      "Lima",
+      "Empat",
+      "Enam"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nun sukun atau tanwin yang bertemu huruf halq dibaca..."
+      }
+     ],
+     "opts": [
+      "Samar dengan dengung",
+      "Dilebur dengan dengung",
+      "Ditukar menjadi mim",
+      "Jelas tanpa dengung"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">مِنْ عِنْدِ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Idgham bighunnah",
+      "Iqlab",
+      "Izhar halqi",
+      "Ikhfa haqiqi"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut ini huruf izhar halqi, kecuali..."
+      }
+     ],
+     "opts": [
+      "’Ain",
+      "Ghain",
+      "Kha",
+      "Ba"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">مَنْ يَقُولُ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Idgham bighunnah",
+      "Idgham bilaghunnah",
+      "Izhar halqi",
+      "Iqlab"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">خَيْرًا يَرَهُ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Idgham bighunnah",
+      "Ikhfa haqiqi",
+      "Izhar halqi",
+      "Iqlab"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Huruf idgham bighunnah adalah..."
+      }
+     ],
+     "opts": [
+      "Lam dan ra",
+      "Ya, nun, mim, dan wau",
+      "Ba saja",
+      "Ta, tsa, dan jim"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">غَفُورٌ رَحِيمٌ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Idgham bighunnah",
+      "Izhar halqi",
+      "Idgham bilaghunnah",
+      "Ikhfa haqiqi"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Huruf idgham bilaghunnah adalah..."
+      }
+     ],
+     "opts": [
+      "Ya dan nun",
+      "Mim dan wau",
+      "Lam dan ra",
+      "Ba saja"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">مِنْ بَعْدِ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Izhar halqi",
+      "Idgham bighunnah",
+      "Ikhfa haqiqi",
+      "Iqlab"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Cara membaca iqlab adalah..."
+      }
+     ],
+     "opts": [
+      "Membaca jelas tanpa dengung",
+      "Menukar bunyi nun sukun atau tanwin menjadi mim, lalu didengungkan",
+      "Meleburkan tanpa dengung",
+      "Memanjangkan 6 harakat"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">أَنْتُمْ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Izhar halqi",
+      "Ikhfa haqiqi",
+      "Iqlab",
+      "Idgham bilaghunnah"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">مِنْ شَرِّ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Idgham bighunnah",
+      "Iqlab",
+      "Ikhfa haqiqi",
+      "Izhar halqi"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Huruf ikhfa haqiqi berjumlah..."
+      }
+     ],
+     "opts": [
+      "15 huruf",
+      "6 huruf",
+      "4 huruf",
+      "2 huruf"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "C. Hukum Mim Sukun",
+   "passage": null,
+   "items": [
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mim sukun memiliki ... hukum bacaan."
+      }
+     ],
+     "opts": [
+      "Dua",
+      "Tiga",
+      "Lima",
+      "Enam"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">تَرْمِيهِمْ بِحِجَارَةٍ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Idgham mimi",
+      "Izhar syafawi",
+      "Ikhfa syafawi",
+      "Iqlab"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ikhfa syafawi dibaca dengan cara..."
+      }
+     ],
+     "opts": [
+      "Jelas tanpa dengung",
+      "Dilebur tanpa dengung",
+      "Ditukar menjadi nun",
+      "Samar disertai dengung"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">كَمْ مِنْ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Idgham mimi",
+      "Ikhfa syafawi",
+      "Izhar syafawi",
+      "Idgham bilaghunnah"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">لَمْ يَلِدْ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Ikhfa syafawi",
+      "Idgham mimi",
+      "Iqlab",
+      "Izhar syafawi"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mim sukun yang bertemu huruf selain mim dan ba dibaca..."
+      }
+     ],
+     "opts": [
+      "Samar dengan dengung",
+      "Dilebur dengan dengung",
+      "Jelas tanpa dengung",
+      "Ditukar menjadi nun"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "D. Hukum Mad",
+   "passage": null,
+   "items": [
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mad thabi’i dibaca sepanjang..."
+      }
+     ],
+     "opts": [
+      "2 harakat",
+      "1 harakat",
+      "4 harakat",
+      "6 harakat"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan mad pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">قَالَ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Mad thabi’i",
+      "Mad wajib muttasil",
+      "Mad jaiz munfasil",
+      "Mad lazim"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mad wajib muttasil terjadi jika huruf mad bertemu hamzah di dalam..."
+      }
+     ],
+     "opts": [
+      "Dua kata yang berbeda",
+      "Satu kata",
+      "Awal surah",
+      "Akhir ayat saja"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan mad pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">جَاءَ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Mad thabi’i",
+      "Mad jaiz munfasil",
+      "Mad lazim",
+      "Mad wajib muttasil"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q31",
+     "num": 31,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mad jaiz munfasil terjadi jika huruf mad bertemu hamzah pada..."
+      }
+     ],
+     "opts": [
+      "Satu kata yang sama",
+      "Huruf bertasydid",
+      "Akhir surah saja",
+      "Kata yang berbeda"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q32",
+     "num": 32,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan mad pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">إِنَّا أَعْطَيْنَاكَ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Mad jaiz munfasil",
+      "Mad thabi’i",
+      "Mad wajib muttasil",
+      "Mad lazim"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q33",
+     "num": 33,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mad wajib muttasil dibaca sepanjang..."
+      }
+     ],
+     "opts": [
+      "1 harakat",
+      "4 atau 5 harakat",
+      "2 harakat",
+      "8 harakat"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q34",
+     "num": 34,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mad lazim, seperti pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">الضَّالِّينَ</span>, dibaca sepanjang..."
+      }
+     ],
+     "opts": [
+      "6 harakat",
+      "2 harakat",
+      "4 harakat",
+      "1 harakat"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q35",
+     "num": 35,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mad yang terjadi ketika berhenti (waqaf) pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">نَسْتَعِينُ</span> disebut..."
+      }
+     ],
+     "opts": [
+      "Mad ’arid lissukun",
+      "Mad thabi’i",
+      "Mad wajib muttasil",
+      "Mad jaiz munfasil"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "E. Qalqalah dan Ghunnah",
+   "passage": null,
+   "items": [
+    {
+     "id": "q36",
+     "num": 36,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Huruf qalqalah berjumlah lima, yaitu..."
+      }
+     ],
+     "opts": [
+      "Alif, ba, ta, tsa, dan jim",
+      "Mim, nun, lam, ra, dan ya",
+      "Sin, syin, shad, dhad, dan zai",
+      "Qaf, tha, ba, jim, dan dal"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q37",
+     "num": 37,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Qalqalah artinya..."
+      }
+     ],
+     "opts": [
+      "Memantulkan atau menggetarkan bunyi",
+      "Mendengungkan",
+      "Memanjangkan",
+      "Menebalkan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q38",
+     "num": 38,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika berhenti (waqaf) pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">أَحَدٌ</span>, hukum bacaan huruf dal-nya adalah..."
+      }
+     ],
+     "opts": [
+      "Qalqalah sughra",
+      "Mad thabi’i",
+      "Qalqalah kubra",
+      "Ikhfa haqiqi"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q39",
+     "num": 39,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hukum bacaan huruf dal pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">يَدْخُلُونَ</span> adalah..."
+      }
+     ],
+     "opts": [
+      "Qalqalah kubra",
+      "Mad wajib muttasil",
+      "Izhar halqi",
+      "Qalqalah sughra"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q40",
+     "num": 40,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nun dan mim bertasydid, seperti pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">إِنَّ</span>, wajib dibaca dengan..."
+      }
+     ],
+     "opts": [
+      "Mad 6 harakat",
+      "Qalqalah",
+      "Ghunnah (dengung) 2 harakat",
+      "Izhar jelas"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "F. Tafkhim dan Tarqiq",
+   "passage": null,
+   "items": [
+    {
+     "id": "q41",
+     "num": 41,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tafkhim artinya membaca dengan suara..."
+      }
+     ],
+     "opts": [
+      "Tebal",
+      "Tipis",
+      "Pendek",
+      "Panjang"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q42",
+     "num": 42,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Huruf-huruf yang selalu dibaca tebal (isti’la) adalah..."
+      }
+     ],
+     "opts": [
+      "Alif, ba, ta, tsa, jim, ha, dan dal",
+      "Mim, nun, lam, ra, wau, ya, dan hamzah",
+      "Kha, shad, dhad, ghain, tha, qaf, dan zha",
+      "Sin, syin, zai, fa, kaf, ha, dan ’ain"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q43",
+     "num": 43,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lam jalalah pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">رَسُولُ اللَّهِ</span> dibaca..."
+      }
+     ],
+     "opts": [
+      "Tafkhim (tebal)",
+      "Tarqiq (tipis)",
+      "Qalqalah",
+      "Ghunnah"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q44",
+     "num": 44,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lam jalalah pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">بِسْمِ اللَّهِ</span> dibaca..."
+      }
+     ],
+     "opts": [
+      "Tafkhim (tebal)",
+      "Qalqalah",
+      "Tarqiq (tipis)",
+      "Ghunnah"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q45",
+     "num": 45,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Huruf ra pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">رَبِّ</span> dibaca..."
+      }
+     ],
+     "opts": [
+      "Tarqiq (tipis)",
+      "Tafkhim (tebal)",
+      "Qalqalah",
+      "Ghunnah"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q46",
+     "num": 46,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Huruf ra pada <span class=\"ar\" lang=\"ar\" dir=\"rtl\">رِزْقًا</span> dibaca..."
+      }
+     ],
+     "opts": [
+      "Tafkhim (tebal)",
+      "Qalqalah",
+      "Tarqiq (tipis)",
+      "Ghunnah"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "G. Waqaf dan Adab Membaca Al-Qur’an",
+   "passage": null,
+   "items": [
+    {
+     "id": "q47",
+     "num": 47,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berhenti sejenak saat membaca Al-Qur’an untuk mengambil napas disebut..."
+      }
+     ],
+     "opts": [
+      "Washal",
+      "Waqaf",
+      "Mad",
+      "Ghunnah"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q48",
+     "num": 48,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tanda waqaf berupa huruf lam-alif (<span class=\"ar\" lang=\"ar\" dir=\"rtl\">لا</span>) berarti..."
+      }
+     ],
+     "opts": [
+      "Dilarang berhenti",
+      "Harus berhenti",
+      "Boleh berhenti atau lanjut",
+      "Berhenti lebih utama"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q49",
+     "num": 49,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tanda waqaf berupa huruf mim (<span class=\"ar\" lang=\"ar\" dir=\"rtl\">م</span>) berarti..."
+      }
+     ],
+     "opts": [
+      "Dilarang berhenti",
+      "Waqaf lazim (harus berhenti)",
+      "Washal lebih utama",
+      "Boleh berhenti atau lanjut"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q50",
+     "num": 50,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebelum membaca Al-Qur’an, kita dianjurkan membaca..."
+      }
+     ],
+     "opts": [
+      "Hamdalah saja",
+      "Ta’awuz, lalu basmalah",
+      "Takbir saja",
+      "Istigfar saja"
+     ],
+     "ans": 1
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

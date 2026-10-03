@@ -64,6 +64,14 @@
   "pdf": "pdf/Latihan_Soal_PAI_Kelas6_Bab3.pdf"
  },
  {
+  "id": "pai-tajwid",
+  "subject": "PAI dan Budi Pekerti",
+  "title": "Ilmu Tajwid",
+  "desc": "50 soal: makharijul huruf, nun sukun dan tanwin, mim sukun, mad, qalqalah, tafkhim dan tarqiq, waqaf.",
+  "count": 50,
+  "pdf": "pdf/Latihan_Soal_PAI_Kelas6_Tajwid.pdf"
+ },
+ {
   "id": "ppkn-norma-hak-kewajiban",
   "subject": "PPKn",
   "title": "Norma, Hak, dan Kewajiban (Versi 1)",
@@ -78,6 +86,14 @@
   "desc": "50 soal baru dengan topik yang sama: norma, UUD 1945, dan contoh sehari-hari.",
   "count": 50,
   "pdf": "pdf/Latihan_Soal_PPKn_Kelas6_Norma_Hak_Kewajiban_V2.pdf"
+ },
+ {
+  "id": "ppkn-norma-hak-kewajiban-v3",
+  "subject": "PPKn",
+  "title": "Norma, Hak, dan Kewajiban (Versi 3)",
+  "desc": "50 soal baru: norma, UUD 1945 Pasal 28, dan contoh kasus di rumah, sekolah, masyarakat.",
+  "count": 50,
+  "pdf": "pdf/Latihan_Soal_PPKn_Kelas6_Norma_Hak_Kewajiban_V3.pdf"
  },
  {
   "id": "bindo-wawancara",
@@ -102,5 +118,13 @@
   "desc": "Literasi berbasis teks: pilihan ganda, kompleks, isian, dan uraian.",
   "count": 27,
   "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6.pdf"
+ },
+ {
+  "id": "bing-kelas6",
+  "subject": "Bahasa Inggris",
+  "title": "English for Grade 6",
+  "desc": "50 soal: vocabulary, simple present, present continuous, simple past, dan 2 teks bacaan.",
+  "count": 50,
+  "pdf": "pdf/Latihan_Soal_BahasaInggris_Kelas6.pdf"
  }
 ]
