@@ -110,7 +110,7 @@
         bySubject[m.subject].push(m);
       });
       var root = h('div', null,
-        h('p', { class: 'intro' }, 'Pilih satu latihan. Kerjakan satu soal per layar: setelah memilih jawaban, kamu langsung tahu benar atau salah lalu lanjut. Nilai muncul setelah kamu menulis nama dan menekan Kirim di akhir.'));
+        h('p', { class: 'intro' }, 'Pilih satu latihan. Semua soal ada dalam satu halaman. Pada pilihan ganda, begitu kamu memilih, kamu langsung tahu benar atau salah dan jawabannya tidak bisa diubah. Nilai muncul setelah kamu menulis nama dan menekan Kirim di bagian bawah.'));
       order.forEach(function (subj) {
         root.append(h('h2', { class: 'subject' }, subj));
         var cards = h('div', { class: 'cards' });
@@ -151,13 +151,11 @@
     var key = 'lso:st:' + data.id;
     var st = STORE.get(key, null) || {};
     ['ans', 'marks', 'order'].forEach(function (k) { if (!st[k]) st[k] = {}; });
-    if (typeof st.idx !== 'number' || st.idx < 0) st.idx = 0;
     var items = [], secOf = {};
     data.sections.forEach(function (s) { s.items.forEach(function (q) { items.push(q); secOf[q.id] = s; }); });
-    if (st.idx > items.length) st.idx = items.length;
     var gradable = items.filter(function (q) { return q.type !== 'uraian'; });
     var cards = {};
-    var stage, resultBox, nextBtn, barFill, barText;
+    var stage, resultBox, barFill, barText;
 
     function save() {
       if (!st.started && Object.keys(st.ans).length) st.started = Date.now();
@@ -174,7 +172,6 @@
         default: return typeof a === 'string' && a.trim() !== '';
       }
     }
-    function canNext(q) { return q.type === 'uraian' ? true : answered(q); }
     function isCorrect(q) {
       var a = A(q);
       switch (q.type) {
@@ -200,8 +197,8 @@
       if (!st.order[q.id]) { st.order[q.id] = shuffled(n); save(); }
       return st.order[q.id];
     }
-    function onAnswerChanged(q) {
-      if (nextBtn) nextBtn.disabled = !canNext(q);
+    function onAnswerChanged() {
+      updateProgress();
     }
 
     /* ----- bagian soal ----- */
@@ -358,13 +355,13 @@
 
     /* ----- progres ----- */
     function updateProgress() {
-      var n = items.length;
       if (st.checked) {
         barFill.style.width = '100%';
         barText.textContent = 'Selesai';
       } else {
-        barFill.style.width = (100 * Math.min(st.idx, n) / n) + '%';
-        barText.textContent = st.idx >= n ? 'Semua soal sudah dijawab' : 'Soal ' + (st.idx + 1) + ' dari ' + n;
+        var n = gradable.filter(answered).length;
+        barFill.style.width = (100 * n / gradable.length) + '%';
+        barText.textContent = 'Terjawab ' + n + ' dari ' + gradable.length;
       }
     }
 
@@ -455,20 +452,17 @@
       oninput: function (ev) { STORE.set(NAME_KEY, ev.target.value); }
     });
 
-    function goNext() {
-      st.idx = Math.min(st.idx + 1, items.length);
-      save();
-      renderStage();
-      window.scrollTo(0, 0);
-    }
     function sendAll() {
       if (!(STORE.get(NAME_KEY, '') || '').trim()) {
-        window.alert('Tulis namamu dulu, ya. Nilai baru muncul setelah nama diisi dan tombol Kirim ditekan.');
+        window.alert('Tulis namamu dulu di kolom Nama, ya. Nilai baru muncul setelah nama diisi dan tombol Kirim ditekan.');
         nameInput.focus();
         return;
       }
+      var left = gradable.length - gradable.filter(answered).length;
+      if (left > 0 && !window.confirm('Masih ada ' + left + ' soal yang belum dijawab. Tetap kirim sekarang?')) return;
       st.checked = true; save();
       renderStage();
+      window.scrollTo(0, 0);
     }
     function reset() {
       if (!window.confirm('Hapus semua jawaban dan mulai dari awal?')) return;
@@ -476,29 +470,24 @@
       Quiz(data);
     }
 
-    function renderStep() {
-      var q = items[st.idx], sec = secOf[q.id];
-      if (sec.title) stage.append(h('h2', { class: 'sec-title', html: sec.title }));
-      if (sec.passage) stage.append(passageEl(sec.passage));
-      var card = build(q, false);
-      cards[q.id] = card;
-      stage.append(card);
-      var last = st.idx === items.length - 1;
-      nextBtn = h('button', { class: 'btn', type: 'button', onclick: goNext, disabled: !canNext(q) },
-        last ? 'Selesai mengerjakan →' : 'Soal berikutnya →');
-      stage.append(h('div', { class: 'bottom' }, nextBtn,
-        h('span', { class: 'hint' }, q.type === 'pg' ? 'Pilih satu jawaban. Setelah dipilih, jawaban tidak bisa diubah.' : 'Isi jawabanmu dulu untuk melanjutkan.')));
-    }
-    function renderFinish() {
-      nextBtn = null;
+    function renderWork() {
+      resultBox = null;
+      data.sections.forEach(function (sec) {
+        if (sec.title) stage.append(h('h2', { class: 'sec-title', html: sec.title }));
+        if (sec.passage) stage.append(passageEl(sec.passage));
+        sec.items.forEach(function (q) {
+          var c = build(q, false);
+          cards[q.id] = c;
+          stage.append(c);
+        });
+      });
       stage.append(h('div', { class: 'finish' },
-        h('h2', null, 'Semua soal sudah dijawab'),
+        h('h2', null, 'Sudah selesai mengerjakan?'),
         h('p', null, 'Tulis namamu, lalu tekan Kirim Jawaban. Nilai baru muncul setelah nama diisi dan tombol Kirim ditekan.'),
         h('label', { class: 'namefield' }, 'Nama:', nameInput),
         h('div', { class: 'bottom' }, h('button', { class: 'btn', type: 'button', onclick: sendAll }, 'Kirim Jawaban'))));
     }
     function renderReview() {
-      nextBtn = null;
       resultBox = h('div');
       stage.append(resultBox);
       data.sections.forEach(function (s) {
@@ -518,8 +507,7 @@
     function renderStage() {
       stage.replaceChildren();
       if (st.checked) renderReview();
-      else if (st.idx >= items.length) renderFinish();
-      else renderStep();
+      else renderWork();
       updateProgress();
     }
 
@@ -540,7 +528,7 @@
     });
     root.append(h('div', { class: 'controls' },
       h('label', null, cbShuffle, 'Acak urutan pilihan jawaban'),
-      h('span', { class: 'hint' }, 'Kerjakan satu per satu. Pilih jawaban, lihat benar atau salahnya, lalu lanjut. Nilai muncul setelah kamu menulis nama dan menekan Kirim.')));
+      h('span', { class: 'hint' }, 'Semua soal ada di halaman ini. Pada pilihan ganda, begitu kamu memilih, kamu langsung tahu benar atau salah dan jawabannya tidak bisa diubah. Nilai muncul setelah kamu menulis nama dan menekan Kirim di bagian bawah.')));
 
     barFill = h('div', { class: 'fill' });
     barText = h('span');
