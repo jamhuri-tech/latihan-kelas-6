@@ -40,6 +40,14 @@
   "pdf": "pdf/Latihan_Soal_Matematika_Kelas6_Keliling_dan_Luas.pdf"
  },
  {
+  "id": "mtk-waktu",
+  "subject": "Matematika",
+  "title": "Waktu",
+  "desc": "50 soal: satuan waktu, membaca jam (8 gambar jam analog), lama waktu, kalender, dan kecepatan.",
+  "count": 50,
+  "pdf": "pdf/Latihan_Soal_Matematika_Kelas6_Waktu.pdf"
+ },
+ {
   "id": "pai-bab1",
   "subject": "PAI dan Budi Pekerti",
   "title": "Bab 1 Belajar Al-Qur'an dan Hadis",

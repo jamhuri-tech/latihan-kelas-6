@@ -1,0 +1,1036 @@
+{
+ "id": "mtk-waktu",
+ "subject": "Matematika",
+ "title": "Waktu",
+ "desc": "50 soal: satuan waktu, membaca jam (8 gambar jam analog), lama waktu, kalender, dan kecepatan.",
+ "sections": [
+  {
+   "title": "A. Satuan Waktu dan Konversinya",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 jam sama dengan ... menit."
+      }
+     ],
+     "opts": [
+      "100",
+      "30",
+      "24",
+      "60"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 menit sama dengan ... detik."
+      }
+     ],
+     "opts": [
+      "100",
+      "60",
+      "30",
+      "3.600"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 jam sama dengan ... detik."
+      }
+     ],
+     "opts": [
+      "360",
+      "6.000",
+      "60",
+      "3.600"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 hari sama dengan ... jam."
+      }
+     ],
+     "opts": [
+      "12",
+      "24",
+      "60",
+      "7"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 tahun sama dengan ... bulan."
+      }
+     ],
+     "opts": [
+      "12",
+      "10",
+      "24",
+      "30"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 windu sama dengan ... tahun."
+      }
+     ],
+     "opts": [
+      "8",
+      "5",
+      "10",
+      "100"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 dasawarsa sama dengan ... tahun."
+      }
+     ],
+     "opts": [
+      "8",
+      "10",
+      "5",
+      "100"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 abad sama dengan ... tahun."
+      }
+     ],
+     "opts": [
+      "10",
+      "50",
+      "1.000",
+      "100"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 lustrum sama dengan ... tahun."
+      }
+     ],
+     "opts": [
+      "5",
+      "10",
+      "8",
+      "4"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "3 jam sama dengan ... menit."
+      }
+     ],
+     "opts": [
+      "120",
+      "300",
+      "180",
+      "360"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "240 detik sama dengan ... menit."
+      }
+     ],
+     "opts": [
+      "24",
+      "4",
+      "2",
+      "6"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "2 hari 6 jam sama dengan ... jam."
+      }
+     ],
+     "opts": [
+      "26",
+      "48",
+      "54",
+      "62"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "5 windu sama dengan ... tahun."
+      }
+     ],
+     "opts": [
+      "50",
+      "35",
+      "45",
+      "40"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 jam 15 menit sama dengan ... menit."
+      }
+     ],
+     "opts": [
+      "115",
+      "65",
+      "75",
+      "85"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 semester sama dengan ... bulan."
+      }
+     ],
+     "opts": [
+      "3",
+      "4",
+      "12",
+      "6"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "1 triwulan sama dengan ... bulan."
+      }
+     ],
+     "opts": [
+      "2",
+      "3",
+      "4",
+      "6"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "B. Membaca Jam",
+   "passage": null,
+   "items": [
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 1 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 1
+      },
+      {
+       "t": "p",
+       "html": "Jam pada Gambar 1 menunjukkan pukul..."
+      }
+     ],
+     "opts": [
+      "03.35",
+      "07.30",
+      "07.15",
+      "06.15"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 2 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 2
+      },
+      {
+       "t": "p",
+       "html": "Jam pada Gambar 2 menunjukkan pukul..."
+      }
+     ],
+     "opts": [
+      "06.45",
+      "09.15",
+      "10.30",
+      "09.30"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 3 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 3
+      },
+      {
+       "t": "p",
+       "html": "Jam pada Gambar 3 menunjukkan pukul..."
+      }
+     ],
+     "opts": [
+      "02.15",
+      "03.45",
+      "02.45",
+      "03.15"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 4 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 4
+      },
+      {
+       "t": "p",
+       "html": "Jam pada Gambar 4 menunjukkan..."
+      }
+     ],
+     "opts": [
+      "Pukul lima lewat sepuluh menit",
+      "Pukul sepuluh lewat lima menit",
+      "Pukul lima kurang sepuluh menit",
+      "Pukul dua lewat lima menit"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 5 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 5
+      },
+      {
+       "t": "p",
+       "html": "Sepuluh menit lagi, jam pada Gambar 5 akan menunjukkan pukul..."
+      }
+     ],
+     "opts": [
+      "12.00",
+      "11.00",
+      "12.10",
+      "10.50"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 6 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 6
+      },
+      {
+       "t": "p",
+       "html": "Jam pada Gambar 6 menunjukkan pukul 3 sore. Jika ditulis dengan format 24 jam menjadi pukul..."
+      }
+     ],
+     "opts": [
+      "13.00",
+      "03.00",
+      "15.00",
+      "17.00"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pukul 21.00 sama dengan pukul ... malam."
+      }
+     ],
+     "opts": [
+      "9",
+      "7",
+      "8",
+      "10"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pukul 07.45 dapat juga dibaca..."
+      }
+     ],
+     "opts": [
+      "Seperempat jam setelah pukul 7",
+      "Seperempat jam sebelum pukul 8",
+      "Setengah jam sebelum pukul 8",
+      "Tiga puluh menit setelah pukul 7"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pukul 13.20 jika ditulis dengan format 12 jam adalah..."
+      }
+     ],
+     "opts": [
+      "Pukul 03.20 sore",
+      "Pukul 01.20 pagi",
+      "Pukul 11.20 siang",
+      "Pukul 01.20 siang"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pukul 00.30 termasuk waktu..."
+      }
+     ],
+     "opts": [
+      "Siang hari",
+      "Dini hari",
+      "Sore hari",
+      "Pagi hari"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "C. Lama Waktu dan Selisih Waktu",
+   "passage": null,
+   "items": [
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rina mulai belajar pukul 15.30 dan selesai pukul 17.00. Lama belajar Rina adalah..."
+      }
+     ],
+     "opts": [
+      "1 jam 30 menit",
+      "1 jam 20 menit",
+      "2 jam",
+      "1 jam 45 menit"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ayah berangkat kerja pukul 06.45 dan tiba pukul 08.15. Lama perjalanan Ayah adalah..."
+      }
+     ],
+     "opts": [
+      "1 jam 30 menit",
+      "1 jam 15 menit",
+      "2 jam",
+      "1 jam 45 menit"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Film dimulai pukul 19.30 dan berdurasi 2 jam 15 menit. Film selesai pukul..."
+      }
+     ],
+     "opts": [
+      "21.15",
+      "21.45",
+      "22.15",
+      "21.30"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pelajaran dimulai pukul 07.00. Satu jam pelajaran lamanya 35 menit. Setelah 2 jam pelajaran, waktu menunjukkan pukul..."
+      }
+     ],
+     "opts": [
+      "08.00",
+      "08.10",
+      "07.35",
+      "08.35"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q31",
+     "num": 31,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ibu memasak selama 45 menit dan selesai pukul 10.20. Ibu mulai memasak pukul..."
+      }
+     ],
+     "opts": [
+      "09.45",
+      "09.25",
+      "10.05",
+      "09.35"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q32",
+     "num": 32,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bus berangkat pukul 22.30 dan tiba keesokan harinya pukul 04.45. Lama perjalanan bus adalah..."
+      }
+     ],
+     "opts": [
+      "5 jam 45 menit",
+      "6 jam 15 menit",
+      "6 jam 45 menit",
+      "18 jam 15 menit"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q33",
+     "num": 33,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nina membaca buku 25 menit setiap hari. Dalam seminggu, Nina membaca selama ... menit."
+      }
+     ],
+     "opts": [
+      "175",
+      "150",
+      "125",
+      "200"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q34",
+     "num": 34,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Waktu istirahat berlangsung 20 menit dan dimulai pukul 09.40. Istirahat selesai pukul..."
+      }
+     ],
+     "opts": [
+      "10.10",
+      "09.50",
+      "10.20",
+      "10.00"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q35",
+     "num": 35,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 7 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 7
+      },
+      {
+       "t": "p",
+       "html": "Jam pada Gambar 7 menunjukkan waktu mulai (kiri) dan waktu selesai (kanan) kegiatan Dika di pagi hari. Lama kegiatan Dika adalah..."
+      }
+     ],
+     "opts": [
+      "1 jam 25 menit",
+      "2 jam 35 menit",
+      "1 jam 35 menit",
+      "1 jam 55 menit"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q36",
+     "num": 36,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 8 berikut."
+      },
+      {
+       "t": "fig",
+       "n": 8
+      },
+      {
+       "t": "p",
+       "html": "Jam pada Gambar 8 menunjukkan waktu mulai (kiri) dan waktu selesai (kanan) pertandingan sepak bola pada siang hari. Lama pertandingan adalah..."
+      }
+     ],
+     "opts": [
+      "1 jam 55 menit",
+      "2 jam 5 menit",
+      "1 jam 45 menit",
+      "1 jam 15 menit"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q37",
+     "num": 37,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pak Budi bekerja 8 jam sehari, tidak termasuk istirahat 1 jam. Jika ia mulai bekerja pukul 07.30, ia pulang pukul..."
+      }
+     ],
+     "opts": [
+      "16.30",
+      "15.30",
+      "17.30",
+      "14.30"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q38",
+     "num": 38,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lomba lari berlangsung selama 1 jam 20 menit dan dimulai pukul 06.50. Lomba selesai pukul..."
+      }
+     ],
+     "opts": [
+      "08.20",
+      "08.00",
+      "07.20",
+      "08.10"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q39",
+     "num": 39,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Selisih waktu antara pukul 08.45 dan pukul 11.10 adalah..."
+      }
+     ],
+     "opts": [
+      "2 jam 35 menit",
+      "3 jam 25 menit",
+      "2 jam 25 menit",
+      "2 jam 15 menit"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q40",
+     "num": 40,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dina tidur pukul 21.30 dan bangun pukul 05.00. Lama tidur Dina adalah..."
+      }
+     ],
+     "opts": [
+      "8 jam",
+      "7 jam",
+      "8 jam 30 menit",
+      "7 jam 30 menit"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "D. Kalender dan Tanggal",
+   "passage": null,
+   "items": [
+    {
+     "id": "q41",
+     "num": 41,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bulan yang memiliki 30 hari adalah..."
+      }
+     ],
+     "opts": [
+      "Januari",
+      "Maret",
+      "April",
+      "Agustus"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q42",
+     "num": 42,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tahun kabisat memiliki ... hari."
+      }
+     ],
+     "opts": [
+      "366",
+      "365",
+      "364",
+      "360"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q43",
+     "num": 43,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada tahun kabisat, bulan Februari memiliki ... hari."
+      }
+     ],
+     "opts": [
+      "28",
+      "30",
+      "31",
+      "29"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q44",
+     "num": 44,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika tanggal 3 Mei hari Rabu, maka tanggal 10 Mei jatuh pada hari..."
+      }
+     ],
+     "opts": [
+      "Rabu",
+      "Kamis",
+      "Selasa",
+      "Jumat"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q45",
+     "num": 45,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika tanggal 1 April hari Senin, maka tanggal 30 April jatuh pada hari..."
+      }
+     ],
+     "opts": [
+      "Senin",
+      "Rabu",
+      "Selasa",
+      "Minggu"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q46",
+     "num": 46,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Selisih tanggal 20 April ke tanggal 5 Mei pada tahun yang sama adalah ... hari."
+      }
+     ],
+     "opts": [
+      "14",
+      "16",
+      "15",
+      "25"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "E. Waktu, Jarak, dan Kecepatan",
+   "passage": null,
+   "items": [
+    {
+     "id": "q47",
+     "num": 47,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah mobil melaju dengan kecepatan 60 km/jam. Waktu yang diperlukan untuk menempuh jarak 180 km adalah..."
+      }
+     ],
+     "opts": [
+      "2 jam",
+      "3 jam",
+      "4 jam",
+      "30 menit"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q48",
+     "num": 48,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Andi bersepeda dengan kecepatan 12 km/jam selama 30 menit. Jarak yang ditempuh Andi adalah..."
+      }
+     ],
+     "opts": [
+      "12 km",
+      "6 km",
+      "3 km",
+      "24 km"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q49",
+     "num": 49,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kereta berangkat pukul 08.00 dengan kecepatan 80 km/jam. Jika jarak tujuan 240 km, kereta tiba pukul..."
+      }
+     ],
+     "opts": [
+      "10.00",
+      "12.00",
+      "11.00",
+      "09.30"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q50",
+     "num": 50,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah sekolah berdiri 24 tahun yang lalu. Usia sekolah tersebut sama dengan ... windu."
+      }
+     ],
+     "opts": [
+      "3",
+      "2",
+      "4",
+      "6"
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {
+  "1": {
+   "src": "fig/98f2a8afb1.svg",
+   "caption": "Jam dinding"
+  },
+  "2": {
+   "src": "fig/e29c55b45a.svg",
+   "caption": "Jam dinding"
+  },
+  "3": {
+   "src": "fig/418d56f140.svg",
+   "caption": "Jam dinding"
+  },
+  "4": {
+   "src": "fig/6b16663fce.svg",
+   "caption": "Jam dinding"
+  },
+  "5": {
+   "src": "fig/13183d5b3e.svg",
+   "caption": "Jam dinding"
+  },
+  "6": {
+   "src": "fig/fde4ea140b.svg",
+   "caption": "Jam dinding"
+  },
+  "7": {
+   "src": "fig/54a7d93e07.svg",
+   "caption": "Jam mulai dan jam selesai kegiatan Dika"
+  },
+  "8": {
+   "src": "fig/abf7224347.svg",
+   "caption": "Jam mulai dan jam selesai pertandingan"
+  }
+ }
+}

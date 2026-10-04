@@ -137,3 +137,9 @@ textarea.txt { min-height: 5.5em; resize: vertical; }
 
 .ar { font-family: "Amiri", "Noto Naskh Arabic", "Geeza Pro", "Al Bayan", "Traditional Arabic", "Arabic Typesetting", serif;
   font-size: 1.45em; line-height: 1.9; direction: rtl; unicode-bidi: isolate; padding: 0 .12em; white-space: nowrap; }
+
+.finish { background: #fff; border: 2px solid var(--blue); border-radius: var(--radius); padding: 18px 20px; margin: 18px 0; }
+.finish h2 { margin: 0 0 6px; color: var(--blue-dark); font-size: 1.3rem; }
+.finish .namefield { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 12px 0 4px; }
+.finish .name { font: inherit; border: 2px solid var(--blue); border-radius: 8px; padding: 6px 12px; width: 16em; max-width: 100%; }
+.stage .bottom { align-items: center; }
