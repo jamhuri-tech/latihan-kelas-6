@@ -120,6 +120,14 @@
   "pdf": "pdf/Latihan_Soal_BahasaIndonesia_Kelas6_Wawancara_V2.pdf"
  },
  {
+  "id": "bindo-majas",
+  "subject": "Bahasa Indonesia",
+  "title": "Majas",
+  "desc": "50 soal: simile, metafora, personifikasi, hiperbola, litotes, ironi, eufemisme, dan repetisi.",
+  "count": 50,
+  "pdf": "pdf/Latihan_Soal_BahasaIndonesia_Kelas6_Majas.pdf"
+ },
+ {
   "id": "bindo-tka",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA",

@@ -1,0 +1,962 @@
+{
+ "id": "bindo-majas",
+ "subject": "Bahasa Indonesia",
+ "title": "Majas",
+ "desc": "50 soal: simile, metafora, personifikasi, hiperbola, litotes, ironi, eufemisme, dan repetisi.",
+ "sections": [
+  {
+   "title": "A. Pengertian dan Jenis Majas",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Gaya bahasa yang digunakan untuk mengungkapkan sesuatu secara kias agar bahasa lebih indah dan hidup disebut..."
+      }
+     ],
+     "opts": [
+      "Kalimat",
+      "Paragraf",
+      "Majas",
+      "Judul"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tujuan menggunakan majas dalam tulisan adalah..."
+      }
+     ],
+     "opts": [
+      "Membuat bahasa lebih indah, hidup, dan menarik",
+      "Membuat tulisan menjadi lebih panjang",
+      "Menyulitkan pembaca",
+      "Menghindari penggunaan kata benda"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas yang membandingkan dua hal secara langsung dengan kata seperti, bagai, atau laksana disebut majas..."
+      }
+     ],
+     "opts": [
+      "Simile (perumpamaan)",
+      "Metafora",
+      "Hiperbola",
+      "Litotes"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas yang membandingkan dua hal secara langsung tanpa menggunakan kata pembanding disebut majas..."
+      }
+     ],
+     "opts": [
+      "Simile",
+      "Ironi",
+      "Metafora",
+      "Repetisi"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas yang memberi sifat atau perbuatan manusia kepada benda mati atau hewan disebut majas..."
+      }
+     ],
+     "opts": [
+      "Hiperbola",
+      "Eufemisme",
+      "Personifikasi",
+      "Litotes"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas yang menghaluskan kata yang dianggap kasar atau kurang sopan disebut majas..."
+      }
+     ],
+     "opts": [
+      "Hiperbola",
+      "Eufemisme",
+      "Ironi",
+      "Repetisi"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "B. Majas Simile (Perumpamaan)",
+   "passage": null,
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata pembanding yang digunakan dalam majas simile adalah..."
+      }
+     ],
+     "opts": [
+      "Adalah dan ialah",
+      "Seperti, bagai, dan laksana",
+      "Karena dan sebab",
+      "Walaupun dan meskipun"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Wajahnya berseri-seri bagai bulan purnama” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Metafora",
+      "Personifikasi",
+      "Simile",
+      "Litotes"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Larinya laksana kijang di padang rumput” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Metafora",
+      "Simile",
+      "Eufemisme",
+      "Repetisi"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang mengandung majas simile adalah..."
+      }
+     ],
+     "opts": [
+      "Dialah bunga desa kami.",
+      "Mentari tersenyum menyapa pagi.",
+      "Suaranya merdu seperti buluh perindu.",
+      "Aku sudah menunggu seribu tahun."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata pembanding yang tepat untuk melengkapi kalimat “Sikapnya lembut ... sutra” adalah..."
+      }
+     ],
+     "opts": [
+      "Adalah",
+      "Bagai",
+      "Ialah",
+      "Sebab"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada kalimat “Tubuhnya kuat bagai baja”, hal yang dibandingkan dengan baja adalah..."
+      }
+     ],
+     "opts": [
+      "Kalimatnya",
+      "Warna bajanya",
+      "Tubuhnya",
+      "Tempatnya"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "C. Majas Metafora",
+   "passage": null,
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Ayah adalah matahari bagi keluarga kami” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Simile",
+      "Litotes",
+      "Ironi",
+      "Metafora"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang mengandung majas metafora adalah..."
+      }
+     ],
+     "opts": [
+      "Buku itu bagaikan jendela dunia.",
+      "Buku itu tebal sekali.",
+      "Buku itu jatuh dari meja.",
+      "Buku adalah jendela dunia."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Singa adalah raja hutan” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Simile",
+      "Hiperbola",
+      "Metafora",
+      "Repetisi"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Kakek seperti pohon besar yang meneduhkan” jika diubah menjadi metafora menjadi..."
+      }
+     ],
+     "opts": [
+      "Kakek bagai pohon besar yang meneduhkan.",
+      "Kakek duduk di bawah pohon besar.",
+      "Kakek adalah pohon besar yang meneduhkan.",
+      "Pohon besar itu meneduhkan kakek."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada kalimat “Perpustakaan adalah gudang ilmu”, makna “gudang ilmu” adalah..."
+      }
+     ],
+     "opts": [
+      "Gudang untuk menyimpan barang bekas",
+      "Tempat yang menyimpan banyak ilmu",
+      "Tempat menjual ilmu",
+      "Ruangan yang selalu kosong"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada kalimat “Rina adalah bintang kelas”, makna “bintang kelas” adalah..."
+      }
+     ],
+     "opts": [
+      "Siswa yang suka melihat bintang",
+      "Siswa yang paling tinggi",
+      "Siswa yang paling lama di kelas",
+      "Siswa yang menonjol atau berprestasi"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "D. Majas Personifikasi",
+   "passage": null,
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Angin berbisik di telingaku” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Simile",
+      "Personifikasi",
+      "Hiperbola",
+      "Litotes"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Ombak berkejar-kejaran di tepi pantai” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Metafora",
+      "Ironi",
+      "Repetisi",
+      "Personifikasi"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang mengandung majas personifikasi adalah..."
+      }
+     ],
+     "opts": [
+      "Bulan bersinar terang.",
+      "Bulan tersenyum menyapa malam.",
+      "Bulan bagaikan lampu raksasa.",
+      "Bulan adalah lampu malam."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada kalimat “Pohon-pohon menari mengikuti tiupan angin”, sifat manusia yang diberikan kepada pohon adalah..."
+      }
+     ],
+     "opts": [
+      "Tumbuh",
+      "Menari",
+      "Berdaun",
+      "Berakar"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada kalimat “Mentari malu-malu mengintip dari balik awan”, sifat manusia yang diberikan kepada mentari adalah..."
+      }
+     ],
+     "opts": [
+      "Bersinar dan panas",
+      "Terbit di timur",
+      "Berwarna kuning",
+      "Malu dan mengintip"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan yang benar tentang kalimat “Sungai itu menangis karena penuh sampah” adalah..."
+      }
+     ],
+     "opts": [
+      "Sungai dibandingkan dengan air mata",
+      "Sungai diberi sifat manusia, yaitu menangis",
+      "Sungai disindir dengan kata kebalikan",
+      "Sungai digambarkan dengan sangat berlebihan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat berikut yang BUKAN merupakan personifikasi adalah..."
+      }
+     ],
+     "opts": [
+      "Awan menangis di atas desa.",
+      "Bulan menjaga malam yang sepi.",
+      "Lampu jalan berkedip mengantuk.",
+      "Ibu memasak di dapur."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "E. Majas Hiperbola",
+   "passage": null,
+   "items": [
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas hiperbola digunakan untuk..."
+      }
+     ],
+     "opts": [
+      "Merendahkan diri sendiri",
+      "Menyindir dengan kebalikan",
+      "Menghaluskan kata yang kasar",
+      "Menyatakan sesuatu dengan sangat berlebihan agar kesannya lebih kuat"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Suara petir itu memekakkan telinga seluruh dunia” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Hiperbola",
+      "Litotes",
+      "Simile",
+      "Eufemisme"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Aku sudah menunggumu seribu tahun” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Hiperbola",
+      "Metafora",
+      "Ironi",
+      "Repetisi"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang mengandung majas hiperbola adalah..."
+      }
+     ],
+     "opts": [
+      "Tangisnya terdengar pelan.",
+      "Ia menangis seperti anak kecil.",
+      "Ia menangis karena sedih.",
+      "Tangisnya membanjiri seluruh kota."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Mendengar kabar itu, jantungku hampir copot” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Litotes",
+      "Simile",
+      "Ironi",
+      "Hiperbola"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q31",
+     "num": 31,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat berikut yang TIDAK mengandung majas hiperbola adalah..."
+      }
+     ],
+     "opts": [
+      "Tumpukan tugas itu setinggi langit.",
+      "Udara pagi ini terasa sejuk.",
+      "Air matanya mengalir menjadi lautan.",
+      "Panasnya matahari membakar seluruh dunia."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "F. Majas Litotes, Ironi, Eufemisme, dan Repetisi",
+   "passage": null,
+   "items": [
+    {
+     "id": "q32",
+     "num": 32,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas litotes adalah majas yang..."
+      }
+     ],
+     "opts": [
+      "Melebih-lebihkan kenyataan",
+      "Mengulang kata untuk penekanan",
+      "Merendahkan diri atau mengecilkan kenyataan",
+      "Memberi sifat manusia pada benda"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q33",
+     "num": 33,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Orang kaya berkata, “Silakan mampir ke gubuk kami.” Kalimat tersebut mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Litotes",
+      "Hiperbola",
+      "Ironi",
+      "Personifikasi"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q34",
+     "num": 34,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Seseorang memberi hadiah besar sambil berkata, “Terimalah bingkisan kecil ini.” Ucapan itu bermaksud..."
+      }
+     ],
+     "opts": [
+      "Merendahkan diri",
+      "Menyindir penerima",
+      "Melebih-lebihkan pemberian",
+      "Mengulang kata-kata"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q35",
+     "num": 35,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas ironi adalah majas yang..."
+      }
+     ],
+     "opts": [
+      "Membandingkan dua hal tanpa kata pembanding",
+      "Menghaluskan kata yang kasar",
+      "Memberi sifat manusia pada hewan",
+      "Menyindir dengan mengatakan kebalikan dari kenyataan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q36",
+     "num": 36,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Wah, rajin sekali kamu, sudah pukul sembilan baru bangun!” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Ironi",
+      "Simile",
+      "Litotes",
+      "Repetisi"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q37",
+     "num": 37,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Bagus sekali tulisanmu, sampai tidak bisa dibaca” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Ironi",
+      "Hiperbola",
+      "Metafora",
+      "Eufemisme"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q38",
+     "num": 38,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas eufemisme digunakan untuk..."
+      }
+     ],
+     "opts": [
+      "Menyindir seseorang",
+      "Melebih-lebihkan keadaan",
+      "Menghaluskan kata agar lebih sopan",
+      "Membandingkan dua benda"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q39",
+     "num": 39,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Penghalus kata “buta” yang termasuk eufemisme adalah..."
+      }
+     ],
+     "opts": [
+      "Tunanetra",
+      "Tunarungu",
+      "Tunawicara",
+      "Tunadaksa"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q40",
+     "num": 40,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Kakek telah berpulang ke rahmatullah” merupakan penghalus kata “mati”. Majas tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Hiperbola",
+      "Litotes",
+      "Ironi",
+      "Eufemisme"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q41",
+     "num": 41,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas repetisi adalah majas yang..."
+      }
+     ],
+     "opts": [
+      "Mengulang kata atau frasa untuk memberi penekanan",
+      "Menyindir dengan kebalikan",
+      "Merendahkan diri sendiri",
+      "Menghaluskan kata yang kasar"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q42",
+     "num": 42,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Belajar, belajar, dan belajar, itulah kunci kesuksesan” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Repetisi",
+      "Simile",
+      "Eufemisme",
+      "Litotes"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q43",
+     "num": 43,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Jangan menyerah, jangan putus asa, jangan berhenti berusaha!” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Metafora",
+      "Personifikasi",
+      "Repetisi",
+      "Ironi"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "G. Campuran Majas",
+   "passage": null,
+   "items": [
+    {
+     "id": "q44",
+     "num": 44,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pasangan kalimat dan majas yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "“Adik tidur seperti bayi” - metafora",
+      "“Hujan menari di atas genting” - personifikasi",
+      "“Rajin sekali, pukul sepuluh baru bangun” - litotes",
+      "“Suaranya menggelegar membelah langit” - eufemisme"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q45",
+     "num": 45,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Kakak adalah pelita rumah kami” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Metafora",
+      "Simile",
+      "Hiperbola",
+      "Eufemisme"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q46",
+     "num": 46,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan yang benar tentang perbedaan simile dan metafora adalah..."
+      }
+     ],
+     "opts": [
+      "Metafora memakai kata seperti dan bagai",
+      "Simile tidak membandingkan dua hal",
+      "Simile memakai kata pembanding, metafora tidak",
+      "Keduanya selalu memakai kata laksana"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q47",
+     "num": 47,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Gedung itu menjulang sampai menembus langit” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Hiperbola",
+      "Litotes",
+      "Personifikasi",
+      "Repetisi"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "H. Bacalah teks berikut untuk menjawab soal nomor 48 sampai 50.",
+   "passage": {
+    "title": "Pagi yang Indah",
+    "paras": [
+     "Pagi itu, mentari tersenyum ramah menyapa desa kami. Embun menari di ujung daun. Aku melangkah ringan bagai kapas tertiup angin."
+    ]
+   },
+   "items": [
+    {
+     "id": "q48",
+     "num": 48,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas pada kalimat pertama, “mentari tersenyum ramah menyapa desa kami”, adalah..."
+      }
+     ],
+     "opts": [
+      "Simile",
+      "Hiperbola",
+      "Personifikasi",
+      "Ironi"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q49",
+     "num": 49,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas pada kalimat ketiga, “Aku melangkah ringan bagai kapas tertiup angin”, adalah..."
+      }
+     ],
+     "opts": [
+      "Metafora",
+      "Litotes",
+      "Repetisi",
+      "Simile"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q50",
+     "num": 50,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata pembanding pada kalimat ketiga teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Ringan",
+      "Bagai",
+      "Kapas",
+      "Angin"
+     ],
+     "ans": 1
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
