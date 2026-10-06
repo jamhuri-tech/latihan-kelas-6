@@ -1,0 +1,605 @@
+{
+ "id": "tka-bahasa-indonesia-p2",
+ "subject": "Bahasa Indonesia",
+ "title": "Try Out Persiapan TKA (Paket 2)",
+ "desc": "30 soal literasi: 3 teks (informasi, cerita, pengumuman) dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk menjawab soal nomor 1 sampai 9.",
+   "passage": {
+    "title": "Teks 1: Hutan Mangrove, Penjaga Pantai",
+    "paras": [
+     "Hutan mangrove adalah hutan yang tumbuh di daerah pantai berlumpur yang terkena air pasang surut. Tumbuhan mangrove memiliki akar napas yang menyembul ke atas lumpur sehingga dapat bernapas meskipun terendam air asin.",
+     "Hutan mangrove memiliki banyak manfaat. Akarnya yang kuat menahan gelombang sehingga pantai tidak mudah terkikis. Hutan ini juga menjadi tempat berlindung dan berkembang biak bagi ikan, udang, dan kepiting. Selain itu, mangrove menyerap karbon dioksida dalam jumlah besar sehingga membantu menjaga udara tetap bersih.",
+     "Sayangnya, luas hutan mangrove terus berkurang karena ditebang untuk dijadikan tambak dan permukiman. Padahal, jika mangrove rusak, abrasi pantai akan semakin parah dan hasil tangkapan nelayan akan menurun.",
+     "Untuk menjaganya, masyarakat dapat menanam bibit mangrove, tidak menebang pohonnya sembarangan, dan tidak membuang sampah plastik ke laut. Dengan begitu, pantai kita tetap lestari."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ide pokok paragraf pertama teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Manfaat hutan mangrove bagi nelayan",
+      "Penyebab rusaknya hutan mangrove",
+      "Pengertian hutan mangrove dan ciri akarnya",
+      "Cara menanam bibit mangrove"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Akar napas pada tumbuhan mangrove berfungsi untuk..."
+      }
+     ],
+     "opts": [
+      "Menyerap air tawar dari lumpur",
+      "Menahan gelombang laut besar",
+      "Menjadi tempat bertelur ikan",
+      "Membantu tumbuhan bernapas saat terendam air asin"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna kata <em>terkikis</em> pada kalimat “pantai tidak mudah terkikis” adalah..."
+      }
+     ],
+     "opts": [
+      "Tertutup air pasang",
+      "Bertambah luas",
+      "Menjadi berlumpur",
+      "Berkurang sedikit demi sedikit"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua manfaat hutan mangrove menurut teks."
+      }
+     ],
+     "opts": [
+      "Menahan gelombang agar pantai tidak mudah terkikis",
+      "Tempat berkembang biak ikan, udang, dan kepiting",
+      "Menyerap karbon dioksida",
+      "Menghasilkan air tawar untuk minum"
+     ],
+     "answers": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "bs",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi teks (Benar) atau tidak (Salah)."
+      }
+     ],
+     "stmts": [
+      "Mangrove tumbuh di pantai berlumpur.",
+      "Luas hutan mangrove bertambah setiap tahun.",
+      "Penebangan mangrove untuk tambak dapat merugikan nelayan.",
+      "Mangrove tidak dapat hidup di air asin."
+     ],
+     "answers": [
+      true,
+      false,
+      true,
+      false
+     ]
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Penyebab berkurangnya luas hutan mangrove menurut teks adalah..."
+      }
+     ],
+     "opts": [
+      "Ditebang untuk dijadikan tambak dan permukiman",
+      "Terkena air pasang surut",
+      "Dimakan ikan dan kepiting",
+      "Ditanami bibit baru"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tujuan penulis menulis teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Menghibur pembaca dengan cerita lucu",
+      "Mempromosikan hasil tambak",
+      "Memberi informasi dan mengajak pembaca menjaga mangrove",
+      "Menceritakan pengalaman berwisata"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "self",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebutkan satu cara masyarakat menjaga hutan mangrove menurut teks."
+      }
+     ],
+     "answer": "Menanam bibit mangrove / tidak menebang pohonnya sembarangan / tidak membuang sampah plastik ke laut (salah satu).",
+     "label": "Isian 8"
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Akibat yang terjadi jika hutan mangrove rusak adalah..."
+      }
+     ],
+     "opts": [
+      "Pantai semakin luas dan bersih",
+      "Abrasi pantai semakin parah dan hasil tangkapan nelayan menurun",
+      "Ikan semakin banyak berkembang biak",
+      "Udara semakin bersih"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk menjawab soal nomor 10 sampai 18.",
+   "passage": {
+    "title": "Teks 2: Layang-Layang Raka",
+    "paras": [
+     "Sore itu, Raka dan Dimas bermain layang-layang di lapangan dekat sekolah. Layang-layang Dimas besar dan berwarna-warni, sedangkan layang-layang Raka kecil dan buatan sendiri dari kertas bekas dan lidi.",
+     "“Layang-layangmu jelek, pasti tidak bisa terbang tinggi,” ejek Dimas sambil tertawa. Raka hanya diam. Ia menunduk, tetapi tetap menarik benangnya dengan hati-hati.",
+     "Angin berembus kencang. Layang-layang Raka perlahan naik, makin lama makin tinggi. Sebaliknya, layang-layang Dimas terlalu berat. Benangnya putus dan layang-layang itu jatuh ke semak berduri.",
+     "Dimas menangis. Raka segera menghampiri dan membantu mengambilnya, walaupun tangannya tergores duri. “Tenang, kita perbaiki bersama,” katanya. Dimas merasa malu. “Maafkan aku, Raka. Layang-layangmu ternyata yang terbaik,” ucapnya pelan. Raka tersenyum dan mengangguk."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Watak Raka dalam cerita tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Sombong dan pemarah",
+      "Sabar dan suka menolong",
+      "Pemalas dan penakut",
+      "Pelit dan iri hati"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Latar tempat cerita tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Lapangan dekat sekolah",
+      "Halaman rumah Raka",
+      "Taman kota",
+      "Pantai"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Latar waktu cerita tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Sore hari",
+      "Pagi hari",
+      "Siang hari",
+      "Malam hari"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Konflik (masalah) dalam cerita tersebut dimulai ketika..."
+      }
+     ],
+     "opts": [
+      "Raka kehilangan benangnya",
+      "Dimas membeli layang-layang baru",
+      "Dimas mengejek layang-layang buatan Raka",
+      "Raka marah kepada Dimas"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Layang-layang Dimas jatuh ke semak berduri karena..."
+      }
+     ],
+     "opts": [
+      "Dilempar oleh Raka",
+      "Terlalu berat sehingga benangnya putus",
+      "Tertiup angin yang pelan",
+      "Terkena hujan deras"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua tindakan Raka yang menunjukkan sifat baik."
+      }
+     ],
+     "opts": [
+      "Tidak membalas ejekan dengan marah",
+      "Membantu mengambil layang-layang Dimas",
+      "Mau memaafkan Dimas",
+      "Menertawakan Dimas yang menangis"
+     ],
+     "answers": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Amanat cerita tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Layang-layang besar pasti terbang paling tinggi",
+      "Barang buatan sendiri selalu lebih baik",
+      "Jangan meremehkan orang lain; sikap sabar dan suka menolong lebih berharga",
+      "Kita harus membalas orang yang mengejek"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "self",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagaimana perasaan Dimas di akhir cerita? Jelaskan alasannya."
+      }
+     ],
+     "answer": "Contoh: Dimas merasa malu dan menyesal karena sudah mengejek Raka, padahal Raka tetap menolongnya.",
+     "label": "Isian 17"
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "uraian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurutmu, apakah sikap Raka patut dicontoh? Jelaskan alasanmu dalam 2–3 kalimat!"
+      }
+     ],
+     "answer": "Jawaban terbuka. Kriteria: menyatakan pendapat disertai alasan yang logis dan berkaitan dengan isi cerita (misalnya sabar, tidak membalas dendam, suka menolong).",
+     "label": "Uraian 18"
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk menjawab soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 3: Pengumuman",
+    "paras": [
+     "<strong>PENGUMUMAN</strong><br> <strong>LOMBA KEBERSIHAN KELAS</strong>",
+     "Dalam rangka Pekan Sekolah Sehat, panitia mengadakan lomba kebersihan kelas untuk kelas IV, V, dan VI.",
+     "Hari, tanggal : Senin, 19 Oktober<br> Waktu : pukul 07.00 – 09.00<br> Tempat : ruang kelas masing-masing<br> Penilaian : kebersihan lantai, kerapian meja, dan keindahan tanaman kelas<br> Hadiah : piala dan piagam untuk tiga kelas terbaik",
+     "Setiap kelas wajib menyerahkan daftar nama petugas piket paling lambat hari Jumat, 16 Oktober, kepada Bu Rina, wali kelas VI.<br> <em>Panitia</em>"
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lomba kebersihan kelas dilaksanakan pada..."
+      }
+     ],
+     "opts": [
+      "Jumat, 16 Oktober pukul 07.00 sampai 09.00",
+      "Senin, 19 Oktober pukul 09.00 sampai 11.00",
+      "Senin, 16 Oktober pukul 07.00 sampai 10.00",
+      "Senin, 19 Oktober pukul 07.00 sampai 09.00"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lama lomba kebersihan kelas tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "2 jam",
+      "1 jam",
+      "3 jam",
+      "4 jam"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berikut ini yang BUKAN merupakan penilaian lomba adalah..."
+      }
+     ],
+     "opts": [
+      "Kebersihan lantai",
+      "Jumlah siswa dalam kelas",
+      "Kerapian meja",
+      "Keindahan tanaman kelas"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Daftar nama petugas piket paling lambat diserahkan pada..."
+      }
+     ],
+     "opts": [
+      "Senin, 19 Oktober",
+      "Jumat, 16 Oktober",
+      "Kamis, 15 Oktober",
+      "Sabtu, 17 Oktober"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Daftar nama petugas piket diserahkan kepada <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Bu Rina",
+     "accept": [
+      "bu rina",
+      "ibu rina",
+      "rina",
+      "bu rina wali kelas vi"
+     ],
+     "label": "Isian 23"
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "bs",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi pengumuman (Benar) atau tidak (Salah)."
+      }
+     ],
+     "stmts": [
+      "Lomba diikuti oleh kelas I sampai VI.",
+      "Hadiah lomba berupa piala dan piagam.",
+      "Lomba dilaksanakan di lapangan sekolah.",
+      "Pengumuman ini dibuat oleh panitia."
+     ],
+     "answers": [
+      false,
+      true,
+      false,
+      true
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Soal Kebahasaan",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sinonim kata <em>lestari</em> adalah..."
+      }
+     ],
+     "opts": [
+      "Terjaga",
+      "Rusak",
+      "Hilang",
+      "Berubah"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Antonim kata <em>berkurang</em> adalah..."
+      }
+     ],
+     "opts": [
+      "Menurun",
+      "Mengecil",
+      "Bertambah",
+      "Menyusut"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang efektif adalah..."
+      }
+     ],
+     "opts": [
+      "Para siswa mengerjakan tugas dengan tekun.",
+      "Para siswa-siswa mengerjakan tugas dengan tekun.",
+      "Para siswa pada mengerjakan tugas dengan tekun.",
+      "Semua para siswa mengerjakan tugas-tugas dengan tekun."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang menggunakan huruf kapital dan tanda baca dengan tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Kemarin Ibu membeli apel jeruk dan mangga di pasar besar.",
+      "Kemarin, Ibu membeli apel, jeruk, dan mangga di Pasar Besar.",
+      "kemarin, Ibu membeli apel, jeruk, dan mangga di Pasar Besar.",
+      "Kemarin, ibu membeli Apel, jeruk, dan Mangga di pasar Besar."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Suaranya merdu bagai buluh perindu” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Metafora",
+      "Hiperbola",
+      "Ironi",
+      "Simile"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata yang penulisannya baku adalah..."
+      }
+     ],
+     "opts": [
+      "Apotik",
+      "Apothek",
+      "Apotiq",
+      "Apotek"
+     ],
+     "ans": 3
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

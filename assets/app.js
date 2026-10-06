@@ -353,6 +353,31 @@
       return ps;
     }
 
+    function blocksEl(sec) {
+      var box = h('div', { class: 'blocks' });
+      (sec.blocks || []).forEach(function (b) {
+        if (b.t === 'fig') {
+          var f = data.figures[String(b.n)];
+          if (f) box.append(h('figure', { class: 'fig' },
+            h('img', { src: f.src, alt: 'Gambar ' + b.n }),
+            h('figcaption', { html: 'Gambar ' + b.n + '. ' + f.caption })));
+        } else if (b.t === 'table') {
+          var tb = h('table', { class: 'datatab' });
+          var tr = h('tr');
+          b.head.forEach(function (c) { tr.append(h('th', { html: c })); });
+          tb.append(tr);
+          b.rows.forEach(function (r) {
+            var row = h('tr');
+            r.forEach(function (c, i) { row.append(h(i === 0 ? 'th' : 'td', { html: c })); });
+            tb.append(row);
+          });
+          box.append(h('figure', { class: 'fig' }, tb, h('figcaption', { html: b.caption })));
+        }
+      });
+      renderMath(box);
+      return box;
+    }
+
     /* ----- progres ----- */
     function updateProgress() {
       if (st.checked) {
@@ -475,6 +500,7 @@
       data.sections.forEach(function (sec) {
         if (sec.title) stage.append(h('h2', { class: 'sec-title', html: sec.title }));
         if (sec.passage) stage.append(passageEl(sec.passage));
+        if (sec.blocks && sec.blocks.length) stage.append(blocksEl(sec));
         sec.items.forEach(function (q) {
           var c = build(q, false);
           cards[q.id] = c;
@@ -493,6 +519,7 @@
       data.sections.forEach(function (s) {
         if (s.title) stage.append(h('h2', { class: 'sec-title', html: s.title }));
         if (s.passage) stage.append(passageEl(s.passage));
+        if (s.blocks && s.blocks.length) stage.append(blocksEl(s));
         s.items.forEach(function (q) {
           var c = build(q, true);
           cards[q.id] = c;

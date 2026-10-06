@@ -128,6 +128,22 @@
   "pdf": "pdf/Latihan_Soal_BahasaIndonesia_Kelas6_Majas.pdf"
  },
  {
+  "id": "tka-matematika",
+  "subject": "Matematika",
+  "title": "Try Out Persiapan TKA",
+  "desc": "30 soal literasi numerasi: pilihan ganda, pilihan ganda kompleks, benar/salah, dan isian, dengan grafik dan tabel.",
+  "count": 30,
+  "pdf": "pdf/TryOut_TKA_Matematika_Kelas6.pdf"
+ },
+ {
+  "id": "tka-bahasa-indonesia-p2",
+  "subject": "Bahasa Indonesia",
+  "title": "Try Out Persiapan TKA (Paket 2)",
+  "desc": "30 soal literasi: 3 teks (informasi, cerita, pengumuman) dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
+  "count": 29,
+  "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket2.pdf"
+ },
+ {
   "id": "bindo-tka",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA",

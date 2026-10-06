@@ -1,0 +1,644 @@
+{
+ "id": "tka-matematika",
+ "subject": "Matematika",
+ "title": "Try Out Persiapan TKA",
+ "desc": "30 soal literasi numerasi: pilihan ganda, pilihan ganda kompleks, benar/salah, dan isian, dengan grafik dan tabel.",
+ "sections": [
+  {
+   "title": "A. Bilangan dan Operasi Hitung",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $125 + 48 \\times 3 - 60 : 4$ adalah..."
+      }
+     ],
+     "opts": [
+      "269",
+      "244",
+      "279",
+      "254"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $\\frac{3}{4} + \\frac{2}{3} - \\frac{1}{6}$ adalah..."
+      }
+     ],
+     "opts": [
+      "$1\\frac{1}{4}$",
+      "$1\\frac{1}{2}$",
+      "$\\frac{5}{6}$",
+      "$1\\frac{1}{12}$"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ibu membeli 2,5 kg gula dan $1\\frac{3}{4}$ kg tepung. Berat seluruh belanjaan Ibu adalah..."
+      }
+     ],
+     "opts": [
+      "3,75 kg",
+      "4,35 kg",
+      "4,25 kg",
+      "4,75 kg"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Harga sebuah baju Rp150.000,00. Karena ada diskon 20%, Ibu membayar..."
+      }
+     ],
+     "opts": [
+      "Rp130.000,00",
+      "Rp120.000,00",
+      "Rp30.000,00",
+      "Rp170.000,00"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lampu A menyala setiap 6 detik dan lampu B menyala setiap 8 detik. Keduanya menyala bersamaan pada detik ke-0. Keduanya akan menyala bersamaan lagi setelah... detik."
+      }
+     ],
+     "opts": [
+      "48",
+      "12",
+      "24",
+      "14"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebanyak 36 permen dan 48 cokelat dibagi sama banyak ke dalam beberapa kantong tanpa sisa. Banyak kantong paling banyak yang dapat dibuat adalah..."
+      }
+     ],
+     "opts": [
+      "6",
+      "9",
+      "12",
+      "24"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Suhu pagi hari $-3^{\\circ}$C. Siang hari suhu naik $8^{\\circ}$C, lalu sore hari turun $5^{\\circ}$C. Suhu pada sore hari adalah..."
+      }
+     ],
+     "opts": [
+      "$2^{\\circ}$C",
+      "$0^{\\circ}$C",
+      "$-6^{\\circ}$C",
+      "$5^{\\circ}$C"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $24 - (-6) \\times 3$ adalah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "$42$",
+     "accept": [
+      "42"
+     ],
+     "label": "Isian 8"
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua bilangan yang habis dibagi 6."
+      }
+     ],
+     "opts": [
+      "54",
+      "72",
+      "80",
+      "96"
+     ],
+     "answers": [
+      0,
+      1,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "title": "B. Perbandingan, Skala, dan Kecepatan",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada peta berskala $1 : 500.000$, jarak dua kota adalah 6 cm. Jarak sebenarnya kedua kota adalah..."
+      }
+     ],
+     "opts": [
+      "30 km",
+      "3 km",
+      "300 km",
+      "60 km"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perbandingan banyak kelereng Adi dan Budi adalah $3 : 5$. Jika jumlah kelereng mereka 64 butir, banyak kelereng Budi adalah..."
+      }
+     ],
+     "opts": [
+      "40 butir",
+      "24 butir",
+      "32 butir",
+      "36 butir"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sepeda motor melaju dengan kecepatan 45 km/jam selama 2 jam 20 menit. Jarak yang ditempuh sepeda motor adalah..."
+      }
+     ],
+     "opts": [
+      "90 km",
+      "112 km",
+      "135 km",
+      "105 km"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah mobil menempuh jarak 180 km dalam waktu 3 jam. Kecepatan rata-rata mobil tersebut adalah <span class=\"blank\">&nbsp;</span> km/jam."
+      }
+     ],
+     "answer": "$60$",
+     "accept": [
+      "60"
+     ],
+     "label": "Isian 13"
+    }
+   ]
+  },
+  {
+   "title": "C. Bangun Datar dan Bangun Ruang. Perhatikan gambar berikut untuk menjawab soal nomor 14 dan 15.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 1
+    }
+   ],
+   "items": [
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 1, keliling bangun datar tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "36 cm",
+      "42 cm",
+      "48 cm",
+      "96 cm"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 1, luas bangun datar tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "96 cm$^2$",
+      "108 cm$^2$",
+      "84 cm$^2$",
+      "42 cm$^2$"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah balok berukuran panjang 15 cm, lebar 8 cm, dan tinggi 6 cm. Volume balok tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "120 cm$^3$",
+      "360 cm$^3$",
+      "720 cm$^3$",
+      "1.440 cm$^3$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah akuarium berbentuk kubus dengan panjang rusuk 50 cm diisi air hingga $\\frac{3}{4}$ bagian. Volume air dalam akuarium adalah..."
+      }
+     ],
+     "opts": [
+      "125 liter",
+      "62,5 liter",
+      "93,75 liter",
+      "9,375 liter"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Roda sepeda berbentuk lingkaran dengan jari-jari 14 cm. Jika $\\pi = \\frac{22}{7}$, jarak yang ditempuh roda dalam satu kali berputar adalah..."
+      }
+     ],
+     "opts": [
+      "88 cm",
+      "44 cm",
+      "176 cm",
+      "616 cm"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua pernyataan yang benar tentang simetri lipat."
+      }
+     ],
+     "opts": [
+      "Persegi memiliki 4 sumbu simetri lipat.",
+      "Persegi panjang memiliki 4 sumbu simetri lipat.",
+      "Belah ketupat memiliki 2 sumbu simetri lipat.",
+      "Trapesium sama kaki memiliki 1 sumbu simetri lipat."
+     ],
+     "answers": [
+      0,
+      2,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "title": "D. Pengolahan Data. Perhatikan gambar berikut untuk menjawab soal nomor 20 sampai 24.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 2
+    }
+   ],
+   "items": [
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, hari dengan peminjaman buku paling banyak adalah..."
+      }
+     ],
+     "opts": [
+      "Selasa",
+      "Kamis",
+      "Senin",
+      "Jumat"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, selisih peminjaman buku terbanyak dan tersedikit adalah..."
+      }
+     ],
+     "opts": [
+      "12 buku",
+      "14 buku",
+      "20 buku",
+      "18 buku"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, rata-rata peminjaman buku per hari adalah..."
+      }
+     ],
+     "opts": [
+      "24 buku",
+      "28 buku",
+      "30 buku",
+      "26 buku"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, median data peminjaman buku adalah..."
+      }
+     ],
+     "opts": [
+      "22",
+      "24",
+      "26",
+      "30"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, jumlah seluruh buku yang dipinjam dari Senin sampai Jumat adalah <span class=\"blank\">&nbsp;</span> buku."
+      }
+     ],
+     "answer": "$130$",
+     "accept": [
+      "130"
+     ],
+     "label": "Isian 24"
+    }
+   ]
+  },
+  {
+   "title": "Perhatikan tabel berikut untuk menjawab soal nomor 25 sampai 27.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 1. Nilai ulangan matematika 10 siswa",
+     "head": [
+      "Nilai",
+      "70",
+      "80",
+      "90",
+      "100"
+     ],
+     "rows": [
+      [
+       "Banyak siswa",
+       "3",
+       "4",
+       "2",
+       "1"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, modus nilai ulangan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "80",
+      "70",
+      "90",
+      "100"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, rata-rata nilai ulangan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "80",
+      "81",
+      "82",
+      "85"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "bs",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, tentukan apakah pernyataan berikut Benar atau Salah."
+      }
+     ],
+     "stmts": [
+      "Banyak siswa seluruhnya 10 anak.",
+      "Nilai 100 diperoleh 2 siswa.",
+      "Median data tersebut adalah 80.",
+      "Rata-rata nilai kurang dari 80."
+     ],
+     "answers": [
+      true,
+      false,
+      true,
+      false
+     ]
+    }
+   ]
+  },
+  {
+   "title": "E. Peluang, Pola Bilangan, dan Aritmetika Sosial",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dalam sebuah kotak terdapat 5 bola merah, 3 bola biru, dan 2 bola kuning. Satu bola diambil secara acak. Peluang terambil bola biru adalah..."
+      }
+     ],
+     "opts": [
+      "$\\frac{3}{5}$",
+      "$\\frac{3}{7}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{3}{10}$"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan pola bilangan $3, 7, 11, 15, \\ldots$ Suku ke-10 dari pola tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "43",
+      "35",
+      "39",
+      "40"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pak Tono membeli sepeda seharga Rp900.000,00 lalu menjualnya Rp1.080.000,00. Persentase keuntungan Pak Tono adalah <span class=\"blank\">&nbsp;</span> %."
+      }
+     ],
+     "answer": "$20$",
+     "accept": [
+      "20",
+      "20%"
+     ],
+     "label": "Isian 30"
+    }
+   ]
+  }
+ ],
+ "figures": {
+  "1": {
+   "src": "fig/06277c4afe.svg",
+   "caption": "Bangun datar gabungan"
+  },
+  "2": {
+   "src": "fig/5ecd57e27a.svg",
+   "caption": "Banyak buku yang dipinjam siswa di perpustakaan sekolah"
+  }
+ }
+}

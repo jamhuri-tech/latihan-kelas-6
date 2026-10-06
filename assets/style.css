@@ -143,3 +143,8 @@ textarea.txt { min-height: 5.5em; resize: vertical; }
 .finish .namefield { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 12px 0 4px; }
 .finish .name { font: inherit; border: 2px solid var(--blue); border-radius: 8px; padding: 6px 12px; width: 16em; max-width: 100%; }
 .stage .bottom { align-items: center; }
+
+.blocks .fig { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 10px; margin: 0 0 14px; }
+.datatab { margin: 0 auto 4px; border-collapse: collapse; }
+.datatab th, .datatab td { border: 1.5px solid var(--ink); padding: 4px 16px; text-align: center; }
+.datatab tr:first-child th { background: var(--blue-soft); }
