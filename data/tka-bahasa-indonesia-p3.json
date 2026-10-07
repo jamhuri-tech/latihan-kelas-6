@@ -1,0 +1,608 @@
+{
+ "id": "tka-bahasa-indonesia-p3",
+ "subject": "Bahasa Indonesia",
+ "title": "Try Out Persiapan TKA (Paket 3)",
+ "desc": "30 soal literasi: teks informasi, puisi, teks prosedur, dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk menjawab soal nomor 1 sampai 8.",
+   "passage": {
+    "title": "Teks 1: Mengolah Sampah Plastik",
+    "paras": [
+     "Sampah plastik adalah salah satu masalah terbesar di lingkungan kita. Plastik sulit terurai oleh tanah. Sebuah botol plastik membutuhkan waktu ratusan tahun untuk hancur. Akibatnya, sampah plastik menumpuk di sungai, laut, dan tempat pembuangan akhir.",
+     "Salah satu cara mengatasinya adalah dengan mendaur ulang. Botol bekas dapat dilebur dan dibuat menjadi barang baru, seperti ember, pot bunga, atau kain. Selain itu, kantong plastik sebaiknya diganti dengan tas kain yang dapat dipakai berulang kali.",
+     "Di sekolah, kita dapat memulainya dengan hal sederhana, yaitu memilah sampah ke dalam tiga tempat: organik, anorganik, dan berbahaya. Sampah organik, seperti sisa makanan, dapat dijadikan kompos. Sampah anorganik, seperti botol dan kardus, dapat dikumpulkan di bank sampah.",
+     "Jika semua orang mau peduli, bumi kita akan menjadi lebih bersih dan sehat."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Gagasan utama teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Botol plastik adalah barang yang paling mahal",
+      "Sampah plastik sulit terurai sehingga perlu diatasi dengan daur ulang dan pemilahan",
+      "Sampah organik hanya boleh dibuang ke sungai",
+      "Tas kain lebih murah daripada kantong plastik"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sampah plastik menumpuk di sungai dan laut karena..."
+      }
+     ],
+     "opts": [
+      "Plastik sulit terurai oleh tanah",
+      "Plastik mudah hancur dalam air",
+      "Orang suka mengumpulkan plastik",
+      "Plastik dilebur menjadi barang baru"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna kata <em>terurai</em> pada kalimat “Plastik sulit terurai oleh tanah” adalah..."
+      }
+     ],
+     "opts": [
+      "Hancur dan menyatu dengan alam",
+      "Terikat dengan kuat",
+      "Terbakar habis",
+      "Tersimpan rapi"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua barang baru yang dapat dibuat dari botol bekas menurut teks."
+      }
+     ],
+     "opts": [
+      "Ember",
+      "Pot bunga",
+      "Kain",
+      "Batu bata"
+     ],
+     "answers": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "bs",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi teks (Benar) atau tidak (Salah)."
+      }
+     ],
+     "stmts": [
+      "Botol plastik cepat terurai dalam waktu singkat.",
+      "Sisa makanan termasuk sampah organik.",
+      "Di sekolah, sampah dipilah ke dalam tiga tempat.",
+      "Sampah berbahaya dijadikan kompos."
+     ],
+     "answers": [
+      false,
+      true,
+      true,
+      false
+     ]
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sampah organik dapat dimanfaatkan menjadi..."
+      }
+     ],
+     "opts": [
+      "Ember",
+      "Kompos",
+      "Kain",
+      "Botol baru"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sampah dipilah ke dalam tiga tempat, yaitu organik, anorganik, dan <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "berbahaya",
+     "accept": [
+      "berbahaya",
+      "sampah berbahaya",
+      "b3"
+     ],
+     "label": "Isian 7"
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "self",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tuliskan satu hal yang dapat kamu lakukan di sekolah untuk mengurangi sampah plastik."
+      }
+     ],
+     "answer": "Contoh: membawa botol minum sendiri / membawa bekal dengan kotak makan / memilah sampah / memakai tas kain (jawaban lain yang sesuai diterima).",
+     "label": "Isian 8"
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk menjawab soal nomor 9 sampai 14.",
+   "passage": {
+    "title": "Teks 2: Hujan di Pagi Hari",
+    "paras": [
+     "Hujan turun di pagi hari<br> Menyirami bumi yang kering<br> Daun-daun menari riang<br> Menyambut tetes air sejuk",
+     "Burung bersembunyi di sarangnya<br> Katak bernyanyi bersahutan<br> Aku duduk di jendela kamar<br> Menikmati irama alam",
+     "Terima kasih, wahai hujan<br> Engkau bawa kehidupan<br> Sawah ayah kini subur<br> Padi tumbuh menghijau"
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tema puisi tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Rasa syukur atas turunnya hujan",
+      "Kesedihan karena kehujanan",
+      "Keindahan pantai di sore hari",
+      "Perjuangan petani saat kemarau"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Puisi tersebut terdiri atas... bait."
+      }
+     ],
+     "opts": [
+      "2",
+      "3",
+      "4",
+      "12"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Larik yang mengandung majas personifikasi adalah..."
+      }
+     ],
+     "opts": [
+      "Hujan turun di pagi hari",
+      "Padi tumbuh menghijau",
+      "Daun-daun menari riang",
+      "Aku duduk di jendela kamar"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pesan yang terkandung dalam puisi tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Kita harus selalu menghindari hujan",
+      "Hujan membuat sawah menjadi rusak",
+      "Kita perlu mensyukuri nikmat alam",
+      "Burung lebih baik daripada katak"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada bait ketiga, sawah milik <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "ayah",
+     "accept": [
+      "ayah",
+      "sawah ayah",
+      "ayah penulis",
+      "ayahnya"
+     ],
+     "label": "Isian 13"
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "bs",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi puisi (Benar) atau tidak (Salah)."
+      }
+     ],
+     "stmts": [
+      "Puisi terdiri atas tiga bait.",
+      "Setiap bait terdiri atas empat larik.",
+      "Hujan turun pada sore hari.",
+      "Penyair menikmati hujan dari jendela kamar."
+     ],
+     "answers": [
+      true,
+      true,
+      false,
+      true
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk menjawab soal nomor 15 sampai 21.",
+   "passage": {
+    "title": "Teks 3: Cara Membuat Es Buah",
+    "paras": [
+     "<strong>Bahan:</strong><br> semangka, melon, dan nanas secukupnya; 1 liter air; 100 gram gula pasir; sirup; es batu",
+     "<strong>Langkah-langkah:</strong><br> 1. Kupas dan potong semua buah berbentuk dadu.<br> 2. Rebus air bersama gula hingga larut, lalu dinginkan.<br> 3. Campurkan potongan buah ke dalam air gula.<br> 4. Tambahkan sirup dan aduk rata.<br> 5. Masukkan es batu, lalu sajikan di dalam gelas."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Teks tersebut termasuk jenis teks..."
+      }
+     ],
+     "opts": [
+      "Narasi",
+      "Deskripsi",
+      "Eksposisi",
+      "Prosedur"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Langkah pertama dalam membuat es buah adalah..."
+      }
+     ],
+     "opts": [
+      "Merebus air bersama gula",
+      "Menambahkan sirup",
+      "Mengupas dan memotong buah berbentuk dadu",
+      "Memasukkan es batu"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bahan yang TIDAK diperlukan dalam membuat es buah adalah..."
+      }
+     ],
+     "opts": [
+      "Susu kental manis",
+      "Melon",
+      "Nanas",
+      "Gula pasir"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Gula pasir yang dibutuhkan untuk membuat es buah adalah..."
+      }
+     ],
+     "opts": [
+      "10 gram",
+      "200 gram",
+      "1 liter",
+      "100 gram"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Es batu dimasukkan pada langkah ke-<span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "5",
+     "accept": [
+      "5",
+      "lima",
+      "kelima",
+      "ke-5"
+     ],
+     "label": "Isian 19"
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua pernyataan yang sesuai dengan teks."
+      }
+     ],
+     "opts": [
+      "Buah dipotong berbentuk dadu.",
+      "Air direbus bersama gula.",
+      "Sirup ditambahkan setelah es batu.",
+      "Es buah disajikan di dalam gelas."
+     ],
+     "answers": [
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "uraian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa langkah-langkah dalam teks prosedur harus ditulis secara berurutan? Jelaskan dalam 2–3 kalimat!"
+      }
+     ],
+     "answer": "Jawaban terbuka. Kriteria: menjelaskan bahwa urutan yang tepat membuat hasil sesuai dan pembaca tidak bingung/keliru, disertai contoh dari teks (misalnya gula harus dilarutkan sebelum buah dicampur).",
+     "label": "Uraian 21"
+    }
+   ]
+  },
+  {
+   "title": "Soal Kebahasaan",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata dasar dari kata <em>menyapu</em> adalah..."
+      }
+     ],
+     "opts": [
+      "nyapu",
+      "menyap",
+      "apu",
+      "sapu"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat tanya yang penulisannya tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Siapa yang membersihkan kelas pagi ini.",
+      "Siapa yang membersihkan kelas pagi ini?",
+      "siapa yang membersihkan kelas pagi ini?",
+      "Siapa, yang membersihkan kelas pagi ini?"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Arti peribahasa <em>berat sama dipikul, ringan sama dijinjing</em> adalah..."
+      }
+     ],
+     "opts": [
+      "Bekerja sama dalam suka dan duka",
+      "Membawa barang yang sangat berat",
+      "Bekerja sendirian tanpa bantuan",
+      "Memikul beban milik orang lain"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat langsung yang penulisannya tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Ibu berkata “Mari makan dulu, Nak.”",
+      "Ibu berkata, “Mari makan dulu, Nak.”",
+      "Ibu berkata, “mari makan dulu, Nak.”",
+      "Ibu berkata, “Mari makan dulu Nak”."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata yang penulisannya baku adalah..."
+      }
+     ],
+     "opts": [
+      "Resiko",
+      "Risco",
+      "Risiko",
+      "Rizico"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sinonim kata <em>cemas</em> adalah..."
+      }
+     ],
+     "opts": [
+      "Gembira",
+      "Berani",
+      "Tenang",
+      "Khawatir"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata penghubung yang tepat untuk melengkapi kalimat “Hujan turun deras, <span class=\"blank\">&nbsp;</span> kami tetap berangkat ke sekolah.” adalah..."
+      }
+     ],
+     "opts": [
+      "karena",
+      "sehingga",
+      "jika",
+      "namun"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Aku sudah menunggumu seribu tahun lamanya” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Simile",
+      "Personifikasi",
+      "Hiperbola",
+      "Ironi"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Antonim kata <em>terang</em> adalah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "gelap",
+     "accept": [
+      "gelap",
+      "redup",
+      "suram"
+     ],
+     "label": "Isian 30"
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
