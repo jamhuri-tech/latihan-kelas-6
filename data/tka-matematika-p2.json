@@ -1,0 +1,648 @@
+{
+ "id": "tka-matematika-p2",
+ "subject": "Matematika",
+ "title": "Try Out Persiapan TKA (Paket 2)",
+ "desc": "30 soal literasi numerasi: bilangan, perbandingan, geometri, grafik garis, dan tabel; pilihan ganda, kompleks, benar/salah, isian.",
+ "sections": [
+  {
+   "title": "A. Bilangan, Pola, dan Operasi Hitung",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $\\frac{3}{5} \\times 2\\frac{1}{2} \\div \\frac{3}{4}$ adalah..."
+      }
+     ],
+     "opts": [
+      "$\\frac{9}{8}$",
+      "$\\frac{1}{2}$",
+      "3",
+      "2"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $15^2 - \\sqrt{169} + 2^3$ adalah..."
+      }
+     ],
+     "opts": [
+      "246",
+      "204",
+      "220",
+      "230"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $2,75 \\times 4 + 0,5 \\times 12 - 1,25$ adalah..."
+      }
+     ],
+     "opts": [
+      "16,25",
+      "14,75",
+      "15,75",
+      "12,25"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pita merah panjangnya 45 cm dan pita biru 75 cm. Kedua pita dipotong menjadi potongan yang sama panjang, sepanjang mungkin, tanpa sisa. Panjang setiap potongan adalah..."
+      }
+     ],
+     "opts": [
+      "5 cm",
+      "25 cm",
+      "225 cm",
+      "15 cm"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bus A berangkat dari terminal setiap 20 menit dan bus B setiap 30 menit. Keduanya berangkat bersamaan pukul 06.00. Keduanya akan berangkat bersamaan lagi pada pukul..."
+      }
+     ],
+     "opts": [
+      "06.50",
+      "07.00",
+      "07.30",
+      "08.00"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah kapal selam berada pada kedalaman 40 m di bawah permukaan laut. Kapal naik 15 m, kemudian turun 28 m. Posisi akhir kapal selam adalah..."
+      }
+     ],
+     "opts": [
+      "53 m di bawah permukaan laut",
+      "53 m di atas permukaan laut",
+      "27 m di bawah permukaan laut",
+      "27 m di atas permukaan laut"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pecahan $\\frac{7}{20}$ jika dinyatakan dalam persen adalah <span class=\"blank\">&nbsp;</span> %."
+      }
+     ],
+     "answer": "$35$",
+     "accept": [
+      "35",
+      "35%"
+     ],
+     "label": "Isian 7"
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua bilangan yang nilainya sama dengan 0,75."
+      }
+     ],
+     "opts": [
+      "$\\frac{3}{4}$",
+      "75%",
+      "$\\frac{7}{5}$",
+      "$\\frac{15}{20}$"
+     ],
+     "answers": [
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan pola bilangan $2, 5, 10, 17, 26, \\ldots$ Suku ke-8 dari pola tersebut adalah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "$65$",
+     "accept": [
+      "65"
+     ],
+     "label": "Isian 9"
+    }
+   ]
+  },
+  {
+   "title": "B. Perbandingan, Skala, Kecepatan, dan Aritmetika Sosial",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Denah sebuah rumah dibuat dengan skala $1 : 200$. Panjang ruang tamu pada denah 4 cm. Panjang ruang tamu sebenarnya adalah..."
+      }
+     ],
+     "opts": [
+      "8 m",
+      "4 m",
+      "80 m",
+      "20 m"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perbandingan uang Rani dan uang Sari adalah $4 : 7$. Selisih uang mereka Rp36.000,00. Uang Sari adalah..."
+      }
+     ],
+     "opts": [
+      "Rp48.000,00",
+      "Rp132.000,00",
+      "Rp84.000,00",
+      "Rp60.000,00"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah keran mengalirkan air dengan debit 15 liter per menit. Waktu yang dibutuhkan untuk mengisi bak mandi berkapasitas 900 liter sampai penuh adalah..."
+      }
+     ],
+     "opts": [
+      "45 menit",
+      "1 jam",
+      "1,5 jam",
+      "2 jam"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pak Budi berangkat pukul 07.30 mengendarai motor dengan kecepatan 40 km/jam menuju kota yang berjarak 100 km. Pak Budi tiba di kota itu pukul..."
+      }
+     ],
+     "opts": [
+      "10.00",
+      "09.30",
+      "10.30",
+      "11.00"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah tas dibeli dengan harga Rp80.000,00. Tas tersebut dijual dengan kerugian 15%. Harga jual tas tersebut adalah Rp <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Rp68.000,00",
+     "accept": [
+      "68000",
+      "68.000",
+      "rp68.000",
+      "rp68.000,00",
+      "68.000,00",
+      "rp 68.000"
+     ],
+     "label": "Isian 14"
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sepasang sepatu seharga Rp240.000,00 mendapat diskon 25%. Setelah diskon, pembeli membayar pajak 10% dari harga setelah diskon. Jumlah yang harus dibayar adalah..."
+      }
+     ],
+     "opts": [
+      "Rp216.000,00",
+      "Rp180.000,00",
+      "Rp198.000,00",
+      "Rp204.000,00"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "C. Bangun Datar dan Bangun Ruang. Perhatikan gambar berikut untuk menjawab soal nomor 16 dan 17.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 1
+    }
+   ],
+   "items": [
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 1, keliling bangun tersebut adalah... (gunakan $\\pi = \\frac{22}{7}$)"
+      }
+     ],
+     "opts": [
+      "62 cm",
+      "54 cm",
+      "90 cm",
+      "76 cm"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 1, luas bangun tersebut adalah... (gunakan $\\pi = \\frac{22}{7}$)"
+      }
+     ],
+     "opts": [
+      "280 cm$^2$",
+      "434 cm$^2$",
+      "77 cm$^2$",
+      "357 cm$^2$"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Alas sebuah prisma berbentuk segitiga siku-siku dengan panjang sisi siku-siku 6 cm dan 8 cm. Jika tinggi prisma 15 cm, volume prisma tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "720 cm$^3$",
+      "240 cm$^3$",
+      "360 cm$^3$",
+      "180 cm$^3$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah tabung memiliki jari-jari alas 7 cm dan tinggi 20 cm. Volume tabung tersebut adalah... (gunakan $\\pi = \\frac{22}{7}$)"
+      }
+     ],
+     "opts": [
+      "1.540 cm$^3$",
+      "6.160 cm$^3$",
+      "440 cm$^3$",
+      "3.080 cm$^3$"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Luas permukaan kubus yang panjang rusuknya 9 cm adalah..."
+      }
+     ],
+     "opts": [
+      "729 cm$^2$",
+      "324 cm$^2$",
+      "486 cm$^2$",
+      "243 cm$^2$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dua sudut sebuah segitiga besarnya $55^{\\circ}$ dan $72^{\\circ}$. Besar sudut ketiga segitiga tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "$53^{\\circ}$",
+      "$63^{\\circ}$",
+      "$125^{\\circ}$",
+      "$43^{\\circ}$"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua pernyataan yang benar tentang bangun ruang."
+      }
+     ],
+     "opts": [
+      "Kubus memiliki 12 rusuk.",
+      "Balok memiliki 6 sisi.",
+      "Limas segiempat memiliki 5 titik sudut.",
+      "Prisma segitiga memiliki 8 titik sudut."
+     ],
+     "answers": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "title": "D. Pengolahan Data. Perhatikan gambar berikut untuk menjawab soal nomor 23 sampai 27.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 2
+    }
+   ],
+   "items": [
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, tinggi tanaman pada minggu ke-4 adalah..."
+      }
+     ],
+     "opts": [
+      "14 cm",
+      "19 cm",
+      "17 cm",
+      "26 cm"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, kenaikan tinggi tanaman paling besar terjadi antara..."
+      }
+     ],
+     "opts": [
+      "Minggu ke-4 dan ke-5",
+      "Minggu ke-1 dan ke-2",
+      "Minggu ke-2 dan ke-3",
+      "Minggu ke-3 dan ke-4"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, rata-rata tinggi tanaman selama 5 minggu adalah..."
+      }
+     ],
+     "opts": [
+      "14 cm",
+      "15 cm",
+      "16 cm",
+      "19 cm"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, selisih tinggi tanaman pada minggu ke-5 dan minggu ke-1 adalah..."
+      }
+     ],
+     "opts": [
+      "16 cm",
+      "20 cm",
+      "18 cm",
+      "22 cm"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Median data tinggi tanaman pada Gambar 2 adalah <span class=\"blank\">&nbsp;</span> cm."
+      }
+     ],
+     "answer": "$14$",
+     "accept": [
+      "14"
+     ],
+     "label": "Isian 27"
+    }
+   ]
+  },
+  {
+   "title": "Perhatikan tabel berikut untuk menjawab soal nomor 28 sampai 30.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 1. Daftar belanjaan Ibu di pasar",
+     "head": [
+      "Barang",
+      "Banyak",
+      "Harga per kg"
+     ],
+     "rows": [
+      [
+       "Beras",
+       "5 kg",
+       "Rp13.000,00"
+      ],
+      [
+       "Gula",
+       "2 kg",
+       "Rp16.000,00"
+      ],
+      [
+       "Telur",
+       "3 kg",
+       "Rp28.000,00"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, jumlah uang yang dibayar untuk membeli beras adalah..."
+      }
+     ],
+     "opts": [
+      "Rp65.000,00",
+      "Rp13.000,00",
+      "Rp78.000,00",
+      "Rp48.000,00"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, jumlah uang yang dibayar untuk seluruh belanjaan adalah..."
+      }
+     ],
+     "opts": [
+      "Rp165.000,00",
+      "Rp181.000,00",
+      "Rp197.000,00",
+      "Rp171.000,00"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "bs",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, tentukan apakah pernyataan berikut Benar atau Salah."
+      }
+     ],
+     "stmts": [
+      "Telur adalah barang dengan jumlah pembayaran terbesar.",
+      "Jumlah pembayaran untuk gula adalah Rp32.000,00.",
+      "Jumlah pembayaran beras dan gula adalah Rp100.000,00.",
+      "Jika membayar dengan uang Rp200.000,00, kembaliannya Rp19.000,00."
+     ],
+     "answers": [
+      true,
+      true,
+      false,
+      true
+     ]
+    }
+   ]
+  }
+ ],
+ "figures": {
+  "1": {
+   "src": "fig/1730b7f030.svg",
+   "caption": "Persegi panjang dan setengah lingkaran"
+  },
+  "2": {
+   "src": "fig/470472667a.svg",
+   "caption": "Tinggi tanaman kacang selama 5 minggu"
+  }
+ }
+}
