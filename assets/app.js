@@ -98,40 +98,124 @@
   }
 
   /* ---------- beranda ---------- */
+  var SUBJECT_ORDER = ['Matematika', 'Bahasa Indonesia', 'PAI dan Budi Pekerti', 'PPKn', 'Bahasa Inggris', 'Koding'];
+  var SUBJECT_SHORT = { 'PAI dan Budi Pekerti': 'PAI' };
+  function subjSlug(sname) { return sname.toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, ''); }
+  function isTka(m) { return /try ?out/i.test(m.title); }
+
   function renderHome() {
     document.title = 'Latihan Soal Kelas 6';
     app.replaceChildren(h('p', { class: 'loading' }, 'Memuat soal…'));
     var ready = manifest ? Promise.resolve(manifest) : fetchJSON('data/index.json').then(function (m) { manifest = m; return m; });
     ready.then(function (list) {
-      var bySubject = {};
-      var order = [];
-      list.forEach(function (m) {
-        if (!bySubject[m.subject]) { bySubject[m.subject] = []; order.push(m.subject); }
-        bySubject[m.subject].push(m);
-      });
-      var root = h('div', null,
-        h('p', { class: 'intro' }, 'Pilih satu latihan. Semua soal ada dalam satu halaman. Pada pilihan ganda, begitu kamu memilih, kamu langsung tahu benar atau salah dan jawabannya tidak bisa diubah. Nilai muncul setelah kamu menulis nama dan menekan Kirim di bagian bawah.'));
-      order.forEach(function (subj) {
-        root.append(h('h2', { class: 'subject' }, subj));
-        var cards = h('div', { class: 'cards' });
-        bySubject[subj].forEach(function (m) {
-          var best = STORE.get('lso:best:' + m.id, null);
-          var st = STORE.get('lso:st:' + m.id, null);
-          var started = st && st.ans && Object.keys(st.ans).length > 0 && !st.checked;
-          cards.append(h('div', { class: 'card' },
-            h('h3', null, m.title),
-            h('p', null, m.desc),
-            h('div', { class: 'meta' },
-              h('span', { class: 'badge' }, m.count + ' soal'),
-              best != null && h('span', { class: 'badge best' }, 'Nilai terbaik: ' + best),
-              started && h('span', { class: 'badge' }, 'Sedang dikerjakan')),
-            h('div', { class: 'actions' },
-              h('a', { class: 'btn small', href: '#/quiz/' + m.id }, started ? 'Lanjutkan' : 'Kerjakan'),
-              m.pdf && h('a', { class: 'btn small ghost', href: m.pdf, target: '_blank', rel: 'noopener' }, 'PDF'))));
+      var flt = Object.assign({ subj: 'all', kind: 'all' }, STORE.get('lso:filter', {}));
+      var query = '';
+      var subjects = SUBJECT_ORDER.filter(function (x) { return list.some(function (m) { return m.subject === x; }); });
+      list.forEach(function (m) { if (subjects.indexOf(m.subject) === -1) subjects.push(m.subject); });
+      if (flt.subj !== 'all' && subjects.indexOf(flt.subj) === -1) flt.subj = 'all';
+
+      function info(m) {
+        var best = STORE.get('lso:best:' + m.id, null);
+        var st = STORE.get('lso:st:' + m.id, null);
+        var started = !!(st && st.ans && Object.keys(st.ans).length > 0 && !st.checked);
+        return { best: best, started: started };
+      }
+      var inProgress = list.filter(function (m) { return info(m).started; });
+      var doneCount = list.filter(function (m) { return info(m).best != null; }).length;
+
+      var listBox = h('div', { class: 'list' });
+      var chipsSubj = h('div', { class: 'chips', role: 'group', 'aria-label': 'Pilih pelajaran' });
+      var chipsKind = h('div', { class: 'chips', role: 'group', 'aria-label': 'Pilih jenis latihan' });
+
+      function save() { STORE.set('lso:filter', flt); }
+      function chip(label, count, on, fn) {
+        return h('button', { type: 'button', class: 'chip' + (on ? ' on' : ''), 'aria-pressed': on ? 'true' : 'false', onclick: fn },
+          label, count != null && h('span', { class: 'n' }, count));
+      }
+      function matches(m) {
+        if (flt.subj !== 'all' && m.subject !== flt.subj) return false;
+        if (flt.kind === 'tka' && !isTka(m)) return false;
+        if (flt.kind === 'latihan' && isTka(m)) return false;
+        if (query) {
+          var hay = (m.title + ' ' + m.subject + ' ' + m.desc).toLowerCase();
+          if (hay.indexOf(query) === -1) return false;
+        }
+        return true;
+      }
+      function card(m) {
+        var f = info(m);
+        return h('div', { class: 'card s-' + subjSlug(m.subject) },
+          h('h3', null, m.title),
+          h('div', { class: 'meta' },
+            h('span', { class: 'badge' }, m.count + ' soal'),
+            isTka(m) && h('span', { class: 'badge tka' }, 'Try Out TKA'),
+            f.best != null && h('span', { class: 'badge best' }, 'Nilai terbaik: ' + f.best),
+            f.started && h('span', { class: 'badge prog' }, 'Sedang dikerjakan')),
+          h('p', { class: 'desc' }, m.desc),
+          h('div', { class: 'actions' },
+            h('a', { class: 'btn small', href: '#/quiz/' + m.id }, f.started ? 'Lanjutkan' : (f.best != null ? 'Ulangi' : 'Kerjakan')),
+            m.pdf && h('a', { class: 'btn small ghost', href: m.pdf, target: '_blank', rel: 'noopener' }, 'PDF')));
+      }
+      function paintChips() {
+        chipsSubj.replaceChildren(chip('Semua', list.length, flt.subj === 'all', function () { flt.subj = 'all'; save(); paint(); }));
+        subjects.forEach(function (sj) {
+          var n = list.filter(function (m) { return m.subject === sj; }).length;
+          chipsSubj.append(chip(SUBJECT_SHORT[sj] || sj, n, flt.subj === sj, function () { flt.subj = sj; save(); paint(); }));
         });
-        root.append(cards);
+        chipsKind.replaceChildren(
+          chip('Semua jenis', null, flt.kind === 'all', function () { flt.kind = 'all'; save(); paint(); }),
+          chip('Latihan per materi', null, flt.kind === 'latihan', function () { flt.kind = 'latihan'; save(); paint(); }),
+          chip('Try Out TKA', null, flt.kind === 'tka', function () { flt.kind = 'tka'; save(); paint(); }));
+      }
+      function paint() {
+        paintChips();
+        listBox.replaceChildren();
+        var shown = 0;
+        subjects.forEach(function (sj) {
+          var items = list.filter(function (m) { return m.subject === sj && matches(m); });
+          if (!items.length) return;
+          shown += items.length;
+          var sec = h('section', { class: 'subj s-' + subjSlug(sj) },
+            h('h2', { class: 'subject' }, sj, h('span', { class: 'cnt' }, items.length + ' latihan')));
+          var groups = [['Latihan per materi', items.filter(function (m) { return !isTka(m); })],
+                        ['Try Out TKA', items.filter(isTka)]];
+          groups.forEach(function (g) {
+            if (!g[1].length) return;
+            var showLabel = groups[0][1].length && groups[1][1].length;
+            if (showLabel) sec.append(h('h3', { class: 'kind' }, g[0]));
+            var cards = h('div', { class: 'cards' });
+            g[1].forEach(function (m) { cards.append(card(m)); });
+            sec.append(cards);
+          });
+          listBox.append(sec);
+        });
+        if (!shown) listBox.append(h('p', { class: 'empty' }, 'Tidak ada latihan yang cocok. Coba pilih pelajaran lain atau hapus kata pencarian.'));
+      }
+
+      var search = h('input', {
+        type: 'search', class: 'search', placeholder: 'Cari latihan, misalnya majas atau waktu', 'aria-label': 'Cari latihan', autocomplete: 'off',
+        oninput: function (ev) { query = ev.target.value.trim().toLowerCase(); paint(); }
       });
+
+      var root = h('div', null,
+        h('p', { class: 'intro' }, 'Pilih pelajaran, lalu kerjakan latihannya. Pada pilihan ganda, begitu kamu memilih, hasilnya langsung terlihat dan jawabannya tidak bisa diubah. Nilai muncul setelah kamu menulis nama dan menekan Kirim di bagian bawah.'),
+        h('div', { class: 'stats' },
+          h('span', null, h('strong', null, list.length), ' latihan'),
+          h('span', null, h('strong', null, doneCount), ' sudah dinilai'),
+          inProgress.length > 0 && h('span', null, h('strong', null, inProgress.length), ' sedang dikerjakan')));
+      if (inProgress.length) {
+        var cont = h('div', { class: 'continue' }, h('h2', { class: 'kind' }, 'Lanjutkan mengerjakan'));
+        var row = h('div', { class: 'cards' });
+        inProgress.slice(0, 3).forEach(function (m) {
+          row.append(h('a', { class: 'resume s-' + subjSlug(m.subject), href: '#/quiz/' + m.id },
+            h('span', { class: 'rs' }, m.subject), h('span', { class: 'rt' }, m.title)));
+        });
+        cont.append(row);
+        root.append(cont);
+      }
+      root.append(h('div', { class: 'toolbar' }, search, chipsSubj, chipsKind), listBox);
       app.replaceChildren(root);
+      paint();
       window.scrollTo(0, 0);
     }).catch(function () {
       app.replaceChildren(h('p', null, 'Daftar latihan tidak bisa dimuat. Coba muat ulang halaman.'));
