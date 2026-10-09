@@ -1,0 +1,646 @@
+{
+ "id": "tka-matematika-p3",
+ "subject": "Matematika",
+ "title": "Try Out Persiapan TKA (Paket 3)",
+ "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, geometri gabungan, diagram lingkaran, dan tabel frekuensi.",
+ "sections": [
+  {
+   "title": "A. Bilangan dan Operasi Hitung",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $\\left(\\frac{2}{3} + \\frac{3}{4}\\right) \\div \\frac{5}{6} - \\frac{1}{5}$ adalah..."
+      }
+     ],
+     "opts": [
+      "$1\\frac{7}{10}$",
+      "$2\\frac{1}{10}$",
+      "$\\frac{3}{4}$",
+      "$1\\frac{1}{2}$"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $\\sqrt[3]{1.728} + 13^2 - 5^3 \\div 5$ adalah..."
+      }
+     ],
+     "opts": [
+      "206",
+      "144",
+      "131",
+      "156"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ibu membeli $3,5$ kg jeruk dan $2\\frac{3}{4}$ kg apel. Sebanyak 20% dari seluruh buah itu diberikan kepada tetangga. Sisa buah yang dimiliki Ibu adalah..."
+      }
+     ],
+     "opts": [
+      "1,25 kg",
+      "5 kg",
+      "6 kg",
+      "4,75 kg"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tiga lampu menyala berkedip masing-masing setiap 12 detik, 18 detik, dan 30 detik. Ketiganya berkedip bersamaan pada detik ke-0. Ketiganya akan berkedip bersamaan lagi setelah... menit."
+      }
+     ],
+     "opts": [
+      "2",
+      "3",
+      "6",
+      "1,5"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Suhu di puncak sebuah gunung $-4^{\\circ}$C. Setiap turun 100 m, suhu naik $0,6^{\\circ}$C. Suhu pada tempat yang lebih rendah 1.000 m dari puncak adalah..."
+      }
+     ],
+     "opts": [
+      "$-10^{\\circ}$C",
+      "$6^{\\circ}$C",
+      "$2^{\\circ}$C",
+      "$-2^{\\circ}$C"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rina memiliki 84 manik merah, 126 manik biru, dan 210 manik putih. Semua manik dibagi ke dalam kantong dengan isi yang sama persis, dan banyak kantong dibuat sebanyak mungkin. Banyak manik biru dalam setiap kantong adalah..."
+      }
+     ],
+     "opts": [
+      "2",
+      "5",
+      "6",
+      "3"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $0,125 \\times 48 + 75\\% \\times 80 - \\frac{3}{5} \\times 25$ adalah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "$51$",
+     "accept": [
+      "51"
+     ],
+     "label": "Isian 7"
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua pernyataan yang benar."
+      }
+     ],
+     "opts": [
+      "$\\frac{5}{8} > 0,6$",
+      "$1\\frac{1}{4} = 125\\%$",
+      "$0,3 = \\frac{3}{100}$",
+      "$-7 < -3$"
+     ],
+     "answers": [
+      0,
+      1,
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "title": "B. Perbandingan, Skala, Kecepatan, Debit, dan Aritmetika Sosial",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pak Agus membeli 40 kg beras seharga Rp12.000,00 per kg. Sebanyak 10 kg beras rusak dan dibuang. Sisanya dijual seharga Rp15.000,00 per kg. Dari penjualan tersebut, Pak Agus..."
+      }
+     ],
+     "opts": [
+      "Rugi Rp30.000,00",
+      "Untung Rp30.000,00",
+      "Untung Rp120.000,00",
+      "Rugi Rp120.000,00"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada peta berskala $1 : 2.000.000$, sebuah kebun berbentuk persegi panjang berukuran 3 cm $\\times$ 2 cm. Luas kebun sebenarnya adalah..."
+      }
+     ],
+     "opts": [
+      "2.400 km$^2$",
+      "600 km$^2$",
+      "24 km$^2$",
+      "240 km$^2$"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Uang Ali, Budi, dan Cica berbanding $2 : 3 : 5$. Jumlah uang mereka Rp1.500.000,00. Selisih uang Cica dan uang Ali adalah..."
+      }
+     ],
+     "opts": [
+      "Rp300.000,00",
+      "Rp750.000,00",
+      "Rp450.000,00",
+      "Rp150.000,00"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kota P dan kota Q berjarak 270 km. Pukul 07.00, mobil A berangkat dari P menuju Q dengan kecepatan 50 km/jam. Pada waktu yang sama, mobil B berangkat dari Q menuju P dengan kecepatan 40 km/jam. Kedua mobil berpapasan pada pukul..."
+      }
+     ],
+     "opts": [
+      "09.30",
+      "10.00",
+      "10.30",
+      "11.00"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah bak berbentuk balok berukuran $80$ cm $\\times$ $60$ cm $\\times$ $50$ cm berisi air penuh. Air dikuras dengan debit 12 liter per menit. Bak akan kosong setelah... menit."
+      }
+     ],
+     "opts": [
+      "10",
+      "24",
+      "40",
+      "20"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dani menabung Rp500.000,00 di bank dengan bunga tunggal 6% per tahun. Setelah 9 bulan, tabungan Dani menjadi Rp <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Rp522.500,00",
+     "accept": [
+      "522500",
+      "522.500",
+      "rp522.500",
+      "rp522.500,00",
+      "522.500,00",
+      "rp 522.500"
+     ],
+     "label": "Isian 14"
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Harga sebuah baju Rp200.000,00. Baju itu mendapat diskon 20%, kemudian mendapat diskon tambahan 10% dari harga setelah diskon pertama. Harga yang harus dibayar adalah..."
+      }
+     ],
+     "opts": [
+      "Rp144.000,00",
+      "Rp140.000,00",
+      "Rp160.000,00",
+      "Rp150.000,00"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "C. Bangun Datar dan Bangun Ruang. Perhatikan gambar berikut untuk menjawab soal nomor 16 dan 17.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 1
+    }
+   ],
+   "items": [
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan Gambar 1. Daerah yang berwarna adalah daerah di dalam persegi tetapi di luar lingkaran. Luas daerah berwarna tersebut adalah... (gunakan $\\pi = \\frac{22}{7}$)"
+      }
+     ],
+     "opts": [
+      "616 cm$^2$",
+      "168 cm$^2$",
+      "784 cm$^2$",
+      "84 cm$^2$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 1, keliling lingkaran adalah... (gunakan $\\pi = \\frac{22}{7}$)"
+      }
+     ],
+     "opts": [
+      "44 cm",
+      "112 cm",
+      "88 cm",
+      "176 cm"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah bangun terdiri atas kubus dengan rusuk 10 cm dan limas segiempat yang alasnya berimpit dengan salah satu sisi kubus. Tinggi limas 9 cm. Volume bangun gabungan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "1.300 cm$^3$",
+      "1.900 cm$^3$",
+      "1.100 cm$^3$",
+      "1.030 cm$^3$"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah tabung tertutup berjari-jari 7 cm dan tinggi 14 cm. Luas permukaan tabung tersebut adalah... (gunakan $\\pi = \\frac{22}{7}$)"
+      }
+     ],
+     "opts": [
+      "616 cm$^2$",
+      "462 cm$^2$",
+      "1.078 cm$^2$",
+      "924 cm$^2$"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pelurus dari penyiku sudut $40^{\\circ}$ adalah..."
+      }
+     ],
+     "opts": [
+      "$140^{\\circ}$",
+      "$50^{\\circ}$",
+      "$130^{\\circ}$",
+      "$220^{\\circ}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah trapesium sama kaki memiliki sisi sejajar 18 cm dan 30 cm, panjang kaki 10 cm, dan tinggi 8 cm. Luas dan keliling trapesium tersebut berturut-turut adalah..."
+      }
+     ],
+     "opts": [
+      "192 cm$^2$ dan 58 cm",
+      "192 cm$^2$ dan 68 cm",
+      "384 cm$^2$ dan 68 cm",
+      "240 cm$^2$ dan 68 cm"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua pernyataan yang benar tentang bangun datar."
+      }
+     ],
+     "opts": [
+      "Jajar genjang tidak memiliki sumbu simetri lipat.",
+      "Layang-layang memiliki 1 sumbu simetri lipat.",
+      "Segitiga sama sisi memiliki 3 sumbu simetri lipat.",
+      "Lingkaran memiliki 4 sumbu simetri lipat."
+     ],
+     "answers": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "title": "D. Pengolahan Data. Perhatikan gambar berikut untuk menjawab soal nomor 23 sampai 26.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 2
+    }
+   ],
+   "items": [
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, banyak siswa yang gemar renang adalah..."
+      }
+     ],
+     "opts": [
+      "25 siswa",
+      "35 siswa",
+      "30 siswa",
+      "42 siswa"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, selisih banyak siswa yang gemar sepak bola dan basket adalah..."
+      }
+     ],
+     "opts": [
+      "12 siswa",
+      "15 siswa",
+      "18 siswa",
+      "24 siswa"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, besar sudut pusat sektor bulu tangkis adalah..."
+      }
+     ],
+     "opts": [
+      "$60^{\\circ}$",
+      "$72^{\\circ}$",
+      "$90^{\\circ}$",
+      "$20^{\\circ}$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "bs",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, tentukan apakah pernyataan berikut Benar atau Salah."
+      }
+     ],
+     "stmts": [
+      "Sepak bola adalah kegiatan yang paling banyak digemari.",
+      "Banyak siswa gemar bulu tangkis sama dengan banyak siswa gemar basket.",
+      "Banyak siswa yang gemar renang dan basket adalah 54 orang.",
+      "Besar sudut pusat sektor renang adalah $100^{\\circ}$."
+     ],
+     "answers": [
+      true,
+      true,
+      true,
+      false
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Perhatikan tabel berikut untuk menjawab soal nomor 27 sampai 30.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 1. Nilai ulangan matematika 20 siswa",
+     "head": [
+      "Nilai",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+     ],
+     "rows": [
+      [
+       "Banyak siswa",
+       "2",
+       "4",
+       "7",
+       "6",
+       "1"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, rata-rata nilai ulangan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "7,5",
+      "8,5",
+      "9",
+      "8"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, banyak siswa yang nilainya di bawah rata-rata adalah..."
+      }
+     ],
+     "opts": [
+      "6 siswa",
+      "4 siswa",
+      "7 siswa",
+      "13 siswa"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, persentase siswa yang memperoleh nilai paling sedikit 9 adalah..."
+      }
+     ],
+     "opts": [
+      "35%",
+      "30%",
+      "7%",
+      "65%"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebanyak 5 siswa lain dengan nilai rata-rata 9 bergabung dengan kelompok pada Tabel 1. Rata-rata nilai seluruh siswa sekarang adalah <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "$8,2$",
+     "accept": [
+      "8,2",
+      "8.2"
+     ],
+     "label": "Isian 30"
+    }
+   ]
+  }
+ ],
+ "figures": {
+  "1": {
+   "src": "fig/56fe3a9836.svg",
+   "caption": "Persegi dengan lingkaran di dalamnya"
+  },
+  "2": {
+   "src": "fig/365f8903f2.svg",
+   "caption": "Kegiatan ekstrakurikuler yang digemari 120 siswa"
+  }
+ }
+}

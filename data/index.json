@@ -144,6 +144,14 @@
   "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket2.pdf"
  },
  {
+  "id": "tka-matematika-p3",
+  "subject": "Matematika",
+  "title": "Try Out Persiapan TKA (Paket 3)",
+  "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, geometri gabungan, diagram lingkaran, dan tabel frekuensi.",
+  "count": 30,
+  "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket3.pdf"
+ },
+ {
   "id": "tka-bahasa-indonesia-p2",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA (Paket 2)",
