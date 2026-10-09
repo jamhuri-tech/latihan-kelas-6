@@ -168,6 +168,14 @@
   "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket3.pdf"
  },
  {
+  "id": "tka-bahasa-indonesia-p4",
+  "subject": "Bahasa Indonesia",
+  "title": "Try Out Persiapan TKA (Paket 4)",
+  "desc": "30 soal literasi: teks informasi, cerpen, iklan layanan masyarakat, dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
+  "count": 29,
+  "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket4.pdf"
+ },
+ {
   "id": "bindo-tka",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA",

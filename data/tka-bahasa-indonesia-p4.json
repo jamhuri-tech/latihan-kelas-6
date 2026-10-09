@@ -1,0 +1,609 @@
+{
+ "id": "tka-bahasa-indonesia-p4",
+ "subject": "Bahasa Indonesia",
+ "title": "Try Out Persiapan TKA (Paket 4)",
+ "desc": "30 soal literasi: teks informasi, cerpen, iklan layanan masyarakat, dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk menjawab soal nomor 1 sampai 9.",
+   "passage": {
+    "title": "Teks 1: Lebah Madu, Serangga Pekerja Keras",
+    "paras": [
+     "Lebah madu hidup berkelompok dalam sebuah koloni yang terdiri atas tiga jenis lebah, yaitu ratu, pekerja, dan jantan. Satu koloni dapat dihuni puluhan ribu lebah, tetapi hanya ada satu ratu.",
+     "Ratu bertugas bertelur, bahkan dapat menghasilkan ribuan telur dalam sehari. Lebah jantan bertugas mengawini ratu. Adapun lebah pekerja, yang seluruhnya betina, mengerjakan hampir semua pekerjaan lain, yaitu membersihkan sarang, merawat larva, menjaga pintu sarang, dan mencari nektar.",
+     "Untuk menghasilkan madu, lebah pekerja harus terbang dari bunga ke bunga mengumpulkan nektar. Selama terbang, serbuk sari menempel pada tubuhnya dan berpindah ke bunga lain. Peristiwa ini membantu penyerbukan sehingga tumbuhan dapat berbuah.",
+     "Sayangnya, jumlah lebah menurun akibat penggunaan pestisida dan hilangnya lahan bunga. Padahal, tanpa lebah, banyak tanaman pangan akan sulit berbuah. Oleh karena itu, kita perlu menjaga lingkungan agar lebah tetap lestari."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Gagasan utama paragraf kedua adalah..."
+      }
+     ],
+     "opts": [
+      "Jumlah lebah dalam satu koloni",
+      "Cara lebah membuat madu",
+      "Pembagian tugas ratu, lebah jantan, dan lebah pekerja",
+      "Penyebab turunnya jumlah lebah"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan teks, jenis lebah yang mengerjakan hampir semua pekerjaan di sarang adalah..."
+      }
+     ],
+     "opts": [
+      "Lebah pekerja",
+      "Ratu",
+      "Lebah jantan",
+      "Larva"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua tugas lebah pekerja menurut teks."
+      }
+     ],
+     "opts": [
+      "Membersihkan sarang",
+      "Merawat larva",
+      "Mencari nektar",
+      "Bertelur"
+     ],
+     "answers": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna kata <em>koloni</em> pada paragraf pertama adalah..."
+      }
+     ],
+     "opts": [
+      "Sarang tempat menyimpan madu",
+      "Kelompok makhluk hidup yang hidup bersama",
+      "Jenis bunga tertentu",
+      "Serangga pemakan nektar"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lebah membantu penyerbukan karena..."
+      }
+     ],
+     "opts": [
+      "Lebah memakan buah yang matang",
+      "Lebah membuat sarang di dalam bunga",
+      "Serbuk sari menempel pada tubuhnya dan berpindah ke bunga lain",
+      "Madu menempel pada kelopak bunga"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "bs",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi teks (Benar) atau tidak (Salah)."
+      }
+     ],
+     "stmts": [
+      "Dalam satu koloni terdapat banyak ratu.",
+      "Seluruh lebah pekerja berjenis kelamin betina.",
+      "Lebah jantan bertugas mengawini ratu.",
+      "Pestisida menjadi salah satu penyebab menurunnya jumlah lebah."
+     ],
+     "answers": [
+      false,
+      true,
+      true,
+      true
+     ]
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kesimpulan yang tepat dari teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Lebah hanya bermanfaat untuk menghasilkan madu",
+      "Ratu adalah lebah yang paling banyak bekerja",
+      "Pestisida dapat membantu lebah berkembang biak",
+      "Lebah berperan penting bagi kehidupan sehingga perlu dilestarikan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Satu koloni lebah madu hanya memiliki <span class=\"blank\">&nbsp;</span> ratu."
+      }
+     ],
+     "answer": "satu",
+     "accept": [
+      "satu",
+      "1",
+      "seekor",
+      "hanya satu",
+      "satu ekor"
+     ],
+     "label": "Isian 8"
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "self",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jelaskan mengapa menurunnya jumlah lebah dapat merugikan manusia."
+      }
+     ],
+     "answer": "Contoh: lebah membantu penyerbukan sehingga tanaman pangan dapat berbuah; jika lebah berkurang, hasil pangan berkurang (jawaban lain yang sesuai diterima).",
+     "label": "Isian 9"
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk menjawab soal nomor 10 sampai 17.",
+   "passage": {
+    "title": "Teks 2: Juara yang Tertunda",
+    "paras": [
+     "Lomba lari 100 meter antarkelas tinggal beberapa menit lagi. Bima berdiri di garis awal dengan jantung berdebar. Sudah tiga bulan ia berlatih setiap sore, hanya demi hari ini.",
+     "Peluit berbunyi. Bima melesat dan memimpin sejak awal. Saat hampir mencapai garis akhir, ia mendengar teriakan di belakangnya. Ardi, pesaing terdekatnya, terjatuh dan memegangi lututnya yang berdarah.",
+     "Bima ragu. Garis akhir tinggal beberapa langkah lagi. Namun, ia teringat pesan ayahnya, “Menang itu penting, tetapi menjadi orang baik jauh lebih penting.” Bima berbalik, membantu Ardi berdiri, lalu memapahnya sampai garis akhir.",
+     "Penonton bertepuk tangan riuh. Meskipun tidak meraih juara pertama, Bima mendapat piala sportivitas dari panitia. “Terima kasih, Bim,” bisik Ardi. Bima tersenyum. Baginya, hari itu ia sudah menjadi juara yang sebenarnya."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sudut pandang yang digunakan pengarang dalam cerita tersebut adalah orang..."
+      }
+     ],
+     "opts": [
+      "Pertama",
+      "Ketiga",
+      "Kedua",
+      "Pertama jamak"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Konflik batin yang dialami Bima adalah..."
+      }
+     ],
+     "opts": [
+      "Memilih antara berlatih dan bermain",
+      "Memilih antara pulang dan menonton",
+      "Memilih antara ikut lomba dan tidak ikut",
+      "Memilih antara meraih kemenangan dan menolong Ardi"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagian cerita ketika Bima ragu di dekat garis akhir merupakan tahap..."
+      }
+     ],
+     "opts": [
+      "Orientasi",
+      "Resolusi",
+      "Klimaks",
+      "Koda"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Watak Bima dalam cerita tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Sombong dan egois",
+      "Pemalu dan penakut",
+      "Pemarah dan iri hati",
+      "Tekun, sportif, dan peduli"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna ungkapan <em>jantung berdebar</em> pada paragraf pertama adalah..."
+      }
+     ],
+     "opts": [
+      "Merasa lelah",
+      "Merasa marah",
+      "Merasa tegang",
+      "Merasa sakit"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bima mendapat piala sportivitas karena..."
+      }
+     ],
+     "opts": [
+      "Menolong Ardi walaupun sedang memimpin lomba",
+      "Berlatih paling lama di sekolah",
+      "Berlari paling cepat dalam lomba",
+      "Dipilih oleh ayahnya"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "bs",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi cerita (Benar) atau tidak (Salah)."
+      }
+     ],
+     "stmts": [
+      "Bima berlatih selama tiga bulan.",
+      "Ardi terjatuh pada awal lomba.",
+      "Pesan ayah memengaruhi keputusan Bima.",
+      "Bima menjadi juara pertama lomba lari."
+     ],
+     "answers": [
+      true,
+      false,
+      true,
+      false
+     ]
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "uraian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika kamu berada di posisi Bima, apa yang akan kamu lakukan? Jelaskan alasanmu dalam 2–3 kalimat!"
+      }
+     ],
+     "answer": "Jawaban terbuka. Kriteria: menyatakan pilihan tindakan disertai alasan yang logis dan berkaitan dengan nilai sportivitas, kejujuran, atau kepedulian.",
+     "label": "Uraian 17"
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk menjawab soal nomor 18 sampai 23.",
+   "passage": {
+    "title": "Teks 3: Iklan Layanan Masyarakat",
+    "paras": [
+     "<strong>AYO HEMAT AIR!</strong>",
+     "Air bersih semakin sulit didapat. Setiap hari, satu keluarga dapat menghabiskan ratusan liter air hanya untuk keperluan rumah tangga. Jika kita boros, air bersih akan habis dan generasi mendatang akan kesulitan.",
+     "Mulai dari rumah, yuk lakukan hal berikut:<br> 1. Matikan keran saat menyikat gigi.<br> 2. Perbaiki keran yang bocor.<br> 3. Tampung air hujan untuk menyiram tanaman.<br> 4. Gunakan air secukupnya saat mandi.",
+     "Satu tetes air sangat berharga. Hemat air hari ini, selamatkan bumi esok hari!<br> <em>Dinas Lingkungan Hidup</em>"
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jenis teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Iklan layanan masyarakat",
+      "Teks prosedur",
+      "Teks narasi",
+      "Teks laporan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tujuan utama teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Menjual alat penampung air",
+      "Mengajak masyarakat menghemat air",
+      "Menceritakan pengalaman mandi",
+      "Menjelaskan proses terjadinya hujan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang berisi ajakan pada teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Air bersih semakin sulit didapat.",
+      "Generasi mendatang akan kesulitan.",
+      "Satu keluarga dapat menghabiskan ratusan liter air.",
+      "Hemat air hari ini, selamatkan bumi esok hari!"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua cara menghemat air yang disebutkan dalam teks."
+      }
+     ],
+     "opts": [
+      "Mematikan keran saat menyikat gigi",
+      "Memperbaiki keran yang bocor",
+      "Menampung air hujan untuk menyiram tanaman",
+      "Mandi selama satu jam setiap hari"
+     ],
+     "answers": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Iklan layanan masyarakat tersebut dibuat oleh <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "Dinas Lingkungan Hidup",
+     "accept": [
+      "dinas lingkungan hidup",
+      "lingkungan hidup",
+      "dlh"
+     ],
+     "label": "Isian 22"
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang merupakan opini pada teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Satu tetes air sangat berharga.",
+      "Air hujan dapat ditampung untuk menyiram tanaman.",
+      "Satu keluarga dapat menghabiskan ratusan liter air setiap hari.",
+      "Teks ini dibuat oleh Dinas Lingkungan Hidup."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Soal Kebahasaan",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang penulisan kata depan <em>di</em>-nya tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Adik bermain dihalaman, lalu di panggil Ibu.",
+      "Adik bermain dihalaman, lalu dipanggil Ibu.",
+      "Adik bermain di halaman, lalu dipanggil Ibu.",
+      "Adik bermain di halaman, lalu di panggil Ibu."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat majemuk bertingkat terdapat pada kalimat..."
+      }
+     ],
+     "opts": [
+      "Ayah pulang ketika hujan sudah reda.",
+      "Ayah membaca koran dan Ibu memasak.",
+      "Adik menangis, tetapi Kakak tertawa.",
+      "Ibu membeli sayur di pasar."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata yang penulisannya baku adalah..."
+      }
+     ],
+     "opts": [
+      "Analisa",
+      "Analises",
+      "Analisys",
+      "Analisis"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Imbuhan <em>ber-</em> pada kata <em>berkebun</em> bermakna..."
+      }
+     ],
+     "opts": [
+      "Melakukan kegiatan",
+      "Memiliki",
+      "Saling",
+      "Menggunakan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perhatikan paragraf berikut! <em>Bermain di luar rumah sangat bermanfaat bagi anak. Aktivitas ini melatih otot dan membuat tulang lebih kuat. Anak juga dapat berteman dan belajar bekerja sama. Selain itu, tubuh mendapat sinar matahari yang baik.</em> Kalimat utama paragraf tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Aktivitas ini melatih otot dan membuat tulang lebih kuat.",
+      "Bermain di luar rumah sangat bermanfaat bagi anak.",
+      "Anak juga dapat berteman dan belajar bekerja sama.",
+      "Selain itu, tubuh mendapat sinar matahari yang baik."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat “Sekolah adalah rumah kedua bagiku” mengandung majas..."
+      }
+     ],
+     "opts": [
+      "Simile",
+      "Metafora",
+      "Hiperbola",
+      "Personifikasi"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lengkapi dengan kata berimbuhan yang tepat. Ibu <span class=\"blank\">&nbsp;</span> (masak) nasi goreng untuk sarapan."
+      }
+     ],
+     "answer": "memasak",
+     "accept": [
+      "memasak"
+     ],
+     "label": "Isian 30"
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
