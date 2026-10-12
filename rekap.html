@@ -25,7 +25,7 @@
   .rk-sub { color: var(--muted); font-size: .82rem; }
   .rk-msg { color: var(--muted); } .rk-err { color: var(--bad); }
   .rk-scroll { overflow-x: auto; }
-  @media (max-width: 600px) { .rk-tbl .opt { display: none; } }
+  @media (max-width: 600px) { .rk-tbl .rk-opt { display: none; } }
 </style>
 </head>
 <body>
@@ -49,7 +49,7 @@
     </div>
     <div class="rk-card rk-scroll">
       <table class="rk-tbl">
-        <thead><tr><th>Waktu</th><th>Nama</th><th>Latihan</th><th class="n">Nilai</th><th class="opt">Soal yang salah</th><th class="opt">Lama</th></tr></thead>
+        <thead><tr><th>Waktu</th><th>Nama</th><th>Latihan</th><th class="n">Nilai</th><th class="rk-opt">Soal yang salah</th><th class="rk-opt">Lama</th></tr></thead>
         <tbody id="rows"></tbody>
       </table>
       <p id="empty" class="rk-msg" hidden>Belum ada nilai yang cocok.</p>
@@ -104,7 +104,7 @@
       var tr = document.createElement('tr');
       tr.append(td(r.waktu.replace(' WIB', '')), td(r.nama));
       var l = td(r.lat); var sub = document.createElement('div'); sub.className = 'rk-sub'; sub.textContent = r.subj + ' · ' + r.benar; l.append(sub);
-      tr.append(l, td(r.nilai, 'n ' + cls(r.nilai)), td(r.salah, 'opt'), td(r.lama, 'opt'));
+      tr.append(l, td(r.nilai, 'n ' + cls(r.nilai)), td(r.salah, 'rk-opt'), td(r.lama, 'rk-opt'));
       body.append(tr);
     });
     $('empty').hidden = list.length > 0;
