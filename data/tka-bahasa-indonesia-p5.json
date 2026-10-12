@@ -1,0 +1,631 @@
+{
+ "id": "tka-bahasa-indonesia-p5",
+ "subject": "Bahasa Indonesia",
+ "title": "Try Out Persiapan TKA (Paket 5)",
+ "desc": "30 soal literasi tingkat lebih menantang: teks informasi dengan tabel, dua teks opini, biografi, dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 dan Tabel 1 untuk menjawab soal nomor 1 sampai 9.",
+   "passage": {
+    "title": "Teks 1: Makanan yang Terbuang Sia-Sia",
+    "paras": [
+     "Setiap hari, banyak makanan yang tidak habis dimakan lalu dibuang ke tempat sampah. Sisa makanan ini disebut sampah makanan. Sekilas sampah makanan tampak tidak berbahaya karena mudah membusuk. Kenyataannya, sampah makanan yang menumpuk di tempat pembuangan akhir menghasilkan gas metana yang ikut memanaskan bumi.",
+     "Selain merusak lingkungan, membuang makanan berarti membuang hasil kerja banyak orang. Sepiring nasi melewati perjalanan panjang: petani menanam padi berbulan-bulan, penggilingan mengolah gabah, pedagang mengangkut beras, lalu juru masak menanaknya. Air, pupuk, dan tenaga yang dipakai dalam perjalanan itu ikut terbuang bersama sisa nasi.",
+     "Siswa kelas 6 SD Harapan mencoba mencatat sisa makan siang di kantin sekolah selama satu minggu. Hasilnya dapat dilihat pada {T:sisa}. Mereka menemukan bahwa sayur paling banyak tersisa, sedangkan lauk paling sedikit. Ketika ditanya, sebagian besar siswa mengaku mengambil makanan terlalu banyak atau tidak menyukai rasa sayurnya.",
+     "Berdasarkan temuan itu, para siswa mengusulkan dua langkah sederhana: mengambil makanan secukupnya dan meminta juru masak mengolah sayur dengan cara yang lebih disukai anak-anak. Sisa makanan yang tidak dapat dihindari pun dapat diolah menjadi kompos untuk kebun sekolah. Dengan demikian, sampah makanan berkurang dan kebun sekolah menjadi lebih subur."
+    ]
+   },
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 1. Sisa makan siang di kantin SD Harapan selama satu minggu",
+     "head": [
+      "Jenis makanan",
+      "Nasi",
+      "Sayur",
+      "Lauk",
+      "Buah"
+     ],
+     "rows": [
+      [
+       "Berat sisa (kg)",
+       "12",
+       "14",
+       "3",
+       "7"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Masalah utama yang dibahas dalam teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Cara menanam padi di sawah",
+      "Cara mengolah sayur agar lezat",
+      "Proses terbentuknya gas metana",
+      "Banyaknya makanan yang terbuang dan dampaknya"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Paragraf kedua menjelaskan bahwa membuang makanan juga berarti..."
+      }
+     ],
+     "opts": [
+      "Menyia-nyiakan air, pupuk, dan tenaga yang digunakan untuk menghasilkannya",
+      "Membantu petani mendapatkan pupuk",
+      "Menambah pekerjaan juru masak",
+      "Membuat harga beras menjadi murah"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, selisih sisa sayur dan sisa lauk selama seminggu adalah..."
+      }
+     ],
+     "opts": [
+      "11 kg",
+      "4 kg",
+      "14 kg",
+      "18 kg"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "bs",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan teks dan Tabel 1, tentukan apakah pernyataan berikut Benar atau Salah."
+      }
+     ],
+     "stmts": [
+      "Sisa nasi lebih banyak daripada sisa buah.",
+      "Sampah makanan tidak berbahaya karena mudah membusuk.",
+      "Jumlah seluruh sisa makanan selama seminggu adalah 36 kg.",
+      "Sebagian siswa tidak menyukai rasa sayur di kantin."
+     ],
+     "answers": [
+      true,
+      false,
+      true,
+      true
+     ]
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata <em>sekilas</em> pada kalimat “Sekilas sampah makanan tampak tidak berbahaya” bermakna..."
+      }
+     ],
+     "opts": [
+      "Jika dilihat dengan teliti",
+      "Dalam waktu yang sangat lama",
+      "Menurut penelitian para ahli",
+      "Jika dilihat sepintas atau tidak mendalam"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua usulan siswa untuk mengurangi sampah makanan menurut teks."
+      }
+     ],
+     "opts": [
+      "Mengambil makanan secukupnya",
+      "Meminta juru masak mengolah sayur dengan cara yang lebih disukai",
+      "Menghapus sayur dari menu kantin",
+      "Mengolah sisa makanan menjadi kompos"
+     ],
+     "answers": [
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hubungan antara paragraf ketiga dan paragraf keempat adalah..."
+      }
+     ],
+     "opts": [
+      "Paragraf ketiga berisi pendapat, paragraf keempat berisi fakta pendukung",
+      "Paragraf ketiga berisi temuan masalah, paragraf keempat berisi usulan penyelesaiannya",
+      "Kedua paragraf menjelaskan hal yang sama dengan kata berbeda",
+      "Paragraf keempat membantah isi paragraf ketiga"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Gas yang dihasilkan oleh tumpukan sampah makanan dan ikut memanaskan bumi adalah gas <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "metana",
+     "accept": [
+      "metana",
+      "gas metana",
+      "metan"
+     ],
+     "label": "Isian 8"
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "self",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurutmu, mengapa penulis menceritakan “perjalanan sepiring nasi” dari petani sampai juru masak? Jelaskan!"
+      }
+     ],
+     "answer": "Contoh: agar pembaca menyadari bahwa makanan dihasilkan dengan kerja keras banyak orang serta memakai banyak air, pupuk, dan tenaga, sehingga pembaca merasa sayang untuk membuangnya (jawaban lain yang sesuai diterima).",
+     "label": "Isian 9"
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk menjawab soal nomor 10 sampai 17.",
+   "passage": {
+    "title": "Teks 2: Perlukah Pekerjaan Rumah Setiap Hari?",
+    "paras": [
+     "<strong>Pendapat Bu Ratna (guru)</strong>",
+     "Pekerjaan rumah (PR) membantu siswa mengulang pelajaran yang baru diterima di sekolah. Tanpa pengulangan, materi mudah terlupa. PR juga melatih siswa bertanggung jawab dan mengatur waktu. Menurut saya, PR sebaiknya tetap diberikan setiap hari, asalkan jumlahnya sedikit dan dapat diselesaikan dalam 30 menit.",
+     "<strong>Pendapat Pak Hendra (orang tua siswa)</strong>",
+     "Anak-anak sudah belajar sejak pagi hingga siang di sekolah. Sepulang sekolah, mereka juga perlu bermain, membantu orang tua, dan beristirahat. Anak saya sering mengerjakan PR sampai malam sehingga tidurnya kurang. Saya setuju ada PR, tetapi cukup dua atau tiga kali dalam seminggu dan berupa kegiatan yang menyenangkan, misalnya mengamati tanaman atau mewawancarai keluarga."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Persamaan pendapat Bu Ratna dan Pak Hendra adalah..."
+      }
+     ],
+     "opts": [
+      "Keduanya setuju PR tetap diberikan dengan batasan tertentu",
+      "Keduanya menolak adanya PR",
+      "Keduanya ingin PR diberikan setiap hari",
+      "Keduanya ingin PR dikerjakan sampai malam"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perbedaan pendapat kedua tokoh terletak pada..."
+      }
+     ],
+     "opts": [
+      "Seberapa sering PR sebaiknya diberikan",
+      "Siapa yang harus memeriksa PR",
+      "Mata pelajaran yang diberi PR",
+      "Tempat mengerjakan PR"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Alasan Bu Ratna mendukung PR setiap hari adalah..."
+      }
+     ],
+     "opts": [
+      "PR membuat anak tidur lebih cepat",
+      "PR menggantikan waktu bermain anak",
+      "PR membantu mengulang pelajaran dan melatih tanggung jawab",
+      "PR membuat orang tua lebih sibuk"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang merupakan fakta dalam pendapat Pak Hendra adalah..."
+      }
+     ],
+     "opts": [
+      "Saya setuju ada PR, tetapi cukup dua atau tiga kali dalam seminggu.",
+      "Anak saya sering mengerjakan PR sampai malam sehingga tidurnya kurang.",
+      "PR sebaiknya berupa kegiatan yang menyenangkan.",
+      "Anak-anak perlu bermain dan beristirahat."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "ms",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pilih semua pernyataan yang sesuai dengan pendapat Pak Hendra."
+      }
+     ],
+     "opts": [
+      "PR dapat berupa kegiatan mengamati tanaman",
+      "Anak perlu waktu untuk membantu orang tua",
+      "PR harus selesai dalam 30 menit",
+      "PR cukup diberikan dua atau tiga kali seminggu"
+     ],
+     "answers": [
+      0,
+      1,
+      3
+     ]
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika sekolah ingin mengambil jalan tengah dari kedua pendapat, keputusan yang paling tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Memberikan PR ringan dan menyenangkan beberapa kali seminggu",
+      "Menghapus semua PR mulai minggu depan",
+      "Memberikan PR banyak setiap hari agar siswa pintar",
+      "Menyerahkan semua PR kepada orang tua"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "bs",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi teks (Benar) atau tidak (Salah)."
+      }
+     ],
+     "stmts": [
+      "Bu Ratna berpendapat bahwa materi mudah terlupa tanpa pengulangan.",
+      "Pak Hendra sama sekali tidak setuju dengan adanya PR.",
+      "Bu Ratna membatasi waktu mengerjakan PR sekitar 30 menit.",
+      "Kedua teks termasuk teks prosedur."
+     ],
+     "answers": [
+      true,
+      false,
+      true,
+      false
+     ]
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "uraian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pendapat siapa yang lebih kamu setujui, Bu Ratna atau Pak Hendra? Tuliskan pendapatmu disertai dua alasan!"
+      }
+     ],
+     "answer": "Jawaban terbuka. Kriteria: memilih salah satu pendapat (atau jalan tengah), memberikan dua alasan yang logis, dan alasan tidak bertentangan dengan isi teks.",
+     "label": "Uraian 17"
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk menjawab soal nomor 18 sampai 23.",
+   "passage": {
+    "title": "Teks 3: Ki Hajar Dewantara, Bapak Pendidikan Nasional",
+    "paras": [
+     "Ki Hajar Dewantara lahir di Yogyakarta pada 2 Mei 1889 dengan nama Raden Mas Soewardi Soerjaningrat. Ia berasal dari keluarga bangsawan sehingga dapat bersekolah di sekolah Belanda. Pada masa itu, sebagian besar anak pribumi tidak mendapat kesempatan bersekolah.",
+     "Soewardi dikenal sebagai wartawan yang berani. Tulisannya yang berjudul <em>Als ik een Nederlander was</em> (Seandainya Aku Seorang Belanda) mengkritik pemerintah penjajah. Akibatnya, ia dibuang ke Belanda. Namun, masa pembuangan itu justru dimanfaatkannya untuk mempelajari ilmu pendidikan.",
+     "Setelah kembali ke tanah air, pada tahun 1922 ia mendirikan Perguruan Taman Siswa agar anak-anak pribumi dapat bersekolah. Ia juga mengganti namanya menjadi Ki Hajar Dewantara dan melepaskan gelar kebangsawanannya supaya lebih dekat dengan rakyat.",
+     "Semboyannya yang terkenal adalah <em>Ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri handayani</em>, artinya di depan memberi teladan, di tengah membangun semangat, dan di belakang memberi dorongan. Untuk menghormati jasanya, tanggal kelahirannya diperingati sebagai Hari Pendidikan Nasional."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jenis teks tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Teks fabel",
+      "Teks eksplanasi",
+      "Teks biografi",
+      "Teks iklan"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Peristiwa yang menyebabkan Soewardi dibuang ke Belanda adalah..."
+      }
+     ],
+     "opts": [
+      "Pendirian Perguruan Taman Siswa",
+      "Keinginannya belajar ilmu pendidikan",
+      "Penggantian namanya",
+      "Tulisannya yang mengkritik pemerintah penjajah"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap Ki Hajar Dewantara ketika berada di pembuangan menunjukkan bahwa ia..."
+      }
+     ],
+     "opts": [
+      "Mudah putus asa ketika dihukum",
+      "Pantang menyerah dan mampu mengubah kesulitan menjadi kesempatan",
+      "Lebih suka tinggal di negeri orang",
+      "Ingin menjadi orang Belanda"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tujuan Ki Hajar Dewantara melepaskan gelar kebangsawanannya adalah..."
+      }
+     ],
+     "opts": [
+      "Agar dapat bersekolah di sekolah Belanda",
+      "Agar tidak dibuang ke Belanda",
+      "Agar lebih dekat dengan rakyat",
+      "Agar dapat menjadi wartawan"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Semboyan <em>tut wuri handayani</em> paling sesuai diterapkan oleh guru yang..."
+      }
+     ],
+     "opts": [
+      "Mengerjakan semua tugas siswanya",
+      "Menghukum siswa yang salah menjawab",
+      "Membiarkan siswa tanpa bimbingan sama sekali",
+      "Memberi semangat dari belakang ketika siswa mencoba memecahkan soal sendiri"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hari Pendidikan Nasional diperingati setiap tanggal <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "answer": "2 Mei",
+     "accept": [
+      "2 mei",
+      "dua mei",
+      "tanggal 2 mei",
+      "02 mei",
+      "2-5",
+      "2/5"
+     ],
+     "label": "Isian 23"
+    }
+   ]
+  },
+  {
+   "title": "Soal Kebahasaan",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat berikut yang paling efektif adalah..."
+      }
+     ],
+     "opts": [
+      "Para siswa-siswa diminta mengumpulkan tugas hari ini.",
+      "Para siswa diminta untuk mengumpulkan tugas-tugas pada hari ini juga sekarang.",
+      "Para siswa diminta mengumpulkan tugas hari ini.",
+      "Siswa-siswa para diminta mengumpulkan tugas hari ini."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Konjungsi yang tepat untuk melengkapi kalimat “Hujan turun sangat deras, <span class=\"blank\">&nbsp;</span> pertandingan sepak bola tetap dilanjutkan.” adalah..."
+      }
+     ],
+     "opts": [
+      "sehingga",
+      "karena",
+      "namun",
+      "agar"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang penggunaan huruf kapitalnya tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Kami berkunjung ke candi Borobudur pada Hari minggu.",
+      "kami berkunjung ke Candi borobudur pada hari Minggu.",
+      "Kami Berkunjung ke Candi Borobudur pada hari minggu.",
+      "Kami berkunjung ke Candi Borobudur pada hari Minggu."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat langsung “Tolong matikan lampu kamarmu,” kata Ibu kepada Rina. Jika diubah menjadi kalimat tidak langsung, menjadi..."
+      }
+     ],
+     "opts": [
+      "Ibu meminta Rina mematikan lampu kamarmu.",
+      "Ibu meminta Rina mematikan lampu kamarnya.",
+      "Rina meminta Ibu mematikan lampu kamarnya.",
+      "Ibu berkata, “Rina, matikan lampu.”"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Peribahasa <em>bagai air di daun talas</em> paling tepat menggambarkan orang yang..."
+      }
+     ],
+     "opts": [
+      "Pendiriannya mudah berubah-ubah",
+      "Sangat rajin bekerja",
+      "Selalu menolong sesama",
+      "Hidupnya sangat sederhana"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata <em>tinggi</em> yang bermakna kiasan terdapat pada kalimat..."
+      }
+     ],
+     "opts": [
+      "Pohon kelapa itu sangat tinggi.",
+      "Kakak memiliki cita-cita yang tinggi.",
+      "Rumah Paman berada di dataran tinggi.",
+      "Adik melompat tinggi sekali."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "isian",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lengkapi dengan kata berimbuhan yang tepat. Surat itu harus <span class=\"blank\">&nbsp;</span> (tanda tangan) oleh kepala sekolah."
+      }
+     ],
+     "answer": "ditandatangani",
+     "accept": [
+      "ditandatangani"
+     ],
+     "label": "Isian 30"
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
