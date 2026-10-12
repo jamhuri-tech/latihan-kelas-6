@@ -7,7 +7,7 @@
   // Atas izin pemilik: nilai dikirim ke email orang tua lewat FormSubmit.co (aktivasi sekali lewat email konfirmasi).
   var NOTIFY_URL = 'https://formsubmit.co/ajax/m.jamhuri@live.com';
   // Nilai juga dicatat ke Google Sheet "Rekap Nilai Latihan Kelas 6" (Apps Script, URL /exec). Kosong = tidak dipakai.
-  var SHEET_URL = '';
+  var SHEET_URL = 'https://script.google.com/macros/s/AKfycbyhI-46Ltlen5Cuw_QKjCMzPhdXApNTm4NdEEYoHirM94W0KlaAnTXk9awfiB6vdL_Lxg/exec';
   var manifest = null;
   var cache = {};
 
