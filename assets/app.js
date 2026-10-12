@@ -6,6 +6,8 @@
   var NAME_KEY = 'lso:name';
   // Atas izin pemilik: nilai dikirim ke email orang tua lewat FormSubmit.co (aktivasi sekali lewat email konfirmasi).
   var NOTIFY_URL = 'https://formsubmit.co/ajax/m.jamhuri@live.com';
+  // Nilai juga dicatat ke Google Sheet "Rekap Nilai Latihan Kelas 6" (Apps Script, URL /exec). Kosong = tidak dipakai.
+  var SHEET_URL = '';
   var manifest = null;
   var cache = {};
 
@@ -502,23 +504,37 @@
         'Lama mengerjakan': mins ? mins + ' menit' : '-',
         Waktu: new Date().toLocaleString('id-ID', { timeZone: 'Asia/Jakarta' }) + ' WIB'
       };
-      sendInfo = { text: 'Mengirim nilai ke orang tua…', cls: '' };
+      sendInfo = { text: 'Mencatat nilai…', cls: '' };
       paintSend();
-      fetch(NOTIFY_URL, {
+      // Google Sheet: no-cors (balasan tidak bisa dibaca), dianggap berhasil bila permintaan sampai.
+      var toSheet = SHEET_URL ? fetch(SHEET_URL, {
+        method: 'POST', mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(payload)
+      }) : Promise.reject(new Error('tanpa sheet'));
+      var toMail = fetch(NOTIFY_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify(payload)
       }).then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
         .then(function (res) {
-          if (res.ok && (res.j.success === true || res.j.success === 'true')) {
-            st.sent = score; save();
-            sendInfo = { text: 'Nilai sudah terkirim ke orang tua ✓', cls: 'good' };
-          } else { throw new Error('gagal'); }
-          paintSend();
-        }).catch(function () {
-          sendInfo = { text: 'Nilai belum terkirim. Coba “Kirim ulang”, atau beri tahu orang tua.', cls: 'bad' };
-          paintSend();
+          if (!(res.ok && (res.j.success === true || res.j.success === 'true'))) throw new Error('gagal');
         });
+      var settled = 0, done = false;
+      function fail() {
+        if (++settled < 2 || done) return;
+        sendInfo = { text: 'Nilai belum terkirim. Coba “Kirim ulang”, atau beri tahu orang tua.', cls: 'bad' };
+        paintSend();
+      }
+      function ok() {
+        if (done) return;
+        done = true;
+        st.sent = score; save();
+        sendInfo = { text: 'Nilai sudah tercatat ✓', cls: 'good' };
+        paintSend();
+      }
+      toSheet.then(ok, fail);
+      toMail.then(ok, fail);
     }
     function showResult(scroll) {
       var good = 0, wrong = [];
