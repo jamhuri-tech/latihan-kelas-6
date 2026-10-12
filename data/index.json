@@ -160,6 +160,14 @@
   "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket4.pdf"
  },
  {
+  "id": "tka-matematika-p5",
+  "subject": "Matematika",
+  "title": "Try Out Persiapan TKA (Paket 5)",
+  "desc": "30 soal literasi numerasi tingkat lanjut: perbandingan berubah, kecepatan rata-rata, debit bocor, bangun ruang gabungan, diagram garis, dan rata-rata dengan nilai yang hilang.",
+  "count": 30,
+  "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket5.pdf"
+ },
+ {
   "id": "tka-bahasa-indonesia-p2",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA (Paket 2)",
