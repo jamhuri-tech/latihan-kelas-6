@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="robots" content="noindex">
+<title>Rekap Nilai</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .rk-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; margin: 16px 0; }
+  .rk-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .rk-row input, .rk-row select { font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; min-width: 0; }
+  .rk-row input[type=search] { flex: 1 1 180px; }
+  .rk-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 12px 0; }
+  .rk-stat { background: var(--blue-soft); border-radius: 10px; padding: 10px 12px; }
+  .rk-stat b { display: block; font-size: 1.5rem; color: var(--blue-dark); font-variant-numeric: tabular-nums; }
+  .rk-stat span { font-size: .85rem; color: var(--muted); }
+  .rk-tbl { width: 100%; border-collapse: collapse; font-size: .92rem; }
+  .rk-tbl th, .rk-tbl td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .rk-tbl th { color: var(--muted); font-weight: 600; font-size: .82rem; }
+  .rk-tbl td.n { font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
+  .rk-tbl th.n { text-align: right; }
+  .rk-good { color: var(--ok); } .rk-mid { color: #b9770e; } .rk-low { color: var(--bad); }
+  .rk-sub { color: var(--muted); font-size: .82rem; }
+  .rk-msg { color: var(--muted); } .rk-err { color: var(--bad); }
+  .rk-scroll { overflow-x: auto; }
+  @media (max-width: 600px) { .rk-tbl .opt { display: none; } }
+</style>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="./">Latihan Soal Kelas 6</a>
+    <span class="tag">Rekap nilai untuk orang tua</span>
+  </div>
+</header>
+<main class="wrap">
+  <p id="loginMsg" class="rk-msg" aria-live="polite"></p>
+  <section id="view" hidden>
+    <h2>Rekap Nilai</h2>
+    <div class="rk-card">
+      <div class="rk-row">
+        <input id="q" type="search" placeholder="Cari nama atau latihan…" aria-label="Cari">
+        <select id="subj" aria-label="Pelajaran"><option value="">Semua pelajaran</option></select>
+        <button id="reload" class="btn small ghost" type="button">Muat ulang</button>
+      </div>
+      <div class="rk-stats" id="stats"></div>
+    </div>
+    <div class="rk-card rk-scroll">
+      <table class="rk-tbl">
+        <thead><tr><th>Waktu</th><th>Nama</th><th>Latihan</th><th class="n">Nilai</th><th class="opt">Soal yang salah</th><th class="opt">Lama</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+      <p id="empty" class="rk-msg" hidden>Belum ada nilai yang cocok.</p>
+    </div>
+  </section>
+</main>
+<script>
+(function () {
+  'use strict';
+  var rows = [];
+  var $ = function (id) { return document.getElementById(id); };
+
+  // Membaca Sheet langsung (dibagikan "siapa saja yang memiliki link: pelihat") lewat Google Visualization JSONP.
+  var SHEET = 'https://docs.google.com/spreadsheets/d/1jDvNMN1faPWE8idGf1FRpAxMQlSSGBQ5FbKverPTtw4/gviz/tq';
+  function fail(text) { $('loginMsg').className = 'rk-err'; $('loginMsg').textContent = text; }
+  function load() {
+    $('loginMsg').className = 'rk-msg';
+    $('loginMsg').textContent = 'Memuat…';
+    var cb = 'rk' + Date.now(), tag = document.createElement('script');
+    var timer = setTimeout(function () { cleanup(); fail('Tidak bisa membaca rekap. Periksa internet, atau pastikan Sheet dibagikan ke "Siapa saja yang memiliki link".'); }, 15000);
+    function cleanup() { clearTimeout(timer); delete window[cb]; tag.remove(); }
+    window[cb] = function (res) {
+      cleanup();
+      if (!res || res.status !== 'ok') { fail('Gagal memuat nilai.'); return; }
+      rows = res.table.rows.map(function (r) {
+        var c = r.c.map(function (x) { return x ? String(x.f != null ? x.f : (x.v != null ? x.v : '')) : ''; });
+        return { waktu: c[0], nama: c[1], subj: c[2], lat: c[3], nilai: Number(c[4]) || 0, benar: c[5], salah: c[6], lama: c[7] };
+      }).filter(function (r) { return r.nama && r.nama.indexOf('UJI COBA') !== 0; }).reverse();
+      $('loginMsg').textContent = ''; $('view').hidden = false;
+      var subs = Array.from(new Set(rows.map(function (r) { return r.subj; }))).sort();
+      var sel = $('subj'), cur = sel.value;
+      sel.length = 1;
+      subs.forEach(function (x) { sel.add(new Option(x, x)); });
+      sel.value = subs.indexOf(cur) >= 0 ? cur : '';
+      render();
+    };
+    tag.onerror = function () { cleanup(); fail('Tidak bisa membaca rekap. Periksa internet, lalu coba lagi.'); };
+    tag.src = SHEET + '?headers=1&tqx=out:json;responseHandler:' + cb + '&t=' + Date.now();
+    document.body.append(tag);
+  }
+
+  function cls(n) { return n >= 80 ? 'rk-good' : n >= 60 ? 'rk-mid' : 'rk-low'; }
+  function td(text, c) { var e = document.createElement('td'); e.textContent = text; if (c) e.className = c; return e; }
+
+  function render() {
+    var q = $('q').value.trim().toLowerCase(), s = $('subj').value;
+    var list = rows.filter(function (r) {
+      return (!s || r.subj === s) && (!q || (r.nama + ' ' + r.lat + ' ' + r.subj).toLowerCase().indexOf(q) >= 0);
+    });
+    var body = $('rows'); body.replaceChildren();
+    list.forEach(function (r) {
+      var tr = document.createElement('tr');
+      tr.append(td(r.waktu.replace(' WIB', '')), td(r.nama));
+      var l = td(r.lat); var sub = document.createElement('div'); sub.className = 'rk-sub'; sub.textContent = r.subj + ' · ' + r.benar; l.append(sub);
+      tr.append(l, td(r.nilai, 'n ' + cls(r.nilai)), td(r.salah, 'opt'), td(r.lama, 'opt'));
+      body.append(tr);
+    });
+    $('empty').hidden = list.length > 0;
+    var n = list.length, avg = n ? Math.round(list.reduce(function (a, r) { return a + r.nilai; }, 0) / n) : 0;
+    var best = n ? Math.max.apply(null, list.map(function (r) { return r.nilai; })) : 0;
+    var st = $('stats'); st.replaceChildren();
+    [[n, 'latihan dikerjakan'], [n ? avg : '–', 'rata-rata nilai'], [n ? best : '–', 'nilai tertinggi'], [n ? list[0].waktu.split(' ')[0].replace(',', '') : '–', 'terakhir mengerjakan']]
+      .forEach(function (x) { var d = document.createElement('div'); d.className = 'rk-stat'; var b = document.createElement('b'); b.textContent = x[0]; var sp = document.createElement('span'); sp.textContent = x[1]; d.append(b, sp); st.append(d); });
+  }
+
+  $('q').addEventListener('input', render);
+  $('subj').addEventListener('change', render);
+  $('reload').addEventListener('click', load);
+  load();
+})();
+</script>
+</body>
+</html>
