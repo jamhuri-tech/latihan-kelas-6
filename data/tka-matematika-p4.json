@@ -2,7 +2,7 @@
  "id": "tka-matematika-p4",
  "subject": "Matematika",
  "title": "Try Out Persiapan TKA (Paket 4)",
- "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, kecepatan menyusul, bangun gabungan, diagram batang, dan tabel frekuensi.",
+ "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, kecepatan menyusul, bangun gabungan, diagram batang, dan tabel frekuensi. Semua soal pilihan ganda dengan satu jawaban benar.",
  "sections": [
   {
    "title": "A. Bilangan dan Operasi Hitung",
@@ -22,10 +22,10 @@
      "opts": [
       "$1$",
       "$\\frac{1}{2}$",
-      "$0$",
-      "$-\\frac{1}{2}$"
+      "$-\\frac{1}{2}$",
+      "$0$"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q2",
@@ -58,10 +58,10 @@
      "opts": [
       "$-1$",
       "$13$",
-      "$-31$",
-      "$-7$"
+      "$-7$",
+      "$-31$"
      ],
-     "ans": 3
+     "ans": 2
     },
     {
      "id": "q4",
@@ -74,12 +74,12 @@
       }
      ],
      "opts": [
+      "$\\frac{3}{8}$; $\\frac{2}{5}$; $42\\%$; $0,45$",
       "$\\frac{2}{5}$; $\\frac{3}{8}$; $42\\%$; $0,45$",
       "$\\frac{3}{8}$; $42\\%$; $\\frac{2}{5}$; $0,45$",
-      "$0,45$; $42\\%$; $\\frac{2}{5}$; $\\frac{3}{8}$",
-      "$\\frac{3}{8}$; $\\frac{2}{5}$; $42\\%$; $0,45$"
+      "$0,45$; $42\\%$; $\\frac{2}{5}$; $\\frac{3}{8}$"
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q5",
@@ -93,11 +93,11 @@
      ],
      "opts": [
       "7,5 m",
-      "4,5 m",
       "3 m",
+      "4,5 m",
       "5,7 m"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q6",
@@ -120,39 +120,38 @@
     {
      "id": "q7",
      "num": 7,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Hasil dari $\\sqrt{2.025} - \\sqrt[3]{3.375} + 2^5$ adalah <span class=\"blank\">&nbsp;</span>."
+       "html": "Hasil dari $\\sqrt{2.025} - \\sqrt[3]{3.375} + 2^5$ adalah ...."
       }
      ],
-     "answer": "$62$",
-     "accept": [
-      "62"
+     "opts": [
+      "52",
+      "$62$",
+      "72",
+      "32"
      ],
-     "label": "Isian 7"
+     "ans": 1
     },
     {
      "id": "q8",
      "num": 8,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua pernyataan yang benar."
+       "html": "Tentukan pernyataan yang benar.<br>Perhatikan pernyataan berikut. <br>(1) $\\sqrt{0,49} = 0,7$<br>(2) $\\frac{7}{20} = 35\\%$<br>(3) $(-2)^3 = 8$<br>(4) $1,5 > \\frac{8}{5}$<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "$\\sqrt{0,49} = 0,7$",
-      "$\\frac{7}{20} = 35\\%$",
-      "$(-2)^3 = 8$",
-      "$1,5 > \\frac{8}{5}$"
+      "1, 3",
+      "1, 4",
+      "2, 3",
+      "1, 2"
      ],
-     "answers": [
-      0,
-      1
-     ]
+     "ans": 3
     }
    ]
   },
@@ -174,10 +173,10 @@
      "opts": [
       "12 tahun",
       "42 tahun",
-      "47 tahun",
-      "17 tahun"
+      "17 tahun",
+      "47 tahun"
      ],
-     "ans": 3
+     "ans": 2
     },
     {
      "id": "q10",
@@ -190,12 +189,12 @@
       }
      ],
      "opts": [
+      "$1 : 1.500.000$",
       "$1 : 150.000$",
       "$1 : 15.000.000$",
-      "$1 : 1.500.000$",
       "$1 : 1.250.000$"
      ],
-     "ans": 2
+     "ans": 0
     },
     {
      "id": "q11",
@@ -210,10 +209,10 @@
      "opts": [
       "07.10",
       "07.20",
-      "07.00",
-      "06.55"
+      "06.55",
+      "07.00"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q12",
@@ -227,11 +226,11 @@
      ],
      "opts": [
       "2 jam",
-      "3 jam",
       "4,5 jam",
+      "3 jam",
       "7,5 jam"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q13",
@@ -254,23 +253,20 @@
     {
      "id": "q14",
      "num": 14,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Setelah mendapat diskon 25%, harga sebuah tas menjadi Rp135.000,00. Harga tas sebelum diskon adalah Rp <span class=\"blank\">&nbsp;</span>."
+       "html": "Setelah mendapat diskon 25%, harga sebuah tas menjadi Rp135.000,00. Harga tas sebelum diskon adalah ...."
       }
      ],
-     "answer": "Rp180.000,00",
-     "accept": [
-      "180000",
-      "180.000",
-      "rp180.000",
-      "rp180.000,00",
-      "180.000,00",
-      "rp 180.000"
+     "opts": [
+      "Rp168.750,00",
+      "Rp180.000,00",
+      "Rp101.250,00",
+      "Rp160.000,00"
      ],
-     "label": "Isian 14"
+     "ans": 1
     },
     {
      "id": "q15",
@@ -283,12 +279,12 @@
       }
      ],
      "opts": [
-      "6 orang",
       "18 orang",
+      "6 orang",
       "8 orang",
       "3 orang"
      ],
-     "ans": 0
+     "ans": 1
     }
    ]
   },
@@ -314,11 +310,11 @@
      ],
      "opts": [
       "700 m$^2$",
-      "546 m$^2$",
       "392 m$^2$",
-      "469 m$^2$"
+      "469 m$^2$",
+      "546 m$^2$"
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q17",
@@ -332,11 +328,11 @@
      ],
      "opts": [
       "144 m",
-      "78 m",
       "100 m",
+      "78 m",
       "128 m"
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q18",
@@ -349,12 +345,12 @@
       }
      ],
      "opts": [
+      "125 m/menit",
       "100 m/menit",
       "80 m/menit",
-      "500 m/menit",
-      "125 m/menit"
+      "500 m/menit"
      ],
-     "ans": 3
+     "ans": 0
     }
    ]
   },
@@ -374,12 +370,12 @@
       }
      ],
      "opts": [
-      "270 liter",
       "360 liter",
+      "270 liter",
       "90 liter",
       "2.700 liter"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q20",
@@ -392,12 +388,12 @@
       }
      ],
      "opts": [
+      "8",
       "2",
       "4",
-      "6",
-      "8"
+      "6"
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q21",
@@ -412,32 +408,28 @@
      "opts": [
       "12.320 cm$^3$",
       "880 cm$^3$",
-      "3.080 cm$^3$",
-      "6.160 cm$^3$"
+      "6.160 cm$^3$",
+      "3.080 cm$^3$"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q22",
      "num": 22,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Besar sudut-sudut sebuah segitiga adalah $2x$, $3x$, dan $4x$. Pilih semua pernyataan yang benar."
+       "html": "Besar sudut-sudut sebuah segitiga adalah $2x$, $3x$, dan $4x$. Tentukan pernyataan yang benar.<br>Perhatikan pernyataan berikut. <br>(1) Nilai $x = 20^{\\circ}$<br>(2) Sudut terbesar segitiga itu $80^{\\circ}$<br>(3) Segitiga itu termasuk segitiga lancip<br>(4) Salah satu sudutnya siku-siku<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "Nilai $x = 20^{\\circ}$",
-      "Sudut terbesar segitiga itu $80^{\\circ}$",
-      "Segitiga itu termasuk segitiga lancip",
-      "Salah satu sudutnya siku-siku"
+      "1, 2, 4",
+      "1, 3, 4",
+      "2, 3, 4",
+      "1, 2, 3"
      ],
-     "answers": [
-      0,
-      1,
-      2
-     ]
+     "ans": 3
     },
     {
      "id": "q23",
@@ -450,12 +442,12 @@
       }
      ],
      "opts": [
-      "20",
       "24",
+      "20",
       "10",
       "28"
      ],
-     "ans": 1
+     "ans": 0
     }
    ]
   },
@@ -480,12 +472,12 @@
       }
      ],
      "opts": [
-      "31 buku",
       "30 buku",
+      "31 buku",
       "38,75 buku",
       "35 buku"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q25",
@@ -508,25 +500,20 @@
     {
      "id": "q26",
      "num": 26,
-     "type": "bs",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Berdasarkan Gambar 2, tentukan apakah pernyataan berikut Benar atau Salah."
+       "html": "Perhatikan pernyataan berikut. <br>(1) Banyak buku yang dipinjam pada bulan Mei lebih dari dua kali bulan Maret.<br>(2) Banyak buku yang dipinjam pada bulan Februari sama dengan rata-ratanya.<br>(3) Jumlah buku yang dipinjam dari Januari sampai Maret adalah 80 buku.<br>(4) Median data tersebut adalah 30 buku.<br>Urutan penilaian pernyataan (1) sampai (4) yang tepat adalah..."
       }
      ],
-     "stmts": [
-      "Banyak buku yang dipinjam pada bulan Mei lebih dari dua kali bulan Maret.",
-      "Banyak buku yang dipinjam pada bulan Februari sama dengan rata-ratanya.",
-      "Jumlah buku yang dipinjam dari Januari sampai Maret adalah 80 buku.",
-      "Median data tersebut adalah 30 buku."
+     "opts": [
+      "Salah; Salah; Benar; Benar",
+      "Benar; Benar; Benar; Benar",
+      "Benar; Salah; Salah; Benar",
+      "Benar; Salah; Benar; Benar"
      ],
-     "answers": [
-      true,
-      false,
-      true,
-      true
-     ]
+     "ans": 3
     }
    ]
   },
@@ -570,11 +557,11 @@
      ],
      "opts": [
       "34",
-      "35",
       "36",
+      "35",
       "8"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q28",
@@ -597,19 +584,20 @@
     {
      "id": "q29",
      "num": 29,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Berdasarkan Tabel 1, persentase siswa yang ukuran sepatunya lebih dari 35 adalah <span class=\"blank\">&nbsp;</span> %."
+       "html": "Berdasarkan Tabel 1, persentase siswa yang ukuran sepatunya lebih dari 35 adalah ... %."
       }
      ],
-     "answer": "$36$",
-     "accept": [
-      "36",
-      "36%"
+     "opts": [
+      "24",
+      "40",
+      "$36$",
+      "64"
      ],
-     "label": "Isian 29"
+     "ans": 2
     }
    ]
   },
@@ -621,18 +609,20 @@
     {
      "id": "q30",
      "num": 30,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Rata-rata nilai 4 kali ulangan Dita adalah 82. Agar rata-rata nilai 5 kali ulangannya menjadi 84, nilai ulangan kelima Dita harus <span class=\"blank\">&nbsp;</span>."
+       "html": "Rata-rata nilai 4 kali ulangan Dita adalah 82. Agar rata-rata nilai 5 kali ulangannya menjadi 84, nilai ulangan kelima Dita harus ...."
       }
      ],
-     "answer": "$92$",
-     "accept": [
-      "92"
+     "opts": [
+      "84",
+      "$92$",
+      "86",
+      "88"
      ],
-     "label": "Isian 30"
+     "ans": 1
     }
    ]
   }

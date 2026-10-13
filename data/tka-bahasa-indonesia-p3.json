@@ -2,7 +2,7 @@
  "id": "tka-bahasa-indonesia-p3",
  "subject": "Bahasa Indonesia",
  "title": "Try Out Persiapan TKA (Paket 3)",
- "desc": "30 soal literasi: teks informasi, puisi, teks prosedur, dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
+ "desc": "30 soal literasi: teks informasi, puisi, teks prosedur, dan kebahasaan Semua soal pilihan ganda dengan satu jawaban benar.",
  "sections": [
   {
    "title": "Bacalah Teks 1 untuk menjawab soal nomor 1 sampai 8.",
@@ -64,57 +64,48 @@
       }
      ],
      "opts": [
-      "Hancur dan menyatu dengan alam",
       "Terikat dengan kuat",
       "Terbakar habis",
+      "Hancur dan menyatu dengan alam",
       "Tersimpan rapi"
      ],
-     "ans": 0
+     "ans": 2
     },
     {
      "id": "q4",
      "num": 4,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua barang baru yang dapat dibuat dari botol bekas menurut teks."
+       "html": "Tentukan barang baru yang dapat dibuat dari botol bekas menurut teks.<br>Perhatikan pernyataan berikut. <br>(1) Ember<br>(2) Pot bunga<br>(3) Kain<br>(4) Batu bata<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "Ember",
-      "Pot bunga",
-      "Kain",
-      "Batu bata"
+      "1, 2, 3",
+      "1, 2, 4",
+      "1, 3, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      1,
-      2
-     ]
+     "ans": 0
     },
     {
      "id": "q5",
      "num": 5,
-     "type": "bs",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi teks (Benar) atau tidak (Salah)."
+       "html": "Perhatikan pernyataan berikut. <br>(1) Botol plastik cepat terurai dalam waktu singkat.<br>(2) Sisa makanan termasuk sampah organik.<br>(3) Di sekolah, sampah dipilah ke dalam tiga tempat.<br>(4) Sampah berbahaya dijadikan kompos.<br>Urutan penilaian pernyataan (1) sampai (4) yang tepat adalah..."
       }
      ],
-     "stmts": [
-      "Botol plastik cepat terurai dalam waktu singkat.",
-      "Sisa makanan termasuk sampah organik.",
-      "Di sekolah, sampah dipilah ke dalam tiga tempat.",
-      "Sampah berbahaya dijadikan kompos."
+     "opts": [
+      "Benar; Benar; Benar; Salah",
+      "Salah; Salah; Benar; Salah",
+      "Salah; Benar; Salah; Salah",
+      "Salah; Benar; Benar; Salah"
      ],
-     "answers": [
-      false,
-      true,
-      true,
-      false
-     ]
+     "ans": 3
     },
     {
      "id": "q6",
@@ -137,33 +128,38 @@
     {
      "id": "q7",
      "num": 7,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Sampah dipilah ke dalam tiga tempat, yaitu organik, anorganik, dan <span class=\"blank\">&nbsp;</span>."
+       "html": "Sampah dipilah ke dalam tiga tempat, yaitu organik, anorganik, dan ...."
       }
      ],
-     "answer": "berbahaya",
-     "accept": [
+     "opts": [
       "berbahaya",
-      "sampah berbahaya",
-      "b3"
+      "cair",
+      "basah",
+      "kering"
      ],
-     "label": "Isian 7"
+     "ans": 0
     },
     {
      "id": "q8",
      "num": 8,
-     "type": "self",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Tuliskan satu hal yang dapat kamu lakukan di sekolah untuk mengurangi sampah plastik."
+       "html": "Tindakan yang dapat mengurangi sampah plastik di sekolah adalah..."
       }
      ],
-     "answer": "Contoh: membawa botol minum sendiri / membawa bekal dengan kotak makan / memilah sampah / memakai tas kain (jawaban lain yang sesuai diterima).",
-     "label": "Isian 8"
+     "opts": [
+      "Membawa botol minum yang dapat dipakai ulang",
+      "Membeli botol plastik baru setiap istirahat",
+      "Membakar plastik di kelas",
+      "Membuang bungkus makanan ke selokan"
+     ],
+     "ans": 0
     }
    ]
   },
@@ -190,12 +186,12 @@
       }
      ],
      "opts": [
-      "Rasa syukur atas turunnya hujan",
       "Kesedihan karena kehujanan",
       "Keindahan pantai di sore hari",
+      "Rasa syukur atas turunnya hujan",
       "Perjuangan petani saat kemarau"
      ],
-     "ans": 0
+     "ans": 2
     },
     {
      "id": "q10",
@@ -228,10 +224,10 @@
      "opts": [
       "Hujan turun di pagi hari",
       "Padi tumbuh menghijau",
-      "Daun-daun menari riang",
-      "Aku duduk di jendela kamar"
+      "Aku duduk di jendela kamar",
+      "Daun-daun menari riang"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q12",
@@ -245,53 +241,47 @@
      ],
      "opts": [
       "Kita harus selalu menghindari hujan",
-      "Hujan membuat sawah menjadi rusak",
       "Kita perlu mensyukuri nikmat alam",
+      "Hujan membuat sawah menjadi rusak",
       "Burung lebih baik daripada katak"
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q13",
      "num": 13,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pada bait ketiga, sawah milik <span class=\"blank\">&nbsp;</span>."
+       "html": "Pada bait ketiga, sawah milik ...."
       }
      ],
-     "answer": "ayah",
-     "accept": [
+     "opts": [
+      "ibu",
+      "kakek",
       "ayah",
-      "sawah ayah",
-      "ayah penulis",
-      "ayahnya"
+      "tetangga"
      ],
-     "label": "Isian 13"
+     "ans": 2
     },
     {
      "id": "q14",
      "num": 14,
-     "type": "bs",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi puisi (Benar) atau tidak (Salah)."
+       "html": "Perhatikan pernyataan berikut. <br>(1) Puisi terdiri atas tiga bait.<br>(2) Setiap bait terdiri atas empat larik.<br>(3) Hujan turun pada sore hari.<br>(4) Penyair menikmati hujan dari jendela kamar.<br>Urutan penilaian pernyataan (1) sampai (4) yang tepat adalah..."
       }
      ],
-     "stmts": [
-      "Puisi terdiri atas tiga bait.",
-      "Setiap bait terdiri atas empat larik.",
-      "Hujan turun pada sore hari.",
-      "Penyair menikmati hujan dari jendela kamar."
+     "opts": [
+      "Salah; Benar; Salah; Benar",
+      "Benar; Salah; Salah; Benar",
+      "Benar; Benar; Benar; Benar",
+      "Benar; Benar; Salah; Benar"
      ],
-     "answers": [
-      true,
-      true,
-      false,
-      true
-     ]
+     "ans": 3
     }
    ]
   },
@@ -335,12 +325,12 @@
       }
      ],
      "opts": [
+      "Mengupas dan memotong buah berbentuk dadu",
       "Merebus air bersama gula",
       "Menambahkan sirup",
-      "Mengupas dan memotong buah berbentuk dadu",
       "Memasukkan es batu"
      ],
-     "ans": 2
+     "ans": 0
     },
     {
      "id": "q17",
@@ -353,12 +343,12 @@
       }
      ],
      "opts": [
-      "Susu kental manis",
       "Melon",
       "Nanas",
-      "Gula pasir"
+      "Gula pasir",
+      "Susu kental manis"
      ],
-     "ans": 0
+     "ans": 3
     },
     {
      "id": "q18",
@@ -373,64 +363,64 @@
      "opts": [
       "10 gram",
       "200 gram",
-      "1 liter",
-      "100 gram"
+      "100 gram",
+      "1 liter"
      ],
-     "ans": 3
+     "ans": 2
     },
     {
      "id": "q19",
      "num": 19,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Es batu dimasukkan pada langkah ke-<span class=\"blank\">&nbsp;</span>."
+       "html": "Es batu dimasukkan pada langkah ke-...."
       }
      ],
-     "answer": "5",
-     "accept": [
+     "opts": [
+      "3",
       "5",
-      "lima",
-      "kelima",
-      "ke-5"
+      "4",
+      "6"
      ],
-     "label": "Isian 19"
+     "ans": 1
     },
     {
      "id": "q20",
      "num": 20,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua pernyataan yang sesuai dengan teks."
+       "html": "Tentukan pernyataan yang sesuai dengan teks.<br>Perhatikan pernyataan berikut. <br>(1) Buah dipotong berbentuk dadu.<br>(2) Air direbus bersama gula.<br>(3) Sirup ditambahkan setelah es batu.<br>(4) Es buah disajikan di dalam gelas.<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "Buah dipotong berbentuk dadu.",
-      "Air direbus bersama gula.",
-      "Sirup ditambahkan setelah es batu.",
-      "Es buah disajikan di dalam gelas."
+      "1, 2, 4",
+      "1, 2, 3",
+      "1, 3, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      1,
-      3
-     ]
+     "ans": 0
     },
     {
      "id": "q21",
      "num": 21,
-     "type": "uraian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Mengapa langkah-langkah dalam teks prosedur harus ditulis secara berurutan? Jelaskan dalam 2–3 kalimat!"
+       "html": "Mengapa langkah dalam teks prosedur perlu ditulis secara berurutan?"
       }
      ],
-     "answer": "Jawaban terbuka. Kriteria: menjelaskan bahwa urutan yang tepat membuat hasil sesuai dan pembaca tidak bingung/keliru, disertai contoh dari teks (misalnya gula harus dilarutkan sebelum buah dicampur).",
-     "label": "Uraian 21"
+     "opts": [
+      "Agar pembaca bebas melewati semua langkah",
+      "Agar teks menjadi cerita khayalan",
+      "Agar pembaca melakukan proses dengan tepat sehingga hasilnya sesuai",
+      "Agar bahan yang digunakan selalu lebih banyak"
+     ],
+     "ans": 2
     }
    ]
   },
@@ -451,11 +441,11 @@
      ],
      "opts": [
       "nyapu",
+      "sapu",
       "menyap",
-      "apu",
-      "sapu"
+      "apu"
      ],
-     "ans": 3
+     "ans": 1
     },
     {
      "id": "q23",
@@ -469,11 +459,11 @@
      ],
      "opts": [
       "Siapa yang membersihkan kelas pagi ini.",
-      "Siapa yang membersihkan kelas pagi ini?",
       "siapa yang membersihkan kelas pagi ini?",
+      "Siapa yang membersihkan kelas pagi ini?",
       "Siapa, yang membersihkan kelas pagi ini?"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q24",
@@ -486,12 +476,12 @@
       }
      ],
      "opts": [
-      "Bekerja sama dalam suka dan duka",
       "Membawa barang yang sangat berat",
+      "Bekerja sama dalam suka dan duka",
       "Bekerja sendirian tanpa bantuan",
       "Memikul beban milik orang lain"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q25",
@@ -504,12 +494,12 @@
       }
      ],
      "opts": [
-      "Ibu berkata “Mari makan dulu, Nak.”",
       "Ibu berkata, “Mari makan dulu, Nak.”",
+      "Ibu berkata “Mari makan dulu, Nak.”",
       "Ibu berkata, “mari makan dulu, Nak.”",
       "Ibu berkata, “Mari makan dulu Nak”."
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q26",
@@ -523,11 +513,11 @@
      ],
      "opts": [
       "Resiko",
-      "Risco",
       "Risiko",
+      "Risco",
       "Rizico"
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q27",
@@ -558,12 +548,12 @@
       }
      ],
      "opts": [
+      "namun",
       "karena",
       "sehingga",
-      "jika",
-      "namun"
+      "jika"
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q29",
@@ -578,28 +568,28 @@
      "opts": [
       "Simile",
       "Personifikasi",
-      "Hiperbola",
-      "Ironi"
+      "Ironi",
+      "Hiperbola"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q30",
      "num": 30,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Antonim kata <em>terang</em> adalah <span class=\"blank\">&nbsp;</span>."
+       "html": "Antonim kata <em>terang</em> adalah ...."
       }
      ],
-     "answer": "gelap",
-     "accept": [
+     "opts": [
+      "cerah",
+      "terang benderang",
       "gelap",
-      "redup",
-      "suram"
+      "bersinar"
      ],
-     "label": "Isian 30"
+     "ans": 2
     }
    ]
   }

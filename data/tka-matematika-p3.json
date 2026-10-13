@@ -2,7 +2,7 @@
  "id": "tka-matematika-p3",
  "subject": "Matematika",
  "title": "Try Out Persiapan TKA (Paket 3)",
- "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, geometri gabungan, diagram lingkaran, dan tabel frekuensi.",
+ "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, geometri gabungan, diagram lingkaran, dan tabel frekuensi. Semua soal pilihan ganda dengan satu jawaban benar.",
  "sections": [
   {
    "title": "A. Bilangan dan Operasi Hitung",
@@ -21,11 +21,11 @@
      ],
      "opts": [
       "$1\\frac{7}{10}$",
+      "$1\\frac{1}{2}$",
       "$2\\frac{1}{10}$",
-      "$\\frac{3}{4}$",
-      "$1\\frac{1}{2}$"
+      "$\\frac{3}{4}$"
      ],
-     "ans": 3
+     "ans": 1
     },
     {
      "id": "q2",
@@ -40,10 +40,10 @@
      "opts": [
       "206",
       "144",
-      "131",
-      "156"
+      "156",
+      "131"
      ],
-     "ans": 3
+     "ans": 2
     },
     {
      "id": "q3",
@@ -56,12 +56,12 @@
       }
      ],
      "opts": [
-      "1,25 kg",
       "5 kg",
+      "1,25 kg",
       "6 kg",
       "4,75 kg"
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q4",
@@ -75,11 +75,11 @@
      ],
      "opts": [
       "2",
-      "3",
       "6",
+      "3",
       "1,5"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q5",
@@ -111,49 +111,47 @@
      ],
      "opts": [
       "2",
+      "3",
       "5",
-      "6",
-      "3"
+      "6"
      ],
-     "ans": 3
+     "ans": 1
     },
     {
      "id": "q7",
      "num": 7,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Hasil dari $0,125 \\times 48 + 75\\% \\times 80 - \\frac{3}{5} \\times 25$ adalah <span class=\"blank\">&nbsp;</span>."
+       "html": "Hasil dari $0,125 \\times 48 + 75\\% \\times 80 - \\frac{3}{5} \\times 25$ adalah ...."
       }
      ],
-     "answer": "$51$",
-     "accept": [
-      "51"
+     "opts": [
+      "45",
+      "$51$",
+      "66",
+      "81"
      ],
-     "label": "Isian 7"
+     "ans": 1
     },
     {
      "id": "q8",
      "num": 8,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua pernyataan yang benar."
+       "html": "Tentukan pernyataan yang benar.<br>Perhatikan pernyataan berikut. <br>(1) $\\frac{5}{8} > 0,6$<br>(2) $1\\frac{1}{4} = 125\\%$<br>(3) $0,3 = \\frac{3}{100}$<br>(4) $-7 < -3$<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "$\\frac{5}{8} > 0,6$",
-      "$1\\frac{1}{4} = 125\\%$",
-      "$0,3 = \\frac{3}{100}$",
-      "$-7 < -3$"
+      "1, 2, 3",
+      "1, 3, 4",
+      "1, 2, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      1,
-      3
-     ]
+     "ans": 2
     }
    ]
   },
@@ -173,12 +171,12 @@
       }
      ],
      "opts": [
-      "Rugi Rp30.000,00",
       "Untung Rp30.000,00",
       "Untung Rp120.000,00",
-      "Rugi Rp120.000,00"
+      "Rugi Rp120.000,00",
+      "Rugi Rp30.000,00"
      ],
-     "ans": 0
+     "ans": 3
     },
     {
      "id": "q10",
@@ -210,11 +208,11 @@
      ],
      "opts": [
       "Rp300.000,00",
-      "Rp750.000,00",
       "Rp450.000,00",
+      "Rp750.000,00",
       "Rp150.000,00"
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q12",
@@ -228,11 +226,11 @@
      ],
      "opts": [
       "09.30",
-      "10.00",
       "10.30",
-      "11.00"
+      "11.00",
+      "10.00"
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q13",
@@ -246,32 +244,29 @@
      ],
      "opts": [
       "10",
+      "20",
       "24",
-      "40",
-      "20"
+      "40"
      ],
-     "ans": 3
+     "ans": 1
     },
     {
      "id": "q14",
      "num": 14,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Dani menabung Rp500.000,00 di bank dengan bunga tunggal 6% per tahun. Setelah 9 bulan, tabungan Dani menjadi Rp <span class=\"blank\">&nbsp;</span>."
+       "html": "Dani menabung Rp500.000,00 di bank dengan bunga tunggal 6% per tahun. Setelah 9 bulan, tabungan Dani menjadi ...."
       }
      ],
-     "answer": "Rp522.500,00",
-     "accept": [
-      "522500",
-      "522.500",
-      "rp522.500",
-      "rp522.500,00",
-      "522.500,00",
-      "rp 522.500"
+     "opts": [
+      "Rp530.000,00",
+      "Rp515.000,00",
+      "Rp522.500,00",
+      "Rp545.000,00"
      ],
-     "label": "Isian 14"
+     "ans": 2
     },
     {
      "id": "q15",
@@ -315,11 +310,11 @@
      ],
      "opts": [
       "616 cm$^2$",
-      "168 cm$^2$",
       "784 cm$^2$",
+      "168 cm$^2$",
       "84 cm$^2$"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q17",
@@ -357,12 +352,12 @@
       }
      ],
      "opts": [
-      "1.300 cm$^3$",
       "1.900 cm$^3$",
       "1.100 cm$^3$",
-      "1.030 cm$^3$"
+      "1.030 cm$^3$",
+      "1.300 cm$^3$"
      ],
-     "ans": 0
+     "ans": 3
     },
     {
      "id": "q19",
@@ -375,12 +370,12 @@
       }
      ],
      "opts": [
+      "924 cm$^2$",
       "616 cm$^2$",
       "462 cm$^2$",
-      "1.078 cm$^2$",
-      "924 cm$^2$"
+      "1.078 cm$^2$"
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q20",
@@ -395,10 +390,10 @@
      "opts": [
       "$140^{\\circ}$",
       "$50^{\\circ}$",
-      "$130^{\\circ}$",
-      "$220^{\\circ}$"
+      "$220^{\\circ}$",
+      "$130^{\\circ}$"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q21",
@@ -412,33 +407,29 @@
      ],
      "opts": [
       "192 cm$^2$ dan 58 cm",
-      "192 cm$^2$ dan 68 cm",
       "384 cm$^2$ dan 68 cm",
-      "240 cm$^2$ dan 68 cm"
+      "240 cm$^2$ dan 68 cm",
+      "192 cm$^2$ dan 68 cm"
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q22",
      "num": 22,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua pernyataan yang benar tentang bangun datar."
+       "html": "Tentukan pernyataan yang benar tentang bangun datar.<br>Perhatikan pernyataan berikut. <br>(1) Jajar genjang tidak memiliki sumbu simetri lipat.<br>(2) Layang-layang memiliki 1 sumbu simetri lipat.<br>(3) Segitiga sama sisi memiliki 3 sumbu simetri lipat.<br>(4) Lingkaran memiliki 4 sumbu simetri lipat.<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "Jajar genjang tidak memiliki sumbu simetri lipat.",
-      "Layang-layang memiliki 1 sumbu simetri lipat.",
-      "Segitiga sama sisi memiliki 3 sumbu simetri lipat.",
-      "Lingkaran memiliki 4 sumbu simetri lipat."
+      "1, 2, 4",
+      "1, 2, 3",
+      "1, 3, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      1,
-      2
-     ]
+     "ans": 1
     }
    ]
   },
@@ -463,12 +454,12 @@
       }
      ],
      "opts": [
+      "30 siswa",
       "25 siswa",
       "35 siswa",
-      "30 siswa",
       "42 siswa"
      ],
-     "ans": 2
+     "ans": 0
     },
     {
      "id": "q24",
@@ -483,10 +474,10 @@
      "opts": [
       "12 siswa",
       "15 siswa",
-      "18 siswa",
-      "24 siswa"
+      "24 siswa",
+      "18 siswa"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q25",
@@ -499,35 +490,30 @@
       }
      ],
      "opts": [
-      "$60^{\\circ}$",
       "$72^{\\circ}$",
+      "$60^{\\circ}$",
       "$90^{\\circ}$",
       "$20^{\\circ}$"
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q26",
      "num": 26,
-     "type": "bs",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Berdasarkan Gambar 2, tentukan apakah pernyataan berikut Benar atau Salah."
+       "html": "Perhatikan pernyataan berikut. <br>(1) Sepak bola adalah kegiatan yang paling banyak digemari.<br>(2) Banyak siswa gemar bulu tangkis sama dengan banyak siswa gemar basket.<br>(3) Banyak siswa yang gemar renang dan basket adalah 54 orang.<br>(4) Besar sudut pusat sektor renang adalah $100^{\\circ}$.<br>Urutan penilaian pernyataan (1) sampai (4) yang tepat adalah..."
       }
      ],
-     "stmts": [
-      "Sepak bola adalah kegiatan yang paling banyak digemari.",
-      "Banyak siswa gemar bulu tangkis sama dengan banyak siswa gemar basket.",
-      "Banyak siswa yang gemar renang dan basket adalah 54 orang.",
-      "Besar sudut pusat sektor renang adalah $100^{\\circ}$."
+     "opts": [
+      "Salah; Benar; Benar; Salah",
+      "Benar; Benar; Benar; Salah",
+      "Benar; Salah; Benar; Salah",
+      "Benar; Benar; Salah; Salah"
      ],
-     "answers": [
-      true,
-      true,
-      true,
-      false
-     ]
+     "ans": 1
     }
    ]
   },
@@ -570,12 +556,12 @@
       }
      ],
      "opts": [
+      "8",
       "7,5",
       "8,5",
-      "9",
-      "8"
+      "9"
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q28",
@@ -606,29 +592,30 @@
       }
      ],
      "opts": [
-      "35%",
       "30%",
       "7%",
-      "65%"
+      "65%",
+      "35%"
      ],
-     "ans": 0
+     "ans": 3
     },
     {
      "id": "q30",
      "num": 30,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Sebanyak 5 siswa lain dengan nilai rata-rata 9 bergabung dengan kelompok pada Tabel 1. Rata-rata nilai seluruh siswa sekarang adalah <span class=\"blank\">&nbsp;</span>."
+       "html": "Sebanyak 5 siswa lain dengan nilai rata-rata 9 bergabung dengan kelompok pada Tabel 1. Rata-rata nilai seluruh siswa sekarang adalah ...."
       }
      ],
-     "answer": "$8,2$",
-     "accept": [
-      "8,2",
-      "8.2"
+     "opts": [
+      "$8$",
+      "$8,2$",
+      "$8,5$",
+      "$9$"
      ],
-     "label": "Isian 30"
+     "ans": 1
     }
    ]
   }

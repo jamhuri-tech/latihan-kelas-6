@@ -2,7 +2,7 @@
  "id": "tka-bahasa-indonesia-p4",
  "subject": "Bahasa Indonesia",
  "title": "Try Out Persiapan TKA (Paket 4)",
- "desc": "30 soal literasi: teks informasi, cerpen, iklan layanan masyarakat, dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
+ "desc": "30 soal literasi: teks informasi, cerpen, iklan layanan masyarakat, dan kebahasaan Semua soal pilihan ganda dengan satu jawaban benar.",
  "sections": [
   {
    "title": "Bacalah Teks 1 untuk menjawab soal nomor 1 sampai 9.",
@@ -46,34 +46,30 @@
       }
      ],
      "opts": [
-      "Lebah pekerja",
       "Ratu",
+      "Lebah pekerja",
       "Lebah jantan",
       "Larva"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q3",
      "num": 3,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua tugas lebah pekerja menurut teks."
+       "html": "Tentukan tugas lebah pekerja menurut teks.<br>Perhatikan pernyataan berikut. <br>(1) Membersihkan sarang<br>(2) Merawat larva<br>(3) Mencari nektar<br>(4) Bertelur<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "Membersihkan sarang",
-      "Merawat larva",
-      "Mencari nektar",
-      "Bertelur"
+      "1, 2, 4",
+      "1, 3, 4",
+      "2, 3, 4",
+      "1, 2, 3"
      ],
-     "answers": [
-      0,
-      1,
-      2
-     ]
+     "ans": 3
     },
     {
      "id": "q4",
@@ -105,34 +101,29 @@
      ],
      "opts": [
       "Lebah memakan buah yang matang",
-      "Lebah membuat sarang di dalam bunga",
       "Serbuk sari menempel pada tubuhnya dan berpindah ke bunga lain",
+      "Lebah membuat sarang di dalam bunga",
       "Madu menempel pada kelopak bunga"
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q6",
      "num": 6,
-     "type": "bs",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi teks (Benar) atau tidak (Salah)."
+       "html": "Perhatikan pernyataan berikut. <br>(1) Dalam satu koloni terdapat banyak ratu.<br>(2) Seluruh lebah pekerja berjenis kelamin betina.<br>(3) Lebah jantan bertugas mengawini ratu.<br>(4) Pestisida menjadi salah satu penyebab menurunnya jumlah lebah.<br>Urutan penilaian pernyataan (1) sampai (4) yang tepat adalah..."
       }
      ],
-     "stmts": [
-      "Dalam satu koloni terdapat banyak ratu.",
-      "Seluruh lebah pekerja berjenis kelamin betina.",
-      "Lebah jantan bertugas mengawini ratu.",
-      "Pestisida menjadi salah satu penyebab menurunnya jumlah lebah."
+     "opts": [
+      "Salah; Benar; Benar; Benar",
+      "Benar; Benar; Benar; Benar",
+      "Salah; Salah; Benar; Benar",
+      "Salah; Benar; Salah; Benar"
      ],
-     "answers": [
-      false,
-      true,
-      true,
-      true
-     ]
+     "ans": 0
     },
     {
      "id": "q7",
@@ -147,43 +138,46 @@
      "opts": [
       "Lebah hanya bermanfaat untuk menghasilkan madu",
       "Ratu adalah lebah yang paling banyak bekerja",
-      "Pestisida dapat membantu lebah berkembang biak",
-      "Lebah berperan penting bagi kehidupan sehingga perlu dilestarikan"
+      "Lebah berperan penting bagi kehidupan sehingga perlu dilestarikan",
+      "Pestisida dapat membantu lebah berkembang biak"
      ],
-     "ans": 3
+     "ans": 2
     },
     {
      "id": "q8",
      "num": 8,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Satu koloni lebah madu hanya memiliki <span class=\"blank\">&nbsp;</span> ratu."
+       "html": "Satu koloni lebah madu hanya memiliki ... ratu."
       }
      ],
-     "answer": "satu",
-     "accept": [
+     "opts": [
+      "dua",
       "satu",
-      "1",
-      "seekor",
-      "hanya satu",
-      "satu ekor"
+      "tiga",
+      "empat"
      ],
-     "label": "Isian 8"
+     "ans": 1
     },
     {
      "id": "q9",
      "num": 9,
-     "type": "self",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Jelaskan mengapa menurunnya jumlah lebah dapat merugikan manusia."
+       "html": "Mengapa berkurangnya lebah dapat merugikan manusia?"
       }
      ],
-     "answer": "Contoh: lebah membantu penyerbukan sehingga tanaman pangan dapat berbuah; jika lebah berkurang, hasil pangan berkurang (jawaban lain yang sesuai diterima).",
-     "label": "Isian 9"
+     "opts": [
+      "Penyerbukan berkurang sehingga tanaman pangan lebih sulit berbuah",
+      "Semua tumbuhan langsung mati tanpa madu",
+      "Lebah berhenti menghasilkan pupuk buatan",
+      "Manusia tidak dapat menanam padi sama sekali"
+     ],
+     "ans": 0
     }
    ]
   },
@@ -211,12 +205,12 @@
       }
      ],
      "opts": [
-      "Pertama",
       "Ketiga",
+      "Pertama",
       "Kedua",
       "Pertama jamak"
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q11",
@@ -249,10 +243,10 @@
      "opts": [
       "Orientasi",
       "Resolusi",
-      "Klimaks",
-      "Koda"
+      "Koda",
+      "Klimaks"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q13",
@@ -267,10 +261,10 @@
      "opts": [
       "Sombong dan egois",
       "Pemalu dan penakut",
-      "Pemarah dan iri hati",
-      "Tekun, sportif, dan peduli"
+      "Tekun, sportif, dan peduli",
+      "Pemarah dan iri hati"
      ],
-     "ans": 3
+     "ans": 2
     },
     {
      "id": "q14",
@@ -284,11 +278,11 @@
      ],
      "opts": [
       "Merasa lelah",
-      "Merasa marah",
       "Merasa tegang",
+      "Merasa marah",
       "Merasa sakit"
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q15",
@@ -301,48 +295,48 @@
       }
      ],
      "opts": [
-      "Menolong Ardi walaupun sedang memimpin lomba",
       "Berlatih paling lama di sekolah",
+      "Menolong Ardi walaupun sedang memimpin lomba",
       "Berlari paling cepat dalam lomba",
       "Dipilih oleh ayahnya"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q16",
      "num": 16,
-     "type": "bs",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi cerita (Benar) atau tidak (Salah)."
+       "html": "Perhatikan pernyataan berikut. <br>(1) Bima berlatih selama tiga bulan.<br>(2) Ardi terjatuh pada awal lomba.<br>(3) Pesan ayah memengaruhi keputusan Bima.<br>(4) Bima menjadi juara pertama lomba lari.<br>Urutan penilaian pernyataan (1) sampai (4) yang tepat adalah..."
       }
      ],
-     "stmts": [
-      "Bima berlatih selama tiga bulan.",
-      "Ardi terjatuh pada awal lomba.",
-      "Pesan ayah memengaruhi keputusan Bima.",
-      "Bima menjadi juara pertama lomba lari."
+     "opts": [
+      "Benar; Salah; Benar; Salah",
+      "Salah; Salah; Benar; Salah",
+      "Benar; Benar; Benar; Salah",
+      "Benar; Salah; Salah; Salah"
      ],
-     "answers": [
-      true,
-      false,
-      true,
-      false
-     ]
+     "ans": 0
     },
     {
      "id": "q17",
      "num": 17,
-     "type": "uraian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Jika kamu berada di posisi Bima, apa yang akan kamu lakukan? Jelaskan alasanmu dalam 2–3 kalimat!"
+       "html": "Tindakan yang paling mencerminkan kepedulian Bima dalam cerita adalah..."
       }
      ],
-     "answer": "Jawaban terbuka. Kriteria: menyatakan pilihan tindakan disertai alasan yang logis dan berkaitan dengan nilai sportivitas, kejujuran, atau kepedulian.",
-     "label": "Uraian 17"
+     "opts": [
+      "Mengejek Ardi yang terjatuh",
+      "Mengabaikan Ardi demi mendapat pujian",
+      "Menyalahkan penonton atas kekalahannya",
+      "Menolong Ardi yang jatuh meskipun peluang menang berkurang"
+     ],
+     "ans": 3
     }
    ]
   },
@@ -389,11 +383,11 @@
      ],
      "opts": [
       "Menjual alat penampung air",
-      "Mengajak masyarakat menghemat air",
       "Menceritakan pengalaman mandi",
+      "Mengajak masyarakat menghemat air",
       "Menjelaskan proses terjadinya hujan"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q20",
@@ -408,50 +402,46 @@
      "opts": [
       "Air bersih semakin sulit didapat.",
       "Generasi mendatang akan kesulitan.",
-      "Satu keluarga dapat menghabiskan ratusan liter air.",
-      "Hemat air hari ini, selamatkan bumi esok hari!"
+      "Hemat air hari ini, selamatkan bumi esok hari!",
+      "Satu keluarga dapat menghabiskan ratusan liter air."
      ],
-     "ans": 3
+     "ans": 2
     },
     {
      "id": "q21",
      "num": 21,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua cara menghemat air yang disebutkan dalam teks."
+       "html": "Tentukan cara menghemat air yang disebutkan dalam teks.<br>Perhatikan pernyataan berikut. <br>(1) Mematikan keran saat menyikat gigi<br>(2) Memperbaiki keran yang bocor<br>(3) Menampung air hujan untuk menyiram tanaman<br>(4) Mandi selama satu jam setiap hari<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "Mematikan keran saat menyikat gigi",
-      "Memperbaiki keran yang bocor",
-      "Menampung air hujan untuk menyiram tanaman",
-      "Mandi selama satu jam setiap hari"
+      "1, 2, 3",
+      "1, 2, 4",
+      "1, 3, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      1,
-      2
-     ]
+     "ans": 0
     },
     {
      "id": "q22",
      "num": 22,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Iklan layanan masyarakat tersebut dibuat oleh <span class=\"blank\">&nbsp;</span>."
+       "html": "Iklan layanan masyarakat tersebut dibuat oleh ...."
       }
      ],
-     "answer": "Dinas Lingkungan Hidup",
-     "accept": [
-      "dinas lingkungan hidup",
-      "lingkungan hidup",
-      "dlh"
+     "opts": [
+      "Dinas Pendidikan",
+      "Dinas Lingkungan Hidup",
+      "Dinas Kesehatan",
+      "Dinas Perhubungan"
      ],
-     "label": "Isian 22"
+     "ans": 1
     },
     {
      "id": "q23",
@@ -464,12 +454,12 @@
       }
      ],
      "opts": [
-      "Satu tetes air sangat berharga.",
       "Air hujan dapat ditampung untuk menyiram tanaman.",
       "Satu keluarga dapat menghabiskan ratusan liter air setiap hari.",
-      "Teks ini dibuat oleh Dinas Lingkungan Hidup."
+      "Teks ini dibuat oleh Dinas Lingkungan Hidup.",
+      "Satu tetes air sangat berharga."
      ],
-     "ans": 0
+     "ans": 3
     }
    ]
   },
@@ -527,10 +517,10 @@
      "opts": [
       "Analisa",
       "Analises",
-      "Analisys",
-      "Analisis"
+      "Analisis",
+      "Analisys"
      ],
-     "ans": 3
+     "ans": 2
     },
     {
      "id": "q27",
@@ -562,11 +552,11 @@
      ],
      "opts": [
       "Aktivitas ini melatih otot dan membuat tulang lebih kuat.",
-      "Bermain di luar rumah sangat bermanfaat bagi anak.",
       "Anak juga dapat berteman dan belajar bekerja sama.",
-      "Selain itu, tubuh mendapat sinar matahari yang baik."
+      "Selain itu, tubuh mendapat sinar matahari yang baik.",
+      "Bermain di luar rumah sangat bermanfaat bagi anak."
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q29",
@@ -580,27 +570,29 @@
      ],
      "opts": [
       "Simile",
-      "Metafora",
       "Hiperbola",
-      "Personifikasi"
+      "Personifikasi",
+      "Metafora"
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q30",
      "num": 30,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Lengkapi dengan kata berimbuhan yang tepat. Ibu <span class=\"blank\">&nbsp;</span> (masak) nasi goreng untuk sarapan."
+       "html": "Lengkapi dengan kata berimbuhan yang tepat. Ibu ... (masak) nasi goreng untuk sarapan."
       }
      ],
-     "answer": "memasak",
-     "accept": [
-      "memasak"
+     "opts": [
+      "dimasak",
+      "memasak",
+      "pemasak",
+      "masakan"
      ],
-     "label": "Isian 30"
+     "ans": 1
     }
    ]
   }

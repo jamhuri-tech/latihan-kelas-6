@@ -2,7 +2,7 @@
  "id": "tka-bahasa-indonesia-p5",
  "subject": "Bahasa Indonesia",
  "title": "Try Out Persiapan TKA (Paket 5)",
- "desc": "30 soal literasi tingkat lebih menantang: teks informasi dengan tabel, dua teks opini, biografi, dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
+ "desc": "30 soal literasi tingkat lebih menantang: teks informasi dengan tabel, dua teks opini, biografi, dan kebahasaan Semua soal pilihan ganda dengan satu jawaban benar.",
  "sections": [
   {
    "title": "Bacalah Teks 1 dan Tabel 1 untuk menjawab soal nomor 1 sampai 9.",
@@ -49,12 +49,12 @@
       }
      ],
      "opts": [
+      "Banyaknya makanan yang terbuang dan dampaknya",
       "Cara menanam padi di sawah",
       "Cara mengolah sayur agar lezat",
-      "Proses terbentuknya gas metana",
-      "Banyaknya makanan yang terbuang dan dampaknya"
+      "Proses terbentuknya gas metana"
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q2",
@@ -67,12 +67,12 @@
       }
      ],
      "opts": [
-      "Menyia-nyiakan air, pupuk, dan tenaga yang digunakan untuk menghasilkannya",
       "Membantu petani mendapatkan pupuk",
       "Menambah pekerjaan juru masak",
+      "Menyia-nyiakan air, pupuk, dan tenaga yang digunakan untuk menghasilkannya",
       "Membuat harga beras menjadi murah"
      ],
-     "ans": 0
+     "ans": 2
     },
     {
      "id": "q3",
@@ -85,35 +85,30 @@
       }
      ],
      "opts": [
-      "11 kg",
       "4 kg",
       "14 kg",
-      "18 kg"
+      "18 kg",
+      "11 kg"
      ],
-     "ans": 0
+     "ans": 3
     },
     {
      "id": "q4",
      "num": 4,
-     "type": "bs",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Berdasarkan teks dan Tabel 1, tentukan apakah pernyataan berikut Benar atau Salah."
+       "html": "Perhatikan pernyataan berikut. <br>(1) Sisa nasi lebih banyak daripada sisa buah.<br>(2) Sampah makanan tidak berbahaya karena mudah membusuk.<br>(3) Jumlah seluruh sisa makanan selama seminggu adalah 36 kg.<br>(4) Sebagian siswa tidak menyukai rasa sayur di kantin.<br>Urutan penilaian pernyataan (1) sampai (4) yang tepat adalah..."
       }
      ],
-     "stmts": [
-      "Sisa nasi lebih banyak daripada sisa buah.",
-      "Sampah makanan tidak berbahaya karena mudah membusuk.",
-      "Jumlah seluruh sisa makanan selama seminggu adalah 36 kg.",
-      "Sebagian siswa tidak menyukai rasa sayur di kantin."
+     "opts": [
+      "Salah; Salah; Benar; Benar",
+      "Benar; Benar; Benar; Benar",
+      "Benar; Salah; Salah; Benar",
+      "Benar; Salah; Benar; Benar"
      ],
-     "answers": [
-      true,
-      false,
-      true,
-      true
-     ]
+     "ans": 3
     },
     {
      "id": "q5",
@@ -126,34 +121,30 @@
       }
      ],
      "opts": [
+      "Jika dilihat sepintas atau tidak mendalam",
       "Jika dilihat dengan teliti",
       "Dalam waktu yang sangat lama",
-      "Menurut penelitian para ahli",
-      "Jika dilihat sepintas atau tidak mendalam"
+      "Menurut penelitian para ahli"
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q6",
      "num": 6,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua usulan siswa untuk mengurangi sampah makanan menurut teks."
+       "html": "Tentukan usulan siswa untuk mengurangi sampah makanan menurut teks.<br>Perhatikan pernyataan berikut. <br>(1) Mengambil makanan secukupnya<br>(2) Meminta juru masak mengolah sayur dengan cara yang lebih disukai<br>(3) Menghapus sayur dari menu kantin<br>(4) Mengolah sisa makanan menjadi kompos<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "Mengambil makanan secukupnya",
-      "Meminta juru masak mengolah sayur dengan cara yang lebih disukai",
-      "Menghapus sayur dari menu kantin",
-      "Mengolah sisa makanan menjadi kompos"
+      "1, 2, 3",
+      "1, 3, 4",
+      "1, 2, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      1,
-      3
-     ]
+     "ans": 2
     },
     {
      "id": "q7",
@@ -167,42 +158,47 @@
      ],
      "opts": [
       "Paragraf ketiga berisi pendapat, paragraf keempat berisi fakta pendukung",
-      "Paragraf ketiga berisi temuan masalah, paragraf keempat berisi usulan penyelesaiannya",
       "Kedua paragraf menjelaskan hal yang sama dengan kata berbeda",
-      "Paragraf keempat membantah isi paragraf ketiga"
+      "Paragraf keempat membantah isi paragraf ketiga",
+      "Paragraf ketiga berisi temuan masalah, paragraf keempat berisi usulan penyelesaiannya"
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q8",
      "num": 8,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Gas yang dihasilkan oleh tumpukan sampah makanan dan ikut memanaskan bumi adalah gas <span class=\"blank\">&nbsp;</span>."
+       "html": "Gas yang dihasilkan oleh tumpukan sampah makanan dan ikut memanaskan bumi adalah gas ...."
       }
      ],
-     "answer": "metana",
-     "accept": [
+     "opts": [
+      "oksigen",
+      "nitrogen",
       "metana",
-      "gas metana",
-      "metan"
+      "hidrogen"
      ],
-     "label": "Isian 8"
+     "ans": 2
     },
     {
      "id": "q9",
      "num": 9,
-     "type": "self",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Menurutmu, mengapa penulis menceritakan “perjalanan sepiring nasi” dari petani sampai juru masak? Jelaskan!"
+       "html": "Tujuan penulis menjelaskan perjalanan sepiring nasi adalah..."
       }
      ],
-     "answer": "Contoh: agar pembaca menyadari bahwa makanan dihasilkan dengan kerja keras banyak orang serta memakai banyak air, pupuk, dan tenaga, sehingga pembaca merasa sayang untuk membuangnya (jawaban lain yang sesuai diterima).",
-     "label": "Isian 9"
+     "opts": [
+      "Membuktikan nasi hanya dibuat oleh pedagang",
+      "Menganjurkan pembaca berhenti makan nasi",
+      "Menyadarkan pembaca bahwa membuang makanan juga menyia-nyiakan kerja dan sumber daya",
+      "Menjelaskan bahwa makanan tidak memerlukan air"
+     ],
+     "ans": 2
     }
    ]
   },
@@ -230,12 +226,12 @@
       }
      ],
      "opts": [
-      "Keduanya setuju PR tetap diberikan dengan batasan tertentu",
       "Keduanya menolak adanya PR",
+      "Keduanya setuju PR tetap diberikan dengan batasan tertentu",
       "Keduanya ingin PR diberikan setiap hari",
       "Keduanya ingin PR dikerjakan sampai malam"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q11",
@@ -248,12 +244,12 @@
       }
      ],
      "opts": [
-      "Seberapa sering PR sebaiknya diberikan",
       "Siapa yang harus memeriksa PR",
+      "Seberapa sering PR sebaiknya diberikan",
       "Mata pelajaran yang diberi PR",
       "Tempat mengerjakan PR"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q12",
@@ -268,10 +264,10 @@
      "opts": [
       "PR membuat anak tidur lebih cepat",
       "PR menggantikan waktu bermain anak",
-      "PR membantu mengulang pelajaran dan melatih tanggung jawab",
-      "PR membuat orang tua lebih sibuk"
+      "PR membuat orang tua lebih sibuk",
+      "PR membantu mengulang pelajaran dan melatih tanggung jawab"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q13",
@@ -285,33 +281,29 @@
      ],
      "opts": [
       "Saya setuju ada PR, tetapi cukup dua atau tiga kali dalam seminggu.",
-      "Anak saya sering mengerjakan PR sampai malam sehingga tidurnya kurang.",
       "PR sebaiknya berupa kegiatan yang menyenangkan.",
-      "Anak-anak perlu bermain dan beristirahat."
+      "Anak-anak perlu bermain dan beristirahat.",
+      "Anak saya sering mengerjakan PR sampai malam sehingga tidurnya kurang."
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q14",
      "num": 14,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua pernyataan yang sesuai dengan pendapat Pak Hendra."
+       "html": "Tentukan pernyataan yang sesuai dengan pendapat Pak Hendra.<br>Perhatikan pernyataan berikut. <br>(1) PR dapat berupa kegiatan mengamati tanaman<br>(2) Anak perlu waktu untuk membantu orang tua<br>(3) PR harus selesai dalam 30 menit<br>(4) PR cukup diberikan dua atau tiga kali seminggu<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "PR dapat berupa kegiatan mengamati tanaman",
-      "Anak perlu waktu untuk membantu orang tua",
-      "PR harus selesai dalam 30 menit",
-      "PR cukup diberikan dua atau tiga kali seminggu"
+      "1, 2, 3",
+      "1, 3, 4",
+      "1, 2, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      1,
-      3
-     ]
+     "ans": 2
     },
     {
      "id": "q15",
@@ -334,38 +326,38 @@
     {
      "id": "q16",
      "num": 16,
-     "type": "bs",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Tentukan apakah pernyataan berikut sesuai dengan isi teks (Benar) atau tidak (Salah)."
+       "html": "Perhatikan pernyataan berikut. <br>(1) Bu Ratna berpendapat bahwa materi mudah terlupa tanpa pengulangan.<br>(2) Pak Hendra sama sekali tidak setuju dengan adanya PR.<br>(3) Bu Ratna membatasi waktu mengerjakan PR sekitar 30 menit.<br>(4) Kedua teks termasuk teks prosedur.<br>Urutan penilaian pernyataan (1) sampai (4) yang tepat adalah..."
       }
      ],
-     "stmts": [
-      "Bu Ratna berpendapat bahwa materi mudah terlupa tanpa pengulangan.",
-      "Pak Hendra sama sekali tidak setuju dengan adanya PR.",
-      "Bu Ratna membatasi waktu mengerjakan PR sekitar 30 menit.",
-      "Kedua teks termasuk teks prosedur."
+     "opts": [
+      "Salah; Salah; Benar; Salah",
+      "Benar; Benar; Benar; Salah",
+      "Benar; Salah; Salah; Salah",
+      "Benar; Salah; Benar; Salah"
      ],
-     "answers": [
-      true,
-      false,
-      true,
-      false
-     ]
+     "ans": 3
     },
     {
      "id": "q17",
      "num": 17,
-     "type": "uraian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pendapat siapa yang lebih kamu setujui, Bu Ratna atau Pak Hendra? Tuliskan pendapatmu disertai dua alasan!"
+       "html": "Alasan yang paling sesuai untuk mendukung pendapat Pak Hendra adalah..."
       }
      ],
-     "answer": "Jawaban terbuka. Kriteria: memilih salah satu pendapat (atau jalan tengah), memberikan dua alasan yang logis, dan alasan tidak bertentangan dengan isi teks.",
-     "label": "Uraian 17"
+     "opts": [
+      "Semua pelajaran dapat dihapus bila tidak ada PR",
+      "PR beberapa kali seminggu memberi anak kesempatan bermain dan beristirahat",
+      "PR setiap hari harus dikerjakan orang tua",
+      "Anak perlu mengerjakan PR sampai malam setiap hari"
+     ],
+     "ans": 1
     }
    ]
   },
@@ -393,12 +385,12 @@
       }
      ],
      "opts": [
+      "Teks biografi",
       "Teks fabel",
       "Teks eksplanasi",
-      "Teks biografi",
       "Teks iklan"
      ],
-     "ans": 2
+     "ans": 0
     },
     {
      "id": "q19",
@@ -411,12 +403,12 @@
       }
      ],
      "opts": [
+      "Tulisannya yang mengkritik pemerintah penjajah",
       "Pendirian Perguruan Taman Siswa",
       "Keinginannya belajar ilmu pendidikan",
-      "Penggantian namanya",
-      "Tulisannya yang mengkritik pemerintah penjajah"
+      "Penggantian namanya"
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q20",
@@ -430,11 +422,11 @@
      ],
      "opts": [
       "Mudah putus asa ketika dihukum",
-      "Pantang menyerah dan mampu mengubah kesulitan menjadi kesempatan",
       "Lebih suka tinggal di negeri orang",
-      "Ingin menjadi orang Belanda"
+      "Ingin menjadi orang Belanda",
+      "Pantang menyerah dan mampu mengubah kesulitan menjadi kesempatan"
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q21",
@@ -466,32 +458,29 @@
      ],
      "opts": [
       "Mengerjakan semua tugas siswanya",
+      "Memberi semangat dari belakang ketika siswa mencoba memecahkan soal sendiri",
       "Menghukum siswa yang salah menjawab",
-      "Membiarkan siswa tanpa bimbingan sama sekali",
-      "Memberi semangat dari belakang ketika siswa mencoba memecahkan soal sendiri"
+      "Membiarkan siswa tanpa bimbingan sama sekali"
      ],
-     "ans": 3
+     "ans": 1
     },
     {
      "id": "q23",
      "num": 23,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Hari Pendidikan Nasional diperingati setiap tanggal <span class=\"blank\">&nbsp;</span>."
+       "html": "Hari Pendidikan Nasional diperingati setiap tanggal ...."
       }
      ],
-     "answer": "2 Mei",
-     "accept": [
-      "2 mei",
-      "dua mei",
-      "tanggal 2 mei",
-      "02 mei",
-      "2-5",
-      "2/5"
+     "opts": [
+      "2 Mei",
+      "1 Mei",
+      "20 Mei",
+      "17 Agustus"
      ],
-     "label": "Isian 23"
+     "ans": 0
     }
    ]
   },
@@ -512,11 +501,11 @@
      ],
      "opts": [
       "Para siswa-siswa diminta mengumpulkan tugas hari ini.",
-      "Para siswa diminta untuk mengumpulkan tugas-tugas pada hari ini juga sekarang.",
       "Para siswa diminta mengumpulkan tugas hari ini.",
+      "Para siswa diminta untuk mengumpulkan tugas-tugas pada hari ini juga sekarang.",
       "Siswa-siswa para diminta mengumpulkan tugas hari ini."
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q25",
@@ -547,12 +536,12 @@
       }
      ],
      "opts": [
+      "Kami berkunjung ke Candi Borobudur pada hari Minggu.",
       "Kami berkunjung ke candi Borobudur pada Hari minggu.",
       "kami berkunjung ke Candi borobudur pada hari Minggu.",
-      "Kami Berkunjung ke Candi Borobudur pada hari minggu.",
-      "Kami berkunjung ke Candi Borobudur pada hari Minggu."
+      "Kami Berkunjung ke Candi Borobudur pada hari minggu."
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q27",
@@ -583,12 +572,12 @@
       }
      ],
      "opts": [
-      "Pendiriannya mudah berubah-ubah",
       "Sangat rajin bekerja",
+      "Pendiriannya mudah berubah-ubah",
       "Selalu menolong sesama",
       "Hidupnya sangat sederhana"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q29",
@@ -601,28 +590,30 @@
       }
      ],
      "opts": [
-      "Pohon kelapa itu sangat tinggi.",
       "Kakak memiliki cita-cita yang tinggi.",
+      "Pohon kelapa itu sangat tinggi.",
       "Rumah Paman berada di dataran tinggi.",
       "Adik melompat tinggi sekali."
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q30",
      "num": 30,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Lengkapi dengan kata berimbuhan yang tepat. Surat itu harus <span class=\"blank\">&nbsp;</span> (tanda tangan) oleh kepala sekolah."
+       "html": "Lengkapi dengan kata berimbuhan yang tepat. Surat itu harus ... (tanda tangan) oleh kepala sekolah."
       }
      ],
-     "answer": "ditandatangani",
-     "accept": [
-      "ditandatangani"
+     "opts": [
+      "di tanda tangani",
+      "ditandatangani",
+      "menandatangani",
+      "tertandatangani"
      ],
-     "label": "Isian 30"
+     "ans": 1
     }
    ]
   }

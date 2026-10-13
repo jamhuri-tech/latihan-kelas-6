@@ -2,7 +2,7 @@
  "id": "tka-matematika-p2",
  "subject": "Matematika",
  "title": "Try Out Persiapan TKA (Paket 2)",
- "desc": "30 soal literasi numerasi: bilangan, perbandingan, geometri, grafik garis, dan tabel; pilihan ganda, kompleks, benar/salah, isian.",
+ "desc": "30 soal literasi numerasi: bilangan, perbandingan, geometri, grafik garis, dan tabel Semua soal pilihan ganda dengan satu jawaban benar.",
  "sections": [
   {
    "title": "A. Bilangan, Pola, dan Operasi Hitung",
@@ -20,12 +20,12 @@
       }
      ],
      "opts": [
+      "2",
       "$\\frac{9}{8}$",
       "$\\frac{1}{2}$",
-      "3",
-      "2"
+      "3"
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q2",
@@ -58,10 +58,10 @@
      "opts": [
       "16,25",
       "14,75",
-      "15,75",
-      "12,25"
+      "12,25",
+      "15,75"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q4",
@@ -92,12 +92,12 @@
       }
      ],
      "opts": [
-      "06.50",
       "07.00",
+      "06.50",
       "07.30",
       "08.00"
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q6",
@@ -110,67 +110,66 @@
       }
      ],
      "opts": [
-      "53 m di bawah permukaan laut",
       "53 m di atas permukaan laut",
       "27 m di bawah permukaan laut",
+      "53 m di bawah permukaan laut",
       "27 m di atas permukaan laut"
      ],
-     "ans": 0
+     "ans": 2
     },
     {
      "id": "q7",
      "num": 7,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pecahan $\\frac{7}{20}$ jika dinyatakan dalam persen adalah <span class=\"blank\">&nbsp;</span> %."
+       "html": "Pecahan $\\frac{7}{20}$ jika dinyatakan dalam persen adalah ... %."
       }
      ],
-     "answer": "$35$",
-     "accept": [
-      "35",
-      "35%"
+     "opts": [
+      "25",
+      "30",
+      "40",
+      "$35$"
      ],
-     "label": "Isian 7"
+     "ans": 3
     },
     {
      "id": "q8",
      "num": 8,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua bilangan yang nilainya sama dengan 0,75."
+       "html": "Tentukan bilangan yang nilainya sama dengan 0,75.<br>Perhatikan pernyataan berikut. <br>(1) $\\frac{3}{4}$<br>(2) 75%<br>(3) $\\frac{7}{5}$<br>(4) $\\frac{15}{20}$<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "$\\frac{3}{4}$",
-      "75%",
-      "$\\frac{7}{5}$",
-      "$\\frac{15}{20}$"
+      "1, 2, 3",
+      "1, 3, 4",
+      "1, 2, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      1,
-      3
-     ]
+     "ans": 2
     },
     {
      "id": "q9",
      "num": 9,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Perhatikan pola bilangan $2, 5, 10, 17, 26, \\ldots$ Suku ke-8 dari pola tersebut adalah <span class=\"blank\">&nbsp;</span>."
+       "html": "Perhatikan pola bilangan $2, 5, 10, 17, 26, \\ldots$ Suku ke-8 dari pola tersebut adalah ...."
       }
      ],
-     "answer": "$65$",
-     "accept": [
-      "65"
+     "opts": [
+      "50",
+      "64",
+      "$65$",
+      "82"
      ],
-     "label": "Isian 9"
+     "ans": 2
     }
    ]
   },
@@ -190,12 +189,12 @@
       }
      ],
      "opts": [
-      "8 m",
       "4 m",
+      "8 m",
       "80 m",
       "20 m"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q11",
@@ -209,11 +208,11 @@
      ],
      "opts": [
       "Rp48.000,00",
-      "Rp132.000,00",
       "Rp84.000,00",
+      "Rp132.000,00",
       "Rp60.000,00"
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q12",
@@ -227,11 +226,11 @@
      ],
      "opts": [
       "45 menit",
-      "1 jam",
       "1,5 jam",
-      "2 jam"
+      "2 jam",
+      "1 jam"
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q13",
@@ -244,33 +243,30 @@
       }
      ],
      "opts": [
-      "10.00",
       "09.30",
       "10.30",
-      "11.00"
+      "11.00",
+      "10.00"
      ],
-     "ans": 0
+     "ans": 3
     },
     {
      "id": "q14",
      "num": 14,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Sebuah tas dibeli dengan harga Rp80.000,00. Tas tersebut dijual dengan kerugian 15%. Harga jual tas tersebut adalah Rp <span class=\"blank\">&nbsp;</span>."
+       "html": "Sebuah tas dibeli dengan harga Rp80.000,00. Tas tersebut dijual dengan kerugian 15%. Harga jual tas tersebut adalah ...."
       }
      ],
-     "answer": "Rp68.000,00",
-     "accept": [
-      "68000",
-      "68.000",
-      "rp68.000",
-      "rp68.000,00",
-      "68.000,00",
-      "rp 68.000"
+     "opts": [
+      "Rp72.000,00",
+      "Rp92.000,00",
+      "Rp68.000,00",
+      "Rp65.000,00"
      ],
-     "label": "Isian 14"
+     "ans": 2
     },
     {
      "id": "q15",
@@ -283,12 +279,12 @@
       }
      ],
      "opts": [
+      "Rp198.000,00",
       "Rp216.000,00",
       "Rp180.000,00",
-      "Rp198.000,00",
       "Rp204.000,00"
      ],
-     "ans": 2
+     "ans": 0
     }
    ]
   },
@@ -332,11 +328,11 @@
      ],
      "opts": [
       "280 cm$^2$",
+      "357 cm$^2$",
       "434 cm$^2$",
-      "77 cm$^2$",
-      "357 cm$^2$"
+      "77 cm$^2$"
      ],
-     "ans": 3
+     "ans": 1
     }
    ]
   },
@@ -356,12 +352,12 @@
       }
      ],
      "opts": [
+      "360 cm$^3$",
       "720 cm$^3$",
       "240 cm$^3$",
-      "360 cm$^3$",
       "180 cm$^3$"
      ],
-     "ans": 2
+     "ans": 0
     },
     {
      "id": "q19",
@@ -374,12 +370,12 @@
       }
      ],
      "opts": [
+      "3.080 cm$^3$",
       "1.540 cm$^3$",
       "6.160 cm$^3$",
-      "440 cm$^3$",
-      "3.080 cm$^3$"
+      "440 cm$^3$"
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q20",
@@ -394,10 +390,10 @@
      "opts": [
       "729 cm$^2$",
       "324 cm$^2$",
-      "486 cm$^2$",
-      "243 cm$^2$"
+      "243 cm$^2$",
+      "486 cm$^2$"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q21",
@@ -410,34 +406,30 @@
       }
      ],
      "opts": [
-      "$53^{\\circ}$",
       "$63^{\\circ}$",
       "$125^{\\circ}$",
+      "$53^{\\circ}$",
       "$43^{\\circ}$"
      ],
-     "ans": 0
+     "ans": 2
     },
     {
      "id": "q22",
      "num": 22,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua pernyataan yang benar tentang bangun ruang."
+       "html": "Tentukan pernyataan yang benar tentang bangun ruang.<br>Perhatikan pernyataan berikut. <br>(1) Kubus memiliki 12 rusuk.<br>(2) Balok memiliki 6 sisi.<br>(3) Limas segiempat memiliki 5 titik sudut.<br>(4) Prisma segitiga memiliki 8 titik sudut.<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "Kubus memiliki 12 rusuk.",
-      "Balok memiliki 6 sisi.",
-      "Limas segiempat memiliki 5 titik sudut.",
-      "Prisma segitiga memiliki 8 titik sudut."
+      "1, 2, 4",
+      "1, 2, 3",
+      "1, 3, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      1,
-      2
-     ]
+     "ans": 1
     }
    ]
   },
@@ -462,12 +454,12 @@
       }
      ],
      "opts": [
-      "14 cm",
       "19 cm",
+      "14 cm",
       "17 cm",
       "26 cm"
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q24",
@@ -480,12 +472,12 @@
       }
      ],
      "opts": [
-      "Minggu ke-4 dan ke-5",
       "Minggu ke-1 dan ke-2",
+      "Minggu ke-4 dan ke-5",
       "Minggu ke-2 dan ke-3",
       "Minggu ke-3 dan ke-4"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q25",
@@ -499,11 +491,11 @@
      ],
      "opts": [
       "14 cm",
-      "15 cm",
       "16 cm",
+      "15 cm",
       "19 cm"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q26",
@@ -516,28 +508,30 @@
       }
      ],
      "opts": [
-      "16 cm",
       "20 cm",
+      "16 cm",
       "18 cm",
       "22 cm"
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q27",
      "num": 27,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Median data tinggi tanaman pada Gambar 2 adalah <span class=\"blank\">&nbsp;</span> cm."
+       "html": "Median data tinggi tanaman pada Gambar 2 adalah ... cm."
       }
      ],
-     "answer": "$14$",
-     "accept": [
-      "14"
+     "opts": [
+      "12",
+      "$14$",
+      "16",
+      "18"
      ],
-     "label": "Isian 27"
+     "ans": 1
     }
    ]
   },
@@ -584,12 +578,12 @@
       }
      ],
      "opts": [
-      "Rp65.000,00",
       "Rp13.000,00",
+      "Rp65.000,00",
       "Rp78.000,00",
       "Rp48.000,00"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q29",
@@ -602,35 +596,30 @@
       }
      ],
      "opts": [
-      "Rp165.000,00",
       "Rp181.000,00",
+      "Rp165.000,00",
       "Rp197.000,00",
       "Rp171.000,00"
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q30",
      "num": 30,
-     "type": "bs",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Berdasarkan Tabel 1, tentukan apakah pernyataan berikut Benar atau Salah."
+       "html": "Perhatikan pernyataan berikut. <br>(1) Telur adalah barang dengan jumlah pembayaran terbesar.<br>(2) Jumlah pembayaran untuk gula adalah Rp32.000,00.<br>(3) Jumlah pembayaran beras dan gula adalah Rp100.000,00.<br>(4) Jika membayar dengan uang Rp200.000,00, kembaliannya Rp19.000,00.<br>Urutan penilaian pernyataan (1) sampai (4) yang tepat adalah..."
       }
      ],
-     "stmts": [
-      "Telur adalah barang dengan jumlah pembayaran terbesar.",
-      "Jumlah pembayaran untuk gula adalah Rp32.000,00.",
-      "Jumlah pembayaran beras dan gula adalah Rp100.000,00.",
-      "Jika membayar dengan uang Rp200.000,00, kembaliannya Rp19.000,00."
+     "opts": [
+      "Salah; Benar; Salah; Benar",
+      "Benar; Benar; Salah; Benar",
+      "Benar; Salah; Salah; Benar",
+      "Benar; Benar; Benar; Benar"
      ],
-     "answers": [
-      true,
-      true,
-      false,
-      true
-     ]
+     "ans": 1
     }
    ]
   }

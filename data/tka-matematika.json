@@ -2,7 +2,7 @@
  "id": "tka-matematika",
  "subject": "Matematika",
  "title": "Try Out Persiapan TKA",
- "desc": "30 soal literasi numerasi: pilihan ganda, pilihan ganda kompleks, benar/salah, dan isian, dengan grafik dan tabel.",
+ "desc": "30 soal literasi numerasi: pilihan ganda, pilihan ganda kompleks, benar/salah, dan isian, dengan grafik dan tabel. Semua soal pilihan ganda dengan satu jawaban benar.",
  "sections": [
   {
    "title": "A. Bilangan dan Operasi Hitung",
@@ -22,10 +22,10 @@
      "opts": [
       "269",
       "244",
-      "279",
-      "254"
+      "254",
+      "279"
      ],
-     "ans": 3
+     "ans": 2
     },
     {
      "id": "q2",
@@ -38,12 +38,12 @@
       }
      ],
      "opts": [
-      "$1\\frac{1}{4}$",
       "$1\\frac{1}{2}$",
+      "$1\\frac{1}{4}$",
       "$\\frac{5}{6}$",
       "$1\\frac{1}{12}$"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q3",
@@ -58,10 +58,10 @@
      "opts": [
       "3,75 kg",
       "4,35 kg",
-      "4,25 kg",
-      "4,75 kg"
+      "4,75 kg",
+      "4,25 kg"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q4",
@@ -110,12 +110,12 @@
       }
      ],
      "opts": [
+      "12",
       "6",
       "9",
-      "12",
       "24"
      ],
-     "ans": 2
+     "ans": 0
     },
     {
      "id": "q7",
@@ -129,49 +129,47 @@
      ],
      "opts": [
       "$2^{\\circ}$C",
-      "$0^{\\circ}$C",
       "$-6^{\\circ}$C",
-      "$5^{\\circ}$C"
+      "$5^{\\circ}$C",
+      "$0^{\\circ}$C"
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q8",
      "num": 8,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Hasil dari $24 - (-6) \\times 3$ adalah <span class=\"blank\">&nbsp;</span>."
+       "html": "Hasil dari $24 - (-6) \\times 3$ adalah ...."
       }
      ],
-     "answer": "$42$",
-     "accept": [
-      "42"
+     "opts": [
+      "$42$",
+      "36",
+      "18",
+      "54"
      ],
-     "label": "Isian 8"
+     "ans": 0
     },
     {
      "id": "q9",
      "num": 9,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua bilangan yang habis dibagi 6."
+       "html": "Tentukan bilangan yang habis dibagi 6.<br>Perhatikan pernyataan berikut. <br>(1) 54<br>(2) 72<br>(3) 80<br>(4) 96<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "54",
-      "72",
-      "80",
-      "96"
+      "1, 2, 3",
+      "1, 3, 4",
+      "1, 2, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      1,
-      3
-     ]
+     "ans": 2
     }
    ]
   },
@@ -191,12 +189,12 @@
       }
      ],
      "opts": [
-      "30 km",
       "3 km",
       "300 km",
+      "30 km",
       "60 km"
      ],
-     "ans": 0
+     "ans": 2
     },
     {
      "id": "q11",
@@ -229,26 +227,28 @@
      "opts": [
       "90 km",
       "112 km",
-      "135 km",
-      "105 km"
+      "105 km",
+      "135 km"
      ],
-     "ans": 3
+     "ans": 2
     },
     {
      "id": "q13",
      "num": 13,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Sebuah mobil menempuh jarak 180 km dalam waktu 3 jam. Kecepatan rata-rata mobil tersebut adalah <span class=\"blank\">&nbsp;</span> km/jam."
+       "html": "Sebuah mobil menempuh jarak 180 km dalam waktu 3 jam. Kecepatan rata-rata mobil tersebut adalah ... km/jam."
       }
      ],
-     "answer": "$60$",
-     "accept": [
-      "60"
+     "opts": [
+      "45",
+      "$60$",
+      "90",
+      "30"
      ],
-     "label": "Isian 13"
+     "ans": 1
     }
    ]
   },
@@ -317,11 +317,11 @@
      ],
      "opts": [
       "120 cm$^3$",
-      "360 cm$^3$",
       "720 cm$^3$",
+      "360 cm$^3$",
       "1.440 cm$^3$"
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q17",
@@ -334,12 +334,12 @@
       }
      ],
      "opts": [
+      "93,75 liter",
       "125 liter",
       "62,5 liter",
-      "93,75 liter",
       "9,375 liter"
      ],
-     "ans": 2
+     "ans": 0
     },
     {
      "id": "q18",
@@ -352,34 +352,30 @@
       }
      ],
      "opts": [
-      "88 cm",
       "44 cm",
       "176 cm",
-      "616 cm"
+      "616 cm",
+      "88 cm"
      ],
-     "ans": 0
+     "ans": 3
     },
     {
      "id": "q19",
      "num": 19,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pilih semua pernyataan yang benar tentang simetri lipat."
+       "html": "Tentukan pernyataan yang benar tentang simetri lipat.<br>Perhatikan pernyataan berikut. <br>(1) Persegi memiliki 4 sumbu simetri lipat.<br>(2) Persegi panjang memiliki 4 sumbu simetri lipat.<br>(3) Belah ketupat memiliki 2 sumbu simetri lipat.<br>(4) Trapesium sama kaki memiliki 1 sumbu simetri lipat.<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "Persegi memiliki 4 sumbu simetri lipat.",
-      "Persegi panjang memiliki 4 sumbu simetri lipat.",
-      "Belah ketupat memiliki 2 sumbu simetri lipat.",
-      "Trapesium sama kaki memiliki 1 sumbu simetri lipat."
+      "1, 3, 4",
+      "1, 2, 3",
+      "1, 2, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      2,
-      3
-     ]
+     "ans": 0
     }
    ]
   },
@@ -423,11 +419,11 @@
      ],
      "opts": [
       "12 buku",
+      "18 buku",
       "14 buku",
-      "20 buku",
-      "18 buku"
+      "20 buku"
      ],
-     "ans": 3
+     "ans": 1
     },
     {
      "id": "q22",
@@ -440,12 +436,12 @@
       }
      ],
      "opts": [
+      "26 buku",
       "24 buku",
       "28 buku",
-      "30 buku",
-      "26 buku"
+      "30 buku"
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q23",
@@ -459,27 +455,29 @@
      ],
      "opts": [
       "22",
-      "24",
       "26",
+      "24",
       "30"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q24",
      "num": 24,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Berdasarkan Gambar 2, jumlah seluruh buku yang dipinjam dari Senin sampai Jumat adalah <span class=\"blank\">&nbsp;</span> buku."
+       "html": "Berdasarkan Gambar 2, jumlah seluruh buku yang dipinjam dari Senin sampai Jumat adalah ... buku."
       }
      ],
-     "answer": "$130$",
-     "accept": [
-      "130"
+     "opts": [
+      "120",
+      "140",
+      "150",
+      "$130$"
      ],
-     "label": "Isian 24"
+     "ans": 3
     }
    ]
   },
@@ -520,12 +518,12 @@
       }
      ],
      "opts": [
-      "80",
       "70",
+      "80",
       "90",
       "100"
      ],
-     "ans": 0
+     "ans": 1
     },
     {
      "id": "q26",
@@ -539,34 +537,29 @@
      ],
      "opts": [
       "80",
-      "81",
       "82",
-      "85"
+      "85",
+      "81"
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q27",
      "num": 27,
-     "type": "bs",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Berdasarkan Tabel 1, tentukan apakah pernyataan berikut Benar atau Salah."
+       "html": "Perhatikan pernyataan berikut. <br>(1) Banyak siswa seluruhnya 10 anak.<br>(2) Nilai 100 diperoleh 2 siswa.<br>(3) Median data tersebut adalah 80.<br>(4) Rata-rata nilai kurang dari 80.<br>Urutan penilaian pernyataan (1) sampai (4) yang tepat adalah..."
       }
      ],
-     "stmts": [
-      "Banyak siswa seluruhnya 10 anak.",
-      "Nilai 100 diperoleh 2 siswa.",
-      "Median data tersebut adalah 80.",
-      "Rata-rata nilai kurang dari 80."
+     "opts": [
+      "Benar; Salah; Benar; Salah",
+      "Salah; Salah; Benar; Salah",
+      "Benar; Benar; Benar; Salah",
+      "Benar; Salah; Salah; Salah"
      ],
-     "answers": [
-      true,
-      false,
-      true,
-      false
-     ]
+     "ans": 0
     }
    ]
   },
@@ -606,27 +599,28 @@
      "opts": [
       "43",
       "35",
-      "39",
-      "40"
+      "40",
+      "39"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q30",
      "num": 30,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "Pak Tono membeli sepeda seharga Rp900.000,00 lalu menjualnya Rp1.080.000,00. Persentase keuntungan Pak Tono adalah <span class=\"blank\">&nbsp;</span> %."
+       "html": "Pak Tono membeli sepeda seharga Rp900.000,00 lalu menjualnya Rp1.080.000,00. Persentase keuntungan Pak Tono adalah ... %."
       }
      ],
-     "answer": "$20$",
-     "accept": [
-      "20",
-      "20%"
+     "opts": [
+      "10",
+      "15",
+      "$20$",
+      "25"
      ],
-     "label": "Isian 30"
+     "ans": 2
     }
    ]
   }

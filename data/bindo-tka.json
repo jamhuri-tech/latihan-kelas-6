@@ -2,7 +2,7 @@
  "id": "bindo-tka",
  "subject": "Bahasa Indonesia",
  "title": "Try Out Persiapan TKA",
- "desc": "Literasi berbasis teks: pilihan ganda, kompleks, isian, dan uraian.",
+ "desc": "28 soal pilihan ganda Bahasa Indonesia. Semua soal pilihan ganda dengan satu jawaban benar.",
  "sections": [
   {
    "title": "Bacalah Teks 1 untuk menjawab soal nomor 1–9",
@@ -15,6 +15,7 @@
      "Agar tidur menjadi lebih berkualitas, ada beberapa hal yang dapat dilakukan. Anak sebaiknya memiliki jadwal tidur yang teratur setiap hari, menghindari penggunaan gawai setidaknya satu jam sebelum tidur, serta memastikan kamar tidur dalam keadaan nyaman, tenang, dan tidak terlalu terang. Dengan kebiasaan tidur yang baik, anak-anak dapat tumbuh sehat dan siap menghadapi kegiatan belajar setiap hari."
     ]
    },
+   "blocks": [],
    "items": [
     {
      "id": "q1",
@@ -46,11 +47,11 @@
      ],
      "opts": [
       "Anak bermain gawai",
-      "Anak belajar di sekolah",
       "Anak tidur nyenyak",
+      "Anak belajar di sekolah",
       "Anak bangun pagi"
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q3",
@@ -59,16 +60,16 @@
      "stem": [
       {
        "t": "p",
-       "html": "Makna kata <em>berkonsentrasi</em> pada teks tersebut adalah…"
+       "html": "Makna kata berkonsentrasi pada teks tersebut adalah…"
       }
      ],
      "opts": [
       "Bermain dengan gembira",
-      "Memusatkan pikiran pada suatu hal",
       "Merasa mengantuk",
+      "Memusatkan pikiran pada suatu hal",
       "Beristirahat dengan tenang"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q4",
@@ -77,39 +78,34 @@
      "stem": [
       {
        "t": "p",
-       "html": "Berikut ini yang <strong>BUKAN</strong> merupakan dampak dari kurang tidur berdasarkan teks adalah…"
+       "html": "Berikut ini yang BUKAN merupakan dampak dari kurang tidur berdasarkan teks adalah…"
       }
      ],
      "opts": [
       "Mudah merasa lelah",
-      "Sulit berkonsentrasi",
       "Daya tahan tubuh meningkat",
+      "Sulit berkonsentrasi",
       "Mudah marah"
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q5",
      "num": 5,
-     "type": "bs",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "<strong>(Pilihan Ganda Kompleks)</strong> Berdasarkan isi teks, tentukan apakah pernyataan berikut <strong>Benar</strong> atau <strong>Salah</strong>!"
+       "html": "Perhatikan pernyataan berikut. <br>(1) Anak usia 6–12 tahun disarankan tidur 9–11 jam setiap malam.<br>(2) Menonton televisi dianjurkan sebelum tidur agar lebih mengantuk.<br>(3) Kamar tidur yang nyaman dapat mendukung kualitas tidur.<br>(4) Kurang tidur tidak berpengaruh terhadap kemampuan belajar anak.<br>Urutan penilaian pernyataan (1) sampai (4) yang tepat adalah..."
       }
      ],
-     "stmts": [
-      "Anak usia 6–12 tahun disarankan tidur 9–11 jam setiap malam.",
-      "Menonton televisi dianjurkan sebelum tidur agar lebih mengantuk.",
-      "Kamar tidur yang nyaman dapat mendukung kualitas tidur.",
-      "Kurang tidur tidak berpengaruh terhadap kemampuan belajar anak."
+     "opts": [
+      "Salah; Salah; Benar; Salah",
+      "Benar; Salah; Benar; Salah",
+      "Benar; Benar; Benar; Salah",
+      "Benar; Salah; Salah; Salah"
      ],
-     "answers": [
-      true,
-      false,
-      true,
-      false
-     ]
+     "ans": 1
     },
     {
      "id": "q6",
@@ -122,46 +118,48 @@
       }
      ],
      "opts": [
-      "Menghibur pembaca dengan cerita lucu",
       "Memberikan informasi dan mengajak pembaca menjaga waktu tidur",
+      "Menghibur pembaca dengan cerita lucu",
       "Menceritakan pengalaman pribadi penulis",
       "Mempromosikan produk kasur"
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q7",
      "num": 7,
-     "type": "isian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "<strong>(Isian Singkat)</strong> Berapa jam waktu tidur yang disarankan bagi anak usia sekolah menurut teks tersebut?"
+       "html": "Waktu tidur yang disarankan bagi anak usia sekolah menurut teks adalah..."
       }
      ],
-     "answer": "9–11 jam",
-     "accept": [
-      "9-11 jam",
-      "9 hingga 11 jam",
-      "9 sampai 11 jam",
-      "9 sampai dengan 11 jam",
-      "9–11"
+     "opts": [
+      "5–6 jam",
+      "9–11 jam",
+      "6–7 jam",
+      "12–14 jam"
      ],
-     "label": "Isian 7"
+     "ans": 1
     },
     {
      "id": "q8",
      "num": 8,
-     "type": "self",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "<strong>(Isian Singkat)</strong> Sebutkan salah satu cara agar tidur menjadi lebih berkualitas menurut teks tersebut!"
+       "html": "Cara meningkatkan kualitas tidur menurut teks adalah..."
       }
      ],
-     "answer": "Jadwal tidur teratur / menghindari gawai sebelum tidur / kamar tidur nyaman (salah satu)",
-     "accept": [],
-     "label": "Isian 8"
+     "opts": [
+      "Bermain gawai sampai larut malam",
+      "Menonton televisi hingga tertidur",
+      "Mengubah jadwal tidur setiap malam",
+      "Menghindari gawai sebelum tidur"
+     ],
+     "ans": 3
     },
     {
      "id": "q9",
@@ -175,11 +173,11 @@
      ],
      "opts": [
       "Narasi",
-      "Eksposisi",
       "Deskripsi",
+      "Eksposisi",
       "Puisi"
      ],
-     "ans": 1
+     "ans": 2
     }
    ]
   },
@@ -188,7 +186,7 @@
    "passage": {
     "title": "Teks 2",
     "paras": [
-     "<strong>Kejujuran Dito</strong>",
+     "&lt;strong&gt;Kejujuran Dito&lt;/strong&gt;",
      "Suatu pagi, Dito berjalan menuju kelasnya di sebuah sekolah dasar. Di sepanjang koridor sekolah, matanya tertuju pada sebuah dompet kecil berwarna cokelat yang tergeletak di dekat tangga. Dito mengambil dompet itu dan membukanya. Di dalamnya terdapat selembar uang lima puluh ribu rupiah dan sebuah kartu pelajar bertuliskan nama “Farah, Kelas 6B”.",
      "“Wah, banyak juga uangnya,” gumam Dito dalam hati. Sejenak, ia teringat bahwa uang jajannya sudah habis sejak dua hari lalu. Ada rasa ingin menyimpan uang itu untuk dirinya sendiri. Namun, ia juga teringat pesan ibunya, “Nak, kejujuran adalah harta yang paling berharga. Jangan pernah mengambil sesuatu yang bukan milikmu.”",
      "Setelah berpikir sejenak, Dito memutuskan untuk mencari pemilik dompet tersebut. Ia berjalan menuju kelas 6B dan bertanya kepada teman-teman di sana, “Apakah ada yang bernama Farah di sini?” Seorang anak perempuan menghampirinya dengan wajah cemas. “Iya, aku Farah. Kenapa?”",
@@ -196,6 +194,7 @@
      "Melihat kebahagiaan Farah, Dito merasa lebih senang daripada jika ia menyimpan uang itu untuk dirinya sendiri. Sejak saat itu, Dito dan Farah menjadi teman baik, dan teman-teman sekelas semakin menghormati Dito karena kejujurannya."
     ]
    },
+   "blocks": [],
    "items": [
     {
      "id": "q10",
@@ -209,11 +208,11 @@
      ],
      "opts": [
       "Farah",
-      "Ibu Dito",
       "Dito",
+      "Ibu Dito",
       "Guru kelas 6B"
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q11",
@@ -227,11 +226,11 @@
      ],
      "opts": [
       "Rumah Dito",
-      "Sekolah",
       "Taman kota",
-      "Perpustakaan"
+      "Perpustakaan",
+      "Sekolah"
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q12",
@@ -263,33 +262,29 @@
      ],
      "opts": [
       "Sombong dan pelit",
-      "Jujur dan bertanggung jawab",
       "Pemalas dan ceroboh",
-      "Penakut dan pendiam"
+      "Penakut dan pendiam",
+      "Jujur dan bertanggung jawab"
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q14",
      "num": 14,
-     "type": "ms",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "<strong>(Pilihan Ganda Kompleks)</strong> Centang pernyataan yang <strong>SESUAI</strong> dengan isi cerita! (Jawaban benar bisa lebih dari satu)"
+       "html": "Perhatikan pernyataan berikut. <br>(1) Dito menemukan dompet di dekat tangga sekolah.<br>(2) Dito langsung mengambil uang di dalam dompet untuk dirinya sendiri.<br>(3) Farah adalah siswa kelas 6B.<br>(4) Dito dan Farah menjadi teman baik setelah kejadian itu.<br>Kombinasi nomor pernyataan yang benar adalah..."
       }
      ],
      "opts": [
-      "Dito menemukan dompet di dekat tangga sekolah.",
-      "Dito langsung mengambil uang di dalam dompet untuk dirinya sendiri.",
-      "Farah adalah siswa kelas 6B.",
-      "Dito dan Farah menjadi teman baik setelah kejadian itu."
+      "1, 3, 4",
+      "1, 2, 3",
+      "1, 2, 4",
+      "2, 3, 4"
      ],
-     "answers": [
-      0,
-      2,
-      3
-     ]
+     "ans": 0
     },
     {
      "id": "q15",
@@ -302,45 +297,55 @@
       }
      ],
      "opts": [
-      "Kita harus selalu membawa uang banyak ke sekolah",
       "Kejujuran akan membawa kebahagiaan dan dihargai orang lain",
+      "Kita harus selalu membawa uang banyak ke sekolah",
       "Jangan pernah berbicara dengan teman baru",
       "Uang adalah hal yang paling penting dalam hidup"
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q16",
      "num": 16,
-     "type": "self",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "<strong>(Isian Singkat)</strong> Apa yang dilakukan Dito setelah menemukan dompet milik Farah?"
+       "html": "Apa yang dilakukan Dito terhadap dompet milik Farah?"
       }
      ],
-     "answer": "Mengembalikan/menyerahkan dompet tersebut kepada Farah, pemiliknya",
-     "accept": [],
-     "label": "Isian 16"
+     "opts": [
+      "Menyimpan uangnya untuk diri sendiri",
+      "Membuangnya di taman",
+      "Menjualnya kepada teman",
+      "Mengembalikannya kepada Farah"
+     ],
+     "ans": 3
     },
     {
      "id": "q17",
      "num": 17,
-     "type": "uraian",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "<strong>(Uraian Singkat)</strong> Menurutmu, apakah tindakan Dito dalam cerita tersebut sudah tepat? Jelaskan alasanmu dalam 2–3 kalimat!"
+       "html": "Mengapa tindakan Dito mengembalikan dompet patut dicontoh?"
       }
      ],
-     "answer": "Jawaban terbuka. Kriteria: menyatakan pendapat (setuju/tidak) disertai alasan yang logis dan berkaitan dengan nilai kejujuran, ditulis dalam kalimat yang jelas.",
-     "label": "Uraian 17"
+     "opts": [
+      "Ia ingin mengambil semua uang Farah",
+      "Ia ingin menghindari semua teman",
+      "Ia menunjukkan kejujuran dan menghormati hak pemilik dompet",
+      "Ia menganggap dompet tidak memiliki pemilik"
+     ],
+     "ans": 2
     }
    ]
   },
   {
    "title": "Soal Kebahasaan",
    "passage": null,
+   "blocks": [],
    "items": [
     {
      "id": "q18",
@@ -349,16 +354,16 @@
      "stem": [
       {
        "t": "p",
-       "html": "Sinonim dari kata <em>gembira</em> adalah…"
+       "html": "Sinonim dari kata gembira adalah…"
       }
      ],
      "opts": [
       "Sedih",
-      "Senang",
       "Marah",
+      "Senang",
       "Takut"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q19",
@@ -367,16 +372,16 @@
      "stem": [
       {
        "t": "p",
-       "html": "Antonim dari kata <em>rajin</em> adalah…"
+       "html": "Antonim dari kata rajin adalah…"
       }
      ],
      "opts": [
+      "Malas",
       "Giat",
       "Tekun",
-      "Malas",
       "Cerdas"
      ],
-     "ans": 2
+     "ans": 0
     },
     {
      "id": "q20",
@@ -390,11 +395,11 @@
      ],
      "opts": [
       "ibu pergi ke pasar setiap hari senin.",
-      "Ibu pergi ke pasar setiap hari Senin.",
       "Ibu Pergi Ke Pasar Setiap Hari Senin.",
-      "Ibu pergi ke Pasar setiap Hari senin."
+      "Ibu pergi ke Pasar setiap Hari senin.",
+      "Ibu pergi ke pasar setiap hari Senin."
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q21",
@@ -407,12 +412,12 @@
       }
      ],
      "opts": [
-      "Para siswa-siswa sedang mengerjakan tugas.",
       "Siswa-siswa sedang mengerjakan tugas.",
+      "Para siswa-siswa sedang mengerjakan tugas.",
       "Para siswa sedang pada mengerjakan tugas.",
       "Semua para siswa-siswi sedang mengerjakan tugas-tugas."
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q22",
@@ -425,12 +430,12 @@
       }
      ],
      "opts": [
-      "Narasi",
       "Prosedur",
+      "Narasi",
       "Deskripsi",
       "Persuasi"
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q23",
@@ -462,11 +467,11 @@
      ],
      "opts": [
       "Orang yang sangat rajin bekerja",
-      "Orang yang pendiriannya tidak tetap/mudah berubah",
       "Orang yang sangat kaya raya",
+      "Orang yang pendiriannya tidak tetap/mudah berubah",
       "Orang yang suka menolong"
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q25",
@@ -479,12 +484,12 @@
       }
      ],
      "opts": [
-      "Aktifitas",
       "Aktivitas",
+      "Aktifitas",
       "Aktiviti",
       "Aktipitas"
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q26",
@@ -499,38 +504,46 @@
      "opts": [
       "Orientasi",
       "Komplikasi",
-      "Resolusi",
-      "Koda"
+      "Koda",
+      "Resolusi"
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q27",
      "num": 27,
-     "type": "self",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "<strong>(Isian Singkat)</strong> Tuliskan satu sinonim lain dari kata <em>senang</em>!"
+       "html": "Sinonim kata senang adalah..."
       }
      ],
-     "answer": "Gembira / bahagia / riang (jawaban lain yang sesuai diterima)",
-     "accept": [],
-     "label": "Isian 27"
+     "opts": [
+      "Sedih",
+      "Marah",
+      "Gembira",
+      "Takut"
+     ],
+     "ans": 2
     },
     {
      "id": "q28",
      "num": 28,
-     "type": "self",
+     "type": "pg",
      "stem": [
       {
        "t": "p",
-       "html": "<strong>(Isian Singkat)</strong> Perbaikilah kalimat berikut menjadi kalimat efektif: <em>“Semua para siswa-siswi pada mengerjakan tugas-tugas mereka masing-masing.”</em>"
+       "html": "Perbaikan yang paling efektif untuk kalimat “Semua para siswa-siswi pada mengerjakan tugas-tugas mereka masing-masing” adalah..."
       }
      ],
-     "answer": "Contoh: “Semua siswa mengerjakan tugas mereka masing-masing.”",
-     "accept": [],
-     "label": "Isian 28"
+     "opts": [
+      "Semua para siswa mengerjakan tugas mereka masing-masing.",
+      "Para siswa-siswi pada mengerjakan tugas mereka masing-masing.",
+      "Semua para siswa-siswi mengerjakan tugas-tugas.",
+      "Semua siswa mengerjakan tugas mereka masing-masing."
+     ],
+     "ans": 3
     }
    ]
   }

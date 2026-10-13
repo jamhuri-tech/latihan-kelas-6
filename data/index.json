@@ -131,7 +131,7 @@
   "id": "tka-matematika",
   "subject": "Matematika",
   "title": "Try Out Persiapan TKA",
-  "desc": "30 soal literasi numerasi: pilihan ganda, pilihan ganda kompleks, benar/salah, dan isian, dengan grafik dan tabel.",
+  "desc": "30 soal literasi numerasi: pilihan ganda, pilihan ganda kompleks, benar/salah, dan isian, dengan grafik dan tabel. Semua soal pilihan ganda dengan satu jawaban benar.",
   "count": 30,
   "pdf": "pdf/TryOut_TKA_Matematika_Kelas6.pdf"
  },
@@ -139,7 +139,7 @@
   "id": "tka-matematika-p2",
   "subject": "Matematika",
   "title": "Try Out Persiapan TKA (Paket 2)",
-  "desc": "30 soal literasi numerasi: bilangan, perbandingan, geometri, grafik garis, dan tabel; pilihan ganda, kompleks, benar/salah, isian.",
+  "desc": "30 soal literasi numerasi: bilangan, perbandingan, geometri, grafik garis, dan tabel Semua soal pilihan ganda dengan satu jawaban benar.",
   "count": 30,
   "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket2.pdf"
  },
@@ -147,7 +147,7 @@
   "id": "tka-matematika-p3",
   "subject": "Matematika",
   "title": "Try Out Persiapan TKA (Paket 3)",
-  "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, geometri gabungan, diagram lingkaran, dan tabel frekuensi.",
+  "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, geometri gabungan, diagram lingkaran, dan tabel frekuensi. Semua soal pilihan ganda dengan satu jawaban benar.",
   "count": 30,
   "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket3.pdf"
  },
@@ -155,7 +155,7 @@
   "id": "tka-matematika-p4",
   "subject": "Matematika",
   "title": "Try Out Persiapan TKA (Paket 4)",
-  "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, kecepatan menyusul, bangun gabungan, diagram batang, dan tabel frekuensi.",
+  "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, kecepatan menyusul, bangun gabungan, diagram batang, dan tabel frekuensi. Semua soal pilihan ganda dengan satu jawaban benar.",
   "count": 30,
   "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket4.pdf"
  },
@@ -163,7 +163,7 @@
   "id": "tka-matematika-p5",
   "subject": "Matematika",
   "title": "Try Out Persiapan TKA (Paket 5)",
-  "desc": "30 soal literasi numerasi tingkat lanjut: perbandingan berubah, kecepatan rata-rata, debit bocor, bangun ruang gabungan, diagram garis, dan rata-rata dengan nilai yang hilang.",
+  "desc": "30 soal literasi numerasi tingkat lanjut: perbandingan berubah, kecepatan rata-rata, debit bocor, bangun ruang gabungan, diagram garis, dan rata-rata dengan nilai yang hilang. Semua soal pilihan ganda dengan satu jawaban benar.",
   "count": 30,
   "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket5.pdf"
  },
@@ -171,40 +171,40 @@
   "id": "tka-bahasa-indonesia-p2",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA (Paket 2)",
-  "desc": "30 soal literasi: 3 teks (informasi, cerita, pengumuman) dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
-  "count": 29,
+  "desc": "30 soal literasi: 3 teks (informasi, cerita, pengumuman) dan kebahasaan Semua soal pilihan ganda dengan satu jawaban benar.",
+  "count": 30,
   "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket2.pdf"
  },
  {
   "id": "tka-bahasa-indonesia-p3",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA (Paket 3)",
-  "desc": "30 soal literasi: teks informasi, puisi, teks prosedur, dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
-  "count": 29,
+  "desc": "30 soal literasi: teks informasi, puisi, teks prosedur, dan kebahasaan Semua soal pilihan ganda dengan satu jawaban benar.",
+  "count": 30,
   "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket3.pdf"
  },
  {
   "id": "tka-bahasa-indonesia-p4",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA (Paket 4)",
-  "desc": "30 soal literasi: teks informasi, cerpen, iklan layanan masyarakat, dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
-  "count": 29,
+  "desc": "30 soal literasi: teks informasi, cerpen, iklan layanan masyarakat, dan kebahasaan Semua soal pilihan ganda dengan satu jawaban benar.",
+  "count": 30,
   "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket4.pdf"
  },
  {
   "id": "tka-bahasa-indonesia-p5",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA (Paket 5)",
-  "desc": "30 soal literasi tingkat lebih menantang: teks informasi dengan tabel, dua teks opini, biografi, dan kebahasaan; pilihan ganda, kompleks, benar/salah, isian, uraian.",
-  "count": 29,
+  "desc": "30 soal literasi tingkat lebih menantang: teks informasi dengan tabel, dua teks opini, biografi, dan kebahasaan Semua soal pilihan ganda dengan satu jawaban benar.",
+  "count": 30,
   "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket5.pdf"
  },
  {
   "id": "bindo-tka",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA",
-  "desc": "Literasi berbasis teks: pilihan ganda, kompleks, isian, dan uraian.",
-  "count": 27,
+  "desc": "28 soal pilihan ganda Bahasa Indonesia. Semua soal pilihan ganda dengan satu jawaban benar.",
+  "count": 28,
   "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6.pdf"
  },
  {
