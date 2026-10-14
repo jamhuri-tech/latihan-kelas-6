@@ -1,0 +1,626 @@
+{
+ "id": "tka-matematika-p6",
+ "subject": "Matematika",
+ "title": "Try Out Persiapan TKA (Paket 6)",
+ "desc": "30 soal pilihan ganda A–D dengan satu jawaban benar; bilangan, soal cerita bertahap, pengukuran, geometri, dan pengolahan data.",
+ "sections": [
+  {
+   "title": "A. Bilangan dan Operasi Hitung",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $\\frac{5}{6} - \\frac{1}{4} + \\frac{2}{3}$ adalah..."
+      }
+     ],
+     "opts": [
+      "$\\frac{3}{4}$",
+      "$1\\frac{1}{6}$",
+      "$1\\frac{1}{4}$",
+      "$1\\frac{1}{2}$"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah toko memiliki 125 kg gula. Gula dikemas dalam kantong berisi 0,75 kg. Setelah dibuat 120 kantong, sisa gula adalah..."
+      }
+     ],
+     "opts": [
+      "25 kg",
+      "35 kg",
+      "45 kg",
+      "90 kg"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bilangan terkecil yang lebih dari 100 dan habis dibagi 6 serta 8 adalah..."
+      }
+     ],
+     "opts": [
+      "104",
+      "108",
+      "144",
+      "120"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebanyak 96 roti keju dan 144 roti cokelat dibagi ke dalam kotak dengan komposisi sama tanpa sisa. Jika jumlah kotak sebanyak mungkin, jumlah seluruh roti dalam setiap kotak adalah..."
+      }
+     ],
+     "opts": [
+      "3 roti",
+      "5 roti",
+      "8 roti",
+      "48 roti"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Urutan $\\frac{7}{10}$; $0,68$; $\\frac{2}{3}$; $65\\%$ dari yang terbesar adalah..."
+      }
+     ],
+     "opts": [
+      "$0,68$; $\\frac{7}{10}$; $65\\%$; $\\frac{2}{3}$",
+      "$\\frac{7}{10}$; $0,68$; $\\frac{2}{3}$; $65\\%$",
+      "$\\frac{7}{10}$; $\\frac{2}{3}$; $0,68$; $65\\%$",
+      "$65\\%$; $\\frac{2}{3}$; $0,68$; $\\frac{7}{10}$"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah kebun seluas 600 m$^2$. Sebanyak $\\frac{2}{5}$ luasnya ditanami cabai dan $\\frac{1}{3}$ luasnya ditanami tomat. Sisa kebun ditanami bayam. Luas kebun bayam adalah..."
+      }
+     ],
+     "opts": [
+      "160 m$^2$",
+      "120 m$^2$",
+      "200 m$^2$",
+      "240 m$^2$"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Suhu ruang pendingin mula-mula $-8^{\\circ}$C. Suhu naik $3^{\\circ}$C setiap 20 menit selama satu jam. Suhu akhirnya adalah..."
+      }
+     ],
+     "opts": [
+      "$-5^{\\circ}$C",
+      "$-1^{\\circ}$C",
+      "$1^{\\circ}$C",
+      "$9^{\\circ}$C"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Empat kotak identik berisi total 72 pensil. Jika isi setiap kotak dikurangi 5 pensil, total pensil yang tersisa di keempat kotak adalah..."
+      }
+     ],
+     "opts": [
+      "67",
+      "52",
+      "48",
+      "57"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "B. Soal Cerita dan Pengukuran",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perbandingan peserta klub sains dan klub seni adalah $4 : 7$. Jika peserta klub seni lebih banyak 18 anak, jumlah peserta kedua klub adalah..."
+      }
+     ],
+     "opts": [
+      "66 anak",
+      "42 anak",
+      "54 anak",
+      "78 anak"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Untuk membuat 15 kue diperlukan 600 gram tepung. Dengan resep yang sama, tepung yang diperlukan untuk membuat 40 kue adalah..."
+      }
+     ],
+     "opts": [
+      "1,6 kg",
+      "1,2 kg",
+      "1,4 kg",
+      "2,4 kg"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jarak rumah ke museum pada peta berskala $1 : 80.000$ adalah 6,5 cm. Jarak sebenarnya adalah..."
+      }
+     ],
+     "opts": [
+      "0,52 km",
+      "52 km",
+      "4,8 km",
+      "5,2 km"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah bus berangkat pukul 07.20. Bus menempuh 90 km dengan kecepatan 60 km/jam, berhenti 25 menit, lalu menempuh 45 km dengan kecepatan 45 km/jam. Bus tiba pukul..."
+      }
+     ],
+     "opts": [
+      "09.50",
+      "10.05",
+      "10.45",
+      "10.15"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dua keran mengisi bak kosong. Keran pertama berdebit 18 liter/menit dan keran kedua 12 liter/menit. Setelah keduanya dibuka selama 15 menit, keran kedua ditutup. Untuk mencapai isi 720 liter, keran pertama harus tetap dibuka selama..."
+      }
+     ],
+     "opts": [
+      "10 menit lagi",
+      "20 menit lagi",
+      "15 menit lagi",
+      "25 menit lagi"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Harga dua buku masing-masing Rp24.000,00 dan tiga pena masing-masing Rp8.000,00. Seluruh belanja mendapat diskon 10%. Jika dibayar dengan Rp100.000,00, uang kembaliannya adalah..."
+      }
+     ],
+     "opts": [
+      "Rp28.000,00",
+      "Rp35.200,00",
+      "Rp32.800,00",
+      "Rp42.400,00"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah pita sepanjang 3,2 m dipotong menjadi 8 bagian sama panjang. Setiap bagian disambung dengan pita tambahan 15 cm. Panjang setiap pita setelah disambung adalah..."
+      }
+     ],
+     "opts": [
+      "40 cm",
+      "55 cm",
+      "47 cm",
+      "65 cm"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "C. Geometri",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Taman persegi panjang berukuran 18 m $\\times$ 12 m. Di sebelah luarnya dibuat jalan selebar 1 m yang mengelilingi taman. Luas jalan adalah..."
+      }
+     ],
+     "opts": [
+      "64 m$^2$",
+      "60 m$^2$",
+      "56 m$^2$",
+      "280 m$^2$"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah segitiga memiliki luas 96 cm$^2$ dan tinggi 12 cm. Panjang alasnya adalah..."
+      }
+     ],
+     "opts": [
+      "8 cm",
+      "12 cm",
+      "24 cm",
+      "16 cm"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah roda berjari-jari 21 cm berputar 50 kali tanpa tergelincir. Jarak yang ditempuh roda adalah... (gunakan $\\pi=\\frac{22}{7}$)"
+      }
+     ],
+     "opts": [
+      "66 m",
+      "33 m",
+      "132 m",
+      "660 m"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah kolam berukuran 8 m $\\times$ 5 m diisi air hingga kedalaman 1,2 m. Volume air adalah..."
+      }
+     ],
+     "opts": [
+      "4.800 liter",
+      "40.000 liter",
+      "48.000 liter",
+      "60.000 liter"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Balok berukuran 18 cm $\\times$ 12 cm $\\times$ 9 cm diisi penuh dengan kubus kecil berusuk 3 cm, tanpa celah. Banyak kubus kecil adalah..."
+      }
+     ],
+     "opts": [
+      "36",
+      "54",
+      "72",
+      "216"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah kubus tanpa tutup memiliki panjang rusuk 8 cm. Luas permukaan bahannya adalah..."
+      }
+     ],
+     "opts": [
+      "320 cm$^2$",
+      "384 cm$^2$",
+      "256 cm$^2$",
+      "512 cm$^2$"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebanyak 3,5 liter air dituang ke wadah silinder dengan luas alas 350 cm$^2$. Tinggi air adalah..."
+      }
+     ],
+     "opts": [
+      "1 cm",
+      "10 cm",
+      "5 cm",
+      "100 cm"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah sudut lurus dibagi menjadi tiga sudut. Dua sudut masing-masing $48^{\\circ}$ dan $67^{\\circ}$. Besar sudut ketiga adalah..."
+      }
+     ],
+     "opts": [
+      "$115^{\\circ}$",
+      "$75^{\\circ}$",
+      "$55^{\\circ}$",
+      "$65^{\\circ}$"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "D. Pengolahan Data. Gunakan Tabel 1 untuk soal nomor 24 sampai 26.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 1. Hasil panen empat kebun sekolah",
+     "head": [
+      "Kebun",
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "rows": [
+      [
+       "Hasil (kg)",
+       "18",
+       "22",
+       "28",
+       "12"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, jumlah panen seluruh kebun adalah..."
+      }
+     ],
+     "opts": [
+      "70 kg",
+      "75 kg",
+      "80 kg",
+      "85 kg"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, rata-rata hasil panen setiap kebun adalah..."
+      }
+     ],
+     "opts": [
+      "20 kg",
+      "16 kg",
+      "22 kg",
+      "25 kg"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, bagian hasil kebun C dari seluruh panen adalah..."
+      }
+     ],
+     "opts": [
+      "$28\\%$",
+      "$30\\%$",
+      "$35\\%$",
+      "$40\\%$"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Gunakan Tabel 2 untuk soal nomor 27 sampai 30.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 2. Nilai ulangan siswa kelas VI",
+     "head": [
+      "Nilai",
+      "60",
+      "70",
+      "80",
+      "90"
+     ],
+     "rows": [
+      [
+       "Banyak siswa",
+       "3",
+       "6",
+       "5",
+       "6"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 2, jumlah siswa adalah..."
+      }
+     ],
+     "opts": [
+      "20 siswa",
+      "15 siswa",
+      "18 siswa",
+      "22 siswa"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 2, median nilai ulangan adalah..."
+      }
+     ],
+     "opts": [
+      "70",
+      "75",
+      "90",
+      "80"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 2, rata-rata nilai ulangan adalah..."
+      }
+     ],
+     "opts": [
+      "75",
+      "78",
+      "80",
+      "77"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nilai minimum untuk mengikuti pengayaan adalah 80. Berdasarkan Tabel 2, banyak siswa yang dapat mengikuti pengayaan adalah..."
+      }
+     ],
+     "opts": [
+      "9 siswa",
+      "11 siswa",
+      "7 siswa",
+      "13 siswa"
+     ],
+     "ans": 1
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

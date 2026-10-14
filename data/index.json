@@ -200,6 +200,22 @@
   "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket5.pdf"
  },
  {
+  "id": "tka-matematika-p6",
+  "subject": "Matematika",
+  "title": "Try Out Persiapan TKA (Paket 6)",
+  "desc": "30 soal pilihan ganda A–D dengan satu jawaban benar; bilangan, soal cerita bertahap, pengukuran, geometri, dan pengolahan data.",
+  "count": 30,
+  "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket6.pdf"
+ },
+ {
+  "id": "tka-bahasa-indonesia-p6",
+  "subject": "Bahasa Indonesia",
+  "title": "Try Out Persiapan TKA (Paket 6)",
+  "desc": "30 soal pilihan ganda A–D dengan satu jawaban benar; pemahaman teks informasi, cerita, petunjuk pameran, dan kebahasaan.",
+  "count": 30,
+  "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket6.pdf"
+ },
+ {
   "id": "bindo-tka",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA",

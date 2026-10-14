@@ -1,0 +1,594 @@
+{
+ "id": "tka-bahasa-indonesia-p6",
+ "subject": "Bahasa Indonesia",
+ "title": "Try Out Persiapan TKA (Paket 6)",
+ "desc": "30 soal pilihan ganda A–D dengan satu jawaban benar; pemahaman teks informasi, cerita, petunjuk pameran, dan kebahasaan.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 10.",
+   "passage": {
+    "title": "Teks 1: Perpustakaan yang Mendatangi Pembaca",
+    "paras": [
+     "Desa Wening memiliki perpustakaan di dekat balai desa. Namun, sebagian anak tinggal jauh dari sana. Jalan menuju balai desa juga menanjak. Akibatnya, banyak anak hanya membaca buku pelajaran yang mereka miliki di rumah.",
+     "Untuk mendekatkan buku kepada pembaca, warga membuat perpustakaan keliling menggunakan gerobak beratap. Gerobak itu mengunjungi tiga dusun secara bergantian setiap Sabtu. Buku yang dibawa dipilih berdasarkan catatan permintaan pembaca. Anak yang menyukai cerita mendapat buku cerita, sedangkan anak yang penasaran tentang alam dapat meminjam buku pengetahuan.",
+     "Pada bulan pertama, 24 anak meminjam buku. Pada bulan kedua, jumlahnya menjadi 36 anak. Meski demikian, relawan tidak hanya menghitung peminjam. Mereka juga mengajak anak menceritakan kembali bacaan dengan kata-kata sendiri untuk mengetahui apakah isi buku dipahami.",
+     "Ketika musim hujan tiba, beberapa kunjungan tertunda karena jalan licin. Relawan lalu bekerja sama dengan pemilik warung untuk menyediakan tempat penitipan buku di setiap dusun. Buku tetap dapat dipinjam meskipun gerobak belum datang. Warga menyadari bahwa mendekatkan buku memerlukan cara yang dapat menyesuaikan keadaan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Masalah yang mendorong warga membuat perpustakaan keliling adalah..."
+      }
+     ],
+     "opts": [
+      "Perpustakaan desa tidak memiliki buku sama sekali",
+      "Semua anak menolak membaca buku",
+      "Balai desa selalu ditutup pada hari Sabtu",
+      "Sebagian anak sulit menjangkau perpustakaan desa"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Gagasan utama paragraf kedua dalam teks perpustakaan keliling adalah..."
+      }
+     ],
+     "opts": [
+      "Cara warga mendekatkan buku melalui perpustakaan keliling",
+      "Jumlah anak yang meminjam buku",
+      "Bahaya jalan licin saat hujan",
+      "Letak perpustakaan di balai desa"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna kata relawan dalam bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Orang yang membeli semua buku",
+      "Orang yang wajib membayar denda",
+      "Orang yang membantu dengan sukarela",
+      "Orang yang hanya mengawasi warung"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa buku yang dibawa dipilih berdasarkan permintaan pembaca?"
+      }
+     ],
+     "opts": [
+      "Agar buku sesuai dengan minat dan kebutuhan pembaca",
+      "Agar semua anak membaca judul yang sama",
+      "Agar gerobak tidak perlu mengunjungi dusun",
+      "Agar buku pelajaran tidak boleh dipinjam"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tujuan anak diminta menceritakan kembali bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Menentukan harga jual buku",
+      "Menghitung berat gerobak",
+      "Mengetahui pemahaman anak terhadap isi buku",
+      "Membandingkan letak rumah anak"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan yang didukung oleh bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Gerobak berkunjung setiap hari",
+      "Jumlah peminjam meningkat dari bulan pertama ke bulan kedua",
+      "Perpustakaan desa berada di setiap warung",
+      "Kunjungan selalu lancar saat hujan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hubungan paragraf ketiga dan keempat adalah..."
+      }
+     ],
+     "opts": [
+      "Paragraf keempat membuktikan kegiatan tidak berguna",
+      "Paragraf ketiga menjelaskan perkembangan kegiatan, paragraf keempat menjelaskan kendala dan penyesuaiannya",
+      "Kedua paragraf menjelaskan cara membuat gerobak",
+      "Paragraf ketiga berisi petunjuk, paragraf keempat berisi iklan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan yang paling tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Perpustakaan hanya berguna jika semua anak tinggal di dekatnya",
+      "Jumlah peminjam saja selalu membuktikan pemahaman bacaan",
+      "Musim hujan mengharuskan semua kegiatan membaca dihentikan",
+      "Layanan membaca dapat menjangkau lebih banyak anak dengan menyesuaikan kebutuhan dan keadaan"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika pemilik warung tidak dapat menyediakan tempat penitipan, usulan yang paling sesuai dengan tujuan kegiatan adalah..."
+      }
+     ],
+     "opts": [
+      "Meminta anak berhenti meminjam sampai tahun depan",
+      "Membawa hanya buku yang tidak diminta pembaca",
+      "Mencari tempat lain yang mudah dijangkau anak di dusun",
+      "Memindahkan semua buku ke tempat yang lebih jauh"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang paling menunjukkan bahwa kegiatan memperhatikan pemahaman, bukan hanya jumlah pembaca, adalah..."
+      }
+     ],
+     "opts": [
+      "Relawan mengajak anak menceritakan kembali bacaan dengan kata-kata sendiri.",
+      "Gerobak mengunjungi tiga dusun setiap Sabtu.",
+      "Desa memiliki perpustakaan di dekat balai desa.",
+      "Jumlah peminjam bulan kedua menjadi 36 anak."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 11 sampai 20.",
+   "passage": {
+    "title": "Teks 2: Papan Terakhir di Jembatan",
+    "paras": [
+     "Sore itu, Nala dan Seno hendak membawa bibit sayur ke kebun sekolah. Jalan tercepat melewati jembatan bambu kecil. Ketika Seno melangkah lebih dahulu, satu papan di ujung jembatan bergeser. Ia segera mundur. “Kalau memutar, kita bisa terlambat,” katanya.",
+     "Nala menatap air dangkal di bawah jembatan. Ia sempat berpikir untuk meloncat melewati celah itu, tetapi teringat bahwa murid kelas kecil juga sering lewat. Nala meletakkan bibit di tempat teduh lalu mengikat pita merah pada pegangan jembatan. “Kita perlu memberi tanda dan mencari bantuan,” ujarnya.",
+     "Mereka menemui Pak Damar, penjaga kebun. Pak Damar membawa alat dan mengganti papan yang longgar. Seno ikut memegang papan, sedangkan Nala meminta anak-anak yang datang menunggu di tepi jalan. Setelah diperiksa, jembatan dapat dilalui kembali.",
+     "Ketika tiba di kebun, kegiatan menanam hampir selesai. Seno menunduk karena bibit mereka datang terlambat. Namun, guru berkata, “Bibit ini masih bisa kita tanam besok. Kalian sudah menjaga jalan yang dipakai banyak orang.” Nala mengembuskan napas lega. Ia sadar bahwa tujuan perjalanan bukan alasan untuk mengabaikan keselamatan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Konflik utama dalam cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Bibit sayur hilang di sungai",
+      "Pak Damar tidak memiliki kebun",
+      "Guru menolak semua kegiatan menanam",
+      "Papan jembatan bergeser ketika mereka harus segera mengantar bibit"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Latar waktu pada awal cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Pagi hari",
+      "Tengah malam",
+      "Sore hari",
+      "Siang hari"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Alasan Nala mengurungkan niat meloncat adalah..."
+      }
+     ],
+     "opts": [
+      "Ia ingin membuang bibit ke air",
+      "Ia tidak ingin menemui Pak Damar",
+      "Ia memikirkan keselamatan anak lain yang memakai jembatan",
+      "Ia ingin Seno menyeberang sendirian"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Fungsi pita merah dalam cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Menghias kebun sekolah untuk lomba",
+      "Memberi tanda peringatan sementara tentang bahaya jembatan",
+      "Mengukur kedalaman air sungai",
+      "Menandai bibit yang boleh dijual"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Watak Nala yang paling tampak dari tindakannya adalah..."
+      }
+     ],
+     "opts": [
+      "Ceroboh dan pemarah",
+      "Peduli dan berhati-hati",
+      "Sombong dan pelit",
+      "Acuh dan tergesa-gesa"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti bahwa perbaikan jembatan dilakukan melalui kerja sama adalah..."
+      }
+     ],
+     "opts": [
+      "Nala meloncat sendirian melewati celah",
+      "Guru menanam bibit tanpa murid",
+      "Seno meninggalkan bibit di sungai",
+      "Pak Damar mengganti papan, Seno membantu memegang, dan Nala mengatur anak yang datang"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perasaan Seno ketika tiba di kebun adalah..."
+      }
+     ],
+     "opts": [
+      "Bangga karena mengabaikan jembatan",
+      "Tidak enak hati karena terlambat mengantar bibit",
+      "Marah karena bibit sudah dijual",
+      "Gembira karena seluruh kegiatan dibatalkan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna ungkapan mengembuskan napas lega pada akhir cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Merasa lebih tenang setelah kekhawatirannya berkurang",
+      "Merasa sangat mengantuk",
+      "Kesulitan bernapas karena berlari",
+      "Menahan marah kepada guru"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Amanat yang paling sesuai dengan cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Keterlambatan selalu harus dihukum",
+      "Keselamatan bersama perlu diperhatikan meskipun ada tujuan yang mendesak",
+      "Jalan tercepat selalu merupakan pilihan terbaik",
+      "Murid sebaiknya memperbaiki semua jembatan tanpa orang dewasa"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika cerita dilanjutkan sesuai bagian akhirnya, peristiwa yang paling masuk akal adalah..."
+      }
+     ],
+     "opts": [
+      "Nala dan Seno menanam bibit yang dibawa pada hari berikutnya",
+      "Guru membuang semua bibit ke sungai",
+      "Jembatan sengaja dibongkar oleh anak-anak",
+      "Pak Damar melarang semua anak datang ke kebun"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 21 sampai 26. Soal nomor 27 sampai 30 menguji kebahasaan.",
+   "passage": {
+    "title": "Teks 3: Petunjuk Pameran Karya Kelas VI",
+    "paras": [
+     "Pameran karya berlangsung di aula sekolah pada Sabtu, 24 Oktober 2026, pukul 08.00–11.00. Pengunjung masuk melalui pintu timur dan keluar melalui pintu barat agar arus pengunjung tetap lancar.",
+     "Setiap pengunjung mengambil satu kartu tanggapan di meja penerima tamu. Setelah melihat karya, tulislah judul karya yang diamati dan satu saran yang jelas serta santun. Masukkan kartu ke kotak tanggapan sebelum meninggalkan aula.",
+     "Karya boleh difoto tanpa lampu kilat. Pengunjung dilarang memindahkan atau menyentuh karya tanpa izin petugas. Jika ingin mengetahui cara pembuatannya, tanyakan kepada siswa yang berjaga di dekat karya.",
+     "Kelompok kelas I–III berkunjung pukul 08.00–09.00, sedangkan kelompok kelas IV–VI pukul 09.00–10.00. Orang tua mendapat waktu kunjungan pukul 10.00–11.00. Jadwal ini dibuat agar aula tidak terlalu penuh."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tujuan utama teks petunjuk tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Menceritakan sejarah pembangunan aula",
+      "Menjual semua karya kepada orang tua",
+      "Membandingkan prestasi antarkelas",
+      "Mengarahkan pengunjung agar pameran berlangsung tertib"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pengunjung yang telah selesai melihat karya sebaiknya..."
+      }
+     ],
+     "opts": [
+      "Keluar melalui pintu timur tanpa mengisi kartu",
+      "Memindahkan karya yang paling disukai",
+      "Mengambil semua kartu di meja penerima tamu",
+      "Menulis tanggapan dan memasukkan kartu sebelum keluar melalui pintu barat"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Saran pada kartu tanggapan yang paling jelas dan santun adalah..."
+      }
+     ],
+     "opts": [
+      "Tulisan keterangan karya ini dapat diperbesar agar lebih mudah dibaca.",
+      "Karya ini jelek sekali!",
+      "Pokoknya ganti semuanya.",
+      "Tidak bagus, tidak perlu dipamerkan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan yang diperbolehkan menurut teks adalah..."
+      }
+     ],
+     "opts": [
+      "Memindahkan karya tanpa izin",
+      "Memotret karya tanpa lampu kilat",
+      "Menyentuh semua karya sesuka hati",
+      "Membawa karya pulang setelah difoto"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa waktu kunjungan dibagi menurut kelompok?"
+      }
+     ],
+     "opts": [
+      "Untuk mengurangi kepadatan di aula",
+      "Untuk melarang orang tua melihat karya",
+      "Untuk menambah jumlah pintu aula",
+      "Untuk memastikan setiap orang membeli karya"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Orang tua yang datang pukul 09.30 sesuai jadwal perlu..."
+      }
+     ],
+     "opts": [
+      "Langsung masuk bersama kelas I–III",
+      "Meminta pameran ditutup lebih cepat",
+      "Masuk melalui pintu keluar tanpa bertanya",
+      "Menunggu sampai pukul 10.00 untuk waktu kunjungan orang tua"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang menggunakan kata baku adalah..."
+      }
+     ],
+     "opts": [
+      "Petugas menjelaskan tehnik pembuatan karya.",
+      "Pengunjung menulis saran di kartu aktipitas.",
+      "Petugas menjelaskan teknik pembuatan karya.",
+      "Karya itu mempunyai kwalitas yang baik."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kata penghubung yang tepat untuk kalimat “Karya itu sederhana, ... penjelasannya sangat menarik” adalah..."
+      }
+     ],
+     "opts": [
+      "tetapi",
+      "karena",
+      "sehingga",
+      "agar"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Penulisan kalimat langsung yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "“Silakan mengisi kartu tanggapan”, kata petugas.",
+      "Silakan mengisi kartu tanggapan, “kata petugas.”",
+      "“Silakan mengisi kartu tanggapan,” kata petugas.",
+      "“Silakan mengisi kartu tanggapan. kata petugas”"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat yang paling efektif adalah..."
+      }
+     ],
+     "opts": [
+      "Para pengunjung-pengunjung mengantre di pintu masuk.",
+      "Para pengunjung mengantre di pintu masuk.",
+      "Semua para pengunjung mengantre di pintu masuk.",
+      "Pengunjung pada semuanya saling antre mengantre."
+     ],
+     "ans": 1
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
