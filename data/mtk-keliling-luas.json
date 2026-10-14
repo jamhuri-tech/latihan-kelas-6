@@ -32,7 +32,11 @@
       "$24~\\text{cm}$",
       "$36~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Sisi persegi pada gambar 6 cm.",
+      "Keliling = 4 × 6 = 24 cm."
+     ]
     },
     {
      "id": "q2",
@@ -54,7 +58,11 @@
       "$30~\\text{cm}^2$",
       "$36~\\text{cm}^2$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Luas persegi = sisi × sisi.",
+      "6 × 6 = 36 cm²."
+     ]
     },
     {
      "id": "q3",
@@ -80,7 +88,11 @@
       "$28~\\text{cm}$",
       "$45~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Panjang pada gambar 9 cm dan lebar 5 cm.",
+      "Keliling = 2 × (9 + 5) = 28 cm."
+     ]
     },
     {
      "id": "q4",
@@ -102,7 +114,11 @@
       "$40~\\text{cm}^2$",
       "$45~\\text{cm}^2$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Luas persegi panjang = panjang × lebar.",
+      "9 × 5 = 45 cm²."
+     ]
     },
     {
      "id": "q5",
@@ -128,7 +144,11 @@
       "$36~\\text{cm}$",
       "$54~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Keliling segitiga = jumlah ketiga sisi.",
+      "Dari gambar: 9 + 12 + 15 = 36 cm."
+     ]
     },
     {
      "id": "q6",
@@ -150,7 +170,11 @@
       "$54~\\text{cm}^2$",
       "$108~\\text{cm}^2$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Alas segitiga 9 cm dan tinggi tegak lurusnya 12 cm.",
+      "Luas = $\\frac{1}{2}$ × 9 × 12 = 54 cm². Sisi miring 15 cm bukan tinggi."
+     ]
     },
     {
      "id": "q7",
@@ -176,7 +200,11 @@
       "$50~\\text{cm}$",
       "$56~\\text{cm}$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Jumlahkan empat sisi luar trapesium.",
+      "20 + 10 + 13 + 13 = 56 cm."
+     ]
     },
     {
      "id": "q8",
@@ -198,7 +226,12 @@
       "$180~\\text{cm}^2$",
       "$240~\\text{cm}^2$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Karena trapesium sama kaki, selisih sisi sejajar terbagi dua: (20 − 10) : 2 = 5 cm.",
+      "Tinggi diperoleh dari segitiga siku-siku pada kaki: tinggi² = 13² − 5² = 144, sehingga tinggi = 12 cm.",
+      "Luas = $\\frac{1}{2}$ × (20 + 10) × 12 = 180 cm²."
+     ]
     },
     {
      "id": "q9",
@@ -224,7 +257,11 @@
       "$44~\\text{cm}$",
       "$48~\\text{cm}$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Alas jajar genjang 14 cm dan sisi miring 10 cm.",
+      "Keliling = 2 × (14 + 10) = 48 cm. Tinggi tidak dipakai untuk keliling."
+     ]
     },
     {
      "id": "q10",
@@ -246,7 +283,11 @@
       "$84~\\text{cm}^2$",
       "$90~\\text{cm}^2$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Luas jajar genjang = alas × tinggi tegak lurus.",
+      "14 × 6 = 84 cm². Gunakan tinggi 6 cm, bukan sisi miring 10 cm."
+     ]
     },
     {
      "id": "q11",
@@ -272,7 +313,11 @@
       "$40~\\text{cm}$",
       "$48~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Setiap sisi belah ketupat 10 cm.",
+      "Keliling = 4 × 10 = 40 cm."
+     ]
     },
     {
      "id": "q12",
@@ -294,7 +339,11 @@
       "$96~\\text{cm}^2$",
       "$192~\\text{cm}^2$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Diagonal belah ketupat 12 cm dan 16 cm.",
+      "Luas = $\\frac{1}{2}$ × diagonal pertama × diagonal kedua = $\\frac{1}{2}$ × 12 × 16 = 96 cm²."
+     ]
     },
     {
      "id": "q13",
@@ -320,7 +369,11 @@
       "$46~\\text{cm}$",
       "$60~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Dua pasang sisi layang-layang panjangnya 8 cm dan 15 cm.",
+      "Keliling = 2 × (8 + 15) = 46 cm."
+     ]
     },
     {
      "id": "q14",
@@ -342,7 +395,11 @@
       "$120~\\text{cm}^2$",
       "$240~\\text{cm}^2$"
      ],
-     "ans": 2
+     "ans": 0,
+     "explanation": [
+      "Diagonal layang-layang 10 cm dan 12 cm.",
+      "Luas = $\\frac{1}{2}$ × 10 × 12 = 60 cm². Jangan lupa membagi hasil kali diagonal dengan dua."
+     ]
     },
     {
      "id": "q15",
@@ -368,7 +425,11 @@
       "$88~\\text{cm}$",
       "$176~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Jari-jari pada gambar 14 cm.",
+      "Keliling = 2 × ($\\frac{22}{7}$) × 14 = 88 cm."
+     ]
     },
     {
      "id": "q16",
@@ -390,7 +451,11 @@
       "$616~\\text{cm}^2$",
       "$1.232~\\text{cm}^2$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Luas lingkaran = π × r².",
+      "($\\frac{22}{7}$) × 14 × 14 = 616 cm²."
+     ]
     },
     {
      "id": "q17",
@@ -416,7 +481,11 @@
       "$3{,}41$",
       "$\\tfrac{7}{22}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Diameter pada gambar 20 cm.",
+      "Untuk soal ini, gunakan pendekatan π = 3,14 agar perhitungannya mudah. Nilai $\\frac{22}{7}$ juga pendekatan, tetapi pilihan soal memakai 3,14."
+     ]
     },
     {
      "id": "q18",
@@ -438,7 +507,11 @@
       "$125{,}6~\\text{cm}$",
       "$314~\\text{cm}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Keliling lingkaran = π × diameter.",
+      "3,14 × 20 = 62,8 cm."
+     ]
     },
     {
      "id": "q19",
@@ -460,7 +533,11 @@
       "$314~\\text{cm}^2$",
       "$628~\\text{cm}^2$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Jari-jari = diameter : 2 = 20 : 2 = 10 cm.",
+      "Luas = 3,14 × 10 × 10 = 314 cm²."
+     ]
     },
     {
      "id": "q20",
@@ -486,7 +563,11 @@
       "$48~\\text{cm}$",
       "$52~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Keliling gabungan hanya menghitung tepi luar; sisi yang menjadi batas bersama tidak dihitung.",
+      "Dari gambar: 10 + 6 + 13 + 13 + 6 = 48 cm."
+     ]
     },
     {
      "id": "q21",
@@ -508,7 +589,12 @@
       "$100~\\text{cm}^2$",
       "$120~\\text{cm}^2$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Bagi bangun menjadi persegi panjang dan segitiga sama kaki. Luas persegi panjang = 10 × 6 = 60 cm².",
+      "Setengah alas segitiga = 10 : 2 = 5 cm. Dengan sisi miring 13 cm, tinggi² = 13² − 5² = 144, sehingga tinggi = 12 cm.",
+      "Luas segitiga = $\\frac{1}{2}$ × 10 × 12 = 60 cm². Luas gabungan = 60 + 60 = 120 cm²."
+     ]
     },
     {
      "id": "q22",
@@ -526,7 +612,11 @@
       "$30.000~\\text{cm}^2$",
       "$300.000~\\text{cm}^2$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Karena 1 m = 100 cm, maka 1 m² = 100 × 100 = 10.000 cm².",
+      "3 m² = 3 × 10.000 = 30.000 cm²."
+     ]
     },
     {
      "id": "q23",
@@ -544,7 +634,11 @@
       "$20.000~\\text{m}^2$",
       "$200.000~\\text{m}^2$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Satu hektar = 10.000 m².",
+      "2 hektar = 2 × 10.000 = 20.000 m²."
+     ]
     },
     {
      "id": "q24",
@@ -562,7 +656,11 @@
       "$46~\\text{m}$",
       "$60~\\text{m}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Pagar mengikuti keliling kebun.",
+      "Keliling = 2 × (15 + 8) = 46 m."
+     ]
     },
     {
      "id": "q25",
@@ -580,7 +678,11 @@
       "$20~\\text{m}^2$",
       "$24~\\text{m}^2$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Rumput menutupi bidang taman, sehingga gunakan luas segitiga.",
+      "$\\frac{1}{2}$ × 6 × 4 = 12 m²."
+     ]
     }
    ]
   },
@@ -602,7 +704,11 @@
      "accept": [
       "200"
      ],
-     "label": "Isian 1"
+     "label": "Isian 1",
+     "explanation": [
+      "Ubah luas: 2 hektar = 20.000 m².",
+      "Panjang = luas : lebar = 20.000 : 100 = 200 m."
+     ]
     },
     {
      "id": "i2",
@@ -618,7 +724,11 @@
      "accept": [
       "600"
      ],
-     "label": "Isian 2"
+     "label": "Isian 2",
+     "explanation": [
+      "Dari soal sebelumnya, panjang 200 m dan lebar 100 m.",
+      "Keliling = 2 × (200 + 100) = 600 m."
+     ]
     },
     {
      "id": "i3",
@@ -634,7 +744,11 @@
      "accept": [
       "10"
      ],
-     "label": "Isian 3"
+     "label": "Isian 3",
+     "explanation": [
+      "Luas kawasan = 500 × 200 = 100.000 m².",
+      "Ubah ke hektar dengan membagi 10.000: 100.000 : 10.000 = 10 ha."
+     ]
     },
     {
      "id": "i4",
@@ -650,7 +764,11 @@
      "accept": [
       "500"
      ],
-     "label": "Isian 4"
+     "label": "Isian 4",
+     "explanation": [
+      "Satu m² sama dengan 10.000 cm².",
+      "5.000.000 cm² : 10.000 = 500 m²."
+     ]
     },
     {
      "id": "i5",
@@ -670,7 +788,11 @@
      "accept": [
       "48"
      ],
-     "label": "Isian 5"
+     "label": "Isian 5",
+     "explanation": [
+      "Jumlahkan hanya sisi luar gabungan. Sisi antara segitiga dan persegi panjang tidak dihitung.",
+      "Keliling = 10 + 6 + 13 + 13 + 6 = 48 cm."
+     ]
     }
    ]
   }

@@ -24,7 +24,11 @@
       "$7$",
       "$23$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Tanda bilangan berbeda: kurangi nilai yang lebih besar dengan yang lebih kecil, 15 − 8 = 7.",
+      "Karena 15 lebih besar dan positif, hasilnya 7."
+     ]
     },
     {
      "id": "q2",
@@ -42,7 +46,11 @@
       "$-7$",
       "$-17$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Mengurangi bilangan negatif sama dengan menambah lawannya.",
+      "12 − (−5) = 12 + 5 = 17."
+     ]
     },
     {
      "id": "q3",
@@ -60,7 +68,11 @@
       "$-10$",
       "$10$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Negatif dikali positif menghasilkan bilangan negatif.",
+      "6 × 4 = 24, sehingga (−6) × 4 = −24."
+     ]
     },
     {
      "id": "q4",
@@ -78,7 +90,11 @@
       "$-42$",
       "$42$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Negatif dibagi negatif menghasilkan bilangan positif.",
+      "36 : 6 = 6, sehingga (−36) : (−6) = 6."
+     ]
     },
     {
      "id": "q5",
@@ -96,7 +112,11 @@
       "$\\dfrac{9}{12}$",
       "$\\dfrac{2}{3}$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "FPB dari 18 dan 24 adalah 6.",
+      "Bagi pembilang dan penyebut dengan 6: $\\frac{18}{24}$ = $\\frac{3}{4}$."
+     ]
     },
     {
      "id": "q6",
@@ -114,7 +134,11 @@
       "$\\dfrac{3}{12}$",
       "$1$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Samakan penyebut menjadi 12: $\\frac{2}{3}$ = $\\frac{8}{12}$ dan $\\frac{1}{4}$ = $\\frac{3}{12}$.",
+      "Jumlahkan pembilang: $\\frac{8}{12}$ + $\\frac{3}{12}$ = $\\frac{11}{12}$."
+     ]
     },
     {
      "id": "q7",
@@ -132,7 +156,11 @@
       "$\\dfrac{6}{8}$",
       "$1$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Kalikan pembilang dengan pembilang dan penyebut dengan penyebut: (3 × 2)/(5 × 3) = $\\frac{6}{15}$.",
+      "Sederhanakan dengan membagi 3: $\\frac{6}{15}$ = $\\frac{2}{5}$."
+     ]
     },
     {
      "id": "q8",
@@ -150,7 +178,11 @@
       "$\\dfrac{1}{2}$",
       "$2$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Pembagian pecahan diubah menjadi perkalian dengan kebalikan pembagi.",
+      "$\\frac{3}{4}$ : $\\frac{1}{2}$ = $\\frac{3}{4}$ × $\\frac{2}{1}$ = $\\frac{6}{4}$ = $\\frac{3}{2}$."
+     ]
     },
     {
      "id": "q9",
@@ -168,7 +200,11 @@
       "$0{,}835$",
       "$3{,}8$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Ubah pecahan menjadi pembagian: 3 : 8.",
+      "Dengan pembagian bersusun, 3 : 8 = 0,375."
+     ]
     },
     {
      "id": "q10",
@@ -186,7 +222,11 @@
       "$450\\%$",
       "$0{,}45\\%$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Persen berarti per seratus.",
+      "0,45 × 100% = 45%."
+     ]
     },
     {
      "id": "q11",
@@ -204,7 +244,11 @@
       "48",
       "16"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Kelipatan 6: 6, 12, 18, 24, ...; kelipatan 8: 8, 16, 24, ...",
+      "Kelipatan persekutuan positif terkecil adalah 24."
+     ]
     },
     {
      "id": "q12",
@@ -222,7 +266,11 @@
       "12",
       "18"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Faktor 24: 1, 2, 3, 4, 6, 8, 12, 24. Faktor 36: 1, 2, 3, 4, 6, 9, 12, 18, 36.",
+      "Faktor yang sama dan terbesar adalah 12."
+     ]
     },
     {
      "id": "q13",
@@ -240,7 +288,11 @@
       "48",
       "32"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Kelipatan 8: 8, 16, 24, ...",
+      "Bilangan 24 juga habis dibagi 4 dan 6, sehingga KPK ketiganya adalah 24."
+     ]
     },
     {
      "id": "q14",
@@ -258,7 +310,11 @@
       "12",
       "18"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Faktor bersama 18, 27, dan 36 adalah 1, 3, dan 9.",
+      "Yang terbesar adalah 9, sehingga FPB = 9."
+     ]
     },
     {
      "id": "q15",
@@ -276,7 +332,11 @@
       "Rp50.000,00",
       "Rp60.000,00"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Tiga bagian uang Andi bernilai Rp30.000,00. Satu bagian = 30.000 : 3 = Rp10.000,00.",
+      "Uang Budi terdiri dari 5 bagian: 5 × 10.000 = Rp50.000,00."
+     ]
     },
     {
      "id": "q16",
@@ -294,7 +354,12 @@
       "100 km",
       "200 km"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Skala 1 : 2.000.000 berarti 1 cm pada peta mewakili 2.000.000 cm.",
+      "Jarak sebenarnya = 5 × 2.000.000 = 10.000.000 cm.",
+      "Karena 1 km = 100.000 cm, jaraknya 100 km."
+     ]
     },
     {
      "id": "q17",
@@ -312,7 +377,11 @@
       "$216~\\text{cm}^3$",
       "$512~\\text{cm}^3$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Volume kubus = sisi × sisi × sisi.",
+      "6 × 6 × 6 = 216 cm³."
+     ]
     },
     {
      "id": "q18",
@@ -330,7 +399,11 @@
       "$160~\\text{cm}^3$",
       "$180~\\text{cm}^3$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Volume balok = panjang × lebar × tinggi.",
+      "8 × 5 × 4 = 160 cm³."
+     ]
     },
     {
      "id": "q19",
@@ -348,7 +421,11 @@
       "$770~\\text{cm}^3$",
       "$3.080~\\text{cm}^3$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Volume tabung = π × jari-jari² × tinggi.",
+      "($\\frac{22}{7}$) × 7 × 7 × 10 = 1.540 cm³."
+     ]
     },
     {
      "id": "q20",
@@ -366,7 +443,12 @@
       "$150~\\text{cm}^2$",
       "$175~\\text{cm}^2$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Kubus memiliki 6 sisi berbentuk persegi.",
+      "Luas satu sisi = 5 × 5 = 25 cm².",
+      "Luas seluruh permukaan = 6 × 25 = 150 cm²."
+     ]
     },
     {
      "id": "q21",
@@ -384,7 +466,11 @@
       "$132~\\text{cm}^3$",
       "$396~\\text{cm}^3$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Volume kerucut = $\\frac{1}{3}$ × π × jari-jari² × tinggi.",
+      "$\\frac{1}{3}$ × ($\\frac{22}{7}$) × 6 × 6 × 7 = 264 cm³."
+     ]
     },
     {
      "id": "q22",
@@ -402,7 +488,11 @@
       "8",
       "9"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Modus adalah nilai yang paling sering muncul.",
+      "Nilai 8 muncul 3 kali, lebih banyak daripada nilai lainnya. Jadi modusnya 8."
+     ]
     },
     {
      "id": "q23",
@@ -420,7 +510,11 @@
       "8",
       "9"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Urutkan data: 5, 6, 7, 8, 9.",
+      "Ada 5 data, sehingga median adalah data ke-3, yaitu 7."
+     ]
     },
     {
      "id": "q24",
@@ -438,7 +532,11 @@
       "9",
       "10"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Jumlahkan seluruh nilai: 6 + 7 + 8 + 9 + 10 = 40.",
+      "Rata-rata = jumlah nilai : banyak data = 40 : 5 = 8."
+     ]
     },
     {
      "id": "q25",
@@ -456,7 +554,11 @@
       "$(-3,4)$",
       "$(3,-4)$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Koordinat ditulis (x, y). Ke kanan dari titik asal membuat x positif, ke atas membuat y positif.",
+      "Tiga satuan ke kanan dan empat ke atas menghasilkan titik (3, 4)."
+     ]
     }
    ]
   },
@@ -478,7 +580,11 @@
      "accept": [
       "3"
      ],
-     "label": "Isian 1"
+     "label": "Isian 1",
+     "explanation": [
+      "Hitung dari kiri: −12 + 20 = 8.",
+      "Kemudian 8 − 5 = 3."
+     ]
     },
     {
      "id": "i2",
@@ -494,7 +600,11 @@
      "accept": [
       "10"
      ],
-     "label": "Isian 2"
+     "label": "Isian 2",
+     "explanation": [
+      "Faktor bersama 20 dan 30 adalah 1, 2, 5, dan 10.",
+      "Yang terbesar adalah 10, sehingga FPB = 10."
+     ]
     },
     {
      "id": "i3",
@@ -510,7 +620,11 @@
      "accept": [
       "35"
      ],
-     "label": "Isian 3"
+     "label": "Isian 3",
+     "explanation": [
+      "Kelipatan 5: 5, 10, 15, 20, 25, 30, 35. Kelipatan 7: 7, 14, 21, 28, 35.",
+      "Kelipatan bersama terkecil adalah 35."
+     ]
     },
     {
      "id": "i4",
@@ -526,7 +640,11 @@
      "accept": [
       "64"
      ],
-     "label": "Isian 4"
+     "label": "Isian 4",
+     "explanation": [
+      "Volume kubus = sisi³.",
+      "4 × 4 × 4 = 64 cm³."
+     ]
     },
     {
      "id": "i5",
@@ -542,7 +660,11 @@
      "accept": [
       "12"
      ],
-     "label": "Isian 5"
+     "label": "Isian 5",
+     "explanation": [
+      "Dua bagian panjang bernilai 8 cm, sehingga satu bagian = 8 : 2 = 4 cm.",
+      "Lebar terdiri dari 3 bagian, jadi 3 × 4 = 12 cm."
+     ]
     }
    ]
   }

@@ -32,7 +32,11 @@
       "$36~\\text{cm}$",
       "$81~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Sisi persegi pada gambar adalah 9 cm.",
+      "Keliling = 4 × sisi = 4 × 9 = 36 cm."
+     ]
     },
     {
      "id": "q2",
@@ -54,7 +58,11 @@
       "$72~\\text{cm}$",
       "$144~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Sisi baru = 2 × 9 = 18 cm.",
+      "Keliling baru = 4 × 18 = 72 cm. Jika sisi menjadi dua kali, keliling juga dua kali."
+     ]
     },
     {
      "id": "q3",
@@ -80,7 +88,11 @@
       "$88~\\text{cm}$",
       "$112~\\text{cm}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Panjang persegi panjang 14 cm dan lebarnya 8 cm.",
+      "Keliling = 2 × (14 + 8) = 44 cm."
+     ]
     },
     {
      "id": "q4",
@@ -102,7 +114,11 @@
       "$48~\\text{cm}$",
       "$52~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Lebar baru = 8 + 2 = 10 cm, panjang tetap 14 cm.",
+      "Keliling = 2 × (14 + 10) = 48 cm."
+     ]
     },
     {
      "id": "q5",
@@ -128,7 +144,11 @@
       "$28~\\text{cm}$",
       "$49~\\text{cm}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Segitiga sama sisi memiliki tiga sisi sama panjang, masing-masing 7 cm.",
+      "Keliling = 3 × 7 = 21 cm."
+     ]
     },
     {
      "id": "q6",
@@ -150,7 +170,11 @@
       "$11~\\text{cm}$",
       "$12~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Keliling segitiga sama sisi = 3 × sisi.",
+      "Sisi = 33 : 3 = 11 cm."
+     ]
     },
     {
      "id": "q7",
@@ -176,7 +200,11 @@
       "$24~\\text{cm}$",
       "$48~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Jumlahkan ketiga sisi pada gambar: 6 cm, 8 cm, dan 10 cm.",
+      "Keliling = 6 + 8 + 10 = 24 cm."
+     ]
     },
     {
      "id": "q8",
@@ -198,7 +226,11 @@
       "Siku-siku",
       "Sembarang"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Sisinya 6 cm, 8 cm, dan 10 cm. Periksa hubungan 6² + 8² = 36 + 64 = 100 = 10².",
+      "Karena memenuhi hubungan Pythagoras, segitiga itu siku-siku. Jika dikelompokkan berdasarkan kesamaan panjang sisi, ketiga sisinya berbeda."
+     ]
     },
     {
      "id": "q9",
@@ -224,7 +256,11 @@
       "$60~\\text{cm}$",
       "$64~\\text{cm}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Sisi berhadapan pada jajar genjang sama panjang. Alasnya 10 cm dan sisi miringnya 6 cm.",
+      "Keliling = 2 × (10 + 6) = 32 cm."
+     ]
     },
     {
      "id": "q10",
@@ -246,7 +282,11 @@
       "$36~\\text{cm}$",
       "$72~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Alas baru 12 cm dan sisi miring tetap 6 cm.",
+      "Keliling = 2 × (12 + 6) = 36 cm."
+     ]
     },
     {
      "id": "q11",
@@ -272,7 +312,11 @@
       "$52~\\text{cm}$",
       "$169~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Keempat sisi belah ketupat sama panjang, yaitu 13 cm.",
+      "Keliling = 4 × 13 = 52 cm."
+     ]
     },
     {
      "id": "q12",
@@ -290,7 +334,11 @@
       "$14~\\text{cm}$",
       "$15~\\text{cm}$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Keliling belah ketupat = 4 × sisi.",
+      "Sisi = 60 : 4 = 15 cm."
+     ]
     },
     {
      "id": "q13",
@@ -316,7 +364,11 @@
       "$30~\\text{cm}$",
       "$54~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Layang-layang memiliki dua pasang sisi berdekatan yang sama panjang. Sisinya 6 cm dan 9 cm.",
+      "Keliling = 2 × (6 + 9) = 30 cm."
+     ]
     },
     {
      "id": "q14",
@@ -338,7 +390,11 @@
       "$34~\\text{cm}$",
       "$36~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Sisi pendek baru 8 cm dan sisi panjang tetap 9 cm.",
+      "Keliling = 2 × (8 + 9) = 34 cm."
+     ]
     },
     {
      "id": "q15",
@@ -364,7 +420,11 @@
       "$30~\\text{cm}$",
       "$35~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Keliling trapesium adalah jumlah keempat sisi luarnya.",
+      "Dari gambar: 12 + 8 + 5 + 5 = 30 cm."
+     ]
     },
     {
      "id": "q16",
@@ -386,7 +446,11 @@
       "$10~\\text{cm}$",
       "$13~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Kedua kaki trapesium masing-masing 5 cm.",
+      "Jumlah panjang kaki = 5 + 5 = 10 cm."
+     ]
     },
     {
      "id": "q17",
@@ -412,7 +476,11 @@
       "$264~\\text{cm}$",
       "$1.386~\\text{cm}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Jari-jari pada gambar 21 cm.",
+      "Keliling lingkaran = 2 × π × r = 2 × ($\\frac{22}{7}$) × 21 = 132 cm."
+     ]
     },
     {
      "id": "q18",
@@ -434,7 +502,11 @@
       "$176~\\text{cm}$",
       "$352~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Gunakan jari-jari baru, yaitu 28 cm.",
+      "Keliling = 2 × ($\\frac{22}{7}$) × 28 = 176 cm."
+     ]
     },
     {
      "id": "q19",
@@ -460,7 +532,11 @@
       "$34~\\text{cm}$",
       "$40~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Untuk keliling gabungan, jumlahkan hanya sisi di tepi luar. Garis di dalam bangun tidak dihitung.",
+      "Panjang sisi luar: 9 + 5 + 3 + 3 + 6 + 8 = 34 cm."
+     ]
     },
     {
      "id": "q20",
@@ -482,7 +558,11 @@
       "Dua lingkaran",
       "Dua trapesium"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Bangun berbentuk siku pada gambar dapat dibagi menjadi dua bagian persegi panjang.",
+      "Gabungan kedua persegi panjang membentuk seluruh bangun tanpa celah."
+     ]
     },
     {
      "id": "q21",
@@ -500,7 +580,11 @@
       "$70~\\text{m}$",
       "$80~\\text{m}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Pagar mengikuti tepi luar taman, sehingga gunakan keliling.",
+      "2 × (20 + 15) = 70 m."
+     ]
     },
     {
      "id": "q22",
@@ -518,7 +602,11 @@
       "$14~\\text{m}$",
       "$16~\\text{m}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Persegi memiliki empat sisi sama panjang.",
+      "Sisi = keliling : 4 = 48 : 4 = 12 m."
+     ]
     },
     {
      "id": "q23",
@@ -536,7 +624,11 @@
       "$220~\\text{cm}$",
       "$440~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Pita mengelilingi meja, jadi panjangnya sama dengan keliling lingkaran.",
+      "2 × ($\\frac{22}{7}$) × 35 = 220 cm."
+     ]
     },
     {
      "id": "q24",
@@ -554,7 +646,11 @@
       "$100~\\text{cm}$",
       "$120~\\text{cm}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "List kayu mengikuti keempat tepi bingkai.",
+      "Keliling = 2 × (30 + 20) = 100 cm."
+     ]
     },
     {
      "id": "q25",
@@ -572,7 +668,11 @@
       "$25~\\text{m}$",
       "$35~\\text{m}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Setengah keliling adalah panjang + lebar = 100 : 2 = 50 m.",
+      "Lebar = 50 − 30 = 20 m."
+     ]
     }
    ]
   },
@@ -598,7 +698,11 @@
      "accept": [
       "36"
      ],
-     "label": "Isian 1"
+     "label": "Isian 1",
+     "explanation": [
+      "Sisi persegi pada gambar 9 cm.",
+      "Keliling = 4 × 9 = 36 cm."
+     ]
     },
     {
      "id": "i2",
@@ -618,7 +722,11 @@
      "accept": [
       "132"
      ],
-     "label": "Isian 2"
+     "label": "Isian 2",
+     "explanation": [
+      "Jari-jari lingkaran pada gambar 21 cm.",
+      "Keliling = 2 × ($\\frac{22}{7}$) × 21 = 132 cm."
+     ]
     },
     {
      "id": "i3",
@@ -634,7 +742,11 @@
      "accept": [
       "60"
      ],
-     "label": "Isian 3"
+     "label": "Isian 3",
+     "explanation": [
+      "Keliling persegi panjang = 2 × (panjang + lebar).",
+      "2 × (18 + 12) = 60 m."
+     ]
     },
     {
      "id": "i4",
@@ -650,7 +762,11 @@
      "accept": [
       "45"
      ],
-     "label": "Isian 4"
+     "label": "Isian 4",
+     "explanation": [
+      "Ketiga sisi segitiga sama sisi masing-masing 15 cm.",
+      "Keliling = 3 × 15 = 45 cm."
+     ]
     },
     {
      "id": "i5",
@@ -670,7 +786,11 @@
      "accept": [
       "34"
      ],
-     "label": "Isian 5"
+     "label": "Isian 5",
+     "explanation": [
+      "Hitung hanya sisi yang membatasi bagian luar bangun gabungan.",
+      "Keliling = 9 + 5 + 3 + 3 + 6 + 8 = 34 cm."
+     ]
     }
    ]
   }

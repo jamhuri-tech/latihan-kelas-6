@@ -198,3 +198,10 @@ textarea.txt { min-height: 5.5em; resize: vertical; }
 }
 .intro { font-size: .95rem; line-height: 1.5; margin-bottom: 8px; }
 @media (max-width: 520px) { .intro { font-size: .9rem; } .chip { font-size: .88rem; padding: 3px 10px; } }
+
+/* Langkah penyelesaian tampil setelah jawaban Matematika diperiksa. */
+.math-explanation { margin-top: 12px; padding: 12px 16px; border-left: 4px solid var(--blue); border-radius: 8px; background: #f0f7fc; color: var(--ink); line-height: 1.65; overflow-wrap: anywhere; }
+.math-explanation h3 { margin: 0 0 8px; font-size: 1rem; color: var(--blue-dark); }
+.math-explanation ol { margin: 0; padding-left: 1.4em; }
+.math-explanation li + li { margin-top: 6px; }
+@media (max-width: 600px) { .math-explanation { padding: 10px 12px; } }

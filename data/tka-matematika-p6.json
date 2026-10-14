@@ -25,7 +25,11 @@
       "$1\\frac{1}{4}$",
       "$1\\frac{1}{2}$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Samakan penyebut menjadi 12: $\\frac{5}{6}$ = $\\frac{10}{12}$, $\\frac{1}{4}$ = $\\frac{3}{12}$, dan $\\frac{2}{3}$ = $\\frac{8}{12}$.",
+      "Hasil = (10 − 3 + 8)/12 = $\\frac{15}{12}$ = $1\\frac{1}{4}$."
+     ]
     },
     {
      "id": "q2",
@@ -43,7 +47,11 @@
       "45 kg",
       "90 kg"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Gula yang dikemas = 120 × 0,75 = 90 kg.",
+      "Sisa = 125 − 90 = 35 kg."
+     ]
     },
     {
      "id": "q3",
@@ -61,7 +69,12 @@
       "144",
       "120"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Bilangan yang habis dibagi 6 dan 8 adalah kelipatan KPK(6, 8) = 24.",
+      "Kelipatannya 24, 48, 72, 96, 120, ...",
+      "Kelipatan pertama yang lebih dari 100 adalah 120."
+     ]
     },
     {
      "id": "q4",
@@ -79,7 +92,12 @@
       "8 roti",
       "48 roti"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Kotak maksimal = FPB(96, 144) = 48 kotak.",
+      "Roti keju per kotak = 96 : 48 = 2; roti cokelat = 144 : 48 = 3.",
+      "Jumlah seluruh roti tiap kotak = 2 + 3 = 5."
+     ]
     },
     {
      "id": "q5",
@@ -97,7 +115,12 @@
       "$\\frac{7}{10}$; $\\frac{2}{3}$; $0,68$; $65\\%$",
       "$65\\%$; $\\frac{2}{3}$; $0,68$; $\\frac{7}{10}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Ubah semuanya menjadi desimal: $\\frac{7}{10}$ = 0,7; $\\frac{2}{3}$ = 0,666...; 65% = 0,65.",
+      "Urutan menurun: 0,7 &gt; 0,68 &gt; 0,666... &gt; 0,65.",
+      "Jadi $\\frac{7}{10}$; 0,68; $\\frac{2}{3}$; 65%."
+     ]
     },
     {
      "id": "q6",
@@ -115,7 +138,11 @@
       "200 m$^2$",
       "240 m$^2$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Luas cabai = $\\frac{2}{5}$ × 600 = 240 m²; luas tomat = $\\frac{1}{3}$ × 600 = 200 m².",
+      "Luas sisa untuk bayam = 600 − 240 − 200 = 160 m²."
+     ]
     },
     {
      "id": "q7",
@@ -133,7 +160,12 @@
       "$1^{\\circ}$C",
       "$9^{\\circ}$C"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Satu jam = 60 menit, sehingga ada 60 : 20 = 3 kali kenaikan.",
+      "Kenaikan total = 3 × 3 = 9°C.",
+      "Suhu akhir = −8 + 9 = 1°C."
+     ]
     },
     {
      "id": "q8",
@@ -151,7 +183,11 @@
       "48",
       "57"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Yang diambil dari empat kotak = 4 × 5 = 20 pensil.",
+      "Total sisa = 72 − 20 = 52 pensil."
+     ]
     }
    ]
   },
@@ -176,7 +212,12 @@
       "54 anak",
       "78 anak"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Selisih bagian seni dan sains = 7 − 4 = 3, sama dengan 18 anak.",
+      "Satu bagian = 18 : 3 = 6 anak.",
+      "Total peserta = (4 + 7) × 6 = 66 anak."
+     ]
     },
     {
      "id": "q10",
@@ -194,7 +235,12 @@
       "1,4 kg",
       "2,4 kg"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Tepung per kue = 600 : 15 = 40 gram.",
+      "Untuk 40 kue diperlukan 40 × 40 = 1.600 gram.",
+      "Ubah ke kg: 1.600 : 1.000 = 1,6 kg."
+     ]
     },
     {
      "id": "q11",
@@ -212,7 +258,12 @@
       "4,8 km",
       "5,2 km"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Jarak sebenarnya = 6,5 × 80.000 = 520.000 cm.",
+      "Satu km = 100.000 cm.",
+      "Jarak = 520.000 : 100.000 = 5,2 km."
+     ]
     },
     {
      "id": "q12",
@@ -230,7 +281,12 @@
       "10.45",
       "10.15"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Tahap pertama = 90 : 60 = 1,5 jam = 90 menit. Tahap kedua = 45 : 45 = 1 jam = 60 menit.",
+      "Total waktu termasuk berhenti = 90 + 25 + 60 = 175 menit = 2 jam 55 menit.",
+      "07.20 + 2 jam 55 menit = 10.15."
+     ]
     },
     {
      "id": "q13",
@@ -248,7 +304,12 @@
       "15 menit lagi",
       "25 menit lagi"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Debit kedua keran = 18 + 12 = 30 liter/menit. Air dalam 15 menit = 30 × 15 = 450 liter.",
+      "Air tambahan yang diperlukan = 720 − 450 = 270 liter.",
+      "Setelah keran kedua ditutup, debit hanya 18 liter/menit: waktu tambahan = 270 : 18 = 15 menit."
+     ]
     },
     {
      "id": "q14",
@@ -266,7 +327,12 @@
       "Rp32.800,00",
       "Rp42.400,00"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Harga awal = 2 × 24.000 + 3 × 8.000 = Rp72.000,00.",
+      "Diskon = 10% × 72.000 = Rp7.200,00, jadi pembayaran = Rp64.800,00.",
+      "Kembalian = 100.000 − 64.800 = Rp35.200,00."
+     ]
     },
     {
      "id": "q15",
@@ -284,7 +350,11 @@
       "47 cm",
       "65 cm"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Ubah 3,2 m menjadi 320 cm. Panjang setiap potongan = 320 : 8 = 40 cm.",
+      "Tambahkan 15 cm pada setiap potongan: 40 + 15 = 55 cm."
+     ]
     }
    ]
   },
@@ -309,7 +379,12 @@
       "56 m$^2$",
       "280 m$^2$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Jalan berada di luar pada kedua sisi tiap ukuran. Panjang luar = 18 + 2 × 1 = 20 m; lebar luar = 12 + 2 × 1 = 14 m.",
+      "Luas luar = 20 × 14 = 280 m²; taman = 18 × 12 = 216 m².",
+      "Luas jalan = 280 − 216 = 64 m²."
+     ]
     },
     {
      "id": "q17",
@@ -327,7 +402,11 @@
       "24 cm",
       "16 cm"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Luas segitiga = $\\frac{1}{2}$ × alas × tinggi.",
+      "Alas = 2 × luas : tinggi = 2 × 96 : 12 = 16 cm."
+     ]
     },
     {
      "id": "q18",
@@ -345,7 +424,12 @@
       "132 m",
       "660 m"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Keliling roda = 2 × ($\\frac{22}{7}$) × 21 = 132 cm.",
+      "Jarak 50 putaran = 132 × 50 = 6.600 cm.",
+      "Ubah ke meter: 6.600 : 100 = 66 m."
+     ]
     },
     {
      "id": "q19",
@@ -363,7 +447,11 @@
       "48.000 liter",
       "60.000 liter"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Volume air = panjang × lebar × kedalaman = 8 × 5 × 1,2 = 48 m³.",
+      "Satu m³ = 1.000 liter, sehingga volume = 48.000 liter."
+     ]
     },
     {
      "id": "q20",
@@ -381,7 +469,11 @@
       "72",
       "216"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Sepanjang balok muat 18 : 3 = 6 kubus, selebar muat 12 : 3 = 4, dan setinggi muat 9 : 3 = 3.",
+      "Jumlah kubus = 6 × 4 × 3 = 72."
+     ]
     },
     {
      "id": "q21",
@@ -399,7 +491,12 @@
       "256 cm$^2$",
       "512 cm$^2$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Kubus tanpa tutup memiliki 5 sisi bahan, bukan 6.",
+      "Luas satu sisi = 8 × 8 = 64 cm².",
+      "Luas seluruh bahan = 5 × 64 = 320 cm²."
+     ]
     },
     {
      "id": "q22",
@@ -417,7 +514,12 @@
       "5 cm",
       "100 cm"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Ubah volume air: 3,5 liter = 3.500 cm³.",
+      "Volume silinder = luas alas × tinggi, sehingga tinggi = volume : luas alas.",
+      "Tinggi air = 3.500 : 350 = 10 cm."
+     ]
     },
     {
      "id": "q23",
@@ -435,7 +537,11 @@
       "$55^{\\circ}$",
       "$65^{\\circ}$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Jumlah tiga sudut yang membentuk sudut lurus adalah 180°.",
+      "Sudut ketiga = 180 − 48 − 67 = 65°."
+     ]
     }
    ]
   },
@@ -481,7 +587,11 @@
       "80 kg",
       "85 kg"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Jumlahkan hasil panen pada keempat kebun.",
+      "18 + 22 + 28 + 12 = 80 kg."
+     ]
     },
     {
      "id": "q25",
@@ -499,7 +609,11 @@
       "22 kg",
       "25 kg"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Jumlah panen = 80 kg dan banyak kebun = 4.",
+      "Rata-rata = 80 : 4 = 20 kg."
+     ]
     },
     {
      "id": "q26",
@@ -517,7 +631,11 @@
       "$35\\%$",
       "$40\\%$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Kebun C menghasilkan 28 kg dari total 80 kg.",
+      "Persentase = $\\frac{28}{80}$ × 100% = 35%."
+     ]
     }
    ]
   },
@@ -563,7 +681,11 @@
       "18 siswa",
       "22 siswa"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Jumlah siswa adalah jumlah frekuensi semua nilai.",
+      "3 + 6 + 5 + 6 = 20 siswa."
+     ]
     },
     {
      "id": "q28",
@@ -581,7 +703,12 @@
       "90",
       "80"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Ada 20 siswa, sehingga median adalah rata-rata data ke-10 dan ke-11.",
+      "Nilai 60 menempati data 1–3, 70 data 4–9, 80 data 10–14.",
+      "Data ke-10 dan ke-11 sama-sama 80, jadi median = 80."
+     ]
     },
     {
      "id": "q29",
@@ -599,7 +726,11 @@
       "80",
       "77"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Jumlah nilai = 60 × 3 + 70 × 6 + 80 × 5 + 90 × 6 = 1.540.",
+      "Jumlah siswa = 20. Rata-rata = 1.540 : 20 = 77."
+     ]
     },
     {
      "id": "q30",
@@ -617,7 +748,11 @@
       "7 siswa",
       "13 siswa"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Nilai minimum 80 berarti nilai 80 dan 90 boleh mengikuti pengayaan.",
+      "Jumlah peserta = 5 + 6 = 11 siswa."
+     ]
     }
    ]
   }

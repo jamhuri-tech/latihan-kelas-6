@@ -420,7 +420,15 @@
       else if (q.type === 'bs') body.append(bsControls(q, review));
       else if (q.type === 'ms') body.append(msControls(q, review));
       else body.append(textControls(q, review));
-      if (show) body.append(feedback(q));
+      if (show) {
+        body.append(feedback(q));
+        if (data.subject === 'Matematika' && Array.isArray(q.explanation) && q.explanation.length) {
+          var steps = h('ol', null);
+          q.explanation.forEach(function (step) { steps.append(h('li', { html: step })); });
+          body.append(h('section', { class: 'math-explanation', 'aria-label': 'Cara pengerjaan' },
+            h('h3', null, 'Cara pengerjaan'), steps));
+        }
+      }
       var card = h('div', { class: cls, id: 'c-' + q.id }, h('div', { class: 'qrow' }, h('div', { class: 'num' }, q.num), body));
       renderMath(card);
       return card;

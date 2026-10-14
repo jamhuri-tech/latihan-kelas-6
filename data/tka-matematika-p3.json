@@ -25,7 +25,12 @@
       "$2\\frac{1}{10}$",
       "$\\frac{3}{4}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Kerjakan isi kurung: $\\frac{2}{3}$ + $\\frac{3}{4}$ = $\\frac{8}{12}$ + $\\frac{9}{12}$ = $\\frac{17}{12}$.",
+      "Bagi dengan $\\frac{5}{6}$: $\\frac{17}{12}$ × $\\frac{6}{5}$ = $\\frac{17}{10}$.",
+      "Kurangi $\\frac{1}{5}$ = $\\frac{2}{10}$, sehingga $\\frac{15}{10}$ = $1\\frac{1}{2}$."
+     ]
     },
     {
      "id": "q2",
@@ -43,7 +48,12 @@
       "156",
       "131"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Akar pangkat tiga dari 1.728 adalah 12; 13² = 169; 5³ = 125.",
+      "Kerjakan pembagian: 125 : 5 = 25.",
+      "Hasil = 12 + 169 − 25 = 156."
+     ]
     },
     {
      "id": "q3",
@@ -61,7 +71,12 @@
       "6 kg",
       "4,75 kg"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Berat total = 3,5 + 2,75 = 6,25 kg.",
+      "Yang tersisa = 100% − 20% = 80% dari total.",
+      "$\\frac{80}{100}$ × 6,25 = 5 kg."
+     ]
     },
     {
      "id": "q4",
@@ -79,7 +94,11 @@
       "3",
       "1,5"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "KPK dari 12, 18, dan 30 adalah 180 detik.",
+      "Ubah ke menit: 180 : 60 = 3 menit."
+     ]
     },
     {
      "id": "q5",
@@ -97,7 +116,12 @@
       "$2^{\\circ}$C",
       "$-2^{\\circ}$C"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Turun 1.000 m berarti 1.000 : 100 = 10 tahap.",
+      "Kenaikan suhu = 10 × 0,6 = 6°C.",
+      "Suhu akhir = −4 + 6 = 2°C."
+     ]
     },
     {
      "id": "q6",
@@ -115,7 +139,11 @@
       "5",
       "6"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Kantong sebanyak mungkin dengan komposisi sama menggunakan FPB(84, 126, 210) = 42.",
+      "Manik biru per kantong = 126 : 42 = 3."
+     ]
     },
     {
      "id": "q7",
@@ -133,7 +161,11 @@
       "66",
       "81"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Kerjakan setiap perkalian: 0,125 × 48 = 6; 75% × 80 = 60; $\\frac{3}{5}$ × 25 = 15.",
+      "Hasil = 6 + 60 − 15 = 51."
+     ]
     },
     {
      "id": "q8",
@@ -151,7 +183,12 @@
       "1, 2, 4",
       "2, 3, 4"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "$\\frac{5}{8}$ = 0,625 &gt; 0,6, jadi (1) benar. $1\\frac{1}{4}$ = 1,25 = 125%, jadi (2) benar.",
+      "0,3 = $\\frac{3}{10}$, bukan $\\frac{3}{100}$, jadi (3) salah.",
+      "Pada garis bilangan −7 di kiri −3, jadi (4) benar. Pilih (1), (2), dan (4)."
+     ]
     }
    ]
   },
@@ -176,7 +213,12 @@
       "Rugi Rp120.000,00",
       "Rugi Rp30.000,00"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Modal = 40 × 12.000 = Rp480.000,00. Beras yang dijual = 40 − 10 = 30 kg.",
+      "Hasil penjualan = 30 × 15.000 = Rp450.000,00.",
+      "Karena hasil penjualan lebih kecil, rugi = 480.000 − 450.000 = Rp30.000,00."
+     ]
     },
     {
      "id": "q10",
@@ -194,7 +236,12 @@
       "24 km$^2$",
       "240 km$^2$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Pada skala 1 : 2.000.000, 1 cm mewakili 20 km.",
+      "Panjang sebenarnya = 3 × 20 = 60 km; lebar = 2 × 20 = 40 km.",
+      "Luas = 60 × 40 = 2.400 km². Ubah kedua panjang terlebih dahulu, bukan hanya luas pada peta."
+     ]
     },
     {
      "id": "q11",
@@ -212,7 +259,11 @@
       "Rp750.000,00",
       "Rp150.000,00"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Jumlah bagian = 2 + 3 + 5 = 10. Satu bagian = 1.500.000 : 10 = Rp150.000,00.",
+      "Selisih Cica dan Ali = (5 − 2) × 150.000 = Rp450.000,00."
+     ]
     },
     {
      "id": "q12",
@@ -230,7 +281,12 @@
       "11.00",
       "10.00"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Kedua mobil saling mendekat, jadi kecepatan mendekat = 50 + 40 = 90 km/jam.",
+      "Waktu berpapasan = 270 : 90 = 3 jam.",
+      "07.00 + 3 jam = 10.00."
+     ]
     },
     {
      "id": "q13",
@@ -248,7 +304,11 @@
       "24",
       "40"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Volume bak = 80 × 60 × 50 = 240.000 cm³ = 240 liter.",
+      "Waktu menguras = volume : debit = 240 : 12 = 20 menit."
+     ]
     },
     {
      "id": "q14",
@@ -266,7 +326,11 @@
       "Rp522.500,00",
       "Rp545.000,00"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Bunga 9 bulan = 500.000 × $\\frac{6}{100}$ × $\\frac{9}{12}$ = Rp22.500,00.",
+      "Jumlah tabungan = 500.000 + 22.500 = Rp522.500,00."
+     ]
     },
     {
      "id": "q15",
@@ -284,7 +348,12 @@
       "Rp160.000,00",
       "Rp150.000,00"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Setelah diskon pertama, harga = 200.000 × $\\frac{80}{100}$ = Rp160.000,00.",
+      "Diskon kedua dihitung dari harga baru: 160.000 × $\\frac{90}{100}$ = Rp144.000,00.",
+      "Diskon bertingkat tidak dijumlahkan begitu saja menjadi 30%."
+     ]
     }
    ]
   },
@@ -314,7 +383,12 @@
       "168 cm$^2$",
       "84 cm$^2$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Luas persegi = 28 × 28 = 784 cm². Jari-jari lingkaran = 28 : 2 = 14 cm.",
+      "Luas lingkaran = ($\\frac{22}{7}$) × 14 × 14 = 616 cm².",
+      "Luas berwarna = 784 − 616 = 168 cm²."
+     ]
     },
     {
      "id": "q17",
@@ -332,7 +406,11 @@
       "88 cm",
       "176 cm"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Diameter lingkaran pada gambar 28 cm.",
+      "Keliling = π × diameter = ($\\frac{22}{7}$) × 28 = 88 cm."
+     ]
     }
    ]
   },
@@ -357,7 +435,12 @@
       "1.030 cm$^3$",
       "1.300 cm$^3$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Volume kubus = 10³ = 1.000 cm³.",
+      "Volume limas = $\\frac{1}{3}$ × luas alas × tinggi = $\\frac{1}{3}$ × 100 × 9 = 300 cm³.",
+      "Volume gabungan = 1.000 + 300 = 1.300 cm³."
+     ]
     },
     {
      "id": "q19",
@@ -375,7 +458,12 @@
       "462 cm$^2$",
       "1.078 cm$^2$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Tabung tertutup mempunyai dua lingkaran dan satu selimut.",
+      "Luas = 2 × π × r × (r + tinggi).",
+      "2 × ($\\frac{22}{7}$) × 7 × (7 + 14) = 924 cm²."
+     ]
     },
     {
      "id": "q20",
@@ -393,7 +481,11 @@
       "$220^{\\circ}$",
       "$130^{\\circ}$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Penyiku sudut 40° adalah 90° − 40° = 50°.",
+      "Pelurus dari 50° adalah 180° − 50° = 130°."
+     ]
     },
     {
      "id": "q21",
@@ -411,7 +503,11 @@
       "240 cm$^2$ dan 68 cm",
       "192 cm$^2$ dan 68 cm"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Luas trapesium = $\\frac{1}{2}$ × (18 + 30) × 8 = 192 cm².",
+      "Keliling = 18 + 30 + 10 + 10 = 68 cm."
+     ]
     },
     {
      "id": "q22",
@@ -429,7 +525,12 @@
       "1, 3, 4",
       "2, 3, 4"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Jajar genjang biasa tidak memiliki sumbu simetri lipat; layang-layang memiliki 1; segitiga sama sisi memiliki 3.",
+      "Lingkaran memiliki tak terhingga sumbu simetri, bukan hanya 4.",
+      "Maka (1), (2), dan (3) benar."
+     ]
     }
    ]
   },
@@ -459,7 +560,11 @@
       "35 siswa",
       "42 siswa"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Diagram menunjukkan 25% siswa gemar renang. Jumlah seluruh siswa pada keterangan soal adalah 120.",
+      "Banyak peminat renang = $\\frac{25}{100}$ × 120 = 30 siswa."
+     ]
     },
     {
      "id": "q24",
@@ -477,7 +582,11 @@
       "24 siswa",
       "18 siswa"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Sepak bola 35%, basket 20%, sehingga selisihnya 15% dari 120 siswa.",
+      "$\\frac{15}{100}$ × 120 = 18 siswa."
+     ]
     },
     {
      "id": "q25",
@@ -495,7 +604,11 @@
       "$90^{\\circ}$",
       "$20^{\\circ}$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Bagian bulu tangkis 20% dari lingkaran penuh.",
+      "Sudut pusat = $\\frac{20}{100}$ × 360° = 72°."
+     ]
     },
     {
      "id": "q26",
@@ -513,7 +626,12 @@
       "Benar; Salah; Benar; Salah",
       "Benar; Benar; Salah; Salah"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Sepak bola 35% adalah bagian terbesar, jadi (1) benar. Bulu tangkis dan basket sama-sama 20%, jadi (2) benar.",
+      "Renang + basket = (25% + 20%) × 120 = 54 siswa, jadi (3) benar.",
+      "Sudut renang = 25% × 360° = 90°, bukan 100°, jadi (4) salah."
+     ]
     }
    ]
   },
@@ -561,7 +679,11 @@
       "8,5",
       "9"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Jumlah nilai = 6 × 2 + 7 × 4 + 8 × 7 + 9 × 6 + 10 × 1 = 160.",
+      "Jumlah siswa = 20. Rata-rata = 160 : 20 = 8."
+     ]
     },
     {
      "id": "q28",
@@ -579,7 +701,11 @@
       "7 siswa",
       "13 siswa"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Rata-rata pada tabel adalah 8. Nilai di bawah 8 adalah 6 dan 7.",
+      "Banyak siswanya = 2 + 4 = 6 siswa."
+     ]
     },
     {
      "id": "q29",
@@ -597,7 +723,11 @@
       "65%",
       "35%"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Paling sedikit 9 berarti nilai 9 atau 10. Banyak siswanya = 6 + 1 = 7.",
+      "Persentase = $\\frac{7}{20}$ × 100% = 35%."
+     ]
     },
     {
      "id": "q30",
@@ -615,7 +745,12 @@
       "$8,5$",
       "$9$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Jumlah nilai kelompok semula = 20 × 8 = 160. Jumlah nilai 5 siswa baru = 5 × 9 = 45.",
+      "Total nilai = 205, total siswa = 25.",
+      "Rata-rata gabungan = 205 : 25 = 8,2; jangan merata-ratakan 8 dan 9 tanpa memperhatikan jumlah siswa."
+     ]
     }
    ]
   }

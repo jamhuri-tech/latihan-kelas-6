@@ -25,7 +25,11 @@
       "254",
       "279"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Kerjakan perkalian dan pembagian lebih dahulu: 48 × 3 = 144 dan 60 : 4 = 15.",
+      "Kemudian 125 + 144 − 15 = 254."
+     ]
     },
     {
      "id": "q2",
@@ -43,7 +47,11 @@
       "$\\frac{5}{6}$",
       "$1\\frac{1}{12}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Samakan penyebut menjadi 12: $\\frac{3}{4}$ = $\\frac{9}{12}$, $\\frac{2}{3}$ = $\\frac{8}{12}$, dan $\\frac{1}{6}$ = $\\frac{2}{12}$.",
+      "Hasil = (9 + 8 − 2)/12 = $\\frac{15}{12}$ = $1\\frac{1}{4}$."
+     ]
     },
     {
      "id": "q3",
@@ -61,7 +69,11 @@
       "4,75 kg",
       "4,25 kg"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Ubah $1\\frac{3}{4}$ kg menjadi 1,75 kg.",
+      "Berat total = 2,5 + 1,75 = 4,25 kg."
+     ]
     },
     {
      "id": "q4",
@@ -79,7 +91,11 @@
       "Rp30.000,00",
       "Rp170.000,00"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Diskon = $\\frac{20}{100}$ × 150.000 = Rp30.000,00.",
+      "Pembayaran = 150.000 − 30.000 = Rp120.000,00."
+     ]
     },
     {
      "id": "q5",
@@ -97,7 +113,11 @@
       "24",
       "14"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Cari KPK waktu nyala kedua lampu. Kelipatan 6: 6, 12, 18, 24; kelipatan 8: 8, 16, 24.",
+      "KPK = 24, sehingga keduanya menyala bersama lagi setelah 24 detik."
+     ]
     },
     {
      "id": "q6",
@@ -115,7 +135,11 @@
       "9",
       "24"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Pembagian sama banyak tanpa sisa dengan kantong sebanyak mungkin menggunakan FPB.",
+      "FPB(36, 48) = 12, sehingga dapat dibuat 12 kantong."
+     ]
     },
     {
      "id": "q7",
@@ -133,7 +157,11 @@
       "$5^{\\circ}$C",
       "$0^{\\circ}$C"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Suhu setelah naik: −3 + 8 = 5°C.",
+      "Setelah turun 5°C: 5 − 5 = 0°C."
+     ]
     },
     {
      "id": "q8",
@@ -151,7 +179,11 @@
       "18",
       "54"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Kerjakan perkalian terlebih dahulu: (−6) × 3 = −18.",
+      "24 − (−18) = 24 + 18 = 42."
+     ]
     },
     {
      "id": "q9",
@@ -169,7 +201,11 @@
       "1, 2, 4",
       "2, 3, 4"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Periksa tiap bilangan dengan membaginya oleh 6: 54 : 6 = 9, 72 : 6 = 12, 80 : 6 tidak bulat, 96 : 6 = 16.",
+      "Yang habis dibagi 6 adalah pernyataan (1), (2), dan (4)."
+     ]
     }
    ]
   },
@@ -194,7 +230,11 @@
       "30 km",
       "60 km"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Jarak sebenarnya = 6 × 500.000 = 3.000.000 cm.",
+      "Karena 100.000 cm = 1 km, jaraknya 3.000.000 : 100.000 = 30 km."
+     ]
     },
     {
      "id": "q11",
@@ -212,7 +252,11 @@
       "32 butir",
       "36 butir"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Jumlah bagian = 3 + 5 = 8. Satu bagian = 64 : 8 = 8 butir.",
+      "Kelereng Budi = 5 × 8 = 40 butir."
+     ]
     },
     {
      "id": "q12",
@@ -230,7 +274,11 @@
       "105 km",
       "135 km"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Ubah 2 jam 20 menit menjadi 2 + $\\frac{20}{60}$ = $\\frac{7}{3}$ jam.",
+      "Jarak = 45 × $\\frac{7}{3}$ = 105 km."
+     ]
     },
     {
      "id": "q13",
@@ -248,7 +296,11 @@
       "90",
       "30"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Kecepatan = jarak : waktu.",
+      "180 : 3 = 60 km/jam."
+     ]
     }
    ]
   },
@@ -278,7 +330,11 @@
       "48 cm",
       "96 cm"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Keliling adalah jumlah sisi di tepi luar bangun, bukan garis di dalamnya.",
+      "Dari gambar: 12 + 6 + 4 + 3 + 8 + 9 = 42 cm."
+     ]
     },
     {
      "id": "q15",
@@ -296,7 +352,12 @@
       "84 cm$^2$",
       "42 cm$^2$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Anggap bangun sebagai persegi panjang besar dikurangi bagian yang terpotong.",
+      "Luas besar = 12 × 9 = 108 cm², bagian terpotong = 4 × 3 = 12 cm².",
+      "Luas bangun = 108 − 12 = 96 cm²."
+     ]
     }
    ]
   },
@@ -321,7 +382,11 @@
       "360 cm$^3$",
       "1.440 cm$^3$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Volume balok = panjang × lebar × tinggi.",
+      "15 × 8 × 6 = 720 cm³."
+     ]
     },
     {
      "id": "q17",
@@ -339,7 +404,12 @@
       "62,5 liter",
       "9,375 liter"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Volume penuh = 50 × 50 × 50 = 125.000 cm³.",
+      "Isi air = $\\frac{3}{4}$ × 125.000 = 93.750 cm³.",
+      "Satu liter = 1.000 cm³, sehingga airnya 93,75 liter."
+     ]
     },
     {
      "id": "q18",
@@ -357,7 +427,11 @@
       "616 cm",
       "88 cm"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Satu putaran roda menempuh jarak sepanjang kelilingnya.",
+      "Keliling = 2 × ($\\frac{22}{7}$) × 14 = 88 cm."
+     ]
     },
     {
      "id": "q19",
@@ -375,7 +449,11 @@
       "1, 2, 4",
       "2, 3, 4"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Persegi memiliki 4 sumbu simetri; persegi panjang biasa memiliki 2; belah ketupat memiliki 2; trapesium sama kaki memiliki 1.",
+      "Maka pernyataan (1), (3), dan (4) benar."
+     ]
     }
    ]
   },
@@ -405,7 +483,11 @@
       "Senin",
       "Jumat"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Bandingkan tinggi kelima batang: 24, 30, 18, 36, dan 22 buku.",
+      "Nilai terbesar 36 buku pada hari Kamis."
+     ]
     },
     {
      "id": "q21",
@@ -423,7 +505,11 @@
       "14 buku",
       "20 buku"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Peminjaman terbanyak 36 buku, paling sedikit 18 buku.",
+      "Selisih = 36 − 18 = 18 buku."
+     ]
     },
     {
      "id": "q22",
@@ -441,7 +527,11 @@
       "28 buku",
       "30 buku"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Jumlah buku = 24 + 30 + 18 + 36 + 22 = 130.",
+      "Rata-rata = 130 : 5 = 26 buku per hari."
+     ]
     },
     {
      "id": "q23",
@@ -459,7 +549,11 @@
       "24",
       "30"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Urutkan data: 18, 22, 24, 30, 36.",
+      "Ada 5 data, sehingga median adalah nilai ke-3, yaitu 24."
+     ]
     },
     {
      "id": "q24",
@@ -477,7 +571,11 @@
       "150",
       "$130$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Baca semua batang lalu jumlahkan.",
+      "24 + 30 + 18 + 36 + 22 = 130 buku."
+     ]
     }
    ]
   },
@@ -523,7 +621,11 @@
       "90",
       "100"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Modus adalah nilai dengan frekuensi terbesar.",
+      "Nilai 80 diperoleh 4 siswa, paling banyak pada tabel, sehingga modus = 80."
+     ]
     },
     {
      "id": "q26",
@@ -541,7 +643,11 @@
       "85",
       "81"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Kalikan setiap nilai dengan banyak siswanya: 70 × 3 + 80 × 4 + 90 × 2 + 100 × 1 = 810.",
+      "Jumlah siswa = 3 + 4 + 2 + 1 = 10. Rata-rata = 810 : 10 = 81."
+     ]
     },
     {
      "id": "q27",
@@ -559,7 +665,12 @@
       "Benar; Benar; Benar; Salah",
       "Benar; Salah; Salah; Salah"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Jumlah siswa 10, jadi (1) benar. Nilai 100 hanya diperoleh 1 siswa, jadi (2) salah.",
+      "Data ke-5 dan ke-6 sama-sama 80, sehingga median 80 dan (3) benar.",
+      "Rata-rata 81, tidak kurang dari 80, jadi (4) salah. Urutannya Benar; Salah; Benar; Salah."
+     ]
     }
    ]
   },
@@ -584,7 +695,11 @@
       "$\\frac{1}{3}$",
       "$\\frac{3}{10}$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Jumlah seluruh bola = 5 + 3 + 2 = 10. Ada 3 bola biru.",
+      "Peluang bola biru = $\\frac{3}{10}$, dengan asumsi setiap bola sama mungkin terambil."
+     ]
     },
     {
      "id": "q29",
@@ -602,7 +717,11 @@
       "40",
       "39"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Pola bertambah 4 setiap langkah. Dari suku pertama ke suku ke-10 ada 9 langkah.",
+      "Suku ke-10 = 3 + 9 × 4 = 39."
+     ]
     },
     {
      "id": "q30",
@@ -620,7 +739,11 @@
       "$20$",
       "25"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Keuntungan = 1.080.000 − 900.000 = Rp180.000,00.",
+      "Persentase keuntungan dihitung terhadap harga beli: 180.000 : 900.000 × 100% = 20%."
+     ]
     }
    ]
   }

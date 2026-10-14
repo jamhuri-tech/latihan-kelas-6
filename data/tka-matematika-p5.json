@@ -25,7 +25,12 @@
       "$4\\frac{2}{5}$",
       "$3\\frac{1}{5}$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Ubah $1\\frac{2}{3}$ = $\\frac{5}{3}$ dan $2\\frac{2}{5}$ = $\\frac{12}{5}$. Isi kurung: $\\frac{5}{3}$ − $\\frac{3}{4}$ = $\\frac{11}{12}$.",
+      "Perkalian = $\\frac{11}{12}$ × $\\frac{12}{5}$ = $\\frac{11}{5}$ = 2,2. Pembagian = 0,8 : 0,4 = 2.",
+      "Hasil = 2,2 + 2 = 4,2 = $4\\frac{1}{5}$."
+     ]
     },
     {
      "id": "q2",
@@ -43,7 +48,12 @@
       "23",
       "21"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Balik urutan operasi untuk mencari bilangan awal.",
+      "Sebelum dikurangi 15 nilainya 48 + 15 = 63.",
+      "Bilangan awal = 63 : 3 = 21."
+     ]
     },
     {
      "id": "q3",
@@ -61,7 +71,11 @@
       "5 buku, 7 pensil, dan 9 penghapus",
       "4 buku, 7 pensil, dan 9 penghapus"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Banyak paket maksimal menggunakan FPB(60, 84, 108) = 12.",
+      "Isi tiap paket: 60 : 12 = 5 buku; 84 : 12 = 7 pensil; 108 : 12 = 9 penghapus."
+     ]
     },
     {
      "id": "q4",
@@ -79,7 +93,12 @@
       "177",
       "15"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "√1.764 = 42, akar pangkat tiga 343 = 7, 2⁴ = 16, dan 9² = 81.",
+      "Kerjakan kali dan bagi dari kiri: 42 : 7 × 16 = 6 × 16 = 96.",
+      "Hasil = 96 − 81 = 15."
+     ]
     },
     {
      "id": "q5",
@@ -97,7 +116,12 @@
       "100",
       "84"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Soal tidak dijawab = 40 − 28 − 8 = 4.",
+      "Skor benar = 28 × 4 = 112; salah = 8 × (−2) = −16; kosong = 4 × (−1) = −4.",
+      "Total skor = 112 − 16 − 4 = 92."
+     ]
     },
     {
      "id": "q6",
@@ -115,7 +139,12 @@
       "Rp96.000,00",
       "Rp72.000,00"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Sesudah membeli buku, sisa uang = 240.000 × $\\frac{3}{4}$ = Rp180.000,00.",
+      "Sesudah membeli sepatu, sisa = 180.000 × $\\frac{3}{5}$ = Rp108.000,00.",
+      "Sesudah menabung $\\frac{1}{3}$ dari sisa, uang yang masih ada = 108.000 × $\\frac{2}{3}$ = Rp72.000,00."
+     ]
     },
     {
      "id": "q7",
@@ -133,7 +162,12 @@
       "08.27",
       "07.51"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Cari KPK waktu alarm: KPK(8, 12, 18) = 72 menit.",
+      "Tujuh puluh dua menit = 1 jam 12 menit.",
+      "07.15 + 1 jam 12 menit = 08.27."
+     ]
     },
     {
      "id": "q8",
@@ -151,7 +185,12 @@
       "1, 3, 4",
       "2, 3, 4"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "$\\frac{3}{8}$ = 0,375, jadi (1) benar. 2³ × 2² = 2⁵ = 32, jadi (2) benar.",
+      "√64 + √36 = 8 + 6 = 14, sedangkan √100 = 10, jadi (3) salah.",
+      "−3 − (−8) = −3 + 8 = 5, jadi (4) benar."
+     ]
     }
    ]
   },
@@ -176,7 +215,12 @@
       "48 butir",
       "60 butir"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Samakan bagian Beni pada kedua perbandingan: semula 3 : 5 = 12 : 20, sesudahnya 3 : 4 = 15 : 20.",
+      "Adi bertambah 15 − 12 = 3 bagian, sama dengan 12 kelereng. Satu bagian = 4.",
+      "Beni mempunyai 20 × 4 = 80 kelereng."
+     ]
     },
     {
      "id": "q10",
@@ -194,7 +238,12 @@
       "320 buah",
       "400 buah"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Ukuran kamar sebenarnya = 2,5 × 200 = 500 cm dan 2 × 200 = 400 cm.",
+      "Sepanjang kamar muat 500 : 25 = 20 ubin; selebar kamar muat 400 : 25 = 16 ubin.",
+      "Banyak ubin = 20 × 16 = 320."
+     ]
     },
     {
      "id": "q11",
@@ -212,7 +261,12 @@
       "45 km/jam",
       "100 km/jam"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Waktu pergi = 120 : 60 = 2 jam; waktu pulang = 120 : 40 = 3 jam.",
+      "Total jarak = 240 km, total waktu = 5 jam.",
+      "Kecepatan rata-rata = 240 : 5 = 48 km/jam, bukan rata-rata biasa dari 60 dan 40."
+     ]
     },
     {
      "id": "q12",
@@ -230,7 +284,12 @@
       "20 menit",
       "40 menit"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Air yang masih diperlukan = 600 − 200 = 400 liter.",
+      "Debit bersih = debit masuk − debit keluar = 30 − 10 = 20 liter/menit.",
+      "Waktu = 400 : 20 = 20 menit."
+     ]
     },
     {
      "id": "q13",
@@ -248,7 +307,12 @@
       "Rp276.000,00",
       "Rp312.000,00"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Bunga per bulan = $\\frac{1,5}{100}$ × 2.400.000 = Rp36.000,00. Bunga 10 bulan = Rp360.000,00.",
+      "Total yang dibayar = 2.400.000 + 360.000 = Rp2.760.000,00.",
+      "Cicilan sama setiap bulan = 2.760.000 : 10 = Rp276.000,00."
+     ]
     },
     {
      "id": "q14",
@@ -266,7 +330,12 @@
       "Rp40.000,00",
       "Rp8.000,00"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Toko A: 400.000 × 70% = Rp280.000,00.",
+      "Toko B: 400.000 × 80% = Rp320.000,00, lalu 320.000 × 90% = Rp288.000,00.",
+      "Selisih = 288.000 − 280.000 = Rp8.000,00. Diskon bertingkat dihitung dari harga yang terus berubah."
+     ]
     },
     {
      "id": "q15",
@@ -284,7 +353,12 @@
       "3 orang",
       "6 orang"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Total pekerjaan = 9 × 24 = 216 hari-orang. Yang selesai dalam 8 hari = 9 × 8 = 72, sehingga sisanya 144 hari-orang.",
+      "Sisa waktu sampai tenggat = 24 − 8 − 4 = 12 hari. Pekerja yang diperlukan = 144 : 12 = 12.",
+      "Tambahan = 12 − 9 = 3 pekerja."
+     ]
     }
    ]
   },
@@ -314,7 +388,12 @@
       "168 cm$^2$",
       "84 cm$^2$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Luas persegi panjang = 28 × 14 = 392 cm². Jari-jari setengah lingkaran 14 cm.",
+      "Luas setengah lingkaran = $\\frac{1}{2}$ × ($\\frac{22}{7}$) × 14 × 14 = 308 cm².",
+      "Luas berwarna = 392 − 308 = 84 cm²."
+     ]
     },
     {
      "id": "q17",
@@ -332,7 +411,12 @@
       "128 cm",
       "56 cm"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Tepi daerah berwarna terdiri dari sisi atas 28 cm, dua sisi tegak 14 cm, dan busur setengah lingkaran.",
+      "Panjang busur = $\\frac{1}{2}$ × 2 × ($\\frac{22}{7}$) × 14 = 44 cm.",
+      "Keliling total kedua bagian berwarna = 28 + 14 + 14 + 44 = 100 cm; sisi bawah persegi panjang bukan tepi daerah berwarna."
+     ]
     },
     {
      "id": "q18",
@@ -350,7 +434,11 @@
       "Rp196.000,00",
       "Rp50.000,00"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Luas berwarna = 392 − 308 = 84 cm².",
+      "Biaya cat = luas × biaya per cm² = 84 × 500 = Rp42.000,00."
+     ]
     }
    ]
   },
@@ -375,7 +463,12 @@
       "2.464 cm$^3$",
       "2.156 cm$^3$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Luas alas bersama = ($\\frac{22}{7}$) × 7 × 7 = 154 cm².",
+      "Volume tabung = 154 × 10 = 1.540 cm³; kerucut = $\\frac{1}{3}$ × 154 × 6 = 308 cm³.",
+      "Volume gabungan = 1.540 + 308 = 1.848 cm³."
+     ]
     },
     {
      "id": "q20",
@@ -393,7 +486,12 @@
       "12.000 cm$^3$",
       "9.600 cm$^3$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Kenaikan air = 34 − 30 = 4 cm. Luas alas akuarium = 60 × 40 = 2.400 cm².",
+      "Volume air yang dipindahkan batu = 2.400 × 4 = 9.600 cm³.",
+      "Karena batu terendam dan air tidak meluap, volume batu sama dengan volume air yang dipindahkan."
+     ]
     },
     {
      "id": "q21",
@@ -411,7 +509,12 @@
       "196 cm$^3$",
       "2.401 cm$^3$"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Luas permukaan kubus = 6 × sisi² = 294, sehingga sisi² = 294 : 6 = 49.",
+      "Sisi = 7 cm.",
+      "Volume = 7 × 7 × 7 = 343 cm³."
+     ]
     },
     {
      "id": "q22",
@@ -429,7 +532,12 @@
       "$75^{\\circ}$",
       "$30^{\\circ}$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Pada 04.30, jarum menit di angka 6, yaitu 180° dari angka 12.",
+      "Jarum jam sudah bergerak ke tengah 4 dan 5: 4 × 30° + 30 × 0,5° = 135°.",
+      "Sudut terkecil = 180° − 135° = 45°; jangan menganggap jarum jam masih tepat di angka 4."
+     ]
     },
     {
      "id": "q23",
@@ -447,7 +555,12 @@
       "1, 2, 4",
       "2, 3, 4"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Limas segi lima memiliki 1 alas dan 5 sisi tegak, jadi 6 sisi.",
+      "Ada 5 rusuk alas dan 5 rusuk menuju puncak, jadi 10 rusuk. Titik sudutnya 5 pada alas + 1 puncak = 6.",
+      "Pernyataan (1), (2), dan (4) benar; pernyataan (3) salah."
+     ]
     }
    ]
   },
@@ -477,7 +590,11 @@
       "65 kg",
       "50 kg"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Jumlah penjualan = 40 + 50 + 45 + 65 + 70 + 60 = 330 kg.",
+      "Rata-rata = 330 : 6 = 55 kg."
+     ]
     },
     {
      "id": "q25",
@@ -495,7 +612,11 @@
       "4 hari",
       "1 hari"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Rata-rata penjualan adalah 55 kg.",
+      "Hari yang melebihi 55 kg adalah Kamis 65 kg, Jumat 70 kg, dan Sabtu 60 kg. Jadi ada 3 hari."
+     ]
     },
     {
      "id": "q26",
@@ -513,7 +634,12 @@
       "Benar; Salah; Salah; Benar",
       "Benar; Benar; Benar; Benar"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Kenaikan Jumat dari Senin = (70 − 40)/40 × 100% = 75%, jadi (1) benar.",
+      "Penurunan Selasa ke Rabu 5 kg, Jumat ke Sabtu 10 kg, jadi (2) benar. Sabtu 60 tidak sama dengan rata-rata 55, jadi (3) salah.",
+      "Data terurut 40, 45, 50, 60, 65, 70; median = (50 + 60)/2 = 55, jadi (4) benar."
+     ]
     }
    ]
   },
@@ -561,7 +687,12 @@
       "7",
       "8"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Jumlah siswa = 4 + 6 + x + 5 + 2 = 17 + x. Jumlah nilai = 60 × 4 + 70 × 6 + 80x + 90 × 5 + 100 × 2 = 1.310 + 80x.",
+      "Karena rata-rata 78: 1.310 + 80x = 78 × (17 + x) = 1.326 + 78x.",
+      "Maka 2x = 16, sehingga x = 8. Jumlah siswa menjadi 25."
+     ]
     },
     {
      "id": "q28",
@@ -579,7 +710,11 @@
       "10 siswa",
       "13 siswa"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Rata-rata 78, sehingga nilai di atas rata-rata adalah 80, 90, dan 100.",
+      "Dengan x = 8, jumlah siswa = 8 + 5 + 2 = 15."
+     ]
     },
     {
      "id": "q29",
@@ -597,7 +732,12 @@
       "60",
       "32"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Belum tuntas berarti nilainya di bawah 75, yaitu 60 dan 70.",
+      "Jumlah belum tuntas = 4 + 6 = 10 dari 25 siswa.",
+      "Persentase = $\\frac{10}{25}$ × 100% = 40%."
+     ]
     }
    ]
   },
@@ -622,7 +762,12 @@
       "138",
       "152"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Jumlah tinggi semula = 5 × 140 = 700 cm.",
+      "Jumlah tinggi 4 anak yang tersisa = 4 × 138 = 552 cm.",
+      "Tinggi anak yang keluar = 700 − 552 = 148 cm."
+     ]
     }
    ]
   }

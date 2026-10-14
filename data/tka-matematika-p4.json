@@ -25,7 +25,12 @@
       "$-\\frac{1}{2}$",
       "$0$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Ubah pecahan campuran: $2\\frac{1}{4}$ = $\\frac{9}{4}$ dan $1\\frac{1}{2}$ = $\\frac{3}{2}$.",
+      "Perkalian pertama = $\\frac{9}{4}$ × $\\frac{2}{3}$ = $\\frac{3}{2}$. Pembagian kedua = $\\frac{3}{2}$ × $\\frac{4}{3}$ = 2.",
+      "Hasil = 1,5 − 2 + 0,5 = 0."
+     ]
     },
     {
      "id": "q2",
@@ -43,7 +48,12 @@
       "144",
       "168"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "48 = 2⁴ × 3 dan 72 = 2³ × 3².",
+      "FPB memakai pangkat terkecil: 2³ × 3 = 24. KPK memakai pangkat terbesar: 2⁴ × 3² = 144.",
+      "Selisih = 144 − 24 = 120."
+     ]
     },
     {
      "id": "q3",
@@ -61,7 +71,11 @@
       "$-7$",
       "$-31$"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Kerjakan bagi dan kali dahulu: 24 : (−6) = −4; (−3) × 4 = −12.",
+      "Hasil = −15 + (−4) − (−12) = −19 + 12 = −7."
+     ]
     },
     {
      "id": "q4",
@@ -79,7 +93,12 @@
       "$\\frac{3}{8}$; $42\\%$; $\\frac{2}{5}$; $0,45$",
       "$0,45$; $42\\%$; $\\frac{2}{5}$; $\\frac{3}{8}$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Ubah ke desimal: $\\frac{3}{8}$ = 0,375; $\\frac{2}{5}$ = 0,4; 42% = 0,42.",
+      "Urutan naik = 0,375; 0,4; 0,42; 0,45.",
+      "Jadi $\\frac{3}{8}$; $\\frac{2}{5}$; 42%; 0,45."
+     ]
     },
     {
      "id": "q5",
@@ -97,7 +116,12 @@
       "4,5 m",
       "5,7 m"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Untuk kado digunakan $\\frac{3}{8}$ × 12 = 4,5 m. Sisa pertama = 12 − 4,5 = 7,5 m.",
+      "Untuk bunga digunakan $\\frac{2}{5}$ dari sisa: $\\frac{2}{5}$ × 7,5 = 3 m.",
+      "Sisa akhir = 7,5 − 3 = 4,5 m."
+     ]
     },
     {
      "id": "q6",
@@ -115,7 +139,12 @@
       "07.00",
       "12.30"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "KPK(15, 20, 25) = 300 menit.",
+      "Tiga ratus menit = 5 jam.",
+      "06.00 + 5 jam = 11.00."
+     ]
     },
     {
      "id": "q7",
@@ -133,7 +162,11 @@
       "72",
       "32"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "√2.025 = 45, akar pangkat tiga 3.375 = 15, dan 2⁵ = 32.",
+      "Hasil = 45 − 15 + 32 = 62."
+     ]
     },
     {
      "id": "q8",
@@ -151,7 +184,12 @@
       "2, 3",
       "1, 2"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "0,7 × 0,7 = 0,49, sehingga (1) benar. $\\frac{7}{20}$ = $\\frac{35}{100}$ = 35%, sehingga (2) benar.",
+      "(−2)³ = −8, bukan 8, sehingga (3) salah.",
+      "$\\frac{8}{5}$ = 1,6 dan 1,5 &lt; 1,6, sehingga (4) salah. Pilih (1) dan (2)."
+     ]
     }
    ]
   },
@@ -176,7 +214,12 @@
       "17 tahun",
       "47 tahun"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Selisih bagian = 7 − 2 = 5. Satu bagian umur = 30 : 5 = 6 tahun.",
+      "Umur Doni sekarang = 2 × 6 = 12 tahun.",
+      "Lima tahun lagi = 12 + 5 = 17 tahun."
+     ]
     },
     {
      "id": "q10",
@@ -194,7 +237,12 @@
       "$1 : 15.000.000$",
       "$1 : 1.250.000$"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Samakan satuan: 112,5 km = 11.250.000 cm.",
+      "Skala = 7,5 : 11.250.000. Bagi kedua bilangan dengan 7,5.",
+      "Hasilnya 1 : 1.500.000."
+     ]
     },
     {
      "id": "q11",
@@ -212,7 +260,12 @@
       "06.55",
       "07.00"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Andi lebih dahulu 20 menit = $\\frac{1}{3}$ jam, sehingga jarak awalnya = 15 × $\\frac{1}{3}$ = 5 km.",
+      "Kecepatan menyusul = 45 − 15 = 30 km/jam. Waktu menyusul = $\\frac{5}{30}$ jam = 10 menit.",
+      "Budi mulai 06.50, jadi menyusul pukul 07.00."
+     ]
     },
     {
      "id": "q12",
@@ -230,7 +283,11 @@
       "3 jam",
       "7,5 jam"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Ubah volume: 4,5 m³ = 4.500 liter. Debit gabungan = 15 + 10 = 25 liter/menit.",
+      "Waktu = 4.500 : 25 = 180 menit = 3 jam."
+     ]
     },
     {
      "id": "q13",
@@ -248,7 +305,12 @@
       "Untung 10%",
       "Untung 32%"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Modal = 5 × 150.000 = Rp750.000,00. Lima lusin = 60 buku; yang dapat dijual = 60 − 10 = 50 buku.",
+      "Penjualan = 50 × 16.500 = Rp825.000,00. Untung = Rp75.000,00.",
+      "Persentase untung terhadap modal = $\\frac{75.000}{750.000}$ × 100% = 10%."
+     ]
     },
     {
      "id": "q14",
@@ -266,7 +328,11 @@
       "Rp101.250,00",
       "Rp160.000,00"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Setelah diskon 25%, pembeli membayar 75% dari harga awal.",
+      "Harga awal = 135.000 : 0,75 = Rp180.000,00."
+     ]
     },
     {
      "id": "q15",
@@ -284,7 +350,12 @@
       "8 orang",
       "3 orang"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Total pekerjaan setara 12 × 15 = 180 hari-orang.",
+      "Agar selesai 10 hari, diperlukan 180 : 10 = 18 pekerja.",
+      "Tambahan pekerja = 18 − 12 = 6 orang."
+     ]
     }
    ]
   },
@@ -314,7 +385,12 @@
       "469 m$^2$",
       "546 m$^2$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Luas persegi panjang = 28 × 14 = 392 m². Dua setengah lingkaran membentuk satu lingkaran berjari-jari 7 m.",
+      "Luas lingkaran = ($\\frac{22}{7}$) × 7 × 7 = 154 m².",
+      "Luas total = 392 + 154 = 546 m²."
+     ]
     },
     {
      "id": "q17",
@@ -332,7 +408,12 @@
       "78 m",
       "128 m"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Keliling terdiri dari dua sisi lurus 28 m dan dua busur setengah lingkaran yang menjadi satu keliling lingkaran.",
+      "Panjang busur total = ($\\frac{22}{7}$) × 14 = 44 m.",
+      "Keliling = 28 + 28 + 44 = 100 m."
+     ]
     },
     {
      "id": "q18",
@@ -350,7 +431,11 @@
       "80 m/menit",
       "500 m/menit"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Jarak berlari = 5 putaran × keliling 100 m = 500 m.",
+      "Kecepatan = jarak : waktu = 500 : 4 = 125 m/menit."
+     ]
     }
    ]
   },
@@ -375,7 +460,11 @@
       "90 liter",
       "2.700 liter"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Samakan satuan: 1,2 m = 120 cm. Volume penuh = 120 × 50 × 60 = 360.000 cm³ = 360 liter.",
+      "Air mengisi $\\frac{3}{4}$ bagian, jadi $\\frac{3}{4}$ × 360 = 270 liter."
+     ]
     },
     {
      "id": "q20",
@@ -393,7 +482,11 @@
       "4",
       "6"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Volume kubus bergantung pada tiga ukuran sisi yang dikalikan.",
+      "Jika setiap sisi menjadi 2 kali, volume menjadi 2 × 2 × 2 = 8 kali semula."
+     ]
     },
     {
      "id": "q21",
@@ -411,7 +504,11 @@
       "6.160 cm$^3$",
       "3.080 cm$^3$"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Diameter 14 cm berarti jari-jari 7 cm.",
+      "Volume tabung = ($\\frac{22}{7}$) × 7 × 7 × 20 = 3.080 cm³."
+     ]
     },
     {
      "id": "q22",
@@ -429,7 +526,12 @@
       "2, 3, 4",
       "1, 2, 3"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Jumlah sudut segitiga 180°, sehingga 2x + 3x + 4x = 9x = 180° dan x = 20°.",
+      "Sudutnya 40°, 60°, dan 80°. Semua kurang dari 90°, jadi segitiga lancip.",
+      "Pernyataan (1), (2), dan (3) benar; tidak ada sudut siku-siku."
+     ]
     },
     {
      "id": "q23",
@@ -447,7 +549,11 @@
       "10",
       "28"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Panjang mendatar = 7 − 1 = 6 satuan. Tinggi = 6 − 2 = 4 satuan.",
+      "Luas persegi panjang = 6 × 4 = 24 satuan luas."
+     ]
     }
    ]
   },
@@ -477,7 +583,11 @@
       "38,75 buku",
       "35 buku"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Data peminjaman: 25, 35, 20, 30, 45. Jumlah = 155 buku.",
+      "Rata-rata = 155 : 5 = 31 buku."
+     ]
     },
     {
      "id": "q25",
@@ -495,7 +605,11 @@
       "Maret ke April",
       "Februari ke Maret"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Perubahan bulanan: +10, −15, +10, dan +15 buku.",
+      "Kenaikan terbesar adalah +15, dari April ke Mei."
+     ]
     },
     {
      "id": "q26",
@@ -513,7 +627,12 @@
       "Benar; Salah; Salah; Benar",
       "Benar; Salah; Benar; Benar"
      ],
-     "ans": 3
+     "ans": 3,
+     "explanation": [
+      "Mei 45 &gt; 2 × 20 = 40, jadi (1) benar. Februari 35 tidak sama dengan rata-rata 31, jadi (2) salah.",
+      "Januari sampai Maret = 25 + 35 + 20 = 80, jadi (3) benar.",
+      "Data terurut 20, 25, 30, 35, 45 memiliki median 30, jadi (4) benar."
+     ]
     }
    ]
   },
@@ -561,7 +680,12 @@
       "35",
       "8"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Ada 25 siswa, sehingga median ada pada data ke-(25 + 1)/2 = ke-13.",
+      "Ukuran 33 menempati data 1–3, ukuran 34 data 4–8, ukuran 35 data 9–16.",
+      "Data ke-13 berukuran 35, jadi median = 35."
+     ]
     },
     {
      "id": "q28",
@@ -579,7 +703,11 @@
       "35,4",
       "34,04"
      ],
-     "ans": 0
+     "ans": 0,
+     "explanation": [
+      "Jumlah ukuran berbobot = 33 × 3 + 34 × 5 + 35 × 8 + 36 × 6 + 37 × 3 = 876.",
+      "Jumlah siswa 25. Rata-rata = 876 : 25 = 35,04."
+     ]
     },
     {
      "id": "q29",
@@ -597,7 +725,11 @@
       "$36$",
       "64"
      ],
-     "ans": 2
+     "ans": 2,
+     "explanation": [
+      "Ukuran lebih dari 35 adalah 36 dan 37, dengan jumlah 6 + 3 = 9 siswa.",
+      "Persentase = $\\frac{9}{25}$ × 100% = 36%."
+     ]
     }
    ]
   },
@@ -622,7 +754,12 @@
       "86",
       "88"
      ],
-     "ans": 1
+     "ans": 1,
+     "explanation": [
+      "Jumlah nilai 4 ulangan = 4 × 82 = 328.",
+      "Untuk rata-rata 84 pada 5 ulangan, jumlahnya harus 5 × 84 = 420.",
+      "Nilai ulangan kelima = 420 − 328 = 92."
+     ]
     }
    ]
   }
