@@ -6,7 +6,7 @@
 <meta name="color-scheme" content="light">
 <meta name="robots" content="noindex">
 <title>Rekap Nilai</title>
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=20261015">
 <style>
   .rk-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; margin: 16px 0; }
   .rk-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
@@ -25,20 +25,32 @@
   .rk-sub { color: var(--muted); font-size: .82rem; }
   .rk-msg { color: var(--muted); } .rk-err { color: var(--bad); }
   .rk-scroll { overflow-x: auto; }
-  @media (max-width: 600px) { .rk-tbl .rk-opt { display: none; } }
+  .rk-tbl { min-width: 650px; }
 </style>
 </head>
 <body>
+<a class="skip-link" href="#rekap-content">Langsung ke isi</a>
 <header class="site-head">
-  <div class="wrap">
-    <a class="brand" href="./">Latihan Soal Kelas 6</a>
-    <span class="tag">Rekap nilai untuk orang tua</span>
+  <div class="wrap header-inner">
+    <a class="brand" href="./#/" aria-label="Ruang Latihan, beranda kelas 6 SD">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M6 7c5-2 9-1 10 3v16c-3-3-6-4-10-3V7Z" fill="currentColor"/><path d="M18 10c1-4 5-5 9-3v16c-4-1-7 0-9 3V10Z" fill="#c3ec79"/></svg></span>
+      <span>Ruang Latihan<small>KELAS 6 SD</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Menu utama">
+      <a href="./#/">Beranda</a>
+      <a href="./#/latihan">Semua latihan</a>
+      <a href="./#/tka">Try Out TKA</a>
+      <a href="rekap.html" class="recap-nav" aria-current="page">Rekap nilai <span aria-hidden="true">↗</span></a>
+    </nav>
   </div>
 </header>
-<main class="wrap">
+
+<main class="wrap recap-page" id="rekap-content" tabindex="-1">
+  <div class="recap-heading"><span class="eyebrow">RUANG ORANG TUA</span><h1>Setiap kemajuan terlihat.</h1><p>Pantau hasil latihan, temukan yang sudah dikuasai, dan dampingi langkah berikutnya.</p><a href="./#/latihan" class="back">← Kembali ke latihan</a></div>
+  <button type="button" id="retry" class="btn ghost" hidden>Coba muat lagi</button>
   <p id="loginMsg" class="rk-msg" aria-live="polite"></p>
   <section id="view" hidden>
-    <h2>Rekap Nilai</h2>
+    <h2 class="recap-title">Ringkasan hasil belajar</h2>
     <div class="rk-card">
       <div class="rk-row">
         <input id="q" type="search" placeholder="Cari nama atau latihan…" aria-label="Cari">
@@ -64,8 +76,9 @@
 
   // Membaca Sheet langsung (dibagikan "siapa saja yang memiliki link: pelihat") lewat Google Visualization JSONP.
   var SHEET = 'https://docs.google.com/spreadsheets/d/1jDvNMN1faPWE8idGf1FRpAxMQlSSGBQ5FbKverPTtw4/gviz/tq';
-  function fail(text) { $('loginMsg').className = 'rk-err'; $('loginMsg').textContent = text; }
+  function fail(text) { $('loginMsg').className = 'rk-err'; $('loginMsg').textContent = text; $('retry').hidden = false; }
   function load() {
+    $('retry').hidden = true;
     $('loginMsg').className = 'rk-msg';
     $('loginMsg').textContent = 'Memuat…';
     var cb = 'rk' + Date.now(), tag = document.createElement('script');
@@ -118,6 +131,7 @@
   $('q').addEventListener('input', render);
   $('subj').addEventListener('change', render);
   $('reload').addEventListener('click', load);
+  $('retry').addEventListener('click', load);
   load();
 })();
 </script>

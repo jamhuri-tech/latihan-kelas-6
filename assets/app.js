@@ -22,6 +22,11 @@
       try { localStorage.removeItem(k); } catch (e) { /* abaikan */ }
     }
   };
+  var header = document.querySelector('.site-head');
+  function measureHeader() { if (header) document.documentElement.style.setProperty('--header-height', header.offsetHeight + 'px'); }
+  if (window.ResizeObserver && header) new ResizeObserver(measureHeader).observe(header);
+  else window.addEventListener('resize', measureHeader);
+  measureHeader();
   var settings = Object.assign({ shuffle: false }, STORE.get(SETTINGS_KEY, {}));
 
   /* ---------- util ---------- */
@@ -103,125 +108,142 @@
   var SUBJECT_ORDER = ['Matematika', 'Bahasa Indonesia', 'PAI dan Budi Pekerti', 'PPKn', 'Bahasa Inggris', 'Koding'];
   var SUBJECT_SHORT = { 'PAI dan Budi Pekerti': 'PAI' };
   function subjSlug(sname) { return sname.toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, ''); }
-  function isTka(m) { return /try ?out/i.test(m.title); }
+  function isTka(m) { return /tka|try ?out/i.test(m.title); }
 
-  function renderHome() {
-    document.title = 'Latihan Soal Kelas 6';
-    app.replaceChildren(h('p', { class: 'loading' }, 'Memuat soal…'));
+  var ICON_PATHS = {
+    book: '<path d="M12 6c-3-2-6-2-9-1v14c3-1 6-1 9 1 3-2 6-2 9-1V5c-3-1-6-1-9 1Z"/><path d="M12 6v14"/>',
+    math: '<rect x="5" y="3" width="14" height="18" rx="3"/><path d="M8 7h8M8 11h2m4 0h2m-8 4h2m4 0h2m-8 3h2m4 0h2"/>',
+    moon: '<path d="M20 14A8 8 0 0 1 10 4a8 8 0 1 0 10 10Z"/>',
+    shield: '<path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6Z"/><path d="m8 12 3 3 5-6"/>',
+    globe: '<circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/>',
+    code: '<path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-2 20"/>',
+    arrow: '<path d="M5 12h14m-6-6 6 6-6 6"/>',
+    search: '<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>',
+    file: '<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9Z"/><path d="M14 3v6h6M8 13h8m-8 4h5"/>',
+    check: '<path d="m5 12 4 4L19 6"/>',
+    star: '<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z"/>',
+    clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>'
+  };
+  function icon(name) {
+    return h('span', { class: 'ui-icon', 'aria-hidden': 'true', html: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' + (ICON_PATHS[name] || ICON_PATHS.book) + '</svg>' });
+  }
+  var SUBJECT_ICONS = { 'Matematika': 'math', 'Bahasa Indonesia': 'book', 'PAI dan Budi Pekerti': 'moon', 'PPKn': 'shield', 'Bahasa Inggris': 'globe', 'Koding': 'code' };
+  function packetNumber(m) { var p = m.title.match(/Paket\s*(\d+)/i); return p ? Number(p[1]) : 1; }
+  function shortTitle(m) {
+    if (/prediksi/i.test(m.title)) return 'Prediksi TKA 2026 · Paket ' + packetNumber(m);
+    if (isTka(m)) return 'Try Out TKA · Paket ' + packetNumber(m);
+    return m.title;
+  }
+  function scrollToElement(el) {
+    if (el) el.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+  }
+
+  function renderHome(mode) {
+    document.title = 'Ruang Latihan · Kelas 6 SD';
+    app.className = 'wrap home-page';
+    app.replaceChildren(h('p', { class: 'loading' }, 'Menyiapkan ruang belajarmu…'));
     var ready = manifest ? Promise.resolve(manifest) : fetchJSON('data/index.json').then(function (m) { manifest = m; return m; });
     ready.then(function (list) {
-      var flt = Object.assign({ subj: 'all', kind: 'all' }, STORE.get('lso:filter', {}));
-      var query = '';
-      var subjects = SUBJECT_ORDER.filter(function (x) { return list.some(function (m) { return m.subject === x; }); });
-      list.forEach(function (m) { if (subjects.indexOf(m.subject) === -1) subjects.push(m.subject); });
-      if (flt.subj !== 'all' && subjects.indexOf(flt.subj) === -1) flt.subj = 'all';
-
+      var flt = Object.assign({ subj: 'all', kind: 'all', status: 'all' }, STORE.get('lso:filter', {}));
+      if (mode === 'tka') { flt.kind = 'tka'; flt.subj = 'all'; flt.status = 'all'; }
+      if (mode === 'latihan') { flt.kind = 'all'; flt.status = 'all'; }
+      var query = '', sort = 'latest';
+      var subjects = SUBJECT_ORDER.filter(function (s) { return list.some(function (m) { return m.subject === s; }); });
+      list.forEach(function (m) { if (subjects.indexOf(m.subject) < 0) subjects.push(m.subject); });
+      if (subjects.indexOf(flt.subj) < 0) flt.subj = 'all';
       function info(m) {
-        var best = STORE.get('lso:best:' + m.id, null);
-        var st = STORE.get('lso:st:' + m.id, null);
-        var started = !!(st && st.ans && Object.keys(st.ans).length > 0 && !st.checked);
-        return { best: best, started: started };
+        var best = STORE.get('lso:best:' + m.id, null), st = STORE.get('lso:st:' + m.id, null);
+        var answeredCount = st && st.ans ? Object.keys(st.ans).length : 0;
+        return { best: best, started: !!(answeredCount && !st.checked), answered: answeredCount, done: !!(st && st.checked) };
       }
       var inProgress = list.filter(function (m) { return info(m).started; });
       var doneCount = list.filter(function (m) { return info(m).best != null; }).length;
-
+      var newest = list.filter(isTka).sort(function (a, b) { return packetNumber(b) - packetNumber(a) || subjects.indexOf(a.subject) - subjects.indexOf(b.subject); }).slice(0, 2);
       var listBox = h('div', { class: 'list' });
-      var chipsSubj = h('div', { class: 'chips', role: 'group', 'aria-label': 'Pilih pelajaran' });
-      var chipsKind = h('div', { class: 'chips', role: 'group', 'aria-label': 'Pilih jenis latihan' });
-
+      var chipsSubj = h('div', { class: 'subject-options', role: 'group', 'aria-label': 'Pilih pelajaran' });
+      var chipsKind = h('div', { class: 'chips kind-tabs', role: 'group', 'aria-label': 'Jenis latihan' });
+      var resultsLabel = h('span', { class: 'results-label', 'aria-live': 'polite' });
       function save() { STORE.set('lso:filter', flt); }
-      function chip(label, count, on, fn) {
-        return h('button', { type: 'button', class: 'chip' + (on ? ' on' : ''), 'aria-pressed': on ? 'true' : 'false', onclick: fn },
-          label, count != null && h('span', { class: 'n' }, count));
-      }
       function matches(m) {
-        if (flt.subj !== 'all' && m.subject !== flt.subj) return false;
-        if (flt.kind === 'tka' && !isTka(m)) return false;
-        if (flt.kind === 'latihan' && isTka(m)) return false;
-        if (query) {
-          var hay = (m.title + ' ' + m.subject + ' ' + m.desc).toLowerCase();
-          if (hay.indexOf(query) === -1) return false;
-        }
-        return true;
+        var f = info(m);
+        return (flt.subj === 'all' || m.subject === flt.subj) &&
+          (flt.kind !== 'tka' || isTka(m)) && (flt.kind !== 'latihan' || !isTka(m)) &&
+          (flt.status !== 'started' || f.started) && (flt.status !== 'done' || f.done || f.best != null) &&
+          (flt.status !== 'new' || (!f.started && !f.done && f.best == null)) &&
+          (!query || (m.title + ' ' + m.subject + ' ' + m.desc).toLowerCase().indexOf(query) >= 0);
       }
       function card(m) {
-        var f = info(m);
-        return h('div', { class: 'card s-' + subjSlug(m.subject) },
-          h('h3', null, m.title),
-          h('div', { class: 'meta' },
-            h('span', { class: 'badge' }, m.count + ' soal'),
-            isTka(m) && h('span', { class: 'badge tka' }, 'Try Out TKA'),
-            f.best != null && h('span', { class: 'badge best' }, 'Nilai terbaik: ' + f.best),
-            f.started && h('span', { class: 'badge prog' }, 'Sedang dikerjakan')),
-          h('p', { class: 'desc' }, m.desc),
-          h('div', { class: 'actions' },
-            h('a', { class: 'btn small', href: '#/quiz/' + m.id }, f.started ? 'Lanjutkan' : (f.best != null ? 'Ulangi' : 'Kerjakan')),
-            m.pdf && h('a', { class: 'btn small ghost', href: m.pdf, target: '_blank', rel: 'noopener' }, 'PDF')));
+        var f = info(m), latest = isTka(m) && packetNumber(m) === Math.max.apply(null, list.filter(isTka).map(packetNumber));
+        var percent = Math.min(100, Math.round(100 * f.answered / m.count));
+        return h('article', { class: 'card s-' + subjSlug(m.subject) },
+          h('div', { class: 'card-top' }, h('span', { class: 'subject-icon' }, icon(SUBJECT_ICONS[m.subject])),
+            h('span', { class: 'card-kind' }, isTka(m) ? 'PERSIAPAN TKA' : 'LATIHAN MATERI'), latest && h('span', { class: 'badge latest' }, 'Terbaru')),
+          h('h3', null, h('a', { class: 'card-title-link', href: '#/quiz/' + m.id }, shortTitle(m))),
+          h('p', { class: 'desc' }, isTka(m) ? m.count + ' soal pilihan ganda. ' + (m.subject === 'Matematika' ? 'Bilangan, pengukuran, geometri, dan data; dengan langkah pengerjaan.' : 'Pahami bacaan, tarik simpulan, dan temukan informasi penting.') : m.desc),
+          h('div', { class: 'meta' }, h('span', null, icon('file'), m.count + ' soal'),
+            f.best != null ? h('span', { class: 'best-text' }, icon('star'), 'Terbaik ' + f.best) : h('span', null, icon('clock'), 'Belajar mandiri')),
+          f.started && h('div', { class: 'card-progress' }, h('div', { class: 'mini-track' }, h('span', { style: 'width:' + percent + '%' })), h('small', null, f.answered + '/' + m.count + ' terjawab')),
+          h('div', { class: 'actions' }, h('a', { class: 'start-link', href: '#/quiz/' + m.id }, f.started ? 'Lanjutkan' : f.best != null ? 'Latihan lagi' : 'Mulai latihan', icon('arrow')),
+            m.pdf && h('a', { class: 'pdf-link', href: m.pdf, target: '_blank', rel: 'noopener', 'aria-label': 'Buka PDF ' + m.subject + ' ' + m.title }, icon('file'), 'PDF')));
       }
-      function paintChips() {
-        chipsSubj.replaceChildren(chip('Semua', list.length, flt.subj === 'all', function () { flt.subj = 'all'; save(); paint(); }));
-        subjects.forEach(function (sj) {
-          var n = list.filter(function (m) { return m.subject === sj; }).length;
-          chipsSubj.append(chip(SUBJECT_SHORT[sj] || sj, n, flt.subj === sj, function () { flt.subj = sj; save(); paint(); }));
-        });
-        chipsKind.replaceChildren(
-          chip('Semua jenis', null, flt.kind === 'all', function () { flt.kind = 'all'; save(); paint(); }),
-          chip('Latihan per materi', null, flt.kind === 'latihan', function () { flt.kind = 'latihan'; save(); paint(); }),
-          chip('Try Out TKA', null, flt.kind === 'tka', function () { flt.kind = 'tka'; save(); paint(); }));
-      }
+      function chip(label, active, fn) { return h('button', { type: 'button', class: 'chip' + (active ? ' on' : ''), 'aria-pressed': active ? 'true' : 'false', onclick: fn }, label); }
       function paint() {
-        paintChips();
+        chipsSubj.replaceChildren();
+        ['all'].concat(subjects).forEach(function (sj) {
+          var n = sj === 'all' ? list.length : list.filter(function (m) { return m.subject === sj; }).length;
+          chipsSubj.append(h('button', { type: 'button', class: 'subject-choice s-' + subjSlug(sj) + (flt.subj === sj ? ' on' : ''), 'aria-pressed': flt.subj === sj ? 'true' : 'false', onclick: function () { flt.subj = sj; save(); paint(); chipsSubj.querySelector('[aria-pressed="true"]').focus({ preventScroll: true }); } },
+            icon(sj === 'all' ? 'book' : SUBJECT_ICONS[sj]), h('span', null, sj === 'all' ? 'Semua pelajaran' : SUBJECT_SHORT[sj] || sj), h('span', { class: 'n' }, n)));
+        });
+        chipsKind.replaceChildren();
+        [['all', 'Semua latihan'], ['tka', 'Try Out TKA'], ['latihan', 'Per materi']].forEach(function (v) { chipsKind.append(chip(v[1], flt.kind === v[0], function () { flt.kind = v[0]; save(); paint(); chipsKind.querySelector('[aria-pressed="true"]').focus({ preventScroll: true }); })); });
         listBox.replaceChildren();
         var shown = 0;
         subjects.forEach(function (sj) {
           var items = list.filter(function (m) { return m.subject === sj && matches(m); });
+          items.sort(function (a, b) { return sort === 'az' ? shortTitle(a).localeCompare(shortTitle(b), 'id') : Number(isTka(b)) - Number(isTka(a)) || packetNumber(b) - packetNumber(a) || a.title.localeCompare(b.title, 'id'); });
           if (!items.length) return;
           shown += items.length;
-          var sec = h('section', { class: 'subj s-' + subjSlug(sj) },
-            h('h2', { class: 'subject' }, sj, h('span', { class: 'cnt' }, items.length + ' latihan')));
-          var groups = [['Latihan per materi', items.filter(function (m) { return !isTka(m); })],
-                        ['Try Out TKA', items.filter(isTka)]];
-          groups.forEach(function (g) {
-            if (!g[1].length) return;
-            var showLabel = groups[0][1].length && groups[1][1].length;
-            if (showLabel) sec.append(h('h3', { class: 'kind' }, g[0]));
-            var cards = h('div', { class: 'cards' });
-            g[1].forEach(function (m) { cards.append(card(m)); });
-            sec.append(cards);
-          });
-          listBox.append(sec);
+          var cards = h('div', { class: 'cards' });
+          items.forEach(function (m) { cards.append(card(m)); });
+          listBox.append(h('section', { class: 'subj s-' + subjSlug(sj) }, h('h3', { class: 'subject' }, h('span', null, icon(SUBJECT_ICONS[sj]), sj), h('span', { class: 'cnt' }, items.length + ' latihan')), cards));
         });
-        if (!shown) listBox.append(h('p', { class: 'empty' }, 'Tidak ada latihan yang cocok. Coba pilih pelajaran lain atau hapus kata pencarian.'));
+        resultsLabel.textContent = shown + ' latihan tersedia';
+        if (!shown) listBox.append(h('div', { class: 'empty' }, icon('search'), h('h3', null, 'Belum menemukan latihan?'), h('p', null, 'Coba kata lain atau tampilkan semua pelajaran.'), h('button', { class: 'btn ghost', type: 'button', onclick: function () { flt = { subj: 'all', kind: 'all', status: 'all' }; query = ''; search.value = ''; statusSelect.value = 'all'; save(); paint(); } }, 'Hapus filter')));
       }
-
-      var search = h('input', {
-        type: 'search', class: 'search', placeholder: 'Cari latihan, misalnya majas atau waktu', 'aria-label': 'Cari latihan', autocomplete: 'off',
-        oninput: function (ev) { query = ev.target.value.trim().toLowerCase(); paint(); }
-      });
-
+      var search = h('input', { type: 'search', class: 'search', placeholder: 'Cari materi atau paket…', 'aria-label': 'Cari latihan', autocomplete: 'off', oninput: function (e) { query = e.target.value.trim().toLowerCase(); paint(); } });
+      var sortSelect = h('select', { 'aria-label': 'Urutkan latihan', onchange: function (e) { sort = e.target.value; paint(); } }, h('option', { value: 'latest' }, 'Terbaru dahulu'), h('option', { value: 'az' }, 'Judul A–Z'));
+      var statusSelect = h('select', { 'aria-label': 'Status pengerjaan', onchange: function (e) { flt.status = e.target.value; save(); paint(); } },
+        h('option', { value: 'all' }, 'Semua progres'), h('option', { value: 'new' }, 'Belum dikerjakan'), h('option', { value: 'started' }, 'Sedang dikerjakan'), h('option', { value: 'done' }, 'Sudah selesai'));
+      statusSelect.value = flt.status;
+      var library = h('section', { class: 'catalog', id: 'katalog' },
+        h('div', { class: 'section-heading' }, h('div', null, h('span', { class: 'eyebrow' }, 'PILIH, KERJAKAN, PAHAMI'), h('h2', null, 'Mau belajar apa hari ini?')), resultsLabel),
+        h('div', { class: 'library-layout' },
+          h('aside', { class: 'subject-panel' }, h('p', { class: 'panel-title' }, 'MATA PELAJARAN', h('span', { class: 'mobile-hint' }, 'Geser untuk melihat lainnya →')), chipsSubj, h('a', { class: 'parent-note', href: 'rekap.html' }, icon('star'), h('span', null, h('strong', null, 'Untuk orang tua'), h('small', null, 'Lihat rekap nilai anak')), icon('arrow'))),
+          h('div', { class: 'library-main' }, h('div', { class: 'toolbar' }, h('label', { class: 'search-wrap' }, icon('search'), search),
+            h('div', { class: 'filter-row' }, chipsKind, h('div', { class: 'selects' }, statusSelect, sortSelect))), listBox)));
+      var heroLinks = h('div', { class: 'hero-packets' });
+      newest.forEach(function (m) { heroLinks.append(h('a', { href: '#/quiz/' + m.id }, icon(SUBJECT_ICONS[m.subject]), h('span', null, h('strong', null, m.subject), h('small', null, 'Paket ' + packetNumber(m) + ' · ' + m.count + ' soal')), icon('arrow'))); });
       var root = h('div', null,
-        h('p', { class: 'intro' }, 'Pilih pelajaran, lalu kerjakan latihannya. Pada pilihan ganda, begitu kamu memilih, hasilnya langsung terlihat dan jawabannya tidak bisa diubah. Nilai muncul setelah kamu menulis nama dan menekan Kirim di bagian bawah.'),
-        h('div', { class: 'stats' },
-          h('span', null, h('strong', null, list.length), ' latihan'),
-          h('span', null, h('strong', null, doneCount), ' sudah dinilai'),
-          inProgress.length > 0 && h('span', null, h('strong', null, inProgress.length), ' sedang dikerjakan')));
+        h('section', { class: 'hero' }, h('div', { class: 'hero-copy' }, h('span', { class: 'hero-kicker' }, h('span', { class: 'live-dot' }), 'RUANG BELAJAR KELAS 6'),
+          h('h1', null, 'Sedikit latihan,', h('br'), h('span', null, 'banyak kemajuan.')),
+          h('p', null, 'Belajar sesuai ritmemu. Pilih pelajaran, coba soalnya, dan pahami langkahnya satu per satu.'),
+          h('div', { class: 'hero-actions' }, h('button', { class: 'btn lime', type: 'button', onclick: function () { scrollToElement(library); } }, 'Mulai belajar', icon('arrow')), h('a', { class: 'hero-secondary', href: '#/tka' }, 'Jelajahi Try Out TKA', icon('arrow')))),
+          h('aside', { class: 'hero-feature' }, h('span', { class: 'feature-label' }, icon('star'), 'PAKET TERBARU'), h('div', { class: 'feature-art', 'aria-hidden': 'true' }, h('span', { class: 'art-symbol one' }, '÷'), h('span', { class: 'art-book' }, icon('book')), h('span', { class: 'art-symbol two' }, 'Aa'), h('span', { class: 'art-spark' }, '✦')),
+            h('h2', null, 'Siap melangkah lebih jauh?'), h('p', null, 'Coba prediksi TKA terbaru untuk mengasah kemampuanmu.'), heroLinks)),
+        h('div', { class: 'home-metrics' },
+          h('div', null, icon('book'), h('span', null, h('strong', null, list.length), h('small', null, 'pilihan latihan'))),
+          h('div', null, icon('globe'), h('span', null, h('strong', null, subjects.length), h('small', null, 'mata pelajaran'))),
+          h('div', null, icon('check'), h('span', null, h('strong', null, doneCount), h('small', null, 'latihan selesai di perangkat ini'))),
+          h('div', null, icon('clock'), h('span', null, h('strong', null, 'Kapan saja'), h('small', null, 'belajar dengan ritmemu')))));
       if (inProgress.length) {
-        var cont = h('div', { class: 'continue' }, h('h2', { class: 'kind' }, 'Lanjutkan mengerjakan'));
-        var row = h('div', { class: 'cards' });
-        inProgress.slice(0, 3).forEach(function (m) {
-          row.append(h('a', { class: 'resume s-' + subjSlug(m.subject), href: '#/quiz/' + m.id },
-            h('span', { class: 'rs' }, m.subject), h('span', { class: 'rt' }, m.title)));
-        });
-        cont.append(row);
-        root.append(cont);
+        var resumeCards = h('div', { class: 'cards' });
+        inProgress.slice(0, 3).forEach(function (m) { resumeCards.append(h('a', { class: 'resume s-' + subjSlug(m.subject), href: '#/quiz/' + m.id }, icon(SUBJECT_ICONS[m.subject]), h('span', null, h('small', null, m.subject), h('strong', null, shortTitle(m))), icon('arrow'))); });
+        root.append(h('section', { class: 'continue' }, h('h2', null, 'Lanjutkan langkahmu'), resumeCards));
       }
-      root.append(h('div', { class: 'toolbar' }, search, chipsSubj, chipsKind), listBox);
-      app.replaceChildren(root);
-      paint();
-      window.scrollTo(0, 0);
-    }).catch(function () {
-      app.replaceChildren(h('p', null, 'Daftar latihan tidak bisa dimuat. Coba muat ulang halaman.'));
-    });
+      root.append(library);
+      app.replaceChildren(root); paint();
+      if (mode) scrollToElement(library); else window.scrollTo(0, 0);
+    }).catch(function () { app.replaceChildren(h('div', { class: 'empty' }, h('h1', null, 'Latihan belum bisa dimuat'), h('p', null, 'Periksa koneksi internet, lalu coba lagi.'), h('button', { class: 'btn', onclick: function () { renderHome(mode); } }, 'Coba lagi'))); });
   }
 
   /* ---------- kuis ---------- */
@@ -240,8 +262,8 @@
     var items = [], secOf = {};
     data.sections.forEach(function (s) { s.items.forEach(function (q) { items.push(q); secOf[q.id] = s; }); });
     var gradable = items.filter(function (q) { return q.type !== 'uraian'; });
-    var cards = {};
-    var stage, resultBox, barFill, barText;
+    var cards = {}, navButtons = {};
+    var stage, resultBox, barFill, barText, nextButton, navEndButton;
 
     function save() {
       if (!st.started && Object.keys(st.ans).length) st.started = Date.now();
@@ -429,7 +451,7 @@
             h('h3', null, 'Cara pengerjaan'), steps));
         }
       }
-      var card = h('div', { class: cls, id: 'c-' + q.id }, h('div', { class: 'qrow' }, h('div', { class: 'num' }, q.num), body));
+      var card = h('div', { class: cls, id: 'c-' + q.id, tabindex: '-1' }, h('div', { class: 'qrow' }, h('div', { class: 'num' }, q.num), body));
       renderMath(card);
       return card;
     }
@@ -474,6 +496,15 @@
 
     /* ----- progres ----- */
     function updateProgress() {
+      items.forEach(function (q) {
+        var button = navButtons[q.id];
+        if (!button) return;
+        button.classList.toggle('is-answered', answered(q));
+        button.setAttribute('aria-label', (q.type === 'isian' ? 'Isian ' : 'Soal ') + q.num + (answered(q) ? ', sudah dijawab' : ', belum dijawab'));
+      });
+      if (nextButton) nextButton.textContent = st.checked ? 'Lihat hasil latihan ↓' : 'Ke soal belum dijawab ↓';
+      if (navEndButton) navEndButton.textContent = st.checked ? 'Lihat hasil latihan' : 'Ke bagian kirim jawaban ↓';
+      if (barFill.parentNode) barFill.parentNode.setAttribute('aria-valuenow', String(st.checked ? gradable.length : gradable.filter(answered).length));
       if (st.checked) {
         barFill.style.width = '100%';
         barText.textContent = 'Selesai';
@@ -615,14 +646,14 @@
           stage.append(c);
         });
       });
-      stage.append(h('div', { class: 'finish' },
+      stage.append(h('div', { class: 'finish', id: 'quiz-finish' },
         h('h2', null, 'Sudah selesai mengerjakan?'),
         h('p', null, 'Tulis namamu, lalu tekan Kirim Jawaban. Nilai baru muncul setelah nama diisi dan tombol Kirim ditekan.'),
         h('label', { class: 'namefield' }, 'Nama:', nameInput),
         h('div', { class: 'bottom' }, h('button', { class: 'btn', type: 'button', onclick: sendAll }, 'Kirim Jawaban'))));
     }
     function renderReview() {
-      resultBox = h('div');
+      resultBox = h('div', { id: 'quiz-result' });
       stage.append(resultBox);
       data.sections.forEach(function (s) {
         if (s.title) stage.append(h('h2', { class: 'sec-title', html: s.title }));
@@ -646,14 +677,14 @@
       updateProgress();
     }
 
-    /* ----- susun halaman ----- */
-    document.title = data.title + ' – Latihan Soal Kelas 6';
+    /* ----- susun halaman dan navigasi nomor soal ----- */
+    document.title = data.title + ' – Ruang Latihan';
+    app.className = 'wrap quiz-page s-' + subjSlug(data.subject);
     var root = h('div');
     root.append(h('div', { class: 'q-head' },
-      h('a', { class: 'back', href: '#/' }, '← Semua latihan'),
-      h('h1', null, data.subject + ': ' + data.title),
-      h('p', null, data.desc)));
-
+      h('a', { class: 'back', href: '#/latihan' }, '← Kembali ke daftar latihan'),
+      h('span', { class: 'eyebrow' }, data.subject.toUpperCase() + ' · KELAS 6 SD'),
+      h('h1', null, data.title), h('p', null, data.desc)));
     var cbShuffle = h('input', {
       type: 'checkbox', checked: settings.shuffle, disabled: !!st.checked,
       onchange: function (ev) {
@@ -662,17 +693,36 @@
       }
     });
     root.append(h('div', { class: 'controls' },
-      h('label', null, cbShuffle, 'Acak urutan pilihan jawaban'),
-      h('span', { class: 'hint' }, 'Semua soal ada di halaman ini. Pada pilihan ganda, begitu kamu memilih, kamu langsung tahu benar atau salah dan jawabannya tidak bisa diubah. Nilai muncul setelah kamu menulis nama dan menekan Kirim di bagian bawah.')));
-
+      h('label', null, cbShuffle, 'Acak pilihan jawaban'),
+      h('span', { class: 'hint' }, 'Pilih jawaban dengan teliti. Jawaban pilihan ganda langsung diperiksa dan tidak bisa diubah.')));
+    function jumpTo(q) {
+      var card = cards[q.id];
+      if (card) { card.focus({ preventScroll: true }); scrollToElement(card); }
+    }
     barFill = h('div', { class: 'fill' });
     barText = h('span');
+    nextButton = h('button', { class: 'progress-jump', type: 'button', onclick: function () {
+      if (st.checked) { scrollToElement(document.getElementById('quiz-result')); return; }
+      var next = items.find(function (q) { return !answered(q); });
+      if (next) jumpTo(next); else scrollToElement(document.getElementById('quiz-finish'));
+    } }, 'Ke soal belum dijawab ↓');
     root.append(h('div', { class: 'progress' },
-      h('div', { class: 'row' }, barText),
-      h('div', { class: 'track' }, barFill)));
-
+      h('div', { class: 'row' }, barText, nextButton),
+      h('div', { class: 'track', role: 'progressbar', 'aria-label': 'Progres pengerjaan', 'aria-valuemin': '0', 'aria-valuemax': String(gradable.length) }, barFill)));
+    var grid = h('div', { class: 'number-grid' });
+    items.forEach(function (q) {
+      var label = q.type === 'isian' ? 'I' + q.num : String(q.num);
+      var button = h('button', { type: 'button', onclick: function () { jumpTo(q); } }, label);
+      navButtons[q.id] = button; grid.append(button);
+    });
+    navEndButton = h('button', { class: 'btn ghost', type: 'button', onclick: function () { scrollToElement(document.getElementById(st.checked ? 'quiz-result' : 'quiz-finish')); } }, 'Ke bagian kirim jawaban ↓');
+    var navigator = h('details', { class: 'question-nav', open: !window.matchMedia('(max-width: 760px)').matches },
+      h('summary', null, 'Navigasi soal', h('span', { class: 'cnt' }, items.length)), grid,
+      h('p', { class: 'nav-legend' }, h('span'), 'Warna terisi: sudah dijawab'),
+      navEndButton,
+      h('p', { class: 'hint' }, 'Jawaban tersimpan otomatis di perangkat ini.'));
     stage = h('div', { class: 'stage' });
-    root.append(stage);
+    root.append(h('div', { class: 'quiz-layout' }, stage, h('aside', { class: 'quiz-side', 'aria-label': 'Navigasi pengerjaan' }, navigator)));
 
     app.replaceChildren(root);
     renderStage();
@@ -683,8 +733,22 @@
   function route() {
     var hash = location.hash || '#/';
     var m = hash.match(/^#\/quiz\/([\w-]+)$/);
-    if (m) openQuiz(m[1]); else renderHome();
+    document.querySelectorAll('.main-nav a').forEach(function (link) {
+      var selected = link.getAttribute('href') === hash || (m && link.getAttribute('href') === '#/latihan');
+      if (selected) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current');
+    });
+    if (m) openQuiz(m[1]); else renderHome(hash === '#/tka' ? 'tka' : hash === '#/latihan' ? 'latihan' : null);
   }
+  document.querySelectorAll('.main-nav a, .brand').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      var target = link.getAttribute('href');
+      if (target !== (location.hash || '#/')) return;
+      if (target === '#/tka' || target === '#/latihan') { e.preventDefault(); scrollToElement(document.getElementById('katalog')); }
+      else if (target === '#/') { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'auto' }); }
+    });
+  });
+  var skip = document.querySelector('.skip-link');
+  if (skip) skip.addEventListener('click', function (e) { e.preventDefault(); app.focus(); scrollToElement(app); });
   window.addEventListener('hashchange', route);
   route();
 })();
