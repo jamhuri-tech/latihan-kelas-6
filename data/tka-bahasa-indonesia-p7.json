@@ -1,0 +1,624 @@
+{
+ "id": "tka-bahasa-indonesia-p7",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA SD 2026 (Paket 7)",
+ "desc": "30 soal latihan prediksi buatan baru, pilihan ganda A–D dengan satu jawaban benar. Pemahaman tekstual, inferensial, evaluasi dan apresiasi dari lima bacaan baru.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Menyimpan Hujan untuk Kebun",
+    "paras": [
+     "Kebun sekolah sering kekurangan air saat kemarau. Biasanya, penjaga mengambil air dari keran. Suatu hari, murid mengamati hujan dari kelas. Air mengalir dari talang menuju selokan. Mereka ingin menyimpan sebagian air tersebut. Ibu guru lalu mengajak mereka merancang percobaan sederhana.",
+     "Murid memasang tong di bawah talang. Tutup tong diberi lubang untuk pipa. Saringan dipasang pada ujung pipa masuk. Daun dan ranting tertahan di saringan. Keran kecil dipasang dekat dasar tong. Tong ditutup kembali setelah digunakan setiap hari. Murid bergiliran memeriksa kebersihan saringan.",
+     "Air tampungan hanya digunakan menyiram kebun. Air itu tidak digunakan untuk minum. Pada hari tanpa hujan, tong diperiksa. Jika isinya sedikit, penyiraman dilakukan secukupnya. Murid juga menyiram pada pagi hari. Mereka mencatat keadaan tanah sebelum penyiraman. Tanah yang masih lembap tidak disiram berlebihan.",
+     "Setelah beberapa minggu, pemakaian keran berkurang. Namun, tong tidak selalu terisi penuh. Hujan tidak datang setiap hari. Murid tetap perlu menggunakan air dengan hemat. Mereka belajar memilih kebutuhan yang utama. Menyimpan air perlu disertai kebiasaan merawatnya. Cara sederhana itu membantu menjaga kebun sekolah."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Masalah awal yang dibahas dalam Teks 1 adalah..."
+      }
+     ],
+     "opts": [
+      "Saringan tong dipenuhi buah",
+      "Murid tidak memiliki ruang kelas",
+      "Keran sekolah tidak dapat dipasang",
+      "Kebun sekolah kekurangan air saat kemarau"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Fungsi saringan pada pipa masuk adalah..."
+      }
+     ],
+     "opts": [
+      "Menentukan banyak tanaman di kebun",
+      "Menahan daun dan ranting sebelum masuk tong",
+      "Mengubah air tampungan menjadi air minum",
+      "Mengukur kedalaman tanah kebun"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna lembap dalam bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Sangat keras karena mengering",
+      "Sedikit basah atau masih mengandung air",
+      "Terisi penuh oleh batu",
+      "Panas karena terkena api"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa menyimpan air belum cukup tanpa kebiasaan hemat?"
+      }
+     ],
+     "opts": [
+      "Semua tanaman harus disiram setiap jam",
+      "Tong selalu lebih besar daripada kebun",
+      "Air di dalam tong tidak pernah berkurang",
+      "Hujan tidak selalu datang dan isi tong terbatas"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Catatan kegiatan yang paling sesuai dengan bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Air tong diminum sebelum murid berkebun",
+      "Tong dibiarkan terbuka sepanjang hari",
+      "Saringan diperiksa dan keadaan tanah dicatat sebelum penyiraman",
+      "Tanah yang lembap selalu disiram lebih banyak"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika isi tong hampir habis, keputusan yang paling sesuai dengan pelajaran dalam teks adalah..."
+      }
+     ],
+     "opts": [
+      "Menyiram semua jalan dengan sisa air",
+      "Memeriksa tanaman yang membutuhkan air dan menyiram secukupnya",
+      "Membiarkan keran menyala agar tong selalu penuh",
+      "Menghentikan pencatatan keadaan tanah"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Tempat untuk Lala",
+    "paras": [
+     "Aku mendapat tugas menata kursi pentas. Namaku Danu, anggota kelompok kelas enam. Sore itu, kami berlatih di aula. Kursi penonton disusun menjadi beberapa baris. Aku ingin semua baris terlihat rapi. Jarak antarkursi kubuat sama persis. Kami segera bersiap melakukan latihan terakhir.",
+     "Lala datang bersama ibunya menjelang latihan. Kaki Lala sedang memakai penyangga. Ia harus berjalan perlahan dengan bantuan. Aku menunjukkan kursi kosong paling belakang. Dari sana, ia sulit melihat panggung. Jalan di antara kursi juga sempit. Lala hanya tersenyum dan menunggu sebentar.",
+     "Aku teringat saat lututku pernah terluka. Dahulu, teman-teman memberiku tempat yang lapang. Aku lalu memindahkan dua kursi depan. Kursi itu kupasang di samping barisan. Jalan menuju pintu tetap kubiarkan terbuka. Aku meminta guru memeriksa susunan baruku. Setelah disetujui, Lala duduk lebih nyaman.",
+     "Bentuk barisan kini tidak sama persis. Namun, semua penonton tetap melihat panggung. Lala melambai ketika latihan segera dimulai. Aku membalas lambaian itu dengan lega. Ternyata, rapi tidak berarti harus seragam. Susunan kursi perlu mempertimbangkan kebutuhan penonton. Sejak itu, aku lebih teliti memperhatikan keadaan teman."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tokoh aku dalam cerita tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Danu",
+      "Lala",
+      "Ibu Lala",
+      "Guru kelas"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kesulitan yang dihadapi Lala adalah..."
+      }
+     ],
+     "opts": [
+      "Mendapat tugas menjadi penata kursi",
+      "Tidak mengetahui nama anggota kelompok",
+      "Berjalan perlahan dan sulit melihat dari kursi belakang",
+      "Tidak membawa naskah latihan terakhir"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Alasan utama Danu mengubah susunan kursi adalah..."
+      }
+     ],
+     "opts": [
+      "Ia memahami kebutuhan Lala setelah mengingat pengalamannya",
+      "Ia ingin semua kursi berada di pintu",
+      "Ia diminta menambah jumlah pemain pentas",
+      "Ia ingin latihan berlangsung tanpa penonton"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan sikap Danu dari awal ke akhir cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Dari senang membantu menjadi menolak bertugas",
+      "Dari percaya diri menjadi takut memasuki aula",
+      "Dari menjaga pintu menjadi ingin menutup pintu",
+      "Dari mengutamakan keseragaman menjadi memperhatikan kebutuhan teman"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagian yang menunjukkan Danu tetap mempertimbangkan keselamatan adalah..."
+      }
+     ],
+     "opts": [
+      "Ia membuat jarak awal antarkursi sama persis",
+      "Ia membiarkan jalan menuju pintu tetap terbuka",
+      "Ia membalas lambaian Lala ketika pentas dimulai",
+      "Ia menunggu Lala tersenyum dari belakang"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan sehari-hari yang paling sesuai dengan nilai cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Meminta semua teman bergerak dengan kecepatan sama",
+      "Mengutamakan bentuk barisan meskipun jalannya tertutup",
+      "Memindahkan teman ke belakang agar barisan seragam",
+      "Memberi ruang lewat bagi teman yang kesulitan berjalan"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Simulasi yang Perlu Dipahami",
+    "paras": [
+     "Sekolah mengadakan latihan evakuasi setiap semester. Latihan ini membantu murid mengenali jalur keluar. Sebelum latihan, guru menjelaskan gambar denah. Tanda panah menunjukkan arah menuju halaman. Halaman luas digunakan sebagai titik kumpul. Setiap kelas mempunyai tempat berkumpul yang berbeda. Murid diminta mengenali tempat kelasnya sendiri.",
+     "Saat tanda latihan berbunyi, pelajaran dihentikan. Murid mengikuti arahan guru dengan tertib. Tas ditinggalkan di ruang kelas. Mereka berjalan melalui jalur yang ditentukan. Berlari dan saling mendorong harus dihindari. Pintu keluar tidak dijadikan tempat menunggu. Guru mendampingi murid hingga tiba di halaman.",
+     "Di titik kumpul, guru memeriksa daftar. Murid yang sudah hadir tetap bersama kelasnya. Jika teman belum terlihat, laporkan kepada guru. Murid tidak diminta kembali mencari sendiri. Guru kemudian mengikuti prosedur sekolah yang berlaku. Latihan selesai setelah ada pemberitahuan petugas. Murid kembali ke kelas secara bergiliran.",
+     "Sesudah latihan, setiap kelas melakukan pembahasan. Murid menyampaikan bagian yang masih membingungkan. Ada yang belum memahami tanda panah. Ada pula yang kesulitan membaca denah. Guru menggunakan masukan itu untuk perbaikan. Latihan bukan sekadar cepat mencapai halaman. Semua murid perlu memahami langkah yang aman."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurut Teks 3, fungsi tanda panah pada denah adalah..."
+      }
+     ],
+     "opts": [
+      "Menunjukkan arah menuju tempat berkumpul",
+      "Menunjukkan tempat menyimpan semua tas",
+      "Menentukan murid yang datang paling awal",
+      "Menghitung jumlah semester dalam setahun"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Urutan kegiatan yang sesuai dengan teks adalah..."
+      }
+     ],
+     "opts": [
+      "Memeriksa kehadiran, pulang, lalu mengenali denah",
+      "Berlari ke pintu, mengambil tas, lalu mendorong teman",
+      "Mengenali denah, mengikuti jalur, berkumpul, lalu memeriksa kehadiran",
+      "Mencari teman sendiri, berpencar, lalu membaca denah"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tujuan pemeriksaan daftar di titik kumpul adalah..."
+      }
+     ],
+     "opts": [
+      "Membagi tugas membawa tas dari kelas",
+      "Memilih murid yang boleh kembali lebih awal",
+      "Mengetahui apakah seluruh anggota kelas sudah hadir",
+      "Menentukan kelas yang paling cepat berlari"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa murid diajak membahas latihan sesudahnya?"
+      }
+     ],
+     "opts": [
+      "Agar hal yang belum dipahami dapat diperbaiki",
+      "Agar jalur keluar diganti tanpa penjelasan",
+      "Agar latihan berikutnya tidak memerlukan guru",
+      "Agar semua murid menghafal nilai temannya"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan “Latihan berhasil asalkan semua murid paling cepat sampai halaman” kurang sesuai karena..."
+      }
+     ],
+     "opts": [
+      "Setiap murid harus menunggu di pintu keluar",
+      "Pemeriksaan kehadiran hanya dilakukan sebelum latihan",
+      "Keberhasilan juga memerlukan ketertiban dan pemahaman langkah aman",
+      "Murid wajib kembali sendiri mencari teman"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika seorang murid belum memahami denah, tindakan yang paling sesuai dengan teks adalah..."
+      }
+     ],
+     "opts": [
+      "Mengikuti jalur lain tanpa memberitahukan guru",
+      "Menunggu sendirian di pintu hingga latihan selesai",
+      "Menanyakan bagian yang membingungkan saat pembahasan bersama guru",
+      "Kembali ke kelas untuk mengambil tas saat berkumpul"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Garis yang Berubah Menjadi Sungai",
+    "paras": [
+     "Aku sedang menggambar untuk majalah kelas. Namaku Tara, dan aku menyukai pemandangan. Gambar hari itu hampir selesai kubuat. Ada sawah, gunung, dan jalan kecil. Ketika mengambil pensil, sikuku menyentuh botol. Tinta biru tumpah di tengah gambar. Aku terpaku melihat garis yang melebar.",
+     "Aku ingin meremas kertas itu segera. Beni menahanku sebelum kertas terlipat. “Bentuknya seperti aliran sungai,” katanya pelan. Aku menatap tumpahan itu lebih lama. Ada lekukan yang menyerupai tikungan air. Namun, warnanya menutupi sebagian gambar sawah. Aku ragu gambar itu bisa diperbaiki.",
+     "Beni memberiku kertas bekas untuk mencoba. Kami menguji warna di kertas tersebut. Aku lalu memperjelas tepi tumpahan tinta. Kutambahkan batu dan jembatan kayu kecil. Sawah yang tertutup kuubah menjadi tepian. Gambar pemandanganku kini memiliki sebuah sungai. Kertasnya memang sedikit bergelombang setelah kering.",
+     "Guru melihat gambar itu menjelang pulang. Aku menjelaskan kejadian yang sebenarnya kepadanya. Guru menghargai usahaku menemukan jalan keluar. Ia memilih gambar itu untuk majalah. Aku tersenyum sambil merapikan meja gambar. Aku tidak dapat mengembalikan keadaan semula. Namun, aku bisa mencoba memperbaiki hasilnya."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Peristiwa yang memunculkan masalah dalam cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Beni meminjam majalah kelas milik Tara",
+      "Guru meminta Tara menggambar ulang gunung",
+      "Kertas bekas di meja habis digunakan",
+      "Tinta biru tumpah ke tengah gambar Tara"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan sebelum Tara memperjelas tepi tumpahan?"
+      }
+     ],
+     "opts": [
+      "Meremas gambar hingga terlipat",
+      "Menguji warna pada kertas bekas",
+      "Memasang gambar pada majalah kelas",
+      "Meninggalkan meja tanpa merapikannya"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna terpaku dalam konteks cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Terdiam karena terkejut melihat kejadian",
+      "Terikat oleh tali di kursi",
+      "Berdiri untuk menunjukkan gambar",
+      "Berjalan perlahan menuju pintu"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Peran Beni dalam penyelesaian masalah adalah..."
+      }
+     ],
+     "opts": [
+      "Menggambar seluruh pemandangan untuk menggantikan Tara",
+      "Membantu Tara melihat kemungkinan baru dan mencoba perbaikan",
+      "Menyembunyikan tumpahan tinta dari guru",
+      "Meminta Tara membuang gambar yang rusak"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perasaan Tara pada akhir cerita paling mungkin adalah..."
+      }
+     ],
+     "opts": [
+      "Kecewa karena guru menolak gambar itu",
+      "Lega dan bangga karena usahanya membuahkan hasil",
+      "Marah karena Beni melipat kertasnya",
+      "Cemas karena ia tidak menjelaskan kejadian sebenarnya"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Alasan tindakan Tara patut dicontoh adalah..."
+      }
+     ],
+     "opts": [
+      "Ia membiarkan tinta tetap tumpah di meja",
+      "Ia meminta temannya menanggung semua kesalahan",
+      "Ia menganggap hasil harus selalu sempurna sejak awal",
+      "Ia mencoba memperbaiki keadaan dan jujur menjelaskan kesalahannya"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Kebun Sayur dalam Karung",
+    "paras": [
+     "Warga Gang Melati ingin menanam sayur. Namun, halaman rumah mereka sangat sempit. Sebagian besar tanah sudah tertutup semen. Pak Hasan mengusulkan kebun dalam karung. Karung bekas yang kuat dikumpulkan bersama. Karung dibersihkan sebelum diisi media tanam. Setiap keluarga mendapat dua karung untuk mencoba.",
+     "Bagian bawah karung diberi beberapa lubang. Lubang membantu mengeluarkan air yang berlebihan. Media tanam dibuat dari tanah dan kompos. Karung diletakkan di tempat yang terang. Warga menanam kangkung sesuai petunjuk pendamping. Mereka menyisakan ruang di antara karung. Ruang itu memudahkan perawatan dan pemeriksaan tanaman.",
+     "Setiap keluarga mencatat waktu penyiraman tanaman. Keadaan daun juga diamati dengan teliti. Daun yang layu belum tentu kekurangan air. Tanah diperiksa dahulu sebelum air ditambahkan. Jika terlalu basah, penyiraman tidak dilakukan. Pendamping membantu warga memahami perubahan tanaman. Mereka membandingkan catatan saat pertemuan mingguan.",
+     "Beberapa minggu kemudian, sebagian kangkung siap dipanen. Hasilnya belum memenuhi semua kebutuhan keluarga. Namun, warga memperoleh sayur dan pengalaman. Mereka tidak perlu membuka halaman baru. Keluarga yang berhasil berbagi catatan perawatan. Keluarga lain dapat belajar dari catatan itu. Kebun kecil menjadi tempat belajar bersama."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa warga memilih menanam dalam karung?"
+      }
+     ],
+     "opts": [
+      "Semua warga sudah memiliki sawah luas",
+      "Karung tidak memerlukan media tanam",
+      "Kangkung tidak membutuhkan tempat terang",
+      "Halaman sempit dan sebagian tanah tertutup semen"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Fungsi lubang di bagian bawah karung adalah..."
+      }
+     ],
+     "opts": [
+      "Menyimpan seluruh air tanpa keluar",
+      "Menghalangi cahaya agar tidak masuk",
+      "Mengeluarkan air yang berlebihan",
+      "Menentukan jadwal pertemuan warga"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Istilah media tanam dalam teks merujuk pada..."
+      }
+     ],
+     "opts": [
+      "Campuran tanah dan kompos tempat tanaman tumbuh",
+      "Catatan jadwal pertemuan keluarga",
+      "Alat untuk mengukur jarak antarwarga",
+      "Karung yang digunakan membawa hasil panen"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tanah perlu diperiksa ketika daun layu?"
+      }
+     ],
+     "opts": [
+      "Daun layu selalu menandakan tanah terlalu kering",
+      "Daun layu tidak selalu berarti tanaman perlu tambahan air",
+      "Pemeriksaan tanah menggantikan semua perawatan",
+      "Air hanya boleh diberikan saat pertemuan mingguan"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan yang paling didukung oleh teks adalah..."
+      }
+     ],
+     "opts": [
+      "Lahan terbatas tetap dapat dimanfaatkan sambil belajar merawat tanaman",
+      "Dua karung selalu mencukupi kebutuhan sayur seluruh keluarga",
+      "Semua tanaman layu dapat pulih dengan penyiraman terus-menerus",
+      "Menanam dalam karung membuat catatan perawatan tidak diperlukan"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Manfaat berbagi catatan perawatan bagi keluarga lain adalah..."
+      }
+     ],
+     "opts": [
+      "Membantu mereka belajar dari pengalaman penanam yang berhasil",
+      "Membuat semua karung memiliki hasil panen persis sama",
+      "Menentukan bahwa keluarga lain tidak boleh menanam",
+      "Menggantikan kebutuhan mengamati tanaman sendiri"
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

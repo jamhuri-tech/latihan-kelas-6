@@ -216,6 +216,22 @@
   "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket6.pdf"
  },
  {
+  "id": "tka-matematika-p7",
+  "subject": "Matematika",
+  "title": "Prediksi TKA SD 2026 (Paket 7)",
+  "desc": "30 soal latihan prediksi buatan baru, pilihan ganda A–D dengan satu jawaban benar. Bilangan, geometri dan pengukuran, serta data; dilengkapi langkah pengerjaan.",
+  "count": 30,
+  "pdf": "pdf/Prediksi_TKA_2026_Matematika_Kelas6_Paket7.pdf"
+ },
+ {
+  "id": "tka-bahasa-indonesia-p7",
+  "subject": "Bahasa Indonesia",
+  "title": "Prediksi TKA SD 2026 (Paket 7)",
+  "desc": "30 soal latihan prediksi buatan baru, pilihan ganda A–D dengan satu jawaban benar. Pemahaman tekstual, inferensial, evaluasi dan apresiasi dari lima bacaan baru.",
+  "count": 30,
+  "pdf": "pdf/Prediksi_TKA_2026_BahasaIndonesia_Kelas6_Paket7.pdf"
+ },
+ {
   "id": "bindo-tka",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA",
