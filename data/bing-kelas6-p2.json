@@ -1,0 +1,597 @@
+{
+ "id": "bing-kelas6-p2",
+ "subject": "Bahasa Inggris",
+ "title": "English for Grade 6 (Paket 2)",
+ "desc": "30 soal lanjutan: present dan past activities, be going to, aturan dan izin, perbandingan, percakapan, serta dua bacaan baru.",
+ "sections": [
+  {
+   "title": "A. Present and Past Activities (1–6)",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rani usually <span class=\"blank\">&nbsp;</span> her homework after dinner, but she is reading a story now."
+      }
+     ],
+     "opts": [
+      "do",
+      "does",
+      "did",
+      "doing"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Listen! The birds <span class=\"blank\">&nbsp;</span> outside our classroom."
+      }
+     ],
+     "opts": [
+      "sings",
+      "is singing",
+      "are singing",
+      "sang"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "My brother <span class=\"blank\">&nbsp;</span> not watch television on school nights."
+      }
+     ],
+     "opts": [
+      "do",
+      "is",
+      "was",
+      "does"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "We <span class=\"blank\">&nbsp;</span> the science museum last Saturday."
+      }
+     ],
+     "opts": [
+      "visit",
+      "visited",
+      "visits",
+      "are visiting"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bima did not <span class=\"blank\">&nbsp;</span> his lunch to school yesterday."
+      }
+     ],
+     "opts": [
+      "brought",
+      "bring",
+      "brings",
+      "bringing"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Choose the correct question about a past activity."
+      }
+     ],
+     "opts": [
+      "Did you clean your room yesterday?",
+      "Do you cleaned your room yesterday?",
+      "Did you cleaned your room yesterday?",
+      "Were you clean your room yesterday?"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "B. Plans, Rules, and Permission (7–11)",
+   "passage": null,
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "My friends and I have a plan for tomorrow. We <span class=\"blank\">&nbsp;</span> going to plant some trees."
+      }
+     ],
+     "opts": [
+      "are",
+      "am",
+      "is",
+      "was"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sinta has a ticket for the school concert tomorrow. She says, “I <span class=\"blank\">&nbsp;</span> watch the concert tomorrow.”"
+      }
+     ],
+     "opts": [
+      "is going to",
+      "am going to",
+      "are going to",
+      "was going to"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Adit: “What are you going to do after school?” Lina: “<span class=\"blank\">&nbsp;</span>”"
+      }
+     ],
+     "opts": [
+      "I helped my grandmother yesterday.",
+      "I help my grandmother every Monday.",
+      "I am going to help my grandmother.",
+      "I am helping my grandmother right now."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The sign says, “You must not feed the animals.” What should visitors do?"
+      }
+     ],
+     "opts": [
+      "Give bread to the animals.",
+      "Ask the animals to take their food.",
+      "Put snacks inside the animals’ cages.",
+      "Keep their food away from the animals."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which sentence politely asks for permission?"
+      }
+     ],
+     "opts": [
+      "May I use your ruler, please?",
+      "You must give me your ruler.",
+      "I used your ruler yesterday.",
+      "Your ruler is longer than mine."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "C. Comparisons and Time Expressions (12–16)",
+   "passage": null,
+   "items": [
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A giraffe is <span class=\"blank\">&nbsp;</span> than a goat."
+      }
+     ],
+     "opts": [
+      "taller",
+      "tall",
+      "tallest",
+      "more tall"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bag A weighs 2 kg, Bag B weighs 4 kg, and Bag C weighs 6 kg. Bag C is the <span class=\"blank\">&nbsp;</span> bag."
+      }
+     ],
+     "opts": [
+      "heavy",
+      "heavier",
+      "heaviest",
+      "most heavy"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "This exercise is <span class=\"blank\">&nbsp;</span> than the last one."
+      }
+     ],
+     "opts": [
+      "easy",
+      "easiest",
+      "easier",
+      "more easy"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The swimming lesson starts <span class=\"blank\">&nbsp;</span> nine o’clock."
+      }
+     ],
+     "opts": [
+      "on",
+      "in",
+      "between",
+      "at"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "My English class is <span class=\"blank\">&nbsp;</span> Tuesday."
+      }
+     ],
+     "opts": [
+      "at",
+      "under",
+      "on",
+      "between"
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "D. Everyday English (17–20)",
+   "passage": null,
+   "items": [
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nina: “How can I get to the library?” A helpful reply is: “<span class=\"blank\">&nbsp;</span>”"
+      }
+     ],
+     "opts": [
+      "It opens at eight o’clock.",
+      "Go straight and turn left at the gate.",
+      "I borrowed two books yesterday.",
+      "You need your library card."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dina: “Would you like some orange juice?” Edo: “<span class=\"blank\">&nbsp;</span>” Edo wants to accept the offer politely."
+      }
+     ],
+     "opts": [
+      "No, thank you.",
+      "Yes, please.",
+      "You are welcome.",
+      "Excuse me."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "You arrive late for class. What should you say to your teacher?"
+      }
+     ],
+     "opts": [
+      "I am sorry I am late.",
+      "Have a nice holiday.",
+      "You are welcome.",
+      "Congratulations on your prize."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The notice says, “Please return library books by Friday.” What should students do?"
+      }
+     ],
+     "opts": [
+      "Return the books only after Friday.",
+      "Return the books on or before Friday.",
+      "Keep the books until next month.",
+      "Take the books home for the first time on Friday."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "E. Read the text for questions 21–25.",
+   "passage": {
+    "title": "A Sunday with Grandmother",
+    "paras": [
+     "Last Sunday, Kevin and his sister Maya visited their grandmother. They went there by bus and arrived at nine o’clock. First, they helped her water the vegetables. Kevin carried a small watering can, and Maya picked some ripe tomatoes.",
+     "After lunch, it started to rain. The children stayed inside and listened to their grandmother’s stories. Before they left, she gave them a basket of tomatoes. Kevin felt happy because he had spent time with his grandmother and helped her in the garden."
+    ]
+   },
+   "items": [
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "How did Kevin and Maya travel to their grandmother’s house?"
+      }
+     ],
+     "opts": [
+      "By bicycle.",
+      "On foot.",
+      "By train.",
+      "By bus."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What did the children do first after they arrived?"
+      }
+     ],
+     "opts": [
+      "They listened to stories.",
+      "They ate lunch.",
+      "They helped water the vegetables.",
+      "They took a bus home."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Why did the children stay inside after lunch?"
+      }
+     ],
+     "opts": [
+      "Because they missed the bus.",
+      "Because their grandmother went out.",
+      "Because they had to finish their homework.",
+      "Because it started to rain."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "In the sentence “she gave them a basket of tomatoes,” who does “she” refer to?"
+      }
+     ],
+     "opts": [
+      "Their grandmother.",
+      "Maya.",
+      "Their mother.",
+      "Their teacher."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which sentence best describes the visit?"
+      }
+     ],
+     "opts": [
+      "The children helped their grandmother and enjoyed being with her.",
+      "The children went shopping without their grandmother.",
+      "The children spent all day playing outside in the rain.",
+      "The children visited their grandmother on a school day."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "F. Read the text for questions 26–30.",
+   "passage": {
+    "title": "Our Class Book Swap",
+    "paras": [
+     "Our class is going to hold a book swap next Wednesday. The activity will take place in Room 6 from 10:00 a.m. to 11:00 a.m. Each student should bring one storybook in good condition. Write your name on a small card and put it inside the book. Do not write your name on the book itself.",
+     "Put your book on the blue table before the activity begins. During the book swap, choose a different book to take home. You do not need to bring any money. After choosing a book, tell a friend why you want to read it."
+    ]
+   },
+   "items": [
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "When is the class going to hold the book swap?"
+      }
+     ],
+     "opts": [
+      "Next Monday.",
+      "Next Wednesday.",
+      "Last Wednesday.",
+      "Every Friday."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What should each student bring?"
+      }
+     ],
+     "opts": [
+      "Two new notebooks.",
+      "A storybook with many missing pages.",
+      "Some money to buy a storybook.",
+      "One storybook in good condition."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Where should students write their names?"
+      }
+     ],
+     "opts": [
+      "On the blue table.",
+      "On the cover of the book.",
+      "On a small card inside the book.",
+      "On the classroom door."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "How long will the book swap last?"
+      }
+     ],
+     "opts": [
+      "One hour.",
+      "Thirty minutes.",
+      "Two hours.",
+      "Three hours."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Why do students not need to bring money?"
+      }
+     ],
+     "opts": [
+      "Because the activity is held every day.",
+      "Because they must return every book before lunch.",
+      "Because they are going to write a new storybook.",
+      "Because they exchange books instead of buying them."
+     ],
+     "ans": 3
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
