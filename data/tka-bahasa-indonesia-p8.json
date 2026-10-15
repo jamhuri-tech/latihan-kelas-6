@@ -1,0 +1,622 @@
+{
+ "id": "tka-bahasa-indonesia-p8",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA SD 2026 (Paket 8)",
+ "desc": "30 soal pilihan ganda dengan lima bacaan baru: informasi, cerita, petunjuk, dua pendapat, dan puisi. Melatih pemahaman, penalaran, serta evaluasi bacaan.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Label yang Mengubah Catatan",
+    "paras": [
+     "Selama sepekan, petugas piket kelas VI menemukan banyak kertas di tempat sampah campuran. Di dekatnya sebenarnya sudah tersedia kotak khusus kertas. Kotak itu hanya bertuliskan “KERTAS”, sedangkan tempat sampah campuran berada paling dekat dengan pintu kelas.",
+     "Nara menduga teman-temannya belum memahami jenis kertas yang boleh dikumpulkan. Ia menempelkan contoh pada kotak: kertas tugas bekas boleh dimasukkan, tetapi tisu kotor dan bungkus makanan berminyak tidak. Kotak tetap berada di tempat semula. Selama sepekan berikutnya, petugas piket yang sama mencatat hasil pemilahan setiap hari.",
+     "Dalam catatan pekan pertama, terdapat 18 lembar kertas layak pakai ulang di tempat sampah campuran. Pada pekan kedua, jumlahnya menjadi 7 lembar. Jumlah murid yang hadir dan kegiatan kelas pada kedua pekan hampir sama. Namun, catatan itu belum menunjukkan kebiasaan kelas lain.",
+     "Nara mengusulkan percobaan lanjutan. Label contoh akan dipakai selama sepekan lagi. Sesudah itu, kotak akan dipindah mendekati pintu tanpa mengubah labelnya. Dengan cara tersebut, kelas dapat membandingkan hasil perubahan label dan hasil perubahan letak kotak."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang diubah Nara pada awal percobaan?"
+      }
+     ],
+     "opts": [
+      "Letak tempat sampah campuran di kelas.",
+      "Jadwal petugas piket pencatat pemilahan.",
+      "Keterangan pada kotak pengumpulan kertas.",
+      "Jumlah kotak pengumpulan kertas bekas."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa kotak tidak langsung dipindahkan ketika label diganti?"
+      }
+     ],
+     "opts": [
+      "Agar petugas piket dapat mengurangi waktu tugas.",
+      "Agar pengaruh label dapat diamati lebih dahulu.",
+      "Agar kegiatan kelas tidak perlu dicatat kembali.",
+      "Agar pengumpulan kertas berlangsung lebih singkat."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan yang paling didukung catatan dua pekan itu adalah..."
+      }
+     ],
+     "opts": [
+      "Pemilahan membaik setelah label diberi contoh.",
+      "Pemilahan membaik setelah kotak dipindah.",
+      "Kegiatan kelas berkurang setelah diberi label.",
+      "Kehadiran murid meningkat setelah kotak diberi contoh."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dalam bacaan, kertas yang “layak pakai ulang” berarti kertas yang..."
+      }
+     ],
+     "opts": [
+      "sudah diolah menjadi bubur.",
+      "masih dapat digunakan kembali.",
+      "belum pernah dipakai.",
+      "wajib disimpan sebagai dokumen."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa hasil percobaan belum dapat digunakan untuk menilai semua kelas?"
+      }
+     ],
+     "opts": [
+      "Catatan dibuat oleh petugas yang sama.",
+      "Catatan hanya berasal dari satu kelas.",
+      "Label dipasang pada kotak yang sudah ada.",
+      "Kotak diletakkan di dekat sampah campuran."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan yang paling sesuai untuk melanjutkan rencana Nara adalah..."
+      }
+     ],
+     "opts": [
+      "Memindah kotak sekaligus mengganti labelnya.",
+      "Mengganti petugas serta menghentikan catatan harian.",
+      "Membandingkan hasil dengan perkiraan tanpa catatan.",
+      "Mencatat hasil sebelum dan sesudah kotak dipindah."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Satu Kursi di Serambi",
+    "paras": [
+     "Ketika hujan turun, Raka tiba di rumah Bu Ratih untuk mengikuti latihan mendongeng. Di serambi hanya tersisa satu kursi kering. Ia segera meletakkan tas di atasnya. Beberapa menit kemudian, Seno datang dengan membawa gulungan gambar. Sepatunya basah, dan ia berdiri di dekat pagar.",
+     "“Kamu boleh duduk di sini,” kata Raka sambil menurunkan tas. Seno menggeleng. Ia menunjuk gulungan di tangannya. “Gambar latarnya bisa basah. Boleh kutaruh di kursi?” Raka mengangguk, lalu mengambil dua lembar koran untuk alas duduk di lantai.",
+     "Saat latihan dimulai, Raka membaca dialog terlalu cepat. Seno beberapa kali hendak memberi tanda, tetapi tangannya kembali turun. Raka teringat kursi yang tadi dianggapnya sekadar tempat duduk. Ia berhenti membaca. “Bagian mana yang perlu kuulang?” tanyanya.",
+     "Seno menunjuk kalimat sebelum tokoh utama membuka pintu. Mereka mencoba memberi jeda pada bagian itu. Ketika latihan diulang, teman-teman dapat mengikuti alurnya dengan lebih mudah. Seusai latihan, Raka membantu Seno menggulung gambar. Kursi di serambi masih dipakai untuk menaruh latar yang tetap kering."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa Seno tidak langsung menerima tawaran duduk?"
+      }
+     ],
+     "opts": [
+      "Ia menunggu hujan reda di dekat pagar.",
+      "Ia memilih kursi lain di ruang latihan.",
+      "Ia hendak membersihkan sepatu sebelum masuk.",
+      "Ia ingin melindungi gambar dari air hujan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan sikap Raka dari semula kurang peka menjadi terbuka terhadap masukan terlihat ketika ia..."
+      }
+     ],
+     "opts": [
+      "menaruh tas di kursi kering sebelum latihan.",
+      "mengambil koran sebagai alas duduk di lantai.",
+      "meminta Seno menunjukkan bagian yang perlu diulang.",
+      "menggulung gambar bersama Seno seusai latihan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna tindakan Seno yang berulang kali menurunkan tangan adalah..."
+      }
+     ],
+     "opts": [
+      "Ia lupa urutan dialog yang dibaca Raka.",
+      "Ia lelah memegang gulungan gambar latar.",
+      "Ia ingin mengakhiri latihan lebih awal.",
+      "Ia ragu menyampaikan saran kepada Raka."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hubungan peristiwa kursi dengan peristiwa latihan adalah..."
+      }
+     ],
+     "opts": [
+      "Keduanya menunjukkan Seno lebih suka bekerja tanpa bantuan.",
+      "Keduanya membuat Raka belajar memahami kebutuhan orang lain.",
+      "Keduanya membuat Raka memutuskan mengganti tempat latihan.",
+      "Keduanya menunjukkan Seno belum menyiapkan perlengkapan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti bahwa saran Seno membantu latihan adalah..."
+      }
+     ],
+     "opts": [
+      "Teman-teman lebih mudah mengikuti alur cerita.",
+      "Gambar latar kering hingga latihan selesai.",
+      "Raka menyediakan alas duduk dari lembaran koran.",
+      "Kursi serambi dipakai untuk meletakkan gambar latar."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Amanat yang paling sesuai dengan cerita tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Pahami kebutuhan teman sebelum menentukan bantuan.",
+      "Dahulukan urusan sendiri sebelum bekerja bersama.",
+      "Utamakan latihan daripada menerima masukan.",
+      "Berikan perlengkapan kepada teman agar tugas cepat selesai."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Petunjuk Peminjaman Kotak Pengamatan",
+    "paras": [
+     "Klub Sains menyediakan kotak pengamatan berisi satu kaca pembesar, satu penggaris, dan dua kartu catatan. Kotak boleh dipinjam untuk kegiatan di halaman sekolah. Satu kelompok hanya boleh meminjam satu kotak dalam satu waktu.",
+     "Sebelum mengambil kotak, ketua kelompok mengisi nama kelompok dan waktu peminjaman pada buku layanan. Periksa isi kotak bersama petugas. Jika ada alat yang rusak atau belum lengkap, laporkan sebelum meninggalkan meja layanan. Petugas akan mencatat keadaan alat dan menyiapkan pengganti jika tersedia.",
+     "Kotak digunakan paling lama 40 menit. Jika masih diperlukan, ketua kelompok harus meminta perpanjangan sebelum batas waktu berakhir. Perpanjangan diberikan hanya jika tidak ada kelompok lain yang menunggu. Peminjam tidak boleh menyerahkan kotak langsung kepada kelompok lain.",
+     "Saat mengembalikan kotak, bersihkan alat dengan kain yang disediakan. Serahkan kotak kepada petugas untuk diperiksa. Peminjaman dianggap selesai setelah petugas memberi tanda kembali pada buku layanan. Jika menemukan alat bermasalah saat penggunaan, hentikan pemakaiannya dan laporkan kepada petugas."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Urutan yang sesuai sebelum kelompok meninggalkan meja layanan adalah..."
+      }
+     ],
+     "opts": [
+      "Memeriksa isi, memakai alat, mengisi buku setelah selesai.",
+      "Mengisi buku, memeriksa isi, melaporkan masalah bila ada.",
+      "Mengisi buku, memakai alat, memeriksa saat pengembalian.",
+      "Memakai alat, meminta tambahan, melaporkan waktu pinjam."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kelompok tiba pukul 09.10 dan langsung meminjam kotak. Tanpa perpanjangan, batas pengembaliannya adalah..."
+      }
+     ],
+     "opts": [
+      "pukul 09.50.",
+      "pukul 09.40.",
+      "pukul 10.10.",
+      "pukul 10.50."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kelompok masih membutuhkan kotak, tetapi kelompok lain sedang menunggu. Apa yang harus dilakukan?"
+      }
+     ],
+     "opts": [
+      "Menyerahkan kotak kepada kelompok penunggu.",
+      "Mengembalikan kotak saat batas waktu berakhir.",
+      "Mengajukan perpanjangan setelah kelompok lain pergi.",
+      "Meminjam kotak kedua sebelum mengembalikan yang lama."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa isi kotak perlu diperiksa bersama petugas sebelum dipakai?"
+      }
+     ],
+     "opts": [
+      "Agar kelompok memilih durasi peminjaman.",
+      "Agar petugas menentukan tujuan pengamatan.",
+      "Agar keadaan awal alat diketahui kedua pihak.",
+      "Agar kelompok dapat menukar aturan penggunaan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kapan peminjaman dinyatakan selesai menurut petunjuk?"
+      }
+     ],
+     "opts": [
+      "Setelah kelompok membersihkan alat dengan kain.",
+      "Setelah petugas menandai pengembalian pada buku.",
+      "Setelah kotak diletakkan kembali di meja layanan.",
+      "Setelah ketua menyampaikan bahwa kegiatan berakhir."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Saat dipakai, penggaris retak dan tidak aman digunakan. Tindakan yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Melanjutkan pengamatan lalu membuang alatnya.",
+      "Menukar alat tanpa mencatat pergantiannya.",
+      "Mengembalikan kotak tanpa melaporkan masalah.",
+      "Menghentikan pemakaian lalu melaporkan kerusakan."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Dua Pendapat tentang Pojok Baca",
+    "paras": [
+     "Pendapat Ayu: “Pojok baca sebaiknya dibuka pada waktu istirahat pertama. Saat itu, masih banyak murid berada di sekitar kelas. Agar pembaca dapat berkonsentrasi, kita dapat membatasi pengunjung menjadi delapan orang setiap giliran. Giliran berikutnya dimulai setelah sepuluh menit. Buku tetap dibaca di pojok baca agar mudah diperiksa sebelum kelas dimulai.”",
+     "Pendapat Beni: “Saya setuju pojok baca dibuka saat istirahat pertama. Akan tetapi, pembatasan giliran bisa menyulitkan murid yang ingin menuntaskan cerita. Saya mengusulkan buku boleh dibawa ke bangku teras kelas, lalu dikembalikan sebelum bel masuk. Peminjam cukup menulis judul buku dan namanya. Dengan begitu, ruang baca bertambah tanpa memindahkan rak.”",
+     "Kelas memiliki delapan tempat duduk di pojok baca dan enam tempat duduk di teras. Teras terlindung dari hujan, tetapi sering dipakai untuk berjalan menuju kelas sebelah. Belum ada catatan tentang jumlah calon pembaca atau lama waktu yang mereka perlukan untuk membaca."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Persamaan pendapat Ayu dan Beni adalah..."
+      }
+     ],
+     "opts": [
+      "Buku dibaca bergiliran sepuluh menit.",
+      "Judul dicatat sebelum buku dibawa.",
+      "Rak buku dipindahkan menuju bangku teras kelas.",
+      "Pojok baca dibuka pada istirahat pertama."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perbedaan utama kedua usulan terletak pada..."
+      }
+     ],
+     "opts": [
+      "pengaturan tempat dan kesempatan membaca.",
+      "penentuan jenis dan harga buku bacaan.",
+      "pembagian tugas penjaga dan pengurus kelas.",
+      "pemilihan waktu pembukaan dan penutupan sekolah."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Alasan Beni mengusulkan penggunaan teras adalah..."
+      }
+     ],
+     "opts": [
+      "Murid memperoleh ruang tambahan untuk membaca.",
+      "Murid dapat menghindari pencatatan buku pinjaman.",
+      "Murid dapat membawa pulang buku sebelum bel masuk.",
+      "Murid memperoleh giliran tetap setiap sepuluh menit."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Informasi tambahan yang paling diperlukan untuk menilai pembagian giliran Ayu adalah..."
+      }
+     ],
+     "opts": [
+      "Jumlah judul dan warna sampul buku.",
+      "Ukuran rak dan tahun pembelian perabot.",
+      "Jumlah peminat dan lama membaca yang dibutuhkan.",
+      "Nama petugas dan jadwal piket kebersihan mingguan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Risiko usulan Beni yang didukung keterangan tentang teras adalah..."
+      }
+     ],
+     "opts": [
+      "Pembaca dapat terganggu murid yang melintas.",
+      "Buku dapat terkena hujan di teras.",
+      "Rak menghalangi pintu setelah dipindah.",
+      "Pembaca boleh membawa buku tanpa batas waktu."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Langkah paling tepat sebelum kelas memilih salah satu usulan adalah..."
+      }
+     ],
+     "opts": [
+      "Memilih cara pertama karena disampaikan lebih dahulu.",
+      "Memilih cara kedua karena menyediakan tempat lebih banyak.",
+      "Menguji kedua cara dan mencatat kelancaran penggunaannya.",
+      "Menggabungkan kedua cara tanpa memeriksa hasil percobaan."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Lampu di Meja Belajar",
+    "paras": [
+     "Di luar, angin mengetuk jendela.<br> Di meja, selembar soal menunggu.<br> Kuhitung lagi langkah yang keliru,<br> namun jawabannya belum bertemu.",
+     "Ibu datang membawa air hangat.<br> Tidak ia tunjukkan letak jawaban.<br> “Istirahatlah, lalu lihat perlahan,”<br> katanya sambil merapikan lipatan.",
+     "Ketika malam semakin sunyi,<br> kubaca kembali baris pertama.<br> Satu langkah kecil kutemukan,<br> dan jalan panjang mulai terbuka."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Suasana batin tokoh pada bait pertama paling tepat digambarkan sebagai..."
+      }
+     ],
+     "opts": [
+      "kesal karena ibu menghentikan pekerjaannya.",
+      "takut karena angin merusak jendela kamarnya.",
+      "lega karena semua kesalahan telah diperbaiki.",
+      "bingung karena belum menemukan jawaban."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Majas pada larik “angin mengetuk jendela” adalah..."
+      }
+     ],
+     "opts": [
+      "hiperbola.",
+      "metafora.",
+      "personifikasi.",
+      "perumpamaan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna “jalan panjang mulai terbuka” dalam puisi adalah..."
+      }
+     ],
+     "opts": [
+      "Pintu rumah dibuka setelah hujan reda.",
+      "Perjalanan malam mulai direncanakan tokoh.",
+      "Cara menyelesaikan soal mulai dipahami.",
+      "Jendela kamar mulai diperbaiki bersama ibu."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap ibu dalam puisi ditunjukkan dengan cara..."
+      }
+     ],
+     "opts": [
+      "mendampingi tanpa mengambil alih pekerjaan.",
+      "mengarahkan dengan menyebut hasil akhir.",
+      "meminta agar tugas segera ditinggalkan.",
+      "menenangkan dengan mengganti soal yang sulit."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan yang dialami tokoh dari awal hingga akhir puisi adalah..."
+      }
+     ],
+     "opts": [
+      "Dari ketakutan menuju keinginan bersembunyi.",
+      "Dari kegembiraan menuju keraguan pada dirinya.",
+      "Dari kejenuhan menuju keinginan berganti tugas.",
+      "Dari kebingungan menuju tumbuhnya harapan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pesan yang paling kuat disampaikan puisi tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Jawaban ditemukan jika orang lain mengerjakan tugas.",
+      "Jeda dan ketekunan dapat membantu menemukan jalan keluar.",
+      "Hindari kesulitan dengan memilih tugas yang mudah.",
+      "Keberhasilan ditentukan oleh lamanya bekerja tanpa berhenti."
+     ],
+     "ans": 1
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
