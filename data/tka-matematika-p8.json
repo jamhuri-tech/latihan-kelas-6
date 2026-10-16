@@ -1,0 +1,740 @@
+{
+ "id": "tka-matematika-p8",
+ "subject": "Matematika",
+ "title": "Prediksi TKA SD 2026 (Paket 8)",
+ "desc": "30 soal pilihan ganda baru: bilangan, pecahan, pengukuran, geometri, tabel data, dan penalaran. Setiap jawaban dilengkapi penjelasan langkah pengerjaan.",
+ "sections": [
+  {
+   "title": "A. Bilangan dan Pemecahan Masalah (1–10)",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $960 : (18 - 6) + 7 \\times 15$ adalah..."
+      }
+     ],
+     "opts": [
+      "185",
+      "145",
+      "175",
+      "195"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Kerjakan isi kurung: 18 − 6 = 12.",
+      "Kerjakan pembagian dan perkalian: 960 : 12 = 80 dan 7 × 15 = 105.",
+      "Jumlahkan: 80 + 105 = 185."
+     ]
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Suhu ruang pendingin mula-mula $-8^{\\circ}$C. Suhu naik $13^{\\circ}$C, kemudian turun $6^{\\circ}$C. Suhu akhirnya adalah..."
+      }
+     ],
+     "opts": [
+      "$-1^{\\circ}$C",
+      "$-3^{\\circ}$C",
+      "$1^{\\circ}$C",
+      "$3^{\\circ}$C"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Setelah naik 13°C, suhu menjadi −8 + 13 = 5°C.",
+      "Kemudian suhu turun 6°C: 5 − 6 = −1°C."
+     ]
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Persediaan tepung $3\\frac{1}{2}$ kg. Sebanyak $\\frac{3}{4}$ kg dipakai untuk roti dan $1\\frac{2}{5}$ kg untuk kue. Sisa tepung adalah..."
+      }
+     ],
+     "opts": [
+      "$1\\frac{3}{20}$ kg",
+      "$1\\frac{9}{20}$ kg",
+      "$1\\frac{7}{20}$ kg",
+      "$2\\frac{7}{20}$ kg"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Samakan penyebut: $3\\frac{1}{2}=\\frac{70}{20}$, $\\frac{3}{4}=\\frac{15}{20}$, dan $1\\frac{2}{5}=\\frac{28}{20}$.",
+      "Sisa tepung = $\\frac{70-15-28}{20}=\\frac{27}{20}=1\\frac{7}{20}$ kg."
+     ]
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebanyak $\\frac{3}{5}$ dari 150 bibit ditanam pada hari Senin. Pada hari Selasa, $\\frac{2}{3}$ dari bibit yang tersisa ditanam. Banyak bibit yang belum ditanam adalah..."
+      }
+     ],
+     "opts": [
+      "30 bibit",
+      "40 bibit",
+      "20 bibit",
+      "60 bibit"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Senin: 3/5 × 150 = 90 bibit ditanam, sehingga tersisa 60 bibit.",
+      "Selasa: 2/3 × 60 = 40 bibit ditanam.",
+      "Bibit yang belum ditanam = 60 − 40 = 20 bibit."
+     ]
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Satu adonan memerlukan $\\frac{2}{3}$ liter susu. Persediaan susu $2\\frac{1}{2}$ liter. Banyak adonan utuh paling banyak yang dapat dibuat adalah..."
+      }
+     ],
+     "opts": [
+      "2 adonan",
+      "3 adonan",
+      "4 adonan",
+      "5 adonan"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Bagi persediaan dengan kebutuhan per adonan: $\\frac{5}{2}:\\frac{2}{3}=\\frac{15}{4}=3\\frac{3}{4}$.",
+      "Karena yang diminta adonan utuh, hanya 3 adonan yang dapat dibuat. Adonan keempat membutuhkan susu tambahan."
+     ]
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Harga sebuah tas Rp160.000,00. Toko memberi diskon $15\\%$. Harga tas setelah diskon adalah..."
+      }
+     ],
+     "opts": [
+      "Rp124.000,00",
+      "Rp136.000,00",
+      "Rp144.000,00",
+      "Rp145.000,00"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Potongan harga = 15/100 × Rp160.000,00 = Rp24.000,00.",
+      "Harga setelah diskon = Rp160.000,00 − Rp24.000,00 = Rp136.000,00."
+     ]
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perbandingan pita merah dan biru adalah $4 : 7$. Jumlah keduanya 66 meter. Selisih panjang kedua pita adalah..."
+      }
+     ],
+     "opts": [
+      "12 meter",
+      "24 meter",
+      "30 meter",
+      "18 meter"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Jumlah bagian = 4 + 7 = 11 bagian. Setiap bagian = 66 : 11 = 6 meter.",
+      "Selisih = (7 − 4) × 6 = 18 meter."
+     ]
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dua lampu menyala berkala setiap 14 detik dan 21 detik. Keduanya menyala bersama pada detik ke-0. Sampai dengan detik ke-126, berapa kali keduanya menyala bersama lagi, tanpa menghitung detik ke-0?"
+      }
+     ],
+     "opts": [
+      "2 kali",
+      "4 kali",
+      "6 kali",
+      "3 kali"
+     ],
+     "ans": 3,
+     "explanation": [
+      "KPK dari 14 dan 21 adalah 42. Jadi, kedua lampu menyala bersama setiap 42 detik.",
+      "Setelah detik ke-0, keduanya menyala bersama pada detik ke-42, ke-84, dan ke-126.",
+      "Ada 3 kali penyalaan bersama yang dihitung."
+     ]
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebanyak 84 pensil dan 126 penghapus dimasukkan ke paket sebanyak mungkin. Setiap paket berisi jumlah pensil yang sama dan jumlah penghapus yang sama, tanpa sisa. Jumlah seluruh barang dalam setiap paket adalah..."
+      }
+     ],
+     "opts": [
+      "3 barang",
+      "5 barang",
+      "6 barang",
+      "7 barang"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Banyak paket maksimum = FPB(84, 126) = 42 paket.",
+      "Setiap paket berisi 84 : 42 = 2 pensil dan 126 : 42 = 3 penghapus.",
+      "Jumlah seluruh barang per paket = 2 + 3 = 5 barang."
+     ]
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Urutan dari nilai terkecil ke terbesar yang benar adalah..."
+      }
+     ],
+     "opts": [
+      "$\\frac{3}{5} < 0,58 < 62\\%$",
+      "$0,58 < \\frac{3}{5} < 62\\%$",
+      "$62\\% < 0,58 < \\frac{3}{5}$",
+      "$0,58 < 62\\% < \\frac{3}{5}$"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Ubah semuanya ke desimal: 0,58; 3/5 = 0,60; dan 62% = 0,62.",
+      "Urutan naiknya adalah 0,58 < 0,60 < 0,62."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "B. Geometri dan Pengukuran (11–20)",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Denah menggunakan skala 1 : 2.500. Jarak rumah ke sekolah pada denah 7,2 cm. Jarak sebenarnya adalah..."
+      }
+     ],
+     "opts": [
+      "150 meter",
+      "175 meter",
+      "200 meter",
+      "180 meter"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Jarak sebenarnya = 7,2 × 2.500 = 18.000 cm.",
+      "Ubah ke meter: 18.000 : 100 = 180 meter."
+     ]
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Taman berbentuk persegi panjang memiliki panjang 24 m dan lebar 15 m. Seluruh tepinya dipagari, kecuali pintu selebar 3 m. Panjang pagar yang diperlukan adalah..."
+      }
+     ],
+     "opts": [
+      "72 meter",
+      "75 meter",
+      "78 meter",
+      "81 meter"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Keliling taman = 2 × (24 + 15) = 78 meter.",
+      "Bagian pintu tidak dipagari. Panjang pagar = 78 − 3 = 75 meter."
+     ]
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah halaman berbentuk persegi panjang berukuran 20 m $\\times$ 14 m. Sebidang persegi panjang berukuran 8 m $\\times$ 5 m di salah satu sudut dipakai untuk gudang. Luas halaman yang tersisa adalah..."
+      }
+     ],
+     "opts": [
+      "$220\\ \\mathrm{m}^2$",
+      "$250\\ \\mathrm{m}^2$",
+      "$260\\ \\mathrm{m}^2$",
+      "$240\\ \\mathrm{m}^2$"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Luas seluruh halaman = 20 × 14 = 280 m².",
+      "Luas gudang = 8 × 5 = 40 m².",
+      "Luas yang tersisa = 280 − 40 = 240 m²."
+     ]
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Segitiga memiliki luas $126\\ \\mathrm{cm}^2$ dan tinggi 14 cm. Panjang alasnya adalah..."
+      }
+     ],
+     "opts": [
+      "16 cm",
+      "20 cm",
+      "18 cm",
+      "24 cm"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Luas segitiga = 1/2 × alas × tinggi. Jadi, alas = 2 × luas : tinggi.",
+      "Alas = 2 × 126 : 14 = 252 : 14 = 18 cm."
+     ]
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah roda berdiameter 70 cm berputar 15 kali tanpa tergelincir. Dengan $\\pi=\\frac{22}{7}$, jarak yang ditempuh adalah..."
+      }
+     ],
+     "opts": [
+      "33 meter",
+      "22 meter",
+      "30 meter",
+      "35 meter"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Jarak satu putaran sama dengan keliling roda: 22/7 × 70 = 220 cm.",
+      "Untuk 15 putaran: 220 × 15 = 3.300 cm.",
+      "Ubah ke meter: 3.300 : 100 = 33 meter."
+     ]
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah kubus memiliki jumlah panjang seluruh rusuk 96 cm. Volume kubus itu adalah..."
+      }
+     ],
+     "opts": [
+      "$216\\ \\mathrm{cm}^3$",
+      "$512\\ \\mathrm{cm}^3$",
+      "$384\\ \\mathrm{cm}^3$",
+      "$576\\ \\mathrm{cm}^3$"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Kubus memiliki 12 rusuk sama panjang. Panjang satu rusuk = 96 : 12 = 8 cm.",
+      "Volume = 8 × 8 × 8 = 512 cm³."
+     ]
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Akuarium berbentuk balok memiliki ukuran bagian dalam 60 cm $\\times$ 35 cm $\\times$ 40 cm. Air mengisi $\\frac{3}{4}$ tinggi akuarium. Volume air adalah..."
+      }
+     ],
+     "opts": [
+      "42 liter",
+      "56 liter",
+      "63 liter",
+      "84 liter"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Tinggi air = 3/4 × 40 = 30 cm.",
+      "Volume air = 60 × 35 × 30 = 63.000 cm³.",
+      "Karena 1 liter = 1.000 cm³, volume air = 63 liter."
+     ]
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah minibus berangkat pukul 07.45. Jarak tujuan 135 km dan kecepatan tetap 54 km/jam. Di perjalanan, minibus berhenti 25 menit. Pukul berapa minibus tiba?"
+      }
+     ],
+     "opts": [
+      "10.10",
+      "10.15",
+      "10.30",
+      "10.40"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Waktu bergerak = 135 : 54 = 2,5 jam = 2 jam 30 menit.",
+      "Tambahkan waktu berhenti: 2 jam 30 menit + 25 menit = 2 jam 55 menit.",
+      "07.45 + 2 jam 55 menit = 10.40."
+     ]
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah segitiga memiliki dua sudut sebesar $48^{\\circ}$ dan $67^{\\circ}$. Besar sudut ketiganya adalah..."
+      }
+     ],
+     "opts": [
+      "$65^{\\circ}$",
+      "$55^{\\circ}$",
+      "$75^{\\circ}$",
+      "$85^{\\circ}$"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Jumlah ketiga sudut segitiga adalah 180°.",
+      "Dua sudut berjumlah 48° + 67° = 115°.",
+      "Sudut ketiga = 180° − 115° = 65°."
+     ]
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dua keran mengisi bak kosong secara bersamaan. Keran pertama mengalirkan 12 liter/menit dan keran kedua 8 liter/menit. Jika kapasitas bak 300 liter dan tidak ada kebocoran, waktu hingga bak penuh adalah..."
+      }
+     ],
+     "opts": [
+      "12 menit",
+      "18 menit",
+      "20 menit",
+      "15 menit"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Debit gabungan = 12 + 8 = 20 liter/menit.",
+      "Waktu = volume : debit = 300 : 20 = 15 menit."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "C. Gunakan Tabel 1 untuk soal nomor 21 sampai 25.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 1. Hasil panen kebun sekolah selama empat pekan",
+     "head": [
+      "Pekan",
+      "I",
+      "II",
+      "III",
+      "IV"
+     ],
+     "rows": [
+      [
+       "Tomat (kg)",
+       "18",
+       "24",
+       "21",
+       "29"
+      ],
+      [
+       "Cabai (kg)",
+       "12",
+       "16",
+       "14",
+       "18"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jumlah hasil panen tomat selama empat pekan adalah..."
+      }
+     ],
+     "opts": [
+      "82 kg",
+      "88 kg",
+      "96 kg",
+      "92 kg"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Jumlahkan hasil panen tomat: 18 + 24 + 21 + 29 = 92 kg."
+     ]
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rata-rata hasil panen cabai per pekan adalah..."
+      }
+     ],
+     "opts": [
+      "14 kg",
+      "16 kg",
+      "15 kg",
+      "18 kg"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Total panen cabai = 12 + 16 + 14 + 18 = 60 kg.",
+      "Ada 4 pekan, jadi rata-rata = 60 : 4 = 15 kg per pekan."
+     ]
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kenaikan hasil panen tomat terbesar dibandingkan pekan sebelumnya terjadi pada..."
+      }
+     ],
+     "opts": [
+      "pekan IV",
+      "pekan I",
+      "pekan II",
+      "pekan III"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Pekan II dibanding I: 24 − 18 = naik 6 kg.",
+      "Pekan III dibanding II: 21 − 24 = turun 3 kg.",
+      "Pekan IV dibanding III: 29 − 21 = naik 8 kg. Kenaikan terbesar terjadi pada pekan IV. Pekan I tidak memiliki data pekan sebelumnya."
+     ]
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Selisih antara jumlah panen tomat dan jumlah panen cabai selama empat pekan adalah..."
+      }
+     ],
+     "opts": [
+      "28 kg",
+      "30 kg",
+      "32 kg",
+      "36 kg"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Jumlah tomat = 18 + 24 + 21 + 29 = 92 kg.",
+      "Jumlah cabai = 12 + 16 + 14 + 18 = 60 kg.",
+      "Selisih = 92 − 60 = 32 kg."
+     ]
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil panen tomat dan cabai pekan V ditargetkan membuat jumlah panen keduanya selama lima pekan mencapai 200 kg. Berapa jumlah panen yang diperlukan pada pekan V?"
+      }
+     ],
+     "opts": [
+      "40 kg",
+      "48 kg",
+      "44 kg",
+      "52 kg"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Total empat pekan = 92 kg tomat + 60 kg cabai = 152 kg.",
+      "Kebutuhan pekan V = 200 − 152 = 48 kg."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "D. Penalaran dalam Kehidupan Sehari-hari (26–30)",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rata-rata nilai lima ulangan Nisa adalah 82. Empat nilai pertama adalah 78, 85, 80, dan 87. Nilai ulangan kelima adalah..."
+      }
+     ],
+     "opts": [
+      "80",
+      "75",
+      "82",
+      "85"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Jumlah lima nilai = 5 × 82 = 410.",
+      "Jumlah empat nilai pertama = 78 + 85 + 80 + 87 = 330.",
+      "Nilai kelima = 410 − 330 = 80."
+     ]
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Toko A menjual 5 buku tulis seharga Rp22.500,00 per paket. Toko B menjual 4 buku tulis yang sama seharga Rp19.200,00 per paket. Jika Dita membeli tepat 20 buku dalam paket utuh, berapa penghematannya jika memilih Toko A?"
+      }
+     ],
+     "opts": [
+      "Rp6.000,00",
+      "Rp3.000,00",
+      "Rp4.500,00",
+      "Rp9.000,00"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Toko A: 20 : 5 = 4 paket. Biaya = 4 × Rp22.500,00 = Rp90.000,00.",
+      "Toko B: 20 : 4 = 5 paket. Biaya = 5 × Rp19.200,00 = Rp96.000,00.",
+      "Penghematan = Rp96.000,00 − Rp90.000,00 = Rp6.000,00."
+     ]
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah kantong berisi 5 kelereng merah, 3 biru, dan 2 hijau. Satu kelereng diambil tanpa melihat. Peluang mengambil kelereng yang bukan biru adalah..."
+      }
+     ],
+     "opts": [
+      "$\\frac{3}{10}$",
+      "$\\frac{5}{10}$",
+      "$\\frac{7}{10}$",
+      "$\\frac{8}{10}$"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Jumlah semua kelereng = 5 + 3 + 2 = 10.",
+      "Kelereng bukan biru = merah + hijau = 5 + 2 = 7.",
+      "Peluang bukan biru = 7/10."
+     ]
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah pola memiliki banyak titik 4, 7, 10, 13, dan seterusnya. Jika setiap suku selalu bertambah 3 titik, banyak titik pada suku ke-12 adalah..."
+      }
+     ],
+     "opts": [
+      "37 titik",
+      "34 titik",
+      "36 titik",
+      "40 titik"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Dari suku pertama ke suku ke-12 terdapat 11 kali penambahan.",
+      "Jumlah tambahan = 11 × 3 = 33 titik.",
+      "Banyak titik suku ke-12 = 4 + 33 = 37 titik."
+     ]
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dari 45 murid, $\\frac{2}{5}$ memilih klub musik, $\\frac{1}{3}$ memilih klub olahraga, dan sisanya memilih klub sains. Setiap murid memilih tepat satu klub. Berapa murid memilih klub sains?"
+      }
+     ],
+     "opts": [
+      "10 murid",
+      "12 murid",
+      "15 murid",
+      "18 murid"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Klub musik: 2/5 × 45 = 18 murid. Klub olahraga: 1/3 × 45 = 15 murid.",
+      "Jumlah keduanya = 18 + 15 = 33 murid.",
+      "Klub sains = 45 − 33 = 12 murid."
+     ]
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
