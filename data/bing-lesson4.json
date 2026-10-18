@@ -1,0 +1,586 @@
+{
+ "id": "bing-lesson4",
+ "subject": "Bahasa Inggris",
+ "title": "Lesson 4: I Was Excited Visiting My Grandparents",
+ "desc": "30 soal khusus Basic English 6 Lesson 4: feelings, was/were, ungkapan senang dan simpati, bacaan pendek, serta susunan kalimat. Soal latihan disusun mandiri.",
+ "sections": [
+  {
+   "title": "A. Feelings Vocabulary (1–8)",
+   "passage": null,
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nina looked forward to meeting her grandparents. She could hardly wait for the visit. She was <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "excited",
+      "angry",
+      "bored",
+      "scared"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Fajar lost his favourite toy. He cried because he missed it. He was <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "proud",
+      "calm",
+      "glad",
+      "sad"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Someone broke Tia’s model on purpose. Tia said, “That was very unkind!” She was <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "sleepy",
+      "proud",
+      "relaxed",
+      "angry"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A big dog barked loudly and ran towards Beni. He hid behind his father. He was <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "bored",
+      "scared",
+      "proud",
+      "excited"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "After walking a long way, I needed to rest. I was <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "tired",
+      "angry",
+      "proud",
+      "surprised"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The same programme played again and again. Deni wanted something different to do. He was <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "proud",
+      "bored",
+      "scared",
+      "excited"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sari worked hard and won a drawing prize. Her parents said, “You did very well!” They were <span class=\"blank\">&nbsp;</span> of her."
+      }
+     ],
+     "opts": [
+      "bored",
+      "afraid",
+      "tired",
+      "proud"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Riko did not know his cousins were coming. When they suddenly arrived, he opened his eyes wide. He was <span class=\"blank\">&nbsp;</span>."
+      }
+     ],
+     "opts": [
+      "surprised",
+      "bored",
+      "sleepy",
+      "lonely"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "B. Was, Were, and Past Feelings (9–16)",
+   "passage": null,
+   "items": [
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Yesterday, I <span class=\"blank\">&nbsp;</span> excited to see my grandparents."
+      }
+     ],
+     "opts": [
+      "were",
+      "am",
+      "are",
+      "was"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "My cousins <span class=\"blank\">&nbsp;</span> happy at the family picnic last Sunday."
+      }
+     ],
+     "opts": [
+      "was",
+      "is",
+      "were",
+      "are"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Grandmother <span class=\"blank\">&nbsp;</span> tired after the long journey yesterday."
+      }
+     ],
+     "opts": [
+      "were",
+      "am",
+      "are",
+      "was"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "You and I <span class=\"blank\">&nbsp;</span> sad when the holiday ended."
+      }
+     ],
+     "opts": [
+      "were",
+      "was",
+      "am",
+      "is"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Complete the negative sentence: “I <span class=\"blank\">&nbsp;</span> afraid of the kitten yesterday.”"
+      }
+     ],
+     "opts": [
+      "were not",
+      "was not",
+      "did not",
+      "do not"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Complete the question: “<span class=\"blank\">&nbsp;</span> your grandparents pleased with your visit last weekend?”"
+      }
+     ],
+     "opts": [
+      "Were",
+      "Was",
+      "Are",
+      "Is"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Maya: “Was Dina sad yesterday?” Rudi: “No, <span class=\"blank\">&nbsp;</span>. She was happy.”"
+      }
+     ],
+     "opts": [
+      "she did not",
+      "she were not",
+      "she was not",
+      "she does not"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Choose the correct sentence about yesterday."
+      }
+     ],
+     "opts": [
+      "The children was excited.",
+      "The children did excited.",
+      "The children are excited yesterday.",
+      "The children were excited."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "C. Happiness, Sympathy, and Dialogues (17–22)",
+   "passage": null,
+   "items": [
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nina: “I won the school reading competition!” You want to share her happiness. What should you say?"
+      }
+     ],
+     "opts": [
+      "I am sorry to hear that.",
+      "Congratulations! Well done!",
+      "Please be quiet in class.",
+      "Be careful on your way home."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dani: “My grandmother was ill yesterday.” Which reply shows sympathy?"
+      }
+     ],
+     "opts": [
+      "What wonderful news!",
+      "Congratulations on the prize!",
+      "I am sorry to hear that.",
+      "Thank you for the birthday gift."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ayu: “I was happy because my grandfather came to my birthday party.” Which reply shares her joy?"
+      }
+     ],
+     "opts": [
+      "I am sorry for your loss.",
+      "Please return my ruler.",
+      "I am glad to hear that.",
+      "Be careful with the hot tea."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bima: “I lost my new storybook yesterday.” Which reply shows sympathy for his problem?"
+      }
+     ],
+     "opts": [
+      "That is great.",
+      "That is a pity.",
+      "Well done, Bima.",
+      "Congratulations, Bima."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rani: “How did you feel when you met your grandparents?” Tono: “<span class=\"blank\">&nbsp;</span>”"
+      }
+     ],
+     "opts": [
+      "I went there by bus.",
+      "I was very happy.",
+      "I stayed for two days.",
+      "I visited them on Sunday."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Adit: “Why were you sad yesterday?” Lina: “<span class=\"blank\">&nbsp;</span>”"
+      }
+     ],
+     "opts": [
+      "Because I lost my cat.",
+      "At my aunt’s new house.",
+      "With my younger brother.",
+      "After lunch on Sunday."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "D. Read the text for questions 23–27.",
+   "passage": {
+    "title": "A Visit to Our Grandparents",
+    "paras": [
+     "Last Saturday, Lala and her brother Arman visited their grandparents in a village. Lala was excited because she had not seen them for a month. Their grandparents were happy to welcome them.",
+     "In the afternoon, Lala helped Grandmother make cakes. Arman helped Grandfather in the garden. Arman was tired after working, but he was proud of the clean garden.",
+     "Before they went home, Grandmother gave them some cakes. Lala was sad because the visit was over. Arman said, “We can visit again next month.” Lala smiled and thanked her grandparents."
+    ]
+   },
+   "items": [
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "When did Lala and Arman visit their grandparents?"
+      }
+     ],
+     "opts": [
+      "Last Monday.",
+      "Last Wednesday.",
+      "Last Saturday.",
+      "Last Friday."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Why was Lala excited before the visit?"
+      }
+     ],
+     "opts": [
+      "She had not seen her grandparents for a month.",
+      "She had won a school competition that morning.",
+      "She had received a new storybook from her aunt.",
+      "She had finished making cakes before the trip."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "How did Arman feel after helping in the garden?"
+      }
+     ],
+     "opts": [
+      "Tired but proud.",
+      "Tired and angry.",
+      "Scared but proud.",
+      "Bored and lonely."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Why was Lala sad before going home?"
+      }
+     ],
+     "opts": [
+      "The cakes were burnt.",
+      "The visit was over.",
+      "The garden was dirty.",
+      "The bus was late."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Who does “they” refer to in “Before they went home”?"
+      }
+     ],
+     "opts": [
+      "Grandmother and Lala.",
+      "Grandfather and Arman.",
+      "Lala and Arman.",
+      "The two grandparents."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "E. Word Order (28–30)",
+   "passage": null,
+   "items": [
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Choose the correct sentence using these words: “were / yesterday / we / happy”."
+      }
+     ],
+     "opts": [
+      "We happy were yesterday.",
+      "Were we yesterday happy.",
+      "We yesterday were happy?",
+      "We were happy yesterday."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Choose the correct question using these words: “was / why / she / sad”."
+      }
+     ],
+     "opts": [
+      "Why she was sad?",
+      "Why was she sad?",
+      "Was why she sad?",
+      "Why sad she was?"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Choose the correct sentence using these words: “not / was / he / tired”."
+      }
+     ],
+     "opts": [
+      "He not was tired.",
+      "Was he not tired.",
+      "He was not tired.",
+      "He tired was not."
+     ],
+     "ans": 2
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
