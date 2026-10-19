@@ -1,0 +1,627 @@
+{
+ "id": "tka-bahasa-indonesia-p9",
+ "subject": "Bahasa Indonesia",
+ "title": "TKA Bahasa Indonesia SD 2026 (Paket 9)",
+ "desc": "30 soal pilihan ganda berbasis lima bacaan baru: pemahaman tekstual, inferensial, evaluasi dan apresiasi. Mengacu cakupan resmi SD; latihan mandiri, bukan soal resmi.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Rak Payung di Serambi",
+    "paras": [
+     "Serambi sekolah sering basah saat hujan. Murid biasanya meletakkan payung dekat pintu. Air menetes dari ujung payung. Lantai pun menjadi licin. Petugas harus mengepelnya beberapa kali. Keadaan itu mengganggu jalan masuk kelas.",
+     "Pak Jaya mengajak murid mencari cara. Mereka membuat rak dari kayu bekas. Rak ditempatkan di sudut serambi. Setiap celah diberi nomor berbeda. Di bawahnya dipasang baki penampung air. Baki dapat ditarik untuk dikosongkan.",
+     "Murid mendapat nomor sesuai tempat payungnya. Nomor ditulis pada kartu kecil. Kartu disimpan sampai waktu pulang. Mereka menutup payung sebelum menyimpannya. Payung dimasukkan dengan ujung menghadap baki. Dengan begitu, air tertampung di bawah.",
+     "Petugas piket memeriksa baki saat istirahat. Mereka mengosongkannya sebelum air meluap. Selain itu, rak diperiksa setiap pekan. Kayu yang longgar segera diperbaiki. Kartu nomor juga dihitung kembali. Semua tugas dilakukan secara bergiliran.",
+     "Setelah sepekan, lantai serambi lebih kering. Murid juga mudah menemukan payungnya. Namun, rak bukan alasan untuk berlari. Murid tetap berjalan perlahan di serambi. Pak Jaya mengingatkan pentingnya perawatan rutin. Rak berguna jika digunakan dengan tertib."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa kegunaan baki di bawah rak?"
+      }
+     ],
+     "opts": [
+      "Menyimpan kartu nomor milik para murid.",
+      "Menampung air yang menetes dari payung.",
+      "Menahan kayu rak agar tidak bergeser.",
+      "Menutup payung sebelum dimasukkan ke rak."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kapan petugas memeriksa kayu rak?"
+      }
+     ],
+     "opts": [
+      "Setiap pagi.",
+      "Setiap istirahat.",
+      "Setiap pulang.",
+      "Setiap pekan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa kartu nomor disimpan sampai pulang?"
+      }
+     ],
+     "opts": [
+      "Kartunya dipakai petugas untuk mengepel.",
+      "Nomornya menentukan giliran murid pulang.",
+      "Nomornya membantu murid menemukan payung.",
+      "Kartunya melindungi payung dari tetesan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan yang sesuai dengan akhir bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Rak memerlukan penggunaan dan perawatan tertib.",
+      "Rak membuat seluruh tugas piket tidak diperlukan.",
+      "Rak mengubah jadwal pulang semua murid sekolah.",
+      "Rak menghilangkan kebutuhan memeriksa serambi."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika baki hampir penuh, tindakan yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Menggeser rak menuju bagian tengah pintu.",
+      "Membagikan kartu baru kepada seluruh murid.",
+      "Mengosongkan baki sebelum airnya meluap.",
+      "Membuka semua payung agar cepat mengering."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Catatan mana yang tidak sesuai dengan bacaan?"
+      }
+     ],
+     "opts": [
+      "Payung disimpan dalam keadaan terbuka.",
+      "Kartu nomor dibawa sampai waktu pulang.",
+      "Petugas merawat rak secara bergiliran.",
+      "Rak diletakkan pada sudut serambi sekolah."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Halaman Buku yang Robek",
+    "paras": [
+     "Aku meminjam buku dari perpustakaan kampung. Sampulnya memuat gambar kapal layar. Aku membacanya sepulang sekolah di teras. Tiba-tiba adikku berlari mendekati kursi. Tangannya menyenggol gelas di meja. Aku segera mengangkat buku itu.",
+     "Namun, jariku menarik satu halaman. Tepi halaman itu menjadi robek. Aku menatapnya dengan dada berdebar. Buku harus kukembalikan sore nanti. Aku takut petugas akan memarahiku. Aku sempat ingin menyembunyikan kerusakan itu.",
+     "Ibu melihatku duduk sambil menunduk. Aku lalu menceritakan kejadian tadi. Ibu mendengarkan tanpa memotong ceritaku. Ia menyarankan aku berbicara kepada petugas. Aku memasukkan buku ke dalam tas. Aku juga membawa halaman yang robek.",
+     "Di perpustakaan, aku menemui Bu Tini. Aku menunjukkan bagian yang rusak. Aku menjelaskan kejadian itu dengan jujur. Bu Tini mengambil kertas pelapis khusus. Ia menunjukkan cara memperbaiki tepi halaman. Aku membantunya menahan buku agar terbuka.",
+     "Setelah selesai, aku mengucapkan terima kasih. Bu Tini mengingatkanku menjaga buku pinjaman. Aku mengangguk dan merasa lega. Aku memilih tempat membaca lebih aman. Gelas minum kupindahkan ke meja lain. Buku berikutnya kukembalikan dalam keadaan baik."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang menyebabkan halaman buku robek?"
+      }
+     ],
+     "opts": [
+      "Gelas adik menimpa seluruh buku.",
+      "Jari tokoh menarik sebuah halaman.",
+      "Ibu memotong tepi halaman buku.",
+      "Petugas melepas kertas pelapis buku."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Siapa yang menyarankan tokoh berbicara kepada petugas?"
+      }
+     ],
+     "opts": [
+      "Adik tokoh.",
+      "Ibu tokoh.",
+      "Bu Tini.",
+      "Teman tokoh."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan perasaan tokoh setelah buku diperbaiki adalah..."
+      }
+     ],
+     "opts": [
+      "Dari marah menjadi takut.",
+      "Dari lega menjadi kecewa.",
+      "Dari takut menjadi lega.",
+      "Dari bangga menjadi marah."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tokoh membawa halaman yang robek?"
+      }
+     ],
+     "opts": [
+      "Agar bagian yang rusak dapat diperbaiki.",
+      "Agar halaman itu dapat dibaca adiknya.",
+      "Agar petugas mengganti gambar sampulnya.",
+      "Agar ibu dapat memilih buku yang baru."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perilaku yang mencerminkan amanat cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Mengembalikan barang tanpa memeriksa isinya.",
+      "Meminta orang lain menyembunyikan kesalahan.",
+      "Melaporkan kerusakan barang yang dipinjam.",
+      "Menunda pengembalian sampai petugas berganti."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tanggapan paling sesuai terhadap tindakan Bu Tini adalah..."
+      }
+     ],
+     "opts": [
+      "Ia membantu tokoh belajar bertanggung jawab.",
+      "Ia membiarkan tokoh membawa buku tanpa izin.",
+      "Ia mengalihkan kesalahan tokoh kepada adik.",
+      "Ia meminta ibu mengambil alih tugas perbaikan."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Menimbang Sisa Bekal",
+    "paras": [
+     "Kelas VI mengadakan pengamatan sisa bekal. Pengamatan dilakukan selama lima hari sekolah. Murid ingin mengetahui banyak makanan terbuang. Mereka hanya menimbang sisa makanan padat. Air minum tidak masuk dalam catatan. Setiap kelompok memakai wadah yang sama.",
+     "Sebelum digunakan, wadah kosong ditimbang dahulu. Setelah makan, sisa bekal dimasukkan bersama. Petugas lalu menimbang wadah beserta isinya. Berat wadah dikurangi dari hasil penimbangan. Hasilnya dicatat sebagai berat sisa makanan. Petugas mencatatnya dalam tabel harian.",
+     "Pada Senin, sisa makanan cukup banyak. Beberapa murid membawa bekal terlalu besar. Hari berikutnya, mereka membawa porsi secukupnya. Bekal tambahan tetap tersedia dalam kotak terpisah. Murid boleh menambah jika masih lapar. Makanan belum tersentuh disimpan dalam kotaknya.",
+     "Pada akhir pekan, kelompok membandingkan catatan. Sisa pada Jumat lebih sedikit daripada Senin. Namun, mereka tidak langsung menyimpulkan keberhasilan. Ada empat murid tidak hadir Jumat. Jumlah murid hadir ikut memengaruhi hasil. Catatan kehadiran perlu diperiksa bersama tabel.",
+     "Kelas berencana mengulang pengamatan pekan berikutnya. Mereka akan mencatat kehadiran setiap hari. Jenis bekal juga akan dicatat. Seluruh murid diminta tetap makan cukup. Tujuannya bukan mengurangi kebutuhan makan mereka. Pengamatan membantu murid merencanakan porsi bekal."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dicatat sebagai berat sisa makanan?"
+      }
+     ],
+     "opts": [
+      "Berat wadah setelah semua isinya dibuang.",
+      "Berat seluruh bekal sebelum murid makan.",
+      "Berat isi setelah berat wadah dikurangi.",
+      "Berat air minum setelah bekal dihabiskan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bahan apa yang tidak dimasukkan dalam penimbangan?"
+      }
+     ],
+     "opts": [
+      "Sisa nasi.",
+      "Sisa lauk.",
+      "Sisa sayur.",
+      "Air minum."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa catatan kehadiran perlu diperiksa?"
+      }
+     ],
+     "opts": [
+      "Jumlah murid hadir menentukan berat wadah.",
+      "Jumlah murid hadir dapat memengaruhi sisa.",
+      "Jenis bekal selalu sama pada setiap hari.",
+      "Wadah yang kosong hanya dipakai hari Jumat."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ide pokok bacaan tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Pembagian bekal tambahan untuk mengganti makan pagi.",
+      "Perubahan jumlah murid setelah pengamatan makanan.",
+      "Pembuatan wadah baru untuk membawa seluruh bekal.",
+      "Pengamatan sisa makanan untuk merencanakan bekal."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan yang didukung informasi bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Sisa Jumat turun karena seluruh murid berpuasa.",
+      "Berat wadah berubah mengikuti jenis lauk bekal.",
+      "Bekal tambahan diberikan hanya kepada petugas.",
+      "Sisa Jumat turun saat kehadiran juga berkurang."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Saran yang paling sesuai dengan tujuan kegiatan adalah..."
+      }
+     ],
+     "opts": [
+      "Membawa sedikit bekal agar catatan selalu turun.",
+      "Membawa porsi cukup dan menambah bila perlu.",
+      "Membuang sisa bekal sebelum petugas menimbang.",
+      "Menghapus data hari ketika banyak murid hadir."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Peluit yang Kutunda",
+    "paras": [
+     "Aku bertugas memberi aba-aba latihan lari. Teman-temanku berkumpul di lapangan sekolah. Setiap kelompok menunggu di belakang garis. Aku menggantungkan peluit pada leherku. Aku ingin latihan segera dimulai. Semua kelompok harus mendapat giliran hari ini.",
+     "Ketika kuangkat peluit, Dito mengangkat tangan. Tali sepatunya terlepas di sebelah kanan. Aku hampir menyuruhnya berlari saja. Namun, aku melihat ujung tali menjuntai. Aku teringat pesan guru olahraga. Kami harus memeriksa kesiapan sebelum berlari.",
+     "Aku menurunkan peluit dan mendekati Dito. Aku memintanya mengikat tali terlebih dahulu. Teman lain menunggu di belakang garis. Mereka ikut memeriksa sepatu masing-masing. Seorang teman merapikan kaus kakinya. Aku memastikan lintasan tidak terhalang barang.",
+     "Setelah semua siap, aku memberi aba-aba. Kelompok pertama mulai berlari bersama. Kelompok berikutnya menunggu sampai lintasan kosong. Aku mencatat giliran dalam buku kecil. Aku tetap memperhatikan keadaan setiap kelompok. Latihan berlangsung sampai semua mendapat kesempatan.",
+     "Seusai latihan, Dito menghampiriku sambil tersenyum. Ia berterima kasih karena aku menunggu. Aku merasa senang mendengar ucapannya. Latihan memang dimulai beberapa menit kemudian. Namun, semua teman dapat mengikuti kegiatan. Aku belajar memimpin dengan memperhatikan kesiapan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa Dito mengangkat tangan sebelum berlari?"
+      }
+     ],
+     "opts": [
+      "Tali sepatu kanannya terlepas.",
+      "Ia ingin menggantikan petugas peluit.",
+      "Lintasan tertutup barang milik guru.",
+      "Kelompoknya sudah selesai berlatih."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan kelompok berikutnya?"
+      }
+     ],
+     "opts": [
+      "Berangkat sebelum aba-aba diberikan.",
+      "Mengganti tali peluit milik tokoh.",
+      "Memeriksa buku catatan milik Dito.",
+      "Menunggu sampai lintasan kosong."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap tokoh berubah setelah melihat tali menjuntai. Ia menjadi..."
+      }
+     ],
+     "opts": [
+      "lebih ingin mempercepat pergantian.",
+      "lebih tertarik meninggalkan lapangan.",
+      "lebih ingin mengambil giliran Dito.",
+      "lebih memperhatikan kesiapan teman."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna tindakan tokoh menurunkan peluit adalah..."
+      }
+     ],
+     "opts": [
+      "Mengakhiri seluruh kegiatan olahraga.",
+      "Menyerahkan tugas petugas kepada Dito.",
+      "Menunda aba-aba agar Dito bersiap.",
+      "Mengganti aturan penilaian lomba lari."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Peristiwa sehari-hari yang sejalan dengan cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Memeriksa rem sepeda sebelum berangkat.",
+      "Menambah kecepatan saat jalan ramai.",
+      "Mendahului teman sebelum gerbang dibuka.",
+      "Membawa barang berat tanpa mengikatnya."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa akhir cerita dapat menimbulkan rasa lega?"
+      }
+     ],
+     "opts": [
+      "Semua teman akhirnya mengikuti latihan.",
+      "Dito menggantikan seluruh tugas petugas.",
+      "Tokoh berhasil mengurangi jumlah kelompok.",
+      "Guru membatalkan semua giliran olahraga."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Sapaan di Pagar",
+    "paras": [
+     "Aku melihat bangku di halaman.<br> Seorang teman duduk sendirian.<br> Tangannya memeluk buku cerita.<br> Matanya singgah pada keramaian.",
+     "Aku membawa bola mendekatinya.<br> Kutanyakan nama dengan perlahan.<br> Senyum kecil tumbuh di wajahnya.<br> Ia menyebut nama dengan pelan.",
+     "Kami berjalan menuju lapangan.<br> Bola berpindah di antara tangan.<br> Pagar tak lagi terasa tinggi.<br> Sapaan membuka pintu pertemanan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Benda apa yang dipeluk teman pada bait pertama?"
+      }
+     ],
+     "opts": [
+      "Bola karet.",
+      "Buku cerita.",
+      "Tas sekolah.",
+      "Papan gambar."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan tokoh sebelum mengajak temannya ke lapangan?"
+      }
+     ],
+     "opts": [
+      "Membawa bangku menuju lapangan.",
+      "Menanyakan nama temannya perlahan.",
+      "Membaca buku di dekat pagar.",
+      "Memanggil seluruh teman di kelas."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna “sapaan membuka pintu pertemanan” adalah..."
+      }
+     ],
+     "opts": [
+      "Bermain harus dimulai dari pintu pagar.",
+      "Pertemanan hanya terjadi di lapangan.",
+      "Menyapa dapat mengawali hubungan baik.",
+      "Pintu harus dibuka sebelum menyapa."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan suasana dari awal ke akhir puisi adalah..."
+      }
+     ],
+     "opts": [
+      "Dari kegembiraan menuju penyesalan.",
+      "Dari keramaian menuju perselisihan.",
+      "Dari keakraban menuju kesunyian.",
+      "Dari kesendirian menuju kebersamaan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan yang sesuai dengan pesan puisi adalah..."
+      }
+     ],
+     "opts": [
+      "Menunggu murid baru mencari teman sendiri.",
+      "Menyapa murid baru yang duduk sendiri.",
+      "Meminta murid baru meninggalkan bangku.",
+      "Memilih teman yang telah dikenal saja."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perasaan yang paling sesuai setelah membaca akhir puisi adalah..."
+      }
+     ],
+     "opts": [
+      "Hangat karena pertemanan mulai terjalin.",
+      "Cemas karena teman kehilangan buku cerita.",
+      "Kecewa karena permainan bola dihentikan.",
+      "Sedih karena tokoh pergi meninggalkan teman."
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
