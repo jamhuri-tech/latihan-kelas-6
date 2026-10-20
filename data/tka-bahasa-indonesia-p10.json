@@ -1,0 +1,627 @@
+{
+ "id": "tka-bahasa-indonesia-p10",
+ "subject": "Bahasa Indonesia",
+ "title": "TKA Bahasa Indonesia SD 2026 (Paket 10)",
+ "desc": "30 soal pilihan ganda dengan lima bacaan baru: arsip bunyi, pameran kelompok, pengamatan bayangan, keterangan foto, dan puisi. Melatih pemahaman tekstual, inferensial, evaluasi dan apresiasi. Latihan mandiri, bukan soal resmi.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Menyimpan Bunyi Kampung",
+    "paras": [
+     "Kampung Soka memiliki beragam kegiatan warga. Setiap kegiatan menghasilkan bunyi yang khas. Ada bunyi lesung di rumah pangan. Ada pula ketukan pembuat anyaman bambu. Murid kelas VI ingin mengenalinya. Mereka merencanakan kegiatan merekam bunyi kampung.",
+     "Sebelum merekam, murid meminta izin warga. Mereka menjelaskan tujuan kegiatan kepada pemiliknya. Warga boleh menolak tanpa memberikan alasan. Murid juga memilih tempat berdiri aman. Alat rekam tidak menghalangi orang bekerja. Guru mendampingi mereka selama kegiatan berlangsung.",
+     "Setiap rekaman diberi keterangan singkat. Keterangan memuat sumber bunyi dan tempatnya. Tanggal perekaman juga dicantumkan dengan jelas. Warga membantu memeriksa kebenaran keterangan tersebut. Murid tidak sekadar menebak nama alat. Nama yang belum pasti ditanyakan kembali.",
+     "Rekaman kemudian diputar di kelas. Murid mendengarkan bunyi tanpa melihat keterangan. Mereka mencoba menebak sumber bunyinya. Setelah itu, guru membuka keterangan rekaman. Beberapa dugaan berbeda dari informasi sebenarnya. Murid lalu membahas perbedaan tersebut bersama.",
+     "Semua rekaman disimpan dalam folder sekolah. Salinannya diberikan kepada warga yang direkam. Berkas hanya dibagikan sesuai izin mereka. Kegiatan itu menambah pengetahuan tentang kampung. Murid belajar mendengar sekaligus memeriksa informasi. Bunyi sehari-hari ternyata menyimpan banyak cerita."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dicantumkan pada keterangan rekaman?"
+      }
+     ],
+     "opts": [
+      "Nama murid, nilai, dan jadwal pelajaran.",
+      "Harga alat, pemilik, dan waktu pembelian.",
+      "Jumlah warga, pekerjaan, dan usia mereka.",
+      "Sumber bunyi, tempat, dan tanggal perekaman."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan murid sebelum merekam?"
+      }
+     ],
+     "opts": [
+      "Memutar rekaman di kelas.",
+      "Meminta izin kepada warga.",
+      "Mengirim salinan ke warga.",
+      "Menebak nama seluruh alat."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa nama alat yang belum pasti ditanyakan kembali?"
+      }
+     ],
+     "opts": [
+      "Agar jumlah rekaman bertambah lebih cepat.",
+      "Agar suara alat terdengar semakin keras.",
+      "Agar keterangan tidak hanya berdasar dugaan.",
+      "Agar warga mengganti alat yang digunakan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ide pokok yang paling sesuai dengan bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Mengganti alat kerja warga dengan alat perekam.",
+      "Membandingkan nilai pelajaran melalui bunyi alat.",
+      "Mengenal kegiatan kampung melalui rekaman bunyi.",
+      "Membuat pertunjukan musik untuk seluruh warga."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Seorang warga menolak direkam. Tindakan yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Merekam dari jauh tanpa memberi tahu warga.",
+      "Menghormati penolakan dan mencari sumber lain.",
+      "Meminta tetangga mengizinkan rekaman tersebut.",
+      "Menghapus keterangan lalu membagikan rekaman."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan mana yang bertentangan dengan bacaan?"
+      }
+     ],
+     "opts": [
+      "Semua berkas boleh dibagikan tanpa izin warga.",
+      "Warga ikut memeriksa keterangan rekaman bunyi.",
+      "Guru menemani murid selama perekaman kegiatan.",
+      "Rekaman disimpan dalam folder milik sekolah."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Ruang Kosong pada Papan",
+    "paras": [
+     "Aku menjadi penata papan pameran kelompok. Kami mendapat satu papan berukuran sedang. Papan itu akan memuat hasil pengamatan. Aku membawa gambar besar dari rumah. Gambarku memperlihatkan halaman sekolah yang bersih. Aku ingin menaruhnya tepat di tengah.",
+     "Saat mulai menempel, Leni mendekatiku perlahan. Ia membawa tabel hasil pengamatan kelompok. Ada juga kesimpulan buatan teman lainnya. Papan hampir penuh oleh gambarku sendiri. Tabel mereka hanya mendapat sudut sempit. Aku sempat meminta mereka mengecilkan tulisan.",
+     "Leni mengajakku berdiri agak jauh. Kami mencoba membaca papan dari sana. Gambarku memang terlihat dengan sangat jelas. Namun, angka tabel sulit kami baca. Kesimpulan kelompok juga terpotong oleh gambar. Aku menyadari penataan itu kurang membantu.",
+     "Aku melepas gambar dengan hati-hati. Kami membagi papan menjadi beberapa bagian. Gambarku diletakkan pada sisi sebelah kiri. Tabel diberi ruang cukup di tengah. Kesimpulan ditempel di sisi sebelah kanan. Kami memeriksa kembali papan dari jauh.",
+     "Ketika pameran dibuka, beberapa pengunjung datang. Mereka melihat gambar lalu membaca tabel. Seorang pengunjung menanyakan kesimpulan pengamatan kami. Leni menjelaskan sambil menunjuk bagian kanan. Aku ikut menjawab pertanyaan tentang gambar. Kami senang hasil kelompok terbaca lengkap."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dibawa Leni untuk papan pameran?"
+      }
+     ],
+     "opts": [
+      "Gambar halaman sekolah yang bersih.",
+      "Tabel hasil pengamatan kelompok.",
+      "Papan baru berukuran lebih besar.",
+      "Daftar pertanyaan para pengunjung."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Di mana kesimpulan akhirnya ditempel?"
+      }
+     ],
+     "opts": [
+      "Di sisi sebelah kanan.",
+      "Di sisi sebelah kiri.",
+      "Di bagian tengah papan.",
+      "Di belakang gambar besar."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa Leni mengajak tokoh berdiri agak jauh?"
+      }
+     ],
+     "opts": [
+      "Untuk memeriksa keterbacaan isi papan.",
+      "Untuk menunggu kedatangan pengunjung.",
+      "Untuk memberi tempat bagi kelompok lain.",
+      "Untuk memilih gambar yang akan dibawa."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan sikap tokoh terlihat ketika ia..."
+      }
+     ],
+     "opts": [
+      "membawa gambar besar dari rumah sendiri.",
+      "meminta teman mengecilkan tulisan tabel.",
+      "melepas gambar dan membagi ruang bersama.",
+      "memilih bagian tengah untuk gambarnya."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Amanat yang paling sesuai dengan cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Utamakan hasil sendiri sebelum hasil teman.",
+      "Pilih gambar terbesar agar pameran menarik.",
+      "Beri ruang bagi sumbangan setiap anggota.",
+      "Serahkan seluruh tugas kepada satu anggota."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti bahwa penataan baru membantu pengunjung adalah..."
+      }
+     ],
+     "opts": [
+      "Mereka membaca tabel dan menanyakan kesimpulan.",
+      "Mereka membawa papan besar dari rumah masing-masing.",
+      "Mereka meminta gambar dipindahkan kembali ke tengah.",
+      "Mereka menempelkan pertanyaan pada sudut sempit."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Bayangan Tiang Bendera",
+    "paras": [
+     "Murid mengamati bayangan tiang di halaman. Pengamatan dilakukan pada hari yang cerah. Tiang itu berdiri di tempat terbuka. Murid menandai ujung bayangannya dengan kapur. Mereka juga mencatat waktu setiap penandaan. Tiang tidak dipindahkan selama pengamatan berlangsung.",
+     "Pengukuran pertama dimulai pukul delapan pagi. Petugas membentangkan meteran di atas tanah. Pangkal meteran berada pada dasar tiang. Ujungnya diarahkan ke tanda bayangan tadi. Panjang yang terbaca dicatat dalam tabel. Kelompok lain memeriksa hasil pembacaan tersebut.",
+     "Pengukuran berikutnya dilakukan beberapa kali lagi. Setiap tanda diberi waktu yang sesuai. Sebelum tengah hari, bayangan tampak memendek. Kelompok tidak menghapus tanda pengukuran sebelumnya. Mereka ingin membandingkan hasil setiap pengamatan. Perbandingan itu memakai tiang yang sama.",
+     "Pada satu pengamatan, awan menutupi matahari. Ujung bayangan menjadi sulit dilihat. Petugas tidak memaksakan sebuah angka perkiraan. Ia menulis keterangan tentang keadaan awan. Setelah terang kembali, pengukuran dilanjutkan bersama. Catatan keadaan langit disimpan bersama tabel.",
+     "Di kelas, murid membahas hasil pengamatan. Mereka membandingkan panjang dan waktu pengukuran. Catatan awan membantu menjelaskan data kosong. Data kosong bukan berarti bayangan menghilang selamanya. Pengamatan cukup dilakukan tanpa menatap matahari. Guru mengajak murid memeriksa catatan bersama."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Di mana pangkal meteran diletakkan?"
+      }
+     ],
+     "opts": [
+      "Pada ujung bayangan yang ditandai.",
+      "Pada tepi halaman dekat ruang kelas.",
+      "Pada tanda waktu pengukuran pertama.",
+      "Pada dasar tiang yang diamati."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang ditulis ketika ujung bayangan sulit dilihat?"
+      }
+     ],
+     "opts": [
+      "Angka perkiraan panjang meteran.",
+      "Keterangan tentang keadaan awan.",
+      "Nama murid yang memindahkan tiang.",
+      "Waktu saat semua tanda dihapus."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tanda pengukuran sebelumnya tidak dihapus?"
+      }
+     ],
+     "opts": [
+      "Agar tiang bendera terlihat lebih tinggi.",
+      "Agar pembacaan meteran tidak perlu dicatat.",
+      "Agar hasil pengamatan dapat dibandingkan.",
+      "Agar awan tidak menghalangi arah bayangan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna data kosong dalam konteks bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Tidak ada hasil ukur yang dicatat.",
+      "Panjang bayangan pasti bernilai nol.",
+      "Seluruh pengukuran telah dibatalkan.",
+      "Tiang tidak lagi berada di halaman."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan mana yang paling didukung bacaan?"
+      }
+     ],
+     "opts": [
+      "Pada setiap keadaan, ujung bayangan tampak jelas.",
+      "Setiap data kosong berarti panjang bayangan nol.",
+      "Panjang bayangan berubah karena tiang dipindah.",
+      "Sebelum tengah hari, bayangan teramati memendek."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kelompok lain menghadapi awan serupa. Saran yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Mengisi tabel dengan angka dari kelompok lain.",
+      "Menghapus semua hasil pengukuran sebelumnya.",
+      "Memindahkan tiang ke dalam ruang yang terang.",
+      "Mencatat kendala dan melanjutkan saat jelas."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Nama di Bawah Foto",
+    "paras": [
+     "Aku membantu menyiapkan pameran foto kampung. Kakek meminjamkan beberapa foto dari lemari. Satu foto memperlihatkan pembuatan jembatan kecil. Banyak warga bekerja di dekat sungai. Aku mengenali kakek di antara mereka. Aku ingin segera menulis keterangannya.",
+     "Aku menulis kakek sebagai pembuat jembatan. Kakek membaca tulisan itu sambil tersenyum. Ia meminta aku memperhatikan seluruh foto. Ada warga membawa papan di belakangnya. Ada pula orang mengangkat batu bersama. Kakek hanya salah satu pekerja saat itu.",
+     "Aku merasa tulisanku belum cukup tepat. Namun, nama warga lain belum kuketahui. Kakek mengajakku menemui tetangga yang mengenal mereka. Kami membawa salinan foto pada sore hari. Tetangga menyebut beberapa nama yang diingatnya. Nama yang belum pasti diberi tanda.",
+     "Kami kemudian membandingkan keterangan beberapa warga. Sebagian nama akhirnya dapat dipastikan bersama. Dua orang masih belum dikenal namanya. Aku tidak mengisi nama berdasarkan tebakan. Aku menulis keterangan umum untuk mereka. Di bawah foto, kutulis pekerjaan bersama warga.",
+     "Saat pameran dibuka, kakek membaca kembali. Ia mengangguk melihat keterangan yang baru. Seorang pengunjung mengenali salah satu wajah. Aku mencatat keterangannya untuk diperiksa kemudian. Aku belajar menghargai kerja banyak orang. Foto lama perlu dibaca dengan teliti."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kegiatan apa yang tampak pada foto?"
+      }
+     ],
+     "opts": [
+      "Pembukaan pameran foto milik sekolah.",
+      "Pembuatan jembatan kecil oleh warga.",
+      "Pembersihan lemari foto milik kakek.",
+      "Perbaikan rumah warga di dekat sungai."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan terhadap nama yang belum pasti?"
+      }
+     ],
+     "opts": [
+      "Ditulis menurut tebakan tokoh.",
+      "Diberi tanda untuk diperiksa.",
+      "Diganti dengan nama milik kakek.",
+      "Dihapus bersama salinan fotonya."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa kakek meminta tokoh memperhatikan seluruh foto?"
+      }
+     ],
+     "opts": [
+      "Agar tokoh memilih foto yang lebih baru.",
+      "Agar tokoh menebak semua nama sendirian.",
+      "Agar tokoh melihat peran warga lainnya.",
+      "Agar tokoh memperbesar gambar sungainya."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan tentang sikap tokoh pada akhir cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Ia lebih ingin memakai nama kakek saja.",
+      "Ia lebih suka menyimpan foto tanpa pameran.",
+      "Ia lebih memilih menebak nama yang hilang.",
+      "Ia lebih teliti dalam menulis keterangan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan pengunjung memberi nama baru sebaiknya ditanggapi dengan..."
+      }
+     ],
+     "opts": [
+      "menulis nama itu tanpa pemeriksaan lagi.",
+      "mengganti seluruh nama pada foto lama.",
+      "mencatat lalu memeriksa keterangan itu.",
+      "menghapus semua tanda yang belum pasti."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nilai yang tercermin dalam keterangan foto yang baru adalah..."
+      }
+     ],
+     "opts": [
+      "Menghargai sumbangan banyak warga.",
+      "Mengutamakan keluarga pemilik foto.",
+      "Menghapus peran orang tak dikenal.",
+      "Mendahulukan tokoh yang paling tua."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Peta di Dinding Kelas",
+    "paras": [
+     "Pulau-pulau memenuhi dinding kelas.<br> Garis biru menghubungkan pandanganku.<br> Aku berdiri membawa buku.<br> Nama baru menunggu untuk kubaca.",
+     "Jari menelusuri gambar sungai.<br> Pikiranku berjalan melintasi bukit.<br> Aku belum menginjak tanah itu.<br> Namun, pertanyaan tumbuh di kepalaku.",
+     "Bel berbunyi di ujung lorong.<br> Kututup buku dengan perlahan.<br> Peta tetap diam di dinding.<br> Rasa ingin tahuku ikut pulang."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Di mana peta pada puisi berada?"
+      }
+     ],
+     "opts": [
+      "Di halaman rumah.",
+      "Di dinding kelas.",
+      "Di ujung sungai.",
+      "Di lereng bukit."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan tokoh saat bel berbunyi?"
+      }
+     ],
+     "opts": [
+      "Menggambar sungai pada dinding.",
+      "Membawa peta menuju lorong.",
+      "Menuliskan nama pulau baru.",
+      "Menutup buku dengan perlahan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna “pikiranku berjalan melintasi bukit” adalah..."
+      }
+     ],
+     "opts": [
+      "Tokoh membayangkan tempat pada peta.",
+      "Tokoh berangkat mendaki bukit sendiri.",
+      "Tokoh membuat jalan menuju kelasnya.",
+      "Tokoh menghapus gambar bukit di peta."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perasaan yang paling menonjol dalam puisi adalah..."
+      }
+     ],
+     "opts": [
+      "Ingin tahu tentang tempat lain.",
+      "Kecewa karena tidak mendapat buku.",
+      "Takut menyeberangi sungai sendiri.",
+      "Kesal karena bel terdengar nyaring."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kegiatan yang sesuai dengan perasaan tokoh adalah..."
+      }
+     ],
+     "opts": [
+      "Menutup nama daerah agar sulit dibaca.",
+      "Melepas peta supaya dinding terlihat kosong.",
+      "Menunggu jawaban tanpa mengajukan pertanyaan.",
+      "Mencari bacaan tentang daerah pada peta."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Larik yang paling jelas menunjukkan rasa ingin tahu tetap ada adalah..."
+      }
+     ],
+     "opts": [
+      "Peta tetap diam di dinding.",
+      "Rasa ingin tahuku ikut pulang.",
+      "Bel berbunyi di ujung lorong.",
+      "Kututup buku dengan perlahan."
+     ],
+     "ans": 1
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
