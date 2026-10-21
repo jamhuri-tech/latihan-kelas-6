@@ -1,0 +1,892 @@
+{
+ "id": "tka-matematika-p11",
+ "subject": "Matematika",
+ "title": "Prediksi TKA Matematika SD 2026 (Paket 11)",
+ "desc": "30 soal pilihan ganda baru: bilangan, geometri dan pengukuran, serta data. Enam gambar, empat tabel, dan pembahasan langkah pengerjaan. Soal prediksi disusun mandiri, bukan soal resmi.",
+ "sections": [
+  {
+   "title": "A. Bilangan (1–12). Gambar 1 untuk soal nomor 1.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 1
+    }
+   ],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pecahan paling sederhana untuk bagian berwarna pada Gambar 1 adalah..."
+      }
+     ],
+     "opts": [
+      "$\\frac{3}{4}$",
+      "$\\frac{5}{8}$",
+      "$\\frac{7}{8}$",
+      "$\\frac{3}{8}$"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Petak berwarna berjumlah 3 × 2 = 6. Seluruh petak berjumlah 4 × 4 = 16.",
+      "Bagi pembilang dan penyebut dengan 2: 6/16 = 3/8."
+     ]
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Nilai manakah yang lebih besar daripada $\\frac{3}{8}$?"
+      }
+     ],
+     "opts": [
+      "0,25",
+      "0,40",
+      "0,30",
+      "0,35"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Ubah 3/8 ke desimal: 3/8 = 0,375.",
+      "Dari pilihan yang tersedia, hanya 0,40 yang lebih besar daripada 0,375."
+     ]
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bentuk pecahan campuran yang sama dengan 1,25 adalah..."
+      }
+     ],
+     "opts": [
+      "$1\\frac{1}{5}$",
+      "$1\\frac{2}{5}$",
+      "$1\\frac{3}{4}$",
+      "$1\\frac{1}{4}$"
+     ],
+     "ans": 3,
+     "explanation": [
+      "1,25 = 1 + 25/100.",
+      "Sederhanakan 25/100 menjadi 1/4. Jadi 1,25 = 1 1/4."
+     ]
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Hasil dari $1.260:(7\\times6)+85$ adalah..."
+      }
+     ],
+     "opts": [
+      "115",
+      "105",
+      "125",
+      "145"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Kerjakan perkalian di dalam kurung: 7 × 6 = 42.",
+      "1.260 : 42 = 30. Tambahkan 85: 30 + 85 = 115."
+     ]
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tali sepanjang $4\\frac{2}{3}$ m dipotong $1\\frac{5}{6}$ m. Sisa tali kemudian disambung dengan tali lain sepanjang $\\frac{3}{4}$ m. Panjang akhirnya adalah..."
+      }
+     ],
+     "opts": [
+      "$2\\frac{1}{12}$ m",
+      "$3\\frac{7}{12}$ m",
+      "$3\\frac{1}{12}$ m",
+      "$4\\frac{7}{12}$ m"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Samakan penyebut: $4\\frac{2}{3}=\\frac{56}{12}$, $1\\frac{5}{6}=\\frac{22}{12}$, dan $\\frac{3}{4}=\\frac{9}{12}$.",
+      "Panjang akhir = $\\frac{56-22+9}{12}=\\frac{43}{12}=3\\frac{7}{12}$ m."
+     ]
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Satu hiasan membutuhkan $\\frac{3}{8}$ meter kain. Panjang kain untuk membuat 11 hiasan adalah..."
+      }
+     ],
+     "opts": [
+      "$4\\frac{1}{8}$ m",
+      "$3\\frac{1}{8}$ m",
+      "$4\\frac{3}{8}$ m",
+      "$5\\frac{1}{8}$ m"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Kalikan kebutuhan satu hiasan dengan 11: $11\\times\\frac{3}{8}=\\frac{33}{8}$.",
+      "Ubah menjadi pecahan campuran: $\\frac{33}{8}=4\\frac{1}{8}$ m."
+     ]
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebanyak $5\\frac{1}{4}$ kg pupuk dibagi rata kepada 7 kelompok. Setiap kelompok memperoleh..."
+      }
+     ],
+     "opts": [
+      "$\\frac{1}{4}$ kg",
+      "$\\frac{1}{2}$ kg",
+      "$\\frac{3}{4}$ kg",
+      "$\\frac{7}{4}$ kg"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Ubah $5\\frac{1}{4}$ menjadi $\\frac{21}{4}$.",
+      "Bagian tiap kelompok = $\\frac{21}{4}:7=\\frac{21}{28}=\\frac{3}{4}$ kg."
+     ]
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dari 32 murid, $25\\%$ memilih membuat poster dan sisanya membuat model. Banyak murid yang membuat model adalah..."
+      }
+     ],
+     "opts": [
+      "8 murid",
+      "16 murid",
+      "28 murid",
+      "24 murid"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Murid pembuat poster = 25/100 × 32 = 8 murid.",
+      "Pembuat model = 32 − 8 = 24 murid."
+     ]
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dua bel berbunyi berkala setiap 8 menit dan 20 menit. Keduanya berbunyi bersama pukul 09.15. Pukul berapa keduanya berbunyi bersama lagi untuk pertama kali?"
+      }
+     ],
+     "opts": [
+      "09.35",
+      "09.45",
+      "09.55",
+      "10.15"
+     ],
+     "ans": 2,
+     "explanation": [
+      "KPK dari 8 dan 20 adalah 40 menit.",
+      "Waktu berikutnya = 09.15 + 40 menit = 09.55."
+     ]
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebanyak 75 kartu merah dan 105 kartu putih dibuat menjadi paket sebanyak mungkin. Setiap paket berisi jumlah kartu merah sama dan jumlah kartu putih sama, tanpa sisa. Banyak paket adalah..."
+      }
+     ],
+     "opts": [
+      "5 paket",
+      "15 paket",
+      "21 paket",
+      "35 paket"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Banyak paket maksimum adalah FPB dari 75 dan 105.",
+      "75 = 3 × 5 × 5 dan 105 = 3 × 5 × 7, sehingga FPB = 3 × 5 = 15.",
+      "Pemeriksaan: setiap paket berisi 5 kartu merah dan 7 kartu putih."
+     ]
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dari 1 kg cokelat, $\\frac{3}{4}$ kg digunakan untuk kue dan $\\frac{1}{6}$ kg untuk minuman. Pernyataan yang benar adalah..."
+      }
+     ],
+     "opts": [
+      "Tersisa $\\frac{1}{6}$ kg cokelat.",
+      "Tersisa $\\frac{1}{4}$ kg cokelat.",
+      "Tersisa $\\frac{1}{12}$ kg cokelat.",
+      "Tersisa $\\frac{5}{12}$ kg cokelat."
+     ],
+     "ans": 2,
+     "explanation": [
+      "Total penggunaan = $\\frac{3}{4}+\\frac{1}{6}=\\frac{9}{12}+\\frac{2}{12}=\\frac{11}{12}$ kg.",
+      "Sisa = $1-\\frac{11}{12}=\\frac{1}{12}$ kg."
+     ]
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Raka menghitung harga sepatu Rp120.000,00 setelah diskon $20\\%$ dengan $20\\%\\times$ Rp120.000,00 = Rp24.000,00. Kekeliruan Raka adalah..."
+      }
+     ],
+     "opts": [
+      "Menggunakan harga awal untuk mencari potongan.",
+      "Mengubah persen menjadi pecahan per seratus.",
+      "Mengalikan harga awal dengan angka diskonnya.",
+      "Menganggap besar potongan sebagai harga bayar."
+     ],
+     "ans": 3,
+     "explanation": [
+      "20% × Rp120.000,00 = Rp24.000,00 benar sebagai besar potongan.",
+      "Harga yang harus dibayar = Rp120.000,00 − Rp24.000,00 = Rp96.000,00.",
+      "Kesalahan Raka adalah menganggap nilai potongan sebagai harga setelah diskon."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "B. Geometri dan Pengukuran (13–24). Gambar 2 untuk soal nomor 13.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 2
+    }
+   ],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada Gambar 2, setiap menara tersusun rapat dari meja. Susunan hanya satu kubus ke arah belakang. Banyak kubus seluruhnya adalah..."
+      }
+     ],
+     "opts": [
+      "5 kubus",
+      "7 kubus",
+      "8 kubus",
+      "6 kubus"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Karena hanya satu kubus ke arah belakang, setiap petak tampak depan mewakili satu kubus.",
+      "Tinggi menara dari kiri: 2, 1, dan 3 kubus. Jumlah = 2 + 1 + 3 = 6 kubus."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 3
+    }
+   ],
+   "items": [
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika Gambar 3 dilipat menjadi kubus, sisi yang berhadapan dengan B adalah..."
+      }
+     ],
+     "opts": [
+      "A",
+      "C",
+      "F",
+      "E"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Bayangkan B sebagai alas. A dan C terlipat menjadi sisi kiri dan kanan. D dan E menjadi dua sisi lainnya.",
+      "F yang tersambung di bawah E menutup bagian atas. Jadi, B berhadapan dengan F."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 4
+    }
+   ],
+   "items": [
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Luas daerah pada Gambar 4 adalah..."
+      }
+     ],
+     "opts": [
+      "$108\\ \\mathrm{m}^2$",
+      "$96\\ \\mathrm{m}^2$",
+      "$120\\ \\mathrm{m}^2$",
+      "$132\\ \\mathrm{m}^2$"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Luas persegi panjang = 12 × 7 = 84 m².",
+      "Luas segitiga di atasnya = 1/2 × 12 × 4 = 24 m².",
+      "Jumlah luas = 84 + 24 = 108 m²."
+     ]
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lantai berukuran 4,2 m $\\times$ 3 m ditutup ubin persegi bersisi 30 cm. Tanpa celah dan pemotongan, banyak ubin yang diperlukan adalah..."
+      }
+     ],
+     "opts": [
+      "120 ubin",
+      "140 ubin",
+      "130 ubin",
+      "150 ubin"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Ubah ukuran lantai menjadi 420 cm × 300 cm.",
+      "Pada panjang ada 420 : 30 = 14 ubin, dan pada lebar ada 300 : 30 = 10 ubin.",
+      "Jumlah ubin = 14 × 10 = 140 ubin."
+     ]
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Balok padat berukuran 20 cm $\\times$ 15 cm $\\times$ 10 cm dipahat sehingga sebuah potongan balok berukuran 6 cm $\\times$ 5 cm $\\times$ 4 cm terambil seluruhnya. Volume bahan yang tersisa adalah..."
+      }
+     ],
+     "opts": [
+      "$2.880\\ \\mathrm{cm}^3$",
+      "$2.760\\ \\mathrm{cm}^3$",
+      "$2.940\\ \\mathrm{cm}^3$",
+      "$3.120\\ \\mathrm{cm}^3$"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Volume mula-mula = 20 × 15 × 10 = 3.000 cm³.",
+      "Volume yang terambil = 6 × 5 × 4 = 120 cm³.",
+      "Volume tersisa = 3.000 − 120 = 2.880 cm³."
+     ]
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Satu paket berisi 2,5 kg tepung, 700 gram gula, dan 0,8 kg telur. Berat total isi paket adalah..."
+      }
+     ],
+     "opts": [
+      "3.200 gram",
+      "3.500 gram",
+      "4.500 gram",
+      "4.000 gram"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Tepung = 2.500 gram dan telur = 800 gram.",
+      "Berat total = 2.500 + 700 + 800 = 4.000 gram."
+     ]
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Persediaan minuman 7,5 liter digunakan mengisi 12 botol, masing-masing 500 mL. Sisa minuman adalah..."
+      }
+     ],
+     "opts": [
+      "1,0 liter",
+      "1,5 liter",
+      "2,0 liter",
+      "2,5 liter"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Minuman yang dipakai = 12 × 500 = 6.000 mL = 6 liter.",
+      "Sisa = 7,5 − 6 = 1,5 liter."
+     ]
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perjalanan dimulai pukul 08.47 dan berakhir pukul 11.12. Di antaranya terdapat istirahat 15 menit. Lama kendaraan benar-benar bergerak adalah..."
+      }
+     ],
+     "opts": [
+      "2 jam 00 menit",
+      "2 jam 25 menit",
+      "2 jam 10 menit",
+      "2 jam 40 menit"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Selang 08.47 sampai 11.12 adalah 2 jam 25 menit atau 145 menit.",
+      "Kurangi istirahat: 145 − 15 = 130 menit = 2 jam 10 menit."
+     ]
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mobil berangkat pukul 07.50 untuk menempuh 72 km dengan kecepatan tetap 48 km/jam. Mobil berhenti 10 menit. Jika harus tiba paling lambat pukul 09.30, maka mobil..."
+      }
+     ],
+     "opts": [
+      "tiba tepat pukul 09.30.",
+      "tiba 10 menit sebelum batas.",
+      "tiba 10 menit setelah batas.",
+      "tiba 20 menit setelah batas."
+     ],
+     "ans": 0,
+     "explanation": [
+      "Waktu bergerak = 72 : 48 = 1,5 jam = 90 menit.",
+      "Total waktu = 90 + 10 = 100 menit = 1 jam 40 menit.",
+      "07.50 + 1 jam 40 menit = 09.30. Mobil tiba tepat pada batas waktu."
+     ]
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dua sudut sebuah segitiga sama besar, masing-masing $54^{\\circ}$. Besar sudut ketiganya adalah..."
+      }
+     ],
+     "opts": [
+      "$62^{\\circ}$",
+      "$72^{\\circ}$",
+      "$82^{\\circ}$",
+      "$92^{\\circ}$"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Jumlah sudut segitiga = 180°. Kedua sudut yang diketahui berjumlah 54° + 54° = 108°.",
+      "Sudut ketiga = 180° − 108° = 72°."
+     ]
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dibutuhkan lima potong kain, masing-masing 1,02 m. Kain tersedia 5,08 m. Abaikan sisa pemotongan. Pernyataan yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Kain lebih 2 cm.",
+      "Kain kurang 8 cm.",
+      "Kain lebih 8 cm.",
+      "Kain kurang 2 cm."
+     ],
+     "ans": 3,
+     "explanation": [
+      "Kebutuhan = 5 × 1,02 = 5,10 meter.",
+      "Kekurangan = 5,10 − 5,08 = 0,02 meter = 2 cm.",
+      "Pembulatan kedua panjang menjadi 5 meter akan menyembunyikan kekurangan tersebut."
+     ]
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rute A panjangnya 2,4 km dan dilalui dengan berjalan 40 m/menit. Rute B panjangnya 3 km dan dilalui dengan berjalan 60 m/menit. Kecepatan tetap pada setiap rute. Kesimpulan yang benar adalah..."
+      }
+     ],
+     "opts": [
+      "Rute B lebih cepat 10 menit.",
+      "Rute A lebih cepat 10 menit.",
+      "Rute B lebih cepat 20 menit.",
+      "Rute A lebih cepat 20 menit."
+     ],
+     "ans": 0,
+     "explanation": [
+      "Rute A: 2,4 km = 2.400 m. Waktunya 2.400 : 40 = 60 menit.",
+      "Rute B: 3 km = 3.000 m. Waktunya 3.000 : 60 = 50 menit.",
+      "Rute B lebih cepat 60 − 50 = 10 menit, meskipun jaraknya lebih jauh."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "C. Data (25–30). Tabel 1 untuk soal nomor 25.",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 1. Waktu membaca 20 murid; setiap murid tercatat sekali",
+     "head": [
+      "Lama membaca (menit)",
+      "10",
+      "15",
+      "20",
+      "25"
+     ],
+     "rows": [
+      [
+       "Banyak murid",
+       "4",
+       "7",
+       "5",
+       "4"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 1, banyak murid yang membaca lebih dari 15 menit adalah..."
+      }
+     ],
+     "opts": [
+      "7 murid",
+      "9 murid",
+      "11 murid",
+      "16 murid"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Lebih dari 15 menit berarti 20 atau 25 menit.",
+      "Jumlah murid = 5 + 4 = 9 murid. Murid yang tepat 15 menit tidak ikut dihitung."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 5
+    }
+   ],
+   "items": [
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada Gambar 5, pecahan dari seluruh buku yang berada pada Rak Q adalah..."
+      }
+     ],
+     "opts": [
+      "$\\frac{5}{16}$",
+      "$\\frac{5}{32}$",
+      "$\\frac{7}{16}$",
+      "$\\frac{9}{16}$"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Jumlah simbol = 7 + 5 + 4 = 16 simbol. Total buku = 16 × 2 = 32 buku.",
+      "Rak Q memiliki 5 × 2 = 10 buku. Bagiannya 10/32 = 5/16."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 6
+    }
+   ],
+   "items": [
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 6, kenaikan penjualan paling besar dibandingkan hari sebelumnya terjadi pada..."
+      }
+     ],
+     "opts": [
+      "Senin.",
+      "Kamis.",
+      "Selasa.",
+      "Rabu."
+     ],
+     "ans": 1,
+     "explanation": [
+      "Selasa dibanding Senin naik 24 − 12 = 12 pot. Rabu turun 24 − 18 = 6 pot.",
+      "Kamis dibanding Rabu naik 32 − 18 = 14 pot. Kenaikan terbesar 14 pot terjadi pada Kamis.",
+      "Senin tidak memiliki data hari sebelumnya pada diagram."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 2. Setiap karung berisi tepat 5 kg bahan",
+     "head": [
+      "Tim",
+      "P",
+      "Q",
+      "R"
+     ],
+     "rows": [
+      [
+       "Karung terkumpul",
+       "18",
+       "25",
+       "17"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Total berat bahan yang terkumpul pada Tabel 2 adalah..."
+      }
+     ],
+     "opts": [
+      "250 kg",
+      "275 kg",
+      "300 kg",
+      "325 kg"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Jumlah karung = 18 + 25 + 17 = 60 karung.",
+      "Setiap karung 5 kg, sehingga total berat = 60 × 5 = 300 kg."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 3. Harga satuan barang, tanpa diskon",
+     "head": [
+      "Barang",
+      "Toko A",
+      "Toko B"
+     ],
+     "rows": [
+      [
+       "Buku tulis",
+       "Rp6.000",
+       "Rp5.500"
+      ],
+      [
+       "Pulpen",
+       "Rp3.500",
+       "Rp4.000"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rina membeli 4 buku tulis dan 2 pulpen pada satu toko. Berdasarkan Tabel 3, kesimpulan yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Belanja di Toko A lebih hemat Rp1.000.",
+      "Belanja di Toko B lebih hemat Rp2.000.",
+      "Belanja di Toko B lebih hemat Rp1.000.",
+      "Belanja di Toko A lebih hemat Rp2.000."
+     ],
+     "ans": 2,
+     "explanation": [
+      "Toko A: 4 × Rp6.000 + 2 × Rp3.500 = Rp31.000.",
+      "Toko B: 4 × Rp5.500 + 2 × Rp4.000 = Rp30.000.",
+      "Toko B lebih hemat Rp31.000 − Rp30.000 = Rp1.000."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 4. Kebutuhan bahan sama untuk setiap kelompok",
+     "head": [
+      "Bahan",
+      "Karton",
+      "Lem",
+      "Pensil"
+     ],
+     "rows": [
+      [
+       "Tersedia",
+       "20 lembar",
+       "12 botol",
+       "50 buah"
+      ],
+      [
+       "Per kelompok",
+       "3 lembar",
+       "2 botol",
+       "6 buah"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Tabel 4, paling banyak berapa kelompok dapat memperoleh seluruh bahan sesuai kebutuhan?"
+      }
+     ],
+     "opts": [
+      "6 kelompok",
+      "5 kelompok",
+      "7 kelompok",
+      "8 kelompok"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Karton cukup untuk 6 kelompok penuh karena 20 : 3 = 6 sisa 2.",
+      "Lem cukup untuk 12 : 2 = 6 kelompok. Pensil cukup untuk 8 kelompok penuh karena 50 : 6 = 8 sisa 2.",
+      "Agar semua bahan cukup, ambil batas terkecil, yaitu 6 kelompok."
+     ]
+    }
+   ]
+  }
+ ],
+ "figures": {
+  "1": {
+   "src": "fig/16154e3084.svg",
+   "caption": "Semua petak sama luas"
+  },
+  "2": {
+   "src": "fig/2425ab7c6f.svg",
+   "caption": "Tampak depan susunan kubus satuan di atas meja"
+  },
+  "3": {
+   "src": "fig/1aa65cc15d.svg",
+   "caption": "Jaring-jaring kubus dengan label A sampai F"
+  },
+  "4": {
+   "src": "fig/185144f9e6.svg",
+   "caption": "Daerah gabungan persegi panjang dan segitiga"
+  },
+  "5": {
+   "src": "fig/89b660f2b8.svg",
+   "caption": "Banyak buku pada tiga rak"
+  },
+  "6": {
+   "src": "fig/fb076e5add.svg",
+   "caption": "Penjualan bibit selama empat hari"
+  }
+ }
+}

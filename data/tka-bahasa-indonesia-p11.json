@@ -1,0 +1,627 @@
+{
+ "id": "tka-bahasa-indonesia-p11",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 11)",
+ "desc": "30 soal pilihan ganda dengan lima bacaan baru. Pemahaman tekstual, inferensial, evaluasi dan apresiasi sesuai cakupan SD. Soal prediksi disusun mandiri, bukan soal resmi.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Peta untuk Pejalan Kaki",
+    "paras": [
+     "Murid kelas VI membuat peta lingkungan. Peta itu ditujukan kepada pejalan kaki. Mereka tidak hanya menggambar jalan utama. Gang kecil juga dicatat dengan teliti. Pos ronda menjadi titik awal pengamatan. Guru menemani murid selama menyusuri lingkungan.",
+     "Setiap kelompok membawa lembar catatan. Mereka mencatat keadaan jalan yang dilewati. Jalan rusak diberi tanda segitiga merah. Tempat berteduh ditandai dengan kotak biru. Arti setiap tanda dijelaskan dalam legenda. Legenda diletakkan pada sudut bawah peta.",
+     "Kelompok mengukur waktu berjalan secara terpisah. Mereka berjalan dengan kecepatan yang wajar. Waktu berhenti tidak masuk dalam catatan. Nama gang diperiksa bersama warga setempat. Nama yang berbeda ditulis sebagai catatan. Kelompok tidak langsung memilih nama sendiri.",
+     "Selesai menggambar, murid mencoba membaca peta. Mereka mengikuti petunjuk kelompok lain. Satu gang ternyata terlewat pada gambar. Kelompok pembuatnya segera menambahkan gang tersebut. Arah panah juga diperjelas dengan warna. Peta kemudian diperiksa bersama sekali lagi.",
+     "Peta yang selesai dipasang dekat sekolah. Tanggal pemeriksaan dicantumkan di bagian bawah. Kondisi jalan dapat berubah setiap waktu. Karena itu, catatan perlu diperbarui berkala. Pejalan kaki tetap harus memperhatikan lingkungan. Peta membantu perjalanan, bukan menggantikan kewaspadaan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa arti tanda segitiga merah pada peta?"
+      }
+     ],
+     "opts": [
+      "Tempat warga biasa berteduh.",
+      "Pos ronda awal pengamatan.",
+      "Jalan yang mengalami kerusakan.",
+      "Gang yang belum diberi nama."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Di mana arti setiap tanda dijelaskan?"
+      }
+     ],
+     "opts": [
+      "Dalam catatan waktu berjalan.",
+      "Pada papan nama setiap gang.",
+      "Pada arah panah berwarna biru.",
+      "Dalam legenda pada sudut peta."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa nama gang diperiksa bersama warga?"
+      }
+     ],
+     "opts": [
+      "Agar waktu berjalan menjadi singkat.",
+      "Agar semua gang memiliki nama baru.",
+      "Agar kelompok tidak perlu menggambar.",
+      "Agar nama pada peta sesuai keadaan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa manfaat mencoba petunjuk kelompok lain?"
+      }
+     ],
+     "opts": [
+      "Menentukan kelompok yang berjalan paling cepat.",
+      "Menemukan bagian peta yang perlu diperbaiki.",
+      "Mengganti semua tanda dengan nama warga.",
+      "Mengurangi jumlah gang yang akan dicatat."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Seorang pengguna menemukan jalan baru ditutup. Tindakan yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Tetap melintas karena peta belum berubah.",
+      "Memperhatikan keadaan dan memberi laporan.",
+      "Menghapus tanggal pemeriksaan pada peta.",
+      "Mengganti seluruh legenda dengan tanda merah."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan yang paling tepat tentang peta tersebut adalah..."
+      }
+     ],
+     "opts": [
+      "Peta memastikan semua jalan selalu dapat dilewati.",
+      "Peta membuat pengguna tidak perlu melihat jalan.",
+      "Peta bermanfaat jika diperiksa dan diperbarui.",
+      "Peta menggantikan seluruh keterangan warga sekitar."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Pesan yang Terlalu Cepat",
+    "paras": [
+     "Aku menerima gambar pengumuman dari sepupuku. Pengumuman itu menyebut latihan paduan suara. Jam mulainya tertulis pukul tiga sore. Aku segera meneruskannya kepada teman kelompok. Aku menambahkan pesan agar mereka bersiap. Aku belum membaca bagian paling bawah.",
+     "Tak lama kemudian, Nisa mengirim pertanyaan. Ia membaca tanggal pada pengumuman tersebut. Tanggalnya ternyata berasal dari pekan lalu. Aku membuka kembali gambar yang kukirim. Pipiku terasa hangat saat memeriksa tanggalnya. Aku khawatir teman datang terlalu awal.",
+     "Aku hampir menghapus pesan tanpa penjelasan. Namun, beberapa teman sudah membacanya. Aku lalu menghubungi Bu Mira. Beliau menjelaskan jadwal latihan pekan ini. Latihan dimulai pukul empat sore. Tempatnya tetap berada di aula sekolah.",
+     "Aku menulis pembetulan dalam kelompok pesan. Aku menyebut jadwal yang benar. Aku juga menjelaskan kesalahan pengumuman sebelumnya. Bu Mira sudah mengonfirmasi jadwal itu. Aku meminta teman membaca pembetulan tersebut. Beberapa teman membalas bahwa mereka mengerti.",
+     "Saat latihan, Nisa duduk di sampingku. Aku berterima kasih atas pertanyaannya tadi. Ia tersenyum sambil membuka buku lagu. Teman-teman datang mengikuti jadwal yang benar. Sejak itu, aku membaca pengumuman sampai selesai. Tanggal dan sumbernya selalu kuperiksa dahulu."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagian pengumuman apa yang pertama kali dipertanyakan Nisa?"
+      }
+     ],
+     "opts": [
+      "Tanggal yang tercantum pada pengumuman.",
+      "Tempat latihan di dalam aula sekolah.",
+      "Nama guru yang memimpin paduan suara.",
+      "Daftar teman yang menerima pengumuman."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pukul berapa latihan pekan ini dimulai?"
+      }
+     ],
+     "opts": [
+      "Pukul empat sore.",
+      "Pukul dua sore.",
+      "Pukul tiga sore.",
+      "Pukul lima sore."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa menghapus pesan saja belum cukup?"
+      }
+     ],
+     "opts": [
+      "Guru meminta semua gambar tetap disimpan.",
+      "Nisa belum memiliki buku lagu yang baru.",
+      "Pengumuman lama belum pernah dibagikan.",
+      "Beberapa teman sudah membaca pesan itu."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang menunjukkan perubahan kebiasaan tokoh?"
+      }
+     ],
+     "opts": [
+      "Memeriksa tanggal dan sumber sebelum berbagi.",
+      "Meneruskan gambar segera setelah menerimanya.",
+      "Menambahkan pesan agar teman lekas bersiap.",
+      "Membuka buku lagu ketika latihan dimulai."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika menerima pengumuman serupa, tindakan yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Membagikannya lalu menunggu pertanyaan teman.",
+      "Memeriksa tanggal dan memastikan sumbernya.",
+      "Mengubah jam sendiri sebelum meneruskannya.",
+      "Menghapus bagian bawah agar mudah dibaca."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tanggapan yang paling tepat terhadap pertanyaan Nisa adalah..."
+      }
+     ],
+     "opts": [
+      "Menolaknya karena pengumuman berasal dari sepupu.",
+      "Mengabaikannya karena gambar sudah terlanjur dikirim.",
+      "Menyalahkannya karena belum datang ke ruang latihan.",
+      "Menghargainya karena membantu mencegah kekeliruan."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Catatan Antrean Air Minum",
+    "paras": [
+     "Sekolah menyediakan tempat isi ulang air. Murid membawa botol dari rumah. Tempat itu ramai saat istirahat pertama. Antrean kadang menutup pintu ruang sebelah. Petugas ingin memahami penyebab antrean tersebut. Mereka merencanakan pengamatan selama empat hari.",
+     "Dua murid bertugas mencatat setiap hari. Seorang menghitung murid yang datang. Seorang lagi mencatat lama pengisian. Nama murid tidak ditulis dalam catatan. Mereka hanya mencatat jumlah serta waktu. Kegiatan mengisi botol tetap berjalan biasa.",
+     "Pada hari pertama, banyak botol berukuran besar. Pengisiannya membutuhkan waktu lebih lama. Hari berikutnya, beberapa murid datang bersamaan. Antrean memanjang meskipun botol mereka kecil. Petugas mencatat kedua keadaan tersebut. Mereka tidak menyamakan semua penyebab antrean.",
+     "Guru lalu mengajak murid mencoba penataan. Jalur menunggu dipindahkan menjauhi pintu. Tanda berdiri dipasang pada lantai. Namun, jumlah keran tidak ditambah. Petugas tetap mencatat jumlah dan waktu. Hasilnya dibandingkan dengan catatan hari sebelumnya.",
+     "Setelah penataan, pintu tidak lagi terhalang. Akan tetapi, waktu tunggu belum tentu singkat. Jumlah kedatangan masih berubah setiap hari. Petugas perlu memeriksa kedua catatan bersama. Tujuannya membuat antrean tertib dan nyaman. Perbaikan berikutnya dipilih berdasarkan hasil pengamatan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Informasi apa yang tidak dicatat oleh petugas?"
+      }
+     ],
+     "opts": [
+      "Jumlah murid yang datang mengantre.",
+      "Nama murid yang mengisi botol.",
+      "Lama waktu pengisian setiap botol.",
+      "Keadaan saat banyak murid bersamaan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang diubah saat mencoba penataan?"
+      }
+     ],
+     "opts": [
+      "Letak jalur murid yang menunggu.",
+      "Jumlah keran untuk mengisi botol.",
+      "Nama petugas pada catatan harian.",
+      "Ukuran semua botol milik murid."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa antrean dapat memanjang meskipun botol kecil?"
+      }
+     ],
+     "opts": [
+      "Jalur antrean telah dipindah menjauhi pintu.",
+      "Banyak murid datang pada waktu bersamaan.",
+      "Nama murid tidak ditulis dalam catatan.",
+      "Pengisian botol dihentikan sepanjang istirahat."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perbedaan hasil yang perlu diperhatikan adalah..."
+      }
+     ],
+     "opts": [
+      "Pintu bebas halangan belum menjamin tunggu singkat.",
+      "Botol kecil selalu membutuhkan waktu lebih lama.",
+      "Jalur baru membuat jumlah murid selalu berkurang.",
+      "Pintu tertutup berarti jumlah keran perlu dikurangi."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Saran mana yang paling sesuai dengan bacaan?"
+      }
+     ],
+     "opts": [
+      "Nilai keberhasilan hanya dari warna tanda lantai.",
+      "Bandingkan waktu tunggu dan jumlah kedatangan.",
+      "Abaikan ukuran botol selama jalur tidak berubah.",
+      "Hentikan pencatatan setelah pintu bebas halangan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Catatan mana yang sesuai dengan perubahan pada bacaan?"
+      }
+     ],
+     "opts": [
+      "Keran ditambah, sedangkan jalur antrean tetap.",
+      "Botol diganti, sedangkan nama murid dicatat.",
+      "Jalur dipindah, sedangkan jumlah keran tetap.",
+      "Waktu dihapus, sedangkan jumlah murid tetap."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Kartu Pos untuk Nenek",
+    "paras": [
+     "Aku mendapat tugas menulis kartu pos. Aku memilih mengirimkannya kepada nenek. Kami sudah lama tidak bertemu. Aku ingin menggambar halaman rumahnya. Di sana ada pohon jambu besar. Aku masih mengingat bangku di bawahnya.",
+     "Aku mulai menggambar menggunakan pensil warna. Namun, bentuk pohonku tampak kurang rapi. Aku menghapus garisnya beberapa kali. Bagian untuk pesan masih tetap kosong. Aku takut nenek tidak menyukai gambarnya. Waktu pengumpulan tugas tinggal satu hari.",
+     "Kakakku mendekat dan melihat kartu itu. Ia menanyakan pesan untuk nenek. Aku menunjukkan pohon yang belum selesai. Kakak menyarankan aku menulis cerita dahulu. Gambar dapat dilanjutkan setelah pesan selesai. Aku lalu menuliskan kenangan tentang bangku.",
+     "Aku bercerita tentang sore bersama nenek. Kami pernah berbagi jambu dari kebun. Nenek mendengarkan ceritaku tentang teman sekolah. Aku menulis bahwa aku merindukannya. Setelah itu, kutambahkan gambar pohon sederhana. Kartu pos itu akhirnya siap dikirim.",
+     "Beberapa hari kemudian, nenek menelepon rumah. Ia mengatakan senang membaca pesanku. Kenangan tentang bangku membuatnya tersenyum. Ia juga mengenali pohon dalam gambarku. Aku merasa lega mendengar suaranya. Pesan tulus ternyata lebih berarti daripada kesempurnaan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kepada siapa tokoh mengirim kartu pos?"
+      }
+     ],
+     "opts": [
+      "Kepada kakaknya.",
+      "Kepada neneknya.",
+      "Kepada gurunya.",
+      "Kepada temannya."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa saran kakak saat melihat kartu?"
+      }
+     ],
+     "opts": [
+      "Menulis cerita sebelum melanjutkan gambar.",
+      "Menghapus semua pesan pada kartu pos.",
+      "Mengganti pohon dengan gambar sekolah.",
+      "Meminta nenek menggambar kartu sendiri."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa kartu sempat belum selesai?"
+      }
+     ],
+     "opts": [
+      "Tokoh tidak mengingat halaman rumah nenek.",
+      "Kakak melarang tokoh menuliskan kenangan.",
+      "Tokoh terlalu memikirkan kerapian gambar.",
+      "Guru meminta tokoh mengganti penerimanya."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan perasaan tokoh setelah ditelepon nenek adalah..."
+      }
+     ],
+     "opts": [
+      "Dari khawatir menjadi lega.",
+      "Dari lega menjadi kesal.",
+      "Dari bangga menjadi takut.",
+      "Dari tenang menjadi kecewa."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pelajaran yang paling sesuai dengan cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Gambar rapi selalu lebih utama daripada pesan.",
+      "Tugas pribadi sebaiknya diselesaikan oleh kakak.",
+      "Ungkapan tulus tidak menuntut hasil sempurna.",
+      "Kenangan lama perlu diganti dengan cerita baru."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti bahwa pesan tokoh bermakna bagi nenek adalah..."
+      }
+     ],
+     "opts": [
+      "Nenek meminta tokoh menghapus gambar pohonnya.",
+      "Kakak menyiapkan gambar baru setelah kartu dikirim.",
+      "Guru menambah waktu pengumpulan tugas kartu pos.",
+      "Kenangan tentang bangku membuat nenek tersenyum."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Setelah Hujan Reda",
+    "paras": [
+     "Tetes terakhir jatuh dari atap.<br> Halaman memantulkan warna langit.<br> Sepasang burung turun ke ranting.<br> Daun mengibaskan sisa airnya.",
+     "Kubuka jendela kamar perlahan.<br> Udara sejuk menyentuh wajahku.<br> Langkah teman terdengar di jalan.<br> Ia melambaikan tangan kepadaku.",
+     "Sepatuku menunggu di dekat pintu.<br> Bola kecil kupeluk di dada.<br> Hujan telah menyelesaikan ceritanya.<br> Sore kembali mengundang kami bermain."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dari mana tetes terakhir jatuh?"
+      }
+     ],
+     "opts": [
+      "Dari pintu.",
+      "Dari sepatu.",
+      "Dari atap.",
+      "Dari bola."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan teman di jalan?"
+      }
+     ],
+     "opts": [
+      "Membawa sepatu menuju jendela.",
+      "Melambaikan tangan kepada tokoh.",
+      "Menutup pintu kamar perlahan.",
+      "Mengambil bola dari dada tokoh."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna “sore kembali mengundang kami bermain” adalah..."
+      }
+     ],
+     "opts": [
+      "Sore mengirim surat undangan melalui seorang teman.",
+      "Mereka harus bermain sebelum hujan mulai turun.",
+      "Keadaan sore memungkinkan mereka bermain lagi.",
+      "Mereka hanya boleh bermain di dalam kamar."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Suasana yang paling terasa pada akhir puisi adalah..."
+      }
+     ],
+     "opts": [
+      "Cemas karena hujan akan menutup jalan pulang.",
+      "Sedih karena teman meninggalkan tokoh sendiri.",
+      "Kecewa karena bola hilang dari dekat pintu.",
+      "Gembira karena kegiatan dapat dimulai kembali."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Larik yang memberikan sifat manusia kepada hujan adalah..."
+      }
+     ],
+     "opts": [
+      "Tetes terakhir jatuh dari atap.",
+      "Halaman memantulkan warna langit.",
+      "Sepasang burung turun ke ranting.",
+      "Hujan telah menyelesaikan ceritanya."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan yang sesuai dengan keadaan dalam puisi adalah..."
+      }
+     ],
+     "opts": [
+      "Bersiap bermain setelah hujan selesai.",
+      "Mencari teman saat hujan masih deras.",
+      "Membiarkan bola tersimpan sepanjang sore.",
+      "Menutup jendela karena takut melihat burung."
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
