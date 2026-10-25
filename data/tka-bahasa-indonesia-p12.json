@@ -1,0 +1,627 @@
+{
+ "id": "tka-bahasa-indonesia-p12",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 12)",
+ "desc": "30 soal pilihan ganda dengan lima bacaan baru: informasi, cerita, dan puisi. Melatih informasi tersurat, simpulan, evaluasi dan apresiasi. Disusun mandiri berdasarkan cakupan Pusmendik, bukan soal resmi.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Benih dari Kebun Sekolah",
+    "paras": [
+     "Murid kelas enam mengumpulkan benih bayam. Mereka memilih tanaman yang sudah tua. Guru menunjukkan benih yang telah kering. Benih basah dipisahkan dari benih kering. Semua benih diletakkan pada wadah berbeda. Kegiatan itu berlangsung setelah jam pelajaran.",
+     "Kelompok menyiapkan beberapa amplop kertas bersih. Setiap amplop diberi nama tanaman. Tanggal pengumpulan juga ditulis di luarnya. Benih kering dimasukkan setelah diperiksa bersama. Amplop kemudian disimpan dalam lemari kering. Catatan membantu kelompok mengenali isi amplop.",
+     "Sebulan kemudian, kelompok mencoba menanam benih. Mereka mengambil jumlah benih yang sama. Sebagian benih berasal dari amplop lama. Sebagian lagi berasal dari pengumpulan terbaru. Keduanya ditanam dalam wadah terpisah. Tanah dan penyiramannya dibuat sama.",
+     "Murid menghitung tunas yang muncul setiap pagi. Hasil kedua wadah ternyata tidak sama. Benih terbaru menghasilkan lebih banyak tunas. Guru meminta murid mencatat hasil tersebut. Satu percobaan belum menjelaskan semua penyebab. Keadaan benih sebelumnya juga perlu diperhatikan.",
+     "Catatan pengumpulan disimpan bersama hasil pengamatan. Kelompok berencana mencoba benih lainnya. Mereka tetap menggunakan cara pengamatan serupa. Benih yang tersisa dibagikan kepada warga. Setiap penerima mendapat petunjuk penanaman sederhana. Persediaan benih sekolah tetap dicatat bersama."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dituliskan pada bagian luar amplop?"
+      }
+     ],
+     "opts": [
+      "Nama penerima dan jumlah tunas pagi.",
+      "Nama tanaman dan tanggal pengumpulan.",
+      "Nama kelompok dan jadwal penyiraman.",
+      "Nama lemari dan berat tanah wadah."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagaimana tanah dan penyiraman kedua wadah?"
+      }
+     ],
+     "opts": [
+      "Dibedakan sejak awal penanaman.",
+      "Diubah setelah tunas pertama muncul.",
+      "Dihentikan saat benih dibagikan.",
+      "Dibuat sama pada kedua wadah."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tanggal pengumpulan penting dicatat?"
+      }
+     ],
+     "opts": [
+      "Semua benih pasti tumbuh serentak.",
+      "Tanah tidak perlu diperiksa kembali.",
+      "Umur simpan benih dapat ditelusuri.",
+      "Jumlah warga dapat dihitung cepat."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan yang didukung hasil pengamatan adalah..."
+      }
+     ],
+     "opts": [
+      "Tunas benih baru lebih banyak pada percobaan ini.",
+      "Benih lama pasti gagal pada semua tanaman.",
+      "Semua benih baru tumbuh tanpa penyiraman.",
+      "Perbedaan tunas hanya ditentukan oleh tanah."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kelompok lain ingin memeriksa hasil tersebut. Saran yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Campur semua benih agar asalnya tersamarkan.",
+      "Ganti tanah dan air tanpa membuat catatan.",
+      "Ulangi pengamatan dengan kondisi yang sama.",
+      "Hitung tunas hanya pada wadah benih terbaru."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Penilaian yang tepat terhadap sikap guru adalah..."
+      }
+     ],
+     "opts": [
+      "Teliti karena tidak tergesa menyatakan penyebab.",
+      "Ragu karena menolak seluruh hasil pengamatan.",
+      "Lalai karena membiarkan benih tanpa penanda.",
+      "Boros karena meminta semua tunas dibuang."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Suara dari Belakang Panggung",
+    "paras": [
+     "Aku bertugas membacakan cerita saat pentas. Damar menyiapkan bunyi hujan dari belakang. Kami berlatih bersama selama beberapa hari. Aku memberi tanda dengan mengangkat tangan. Setelah itu, Damar menggoyangkan wadah biji. Bunyinya menyerupai hujan yang mulai turun.",
+     "Pada hari pentas, aula terasa ramai. Aku melangkah sambil membawa lembar cerita. Ketika mulai membaca, tanganku sedikit gemetar. Aku melewatkan tanda untuk Damar. Ruangan tetap sunyi pada bagian hujan. Aku hampir mengulang cerita dari awal.",
+     "Dari belakang panggung, Damar berdeham pelan. Aku teringat latihan kami sebelumnya. Aku berhenti sebentar dan mengangkat tangan. Bunyi hujan segera terdengar dari belakang. Aku melanjutkan kalimat yang sempat terputus. Cerita pun selesai sesuai urutan.",
+     "Setelah pentas, guru memuji kerja kelompok. Aku menunjuk Damar yang merapikan wadah. Aku menjelaskan bantuannya saat aku lupa. Damar tersenyum lalu mengangguk kecil. Kami menyimpan perlengkapan bersama teman lainnya. Aku merasa lebih tenang setelah bercerita.",
+     "Sebelum pulang, kami membicarakan pentas tadi. Kami sepakat menambah tanda pada naskah. Tanda itu membantu saat suasana ramai. Aku belajar menerima bantuan tanpa malu. Panggung membutuhkan orang yang saling memperhatikan. Tepuk tangan tadi juga milik Damar."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa alat yang menghasilkan bunyi hujan?"
+      }
+     ],
+     "opts": [
+      "Lembar cerita yang diketuk perlahan.",
+      "Wadah berisi biji yang digoyangkan.",
+      "Tangan yang ditepukkan bersama teman.",
+      "Pintu aula yang dibuka dan ditutup."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa tanda yang disepakati sebelum pentas?"
+      }
+     ],
+     "opts": [
+      "Damar merapikan wadah biji.",
+      "Tokoh mengangkat tangannya.",
+      "Guru berdiri di depan aula.",
+      "Teman bertepuk di akhir cerita."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa bunyi hujan sempat tidak terdengar?"
+      }
+     ],
+     "opts": [
+      "Damar telah meninggalkan panggung.",
+      "Wadah biji tertinggal di rumah.",
+      "Tokoh lupa memberikan tanda.",
+      "Guru meminta cerita tanpa suara."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna kalimat terakhir cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Keberhasilan pentas juga berkat Damar.",
+      "Damar menggantikan seluruh tugas pembaca.",
+      "Penonton hanya menyukai bunyi hujan.",
+      "Tepuk tangan harus dibagi sama lama."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan mana menunjukkan pengakuan terhadap bantuan?"
+      }
+     ],
+     "opts": [
+      "Mengulang seluruh cerita tanpa berhenti.",
+      "Menyimpan naskah agar tidak terbaca.",
+      "Menceritakan peran Damar kepada guru.",
+      "Meminta teman menggoyangkan wadah baru."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika mengalami kejadian serupa, tindakan yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Tenang lalu gunakan tanda yang disepakati.",
+      "Menyalahkan teman saat penonton masih duduk.",
+      "Meninggalkan panggung tanpa memberi penjelasan.",
+      "Mengubah urutan cerita tanpa memberi tanda."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Layanan Antar Buku",
+    "paras": [
+     "Perpustakaan kelurahan membuka layanan antar buku. Layanan ditujukan bagi warga yang kesulitan datang. Petugas menerima permintaan melalui nomor perpustakaan. Warga menyebut judul serta alamat pengantaran. Permintaan dicatat pada lembar peminjaman. Ketersediaan buku diperiksa sebelum jadwal ditetapkan.",
+     "Pengantaran dilakukan setiap Rabu dan Sabtu. Permintaan harus masuk sehari sebelumnya. Buku yang tersedia disiapkan oleh petugas. Setiap paket dilengkapi kartu tanggal kembali. Peminjam dapat mengembalikan melalui pengantaran berikutnya. Perpanjangan diminta sebelum batas peminjaman berakhir.",
+     "Tidak semua buku boleh dibawa pulang. Buku rujukan tertentu tetap di perpustakaan. Petugas menjelaskan aturan kepada setiap peminjam. Jika judul habis, warga mendapat pemberitahuan. Mereka boleh memilih judul lain. Mereka juga boleh menunggu antrean peminjaman.",
+     "Pada bulan pertama, permintaan terus bertambah. Petugas mencatat jumlah paket setiap perjalanan. Mereka juga mencatat paket yang terlambat. Alamat kurang jelas menyebabkan beberapa keterlambatan. Petugas kemudian meminta penanda lokasi tambahan. Nomor rumah tetap dicantumkan dengan lengkap.",
+     "Bulan berikutnya, jumlah keterlambatan mulai berkurang. Petugas tetap memeriksa catatan pengantaran. Mereka ingin mengetahui perubahan secara berkala. Warga diminta menyiapkan buku sebelum petugas tiba. Cara itu membantu perjalanan tetap teratur. Layanan dinilai dari keterjangkauan dan ketepatannya."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kapan pengantaran buku dilakukan?"
+      }
+     ],
+     "opts": [
+      "Setiap hari Senin dan Kamis.",
+      "Sehari setelah buku dikembalikan.",
+      "Setiap hari Rabu dan Sabtu.",
+      "Setiap pagi sebelum sekolah mulai."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Buku apa yang tetap berada di perpustakaan?"
+      }
+     ],
+     "opts": [
+      "Buku dengan kartu kembali.",
+      "Buku yang pernah dipinjam.",
+      "Buku dengan judul pilihan.",
+      "Buku rujukan tertentu."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa gagasan utama paragraf keempat?"
+      }
+     ],
+     "opts": [
+      "Semua buku rujukan boleh diantar.",
+      "Catatan membantu memperbaiki pengantaran.",
+      "Warga tidak lagi memerlukan alamat.",
+      "Antrean buku dihapus sejak awal."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa penanda lokasi tambahan diminta?"
+      }
+     ],
+     "opts": [
+      "Warga dapat menambah masa pinjam.",
+      "Judul buku tidak perlu diperiksa.",
+      "Nomor rumah boleh dihapus seluruhnya.",
+      "Petugas lebih mudah menemukan tujuan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rani ingin menerima buku pada Sabtu. Tindakan yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Meminta pada Sabtu setelah petugas mulai mengantar.",
+      "Memilih buku rujukan lalu menentukan jadwal sendiri.",
+      "Menunggu Sabtu tanpa mengirimkan judul dan alamat.",
+      "Meminta paling lambat Jumat dan menunggu konfirmasi."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan mana paling sesuai dengan aturan layanan?"
+      }
+     ],
+     "opts": [
+      "Semua permintaan pasti tiba keesokan paginya.",
+      "Buku habis dapat diganti pilihan judul lain.",
+      "Perpanjangan baru diminta setelah batas berakhir.",
+      "Nomor rumah diganti dengan nama jalan saja."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Label pada Kotak Pameran",
+    "paras": [
+     "Aku membawa kotak kerang ke sekolah. Kerang itu kukumpulkan bersama ayah. Kelas kami akan mengadakan pameran benda. Aku menuliskan nama pada setiap kerang. Beberapa nama kudapat dari buku lama. Aku ingin pengunjung melihat kotakku paling dahulu.",
+     "Saat menata meja, Sari mendekat perlahan. Ia menunjukkan dua gambar dari bukunya. Bentuknya mirip kerang dalam kotakku. Namun, nama pada gambar ternyata berbeda. Aku langsung menutup buku yang dibawanya. Aku merasa hasil pekerjaanku sedang diremehkan.",
+     "Guru datang untuk memeriksa meja pameran. Beliau menanyakan sumber nama pada label. Aku menunjukkan buku lama dari rumah. Sari membuka halaman yang tadi ditunjukkannya. Guru mengajak kami membandingkan ciri kerang. Kami memperhatikan bentuk dan garis cangkangnya.",
+     "Ternyata dua labelku memang tertukar. Aku menarik napas lalu menggantinya. Sari membantu menahan kotak agar stabil. Aku meminta maaf atas sikapku tadi. Ia menerima lalu menyerahkan potongan kertas. Kami menambahkan sumber bacaan di bawahnya.",
+     "Ketika pameran dibuka, pengunjung banyak bertanya. Aku menjelaskan ciri kerang dengan tenang. Jika belum tahu, aku mencatat pertanyaannya. Aku tidak lagi menebak nama sembarangan. Masukan Sari telah memperbaiki kotak pameranku. Hari itu, aku pulang membawa pelajaran baru."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dari mana tokoh mendapat beberapa nama kerang?"
+      }
+     ],
+     "opts": [
+      "Dari sebuah buku lama.",
+      "Dari semua pengunjung pameran.",
+      "Dari label milik Sari.",
+      "Dari catatan pertanyaan guru."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa hasil pemeriksaan label bersama guru?"
+      }
+     ],
+     "opts": [
+      "Semua kerang harus dibuang.",
+      "Buku Sari tidak bergambar.",
+      "Kotak tokoh belum bernama.",
+      "Dua label kerang tertukar."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tokoh mula-mula menutup buku Sari?"
+      }
+     ],
+     "opts": [
+      "Ia diminta guru segera pulang.",
+      "Ia hendak menulis pertanyaan baru.",
+      "Ia takut kotak kerang akan jatuh.",
+      "Ia merasa pekerjaannya diremehkan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan sikap tokoh tampak dari tindakan..."
+      }
+     ],
+     "opts": [
+      "Menyembunyikan sumber bacaan dari semua pengunjung.",
+      "Menebak nama kerang supaya pertanyaan cepat selesai.",
+      "Menerima koreksi dan mencatat yang belum diketahui.",
+      "Menolak bantuan teman saat label sedang diperbaiki."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tanggapan yang tepat terhadap tindakan Sari adalah..."
+      }
+     ],
+     "opts": [
+      "Menghargainya karena membantu memeriksa informasi.",
+      "Menolaknya karena teman dilarang memberi masukan.",
+      "Mencurigainya karena membawa buku dari rumah.",
+      "Mengabaikannya karena label sudah ditulis rapi."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pelajaran cerita yang sesuai untuk tugas kelompok adalah..."
+      }
+     ],
+     "opts": [
+      "Periksa masukan sebelum menolaknya.",
+      "Utamakan kotak yang paling menarik.",
+      "Serahkan semua koreksi kepada guru.",
+      "Simpan kesalahan agar tidak diketahui."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Lampu di Meja Belajar",
+    "paras": [
+     "Lampu kecil membuka lingkaran terang.<br> Di meja, buku menanti dibaca.<br> Di luar, suara kendaraan menjauh.<br> Malam merapatkan selimutnya perlahan.",
+     "Kutarik kursi mendekati meja.<br> Soal terakhir masih belum terjawab.<br> Kucoba lagi dari langkah pertama.<br> Coretan baru memenuhi kertas lama.",
+     "Kini kutemukan jalan jawabannya.<br> Kutaruh pensil di samping buku.<br> Lampu kecil tetap menyala tenang.<br> Hatiku hangat sebelum beristirahat."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Di mana pensil diletakkan pada akhir puisi?"
+      }
+     ],
+     "opts": [
+      "Di bawah kursi.",
+      "Di samping buku.",
+      "Di luar jendela.",
+      "Di dekat kendaraan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan saat soal belum terjawab?"
+      }
+     ],
+     "opts": [
+      "Menutup buku tanpa melihat coretan.",
+      "Mencoba lagi dari langkah pertama.",
+      "Memindahkan kursi ke luar rumah.",
+      "Mematikan lampu lalu pergi bermain."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna “kutemukan jalan jawabannya” adalah..."
+      }
+     ],
+     "opts": [
+      "Tokoh menemukan jalan menuju sekolahnya.",
+      "Tokoh melihat jawaban di jalan raya.",
+      "Tokoh berhasil memahami penyelesaian soal.",
+      "Tokoh mendapat buku baru dari teman."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagaimana suasana hati tokoh pada akhir puisi?"
+      }
+     ],
+     "opts": [
+      "Marah karena buku tidak dapat dibaca.",
+      "Takut karena kendaraan semakin dekat.",
+      "Sedih karena lampu tiba-tiba padam.",
+      "Lega setelah usahanya membuahkan hasil."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Larik yang memberi malam perilaku manusia adalah..."
+      }
+     ],
+     "opts": [
+      "Kutarik kursi mendekati meja.",
+      "Malam merapatkan selimutnya perlahan.",
+      "Coretan baru memenuhi kertas lama.",
+      "Kutaruh pensil di samping buku."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap yang sesuai dengan pengalaman tokoh adalah..."
+      }
+     ],
+     "opts": [
+      "Meninjau langkah saat jawaban belum ditemukan.",
+      "Menghapus soal agar kesulitan lekas terlupakan.",
+      "Menyalin hasil teman tanpa memahami caranya.",
+      "Menebak semua hasil sebelum membaca persoalan."
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
