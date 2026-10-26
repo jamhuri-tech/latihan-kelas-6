@@ -232,6 +232,14 @@
   "pdf": "pdf/Prediksi_TKA_2026_BahasaIndonesia_Kelas6_Paket7.pdf"
  },
  {
+  "id": "tka-matematika-p13",
+  "subject": "Matematika",
+  "title": "Prediksi TKA Matematika SD 2026 (Paket 13)",
+  "desc": "30 soal pilihan ganda baru: bilangan, geometri dan pengukuran, serta data. Lima gambar, empat tabel, dan pembahasan langkah pengerjaan. Prediksi mandiri berdasarkan cakupan SD, bukan soal resmi.",
+  "count": 30,
+  "pdf": "pdf/Prediksi_TKA_2026_Matematika_Kelas6_Paket13.pdf"
+ },
+ {
   "id": "tka-matematika-p12",
   "subject": "Matematika",
   "title": "Prediksi TKA Matematika SD 2026 (Paket 12)",
@@ -270,6 +278,14 @@
   "desc": "30 soal pilihan ganda baru: bilangan, pecahan, pengukuran, geometri, tabel data, dan penalaran. Setiap jawaban dilengkapi penjelasan langkah pengerjaan.",
   "count": 30,
   "pdf": "pdf/Prediksi_TKA_2026_Matematika_Kelas6_Paket8.pdf"
+ },
+ {
+  "id": "tka-bahasa-indonesia-p13",
+  "subject": "Bahasa Indonesia",
+  "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 13)",
+  "desc": "30 soal pilihan ganda dengan lima bacaan baru tentang peminjaman alat, rekaman cerita, barang temuan, kerja sama, dan puisi. Melatih pemahaman tekstual, inferensial, evaluasi dan apresiasi. Prediksi mandiri, bukan soal resmi.",
+  "count": 30,
+  "pdf": "pdf/Prediksi_TKA_2026_BahasaIndonesia_Kelas6_Paket13.pdf"
  },
  {
   "id": "tka-bahasa-indonesia-p12",

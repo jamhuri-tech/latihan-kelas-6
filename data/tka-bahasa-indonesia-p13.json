@@ -1,0 +1,627 @@
+{
+ "id": "tka-bahasa-indonesia-p13",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 13)",
+ "desc": "30 soal pilihan ganda dengan lima bacaan baru tentang peminjaman alat, rekaman cerita, barang temuan, kerja sama, dan puisi. Melatih pemahaman tekstual, inferensial, evaluasi dan apresiasi. Prediksi mandiri, bukan soal resmi.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Kartu Peminjaman Alat Olahraga",
+    "paras": [
+     "Sekolah menyediakan alat olahraga untuk dipinjam. Alat disimpan dalam lemari dekat lapangan. Ada bola, tali, dan raket. Setiap alat memiliki nomor pengenal. Nomor tersebut tertulis pada kartu peminjaman. Petugas memeriksa kartu sebelum membuka lemari.",
+     "Peminjam menyebut nama dan kelompoknya. Petugas mencatat nomor alat yang dipilih. Waktu pengembalian disepakati sebelum alat dibawa. Kondisi alat diperiksa bersama peminjam. Jika ada kerusakan, petugas menuliskan catatan. Catatan dibuat sebelum kegiatan olahraga dimulai.",
+     "Saat kembali, alat diperiksa sekali lagi. Peminjam menunjukkan kartu kepada petugas. Nomor pada alat dicocokkan dengan kartu. Kondisi akhirnya dibandingkan dengan catatan awal. Setelah cocok, kartu diberi tanda selesai. Alat kemudian dikembalikan ke tempat semula.",
+     "Suatu hari, sebuah raket kembali terlambat. Kelompok berikutnya sudah menunggu di lapangan. Petugas memeriksa waktu pada kartu peminjaman. Kelompok pertama diingatkan tentang jadwal bersama. Mereka segera mengembalikan raket tersebut. Kelompok berikutnya akhirnya dapat memulai permainan.",
+     "Guru mengajak murid mengevaluasi aturan peminjaman. Mereka menambahkan pengingat sebelum batas waktu. Jadwal ditempel di dekat lemari. Alat yang rusak dipisahkan untuk diperbaiki. Peminjam tidak diminta menentukan penyebab sendirian. Catatan awal membantu pemeriksaan berlangsung adil."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dicocokkan saat alat dikembalikan?"
+      }
+     ],
+     "opts": [
+      "Nomor pada alat dengan kartu.",
+      "Warna lapangan dengan lemari alat.",
+      "Nama guru dengan jadwal kelas.",
+      "Jumlah pemain dengan nomor raket."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kapan kondisi awal alat diperiksa?"
+      }
+     ],
+     "opts": [
+      "Sesudah semua kartu diberi tanda selesai.",
+      "Ketika lemari telah ditutup sepanjang hari.",
+      "Sebelum alat dibawa untuk berolahraga.",
+      "Setelah kelompok berikutnya selesai bermain."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa raket yang terlambat mengganggu kelompok lain?"
+      }
+     ],
+     "opts": [
+      "Kelompok lain harus mengganti nama pemain.",
+      "Kelompok lain belum dapat memakai raket.",
+      "Petugas tidak lagi memiliki kartu kosong.",
+      "Guru meminta semua permainan dihentikan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa manfaat utama catatan kondisi awal?"
+      }
+     ],
+     "opts": [
+      "Memastikan setiap peminjam mendapat raket baru.",
+      "Menghilangkan kebutuhan memeriksa alat kembali.",
+      "Membuat seluruh waktu peminjaman sama panjang.",
+      "Membantu membandingkan keadaan alat secara adil."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebelum meminjam, Rudi melihat tali sudah berjumbai. Tindakan yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Menyembunyikannya sampai tali selesai dipakai.",
+      "Menghapus nomor tali dari kartu peminjaman.",
+      "Mengganti catatan kelompok lain tanpa izin.",
+      "Melaporkannya saat pemeriksaan awal dilakukan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Aturan mana yang paling membantu mencegah keterlambatan?"
+      }
+     ],
+     "opts": [
+      "Memberi tanda selesai sebelum alat dipinjam.",
+      "Memberi pengingat sebelum batas pengembalian.",
+      "Menaruh kartu jauh dari tempat penyimpanan.",
+      "Mengganti nomor alat setiap kali digunakan."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Rekaman Cerita untuk Ayah",
+    "paras": [
+     "Ayah sedang bekerja di kota lain. Aku ingin mengirim rekaman cerita buatanku. Cerita itu berkisah tentang perjalanan kapal. Aku sudah menulisnya pada buku kecil. Sore itu, aku meminjam ponsel ibu. Aku duduk merekam di dekat jendela.",
+     "Selesai membaca, aku memutar hasil rekaman. Suaraku bercampur bunyi kendaraan dari jalan. Beberapa kalimat hampir tidak terdengar. Aku menaikkan suara saat merekam ulang. Namun, bunyi dari luar tetap masuk. Aku mulai kesal melihat waktu berlalu.",
+     "Ibu mengajakku mendengarkan rekaman bersama. Beliau tidak langsung mengambil alih ponsel. Ibu menanyakan bagian yang sulit didengar. Aku menunjuk bagian dekat awal cerita. Saat itu, sebuah kendaraan melintas. Aku menyadari masalahnya bukan panjang cerita.",
+     "Aku berpindah ke ruang tengah. Jendela ditutup dan televisi dimatikan sementara. Aku mencoba merekam satu paragraf dahulu. Hasilnya terdengar lebih jelas daripada sebelumnya. Setelah itu, kubaca seluruh cerita perlahan. Rekaman selesai tanpa mengulang berkali-kali.",
+     "Malamnya, ayah membalas dengan pesan suara. Beliau menyebut bagian kapal menemukan pelabuhan. Aku tersenyum karena bagian itu terdengar. Aku berterima kasih kepada ibu. Kini aku selalu memeriksa rekaman percobaan. Mencoba sedikit dahulu ternyata membantu pekerjaan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Di mana tokoh membuat rekaman pertama?"
+      }
+     ],
+     "opts": [
+      "Di ruang tengah.",
+      "Di dekat jendela.",
+      "Di kamar ayah.",
+      "Di halaman sekolah."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan sebelum merekam seluruh cerita di ruang tengah?"
+      }
+     ],
+     "opts": [
+      "Mengirim semua rekaman awal kepada ayah.",
+      "Menyalakan televisi agar suasana lebih ramai.",
+      "Meminta ibu menulis ulang seluruh cerita.",
+      "Merekam satu paragraf sebagai percobaan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa menaikkan suara belum menyelesaikan masalah?"
+      }
+     ],
+     "opts": [
+      "Cerita kapal belum mempunyai bagian akhir.",
+      "Bunyi kendaraan tetap masuk ke rekaman.",
+      "Ayah belum sempat membalas pesan suara.",
+      "Ponsel tidak dapat menyimpan suara tokoh."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang menunjukkan ayah memahami bagian cerita?"
+      }
+     ],
+     "opts": [
+      "Ayah meminta tokoh meminjam ponsel ibu.",
+      "Ayah menyebut kapal yang menemukan pelabuhan.",
+      "Ibu menutup jendela sebelum rekaman dimulai.",
+      "Tokoh menulis kisah pada sebuah buku kecil."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Penilaian yang tepat terhadap cara ibu membantu adalah..."
+      }
+     ],
+     "opts": [
+      "Membimbing tokoh mengenali sumber masalahnya.",
+      "Mengambil seluruh tugas agar selesai sendiri.",
+      "Menyuruh tokoh menghapus cerita yang dibuat.",
+      "Mengabaikan kesulitan karena rekaman belum jadi."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pelajaran yang sesuai untuk tugas rekaman berikutnya adalah..."
+      }
+     ],
+     "opts": [
+      "Baca sekeras mungkin di tempat yang paling ramai.",
+      "Kirim hasil pertama tanpa mendengarkannya kembali.",
+      "Ubah akhir cerita setiap kali terdengar kendaraan.",
+      "Uji hasil sebentar sebelum melanjutkan seluruhnya."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Kotak Barang Temuan",
+    "paras": [
+     "Di dekat ruang guru tersedia kotak. Kotak itu menampung barang temuan sekolah. Murid menyerahkan barang kepada guru piket. Guru mencatat tempat dan waktu penemuan. Barang kemudian diberi nomor catatan. Nomor tersebut memudahkan pencarian dalam buku.",
+     "Pengumuman ditempel pada papan dekat kelas. Isinya hanya menyebut jenis barang. Ciri khusus tidak ditulis seluruhnya. Pemilik diminta menjelaskan ciri barangnya. Guru membandingkan penjelasan dengan barang temuan. Cara itu membantu memeriksa kepemilikan barang.",
+     "Seorang murid datang mencari tempat pensil. Ia menyebut warna serta gambar penutupnya. Ia juga menjelaskan isi kantong kecil. Keterangan itu sesuai dengan barang temuan. Guru meminta murid menandatangani buku penerimaan. Nomor catatannya kemudian diberi tanda selesai.",
+     "Barang yang belum diambil tetap disimpan. Guru memeriksa kotak setiap akhir pekan. Barang basah tidak langsung ditumpuk bersama. Barang tersebut dikeringkan dahulu dengan hati-hati. Benda berbahaya diserahkan langsung kepada guru. Murid tidak diminta membawanya sendiri.",
+     "Setelah sebulan, beberapa barang masih tertinggal. Sekolah mengingatkan murid memeriksa papan pengumuman. Nama pada barang juga dianjurkan. Namun, nama tidak menggantikan pemeriksaan kepemilikan. Catatan pengembalian tetap dibuat oleh guru. Tujuannya menjaga barang dan ketertiban bersama."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Informasi apa yang dicatat saat barang ditemukan?"
+      }
+     ],
+     "opts": [
+      "Alamat lengkap setiap murid sekolah.",
+      "Harga baru dan toko penjual barang.",
+      "Warna papan dan ukuran ruang guru.",
+      "Tempat serta waktu penemuan barang."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan setelah tempat pensil diterima pemiliknya?"
+      }
+     ],
+     "opts": [
+      "Ciri barang dihapus dari ingatan guru.",
+      "Nomor catatan diberi tanda selesai.",
+      "Barang disimpan lagi sampai akhir pekan.",
+      "Papan pengumuman dipindah ke rumah murid."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa ciri khusus tidak diumumkan seluruhnya?"
+      }
+     ],
+     "opts": [
+      "Guru ingin menyimpan semua barang lebih lama.",
+      "Pemilik dilarang menjelaskan isi barang sendiri.",
+      "Papan pengumuman hanya dapat memuat nomor.",
+      "Ciri itu digunakan memeriksa pengakuan pemilik."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa gagasan utama paragraf keempat?"
+      }
+     ],
+     "opts": [
+      "Penyimpanan barang memerlukan penanganan yang sesuai.",
+      "Semua barang harus ditumpuk dalam keadaan basah.",
+      "Barang yang belum diambil langsung boleh dibawa.",
+      "Murid harus memeriksa benda berbahaya sendirian."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Doni mengenali tempat minumnya pada kotak temuan. Tindakan yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Mengambilnya sendiri tanpa memberi tahu petugas.",
+      "Menghapus nomor catatan agar kotak cepat kosong.",
+      "Menjelaskan cirinya kepada guru sebelum menerima.",
+      "Meminta teman menebak isi barang milik murid lain."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan mana yang sesuai dengan aturan tersebut?"
+      }
+     ],
+     "opts": [
+      "Nama pada barang membantu, pemeriksaan tetap dilakukan.",
+      "Nama pada barang membuat buku penerimaan tidak diperlukan.",
+      "Barang yang belum bernama otomatis menjadi milik sekolah.",
+      "Barang yang ditemukan boleh langsung dibawa oleh penemunya."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Giliran Menjadi Kapten",
+    "paras": [
+     "Aku mendapat giliran menjadi kapten regu. Kami akan mengikuti permainan estafet sekolah. Aku segera memilih teman yang berlari cepat. Aku mengira kecepatan sudah cukup. Latihan pertama kami dimulai sepulang sekolah. Setiap pelari membawa tongkat kayu pendek.",
+     "Pada percobaan pertama, tongkat jatuh dua kali. Aku berlari cepat saat menerima tongkat. Tangan Raka belum sempat melepaskannya. Kami saling menarik lalu kehilangan pegangan. Aku meminta Raka mengulang bagiannya. Suaraku terdengar lebih keras daripada biasanya.",
+     "Sinta mengusulkan latihan penyerahan tanpa berlari. Aku sempat menggeleng karena waktu terbatas. Namun, tongkat kembali jatuh saat dicoba. Aku akhirnya mendengarkan penjelasan Sinta. Kami berlatih memberi tanda sebelum menyerahkan. Setiap teman mencoba kedua peran bergantian.",
+     "Setelah gerakan lancar, kami mulai berlari. Aku menyesuaikan langkah dengan pemberi tongkat. Raka menunggu tanda sebelum melepaskan pegangan. Kali ini, tongkat berpindah dengan baik. Aku memuji ketelitian teman-teman satu regu. Kami menyelesaikan lintasan tanpa tongkat jatuh.",
+     "Saat beristirahat, aku mendekati Raka. Aku meminta maaf karena tadi membentak. Aku juga berterima kasih kepada Sinta. Kami sepakat mengulang latihan secara teratur. Menjadi kapten ternyata berarti mau mendengarkan. Kecepatan perlu berjalan bersama kerja sama."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Permainan apa yang akan diikuti regu tokoh?"
+      }
+     ],
+     "opts": [
+      "Permainan estafet sekolah.",
+      "Pertandingan lompat jauh.",
+      "Permainan sepak bola kelas.",
+      "Perlombaan lempar bola pendek."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa usulan Sinta ketika tongkat sering jatuh?"
+      }
+     ],
+     "opts": [
+      "Meminta Raka meninggalkan kelompok latihan.",
+      "Mengganti tongkat setiap kali mulai berlari.",
+      "Berlatih menyerahkan tongkat tanpa berlari.",
+      "Menghentikan seluruh latihan sampai hari lomba."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tongkat jatuh saat tokoh menerimanya?"
+      }
+     ],
+     "opts": [
+      "Langkah dan pelepasan tongkat belum selaras.",
+      "Kayu tongkat patah sebelum sampai lintasan.",
+      "Raka tidak membawa tongkat ketika berangkat.",
+      "Sinta belum memilih regu untuk permainan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan tokoh sebagai kapten terlihat ketika ia..."
+      }
+     ],
+     "opts": [
+      "Memilih pelari cepat sebelum latihan dimulai.",
+      "Menerima usul lalu menyesuaikan langkahnya.",
+      "Meminta Raka mengulang dengan suara keras.",
+      "Menggeleng karena merasa waktunya terbatas."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tanggapan paling tepat terhadap keputusan berlatih bergantian adalah..."
+      }
+     ],
+     "opts": [
+      "Kurang baik karena kapten tidak perlu belajar.",
+      "Sia-sia karena tanda tidak membantu penyerahan.",
+      "Baik karena semua memahami kedua peran.",
+      "Keliru karena kecepatan selalu menjamin berhasil."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pelajaran yang sesuai untuk kerja kelompok adalah..."
+      }
+     ],
+     "opts": [
+      "Pilih anggota cepat lalu abaikan usul lainnya.",
+      "Salahkan satu teman jika hasil belum memuaskan.",
+      "Dengarkan masukan dan perbaiki cara bersama.",
+      "Hindari mencoba peran lain selama masih kapten."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Sapu di Halaman",
+    "paras": [
+     "Pagi singgah di ujung pagar.<br> Daun kering menutupi jalan kecil.<br> Kuraih sapu di dekat pintu.<br> Kusapu pelan mengikuti arah angin.",
+     "Adikku datang membawa pengki.<br> Ia menahan daun yang terkumpul.<br> Tumpukan kecil berpindah ke keranjang.<br> Jalan ke pagar mulai terlihat.",
+     "Kami duduk di bangku kayu.<br> Keringat kecil berkilau di dahi.<br> Halaman menyambut langkah ibu.<br> Senyum kami mekar bersamaan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Benda apa yang dibawa adik?"
+      }
+     ],
+     "opts": [
+      "Sebuah pengki.",
+      "Sebuah sapu.",
+      "Sebuah bangku.",
+      "Sebuah pagar."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ke mana tumpukan daun dipindahkan?"
+      }
+     ],
+     "opts": [
+      "Ke atas bangku kayu.",
+      "Ke belakang pintu rumah.",
+      "Ke ujung jalan menuju pagar.",
+      "Ke dalam keranjang."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna larik “senyum kami mekar bersamaan” adalah..."
+      }
+     ],
+     "opts": [
+      "Keduanya tersenyum dengan perasaan senang.",
+      "Keduanya menanam bunga di dekat pagar.",
+      "Keduanya melihat bunga tumbuh mendadak.",
+      "Keduanya menutup wajah saat ibu datang."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagaimana keadaan jalan kecil berubah?"
+      }
+     ],
+     "opts": [
+      "Dari bersih menjadi penuh keranjang.",
+      "Dari tertutup daun menjadi terlihat.",
+      "Dari kering menjadi tergenang air.",
+      "Dari lebar menjadi tertutup pagar."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Larik yang memberikan perilaku manusia pada halaman adalah..."
+      }
+     ],
+     "opts": [
+      "Adikku datang membawa pengki.",
+      "Kami duduk di bangku kayu.",
+      "Halaman menyambut langkah ibu.",
+      "Keringat kecil berkilau di dahi."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perasaan yang sesuai dengan suasana akhir puisi adalah..."
+      }
+     ],
+     "opts": [
+      "Kesal karena adik tidak membantu.",
+      "Takut melihat pagar mulai rusak.",
+      "Puas setelah bekerja bersama.",
+      "Kecewa karena halaman makin kotor."
+     ],
+     "ans": 2
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
