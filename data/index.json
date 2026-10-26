@@ -4,359 +4,314 @@
   "subject": "Koding",
   "title": "Koding Kelas 6",
   "desc": "Algoritma, flowchart, Scratch, debugging, dan keamanan internet.",
-  "count": 30,
-  "pdf": "pdf/Latihan_Soal_Koding_Kelas6.pdf"
+  "count": 30
  },
  {
   "id": "mtk-bab1",
   "subject": "Matematika",
   "title": "Bilangan, Pecahan, dan Bangun Ruang",
   "desc": "Bilangan bulat, pecahan, KPK dan FPB, skala, volume, statistika.",
-  "count": 30,
-  "pdf": "pdf/Latihan_Soal_Matematika_Kelas6.pdf"
+  "count": 30
  },
  {
   "id": "mtk-bab2",
   "subject": "Matematika",
   "title": "Bangun Datar, Pengukuran, Statistika, Peluang",
   "desc": "Dilengkapi 6 gambar: bangun datar, jam, diagram batang, dan diagram lingkaran.",
-  "count": 30,
-  "pdf": "pdf/Latihan_Soal_Matematika_Kelas6_Bab2.pdf"
+  "count": 30
  },
  {
   "id": "mtk-keliling",
   "subject": "Matematika",
   "title": "Keliling Bangun Datar",
   "desc": "10 gambar bangun datar beserta soal cerita keliling.",
-  "count": 30,
-  "pdf": "pdf/Latihan_Soal_Matematika_Kelas6_Keliling.pdf"
+  "count": 30
  },
  {
   "id": "mtk-keliling-luas",
   "subject": "Matematika",
   "title": "Keliling dan Luas Bangun Datar",
   "desc": "Keliling, luas, lingkaran, bangun gabungan, dan satuan luas.",
-  "count": 30,
-  "pdf": "pdf/Latihan_Soal_Matematika_Kelas6_Keliling_dan_Luas.pdf"
+  "count": 30
  },
  {
   "id": "mtk-waktu",
   "subject": "Matematika",
   "title": "Waktu",
   "desc": "50 soal: satuan waktu, membaca jam (8 gambar jam analog), lama waktu, kalender, dan kecepatan.",
-  "count": 50,
-  "pdf": "pdf/Latihan_Soal_Matematika_Kelas6_Waktu.pdf"
+  "count": 50
  },
  {
   "id": "pai-bab1",
   "subject": "PAI dan Budi Pekerti",
   "title": "Bab 1 Belajar Al-Qur'an dan Hadis",
   "desc": "Turunnya Al-Qur'an, nama-nama Al-Qur'an, hadis, adab, dan tajwid dasar.",
-  "count": 30,
-  "pdf": "pdf/Latihan_Soal_PAI_Kelas6_Bab1.pdf"
+  "count": 30
  },
  {
   "id": "pai-bab2",
   "subject": "PAI dan Budi Pekerti",
   "title": "Bab 2 Mengenal Allah melalui Asmaulhusna",
   "desc": "Al-Gaffar, Al-'Afuw, Al-Wahid, As-Samad, dan cara meneladaninya.",
-  "count": 30,
-  "pdf": "pdf/Latihan_Soal_PAI_Kelas6_Bab2.pdf"
+  "count": 30
  },
  {
   "id": "pai-bab3",
   "subject": "PAI dan Budi Pekerti",
   "title": "Bab 3 Adab terhadap Tetangga dalam Islam",
   "desc": "50 soal: dalil, adab bertetangga, dan perilaku anak muslim.",
-  "count": 50,
-  "pdf": "pdf/Latihan_Soal_PAI_Kelas6_Bab3.pdf"
+  "count": 50
  },
  {
   "id": "pai-tajwid",
   "subject": "PAI dan Budi Pekerti",
   "title": "Ilmu Tajwid",
   "desc": "50 soal: makharijul huruf, nun sukun dan tanwin, mim sukun, mad, qalqalah, tafkhim dan tarqiq, waqaf.",
-  "count": 50,
-  "pdf": "pdf/Latihan_Soal_PAI_Kelas6_Tajwid.pdf"
+  "count": 50
  },
  {
   "id": "ppkn-norma-hak-kewajiban",
   "subject": "PPKn",
   "title": "Norma, Hak, dan Kewajiban (Versi 1)",
   "desc": "50 soal: macam-macam norma, hak dan kewajiban warga negara.",
-  "count": 50,
-  "pdf": "pdf/Latihan_Soal_PPKn_Kelas6_Norma_Hak_Kewajiban_V1.pdf"
+  "count": 50
  },
  {
   "id": "ppkn-norma-hak-kewajiban-v2",
   "subject": "PPKn",
   "title": "Norma, Hak, dan Kewajiban (Versi 2)",
   "desc": "50 soal baru dengan topik yang sama: norma, UUD 1945, dan contoh sehari-hari.",
-  "count": 50,
-  "pdf": "pdf/Latihan_Soal_PPKn_Kelas6_Norma_Hak_Kewajiban_V2.pdf"
+  "count": 50
  },
  {
   "id": "ppkn-norma-hak-kewajiban-v3",
   "subject": "PPKn",
   "title": "Norma, Hak, dan Kewajiban (Versi 3)",
   "desc": "50 soal baru: norma, UUD 1945 Pasal 28, dan contoh kasus di rumah, sekolah, masyarakat.",
-  "count": 50,
-  "pdf": "pdf/Latihan_Soal_PPKn_Kelas6_Norma_Hak_Kewajiban_V3.pdf"
+  "count": 50
  },
  {
   "id": "bindo-wawancara",
   "subject": "Bahasa Indonesia",
   "title": "Wawancara (Versi 1)",
   "desc": "50 soal dengan teks wawancara dan laporan hasil wawancara.",
-  "count": 50,
-  "pdf": "pdf/Latihan_Soal_BahasaIndonesia_Kelas6_Wawancara_V1.pdf"
+  "count": 50
  },
  {
   "id": "bindo-wawancara-v2",
   "subject": "Bahasa Indonesia",
   "title": "Wawancara (Versi 2)",
   "desc": "50 soal baru dengan topik yang sama: wawancara tempe dan laporan wawancara dokter gigi.",
-  "count": 50,
-  "pdf": "pdf/Latihan_Soal_BahasaIndonesia_Kelas6_Wawancara_V2.pdf"
+  "count": 50
  },
  {
   "id": "bindo-majas",
   "subject": "Bahasa Indonesia",
   "title": "Majas",
   "desc": "50 soal: simile, metafora, personifikasi, hiperbola, litotes, ironi, eufemisme, dan repetisi.",
-  "count": 50,
-  "pdf": "pdf/Latihan_Soal_BahasaIndonesia_Kelas6_Majas.pdf"
+  "count": 50
  },
  {
   "id": "tka-matematika",
   "subject": "Matematika",
   "title": "Try Out Persiapan TKA",
   "desc": "30 soal literasi numerasi: pilihan ganda, pilihan ganda kompleks, benar/salah, dan isian, dengan grafik dan tabel. Semua soal pilihan ganda dengan satu jawaban benar.",
-  "count": 30,
-  "pdf": "pdf/TryOut_TKA_Matematika_Kelas6.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p2",
   "subject": "Matematika",
   "title": "Try Out Persiapan TKA (Paket 2)",
   "desc": "30 soal literasi numerasi: bilangan, perbandingan, geometri, grafik garis, dan tabel Semua soal pilihan ganda dengan satu jawaban benar.",
-  "count": 30,
-  "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket2.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p3",
   "subject": "Matematika",
   "title": "Try Out Persiapan TKA (Paket 3)",
   "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, geometri gabungan, diagram lingkaran, dan tabel frekuensi. Semua soal pilihan ganda dengan satu jawaban benar.",
-  "count": 30,
-  "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket3.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p4",
   "subject": "Matematika",
   "title": "Try Out Persiapan TKA (Paket 4)",
   "desc": "30 soal literasi numerasi tingkat lebih menantang: soal bertahap, kecepatan menyusul, bangun gabungan, diagram batang, dan tabel frekuensi. Semua soal pilihan ganda dengan satu jawaban benar.",
-  "count": 30,
-  "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket4.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p5",
   "subject": "Matematika",
   "title": "Try Out Persiapan TKA (Paket 5)",
   "desc": "30 soal literasi numerasi tingkat lanjut: perbandingan berubah, kecepatan rata-rata, debit bocor, bangun ruang gabungan, diagram garis, dan rata-rata dengan nilai yang hilang. Semua soal pilihan ganda dengan satu jawaban benar.",
-  "count": 30,
-  "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket5.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p2",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA (Paket 2)",
   "desc": "30 soal literasi: 3 teks (informasi, cerita, pengumuman) dan kebahasaan Semua soal pilihan ganda dengan satu jawaban benar.",
-  "count": 30,
-  "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket2.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p3",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA (Paket 3)",
   "desc": "30 soal literasi: teks informasi, puisi, teks prosedur, dan kebahasaan Semua soal pilihan ganda dengan satu jawaban benar.",
-  "count": 30,
-  "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket3.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p4",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA (Paket 4)",
   "desc": "30 soal literasi: teks informasi, cerpen, iklan layanan masyarakat, dan kebahasaan Semua soal pilihan ganda dengan satu jawaban benar.",
-  "count": 30,
-  "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket4.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p5",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA (Paket 5)",
   "desc": "30 soal literasi tingkat lebih menantang: teks informasi dengan tabel, dua teks opini, biografi, dan kebahasaan Semua soal pilihan ganda dengan satu jawaban benar.",
-  "count": 30,
-  "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket5.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p6",
   "subject": "Matematika",
   "title": "Try Out Persiapan TKA (Paket 6)",
   "desc": "30 soal pilihan ganda A–D dengan satu jawaban benar; bilangan, soal cerita bertahap, pengukuran, geometri, dan pengolahan data.",
-  "count": 30,
-  "pdf": "pdf/TryOut_TKA_Matematika_Kelas6_Paket6.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p6",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA (Paket 6)",
   "desc": "30 soal pilihan ganda A–D dengan satu jawaban benar; pemahaman teks informasi, cerita, petunjuk pameran, dan kebahasaan.",
-  "count": 30,
-  "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6_Paket6.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p7",
   "subject": "Matematika",
   "title": "Prediksi TKA SD 2026 (Paket 7)",
   "desc": "30 soal latihan prediksi buatan baru, pilihan ganda A–D dengan satu jawaban benar. Bilangan, geometri dan pengukuran, serta data; dilengkapi langkah pengerjaan.",
-  "count": 30,
-  "pdf": "pdf/Prediksi_TKA_2026_Matematika_Kelas6_Paket7.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p7",
   "subject": "Bahasa Indonesia",
   "title": "Prediksi TKA SD 2026 (Paket 7)",
   "desc": "30 soal latihan prediksi buatan baru, pilihan ganda A–D dengan satu jawaban benar. Pemahaman tekstual, inferensial, evaluasi dan apresiasi dari lima bacaan baru.",
-  "count": 30,
-  "pdf": "pdf/Prediksi_TKA_2026_BahasaIndonesia_Kelas6_Paket7.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p13",
   "subject": "Matematika",
   "title": "Prediksi TKA Matematika SD 2026 (Paket 13)",
   "desc": "30 soal pilihan ganda baru: bilangan, geometri dan pengukuran, serta data. Lima gambar, empat tabel, dan pembahasan langkah pengerjaan. Prediksi mandiri berdasarkan cakupan SD, bukan soal resmi.",
-  "count": 30,
-  "pdf": "pdf/Prediksi_TKA_2026_Matematika_Kelas6_Paket13.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p12",
   "subject": "Matematika",
   "title": "Prediksi TKA Matematika SD 2026 (Paket 12)",
   "desc": "30 soal pilihan ganda baru: bilangan, geometri dan pengukuran, serta data. Lima gambar, empat tabel, dan pembahasan langkah pengerjaan. Disusun mandiri berdasarkan cakupan Pusmendik, bukan soal resmi.",
-  "count": 30,
-  "pdf": "pdf/Prediksi_TKA_2026_Matematika_Kelas6_Paket12.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p11",
   "subject": "Matematika",
   "title": "Prediksi TKA Matematika SD 2026 (Paket 11)",
   "desc": "30 soal pilihan ganda baru: bilangan, geometri dan pengukuran, serta data. Enam gambar, empat tabel, dan pembahasan langkah pengerjaan. Soal prediksi disusun mandiri, bukan soal resmi.",
-  "count": 30,
-  "pdf": "pdf/Prediksi_TKA_2026_Matematika_Kelas6_Paket11.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p10",
   "subject": "Matematika",
   "title": "TKA Matematika SD 2026 (Paket 10)",
   "desc": "30 soal pilihan ganda baru sesuai cakupan SD: bilangan, geometri dan pengukuran, serta data. Dilengkapi gambar, tabel, dan pembahasan. Latihan mandiri, bukan soal resmi.",
-  "count": 30,
-  "pdf": "pdf/TKA_2026_Matematika_Kelas6_Paket10.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p9",
   "subject": "Matematika",
   "title": "TKA Matematika SD 2026 (Paket 9)",
   "desc": "30 soal latihan berdasarkan cakupan dan contoh resmi Pusmendik: bilangan, geometri dan pengukuran, serta data. Sasaran waktu 75 menit; pilihan ganda A–D dengan pembahasan. Soal disusun mandiri, bukan soal resmi.",
-  "count": 30,
-  "pdf": "pdf/TKA_2026_Matematika_Kelas6_Paket9.pdf"
+  "count": 30
  },
  {
   "id": "tka-matematika-p8",
   "subject": "Matematika",
   "title": "Prediksi TKA SD 2026 (Paket 8)",
   "desc": "30 soal pilihan ganda baru: bilangan, pecahan, pengukuran, geometri, tabel data, dan penalaran. Setiap jawaban dilengkapi penjelasan langkah pengerjaan.",
-  "count": 30,
-  "pdf": "pdf/Prediksi_TKA_2026_Matematika_Kelas6_Paket8.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p13",
   "subject": "Bahasa Indonesia",
   "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 13)",
   "desc": "30 soal pilihan ganda dengan lima bacaan baru tentang peminjaman alat, rekaman cerita, barang temuan, kerja sama, dan puisi. Melatih pemahaman tekstual, inferensial, evaluasi dan apresiasi. Prediksi mandiri, bukan soal resmi.",
-  "count": 30,
-  "pdf": "pdf/Prediksi_TKA_2026_BahasaIndonesia_Kelas6_Paket13.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p12",
   "subject": "Bahasa Indonesia",
   "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 12)",
   "desc": "30 soal pilihan ganda dengan lima bacaan baru: informasi, cerita, dan puisi. Melatih informasi tersurat, simpulan, evaluasi dan apresiasi. Disusun mandiri berdasarkan cakupan Pusmendik, bukan soal resmi.",
-  "count": 30,
-  "pdf": "pdf/Prediksi_TKA_2026_BahasaIndonesia_Kelas6_Paket12.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p11",
   "subject": "Bahasa Indonesia",
   "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 11)",
   "desc": "30 soal pilihan ganda dengan lima bacaan baru. Pemahaman tekstual, inferensial, evaluasi dan apresiasi sesuai cakupan SD. Soal prediksi disusun mandiri, bukan soal resmi.",
-  "count": 30,
-  "pdf": "pdf/Prediksi_TKA_2026_BahasaIndonesia_Kelas6_Paket11.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p10",
   "subject": "Bahasa Indonesia",
   "title": "TKA Bahasa Indonesia SD 2026 (Paket 10)",
   "desc": "30 soal pilihan ganda dengan lima bacaan baru: arsip bunyi, pameran kelompok, pengamatan bayangan, keterangan foto, dan puisi. Melatih pemahaman tekstual, inferensial, evaluasi dan apresiasi. Latihan mandiri, bukan soal resmi.",
-  "count": 30,
-  "pdf": "pdf/TKA_2026_BahasaIndonesia_Kelas6_Paket10.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p9",
   "subject": "Bahasa Indonesia",
   "title": "TKA Bahasa Indonesia SD 2026 (Paket 9)",
   "desc": "30 soal pilihan ganda berbasis lima bacaan baru: pemahaman tekstual, inferensial, evaluasi dan apresiasi. Mengacu cakupan resmi SD; latihan mandiri, bukan soal resmi.",
-  "count": 30,
-  "pdf": "pdf/TKA_2026_BahasaIndonesia_Kelas6_Paket9.pdf"
+  "count": 30
  },
  {
   "id": "tka-bahasa-indonesia-p8",
   "subject": "Bahasa Indonesia",
   "title": "Prediksi TKA SD 2026 (Paket 8)",
   "desc": "30 soal pilihan ganda dengan lima bacaan baru: informasi, cerita, petunjuk, dua pendapat, dan puisi. Melatih pemahaman, penalaran, serta evaluasi bacaan.",
-  "count": 30,
-  "pdf": "pdf/Prediksi_TKA_2026_BahasaIndonesia_Kelas6_Paket8.pdf"
+  "count": 30
  },
  {
   "id": "bindo-tka",
   "subject": "Bahasa Indonesia",
   "title": "Try Out Persiapan TKA",
   "desc": "28 soal pilihan ganda Bahasa Indonesia. Semua soal pilihan ganda dengan satu jawaban benar.",
-  "count": 28,
-  "pdf": "pdf/TryOut_TKA_BahasaIndonesia_Kelas6.pdf"
+  "count": 28
  },
  {
   "id": "bing-lesson4",
   "subject": "Bahasa Inggris",
   "title": "Lesson 4: I Was Excited Visiting My Grandparents",
   "desc": "30 soal khusus Basic English 6 Lesson 4: feelings, was/were, ungkapan senang dan simpati, bacaan pendek, serta susunan kalimat. Soal latihan disusun mandiri.",
-  "count": 30,
-  "pdf": "pdf/Latihan_BahasaInggris_Kelas6_Lesson4.pdf"
+  "count": 30
  },
  {
   "id": "bing-kelas6-p2",
   "subject": "Bahasa Inggris",
   "title": "English for Grade 6 (Paket 2)",
   "desc": "30 soal lanjutan: present dan past activities, be going to, aturan dan izin, perbandingan, percakapan, serta dua bacaan baru.",
-  "count": 30,
-  "pdf": "pdf/Latihan_Soal_BahasaInggris_Kelas6_Paket2.pdf"
+  "count": 30
  },
  {
   "id": "bing-kelas6",
   "subject": "Bahasa Inggris",
   "title": "English for Grade 6",
   "desc": "50 soal: vocabulary, simple present, present continuous, simple past, dan 2 teks bacaan.",
-  "count": 50,
-  "pdf": "pdf/Latihan_Soal_BahasaInggris_Kelas6.pdf"
+  "count": 50
  }
 ]

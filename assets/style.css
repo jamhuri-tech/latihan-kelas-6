@@ -784,22 +784,6 @@ button:disabled {
 .start-link .ui-icon {
   width:16px
 }
-.pdf-link {
-  display:flex;
-  gap:4px;
-  align-items:center;
-  text-decoration:none;
-  font-size:12px;
-  color:var(--muted);
-  min-height:32px;
-  padding:3px 5px
-}
-.pdf-link:hover {
-  color:var(--blue)
-}
-.pdf-link .ui-icon {
-  width:14px
-}
 .card-progress {
   display:flex;
   align-items:center;
@@ -1901,9 +1885,6 @@ textarea.txt {
   }
   .start-link {
     font-size:12px
-  }
-  .pdf-link {
-    font-size:11px
   }
   .selects {
     margin-left:0;

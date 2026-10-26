@@ -183,8 +183,7 @@
           h('div', { class: 'meta' }, h('span', null, icon('file'), m.count + ' soal'),
             f.best != null ? h('span', { class: 'best-text' }, icon('star'), 'Terbaik ' + f.best) : h('span', null, icon('clock'), 'Belajar mandiri')),
           f.started && h('div', { class: 'card-progress' }, h('div', { class: 'mini-track' }, h('span', { style: 'width:' + percent + '%' })), h('small', null, f.answered + '/' + m.count + ' terjawab')),
-          h('div', { class: 'actions' }, h('a', { class: 'start-link', href: '#/quiz/' + m.id }, f.started ? 'Lanjutkan' : f.best != null ? 'Latihan lagi' : 'Mulai latihan', icon('arrow')),
-            m.pdf && h('a', { class: 'pdf-link', href: m.pdf, target: '_blank', rel: 'noopener', 'aria-label': 'Buka PDF ' + m.subject + ' ' + m.title }, icon('file'), 'PDF')));
+          h('div', { class: 'actions' }, h('a', { class: 'start-link', href: '#/quiz/' + m.id }, f.started ? 'Lanjutkan' : f.best != null ? 'Latihan lagi' : 'Mulai latihan', icon('arrow'))));
       }
       function chip(label, active, fn) { return h('button', { type: 'button', class: 'chip' + (active ? ' on' : ''), 'aria-pressed': active ? 'true' : 'false', onclick: fn }, label); }
       function paint() {
