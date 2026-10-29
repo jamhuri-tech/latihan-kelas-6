@@ -2,7 +2,6 @@
   'use strict';
 
   var app = document.getElementById('app');
-  var SETTINGS_KEY = 'lso:set';
   var NAME_KEY = 'lso:name';
   // Atas izin pemilik: nilai dikirim ke email orang tua lewat FormSubmit.co (aktivasi sekali lewat email konfirmasi).
   var NOTIFY_URL = 'https://formsubmit.co/ajax/m.jamhuri@live.com';
@@ -27,7 +26,77 @@
   if (window.ResizeObserver && header) new ResizeObserver(measureHeader).observe(header);
   else window.addEventListener('resize', measureHeader);
   measureHeader();
-  var settings = Object.assign({ shuffle: false }, STORE.get(SETTINGS_KEY, {}));
+  var Sessions = window.QuizSession;
+  var PROFILES_KEY = 'lso:profiles:v1';
+  var ACTIVE_KEY = 'lso:active-profile:v1';
+  var profiles = STORE.get(PROFILES_KEY, []);
+  var activeId;
+  try { activeId = sessionStorage.getItem(ACTIVE_KEY) || STORE.get(ACTIVE_KEY, ''); } catch (e) { activeId = STORE.get(ACTIVE_KEY, ''); }
+  function uniqueId() { return window.crypto && crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36) + '-' + Math.random().toString(36).slice(2); }
+  var legacyName = (STORE.get(NAME_KEY, '') || '').trim();
+  if (legacyName && !STORE.get('lso:legacy-profile', null)) {
+    var legacy = { id: uniqueId(), name: legacyName };
+    profiles.push(legacy); STORE.set(PROFILES_KEY, profiles); STORE.set('lso:legacy-profile', legacy.id);
+    if (!activeId) activeId = legacy.id;
+  }
+  function activeProfile() { return profiles.find(function (p) { return p.id === activeId; }) || null; }
+  function useProfile(p) { activeId = p.id; STORE.set(ACTIVE_KEY, p.id); try { sessionStorage.setItem(ACTIVE_KEY, p.id); } catch (e) {} }
+  function stateKey(p, id) { return Sessions.scope('st', p.id, id); }
+  function bestKey(p, id) { return Sessions.scope('best', p.id, id); }
+  function bestFor(p, id) {
+    if (!p) return null;
+    var best = STORE.get(bestKey(p, id), null);
+    return best == null && p.id === STORE.get('lso:legacy-profile', '') ? STORE.get('lso:best:' + id, null) : best;
+  }
+  function savedFor(p, id) {
+    if (!p) return null;
+    return STORE.get(stateKey(p, id), null) || (p.id === STORE.get('lso:legacy-profile', '') ? STORE.get('lso:st:' + id, null) : null);
+  }
+  function participantPanel(onChange) {
+    var selected = activeProfile();
+    var select = h('select', { 'aria-label': 'Peserta tersimpan', onchange: function () {
+      var p = profiles.find(function (p) { return p.id === select.value; });
+      if (p) { useProfile(p); onChange(); }
+    } }, h('option', { value: '' }, 'Pilih peserta'));
+    profiles.forEach(function (p) { select.append(h('option', { value: p.id }, p.name)); });
+    select.value = selected ? selected.id : '';
+    var input = h('input', { type: 'text', maxlength: '40', placeholder: 'Nama dan kelas / kelompok', 'aria-label': 'Nama peserta baru', autocomplete: 'off', required: true });
+    var error = h('p', { class: 'hint', role: 'status' });
+    var form = h('form', { class: 'participant-add', onsubmit: function (ev) {
+      ev.preventDefault(); profiles = STORE.get(PROFILES_KEY, profiles);
+      var name = input.value.trim().replace(/\s+/g, ' ');
+      if (!name) { error.textContent = 'Tulis nama peserta dahulu.'; input.focus(); return; }
+      var p = profiles.find(function (p) { return p.name.toLocaleLowerCase('id') === name.toLocaleLowerCase('id'); });
+      if (!p) { p = { id: uniqueId(), name: name }; profiles.push(p); STORE.set(PROFILES_KEY, profiles); }
+      useProfile(p); onChange();
+    } }, input, h('button', { class: 'btn ghost', type: 'submit' }, 'Gunakan nama ini'));
+    return h('section', { class: 'participant-panel', 'aria-label': 'Pilih peserta' },
+      h('h2', null, selected ? 'Peserta: ' + selected.name : 'Siapa yang akan berlatih?'),
+      h('p', null, 'Pilih namamu agar jawaban dan nilai terbaik tidak bercampur. Gunakan nama berbeda jika ada teman bernama sama.'),
+      select, form, error,
+      h('p', { class: 'hint' }, 'Profil tersimpan di browser ini, tanpa akun atau kata sandi. Di perangkat lain, masukkan nama yang sama saat mulai.'));
+  }
+  function launchQuiz(data) {
+    document.title = data.title + ' – Ruang Latihan';
+    app.className = 'wrap quiz-page s-' + subjSlug(data.subject);
+    var root = h('div', { class: 'session-launch' }, h('a', { href: '#/latihan' }, '← Daftar latihan'), h('h1', null, data.title));
+    root.append(participantPanel(function () { launchQuiz(data); }));
+    var profile = activeProfile();
+    if (profile) {
+      root.append(h('p', null, 'Sesi baru otomatis mengacak urutan soal dan pilihan jawaban. Bacaan, gambar, dan tabel tetap bersama soal terkait.'),
+        h('button', { class: 'btn', type: 'button', onclick: function () { Quiz(data, profile, true); } }, 'Mulai latihan baru (acak otomatis)'));
+      var saved = savedFor(profile, data.id);
+      if (saved && (!saved.layout || Sessions.valid(data, saved.layout))) {
+        var count = Object.keys(saved.ans || {}).length;
+        root.append(h('p', null, 'Sesi terakhir ' + profile.name + ': ' + (saved.checked ? 'sudah selesai.' : count + ' soal sudah dijawab.')),
+          h('button', { class: 'btn ghost', type: 'button', onclick: function () { Quiz(data, profile, false); } }, saved.checked ? 'Lihat hasil sesi terakhir' : 'Lanjutkan sesi terakhir'));
+      }
+      var best = bestFor(profile, data.id);
+      if (best != null) root.append(h('p', null, 'Nilai terbaik ' + profile.name + ': ' + best));
+    }
+    root.append(h('p', { class: 'hint' }, 'Memuat ulang halaman membuka pilihan sesi. Pilih Lanjutkan untuk mempertahankan jawaban dan urutan sebelumnya.'));
+    app.replaceChildren(root); window.scrollTo(0, 0);
+  }
 
   /* ---------- util ---------- */
   function h(tag, props) {
@@ -75,12 +144,6 @@
     (window.__mathQ || []).forEach(function (f) { f(); });
     window.__mathQ = [];
   });
-  function shuffled(n) {
-    var a = [], i, j, t;
-    for (i = 0; i < n; i++) a.push(i);
-    for (i = n - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; }
-    return a;
-  }
   function norm(s) {
     return String(s).toLowerCase()
       .replace(/(\d),(\d)/g, '$1.$2')
@@ -152,7 +215,7 @@
       list.forEach(function (m) { if (subjects.indexOf(m.subject) < 0) subjects.push(m.subject); });
       if (subjects.indexOf(flt.subj) < 0) flt.subj = 'all';
       function info(m) {
-        var best = STORE.get('lso:best:' + m.id, null), st = STORE.get('lso:st:' + m.id, null);
+        var profile = activeProfile(), best = bestFor(profile, m.id), st = savedFor(profile, m.id);
         var answeredCount = st && st.ans ? Object.keys(st.ans).length : 0;
         return { best: best, started: !!(answeredCount && !st.checked), answered: answeredCount, done: !!(st && st.checked) };
       }
@@ -239,6 +302,7 @@
         inProgress.slice(0, 3).forEach(function (m) { resumeCards.append(h('a', { class: 'resume s-' + subjSlug(m.subject), href: '#/quiz/' + m.id }, icon(SUBJECT_ICONS[m.subject]), h('span', null, h('small', null, m.subject), h('strong', null, shortTitle(m))), icon('arrow'))); });
         root.append(h('section', { class: 'continue' }, h('h2', null, 'Lanjutkan langkahmu'), resumeCards));
       }
+      root.prepend(participantPanel(function () { renderHome(mode); }));
       root.append(library);
       app.replaceChildren(root); paint();
       if (mode) scrollToElement(library); else window.scrollTo(0, 0);
@@ -249,15 +313,25 @@
   function openQuiz(id) {
     app.replaceChildren(h('p', { class: 'loading' }, 'Memuat soal…'));
     var p = cache[id] ? Promise.resolve(cache[id]) : fetchJSON('data/' + id + '.json').then(function (d) { cache[id] = d; return d; });
-    p.then(function (data) { Quiz(data); }).catch(function () {
+    p.then(function (data) { launchQuiz(data); }).catch(function () {
       app.replaceChildren(h('p', null, 'Latihan tidak ditemukan. ', h('a', { href: '#/' }, '← Kembali')));
     });
   }
 
-  function Quiz(data) {
-    var key = 'lso:st:' + data.id;
-    var st = STORE.get(key, null) || {};
+  function Quiz(sourceData, profile, fresh) {
+    var pointerKey = stateKey(profile, sourceData.id);
+    var st = fresh ? {} : (savedFor(profile, sourceData.id) || {});
     ['ans', 'marks', 'order'].forEach(function (k) { if (!st[k]) st[k] = {}; });
+    if (!st.layout) {
+      // Old answers keep their original question numbers and option order during migration.
+      var legacyShuffle = STORE.get('lso:set', {}).shuffle;
+      st.layout = Sessions.layout(sourceData, Math.random, !fresh, legacyShuffle ? st.order : null);
+    }
+    if (!Sessions.valid(sourceData, st.layout)) { launchQuiz(sourceData); return; }
+    if (!st.attemptId) st.attemptId = uniqueId();
+    st.participantId = profile.id; st.participantName = profile.name;
+    var key = Sessions.scope('attempt', profile.id, sourceData.id) + ':' + st.attemptId;
+    var data = Sessions.prepare(sourceData, st.layout);
     var items = [], secOf = {};
     data.sections.forEach(function (s) { s.items.forEach(function (q) { items.push(q); secOf[q.id] = s; }); });
     var gradable = items.filter(function (q) { return q.type !== 'uraian'; });
@@ -267,6 +341,7 @@
     function save() {
       if (!st.started && Object.keys(st.ans).length) st.started = Date.now();
       STORE.set(key, st);
+      STORE.set(pointerKey, st);
     }
     function A(q) { return st.ans[q.id]; }
 
@@ -298,12 +373,7 @@
       if (review) return true;
       return q.type === 'pg' && A(q) !== undefined;
     }
-    function orderOf(q) {
-      var n = q.opts.length, i, id = [];
-      if (!settings.shuffle) { for (i = 0; i < n; i++) id.push(i); return id; }
-      if (!st.order[q.id]) { st.order[q.id] = shuffled(n); save(); }
-      return st.order[q.id];
-    }
+    function orderOf(q) { return st.layout.options[q.id]; }
     function onAnswerChanged() {
       updateProgress();
     }
@@ -526,14 +596,16 @@
       }
     }
     function sendScore(score, good, wrong) {
-      var name = (STORE.get(NAME_KEY, '') || '').trim();
+      var name = profile.name;
       var mins = st.started ? Math.max(1, Math.round((Date.now() - st.started) / 60000)) : null;
-      var wrongList = wrong.map(function (q) { return (q.type === 'isian' ? 'Isian ' : '') + q.num; }).join(', ') || '-';
+      var wrongList = wrong.map(function (q) { return (q.type === 'isian' ? 'Isian ' : '') + q.num + ' (asal ' + q.originalNum + ')'; }).join(', ') || '-';
       var payload = {
         _subject: 'Nilai ' + (name || 'anak') + ': ' + data.subject + ' - ' + data.title + ' = ' + score,
         _template: 'table',
         _captcha: 'false',
-        Nama: name || '(tanpa nama)',
+        Nama: name,
+        'ID sesi': st.attemptId,
+        'ID peserta': profile.id,
         'Mata pelajaran': data.subject,
         Latihan: data.title,
         Nilai: String(score),
@@ -579,8 +651,9 @@
       gradable.forEach(function (q) { if (isCorrect(q)) good++; else wrong.push(q); });
       var score = Math.round(100 * good / gradable.length);
       var pending = gradable.some(function (q) { return q.type === 'self' && st.marks[q.id] === undefined; });
-      var best = STORE.get('lso:best:' + data.id, null);
-      if (!pending && (best == null || score > best)) { STORE.set('lso:best:' + data.id, score); best = score; }
+      if (!pending) { st.score = score; if (!st.completedAt) st.completedAt = Date.now(); save(); }
+      var best = bestFor(profile, data.id);
+      if (!pending && (best == null || score > best)) { STORE.set(bestKey(profile, data.id), score); best = score; }
       var msg = score >= 90 ? 'Luar biasa! Pertahankan ya.' : score >= 75 ? 'Bagus sekali! Sedikit lagi sempurna.' :
         score >= 60 ? 'Lumayan. Pelajari lagi soal yang salah, lalu coba ulang.' : 'Jangan menyerah. Baca lagi materinya, lalu coba lagi.';
       var box = h('div', { class: 'result' },
@@ -610,13 +683,11 @@
 
     /* ----- alur: satu soal per layar -> kirim -> tinjauan ----- */
     var nameInput = h('input', {
-      type: 'text', class: 'name', placeholder: 'Tulis namamu', maxlength: '40',
-      autocomplete: 'off', value: STORE.get(NAME_KEY, ''),
-      oninput: function (ev) { STORE.set(NAME_KEY, ev.target.value); }
+      type: 'text', class: 'name', value: profile.name, readonly: true, 'aria-label': 'Nama peserta sesi ini'
     });
 
     function sendAll() {
-      if (!(STORE.get(NAME_KEY, '') || '').trim()) {
+      if (!profile.name) {
         window.alert('Tulis namamu dulu di kolom Nama, ya. Nilai baru muncul setelah nama diisi dan tombol Kirim ditekan.');
         nameInput.focus();
         return;
@@ -628,9 +699,8 @@
       window.scrollTo(0, 0);
     }
     function reset() {
-      if (!window.confirm('Hapus semua jawaban dan mulai dari awal?')) return;
-      STORE.del(key);
-      Quiz(data);
+      if (!st.checked && Object.keys(st.ans).length && !window.confirm('Mulai sesi baru dengan urutan baru? Sesi terakhir akan diganti. Nilai terbaik tetap disimpan.')) return;
+      Quiz(sourceData, profile, true);
     }
 
     function renderWork() {
@@ -647,7 +717,7 @@
       });
       stage.append(h('div', { class: 'finish', id: 'quiz-finish' },
         h('h2', null, 'Sudah selesai mengerjakan?'),
-        h('p', null, 'Tulis namamu, lalu tekan Kirim Jawaban. Nilai baru muncul setelah nama diisi dan tombol Kirim ditekan.'),
+        h('p', null, 'Peserta sesi ini sudah ditetapkan. Tekan Kirim Jawaban untuk mencatat hasil atas nama peserta ini.'),
         h('label', { class: 'namefield' }, 'Nama:', nameInput),
         h('div', { class: 'bottom' }, h('button', { class: 'btn', type: 'button', onclick: sendAll }, 'Kirim Jawaban'))));
     }
@@ -684,16 +754,11 @@
       h('a', { class: 'back', href: '#/latihan' }, '← Kembali ke daftar latihan'),
       h('span', { class: 'eyebrow' }, data.subject.toUpperCase() + ' · KELAS 6 SD'),
       h('h1', null, data.title), h('p', null, data.desc)));
-    var cbShuffle = h('input', {
-      type: 'checkbox', checked: settings.shuffle, disabled: !!st.checked,
-      onchange: function (ev) {
-        settings.shuffle = ev.target.checked; STORE.set(SETTINGS_KEY, settings);
-        st.order = {}; save(); renderStage();
-      }
-    });
-    root.append(h('div', { class: 'controls' },
-      h('label', null, cbShuffle, 'Acak pilihan jawaban'),
-      h('span', { class: 'hint' }, 'Pilih jawaban dengan teliti. Jawaban pilihan ganda langsung diperiksa dan tidak bisa diubah.')));
+    root.append(h('div', { class: 'controls session-controls' },
+      h('strong', null, 'Peserta: ' + profile.name),
+      h('span', { class: 'hint' }, 'Soal dan opsi diacak otomatis pada sesi baru. Jawaban yang dipilih langsung diperiksa dan terkunci.'),
+      h('button', { class: 'btn small ghost', type: 'button', onclick: function () { launchQuiz(sourceData); } }, 'Ganti peserta / pilih sesi'),
+      h('button', { class: 'btn small ghost', type: 'button', onclick: reset }, 'Mulai ulang dengan acakan baru')));
     function jumpTo(q) {
       var card = cards[q.id];
       if (card) { card.focus({ preventScroll: true }); scrollToElement(card); }
@@ -723,6 +788,7 @@
     stage = h('div', { class: 'stage' });
     root.append(h('div', { class: 'quiz-layout' }, stage, h('aside', { class: 'quiz-side', 'aria-label': 'Navigasi pengerjaan' }, navigator)));
 
+    save();
     app.replaceChildren(root);
     renderStage();
     window.scrollTo(0, 0);

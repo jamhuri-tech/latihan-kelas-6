@@ -2090,3 +2090,14 @@ textarea.txt {
   .panel-title { display: flex; justify-content: space-between; gap: 10px; align-items: center; }
   .mobile-hint { display: inline; font-size: 9px; font-weight: 400; letter-spacing: 0; text-transform: none; }
 }
+
+/* Participant selection and independent practice sessions. */
+.participant-panel {background:#fff;border:1px solid var(--line,#dce4dc);border-radius:18px;padding:22px;margin:20px 0}
+.participant-panel h2 {font-size:1.25rem;margin:0 0 10px}
+.participant-panel select,.participant-add input {font:inherit;border:1px solid #ccd6cd;border-radius:10px;padding:11px;max-width:100%;background:#fff;min-height:44px}
+.participant-panel select {width:min(100%,360px)}
+.participant-add {display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.participant-add input {flex:1;min-width:min(100%,220px)}
+.session-launch {max-width:850px;margin:26px auto}
+.session-launch>.btn {margin:5px 10px 8px 0}
+.session-controls {flex-wrap:wrap;gap:12px}
