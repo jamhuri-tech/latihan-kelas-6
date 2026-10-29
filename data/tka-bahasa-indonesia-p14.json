@@ -1,0 +1,627 @@
+{
+ "id": "tka-bahasa-indonesia-p14",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 14)",
+ "desc": "30 soal pilihan ganda dengan lima bacaan baru. Pemahaman tekstual, inferensial, evaluasi dan apresiasi; pilihan pengecoh perlu dibandingkan dengan bukti bacaan. Prediksi mandiri berdasarkan contoh resmi SD, bukan soal resmi.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Ruang Pamer yang Bisa Disentuh",
+    "paras": [
+     "Museum daerah membuka ruang pamer baru. Di sana tersedia tiruan benda bersejarah. Tiruan tertentu boleh disentuh oleh pengunjung. Benda asli tetap berada dalam lemari. Pengunjung dapat membandingkan bentuk melalui tiruan. Petugas mendampingi kegiatan selama ruang dibuka.",
+     "Setiap tiruan memiliki dua macam label. Label pertama berisi nama serta kegunaan. Label kedua menjelaskan bagian yang boleh disentuh. Tanda telapak tangan dipasang pada alas. Alas tanpa tanda hanya untuk dilihat. Pengunjung diminta membaca label sebelum mencoba.",
+     "Pada pekan pertama, petugas mengamati pengunjung. Beberapa anak langsung memegang benda terdekat. Mereka belum memperhatikan tanda pada alas. Petugas kemudian memindahkan petunjuk ke pintu masuk. Contoh tanda diperbesar pada papan. Penjelasan lisan tetap diberikan saat diperlukan.",
+     "Sekolah mengirim dua kelompok pada hari berbeda. Kelompok pertama datang sebelum perubahan petunjuk. Kelompok kedua datang setelah perubahan tersebut. Kelompok kedua mendapat lebih sedikit teguran. Namun, jumlah anggota kedua kelompok berbeda. Lama kunjungan mereka juga tidak sama.",
+     "Petugas belum menyatakan perubahan itu pasti berhasil. Mereka akan mengamati beberapa kunjungan berikutnya. Jumlah pengunjung dan teguran dicatat bersama. Mereka juga meminta tanggapan para pendamping. Ruang pamer diharapkan mudah dipahami pengunjung. Kesempatan mencoba tetap disertai aturan perlindungan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi label kedua pada setiap tiruan?"
+      }
+     ],
+     "opts": [
+      "Menjelaskan nama serta kegunaan benda.",
+      "Menjelaskan bagian yang boleh disentuh.",
+      "Mencatat jumlah teguran setiap kelompok.",
+      "Mencatat lama kunjungan para pendamping."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan apa yang dilakukan setelah pengamatan awal?"
+      }
+     ],
+     "opts": [
+      "Benda asli dipindah ke atas alas.",
+      "Penjelasan lisan dihentikan seluruhnya.",
+      "Dua kelompok diminta datang bersamaan.",
+      "Petunjuk dipindah ke pintu masuk."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa makna tanda telapak tangan dalam bacaan?"
+      }
+     ],
+     "opts": [
+      "Benda asli boleh keluar dari lemari.",
+      "Tiruan pada alas boleh disentuh.",
+      "Pengunjung wajib mencuci semua tiruan.",
+      "Pendamping tidak perlu membaca label."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa teguran yang lebih sedikit belum cukup membuktikan keberhasilan?"
+      }
+     ],
+     "opts": [
+      "Label nama dan kegunaan tersedia pada tiruan.",
+      "Petunjuk baru diletakkan pada pintu masuk.",
+      "Jumlah pengunjung dan lama kunjungan berbeda.",
+      "Pendamping diminta memberikan tanggapan tertulis."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rencana pengamatan mana paling membantu menilai perubahan petunjuk?"
+      }
+     ],
+     "opts": [
+      "Bandingkan jumlah benda asli pada dua lemari.",
+      "Hitung semua pengunjung tanpa mencatat teguran.",
+      "Tanyakan nama museum tanpa melihat petunjuk.",
+      "Bandingkan teguran pada kunjungan yang sebanding."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Seorang anak melihat alas tanpa tanda. Tindakan yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Menyentuh benda karena semua tiruan sama.",
+      "Melihat benda sambil memeriksa petunjuknya.",
+      "Memindahkan tanda dari alas di sebelahnya.",
+      "Membuka lemari agar benda bisa dibandingkan."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Foto yang Tidak Jadi Dipasang",
+    "paras": [
+     "Aku menjadi penyusun majalah dinding kelas. Kelompok kami menyiapkan laporan kunjungan kebun. Aku memilih foto yang paling ramai. Dalam foto itu, Nala sedang terpeleset. Teman lain tertawa sambil membantunya berdiri. Menurutku, foto itu membuat laporan terasa hidup.",
+     "Ketika rancangan ditunjukkan, Nala mendekatiku. Ia meminta foto itu tidak dipasang. Aku menjawab bahwa semua terlihat gembira. Nala menunjuk wajahnya yang tampak terkejut. Ia tidak ingin kejadian itu dipajang. Aku terdiam sambil memegang lembar rancangan.",
+     "Awalnya, aku ingin mempertahankan foto pilihan. Ukurannya sudah sesuai dengan ruang kosong. Namun, aku mencoba membayangkan menjadi Nala. Aku juga pernah malu saat terjatuh. Foto yang lucu bagiku belum tentu menyenangkan. Aku lalu membuka kumpulan foto lainnya.",
+     "Kami menemukan foto saat menanam bibit. Nala terlihat memegang sekop bersama teman. Aku menanyakan pendapatnya sebelum mencetak foto. Ia mengangguk dan membantu menulis keterangan. Aku mengubah susunan judul sedikit. Laporan tetap lengkap meskipun fotonya diganti.",
+     "Saat majalah dipasang, kami membacanya bersama. Nala menunjukkan keterangan bibit kepada pengunjung. Aku senang melihatnya ikut menjelaskan kegiatan. Aku meminta maaf atas jawaban sebelumnya. Sejak itu, foto dibahas bersama kelompok. Menarik bagi pembaca tetap harus menghargai teman."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Foto apa yang akhirnya digunakan dalam laporan?"
+      }
+     ],
+     "opts": [
+      "Foto ketika murid menanam bibit.",
+      "Foto saat Nala hampir meninggalkan kebun.",
+      "Foto ketika rancangan sedang dicetak.",
+      "Foto saat majalah dibaca pengunjung."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan Nala setelah foto pengganti ditemukan?"
+      }
+     ],
+     "opts": [
+      "Membantu menulis keterangan foto.",
+      "Mempertahankan susunan judul lama.",
+      "Meminta semua laporan dibatalkan.",
+      "Mencetak foto pertama lebih besar."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa jawaban awal tokoh belum menanggapi keberatan Nala?"
+      }
+     ],
+     "opts": [
+      "Tokoh belum mengetahui ukuran ruang kosong.",
+      "Tokoh menilai foto hanya dari pandangannya.",
+      "Nala belum memilih judul untuk laporan kelas.",
+      "Nala tidak ikut membantu saat di kebun."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa bukti bahwa penggantian foto tidak menghilangkan isi laporan?"
+      }
+     ],
+     "opts": [
+      "Ukuran foto pertama sesuai dengan ruang kosong.",
+      "Teman lain tertawa sambil membantu Nala berdiri.",
+      "Judul tidak pernah mengalami perubahan susunan.",
+      "Laporan tetap lengkap dan kegiatan dapat dijelaskan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Penilaian yang tepat terhadap keputusan tokoh adalah..."
+      }
+     ],
+     "opts": [
+      "Tepat karena isi tetap utuh dan teman dihargai.",
+      "Tepat karena foto ramai selalu kurang menarik.",
+      "Kurang tepat karena keberatan hanya dari satu teman.",
+      "Kurang tepat karena judul akhirnya perlu disusun ulang."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika menghadapi pilihan foto serupa, tindakan yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Pilih foto paling ramai sebelum meminta pendapat.",
+      "Pertimbangkan perasaan teman serta tujuan laporan.",
+      "Ganti judul saja lalu gunakan foto yang ditolak.",
+      "Batalkan seluruh laporan karena ada keberatan foto."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Catatan Sisa Makanan Kantin",
+    "paras": [
+     "Kantin sekolah mencoba mengurangi sisa makanan. Petugas menyediakan wadah khusus setelah makan. Sisa makanan dipisahkan dari bungkusnya. Setiap akhir istirahat, isinya ditimbang bersama. Berat wadah kosong sudah dicatat dahulu. Catatan dibuat selama lima hari sekolah.",
+     "Petugas juga menghitung porsi yang terjual. Jenis menu ditulis pada lembar sama. Beberapa menu memiliki bagian yang tidak dimakan. Contohnya kulit buah serta tulang ikan. Bagian itu dicatat secara terpisah. Tujuannya membedakan sisa yang dapat dihindari.",
+     "Pada Jumat, berat sisa terlihat paling rendah. Seorang murid menyebut menu Jumat terbaik. Guru meminta mereka membaca catatan porsi. Porsi yang terjual ternyata juga paling sedikit. Menu hari itu berbeda dari Kamis. Kedua keadaan perlu diperhatikan bersama.",
+     "Pekan berikutnya, kantin mencoba pilihan porsi kecil. Murid boleh meminta tambahan setelah menghabiskannya. Menu dan jumlah porsi tetap dicatat. Petugas membandingkan hasil beberapa hari. Mereka tidak menilai dari satu penimbangan. Keluhan murid juga dikumpulkan oleh pendamping.",
+     "Catatan kemudian dibahas bersama pengelola kantin. Mereka mencari cara mengurangi makanan terbuang. Porsi kecil tidak diwajibkan kepada semua murid. Kebutuhan makan setiap anak dapat berbeda. Percobaan dilanjutkan sambil memperbaiki cara mencatat. Keputusan dibuat berdasarkan beberapa jenis informasi."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Informasi apa yang dicatat selain berat sisa makanan?"
+      }
+     ],
+     "opts": [
+      "Jumlah meja kosong dan warna bungkus.",
+      "Jumlah porsi terjual dan jenis menu.",
+      "Nama semua pembeli dan harga buah.",
+      "Umur pengelola dan panjang istirahat."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagaimana aturan pilihan porsi kecil pada pekan berikutnya?"
+      }
+     ],
+     "opts": [
+      "Tambahan boleh diminta setelah porsi habis.",
+      "Semua murid wajib memilih porsi kecil.",
+      "Menu tidak perlu dicatat selama percobaan.",
+      "Tambahan hanya diberikan pada hari Jumat."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa kulit buah dan tulang dicatat terpisah?"
+      }
+     ],
+     "opts": [
+      "Agar jumlah porsi yang terjual menjadi sama.",
+      "Agar menu Jumat dipilih sebagai menu terbaik.",
+      "Agar jenis sisa dapat dibedakan dengan tepat.",
+      "Agar berat wadah kosong tidak perlu dicatat."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan mana yang didukung catatan Jumat?"
+      }
+     ],
+     "opts": [
+      "Menu paling disukai pasti menghasilkan sisa teringan.",
+      "Sisa paling ringan disertai penjualan paling sedikit.",
+      "Sisa paling ringan membuktikan semua murid kenyang.",
+      "Penjualan paling sedikit membuktikan menu tidak enak."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Saran mana paling sesuai untuk membandingkan hasil percobaan?"
+      }
+     ],
+     "opts": [
+      "Perhatikan sisa, jumlah porsi, menu, dan keluhan.",
+      "Pilih berat terendah tanpa memeriksa catatan lain.",
+      "Samakan semua porsi tanpa menanyakan kebutuhan murid.",
+      "Hapus catatan tulang agar hasil terlihat lebih kecil."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Seorang murid menilai percobaan berhasil karena satu hari tanpa sisa. Tanggapan yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Hentikan penimbangan karena satu hasil sudah cukup.",
+      "Tolak hasil tersebut karena porsi kecil pasti gagal.",
+      "Periksa beberapa hari sebelum menilai hasilnya.",
+      "Abaikan keluhan karena berat sisa sudah berkurang."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Kursi di Baris Depan",
+    "paras": [
+     "Aku datang paling awal ke aula. Hari itu ada pertunjukan dongeng sekolah. Aku menaruh tas pada kursi depan. Aku ingin melihat boneka dari dekat. Setelah itu, aku membantu menata buku. Kursi pilihanku masih kosong saat kutinggalkan.",
+     "Ketika kembali, Beni duduk di sana. Tasku sudah berada pada kursi sebelah. Aku segera meminta tempatku dikembalikan. Beni menoleh lalu meminta maaf. Ia mengatakan petugas menyuruhnya duduk depan. Aku mengira ia hanya mencari alasan.",
+     "Bu Lani mendengar percakapan kami. Beliau menjelaskan Beni kesulitan melihat dari belakang. Beni sudah meminta tempat kepada petugas. Aku melihat kursi kosong di sampingnya. Dari kursi itu, panggung juga terlihat jelas. Aku mulai memahami penjelasan Bu Lani.",
+     "Aku memindahkan tasku dan duduk bersebelahan. Aku meminta maaf karena tadi menuduh. Beni menjelaskan bahwa ia belum mengenalku. Ia tidak tahu siapa pemilik tas. Kami kemudian membuka lembar jadwal pertunjukan. Aku menunjukkan bagian dongeng yang kutunggu.",
+     "Sepanjang pertunjukan, kami tertawa bersama. Boneka kelinci menjadi tokoh kesukaan kami. Saat selesai, Beni membantuku merapikan buku. Aku senang mendapat teman baru. Aku tetap bisa melihat pertunjukan dekat. Mendengarkan alasan ternyata membuka jalan pertemanan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Siapa yang meminta Beni duduk di depan?"
+      }
+     ],
+     "opts": [
+      "Teman pemilik tas.",
+      "Pemain boneka kelinci.",
+      "Petugas pertunjukan.",
+      "Murid penata buku."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Di mana tokoh akhirnya duduk?"
+      }
+     ],
+     "opts": [
+      "Di kursi paling belakang aula.",
+      "Di lantai di depan panggung boneka.",
+      "Di ruang tempat buku disimpan.",
+      "Di kursi kosong di sebelah Beni."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang menyebabkan pertentangan pada awal cerita?"
+      }
+     ],
+     "opts": [
+      "Beni mengetahui pemilik tas tetapi sengaja mengejek.",
+      "Bu Lani melarang tokoh menonton boneka dari dekat.",
+      "Tokoh belum mengetahui alasan Beni duduk di sana.",
+      "Petugas memindahkan semua buku sebelum tokoh datang."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa makna “membuka jalan pertemanan” dalam cerita?"
+      }
+     ],
+     "opts": [
+      "Membuat jalur baru agar kursi mudah dipindahkan.",
+      "Mengatur pintu aula supaya penonton segera keluar.",
+      "Menentukan urutan murid yang akan menata buku.",
+      "Membantu mereka saling memahami lalu berteman."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa keputusan duduk bersebelahan menjadi penyelesaian yang tepat?"
+      }
+     ],
+     "opts": [
+      "Keduanya dapat melihat panggung dengan jelas.",
+      "Beni harus mengembalikan kursi kepada petugas.",
+      "Tokoh tidak lagi ingin menonton pertunjukan.",
+      "Seluruh kursi depan harus dibiarkan kosong."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika mengalami peristiwa serupa, sikap yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Pertahankan dugaan awal agar barang tetap aman.",
+      "Tinggalkan acara sebelum petugas memberi penjelasan.",
+      "Pindahkan tas teman tanpa membahas tempat duduk.",
+      "Tanyakan alasan sebelum menyimpulkan niat orang."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Buku di Rak Lama",
+    "paras": [
+     "Debu tipis tidur di punggung buku.<br> Kutarik satu dari rak lama.<br> Sampul biru mulai memudar.<br> Namaku kecil tertulis di dalamnya.",
+     "Di sela halaman kutemukan gambar.<br> Garis rumahnya miring ke kanan.<br> Dulu kubuat bersama kakakku.<br> Kini ia belajar di kota lain.",
+     "Kusapukan kain pada sampulnya.<br> Kusimpan gambar tanpa merapikan garis.<br> Rak lama menjaga cerita kami.<br> Rindu hangat memenuhi sore ini."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang ditemukan di sela halaman buku?"
+      }
+     ],
+     "opts": [
+      "Kain pembersih sampul.",
+      "Surat dari kota lain.",
+      "Gambar sebuah rumah.",
+      "Rak dengan nama kakak."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Di mana kakak berada sekarang menurut puisi?"
+      }
+     ],
+     "opts": [
+      "Menggambar di depan rumah.",
+      "Membersihkan rak bersama tokoh.",
+      "Belajar di kota lain.",
+      "Mencari buku di halaman sekolah."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa gambar disimpan tanpa merapikan garisnya?"
+      }
+     ],
+     "opts": [
+      "Garis miring diperlukan untuk memperbaiki rak.",
+      "Bentuk lama menyimpan kenangan bersama kakak.",
+      "Tokoh belum menemukan kain untuk membersihkan.",
+      "Kakak melarang tokoh membuka halaman buku."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Suasana akhir puisi paling tepat digambarkan sebagai..."
+      }
+     ],
+     "opts": [
+      "Rindu disertai kenangan yang menghangatkan.",
+      "Marah karena gambar rumah belum sempurna.",
+      "Takut karena debu memenuhi seluruh rumah.",
+      "Lega karena kakak sudah pulang dari kota."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Larik yang memberi rak kemampuan seperti manusia adalah..."
+      }
+     ],
+     "opts": [
+      "Kutarik satu dari rak lama.",
+      "Namaku kecil tertulis di dalamnya.",
+      "Sampul biru mulai memudar.",
+      "Rak lama menjaga cerita kami."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan yang paling sejalan dengan perasaan tokoh adalah..."
+      }
+     ],
+     "opts": [
+      "Merawat benda yang mengingatkan kebersamaan.",
+      "Mengganti semua gambar agar tampak seragam.",
+      "Membuang sampul karena warnanya sudah pudar.",
+      "Menutup rak agar kenangan tidak terlihat lagi."
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
