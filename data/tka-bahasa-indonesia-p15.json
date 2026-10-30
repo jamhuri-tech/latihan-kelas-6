@@ -1,0 +1,627 @@
+{
+ "id": "tka-bahasa-indonesia-p15",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 15)",
+ "desc": "30 soal pilihan ganda dengan lima bacaan baru. Pemahaman tekstual, inferensial, evaluasi dan apresiasi; pilihan pengecoh perlu dibandingkan dengan bukti bacaan. Prediksi mandiri berdasarkan contoh resmi SD, bukan soal resmi.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Berkunjung ke Bengkel Kerajinan",
+    "paras": [
+     "Bengkel kerajinan desa menerima kunjungan sekolah. Pengunjung dapat melihat pembuatan anyaman bambu. Kegiatan berlangsung setiap Selasa dan Kamis. Satu kunjungan dibatasi dua puluh murid. Pendamping tidak termasuk dalam jumlah tersebut. Setiap kelompok wajib didampingi seorang guru.",
+     "Pendaftaran dilakukan paling lambat dua hari sebelumnya. Sekolah menyebut jumlah murid serta pilihan hari. Petugas memeriksa jadwal sebelum memberi kepastian. Pesan pendaftaran belum berarti tempat tersedia. Kelompok menunggu balasan dari petugas. Jika penuh, petugas menawarkan jadwal lain.",
+     "Kegiatan dibagi menjadi dua bagian. Pertama, perajin memperagakan cara menganyam. Murid memperhatikan dari tempat yang ditandai. Berikutnya, murid mencoba menggunakan bahan siap pakai. Peralatan tajam hanya digunakan oleh perajin. Murid dapat bertanya selama penjelasan berlangsung.",
+     "Hasil anyaman percobaan boleh dibawa pulang. Namun, contoh pajangan tetap di bengkel. Nama pembuat tertera pada setiap pajangan. Murid diminta meminta izin sebelum memotret. Beberapa karya belum boleh difoto. Petugas akan menunjukkan karya yang diizinkan.",
+     "Sekolah menyiapkan daftar peserta sebelum berangkat. Kelompok besar dibagi dalam kunjungan terpisah. Pendamping memeriksa kembali balasan jadwal. Murid membawa botol minum masing-masing. Setelah kegiatan, kelompok menyampaikan kesan kepada petugas. Masukan digunakan untuk memperbaiki kegiatan berikutnya."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Siapa yang tidak termasuk batas dua puluh pengunjung?"
+      }
+     ],
+     "opts": [
+      "Murid yang hanya melihat demonstrasi.",
+      "Murid yang mencoba bahan siap pakai.",
+      "Guru yang mendampingi kelompok.",
+      "Peserta yang membawa botol minum."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Urutan kegiatan yang sesuai dengan bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Melihat peragaan, lalu mencoba bahan siap pakai.",
+      "Mencoba alat tajam, lalu melihat hasil pajangan.",
+      "Memotret semua karya, lalu meminta izin petugas.",
+      "Membawa pajangan, lalu menulis nama pembuat."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa pesan pendaftaran belum memastikan tempat tersedia?"
+      }
+     ],
+     "opts": [
+      "Guru belum menghitung hasil anyaman percobaan.",
+      "Petugas masih harus memeriksa jadwal kunjungan.",
+      "Perajin hanya menerima murid yang bisa menganyam.",
+      "Botol minum peserta belum diperiksa pendamping."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa perbedaan hasil percobaan dengan contoh pajangan?"
+      }
+     ],
+     "opts": [
+      "Hasil percobaan boleh dibawa, pajangan tetap tinggal.",
+      "Hasil percobaan harus tinggal, pajangan boleh dibawa.",
+      "Keduanya boleh dibawa setelah kegiatan berlangsung.",
+      "Keduanya baru boleh dibawa pada kunjungan berikutnya."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sekolah mempunyai tiga puluh murid calon peserta. Rencana yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Membagi kunjungan dan menunggu kepastian jadwal.",
+      "Mengajak semua murid karena guru tidak dihitung.",
+      "Datang langsung agar mendapat giliran pertama.",
+      "Membagi kelompok setelah masuk ruang peragaan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Seorang murid ingin memotret pajangan. Tindakan yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Memotret dahulu lalu menunjukkan hasilnya kepada guru.",
+      "Memastikan karya tersebut diizinkan untuk difoto.",
+      "Memotret semua karya yang mencantumkan nama pembuat.",
+      "Memotret hanya karya yang letaknya dekat pintu masuk."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Payung di Gerbang",
+    "paras": [
+     "Hujan turun ketika pelajaran terakhir selesai. Aku membawa payung biru dari rumah. Aku meletakkannya pada rak dekat gerbang. Seusai merapikan buku, aku menuju rak. Payungku ternyata sudah tidak ada. Aku melihat Rino berjalan membawa payung biru.",
+     "Aku segera memanggil Rino dengan keras. Aku mengira ia mengambil payungku. Rino berhenti lalu menunjukkan gagangnya. Ada pita kuning terikat di sana. Payungku tidak mempunyai pita seperti itu. Aku mulai ragu terhadap dugaanku.",
+     "Bu Sari mendekati kami dari pos. Beliau membawa sebuah payung biru lainnya. Tadi payung itu jatuh dari rak. Bu Sari memindahkannya agar tidak terinjak. Aku memeriksa goresan kecil pada gagang. Goresan itu memang ada pada payungku.",
+     "Aku menerima payung sambil mengucapkan terima kasih. Lalu aku meminta maaf kepada Rino. Aku menjelaskan bahwa tadi terlalu cepat menuduh. Rino mengangguk dan menunjukkan pita kuningnya. Pita itu sengaja dipasang oleh ibunya. Warnanya membantu membedakan payung yang mirip.",
+     "Kami menunggu hujan sedikit mereda. Aku mengajak Rino berjalan menuju gerbang. Sebelum pulang, aku meminta pita kepada ibu. Aku memilih warna hijau untuk penanda. Sekarang aku memeriksa ciri barang dahulu. Warna yang sama belum memastikan pemiliknya."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa penanda pada payung milik Rino?"
+      }
+     ],
+     "opts": [
+      "Pita hijau pada ujungnya.",
+      "Pita kuning pada gagangnya.",
+      "Goresan kecil pada gagangnya.",
+      "Nama guru pada kainnya."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa Bu Sari memindahkan payung tokoh?"
+      }
+     ],
+     "opts": [
+      "Payung dipinjam untuk menuju pos.",
+      "Rak harus dibawa masuk kelas.",
+      "Payung jatuh dan dapat terinjak.",
+      "Rino meminta payung itu ditukar."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa penyebab tokoh mula-mula menuduh Rino?"
+      }
+     ],
+     "opts": [
+      "Rino menyembunyikan gagang yang diberi penanda.",
+      "Bu Sari menyatakan payung sudah dibawa Rino.",
+      "Rino menolak menjelaskan dari mana payung berasal.",
+      "Tokoh hanya melihat kesamaan warna payung."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang menunjukkan perubahan kebiasaan tokoh?"
+      }
+     ],
+     "opts": [
+      "Memanggil teman keras saat barang tidak ditemukan.",
+      "Memeriksa ciri barang sebelum menyimpulkan.",
+      "Menyimpan buku sesudah pelajaran terakhir selesai.",
+      "Menunggu hujan mereda sebelum berjalan pulang."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tanggapan paling tepat terhadap tindakan Rino adalah..."
+      }
+     ],
+     "opts": [
+      "Menyalahkannya karena membawa warna yang sama.",
+      "Menghargainya karena menunjukkan ciri payung.",
+      "Meragukannya karena pita dibuat oleh ibunya.",
+      "Mengabaikannya karena payung tokoh sudah ditemukan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika melihat teman membawa barang mirip milikmu, sebaiknya..."
+      }
+     ],
+     "opts": [
+      "Ambil dahulu karena warna barang terlihat sama.",
+      "Minta teman mengganti warna barangnya esok hari.",
+      "Tanyakan dan periksa cirinya sebelum menuduh.",
+      "Tunggu guru menuduh sebelum memeriksa barang."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Kartu Cerita di Perpustakaan",
+    "paras": [
+     "Perpustakaan sekolah menyediakan kartu cerita. Kartu dipasang di samping buku pilihan. Setiap kartu ditulis oleh seorang pembaca. Bagian depan berisi judul serta penulis. Bagian belakang memuat ringkasan dan tanggapan. Dua bagian itu diberi kotak berbeda.",
+     "Ringkasan menceritakan isi buku secara singkat. Pembaca tidak menyalin seluruh percakapan tokoh. Akhir cerita juga tidak dibuka lengkap. Tujuannya membantu pengunjung mengenali isi awal. Tanggapan berisi pendapat tentang pengalaman membaca. Penulis kartu menyebut alasan bagi pendapatnya.",
+     "Pada awal kegiatan, beberapa kartu perlu diperbaiki. Ada ringkasan yang hanya berisi pujian. Ada tanggapan yang tidak menyertakan alasan. Petugas mengajak penulis membaca kembali bukunya. Mereka memisahkan kejadian cerita dari penilaian pribadi. Kartu kemudian diperiksa bersama sekali lagi.",
+     "Pengunjung boleh memiliki pendapat berbeda. Sebuah buku dapat terasa lambat bagi seseorang. Pembaca lain mungkin menyukai rincian ceritanya. Perbedaan itu tidak langsung membuat kartu salah. Namun, kejadian dalam ringkasan harus sesuai buku. Pendapat dan informasi memiliki tuntutan pemeriksaan berbeda.",
+     "Kartu yang selesai dipasang selama sebulan. Pengunjung dapat menambahkan tanggapan pada kertas terpisah. Nama penulis kartu tetap dicantumkan. Petugas menyimpan kartu lama dalam map. Kegiatan membantu murid memilih bacaan berikutnya. Mereka juga belajar menjelaskan alasan penilaian."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagian belakang kartu memuat..."
+      }
+     ],
+     "opts": [
+      "Nama penerbit dan harga buku baru.",
+      "Ringkasan isi dan tanggapan pembaca.",
+      "Seluruh percakapan dan akhir cerita.",
+      "Nama peminjam dan batas pengembalian."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan petugas terhadap kartu lama?"
+      }
+     ],
+     "opts": [
+      "Menggantinya dengan seluruh halaman buku.",
+      "Menghapus semua nama penulisnya.",
+      "Memasangnya tanpa batas waktu.",
+      "Menyimpannya di dalam map."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa pujian saja belum cukup menjadi ringkasan?"
+      }
+     ],
+     "opts": [
+      "Pujian menilai buku, belum menjelaskan kejadiannya.",
+      "Pujian hanya dapat ditulis setelah sebulan berlalu.",
+      "Ringkasan harus menyalin semua percakapan tokoh.",
+      "Ringkasan hanya boleh disusun oleh petugas perpustakaan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dua pembaca berbeda pendapat tentang rincian cerita. Simpulan yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Salah satu pembaca pasti belum menyelesaikan bukunya.",
+      "Ringkasan keduanya harus memiliki kejadian berbeda.",
+      "Pengalaman membaca dapat menghasilkan penilaian berbeda.",
+      "Kartu yang dipasang lebih dahulu selalu lebih benar."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat mana paling sesuai ditempatkan dalam kotak tanggapan?"
+      }
+     ],
+     "opts": [
+      "Tokoh utama pergi ke desa bersama pamannya.",
+      "Saya menyukai ceritanya karena tokohnya pantang menyerah.",
+      "Setelah tiba, mereka mencari rumah seorang perajin.",
+      "Cerita berakhir ketika tokoh kembali ke sekolah."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pengunjung menemukan kejadian pada ringkasan berbeda dari buku. Tindakan yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Membiarkannya karena semua isi kartu merupakan pendapat.",
+      "Menghapus tanggapan pembaca lain yang berbeda selera.",
+      "Mengganti judul buku agar sesuai dengan ringkasannya.",
+      "Memeriksa buku lalu mengusulkan perbaikan informasi."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Pot yang Retak",
+    "paras": [
+     "Aku membantu menata tanaman untuk pameran. Pot tanah diletakkan pada meja rendah. Aku ingin menggeser pot paling besar. Namun, tanganku menyenggol pot kecil di sebelahnya. Pot kecil itu jatuh ke lantai. Pada sisinya muncul retakan cukup panjang.",
+     "Aku segera mengangkatnya dengan kedua tangan. Tanah di dalamnya mulai berjatuhan. Aku menaruh pot di belakang daun lebar. Aku berharap retakannya tidak terlihat. Bima datang membawa kain untuk meja. Ia melihat tanah yang berserakan di lantai.",
+     "Aku menceritakan kejadian itu dengan pelan. Bima menyarankan agar aku memberi tahu guru. Aku takut tidak diizinkan membantu lagi. Namun, pot retak dapat jatuh saat dipindahkan. Aku akhirnya menemui Bu Rani. Aku menjelaskan tempat pot itu kusimpan.",
+     "Bu Rani mengajakku memindahkan tanaman bersama. Kami menggunakan pot cadangan yang tersedia. Pot retak dipisahkan agar tidak digunakan. Aku membersihkan tanah dengan bantuan Bima. Sesudahnya, kami melanjutkan penataan meja. Aku bekerja lebih hati-hati ketika menggeser barang.",
+     "Sebelum pulang, aku berterima kasih kepada Bima. Aku juga meminta maaf kepada guru. Bu Rani memintaku segera melapor lain kali. Aku merasa lega setelah berkata jujur. Menyembunyikan pot tadi justru menambah kekhawatiranku. Pameran tetap siap meskipun ada kejadian kecil."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Di mana tokoh sempat menyembunyikan pot retak?"
+      }
+     ],
+     "opts": [
+      "Di bawah kain meja.",
+      "Di samping pot cadangan.",
+      "Di dalam ruang pameran lain.",
+      "Di belakang daun lebar."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang digunakan untuk mengganti pot rusak?"
+      }
+     ],
+     "opts": [
+      "Pot cadangan yang tersedia.",
+      "Kain yang dibawa oleh Bima.",
+      "Daun lebar dari tanaman.",
+      "Tanah yang sudah dibersihkan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tokoh awalnya enggan memberi tahu guru?"
+      }
+     ],
+     "opts": [
+      "Ia belum mengetahui letak pot rusak.",
+      "Ia takut tidak boleh membantu lagi.",
+      "Bima melarangnya meninggalkan meja.",
+      "Guru sudah menutup ruang pameran."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan perasaan tokoh setelah melapor adalah..."
+      }
+     ],
+     "opts": [
+      "Dari bangga menjadi sangat marah.",
+      "Dari tenang menjadi semakin curiga.",
+      "Dari senang menjadi merasa ditinggalkan.",
+      "Dari khawatir menjadi lebih lega."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa saran Bima penting bagi penyelesaian masalah?"
+      }
+     ],
+     "opts": [
+      "Laporan membantu guru menangani pot dengan tepat.",
+      "Laporan membuat tanaman tidak perlu dipindahkan.",
+      "Saran itu memastikan pot retak dapat dipakai lagi.",
+      "Saran itu menghapus kebutuhan membersihkan lantai."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan yang mencerminkan pelajaran cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Menyimpan barang rusak sampai orang lain menemukannya.",
+      "Menghindari seluruh tugas agar tidak pernah keliru.",
+      "Mengakui kejadian dan membantu memperbaiki keadaan.",
+      "Menyalahkan letak tanaman ketika barang tersenggol."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Lampu Perahu",
+    "paras": [
+     "Senja melipat cahaya di dermaga.<br> Aku duduk dekat ayah menunggu.<br> Di kejauhan, perahu beringsut pulang.<br> Lampu kecil bergoyang di atas air.",
+     "Ayah menunjuk satu titik terang.<br> Itulah perahu paman, katanya pelan.<br> Kuraih bungkusan roti di pangkuan.<br> Akan kuberikan saat ia turun.",
+     "Tali perahu menyentuh tiang kayu.<br> Paman melambaikan tangan sambil tersenyum.<br> Penantian panjang perlahan mencair.<br> Malam terasa dekat dan hangat."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang berada di pangkuan tokoh?"
+      }
+     ],
+     "opts": [
+      "Tali perahu.",
+      "Lampu kecil.",
+      "Tiang kayu.",
+      "Bungkusan roti."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Siapa yang menunjukkan perahu paman?"
+      }
+     ],
+     "opts": [
+      "Penjaga dermaga.",
+      "Paman tokoh.",
+      "Pemilik bungkusan roti.",
+      "Ayah tokoh."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna “penantian panjang perlahan mencair” adalah..."
+      }
+     ],
+     "opts": [
+      "Rasa menunggu mereda karena paman telah tiba.",
+      "Air laut berubah hangat ketika malam datang.",
+      "Bungkusan roti terbuka karena menunggu terlalu lama.",
+      "Lampu perahu padam setelah menyentuh tiang kayu."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dapat disimpulkan dari bungkusan roti yang disiapkan?"
+      }
+     ],
+     "opts": [
+      "Tokoh ingin menjual roti kepada ayah.",
+      "Paman meminta tokoh meninggalkan dermaga.",
+      "Tokoh ingin menyambut kedatangan paman.",
+      "Ayah menyuruh tokoh mencari perahu lain."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Larik yang memberi senja perilaku seperti manusia adalah..."
+      }
+     ],
+     "opts": [
+      "Tali perahu menyentuh tiang kayu.",
+      "Lampu kecil bergoyang di atas air.",
+      "Senja melipat cahaya di dermaga.",
+      "Paman melambaikan tangan sambil tersenyum."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perasaan yang paling sesuai dengan akhir puisi adalah..."
+      }
+     ],
+     "opts": [
+      "Senang dan akrab setelah bertemu keluarga.",
+      "Takut karena perahu tidak kunjung terlihat.",
+      "Kecewa karena roti harus diberikan kepada paman.",
+      "Gelisah karena ayah meninggalkan dermaga sendiri."
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
