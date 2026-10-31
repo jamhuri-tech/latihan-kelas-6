@@ -26,6 +26,11 @@
   .rk-msg { color: var(--muted); } .rk-err { color: var(--bad); }
   .rk-scroll { overflow-x: auto; }
   .rk-tbl { min-width: 650px; }
+  .rk-user-chart h3 { margin: 0 0 6px; }
+  .rk-chart-scroll { overflow-x: auto; }
+  .rk-legend { display: flex; flex-wrap: wrap; gap: 16px; list-style: none; padding: 0; font-size: .85rem; }
+  .rk-legend-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+  .rk-user-chart circle:focus { outline: 2px solid #102c4b; }
 </style>
 </head>
 <body>
@@ -54,11 +59,17 @@
     <div class="rk-card">
       <div class="rk-row">
         <input id="q" type="search" placeholder="Cari nama atau latihan…" aria-label="Cari">
+        <select id="user" aria-label="Username"><option value="">Semua username</option></select>
         <select id="subj" aria-label="Pelajaran"><option value="">Semua pelajaran</option></select>
         <button id="reload" class="btn small ghost" type="button">Muat ulang</button>
       </div>
       <div class="rk-stats" id="stats"></div>
     </div>
+    <section aria-labelledby="chart-heading">
+      <h2 id="chart-heading" class="recap-title">Grafik nilai per username</h2>
+      <p class="rk-sub">Skala nilai 0–100. Nomor di bawah grafik adalah urutan pengerjaan dari lama ke baru, bukan nomor paket. Warna membedakan pelajaran. Arahkan penunjuk ke titik untuk melihat rincian; di ponsel, lihat tabel di bawah. Geser grafik ke samping untuk riwayat panjang.</p>
+      <div id="charts" aria-live="polite"></div>
+    </section>
     <div class="rk-card rk-scroll">
       <table class="rk-tbl">
         <thead><tr><th>Waktu</th><th>Nama</th><th>Latihan</th><th class="n">Nilai</th><th class="rk-opt">Soal yang salah</th><th class="rk-opt">Lama</th></tr></thead>
@@ -68,6 +79,7 @@
     </div>
   </section>
 </main>
+<script src="assets/recap-chart.js?v=20261031"></script>
 <script>
 (function () {
   'use strict';
@@ -87,9 +99,9 @@
     window[cb] = function (res) {
       cleanup();
       if (!res || res.status !== 'ok') { fail('Gagal memuat nilai.'); return; }
-      rows = res.table.rows.map(function (r) {
+      rows = res.table.rows.map(function (r, order) {
         var c = r.c.map(function (x) { return x ? String(x.f != null ? x.f : (x.v != null ? x.v : '')) : ''; });
-        return { waktu: c[0], nama: c[1], subj: c[2], lat: c[3], nilai: Number(c[4]) || 0, benar: c[5], salah: c[6], lama: c[7] };
+        return { time: RecapChart.timestamp(r.c[0] && r.c[0].v) ?? RecapChart.timestamp(c[0]), order: order, waktu: c[0], nama: c[1].trim(), subj: c[2], lat: c[3], nilai: c[4].trim() ? Number(c[4].replace(',', '.')) : NaN, benar: c[5], salah: c[6], lama: c[7] };
       }).filter(function (r) { return r.nama && r.nama.indexOf('UJI COBA') !== 0; }).reverse();
       $('loginMsg').textContent = ''; $('view').hidden = false;
       var subs = Array.from(new Set(rows.map(function (r) { return r.subj; }))).sort();
@@ -97,6 +109,10 @@
       sel.length = 1;
       subs.forEach(function (x) { sel.add(new Option(x, x)); });
       sel.value = subs.indexOf(cur) >= 0 ? cur : '';
+      var names = Array.from(new Set(rows.map(function(r) { return r.nama; }))).sort(function(a,b) { return a.localeCompare(b, 'id'); });
+      var user = $('user'), currentUser = user.value; user.length = 1;
+      names.forEach(function(name) { user.add(new Option(name, name)); });
+      user.value = names.indexOf(currentUser) >= 0 ? currentUser : '';
       render();
     };
     tag.onerror = function () { cleanup(); fail('Tidak bisa membaca rekap. Periksa internet, lalu coba lagi.'); };
@@ -108,10 +124,11 @@
   function td(text, c) { var e = document.createElement('td'); e.textContent = text; if (c) e.className = c; return e; }
 
   function render() {
-    var q = $('q').value.trim().toLowerCase(), s = $('subj').value;
+    var q = $('q').value.trim().toLowerCase(), s = $('subj').value, username = $('user').value;
     var list = rows.filter(function (r) {
-      return (!s || r.subj === s) && (!q || (r.nama + ' ' + r.lat + ' ' + r.subj).toLowerCase().indexOf(q) >= 0);
+      return Number.isFinite(r.nilai) && r.nilai >= 0 && r.nilai <= 100 && (!username || r.nama === username) && (!s || r.subj === s) && (!q || (r.nama + ' ' + r.lat + ' ' + r.subj).toLowerCase().indexOf(q) >= 0);
     });
+    RecapChart.render($('charts'), list);
     var body = $('rows'); body.replaceChildren();
     list.forEach(function (r) {
       var tr = document.createElement('tr');
@@ -129,6 +146,7 @@
   }
 
   $('q').addEventListener('input', render);
+  $('user').addEventListener('change', render);
   $('subj').addEventListener('change', render);
   $('reload').addEventListener('click', load);
   $('retry').addEventListener('click', load);
