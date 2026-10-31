@@ -27,7 +27,19 @@
   .rk-scroll { overflow-x: auto; }
   .rk-tbl { min-width: 650px; }
   .rk-user-chart h3 { margin: 0 0 6px; }
-  .rk-chart-scroll { overflow-x: auto; }
+  .rk-chart-scroll { width: 100%; min-width: 0; }
+  .rk-chart-controls { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:8px; margin:12px 0; }
+  .rk-chart-controls button { min-height:44px; }
+  .rk-chart-controls button:disabled { opacity:.4; cursor:default; }
+  .rk-chart-detail { padding:12px; background:var(--blue-soft); border-radius:10px; font-size:.9rem; line-height:1.6; overflow-wrap:anywhere; }
+  .rk-user-chart { min-width:0; }
+  @media(max-width:480px) {
+    .rk-user-chart { padding:12px; }
+    .rk-chart-controls { gap:6px; }
+    .rk-chart-controls button { padding:8px; font-size:.8rem; }
+    .rk-chart-controls .rk-sub { font-size:.75rem; }
+    .rk-row select { flex:1 1 140px; width:100%; }
+  }
   .rk-legend { display: flex; flex-wrap: wrap; gap: 16px; list-style: none; padding: 0; font-size: .85rem; }
   .rk-legend-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
   .rk-user-chart circle:focus { outline: 2px solid #102c4b; }
@@ -67,7 +79,7 @@
     </div>
     <section aria-labelledby="chart-heading">
       <h2 id="chart-heading" class="recap-title">Grafik nilai per username</h2>
-      <p class="rk-sub">Skala nilai 0–100. Nomor di bawah grafik adalah urutan pengerjaan dari lama ke baru, bukan nomor paket. Warna membedakan pelajaran. Arahkan penunjuk ke titik untuk melihat rincian; di ponsel, lihat tabel di bawah. Geser grafik ke samping untuk riwayat panjang.</p>
+      <p class="rk-sub">Skala nilai 0–100. Ditampilkan hingga 8 latihan sekaligus, dimulai dari yang terbaru. Gunakan tombol Sebelumnya untuk riwayat lama. Nomor menunjukkan urutan pengerjaan, bukan nomor paket. Ketuk titik untuk rincian nilai; warna membedakan pelajaran.</p>
       <div id="charts" aria-live="polite"></div>
     </section>
     <div class="rk-card rk-scroll">
@@ -79,7 +91,7 @@
     </div>
   </section>
 </main>
-<script src="assets/recap-chart.js?v=20261031"></script>
+<script src="assets/recap-chart.js?v=20261031-mobile2"></script>
 <script>
 (function () {
   'use strict';
