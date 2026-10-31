@@ -50,26 +50,20 @@
       var heading = document.createElement('h3'); heading.textContent = user.name; card.append(heading);
       var data = user.attempts, best = Math.max.apply(null, data.map(function(r){ return r.nilai; }));
       var meta = document.createElement('p'); meta.className = 'rk-sub'; meta.textContent = data.length + ' latihan · Nilai tertinggi ' + best + ' · Terakhir ' + data[data.length-1].nilai; card.append(meta);
-      var controls = document.createElement('div'); controls.className = 'rk-chart-controls';
-      var prev = document.createElement('button'), next = document.createElement('button'), range = document.createElement('span');
-      prev.type = next.type = 'button'; prev.className = next.className = 'btn small ghost';
-      prev.textContent = '← Sebelumnya'; next.textContent = 'Berikutnya →';
-      prev.setAttribute('aria-label', 'Latihan lebih lama untuk '+user.name); next.setAttribute('aria-label', 'Latihan lebih baru untuk '+user.name);
-      range.className = 'rk-sub'; range.setAttribute('aria-live','polite'); controls.append(prev,range,next);
       var scroll = document.createElement('div'); scroll.className = 'rk-chart-scroll';
       var detail = document.createElement('p'); detail.className = 'rk-chart-detail'; detail.setAttribute('aria-live','polite');
       var legend = document.createElement('ul'); legend.className = 'rk-legend';
       subjects.filter(function(s){ return data.some(function(r){return r.subj===s;}); }).forEach(function(s){
         var item = document.createElement('li'), dot = document.createElement('span'); dot.style.backgroundColor = color(s); dot.className='rk-legend-dot'; item.append(dot,document.createTextNode(s)); legend.append(item);
       });
-      card.append(controls,scroll,legend,detail); container.append(card);
-      var pageSize = 8, start = Math.max(0,data.length-pageSize);
+      card.append(scroll,legend,detail); container.append(card);
+      var start = 0;
       function draw() {
-        var width = Math.max(240, Math.round(scroll.clientWidth)), height = 260;
-        var end = Math.min(data.length,start+pageSize), visible = data.slice(start,end);
+        var width = Math.max(1, Math.round(scroll.clientWidth)), height = 260;
+        var end = data.length, visible = data;
+        var labelStep = Math.max(1, Math.ceil((end-1) / Math.max(1, Math.floor((width-54)/42))));
+        var dotSize = end > 16 ? 3 : 5;
         scroll.replaceChildren();
-        range.textContent = (start+1)+'–'+end+' dari '+data.length;
-        prev.disabled = start===0; next.disabled = end===data.length;
         var svg = svgEl('svg', {viewBox:'0 0 '+width+' '+height, role:'group', 'aria-label':'Perkembangan nilai '+user.name+', latihan '+(start+1)+' sampai '+end, style:'display:block;width:100%;height:260px'});
         svg.append(svgEl('title', {}, 'Skala nilai 0 sampai 100. Ketuk titik untuk rincian.'));
         function x(i) { return visible.length===1 ? width/2 : 36+i*(width-54)/(visible.length-1); }
@@ -86,24 +80,23 @@
         var marks = [];
         function select(i) {
           detail.textContent = describe(visible[i],i);
-          marks.forEach(function(m,j){ m.setAttribute('r',i===j ? 7 : 5); m.setAttribute('stroke',i===j ? '#102c4b' : '#fff'); });
+          marks.forEach(function(m,j){ m.setAttribute('r',i===j ? dotSize+2 : dotSize); m.setAttribute('stroke',i===j ? '#102c4b' : '#fff'); });
         }
         visible.forEach(function(r,i){
           var label = describe(r,i);
           var group = svgEl('g',{role:'button',tabindex:0,'aria-label':label,style:'cursor:pointer'});
-          // Vùng chạm rộng 44px, điểm vẽ nhỏ để đường cong vẫn dễ đọc.
-          group.append(svgEl('circle',{cx:x(i),cy:y(r.nilai),r:22,fill:'transparent'}));
-          var point = svgEl('circle',{cx:x(i),cy:y(r.nilai),r:5,fill:color(r.subj),stroke:'#fff','stroke-width':1.5}); marks.push(point);
+          // Vùng chạm hẹp theo khoảng cách ngang để các điểm gần nhau không che nhau.
+          var hitWidth = end > 1 ? Math.min(44, (width-54)/(end-1)) : 44;
+          group.append(svgEl('rect',{x:x(i)-hitWidth/2,y:y(r.nilai)-22,width:hitWidth,height:44,fill:'transparent'}));
+          var point = svgEl('circle',{cx:x(i),cy:y(r.nilai),r:dotSize,fill:color(r.subj),stroke:'#fff','stroke-width':1.5}); marks.push(point);
           group.append(point,svgEl('title',{},label));
           group.addEventListener('click',function(){select(i);});
           group.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();select(i);}});
           svg.append(group);
-          svg.append(svgEl('text',{x:x(i),y:242,'text-anchor':'middle',fill:'#536477','font-size':12},start+i+1));
+          if (i===0 || i===end-1 || (i%labelStep===0 && end-1-i>=labelStep/2)) svg.append(svgEl('text',{x:x(i),y:242,'text-anchor':'middle',fill:'#536477','font-size':12},start+i+1));
         });
         scroll.append(svg); select(visible.length-1);
       }
-      prev.addEventListener('click',function(){start=Math.max(0,start-pageSize);draw();});
-      next.addEventListener('click',function(){start=Math.min(Math.max(0,data.length-pageSize),start+pageSize);draw();});
       draw();
       if (typeof ResizeObserver !== 'undefined') {
         var observer = new ResizeObserver(function(){draw();}); observer.observe(scroll); container._chartObservers.push(observer);
