@@ -1,0 +1,629 @@
+{
+ "id": "tka-bahasa-indonesia-p16",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 16)",
+ "desc": "30 soal pilihan ganda dengan lima bacaan baru. Pemahaman tekstual, inferensial, evaluasi dan apresiasi; pilihan pengecoh perlu dibandingkan dengan bukti bacaan. Prediksi mandiri berdasarkan contoh resmi SD, bukan soal resmi.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Meminjam Alat Pengamatan",
+    "paras": [
+     "Sekolah membuka layanan peminjaman alat pengamatan. Alat disimpan dalam lemari ruang sains. Tersedia lup, termometer, dan penggaris panjang. Setiap kelompok menunjuk seorang penanggung jawab. Ia mencatat alat yang akan dipinjam. Guru memeriksa catatan sebelum menyerahkan alat.",
+     "Peminjaman dilakukan sebelum pelajaran pertama dimulai. Alat dikembalikan setelah kegiatan hari itu. Kelompok tidak boleh membawanya pulang. Jika kegiatan belum selesai, kelompok meminta perpanjangan. Guru mempertimbangkan kebutuhan kelompok pada hari berikutnya. Persetujuan diberikan sebelum batas pengembalian berakhir.",
+     "Sebelum menerima alat, murid memeriksa keadaannya. Goresan lama ditulis pada lembar pemeriksaan. Catatan tersebut membantu membedakan kerusakan baru. Setelah dipakai, alat dibersihkan dengan kain. Alat kemudian dihitung bersama petugas. Penanggung jawab menandatangani catatan pengembalian.",
+     "Suatu pagi, dua kelompok meminta lup. Namun, hanya satu lup tersedia. Guru meminta mereka membandingkan jadwal kegiatan. Kelompok pertama mengamati daun sebelum istirahat. Kelompok kedua mengamati pasir setelah istirahat. Keduanya akhirnya menggunakan lup secara bergantian.",
+     "Jadwal bersama ditempel di dekat lemari. Murid dapat melihat waktu penggunaan alat. Mereka diminta melapor jika alat bermasalah. Alat rusak dipisahkan sebelum diperiksa guru. Pencatatan bukan untuk mencari kesalahan murid. Tujuannya menjaga alat serta kelancaran kegiatan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kapan alat biasanya harus dikembalikan?"
+      }
+     ],
+     "opts": [
+      "Sebelum pelajaran pertama hari peminjaman.",
+      "Setelah kegiatan pada hari peminjaman.",
+      "Sesudah seluruh kelompok selesai belajar.",
+      "Ketika penanggung jawab ingin berganti."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi mencatat goresan sebelum peminjaman?"
+      }
+     ],
+     "opts": [
+      "Menentukan kelompok yang mendapat lup.",
+      "Membedakan kerusakan lama dan baru.",
+      "Menghitung jumlah alat dalam lemari.",
+      "Menggantikan tanda tangan pengembalian."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa kedua kelompok dapat memakai satu lup?"
+      }
+     ],
+     "opts": [
+      "Objek pengamatan mereka sama.",
+      "Salah satu kelompok membawa lup.",
+      "Waktu pengamatan mereka berbeda.",
+      "Guru membatalkan pengamatan pasir."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kelompok belum selesai memakai alat. Langkah yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Meminta izin sebelum batas pengembalian.",
+      "Membawa alat pulang tanpa pemberitahuan.",
+      "Menunggu petugas menagih ke ruang kelas.",
+      "Menghapus jadwal kelompok hari berikutnya."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan yang paling menggambarkan tujuan layanan adalah..."
+      }
+     ],
+     "opts": [
+      "Kelompok tercepat bebas menyimpan alat.",
+      "Pencatatan menggantikan pemeriksaan keadaan alat.",
+      "Semua kerusakan menjadi kesalahan peminjam terakhir.",
+      "Pemakaian tertib membantu kegiatan bersama."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Alat yang baru diterima tidak berfungsi. Tindakan yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Menyimpannya sampai jadwal berikutnya.",
+      "Memindahkannya ke kelompok lain diam-diam.",
+      "Menandatangani pengembalian sebelum menggunakannya.",
+      "Melapor agar alat dapat diperiksa."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Peta yang Tertinggal",
+    "paras": [
+     "Aku bertugas membawa peta jelajah sekolah. Peta itu kubuat bersama anggota kelompok. Kami menandai kebun, kolam, dan perpustakaan. Pagi itu aku berangkat terburu-buru. Ketika kelompok berkumpul, tasku segera kubuka. Ternyata map peta tertinggal di rumah.",
+     "Aku menunduk sambil memeriksa saku tas. Teman-teman sudah bersiap menuju titik awal. Aku sempat ingin menyalahkan adikku. Semalam ia memang duduk dekat mejaku. Namun, aku sendiri belum memasukkan map. Aku akhirnya menceritakan keadaan yang sebenarnya.",
+     "Sinta mengeluarkan buku kecil dari tasnya. Ia menyimpan catatan hasil pengamatan kemarin. Catatan itu memuat urutan tempat penting. Kami mencoba menggambar peta pada kertas. Aku mengingat letak kebun dekat kolam. Teman lain menambahkan arah menuju perpustakaan.",
+     "Sebelum berangkat, kami menunjukkan gambar kepada guru. Beliau meminta kami memeriksa tanda arah. Ada satu panah yang ternyata terbalik. Kami memperbaikinya dengan melihat halaman sekolah. Guru lalu mengizinkan kelompok mulai berjalan. Kami berangkat sedikit lebih lambat.",
+     "Semua tempat akhirnya berhasil kami temukan. Aku berterima kasih atas bantuan teman. Sore harinya aku menyiapkan perlengkapan lebih awal. Aku menempelkan daftar barang dekat pintu. Peta bukan lagi tanggung jawab yang kuabaikan. Kejujuran tadi membuka jalan untuk bekerja sama."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang tertinggal di rumah?"
+      }
+     ],
+     "opts": [
+      "Buku catatan milik Sinta.",
+      "Daftar barang dekat pintu.",
+      "Map berisi peta jelajah.",
+      "Kertas kosong dari guru."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa bantuan Sinta bagi kelompok?"
+      }
+     ],
+     "opts": [
+      "Mengambil map ke rumah tokoh.",
+      "Menggantikan guru memeriksa panah.",
+      "Membatalkan kegiatan jelajah sekolah.",
+      "Memberikan catatan urutan tempat."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tokoh mengurungkan niat menyalahkan adik?"
+      }
+     ],
+     "opts": [
+      "Adik membawa peta ke sekolah.",
+      "Ia sadar belum memasukkan map.",
+      "Sinta telah menemukan map asli.",
+      "Guru melihat adik mengambil map."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa peta baru perlu diperiksa sebelum dipakai?"
+      }
+     ],
+     "opts": [
+      "Semua tempat telah berubah nama.",
+      "Catatan Sinta harus segera dibuang.",
+      "Tanda arahnya mungkin belum tepat.",
+      "Guru melarang peta buatan murid."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan mana menunjukkan tokoh belajar dari kejadian?"
+      }
+     ],
+     "opts": [
+      "Menyiapkan perlengkapan dengan daftar barang.",
+      "Membuka semua saku ketika kelompok berkumpul.",
+      "Menunggu teman menggambar setiap peta berikutnya.",
+      "Menceritakan kesalahan adik kepada seluruh kelompok."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pesan yang paling didukung cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Kelambatan selalu membuat kegiatan menjadi gagal.",
+      "Tugas kelompok cukup diserahkan kepada seorang teman.",
+      "Kesalahan arah tidak perlu diperiksa bersama guru.",
+      "Kejujuran membantu orang mencari jalan keluar."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Menjemur Hasil Panen",
+    "paras": [
+     "Warga mengadakan percobaan pengeringan biji jagung. Mereka menyiapkan dua nampan berukuran sama. Setiap nampan berisi jagung sama banyak. Jagung diambil dari hasil panen yang sama. Kedua nampan diletakkan di halaman terbuka. Waktu mulai penjemuran juga dibuat sama.",
+     "Jagung pada nampan pertama diratakan tipis. Jagung pada nampan kedua ditumpuk tebal. Seorang petugas membalik keduanya secara berkala. Pembalikan dilakukan pada waktu yang sama. Petugas mencatat keadaan jagung setiap jam. Anak-anak membantu membaca catatan hasil pengamatan.",
+     "Setelah beberapa jam, terlihat perbedaan hasil. Nampan pertama lebih cepat terasa kering. Bagian bawah tumpukan kedua masih lembap. Warga menduga ketebalan lapisan berpengaruh. Lapisan tipis memberi ruang pengeringan lebih merata. Dugaan itu kemudian dibahas bersama petugas.",
+     "Percobaan belum membandingkan semua cara penjemuran. Mereka belum mencoba lokasi yang teduh. Jenis biji lain juga belum diuji. Karena itu, kesimpulan dibatasi pada percobaan tersebut. Hasilnya tidak langsung berlaku untuk semua bahan. Warga berencana mengulang pada hari lain.",
+     "Catatan lengkap disimpan di balai warga. Isinya mencakup waktu serta keadaan cuaca. Foto nampan diberi keterangan waktu pengambilan. Warga dapat memeriksa kembali dasar kesimpulan. Pengamatan sederhana tetap memerlukan pencatatan yang teliti. Mereka belajar membedakan hasil dan dugaan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa perbedaan perlakuan pada kedua nampan?"
+      }
+     ],
+     "opts": [
+      "Ketebalan lapisan jagung.",
+      "Waktu awal penjemuran jagung.",
+      "Ukuran wadah untuk menjemur.",
+      "Asal panen biji jagung."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagaimana keadaan bagian bawah tumpukan kedua?"
+      }
+     ],
+     "opts": [
+      "Sudah kering sebelum mulai dijemur.",
+      "Masih lembap setelah beberapa jam.",
+      "Lebih panas daripada semua bahan.",
+      "Berubah menjadi biji jenis lain."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa waktu pembalikan dibuat sama?"
+      }
+     ],
+     "opts": [
+      "Agar semua jagung ditumpuk tebal.",
+      "Agar nampan pertama selalu menang.",
+      "Agar perbandingan lebih adil.",
+      "Agar pencatatan tidak lagi diperlukan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kesimpulan yang paling sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Semua biji pasti kering jika ditumpuk tebal.",
+      "Tempat teduh selalu mempercepat penjemuran jagung.",
+      "Lapisan tipis lebih cepat kering dalam percobaan.",
+      "Cuaca tidak memengaruhi pengeringan semua hasil panen."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa kegunaan keterangan waktu pada foto?"
+      }
+     ],
+     "opts": [
+      "Menggantikan seluruh catatan keadaan cuaca.",
+      "Membuktikan semua jenis biji telah diuji.",
+      "Menentukan nama pemilik setiap nampan.",
+      "Menghubungkan gambar dengan tahap pengamatan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Seseorang menyatakan hasil berlaku untuk semua bahan. Tanggapan yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Semua bahan berasal dari panen serupa.",
+      "Foto telah membuktikan semua bahan sama.",
+      "Catatan cuaca tidak perlu dipertimbangkan lagi.",
+      "Bahan lain belum diuji dalam percobaan."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Suara dari Belakang Panggung",
+    "paras": [
+     "Aku mendapat tugas membacakan pembuka pertunjukan. Selama latihan, suaraku terdengar cukup jelas. Namun, aula terasa berbeda pagi itu. Kursi penonton hampir semuanya telah terisi. Tanganku dingin ketika memegang kertas. Aku takut melupakan kalimat pertama.",
+     "Dari balik tirai, aku melihat Nara. Ia sedang merapikan kostum pemain lain. Aku meminta bertukar tugas dengannya. Nara tidak langsung menyetujui permintaanku. Ia bertanya bagian mana yang kutakutkan. Aku menunjuk kalimat pembuka pada kertas.",
+     "Nara mengajakku membaca kalimat itu perlahan. Kami menarik napas sebelum mulai berbicara. Ia menyarankan melihat tanda titik. Aku tidak harus membaca semuanya sekaligus. Kami mengulang pembuka sebanyak tiga kali. Perlahan, genggaman tanganku mulai lebih longgar.",
+     "Ketika namaku dipanggil, aku melangkah keluar. Aku sempat berhenti sebelum kalimat pertama. Lalu kuingat latihan singkat bersama Nara. Aku membaca sambil memberi jeda. Sesekali aku melihat wajah guru. Beliau mengangguk dari kursi paling depan.",
+     "Pembukaan selesai tanpa kalimat yang tertinggal. Aku kembali ke belakang panggung dengan lega. Nara menyodorkan air minum sambil tersenyum. Aku sadar rasa takut belum sepenuhnya hilang. Namun, aku dapat menjalankan tugas perlahan. Bantuan kecil tadi membuatku berani mencoba."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa tugas tokoh dalam pertunjukan?"
+      }
+     ],
+     "opts": [
+      "Menata seluruh kursi penonton.",
+      "Merapikan kostum milik Nara.",
+      "Membacakan bagian pembuka.",
+      "Mengatur lampu dari belakang tirai."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan Nara setelah mendengar permintaan tokoh?"
+      }
+     ],
+     "opts": [
+      "Menanyakan bagian yang ditakutkan.",
+      "Langsung menggantikan tugas pembuka.",
+      "Memanggil penonton meninggalkan aula.",
+      "Menyembunyikan kertas di balik tirai."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa genggaman tangan tokoh mulai longgar?"
+      }
+     ],
+     "opts": [
+      "Ia lebih tenang setelah berlatih.",
+      "Kertas pembuka sudah diberikan guru.",
+      "Semua penonton meninggalkan tempat duduk.",
+      "Nara selesai membacakan seluruh pembukaan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa makna anggukan guru dalam konteks cerita?"
+      }
+     ],
+     "opts": [
+      "Perintah agar pertunjukan dibatalkan.",
+      "Dukungan agar tokoh melanjutkan.",
+      "Tanda semua kalimat telah salah.",
+      "Permintaan untuk menukar kostum pemain."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan yang sesuai dengan akhir cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Tokoh tetap mencoba meskipun masih takut.",
+      "Tokoh baru tampil setelah ketakutannya hilang seluruhnya.",
+      "Nara mengambil tugas karena tokoh meninggalkan aula.",
+      "Guru meminta tokoh berhenti sebelum pembukaan selesai."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap Nara yang patut diteladani adalah..."
+      }
+     ],
+     "opts": [
+      "Mengambil tugas tanpa mendengarkan teman.",
+      "Membantu teman menghadapi kesulitannya.",
+      "Menyuruh teman menyembunyikan rasa takut.",
+      "Menilai teman hanya dari kesalahan pertamanya."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Mengenal Label Makanan",
+    "paras": [
+     "Kelas kami belajar membaca label makanan. Guru membawa beberapa kemasan yang bersih. Kemasan itu memiliki keterangan berbeda. Murid mengamati nama serta daftar bahannya. Mereka juga mencari batas kedaluwarsa. Tidak semua tulisan tercetak dengan ukuran sama.",
+     "Guru menjelaskan arti takaran saji. Angka kandungan gizi biasanya mengikuti takaran tersebut. Satu kemasan dapat berisi beberapa sajian. Karena itu, murid perlu membaca jumlahnya. Membaca angka tanpa takaran dapat menyesatkan. Informasi harus dilihat bersama keterangannya.",
+     "Kami membandingkan dua kemasan minuman. Warna gambar keduanya sama-sama menarik. Namun, daftar bahan yang tercantum berbeda. Guru meminta kami menyebut bukti tertulis. Kami tidak diminta menilai hanya dari gambar. Tampilan depan belum menjelaskan seluruh isi.",
+     "Seorang teman sulit menemukan tanggal kedaluwarsa. Ternyata tanggal tercetak pada lipatan kemasan. Guru membantu membuka lipatan dengan hati-hati. Tulisan yang ditemukan masih dapat dibaca. Jika tanggal tidak jelas, tanyakan kepada penjual. Jangan menebak hanya berdasarkan keadaan gambar.",
+     "Setelah belajar, kami membuat daftar pemeriksaan. Daftar memuat kondisi kemasan serta tanggal. Takaran saji dan bahan ikut dicatat. Kami membawanya sebagai pengingat saat berbelanja. Kemasan yang menarik tetap boleh disukai. Namun, keputusan perlu didukung informasi yang jelas."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Di mana tanggal pada kemasan teman ditemukan?"
+      }
+     ],
+     "opts": [
+      "Pada bagian lipatan kemasan.",
+      "Pada daftar pemeriksaan murid.",
+      "Pada gambar depan buku guru.",
+      "Pada meja milik penjual minuman."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Informasi gizi biasanya mengikuti..."
+      }
+     ],
+     "opts": [
+      "Takaran saji yang tercantum.",
+      "Warna gambar pada kemasan.",
+      "Ukuran huruf nama makanan.",
+      "Letak barang dalam toko."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa satu angka gizi tidak cukup dibaca sendiri?"
+      }
+     ],
+     "opts": [
+      "Semua kemasan memiliki isi yang sama.",
+      "Jumlahnya terkait dengan takaran saji.",
+      "Angka selalu tercetak pada bagian lipatan.",
+      "Informasi gizi hanya berlaku untuk guru."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa dasar membandingkan isi kedua minuman?"
+      }
+     ],
+     "opts": [
+      "Kesamaan warna gambar kemasan.",
+      "Pilihan teman yang duduk terdekat.",
+      "Ukuran tulisan nama pada bagian depan.",
+      "Keterangan bahan pada label."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tanggal kedaluwarsa tidak jelas. Tindakan yang sesuai bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Menentukan tanggal dari warna gambar.",
+      "Meminta penjelasan kepada penjual.",
+      "Menganggap semua makanan masih baru.",
+      "Menghapus tanggal sebelum membeli barang."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Gagasan utama bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Kemasan menarik selalu menunjukkan gizi terbaik.",
+      "Semua informasi cukup dilihat dari gambar depan.",
+      "Membaca label membantu memilih dengan cermat.",
+      "Daftar pemeriksaan menggantikan label pada setiap makanan."
+     ],
+     "ans": 2
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
