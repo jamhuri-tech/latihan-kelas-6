@@ -1,0 +1,1055 @@
+{
+ "id": "bing-ph-lesson4-50",
+ "subject": "Bahasa Inggris",
+ "title": "Latihan PH Bahasa Inggris — Lesson 4 (50 Soal)",
+ "desc": "50 pilihan ganda khusus I Was Excited Visiting My Grandparents: feelings, was/were, happiness and sympathy, reading, dan word order. Dilengkapi 7 ilustrasi asli. Disusun mandiri sesuai peta materi Basic English 6, bukan soal resmi penerbit.",
+ "sections": [
+  {
+   "title": "A1. Look at the picture — A visit tomorrow",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 1
+    }
+   ],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Raka cannot wait to visit his grandparents tomorrow. Which word best describes his feeling?"
+      }
+     ],
+     "opts": [
+      "angry",
+      "bored",
+      "excited",
+      "lonely"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Yesterday, Raka ___ excited about the visit."
+      }
+     ],
+     "opts": [
+      "was",
+      "are",
+      "were",
+      "is"
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "A2. Look at the picture — After the walk",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 2
+    }
+   ],
+   "items": [
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sari walked a long way. Her legs felt heavy and she needed a rest. She was ___."
+      }
+     ],
+     "opts": [
+      "angry",
+      "proud",
+      "surprised",
+      "tired"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sari and her brother needed a rest after the walk. They ___ tired."
+      }
+     ],
+     "opts": [
+      "am",
+      "is",
+      "was",
+      "were"
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "A3. Look at the picture — A broken toy",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 3
+    }
+   ],
+   "items": [
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Adi loved his toy car. It broke, and tears ran down his face. He was ___."
+      }
+     ],
+     "opts": [
+      "glad",
+      "excited",
+      "sad",
+      "relaxed"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which sentence matches Adi in the picture?"
+      }
+     ],
+     "opts": [
+      "He was proud of his toy.",
+      "He was excited about his toy.",
+      "He was glad about his toy.",
+      "He was sad about his toy."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "A4. Look at the picture — A sudden sound",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 4
+    }
+   ],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A loud thunderclap made Mila hide behind her father. She was ___."
+      }
+     ],
+     "opts": [
+      "bored",
+      "proud",
+      "scared",
+      "pleased"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mila and her sister hid from the thunder. Which sentence is correct?"
+      }
+     ],
+     "opts": [
+      "They were scared.",
+      "They was scared.",
+      "They were scare.",
+      "They are scared yesterday."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "A5. Look at the picture — A finished model",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 5
+    }
+   ],
+   "items": [
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dito worked hard on a model house and finished it by himself. He showed it proudly. He was ___."
+      }
+     ],
+     "opts": [
+      "proud",
+      "lonely",
+      "worried",
+      "sleepy"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which sentence correctly describes Dito yesterday?"
+      }
+     ],
+     "opts": [
+      "He was pride of his work.",
+      "He was proud of his work.",
+      "He is proud of his work yesterday.",
+      "He were proud of his work."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "B. Complete the sentences — Past feelings",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Last night, I ___ happy to hear Grandma&#x27;s voice."
+      }
+     ],
+     "opts": [
+      "am",
+      "were",
+      "was",
+      "are"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "My cousins ___ glad to see the family last Sunday."
+      }
+     ],
+     "opts": [
+      "were",
+      "is",
+      "am",
+      "was"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "You ___ nervous before the performance yesterday."
+      }
+     ],
+     "opts": [
+      "is",
+      "was",
+      "am",
+      "were"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The puppy ___ scared during the storm yesterday."
+      }
+     ],
+     "opts": [
+      "was",
+      "am",
+      "are",
+      "were"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Grandma and Grandpa ___ pleased with our visit last weekend."
+      }
+     ],
+     "opts": [
+      "am",
+      "was",
+      "were",
+      "is"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Choose the negative form of &quot;Lina was worried.&quot;"
+      }
+     ],
+     "opts": [
+      "Lina not was worried.",
+      "Lina was not worried.",
+      "Lina did not was worried.",
+      "Lina were not worried."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Choose the standard question form of &quot;The children were excited.&quot;"
+      }
+     ],
+     "opts": [
+      "Was the children excited?",
+      "Were the children excited?",
+      "Did the children were excited?",
+      "The children were excited?"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A: Was Ben sleepy after lunch? B: Yes, ___."
+      }
+     ],
+     "opts": [
+      "he was",
+      "he did",
+      "he were",
+      "he is"
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A: Were the girls angry? B: No, ___."
+      }
+     ],
+     "opts": [
+      "they wasn't",
+      "they didn't",
+      "she wasn't",
+      "they weren't"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which sentence tells us about a feeling in the past?"
+      }
+     ],
+     "opts": [
+      "We feel lonely on Mondays.",
+      "We will be lonely tomorrow.",
+      "We were lonely last night.",
+      "We are lonely every night."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The game was boring, so I felt ___."
+      }
+     ],
+     "opts": [
+      "bore",
+      "bored",
+      "boring",
+      "bores"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "The surprise party was exciting. Nisa felt ___."
+      }
+     ],
+     "opts": [
+      "exciting",
+      "excited",
+      "excite",
+      "excites"
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "C. Choose the best response — Happiness and sympathy",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A: I won a drawing prize! B: ___"
+      }
+     ],
+     "opts": [
+      "Congratulations! I'm happy for you.",
+      "I hope your broken leg heals soon.",
+      "I'm sorry you lost your drawing.",
+      "Please tell me why you are ill."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A: My grandfather is ill. B: ___"
+      }
+     ],
+     "opts": [
+      "I'm glad he is ill today.",
+      "Congratulations on the news!",
+      "What a wonderful celebration!",
+      "I'm sorry to hear that."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A: I can visit Grandma this weekend! B: ___"
+      }
+     ],
+     "opts": [
+      "That's boring! Cancel your visit.",
+      "That's great! Enjoy your visit.",
+      "That's sad! I hope she recovers.",
+      "That's awful! Don't tell anyone."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A: I lost the card I made for Grandpa. B: ___"
+      }
+     ],
+     "opts": [
+      "Well done! You lost the card.",
+      "I'm sorry. Let's look for it.",
+      "Great news! Throw the card away.",
+      "How lucky! Never make another card."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A: Grandma is well again! B: ___"
+      }
+     ],
+     "opts": [
+      "I'm sorry she is still ill.",
+      "I'm angry that she is well.",
+      "I'm glad to hear that.",
+      "I hope she loses her card."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A: I was disappointed because our picnic was cancelled. B: ___"
+      }
+     ],
+     "opts": [
+      "That's a pity. Maybe next time.",
+      "Well done! You planned a great picnic.",
+      "How exciting! Enjoy the picnic now.",
+      "Congratulations! You went on a picnic."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which expression shows sympathy?"
+      }
+     ],
+     "opts": [
+      "I'm delighted with your good news.",
+      "Congratulations on your new award!",
+      "Well done on your excellent score!",
+      "I hope you feel better soon."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which response shares a friend&#x27;s happiness?"
+      }
+     ],
+     "opts": [
+      "I'm so pleased for you!",
+      "I'm sorry for your loss.",
+      "I hope you get well soon.",
+      "That sounds very painful."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q31",
+     "num": 31,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A: I was frightened by a loud noise. B: ___"
+      }
+     ],
+     "opts": [
+      "How lucky! I'm glad you were scared.",
+      "Congratulations! Enjoy being frightened.",
+      "That sounds scary. Are you okay?",
+      "Well done! The noise won a prize."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q32",
+     "num": 32,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "A: Thanks for helping when I was worried. B: ___"
+      }
+     ],
+     "opts": [
+      "Goodbye. Your worry was my favourite game.",
+      "I'm sorry. Please lose your bag again.",
+      "You're welcome. I'm glad I could help.",
+      "Congratulations. I hope you stay worried."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "D. Read the story — A weekend with my grandparents",
+   "passage": {
+    "title": "D. Read the story — A weekend with my grandparents",
+    "paras": [
+     "Last Saturday, Hana and her brother visited their grandparents. They arrived before lunch. Hana was excited because she had not seen them for a month. Her brother was shy at first, but Grandpa welcomed him with a smile.",
+     "After lunch, Hana helped Grandma water the vegetables. Her brother looked at old photos with Grandpa. In the afternoon, rain kept everyone inside. They were not bored because Grandpa told funny stories. Before going home, Hana gave Grandma a handmade card. Grandma was touched, and Hana was glad."
+    ]
+   },
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 6
+    }
+   ],
+   "items": [
+    {
+     "id": "q33",
+     "num": 33,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Why was Hana excited at the beginning of the visit?"
+      }
+     ],
+     "opts": [
+      "She had received a new camera from her brother.",
+      "She had won a prize for growing vegetables.",
+      "She had just returned from a school picnic.",
+      "She had not seen her grandparents for a month."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q34",
+     "num": 34,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "How did Hana&#x27;s brother feel at first?"
+      }
+     ],
+     "opts": [
+      "He was proud.",
+      "He was shy.",
+      "He was bored.",
+      "He was angry."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q35",
+     "num": 35,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What did Hana do after lunch?"
+      }
+     ],
+     "opts": [
+      "She made lunch for all the visitors.",
+      "She looked at photos with Grandpa.",
+      "She walked home alone in the rain.",
+      "She helped water the vegetables."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q36",
+     "num": 36,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Why were the children not bored during the rain?"
+      }
+     ],
+     "opts": [
+      "Grandpa told them funny stories.",
+      "They went outside to pick vegetables.",
+      "They watched a drawing competition.",
+      "Grandma took them to a new school."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q37",
+     "num": 37,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "In the story, &quot;touched&quot; most nearly means ___."
+      }
+     ],
+     "opts": [
+      "angry about a late visit",
+      "afraid of a sudden noise",
+      "moved by a kind action",
+      "tired after a long journey"
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q38",
+     "num": 38,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which event happened last?"
+      }
+     ],
+     "opts": [
+      "Hana helped water the vegetables.",
+      "Hana gave Grandma a card.",
+      "Grandpa welcomed Hana's brother.",
+      "The children arrived before lunch."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "E. Read the story — A kite and a kind friend",
+   "passage": {
+    "title": "E. Read the story — A kite and a kind friend",
+    "paras": [
+     "On Sunday, Faris took a paper kite to his grandfather's garden. He was proud because he had made it himself. His cousin Lala was excited to see it. A strong wind pushed the kite into a branch. The paper tore, and Faris was upset.",
+     "Lala said, \"I'm sorry about your kite. Let's ask Grandpa for help.\" Grandpa gave them paper and glue. They repaired the kite together. Faris was grateful for their help. Later, the wind was gentle, and the kite flew again. Lala said, \"That's wonderful!\" Both children were happy."
+    ]
+   },
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 7
+    }
+   ],
+   "items": [
+    {
+     "id": "q39",
+     "num": 39,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Why was Faris proud of the kite?"
+      }
+     ],
+     "opts": [
+      "He had won it in a race.",
+      "He had made it himself.",
+      "He had borrowed it from Lala.",
+      "He had bought it at a shop."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q40",
+     "num": 40,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What caused the kite to tear?"
+      }
+     ],
+     "opts": [
+      "A strong wind pushed it into a branch.",
+      "Lala dropped it into a bowl of glue.",
+      "Faris left it outside in heavy rain.",
+      "Grandpa cut it while making a card."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q41",
+     "num": 41,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which words show Lala&#x27;s sympathy?"
+      }
+     ],
+     "opts": [
+      "Both children were happy.",
+      "I'm sorry about your kite.",
+      "The kite flew again.",
+      "That's wonderful!"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q42",
+     "num": 42,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "What did Grandpa give the children?"
+      }
+     ],
+     "opts": [
+      "Paint and brushes.",
+      "String and scissors.",
+      "Paper and glue.",
+      "Cards and pencils."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q43",
+     "num": 43,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "How did Faris feel about the help?"
+      }
+     ],
+     "opts": [
+      "He was grateful.",
+      "He was frightened.",
+      "He was bored.",
+      "He was jealous."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q44",
+     "num": 44,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which order of Faris&#x27;s feelings matches the story?"
+      }
+     ],
+     "opts": [
+      "Scared, lonely, disappointed.",
+      "Upset, proud, frightened.",
+      "Bored, jealous, angry.",
+      "Proud, upset, grateful."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "F. Word order and sentence meaning",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q45",
+     "num": 45,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Arrange these words: were / we / yesterday / happy."
+      }
+     ],
+     "opts": [
+      "We happy were yesterday.",
+      "We were happy yesterday.",
+      "Yesterday were happy we.",
+      "Were happy we yesterday."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q46",
+     "num": 46,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Arrange these words into a standard question: she / was / excited / yesterday."
+      }
+     ],
+     "opts": [
+      "Was excited she yesterday?",
+      "Was she excited yesterday?",
+      "She was excited yesterday?",
+      "Yesterday she excited was?"
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q47",
+     "num": 47,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Arrange these words: not / were / the boys / angry."
+      }
+     ],
+     "opts": [
+      "The boys were not angry.",
+      "The boys not were angry.",
+      "The boys angry were not.",
+      "Were not angry the boys."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q48",
+     "num": 48,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Choose the correct sentence about last Sunday."
+      }
+     ],
+     "opts": [
+      "I were glad to see my grandparents.",
+      "I was gladly to see my grandparents.",
+      "I glad was to see my grandparents.",
+      "I was glad to see my grandparents."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q49",
+     "num": 49,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "&quot;We were worried before the news, but relaxed after it.&quot; How did we feel after the news?"
+      }
+     ],
+     "opts": [
+      "We felt afraid.",
+      "We felt angry.",
+      "We felt calm.",
+      "We felt lonely."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q50",
+     "num": 50,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Which sentence has the same meaning as &quot;The children were not sad&quot;?"
+      }
+     ],
+     "opts": [
+      "The children wasn't sad.",
+      "The children aren't sad yesterday.",
+      "The children didn't sad.",
+      "The children weren't sad."
+     ],
+     "ans": 3
+    }
+   ]
+  }
+ ],
+ "figures": {
+  "1": {
+   "src": "fig/ph-lesson4-1.svg",
+   "caption": "Raka — a visit tomorrow"
+  },
+  "2": {
+   "src": "fig/ph-lesson4-2.svg",
+   "caption": "Sari — after a long walk"
+  },
+  "3": {
+   "src": "fig/ph-lesson4-3.svg",
+   "caption": "Adi — his toy car"
+  },
+  "4": {
+   "src": "fig/ph-lesson4-4.svg",
+   "caption": "Mila — a sudden sound"
+  },
+  "5": {
+   "src": "fig/ph-lesson4-5.svg",
+   "caption": "Dito — his finished model"
+  },
+  "6": {
+   "src": "fig/ph-lesson4-6.svg",
+   "caption": "Hana&#x27;s visit"
+  },
+  "7": {
+   "src": "fig/ph-lesson4-7.svg",
+   "caption": "Faris and Lala"
+  }
+ }
+}
