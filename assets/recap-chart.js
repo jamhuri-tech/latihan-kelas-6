@@ -59,18 +59,21 @@
       card.append(scroll,legend,detail); container.append(card);
       var start = 0;
       function draw() {
-        var width = Math.max(1, Math.round(scroll.clientWidth)), height = 260;
+        var width = Math.max(1, Math.round(scroll.clientWidth)), height = 280;
+        var labelFont = Math.max(16, parseFloat(getComputedStyle(container).fontSize));
+        var left = Math.max(44,labelFont*2.6), right = Math.max(22,labelFont*1.4);
+        var bottom = height-labelFont*2.4, top = labelFont*1.5;
         var end = data.length, visible = data;
-        var labelStep = Math.max(1, Math.ceil((end-1) / Math.max(1, Math.floor((width-54)/42))));
+        var labelStep = Math.max(1, Math.ceil((end-1) / Math.max(1, Math.floor((width-left-right)/(labelFont*3.2)))));
         var dotSize = end > 16 ? 3 : 5;
         scroll.replaceChildren();
-        var svg = svgEl('svg', {viewBox:'0 0 '+width+' '+height, role:'group', 'aria-label':'Perkembangan nilai '+user.name+', latihan '+(start+1)+' sampai '+end, style:'display:block;width:100%;height:260px'});
+        var svg = svgEl('svg', {viewBox:'0 0 '+width+' '+height, role:'group', 'aria-label':'Perkembangan nilai '+user.name+', latihan '+(start+1)+' sampai '+end, style:'display:block;width:100%;height:280px'});
         svg.append(svgEl('title', {}, 'Skala nilai 0 sampai 100. Ketuk titik untuk rincian.'));
-        function x(i) { return visible.length===1 ? width/2 : 36+i*(width-54)/(visible.length-1); }
-        function y(n) { return 218-n*1.9; }
+        function x(i) { return visible.length===1 ? width/2 : left+i*(width-left-right)/(visible.length-1); }
+        function y(n) { return bottom-n*(bottom-top)/100; }
         [0,20,40,60,80,100].forEach(function(n){
-          svg.append(svgEl('line',{x1:36,y1:y(n),x2:width-18,y2:y(n),stroke:'#e0e6ee'}));
-          svg.append(svgEl('text',{x:28,y:y(n)+4,'text-anchor':'end',fill:'#536477','font-size':12},n));
+          svg.append(svgEl('line',{x1:left,y1:y(n),x2:width-right,y2:y(n),stroke:'#e0e6ee'}));
+          svg.append(svgEl('text',{x:left-10,y:y(n)+labelFont*.35,'text-anchor':'end',fill:'#536477','font-size':labelFont},n));
         });
         subjects.forEach(function(s){
           var points = visible.map(function(r,i){ return r.subj===s ? x(i)+','+y(r.nilai) : null; }).filter(Boolean);
@@ -86,14 +89,14 @@
           var label = describe(r,i);
           var group = svgEl('g',{role:'button',tabindex:0,'aria-label':label,style:'cursor:pointer'});
           // Vùng chạm hẹp theo khoảng cách ngang để các điểm gần nhau không che nhau.
-          var hitWidth = end > 1 ? Math.min(44, (width-54)/(end-1)) : 44;
+          var hitWidth = end > 1 ? Math.min(44, (width-left-right)/(end-1)) : 44;
           group.append(svgEl('rect',{x:x(i)-hitWidth/2,y:y(r.nilai)-22,width:hitWidth,height:44,fill:'transparent'}));
           var point = svgEl('circle',{cx:x(i),cy:y(r.nilai),r:dotSize,fill:color(r.subj),stroke:'#fff','stroke-width':1.5}); marks.push(point);
           group.append(point,svgEl('title',{},label));
           group.addEventListener('click',function(){select(i);});
           group.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();select(i);}});
           svg.append(group);
-          if (i===0 || i===end-1 || (i%labelStep===0 && end-1-i>=labelStep/2)) svg.append(svgEl('text',{x:x(i),y:242,'text-anchor':'middle',fill:'#536477','font-size':12},start+i+1));
+          if (i===0 || i===end-1 || (i%labelStep===0 && end-1-i>=labelStep/2)) svg.append(svgEl('text',{x:x(i),y:height-labelFont*.5,'text-anchor':'middle',fill:'#536477','font-size':labelFont},start+i+1));
         });
         scroll.append(svg); select(visible.length-1);
       }

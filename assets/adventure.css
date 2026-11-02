@@ -14,21 +14,21 @@ body {background-color:var(--bg);background-image:radial-gradient(#cdbfe033 .8px
 .main-nav a:hover,.main-nav a[aria-current=page] {background:#f0eafb;color:#51357b}
 .main-nav .recap-nav {background:#fff1d1;color:#725125}
 .hero {background:#eee5fa;color:var(--ink);border:2px solid #e2d5f3;box-shadow:0 9px 0 #e8ddf2;margin-top:22px;gap:32px;border-radius:30px;padding:36px}
-.hero-kicker {color:#624681;background:#fff9;display:inline-flex;padding:7px 12px;border-radius:30px;font-size:11px;letter-spacing:1px}
+.hero-kicker {color:#624681;background:#fff9;display:inline-flex;padding:7px 12px;border-radius:30px;font-size:1rem;letter-spacing:1px}
 .live-dot {background:#b37c43}
 .hero h1 {font-weight:800;letter-spacing:-1.8px;font-size:clamp(34px,4vw,54px);line-height:1.14}
 .hero h1 span {color:#7550a8}
-.hero-copy>p {color:#62546f;font-size:16px;line-height:1.8;max-width:440px}
+.hero-copy>p {color:#62546f;font-size:1rem;line-height:1.8;max-width:440px}
 .btn {border-radius:13px;font-weight:700;min-height:44px;box-shadow:0 3px 0 #35204c18}
 .btn.lime {background:#ffe19a;color:#503b1d;border:1px solid #ebc477;box-shadow:0 4px 0 #d7b56f}
 .btn.lime:hover {background:#ffda80;color:#503b1d}
 .hero-secondary {color:#57397c;font-weight:700}
 .hero-feature {background:#fffaf2;border:1px solid #eadfce;border-radius:24px;padding:18px 22px;box-shadow:0 3px 0 #dacbe333}
-.feature-label {color:#875a21;letter-spacing:1.2px;font-size:10px}
+.feature-label {color:#875a21;letter-spacing:1.2px;font-size:1rem}
 .feature-art {height:148px;background:url('adventure.svg') center/contain no-repeat;margin:8px -8px}
 .feature-art>* {display:none}
-.hero-feature h2 {color:#49355f;font-size:19px}
-.hero-feature>p {color:#74697f;font-size:13px}
+.hero-feature h2 {color:#49355f;font-size:1.1875rem}
+.hero-feature>p {color:#74697f;font-size:1rem}
 .hero-packets a {background:#fff;color:#443351;border:1px solid #e5dceb;border-radius:13px;min-height:56px}
 .hero-packets a:hover {background:#f4eefb;border-color:#bba2da}
 .hero-packets a>.ui-icon:first-child {color:#7752a4}
@@ -59,9 +59,9 @@ body {background-color:var(--bg);background-image:radial-gradient(#cdbfe033 .8px
 .card.s-matematika .subject-icon {background:#e2f3ee;color:#287d69}
 .card.s-bahasa-indonesia .subject-icon {background:#fff0e6;color:#a95736}
 .card.s-bahasa-inggris .subject-icon {background:#f0e7fa;color:#7853ae}
-.card h3 {font-size:20px;line-height:1.4}
+.card h3 {font-size:1.25rem;line-height:1.4}
 .card .desc {line-height:1.75;color:#70697b}
-.card-kind {font-size:10px;letter-spacing:1px}
+.card-kind {font-size:1rem;letter-spacing:1px}
 .badge.latest {background:#fff0ba;color:#7a5821;border:1px solid #efda91;border-radius:8px}
 .start-link {background:#f0eafb;border-radius:11px;padding:9px 12px;width:100%;justify-content:space-between;color:#62428e;min-height:44px;display:flex;align-items:center}
 .start-link:hover {background:#e6d9f5}
@@ -77,9 +77,9 @@ body {background-color:var(--bg);background-image:radial-gradient(#cdbfe033 .8px
 .progress .fill {background:linear-gradient(90deg,#aa85ce,#6c4b9b);border-radius:10px}
 .question-nav {border:1px solid #e2d7ee;box-shadow:0 4px 0 #e9e0f044;border-radius:18px}
 .q {border-radius:20px;box-shadow:0 3px 0 #e8e0ed44;border-color:#e3dcea}
-.q .num {background:#ede4f8;color:#64478a;border-radius:10px;width:32px;height:32px;font-size:13px}
-.q .stem {font-size:17px;line-height:1.85;color:#302b44}
-.opt {border-radius:13px;min-height:52px;font-size:15px;padding:12px 14px}
+.q .num {background:#ede4f8;color:#64478a;border-radius:10px;width:32px;height:32px;font-size:1rem}
+.q .stem {font-size:1.0625rem;line-height:1.85;color:#302b44}
+.opt {border-radius:13px;min-height:52px;font-size:1rem;padding:12px 14px}
 .opt:not(.right):not(.wrongsel):not(.sel):hover {background:#f8f4fd;border-color:#b49acf}
 .opt .let {color:#725489}
 .passage {background:#fff9e9;border:1px solid #f0dfb7;border-radius:20px;line-height:1.9;color:#3f3544}
@@ -91,29 +91,104 @@ body {background-color:var(--bg);background-image:radial-gradient(#cdbfe033 .8px
 .site-foot {border-top:2px dashed #ded2e8;color:#756780}
 @media(max-width:760px) {
  .hero {padding:26px 22px;gap:24px;margin-top:18px}
- .hero h1 {font-size:38px;letter-spacing:-1.4px}
+ .hero h1 {font-size:2.375rem;letter-spacing:-1.4px}
  .hero-feature {padding:18px}
  .feature-art {height:132px}
- .hero-copy>p {font-size:15px}
+ .hero-copy>p {font-size:1rem}
  .subject-options {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;gap:8px}
- .subject-choice {width:100%;min-width:0;white-space:normal;padding:9px;gap:6px;font-size:12px}
+ .subject-choice {width:100%;min-width:0;white-space:normal;padding:9px;gap:6px;font-size:1rem}
  .subject-choice .n {margin-left:auto}
  .subject-choice>.ui-icon {width:20px;height:20px;flex:none}
  .subject-panel {padding:14px}
  .mobile-hint {display:none}
  .q-head {padding:19px 16px}
- .q-head h1 {font-size:25px}
+ .q-head h1 {font-size:1.5625rem}
  .q {padding:18px 14px}
  .q .qrow {gap:10px}
- .q .stem {font-size:16px}
+ .q .stem {font-size:1rem}
  .q .num {width:28px;height:28px}
  .card {padding:18px}
  .recap-heading {padding:22px 18px}
 }
 @media(max-width:360px) {
  .hero {padding:23px 18px}
- .hero h1 {font-size:33px}
+ .hero h1 {font-size:2.0625rem}
  .hero-actions {gap:15px}
- .subject-choice {font-size:11px}
+ .subject-choice {font-size:1rem}
 }
 @media(prefers-reduced-motion:reduce) {.card,.btn {transition:none}}
+
+/* Tipografi baca: isi 18px, soal/pilihan 19px, label penting minimal 16px
+   pada setelan browser standar. Rem mengikuti preferensi ukuran huruf pengguna. */
+body {font-size:1.125rem;line-height:1.7}
+.hero-copy>p,.hero-feature>p,.card .desc,.q-head p,.participant-panel>p,
+.passage,.passage p,.math-explanation,.finish p,.result p,.result ul {font-size:1.125rem;line-height:1.75}
+.q .stem,.opt {font-size:1.1875rem;line-height:1.7}
+.hero-kicker,.feature-label,.eyebrow,.panel-title,.card-kind {font-size:1rem;letter-spacing:.05em;line-height:1.5}
+.brand small {font-size:.875rem;letter-spacing:.08em;line-height:1.5}
+.main-nav a,.btn,.btn.small,.subject-choice,.subject-choice .n,.chip,.selects select,
+.hero-packets strong,.hero-packets small,.meta,.badge,.hint,.controls,.fb,.sendstatus,
+.parent-note small,.parent-note strong,.home-metrics small,.results-label,.cnt,
+.card-progress small,.question-nav summary,.question-nav .btn,.nav-legend,
+.question-nav .hint,.progress .row,.progress-jump,.opt .let,.math-explanation h3,
+.fig figcaption,.datatab,.site-foot,.site-foot strong,.resume small {font-size:1rem;line-height:1.6}
+.btn,.chip,.subject-choice {height:auto;min-height:2.75rem;white-space:normal}
+.card-top,.meta,.progress .row {flex-wrap:wrap;row-gap:.5rem}
+.hero-kicker {flex-wrap:wrap}
+.card .desc {display:block;-webkit-line-clamp:unset;overflow:visible}
+.subject-choice .n,.cnt {flex-shrink:0}
+.q .num {font-size:1rem;width:2.1rem;height:2.1rem;line-height:1;flex-shrink:0}
+.number-grid {grid-template-columns:repeat(auto-fit,minmax(2.75rem,1fr))}
+.number-grid button {height:auto;min-height:2.75rem;font-size:1rem;padding:.35rem}
+.opt .let {min-width:1.25rem}
+.passage {max-width:75ch}
+.passage p {margin-bottom:1em}
+.fig figcaption {padding:.5rem .2rem}
+.subject {line-height:1.5;flex-wrap:wrap;gap:.5rem}
+.toolbar,.library-layout,.library-main,.hero-copy,.hero-feature {min-width:0}
+.search,.selects select {font-size:1rem;min-height:2.75rem}
+.home-metrics>div {min-width:0}
+.q-head h1 {font-size:clamp(1.625rem,1.3rem + 1vw,2rem)}
+.participant-panel h2 {font-size:1.375rem}
+.site-foot {flex-wrap:wrap}
+.site-foot>a {white-space:normal}
+@media(max-width:960px) {
+ .header-inner {flex-wrap:wrap;gap:12px;padding-top:14px;padding-bottom:12px}
+ .main-nav {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:6px}
+ .main-nav a {font-size:1rem;white-space:normal;padding:9px 10px;min-height:2.75rem;text-align:center;line-height:1.5}
+ .main-nav .recap-nav {margin-left:0}
+}
+@media(max-width:760px) {
+ .hero h1 {font-size:2.25rem;letter-spacing:-.035em}
+ .hero-copy>p,.hero-feature>p,.card .desc,.q-head p,.passage,.passage p,.math-explanation {font-size:1.125rem}
+ .subject-choice {font-size:1rem;overflow-wrap:anywhere;gap:8px;padding:10px}
+ .subject-choice .n {font-size:1rem}
+ .subject-choice>.ui-icon {display:none}
+ .q .stem,.opt {font-size:1.1875rem}
+ .opt {align-items:flex-start;padding:12px}
+ .opt input {margin-top:.4em}
+ .q .qrow {display:block}
+ .q .num {margin:0 0 .75rem}
+ .q {padding:18px 16px}
+ .q-head {padding:20px 16px}
+ .question-nav {max-height:none}
+ .hero-actions {gap:16px}
+ .home-metrics {grid-template-columns:repeat(2,minmax(0,1fr))}
+ .home-metrics>div {padding:16px 12px}
+ .hero-packets a {flex-wrap:wrap;gap:8px}
+}
+@media(max-width:360px) {
+ .hero h1 {font-size:2rem}
+ .subject-options {grid-template-columns:1fr}
+ .hero,.hero-feature {padding:20px 16px}
+}
+/* Teks panjang dan pilihan filter tetap membungkus saat huruf diperbesar. */
+.home-metrics>div>span,.resume>span,.hero-packets a>span {min-width:0;overflow-wrap:anywhere}
+.home-metrics strong,.home-metrics small {white-space:normal;overflow-wrap:anywhere}
+.selects {display:flex;flex-wrap:wrap;min-width:0;max-width:100%}
+.selects select {min-width:0;max-width:100%;flex:1 1 11rem;width:100%}
+.meta>span {max-width:100%;white-space:normal;flex-wrap:wrap}
+.hero-kicker {max-width:100%;overflow-wrap:anywhere}
+.opts>li {min-width:0;max-width:100%}
+.opt>span:last-child {min-width:0;max-width:100%;flex:1;overflow-x:auto;padding-block:.15em}
+.stem .katex,.math-explanation .katex {display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle;padding-block:.15em}
