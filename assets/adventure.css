@@ -1,0 +1,119 @@
+/* Petualangan Belajar — warna cerah, ruang baca tenang, tanpa gerak dekoratif. */
+:root {
+ --blue:#65459d; --blue-dark:#412769; --blue-soft:#f0eafb;
+ --bg:#fcfaf6; --ink:#302b44; --muted:#68647a; --line:#e5dfed;
+ --lime:#ffe29b; --radius:22px;
+ --c-matematika:#277d78; --c-bahasa-indonesia:#b65b39;
+ --c-bahasa-inggris:#7853ae;
+}
+body {background-color:var(--bg);background-image:radial-gradient(#cdbfe033 .8px,transparent .8px);background-size:20px 20px}
+.site-head {background:#fffdf9f5;border-bottom:2px solid #ede7f4}
+.brand-mark {background:#6b4b9d;border-radius:15px;transform:rotate(-5deg);color:#fff}
+.brand {color:var(--ink)}
+.main-nav a {border-radius:12px}
+.main-nav a:hover,.main-nav a[aria-current=page] {background:#f0eafb;color:#51357b}
+.main-nav .recap-nav {background:#fff1d1;color:#725125}
+.hero {background:#eee5fa;color:var(--ink);border:2px solid #e2d5f3;box-shadow:0 9px 0 #e8ddf2;margin-top:22px;gap:32px;border-radius:30px;padding:36px}
+.hero-kicker {color:#624681;background:#fff9;display:inline-flex;padding:7px 12px;border-radius:30px;font-size:11px;letter-spacing:1px}
+.live-dot {background:#b37c43}
+.hero h1 {font-weight:800;letter-spacing:-1.8px;font-size:clamp(34px,4vw,54px);line-height:1.14}
+.hero h1 span {color:#7550a8}
+.hero-copy>p {color:#62546f;font-size:16px;line-height:1.8;max-width:440px}
+.btn {border-radius:13px;font-weight:700;min-height:44px;box-shadow:0 3px 0 #35204c18}
+.btn.lime {background:#ffe19a;color:#503b1d;border:1px solid #ebc477;box-shadow:0 4px 0 #d7b56f}
+.btn.lime:hover {background:#ffda80;color:#503b1d}
+.hero-secondary {color:#57397c;font-weight:700}
+.hero-feature {background:#fffaf2;border:1px solid #eadfce;border-radius:24px;padding:18px 22px;box-shadow:0 3px 0 #dacbe333}
+.feature-label {color:#875a21;letter-spacing:1.2px;font-size:10px}
+.feature-art {height:148px;background:url('adventure.svg') center/contain no-repeat;margin:8px -8px}
+.feature-art>* {display:none}
+.hero-feature h2 {color:#49355f;font-size:19px}
+.hero-feature>p {color:#74697f;font-size:13px}
+.hero-packets a {background:#fff;color:#443351;border:1px solid #e5dceb;border-radius:13px;min-height:56px}
+.hero-packets a:hover {background:#f4eefb;border-color:#bba2da}
+.hero-packets a>.ui-icon:first-child {color:#7752a4}
+.hero-packets small {color:#73647e}
+.home-metrics {background:#fff;border:1px solid var(--line);border-radius:20px;margin-top:24px;box-shadow:0 4px 0 #ece5f233}
+.home-metrics>div:nth-child(1)>.ui-icon {color:#8a62b3}
+.home-metrics>div:nth-child(2)>.ui-icon {color:#278979}
+.home-metrics>div:nth-child(3)>.ui-icon {color:#c38024}
+.home-metrics>div:nth-child(4)>.ui-icon {color:#c06c63}
+.eyebrow {color:#8c6baa;letter-spacing:1.2px}
+.section-heading h2 {font-size:clamp(24px,3vw,32px);letter-spacing:-.7px}
+.subject-panel {border-radius:20px;background:#fff;box-shadow:0 3px 0 #ece5f255}
+.subject-choice {border-radius:13px;min-height:48px}
+.subject-choice.on {background:#eee5fa;color:#51357b;border-color:#d1bce8}
+.subject-choice:hover {background:#f6f1fc}
+.subject-choice.s-matematika {--subject-color:#277d78}
+.parent-note {background:#fff5da;border-color:#f0dfb4;color:#725125;border-radius:14px}
+.toolbar {background:#fff;border-radius:18px;padding:14px;border:1px solid var(--line)}
+.search-wrap {background:#fcfaff;border-color:#e7deef}
+.chip.on {background:#6b4a9d;color:#fff;border-color:#6b4a9d}
+.cards {gap:18px}
+.card {border:1px solid #e5dfed;border-top:5px solid var(--subject-color,#9c80c0);border-radius:20px;padding:20px;box-shadow:0 5px 0 #e8dfed55;transition:box-shadow .15s,border-color .15s}
+.card:hover {transform:none;box-shadow:0 6px 16px #6e527e16;border-color:#c1aad9}
+.card.s-matematika {border-top-color:#72b8a8}
+.card.s-bahasa-indonesia {border-top-color:#e6a084}
+.card.s-bahasa-inggris {border-top-color:#b093d2}
+.subject-icon {border-radius:15px;background:#f0eafb}
+.card.s-matematika .subject-icon {background:#e2f3ee;color:#287d69}
+.card.s-bahasa-indonesia .subject-icon {background:#fff0e6;color:#a95736}
+.card.s-bahasa-inggris .subject-icon {background:#f0e7fa;color:#7853ae}
+.card h3 {font-size:20px;line-height:1.4}
+.card .desc {line-height:1.75;color:#70697b}
+.card-kind {font-size:10px;letter-spacing:1px}
+.badge.latest {background:#fff0ba;color:#7a5821;border:1px solid #efda91;border-radius:8px}
+.start-link {background:#f0eafb;border-radius:11px;padding:9px 12px;width:100%;justify-content:space-between;color:#62428e;min-height:44px;display:flex;align-items:center}
+.start-link:hover {background:#e6d9f5}
+.card .actions {border-top:0;padding-top:0}
+.participant-panel {border:1px solid #ded2ec;border-radius:20px;background:#fff;box-shadow:0 4px 0 #eee6f344}
+.participant-panel h2 {color:#51366f}
+.session-launch {border-radius:24px}
+.q-head {background:#f1eafb;border:1px solid #e3d8f0;border-radius:24px;padding:24px;margin-bottom:18px}
+.q-head h1 {color:#4b3469;line-height:1.3}
+.q-head p {color:#70617d}
+.progress {background:#fcfaf6f5;border-radius:12px;padding:12px 10px;border:1px solid #ece4f2}
+.progress .track {height:9px;background:#e9e0f2}
+.progress .fill {background:linear-gradient(90deg,#aa85ce,#6c4b9b);border-radius:10px}
+.question-nav {border:1px solid #e2d7ee;box-shadow:0 4px 0 #e9e0f044;border-radius:18px}
+.q {border-radius:20px;box-shadow:0 3px 0 #e8e0ed44;border-color:#e3dcea}
+.q .num {background:#ede4f8;color:#64478a;border-radius:10px;width:32px;height:32px;font-size:13px}
+.q .stem {font-size:17px;line-height:1.85;color:#302b44}
+.opt {border-radius:13px;min-height:52px;font-size:15px;padding:12px 14px}
+.opt:not(.right):not(.wrongsel):not(.sel):hover {background:#f8f4fd;border-color:#b49acf}
+.opt .let {color:#725489}
+.passage {background:#fff9e9;border:1px solid #f0dfb7;border-radius:20px;line-height:1.9;color:#3f3544}
+.blocks .fig {border-radius:20px;border-color:#e5ddeb}
+.finish {border-radius:22px;border-color:#ddd0ec}
+.recap-heading {background:#eee5fa;border-radius:25px;padding:26px;margin-top:25px}
+.recap-heading h1 {color:#4b3469}
+.rk-card {box-shadow:0 3px 0 #e9e1ef55}
+.site-foot {border-top:2px dashed #ded2e8;color:#756780}
+@media(max-width:760px) {
+ .hero {padding:26px 22px;gap:24px;margin-top:18px}
+ .hero h1 {font-size:38px;letter-spacing:-1.4px}
+ .hero-feature {padding:18px}
+ .feature-art {height:132px}
+ .hero-copy>p {font-size:15px}
+ .subject-options {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;gap:8px}
+ .subject-choice {width:100%;min-width:0;white-space:normal;padding:9px;gap:6px;font-size:12px}
+ .subject-choice .n {margin-left:auto}
+ .subject-choice>.ui-icon {width:20px;height:20px;flex:none}
+ .subject-panel {padding:14px}
+ .mobile-hint {display:none}
+ .q-head {padding:19px 16px}
+ .q-head h1 {font-size:25px}
+ .q {padding:18px 14px}
+ .q .qrow {gap:10px}
+ .q .stem {font-size:16px}
+ .q .num {width:28px;height:28px}
+ .card {padding:18px}
+ .recap-heading {padding:22px 18px}
+}
+@media(max-width:360px) {
+ .hero {padding:23px 18px}
+ .hero h1 {font-size:33px}
+ .hero-actions {gap:15px}
+ .subject-choice {font-size:11px}
+}
+@media(prefers-reduced-motion:reduce) {.card,.btn {transition:none}}

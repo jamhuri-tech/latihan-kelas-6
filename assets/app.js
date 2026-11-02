@@ -278,7 +278,7 @@
         h('option', { value: 'all' }, 'Semua progres'), h('option', { value: 'new' }, 'Belum dikerjakan'), h('option', { value: 'started' }, 'Sedang dikerjakan'), h('option', { value: 'done' }, 'Sudah selesai'));
       statusSelect.value = flt.status;
       var library = h('section', { class: 'catalog', id: 'katalog' },
-        h('div', { class: 'section-heading' }, h('div', null, h('span', { class: 'eyebrow' }, 'PILIH, KERJAKAN, PAHAMI'), h('h2', null, 'Mau belajar apa hari ini?')), resultsLabel),
+        h('div', { class: 'section-heading' }, h('div', null, h('span', { class: 'eyebrow' }, 'SETIAP PERCOBAAN, PENGETAHUAN BARU'), h('h2', null, 'Pilih arena belajarmu')), resultsLabel),
         h('div', { class: 'library-layout' },
           h('aside', { class: 'subject-panel' }, h('p', { class: 'panel-title' }, 'MATA PELAJARAN', h('span', { class: 'mobile-hint' }, 'Geser untuk melihat lainnya →')), chipsSubj, h('a', { class: 'parent-note', href: 'rekap.html' }, icon('star'), h('span', null, h('strong', null, 'Untuk orang tua'), h('small', null, 'Lihat rekap nilai anak')), icon('arrow'))),
           h('div', { class: 'library-main' }, h('div', { class: 'toolbar' }, h('label', { class: 'search-wrap' }, icon('search'), search),
@@ -286,12 +286,12 @@
       var heroLinks = h('div', { class: 'hero-packets' });
       newest.forEach(function (m) { heroLinks.append(h('a', { href: '#/quiz/' + m.id }, icon(SUBJECT_ICONS[m.subject]), h('span', null, h('strong', null, m.subject), h('small', null, 'Paket ' + packetNumber(m) + ' · ' + m.count + ' soal')), icon('arrow'))); });
       var root = h('div', null,
-        h('section', { class: 'hero' }, h('div', { class: 'hero-copy' }, h('span', { class: 'hero-kicker' }, h('span', { class: 'live-dot' }), 'RUANG BELAJAR KELAS 6'),
-          h('h1', null, 'Sedikit latihan,', h('br'), h('span', null, 'banyak kemajuan.')),
-          h('p', null, 'Belajar sesuai ritmemu. Pilih pelajaran, coba soalnya, dan pahami langkahnya satu per satu.'),
+        h('section', { class: 'hero' }, h('div', { class: 'hero-copy' }, h('span', { class: 'hero-kicker' }, h('span', { class: 'live-dot' }), 'PETUALANGAN BELAJAR · KELAS 6'),
+          h('h1', null, 'Misi kecil hari ini,', h('br'), h('span', null, 'makin jago esok hari.')),
+          h('p', null, 'Pilih tantanganmu, temukan hal baru, dan belajar dari setiap jawaban. Siap mulai petualangan?'),
           h('div', { class: 'hero-actions' }, h('button', { class: 'btn lime', type: 'button', onclick: function () { scrollToElement(library); } }, 'Mulai belajar', icon('arrow')), h('a', { class: 'hero-secondary', href: '#/tka' }, 'Jelajahi Try Out TKA', icon('arrow')))),
           h('aside', { class: 'hero-feature' }, h('span', { class: 'feature-label' }, icon('star'), 'PAKET TERBARU'), h('div', { class: 'feature-art', 'aria-hidden': 'true' }, h('span', { class: 'art-symbol one' }, '÷'), h('span', { class: 'art-book' }, icon('book')), h('span', { class: 'art-symbol two' }, 'Aa'), h('span', { class: 'art-spark' }, '✦')),
-            h('h2', null, 'Siap melangkah lebih jauh?'), h('p', null, 'Coba prediksi TKA terbaru untuk mengasah kemampuanmu.'), heroLinks)),
+            h('h2', null, 'Misi TKA terbaru menantimu!'), h('p', null, 'Dua tantangan baru. Baca dengan teliti, pikirkan caranya, lalu pilih jawabanmu.'), heroLinks)),
         h('div', { class: 'home-metrics' },
           h('div', null, icon('book'), h('span', null, h('strong', null, list.length), h('small', null, 'pilihan latihan'))),
           h('div', null, icon('globe'), h('span', null, h('strong', null, subjects.length), h('small', null, 'mata pelajaran'))),

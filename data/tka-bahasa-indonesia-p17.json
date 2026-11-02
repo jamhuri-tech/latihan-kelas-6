@@ -1,0 +1,629 @@
+{
+ "id": "tka-bahasa-indonesia-p17",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 17)",
+ "desc": "30 soal pilihan ganda dengan lima bacaan baru. Pemahaman tekstual, inferensial, evaluasi dan apresiasi; pilihan pengecoh perlu dibandingkan dengan bukti bacaan. Prediksi mandiri berdasarkan contoh resmi SD, bukan soal resmi.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Menjaga Benih Tetap Kering",
+    "paras": [
+     "Kelompok kebun sekolah mengumpulkan benih sayuran. Benih berasal dari tanaman yang sudah tua. Murid memilih biji yang tampak utuh. Biji berlubang dipisahkan dari calon benih. Selanjutnya, biji dibersihkan dari sisa daging buah. Biji bersih dianginkan pada wadah lebar.",
+     "Pengeringan dilakukan di tempat beraliran udara. Wadah tidak ditumpuk selama proses berlangsung. Murid membalik biji secara berkala. Mereka mencatat tanggal mulai pengeringan. Jika biji masih lembap, penyimpanan ditunda. Kelembapan dapat memudahkan tumbuhnya jamur.",
+     "Benih kering dimasukkan ke dalam amplop. Setiap amplop memuat satu jenis benih. Label mencantumkan nama serta tanggal pengumpulan. Amplop lalu disimpan dalam kotak tertutup. Kotak diletakkan jauh dari percikan air. Petugas memeriksa keadaan tempat penyimpanan setiap pekan.",
+     "Sebelum dibagikan, beberapa benih diuji dahulu. Petugas meletakkannya pada kapas lembap. Mereka mengamati kemunculan tunas selama beberapa hari. Benih yang diuji tidak dikembalikan ke amplop. Hasil pengamatan dicatat untuk setiap jenis. Catatan membantu menentukan benih yang akan dibagikan.",
+     "Label tanggal bukan jaminan keberhasilan tumbuh. Keadaan benih dan tempat penyimpanan ikut berpengaruh. Karena itu, petugas tidak mengabaikan pengujian. Amplop yang basah dipisahkan untuk diperiksa. Murid belajar menjaga bahan dengan cermat. Mereka juga belajar menggunakan bukti sebelum menyimpulkan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dicantumkan pada label amplop?"
+      }
+     ],
+     "opts": [
+      "Nama petugas dan banyaknya kapas.",
+      "Tanggal pembagian dan harga sayuran.",
+      "Nama benih dan tanggal pengumpulan.",
+      "Banyaknya tunas dan ukuran kotak."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna “tunas” dalam bacaan paling sesuai dengan..."
+      }
+     ],
+     "opts": [
+      "Biji berlubang yang telah dipisahkan.",
+      "Wadah lebar untuk mengeringkan biji.",
+      "Bagian tumbuhan yang mulai tumbuh.",
+      "Label tempat mencatat tanggal pengumpulan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Urutan penanganan benih yang sesuai adalah..."
+      }
+     ],
+     "opts": [
+      "Menyimpan biji, membasahi, lalu mengeringkan.",
+      "Menguji biji, menyimpan kapas, lalu membagikan.",
+      "Memberi label, membagikan, lalu memisahkan biji.",
+      "Memilih biji, mengeringkan, lalu menyimpan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa penyimpanan biji lembap perlu ditunda?"
+      }
+     ],
+     "opts": [
+      "Jamur lebih mudah tumbuh pada kelembapan.",
+      "Biji hanya dapat disimpan bersama kapas.",
+      "Label tanggal belum menunjukkan harga benih.",
+      "Kotak tertutup selalu membuat benih bertunas."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Petugas menganggap label tanggal cukup menjamin benih tumbuh. Penilaian yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Sudah tepat, tanggal menggantikan hasil pengujian.",
+      "Kurang tepat, semua benih harus langsung dibuang.",
+      "Sudah tepat, kotak membuat semua benih sehat.",
+      "Kurang tepat, keadaan benih perlu diperiksa."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Gagasan utama bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Penanganan dan pengujian membantu menjaga benih.",
+      "Semua biji dari buah layak dibagikan.",
+      "Penyimpanan benih memerlukan kapas selalu basah.",
+      "Label tanggal membuat pengamatan tidak diperlukan."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Nomor pada Tas",
+    "paras": [
+     "Aku mengikuti latihan tari di balai. Sebelum masuk, kami menitipkan tas. Panitia memberi kartu bernomor kepada setiap peserta. Nomor serupa terikat pada tas masing-masing. Aku memasukkan kartuku ke dalam saku. Lalu aku berlari menyusul kelompok latihan.",
+     "Ketika latihan selesai, aku merasa lapar. Aku mengambil bungkusan roti dari saku. Tanpa sadar, kartuku ikut terjatuh. Aku baru menyadarinya di meja penitipan. Tanganku meraba kedua saku berulang kali. Aku takut tasku tidak dapat diambil.",
+     "Aku melihat tas biru di belakang petugas. Bentuknya sangat mirip dengan tasku. Aku segera menunjuknya sambil menjelaskan warna tas. Petugas meminta ciri yang lebih khusus. Aku teringat gantungan berbentuk ikan kecil. Namun, gantungan itu tidak tampak dari depan.",
+     "Aku menjelaskan isi kantong bagian luar. Ada saputangan bergaris serta buku catatan. Petugas memeriksanya sambil didampingi seorang panitia. Tas tersebut ternyata milik peserta lain. Tasku ditemukan pada rak yang bersebelahan. Gantungan ikannya terlipat di bawah pegangan.",
+     "Petugas memeriksa ciri tasku sekali lagi. Setelah cocok, aku menerima tas dengan lega. Aku mengucapkan terima kasih atas ketelitiannya. Sebelum pulang, kami mencari kartu terjatuh. Kartu itu ditemukan dekat bangku makan. Sejak itu, aku menyimpan kartu dalam dompet."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa ciri khusus yang diingat tokoh?"
+      }
+     ],
+     "opts": [
+      "Warna biru pada seluruh tas.",
+      "Kartu peserta dalam kantong luar.",
+      "Bungkusan roti di bawah pegangan.",
+      "Gantungan berbentuk ikan kecil."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kapan kartu tokoh kemungkinan terjatuh?"
+      }
+     ],
+     "opts": [
+      "Saat panitia memeriksa isi tas.",
+      "Ketika tas diterima dari petugas.",
+      "Saat ia mengambil bungkusan roti.",
+      "Ketika ia memasuki ruang latihan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa petugas tidak langsung menyerahkan tas yang ditunjuk?"
+      }
+     ],
+     "opts": [
+      "Kesamaan warna belum memastikan pemiliknya.",
+      "Tas hanya boleh diambil setelah malam.",
+      "Tokoh belum selesai berlatih bersama kelompok.",
+      "Semua tas harus dipindah ke rak lain."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan perasaan tokoh pada akhir cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Dari marah menjadi semakin curiga.",
+      "Dari cemas menjadi lebih lega.",
+      "Dari bangga menjadi merasa tersisih.",
+      "Dari tenang menjadi makin kecewa."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan petugas yang patut dihargai adalah..."
+      }
+     ],
+     "opts": [
+      "Memilih tas berdasarkan warna yang disebutkan.",
+      "Mengabaikan keterangan tentang isi kantong luar.",
+      "Memeriksa kecocokan ciri sebelum menyerahkan tas.",
+      "Meminta tokoh mengambil sendiri seluruh tas."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kebiasaan tokoh yang paling tepat ditiru adalah..."
+      }
+     ],
+     "opts": [
+      "Menyimpan kartu penitipan pada tempat aman.",
+      "Menunjuk barang berdasarkan kemiripan warnanya saja.",
+      "Membuka kantong tas milik peserta lain.",
+      "Menyembunyikan kehilangan kartu dari petugas penitipan."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Catatan Suhu di Halaman",
+    "paras": [
+     "Murid mengamati suhu di halaman sekolah. Mereka membandingkan tempat teduh dan terbuka. Kedua lokasi berada pada halaman yang sama. Pengamatan dilakukan menjelang istirahat siang. Guru menyiapkan dua alat pengukur suhu. Kedua alat diperiksa sebelum digunakan.",
+     "Satu alat diletakkan di bawah pohon. Alat lainnya dipasang pada tempat terbuka. Keduanya berada pada ketinggian yang sama. Murid menunggu sebelum membaca angka pengukuran. Mereka tidak memegang bagian pengukur. Suhu tubuh dapat memengaruhi pembacaan alat.",
+     "Hasil pengukuran dicatat dalam tabel harian. Tabel memuat waktu serta keadaan cuaca. Selama pengamatan, suhu tempat teduh lebih rendah. Namun, selisih suhunya tidak selalu sama. Pada hari mendung, selisih itu lebih kecil. Murid membahas hubungan hasil dengan keadaan cuaca.",
+     "Pengamatan hanya mencakup dua lokasi tersebut. Mereka belum mengukur halaman sekolah lain. Karena itu, guru mengingatkan batas kesimpulan. Hasil tidak mewakili semua tempat teduh. Jenis permukaan tanah juga mungkin berbeda. Murid mengusulkan pengamatan tambahan di lokasi lain.",
+     "Catatan disimpan bersama gambar letak alat. Murid lain dapat mengulangi cara pengamatan. Jika ada angka berbeda, mereka memeriksa catatan. Mereka tidak langsung menghapus hasil sebelumnya. Pengamatan melatih ketelitian membaca dan membandingkan. Kesimpulan harus sesuai dengan bukti yang tersedia."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dicatat selain angka suhu?"
+      }
+     ],
+     "opts": [
+      "Harga alat dan nama penjualnya.",
+      "Luas semua sekolah di sekitar.",
+      "Jumlah murid yang sedang beristirahat.",
+      "Waktu pengamatan dan keadaan cuaca."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Informasi tersurat yang sesuai dengan bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Selisih suhu selalu sama pada setiap harinya.",
+      "Suhu tempat teduh lebih rendah selama pengamatan.",
+      "Seluruh halaman sekolah lain telah selesai diukur.",
+      "Alat dipegang terus selama angka suhu dibaca."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa ketinggian kedua alat dibuat sama?"
+      }
+     ],
+     "opts": [
+      "Agar semua angka pasti sama.",
+      "Agar cuaca tidak perlu dicatat.",
+      "Agar kondisi perbandingan lebih setara.",
+      "Agar lokasi terbuka menjadi teduh."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa simpulan yang paling didukung pengamatan?"
+      }
+     ],
+     "opts": [
+      "Semua halaman sekolah pasti mempunyai selisih suhu sama.",
+      "Pada lokasi itu, tempat teduh terukur lebih sejuk.",
+      "Tempat terbuka selalu lebih sejuk saat hari mendung.",
+      "Keadaan cuaca tidak berkaitan dengan hasil pengukuran suhu."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Seorang murid menghapus angka berbeda tanpa memeriksa catatan. Penilaian yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Sudah tepat, hasil berbeda pasti tidak berguna.",
+      "Kurang tepat, semua angka seharusnya disamakan saja.",
+      "Sudah tepat, cuaca tidak memengaruhi hasil pengamatan.",
+      "Kurang tepat, perbedaannya perlu diperiksa dahulu."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa gambar letak alat disimpan bersama catatan?"
+      }
+     ],
+     "opts": [
+      "Menggantikan seluruh angka pada tabel pengukuran.",
+      "Membantu orang mengulangi pengamatan dengan sesuai.",
+      "Menunjukkan semua sekolah memiliki halaman serupa.",
+      "Menjamin cuaca selalu sama saat pengamatan."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Peluit untuk Lomba",
+    "paras": [
+     "Aku membantu menyiapkan lomba permainan tradisional. Tugasku membawa peluit ke meja panitia. Peluit itu kusimpan dalam kantong jaket. Ketika lapangan mulai ramai, aku melepas jaket. Aku meletakkannya di bangku dekat tenda. Lalu aku membantu memindahkan beberapa kursi.",
+     "Ketua panitia memanggilku sebelum lomba dimulai. Aku merogoh kantong celana dengan tergesa. Peluit itu tidak kutemukan di sana. Aku mencoba mengingat tempat terakhir menyimpannya. Namun, suara penonton membuat pikiranku semakin kacau. Aku khawatir lomba akan terlambat dimulai.",
+     "Rani melihatku berdiri dengan wajah tegang. Ia mengajakku bergeser menjauhi keramaian. Kami mengurutkan kegiatan sejak aku datang. Aku ingat mengenakan jaket sebelum memindahkan kursi. Rani menunjuk bangku di dekat tenda. Aku segera berjalan untuk memeriksanya.",
+     "Jaketku masih terlipat di atas bangku. Peluit berada dalam kantong sebelah kiri. Aku menghela napas setelah menemukannya. Aku menyerahkan peluit kepada ketua panitia. Ia berterima kasih dan memeriksa bunyinya. Perlombaan kemudian dimulai sesuai rencana.",
+     "Aku kembali menemui Rani di tenda. Aku berterima kasih karena ia membantuku berpikir. Tadi aku hampir mencari tanpa arah. Mengingat urutan kegiatan ternyata lebih membantu. Setelah itu, perlengkapan kutaruh dalam kotak panitia. Aku juga menuliskan tempat penyimpanannya pada daftar."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Di mana peluit akhirnya ditemukan?"
+      }
+     ],
+     "opts": [
+      "Dalam kantong kiri jaket tokoh.",
+      "Di dalam kotak milik penonton.",
+      "Pada meja ketua panitia lomba.",
+      "Di bawah kursi dekat lapangan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan Rani sebelum mengurutkan kegiatan?"
+      }
+     ],
+     "opts": [
+      "Meminta panitia membatalkan perlombaan.",
+      "Mengambil jaket dari rumah tokoh.",
+      "Mengajak tokoh menjauhi keramaian.",
+      "Membunyikan peluit di depan penonton."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ungkapan “mencari tanpa arah” dalam cerita berarti..."
+      }
+     ],
+     "opts": [
+      "Mencari tanpa rencana yang jelas.",
+      "Mencari tanpa mengetahui mata angin.",
+      "Mencari hanya ke sebelah kiri.",
+      "Mencari sambil menutup kedua mata."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa penyebab utama kesulitan tokoh menemukan peluit?"
+      }
+     ],
+     "opts": [
+      "Rani memindahkan peluit ke dalam tenda.",
+      "Ia lupa tempat menyimpan perlengkapan.",
+      "Ketua panitia meminta peluit yang berbeda.",
+      "Penonton membawa jaket tokoh dari bangku."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa bantuan Rani efektif?"
+      }
+     ],
+     "opts": [
+      "Ia memastikan lomba ditunda sampai sore.",
+      "Ia membantu mengingat kegiatan secara berurutan.",
+      "Ia mengalihkan seluruh penonton meninggalkan lapangan.",
+      "Ia menyuruh tokoh memeriksa semua rumah."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pelajaran yang paling sesuai dengan cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Perlengkapan lomba sebaiknya tidak digunakan bersama.",
+      "Memindahkan kursi selalu membuat barang menjadi hilang.",
+      "Bantuan teman hanya diperlukan setelah perlombaan selesai.",
+      "Tenang dan teratur membantu menyelesaikan masalah."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Jalur Baru di Taman",
+    "paras": [
+     "Taman kampung memiliki jalur berjalan baru. Jalur itu menghubungkan gerbang dengan perpustakaan kecil. Sebelumnya, pengunjung sering melintasi petak rumput. Saat hujan, tanah menjadi licin. Beberapa tanaman di tepi petak juga terinjak. Warga kemudian mengusulkan jalan yang lebih jelas.",
+     "Pengurus memasang batu pijakan berpermukaan kasar. Jarak antarbatu dibuat cukup dekat. Di sampingnya tersedia jalur rata yang tersambung. Jalur tersebut memudahkan pengunjung membawa kereta dorong. Papan petunjuk ditempatkan dekat pintu masuk. Pengunjung diminta mengikuti jalur yang tersedia.",
+     "Setelah pemasangan, warga mengamati penggunaan taman. Kebanyakan pengunjung mulai mengikuti jalur baru. Namun, beberapa anak masih memotong lewat rumput. Papan petunjuk ternyata tertutup ranting rendah. Pengurus memangkas ranting agar tulisan terlihat. Mereka tidak langsung menyalahkan semua pengunjung.",
+     "Pengamatan dilanjutkan pada pekan berikutnya. Pengurus mencatat bagian yang sering dilalui. Batu yang bergeser diperbaiki sebelum taman dibuka. Lubang kecil pada jalur rata ditambal. Warga dapat melapor melalui buku penjagaan. Laporan perlu menyebut lokasi secara jelas.",
+     "Jalur baru bukan satu-satunya pekerjaan pengurus. Petunjuk dan perawatan tetap diperlukan. Rumput yang rusak diberi waktu tumbuh. Warga memasang pembatas sementara di sekitarnya. Pengunjung masih dapat mencapai perpustakaan lewat jalur. Taman dijaga agar nyaman digunakan bersama."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa tujuan jalur rata di samping batu pijakan?"
+      }
+     ],
+     "opts": [
+      "Menyimpan tanaman yang sedang diberi pembatas.",
+      "Memudahkan pengunjung membawa kereta dorong.",
+      "Memisahkan petugas dari semua pengunjung taman.",
+      "Menggantikan perpustakaan di dekat pintu masuk."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa papan petunjuk sempat sulit terlihat?"
+      }
+     ],
+     "opts": [
+      "Ada ranting rendah yang menutupinya.",
+      "Tulisan hanya dipasang saat taman tutup.",
+      "Pengurus memindahkan papan ke dalam perpustakaan.",
+      "Pengunjung membawa papan ke jalur rata."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ikhtisar yang paling sesuai dengan bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Rumput dihapus, perpustakaan ditutup, lalu gerbang dipindahkan.",
+      "Batu dipasang, pengamatan dihentikan, lalu taman ditinggalkan.",
+      "Jalur dibuat, diamati, lalu diperbaiki bersama petunjuknya.",
+      "Papan dibuang, ranting dibiarkan, lalu pengunjung dilarang masuk."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dapat disimpulkan dari pemangkasan ranting?"
+      }
+     ],
+     "opts": [
+      "Pelanggaran bisa terkait petunjuk yang kurang terlihat.",
+      "Semua pengunjung sengaja merusak tanaman di taman.",
+      "Jalur rata tidak lagi diperlukan oleh pengunjung.",
+      "Perawatan hanya dilakukan sebelum batu pertama dipasang."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Laporan mana paling membantu pengurus menindaklanjuti masalah?"
+      }
+     ],
+     "opts": [
+      "Taman ini tampaknya kurang menarik bagiku.",
+      "Semua tempat sebaiknya diperiksa kapan saja.",
+      "Aku melihat sesuatu yang mungkin berbeda.",
+      "Batu dekat gerbang bergeser ke samping."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Penilaian yang sesuai terhadap langkah pengurus adalah..."
+      }
+     ],
+     "opts": [
+      "Kurang baik, papan seharusnya menggantikan semua jalur.",
+      "Baik, mereka memeriksa penyebab dan merawat fasilitas.",
+      "Baik, perawatan dapat dihentikan setelah batu terpasang.",
+      "Kurang baik, rumput harus langsung dilalui kembali."
+     ],
+     "ans": 1
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
