@@ -60,7 +60,7 @@
       var start = 0;
       function draw() {
         var width = Math.max(1, Math.round(scroll.clientWidth)), height = 280;
-        var labelFont = Math.max(16, parseFloat(getComputedStyle(container).fontSize));
+        var labelFont = Math.max(15, parseFloat(getComputedStyle(container).fontSize));
         var left = Math.max(44,labelFont*2.6), right = Math.max(22,labelFont*1.4);
         var bottom = height-labelFont*2.4, top = labelFont*1.5;
         var end = data.length, visible = data;

@@ -36,7 +36,7 @@ body {
   margin:0;
   background:var(--bg);
   color:var(--ink);
-  font:1.125rem/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif
+  font:1.0625rem/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif
 }
 h1,h2,h3,p {
   overflow-wrap:break-word
@@ -111,7 +111,7 @@ button:disabled {
   align-items:center;
   text-decoration:none;
   color:var(--blue-dark);
-  font-size:1.25rem;
+  font-size:1.1875rem;
   font-weight:760;
   letter-spacing:-.6px;
   white-space:nowrap;
@@ -119,7 +119,7 @@ button:disabled {
 }
 .brand small {
   display:block;
-  font-size:1rem;
+  font-size:0.9375rem;
   font-weight:650;
   letter-spacing:2.5px;
   margin-top:4px;
@@ -144,7 +144,7 @@ button:disabled {
   align-items:center
 }
 .main-nav a {
-  font-size:1rem;
+  font-size:0.9375rem;
   text-decoration:none;
   font-weight:600;
   padding:9px 14px;
@@ -171,11 +171,11 @@ button:disabled {
   gap:24px;
   justify-content:space-between;
   align-items:flex-start;
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted)
 }
 .site-foot strong {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--ink)
 }
 .site-foot p {
@@ -207,7 +207,7 @@ button:disabled {
   padding:8px 0
 }
 .hero-kicker {
-  font-size:1rem;
+  font-size:0.9375rem;
   letter-spacing:1.8px;
   color:#d6e6d8;
   display:flex;
@@ -233,7 +233,7 @@ button:disabled {
   color:var(--lime)
 }
 .hero-copy>p {
-  font-size:1rem;
+  font-size:0.9375rem;
   line-height:1.85;
   color:#c3d5ca;
   max-width:370px;
@@ -257,7 +257,7 @@ button:disabled {
   color:#fff;
   text-decoration:none;
   font-weight:650;
-  font-size:1rem;
+  font-size:0.9375rem;
   min-height:44px;
   line-height:1.5;
   transition:background .16s,transform .16s
@@ -281,7 +281,7 @@ button:disabled {
   background:var(--blue-soft)
 }
 .btn.small {
-  font-size:1rem;
+  font-size:0.9375rem;
   min-height:38px;
   padding:7px 13px
 }
@@ -294,7 +294,7 @@ button:disabled {
   align-items:center;
   color:#e0ebe2;
   text-decoration:none;
-  font-size:1rem
+  font-size:0.9375rem
 }
 .hero-secondary .ui-icon {
   width:17px
@@ -310,7 +310,7 @@ button:disabled {
   display:flex;
   gap:7px;
   align-items:center;
-  font-size:1rem;
+  font-size:0.9375rem;
   letter-spacing:1.7px;
   color:var(--lime);
   font-weight:700
@@ -351,7 +351,7 @@ button:disabled {
   border:1px solid #6b887a;
   border-radius:12px;
   color:#dbedcf;
-  font-size:1.625rem
+  font-size:1.5625rem
 }
 .art-symbol.one {
   left:15%;
@@ -361,7 +361,7 @@ button:disabled {
 .art-symbol.two {
   right:12%;
   bottom:2px;
-  font-size:1.1875rem;
+  font-size:1.125rem;
   transform:rotate(12deg)
 }
 .art-spark {
@@ -369,16 +369,16 @@ button:disabled {
   right:24%;
   top:0;
   color:var(--lime);
-  font-size:1.375rem
+  font-size:1.3125rem
 }
 .hero-feature h2 {
-  font-size:1.0625rem;
+  font-size:1rem;
   letter-spacing:-.4px;
   margin:8px 0 3px
 }
 .hero-feature>p {
   color:#bdcfc4;
-  font-size:1rem;
+  font-size:0.9375rem;
   line-height:1.7;
   margin:0 0 16px
 }
@@ -410,12 +410,12 @@ button:disabled {
 }
 .hero-packets strong {
   display:block;
-  font-size:1rem;
+  font-size:0.9375rem;
   font-weight:600
 }
 .hero-packets small {
   display:block;
-  font-size:1rem;
+  font-size:0.9375rem;
   color:#bdd0c2
 }
 .home-metrics {
@@ -441,7 +441,7 @@ button:disabled {
 }
 .home-metrics strong {
   display:block;
-  font-size:1.1875rem;
+  font-size:1.125rem;
   font-weight:700;
   line-height:1.4;
   letter-spacing:-.5px
@@ -449,10 +449,10 @@ button:disabled {
 .home-metrics small {
   display:block;
   color:var(--muted);
-  font-size:1rem
+  font-size:0.9375rem
 }
 .eyebrow {
-  font-size:1rem;
+  font-size:0.9375rem;
   letter-spacing:1.8px;
   font-weight:700;
   color:#73806e
@@ -470,12 +470,12 @@ button:disabled {
 }
 .section-heading h2 {
   margin:7px 0 0;
-  font-size:1.6875rem;
+  font-size:1.625rem;
   line-height:1.3;
   letter-spacing:-.8px
 }
 .results-label {
-  font-size:1rem;
+  font-size:0.9375rem;
   white-space:nowrap;
   color:var(--muted)
 }
@@ -493,7 +493,7 @@ button:disabled {
   padding:18px 12px
 }
 .panel-title {
-  font-size:1rem;
+  font-size:0.9375rem;
   letter-spacing:1.6px;
   font-weight:700;
   color:var(--muted);
@@ -512,7 +512,7 @@ button:disabled {
   background:transparent;
   border-radius:10px;
   padding:12px 11px;
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted);
   width:100%;
   min-height:44px
@@ -533,7 +533,7 @@ button:disabled {
 }
 .subject-choice .n {
   margin-left:auto;
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted);
   padding:1px 5px;
   background:#e9ede6;
@@ -557,11 +557,11 @@ button:disabled {
   margin-left:auto
 }
 .parent-note strong {
-  font-size:1rem;
+  font-size:0.9375rem;
   display:block
 }
 .parent-note small {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted);
   display:block
 }
@@ -594,7 +594,7 @@ button:disabled {
   box-shadow:none;
   background:transparent;
   padding:13px 0;
-  font-size:1rem
+  font-size:0.9375rem
 }
 .filter-row {
   display:flex;
@@ -610,7 +610,7 @@ button:disabled {
   flex-wrap:wrap
 }
 .chip {
-  font-size:1rem;
+  font-size:0.9375rem;
   border:1px solid transparent;
   background:transparent;
   border-radius:7px;
@@ -632,7 +632,7 @@ button:disabled {
   gap:7px
 }
 .selects select {
-  font-size:1rem;
+  font-size:0.9375rem;
   border:1px solid var(--line);
   border-radius:7px;
   background:#fff;
@@ -647,7 +647,7 @@ button:disabled {
   justify-content:space-between;
   gap:10px;
   margin:26px 0 14px;
-  font-size:1.125rem;
+  font-size:1.0625rem;
   letter-spacing:-.3px
 }
 .subject>span:first-child {
@@ -660,7 +660,7 @@ button:disabled {
   color:var(--accent,var(--blue))
 }
 .subject .cnt {
-  font-size:1rem;
+  font-size:0.9375rem;
   font-weight:400;
   color:var(--muted);
   letter-spacing:0
@@ -704,13 +704,13 @@ button:disabled {
   height:19px
 }
 .card-kind {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted);
   letter-spacing:1px;
   font-weight:650
 }
 .card h3 {
-  font-size:1.0625rem;
+  font-size:1rem;
   letter-spacing:-.25px;
   line-height:1.5;
   margin:0
@@ -725,7 +725,7 @@ button:disabled {
 }
 .card .desc {
   color:var(--muted);
-  font-size:1rem;
+  font-size:0.9375rem;
   line-height:1.8;
   margin:0;
   display:-webkit-box;
@@ -736,7 +736,7 @@ button:disabled {
 .meta {
   display:flex;
   gap:16px;
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted);
   flex-wrap:wrap
 }
@@ -754,7 +754,7 @@ button:disabled {
 }
 .badge {
   border-radius:5px;
-  font-size:1rem;
+  font-size:0.9375rem;
   font-weight:650;
   padding:3px 6px;
   white-space:nowrap
@@ -777,7 +777,7 @@ button:disabled {
   align-items:center;
   gap:12px;
   text-decoration:none;
-  font-size:1rem;
+  font-size:0.9375rem;
   font-weight:700;
   min-height:32px
 }
@@ -802,14 +802,14 @@ button:disabled {
   height:100%
 }
 .card-progress small {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted)
 }
 .continue {
   margin-top:32px
 }
 .continue h2 {
-  font-size:1.125rem;
+  font-size:1.0625rem;
   letter-spacing:-.4px
 }
 .continue .cards {
@@ -835,12 +835,12 @@ button:disabled {
 }
 .resume span small {
   display:block;
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted)
 }
 .resume span strong {
   display:block;
-  font-size:1rem;
+  font-size:0.9375rem;
   line-height:1.5
 }
 .empty {
@@ -857,11 +857,11 @@ button:disabled {
   color:var(--muted)
 }
 .empty h3 {
-  font-size:1.125rem;
+  font-size:1.0625rem;
   margin-bottom:4px
 }
 .empty p {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted)
 }
 .s-matematika {
@@ -890,7 +890,7 @@ button:disabled {
   margin:0 0 20px
 }
 .back {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted);
   text-decoration:none
 }
@@ -903,7 +903,7 @@ button:disabled {
   color:var(--accent,var(--muted))
 }
 .q-head h1 {
-  font-size:1.875rem;
+  font-size:1.8125rem;
   line-height:1.3;
   letter-spacing:-1px;
   max-width:850px;
@@ -911,7 +911,7 @@ button:disabled {
 }
 .q-head p {
   color:var(--muted);
-  font-size:1rem;
+  font-size:0.9375rem;
   max-width:800px
 }
 .controls {
@@ -922,7 +922,7 @@ button:disabled {
   border:1px solid var(--line);
   background:#fff;
   border-radius:12px;
-  font-size:1rem;
+  font-size:0.9375rem;
   margin-bottom:15px
 }
 .controls label {
@@ -937,7 +937,7 @@ button:disabled {
   height:17px
 }
 .hint {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted)
 }
 .progress {
@@ -953,7 +953,7 @@ button:disabled {
   justify-content:space-between;
   align-items:center;
   gap:12px;
-  font-size:1rem;
+  font-size:0.9375rem;
   font-weight:600
 }
 .progress .track {
@@ -972,7 +972,7 @@ button:disabled {
   border:0;
   background:transparent;
   color:var(--blue);
-  font-size:1rem;
+  font-size:0.9375rem;
   text-decoration:underline;
   min-height:32px;
   padding:0
@@ -994,7 +994,7 @@ button:disabled {
   padding:16px
 }
 .question-nav summary {
-  font-size:1rem;
+  font-size:0.9375rem;
   font-weight:700;
   cursor:pointer;
   list-style:none;
@@ -1025,7 +1025,7 @@ button:disabled {
   background:#fff;
   border-radius:7px;
   color:var(--muted);
-  font-size:1rem
+  font-size:0.9375rem
 }
 .number-grid button:hover {
   border-color:var(--blue);
@@ -1037,7 +1037,7 @@ button:disabled {
   color:white
 }
 .nav-legend {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted);
   display:flex;
   align-items:center;
@@ -1053,16 +1053,16 @@ button:disabled {
 }
 .question-nav .btn {
   width:100%;
-  font-size:1rem;
+  font-size:0.9375rem;
   padding:10px
 }
 .question-nav .hint {
-  font-size:1rem;
+  font-size:0.9375rem;
   line-height:1.7;
   margin-bottom:0
 }
 .sec-title {
-  font-size:1.0625rem;
+  font-size:1rem;
   line-height:1.6;
   letter-spacing:-.2px;
   margin:22px 0 13px
@@ -1076,12 +1076,12 @@ button:disabled {
   border-radius:16px;
   padding:24px;
   margin:0 0 20px;
-  font-size:1rem;
+  font-size:0.9375rem;
   line-height:1.95
 }
 .passage h3 {
   text-align:left;
-  font-size:1.0625rem;
+  font-size:1rem;
   line-height:1.6;
   margin:0 0 15px
 }
@@ -1122,7 +1122,7 @@ button:disabled {
   color:var(--blue);
   display:grid;
   place-items:center;
-  font-size:1rem;
+  font-size:0.9375rem;
   font-weight:700;
   margin-top:1px
 }
@@ -1139,7 +1139,7 @@ button:disabled {
   flex:1
 }
 .stem {
-  font-size:1rem;
+  font-size:0.9375rem;
   line-height:1.85
 }
 .stem p {
@@ -1162,7 +1162,7 @@ button:disabled {
   background:white
 }
 .fig figcaption {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted);
   margin-top:7px
 }
@@ -1177,7 +1177,7 @@ button:disabled {
   border-collapse:collapse;
   margin:0 auto;
   max-width:100%;
-  font-size:1rem
+  font-size:0.9375rem
 }
 .datatab th,.datatab td {
   border:1px solid var(--line);
@@ -1205,7 +1205,7 @@ button:disabled {
   background:white;
   padding:11px 13px;
   cursor:pointer;
-  font-size:1rem;
+  font-size:0.9375rem;
   min-height:48px
 }
 .opt:hover {
@@ -1220,7 +1220,7 @@ button:disabled {
   margin:0
 }
 .opt .let {
-  font-size:1rem;
+  font-size:0.9375rem;
   font-weight:700;
   color:var(--muted);
   flex:none
@@ -1244,7 +1244,7 @@ button:disabled {
   width:100%;
   border-collapse:collapse;
   margin-top:14px;
-  font-size:1rem
+  font-size:0.9375rem
 }
 .bs th,.bs td {
   padding:9px 5px;
@@ -1283,7 +1283,7 @@ textarea.txt {
 .fb {
   margin-top:14px;
   padding:11px 14px;
-  font-size:1rem;
+  font-size:0.9375rem;
   border-radius:10px;
   line-height:1.7
 }
@@ -1305,12 +1305,12 @@ textarea.txt {
   border-left:3px solid #86a965;
   border-radius:10px;
   background:#f3f7ed;
-  font-size:1rem;
+  font-size:0.9375rem;
   line-height:1.85;
   overflow-wrap:anywhere
 }
 .math-explanation h3 {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--blue);
   margin:0 0 10px
 }
@@ -1330,12 +1330,12 @@ textarea.txt {
   scroll-margin-top:155px
 }
 .finish h2 {
-  font-size:1.25rem;
+  font-size:1.1875rem;
   letter-spacing:-.5px;
   margin:0 0 5px
 }
 .finish p {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted)
 }
 .finish .namefield {
@@ -1343,7 +1343,7 @@ textarea.txt {
   align-items:center;
   gap:12px;
   flex-wrap:wrap;
-  font-size:1rem;
+  font-size:0.9375rem;
   margin-top:16px
 }
 .finish .name {
@@ -1368,18 +1368,18 @@ textarea.txt {
   margin-bottom:22px
 }
 .result h2 {
-  font-size:1.25rem;
+  font-size:1.1875rem;
   margin:0
 }
 .result .big {
-  font-size:3.625rem;
+  font-size:3.5625rem;
   font-weight:750;
   letter-spacing:-2px;
   color:var(--blue);
   line-height:1.3
 }
 .result p,.result ul {
-  font-size:1rem
+  font-size:0.9375rem
 }
 .result ul {
   padding-left:20px
@@ -1389,7 +1389,7 @@ textarea.txt {
   margin:3px 5px
 }
 .sendstatus {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted)
 }
 .sendstatus.good {
@@ -1415,18 +1415,18 @@ textarea.txt {
   padding-top:42px
 }
 .recap-heading h1 {
-  font-size:2.375rem;
+  font-size:2.3125rem;
   letter-spacing:-1.4px;
   line-height:1.25;
   margin:10px 0
 }
 .recap-heading p {
-  font-size:1rem;
+  font-size:0.9375rem;
   color:var(--muted);
   margin:8px 0 16px
 }
 .recap-title {
-  font-size:1.25rem;
+  font-size:1.1875rem;
   letter-spacing:-.5px;
   margin-top:34px
 }
@@ -1435,7 +1435,7 @@ textarea.txt {
   border-radius:16px
 }
 .recap-page .rk-row input,.recap-page .rk-row select {
-  font-size:1rem;
+  font-size:0.9375rem;
   min-height:43px
 }
 .recap-page .rk-stat {
@@ -1443,17 +1443,17 @@ textarea.txt {
   padding:17px
 }
 .recap-page .rk-stat b {
-  font-size:1.75rem;
+  font-size:1.6875rem;
   letter-spacing:-.8px
 }
 .recap-page .rk-stat span {
-  font-size:1rem
+  font-size:0.9375rem
 }
 .recap-page .rk-tbl {
-  font-size:1rem
+  font-size:0.9375rem
 }
 .recap-page .rk-tbl th {
-  font-size:1rem;
+  font-size:0.9375rem;
   text-transform:uppercase;
   letter-spacing:.6px;
   padding:14px 10px;
@@ -1463,10 +1463,10 @@ textarea.txt {
   padding:16px 10px
 }
 .recap-page .rk-sub {
-  font-size:1rem
+  font-size:0.9375rem
 }
 .recap-page .rk-msg,.recap-page .rk-err {
-  font-size:1rem
+  font-size:0.9375rem
 }
 @media(min-width:1400px) {
   .wrap {
@@ -1493,20 +1493,20 @@ textarea.txt {
     grid-template-columns:1.15fr 1fr
   }
   .hero h1 {
-    font-size:2.625rem
+    font-size:2.5625rem
   }
   .hero-actions {
     gap:14px
   }
   .hero-secondary {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .library-layout {
     grid-template-columns:185px minmax(0,1fr);
     gap:22px
   }
   .subject-choice {
-    font-size:1rem;
+    font-size:0.9375rem;
     padding:11px 8px;
     gap:7px
   }
@@ -1522,7 +1522,7 @@ textarea.txt {
   }
   .main-nav a {
     padding:8px 10px;
-    font-size:1rem
+    font-size:0.9375rem
   }
 }
 @media(max-width:760px) {
@@ -1538,7 +1538,7 @@ textarea.txt {
     padding-bottom:10px
   }
   .brand {
-    font-size:1.0625rem
+    font-size:1rem
   }
   .brand-mark {
     width:35px;
@@ -1550,7 +1550,7 @@ textarea.txt {
     height:28px
   }
   .brand small {
-    font-size:1rem;
+    font-size:0.9375rem;
     margin-top:3px
   }
   .main-nav {
@@ -1558,7 +1558,7 @@ textarea.txt {
     gap:2px
   }
   .main-nav a {
-    font-size:1rem;
+    font-size:0.9375rem;
     padding:7px 8px
   }
   .main-nav .recap-nav {
@@ -1571,13 +1571,13 @@ textarea.txt {
     gap:30px
   }
   .hero h1 {
-    font-size:2.75rem;
+    font-size:2.6875rem;
     letter-spacing:-1.7px;
     margin-top:20px
   }
   .hero-copy>p {
     max-width:470px;
-    font-size:1rem
+    font-size:0.9375rem
   }
   .hero-feature {
     padding:17px 20px
@@ -1598,14 +1598,14 @@ textarea.txt {
   .art-symbol {
     width:30px;
     height:30px;
-    font-size:1.25rem
+    font-size:1.1875rem
   }
   .art-symbol.one {
     left:0
   }
   .art-symbol.two {
     right:0;
-    font-size:1rem
+    font-size:0.9375rem
   }
   .art-spark {
     right:10%
@@ -1627,7 +1627,7 @@ textarea.txt {
     padding:10px
   }
   .hero-packets strong {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .hero-packets a>.ui-icon:last-child {
     width:14px
@@ -1641,10 +1641,10 @@ textarea.txt {
     justify-content:flex-start
   }
   .home-metrics strong {
-    font-size:1.125rem
+    font-size:1.0625rem
   }
   .home-metrics small {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .library-layout {
     grid-template-columns:1fr;
@@ -1675,7 +1675,7 @@ textarea.txt {
     gap:7px
   }
   .subject-choice .n {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .subject-choice.on {
     background:var(--blue);
@@ -1701,10 +1701,10 @@ textarea.txt {
     align-items:start
   }
   .section-heading h2 {
-    font-size:1.4375rem
+    font-size:1.375rem
   }
   .results-label {
-    font-size:1rem;
+    font-size:0.9375rem;
     margin-top:24px
   }
   .filter-row {
@@ -1754,13 +1754,13 @@ textarea.txt {
     padding-top:22px
   }
   .q-head h1 {
-    font-size:1.625rem
+    font-size:1.5625rem
   }
   .q {
     padding:18px
   }
   .recap-heading h1 {
-    font-size:1.875rem
+    font-size:1.8125rem
   }
   .recap-page {
     padding-top:28px
@@ -1782,7 +1782,7 @@ textarea.txt {
     gap:2px
   }
   .main-nav a {
-    font-size:1rem;
+    font-size:0.9375rem;
     padding:7px 9px
   }
   .main-nav .recap-nav {
@@ -1793,27 +1793,27 @@ textarea.txt {
     border-radius:20px
   }
   .hero h1 {
-    font-size:2.375rem;
+    font-size:2.3125rem;
     letter-spacing:-1.4px
   }
   .hero-kicker {
-    font-size:1rem;
+    font-size:0.9375rem;
     letter-spacing:1.5px
   }
   .hero-copy>p {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .hero-actions {
     gap:18px
   }
   .hero-secondary {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .hero-feature {
     padding:15px
   }
   .hero-feature h2 {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .feature-art {
     width:102px
@@ -1821,10 +1821,10 @@ textarea.txt {
   .art-symbol {
     width:24px;
     height:24px;
-    font-size:1rem
+    font-size:0.9375rem
   }
   .art-symbol.two {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .hero-packets {
     grid-template-columns:1fr
@@ -1833,13 +1833,13 @@ textarea.txt {
     padding:9px 11px
   }
   .hero-packets strong {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .hero-packets small {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .feature-label {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .home-metrics>div {
     gap:9px
@@ -1850,13 +1850,13 @@ textarea.txt {
     padding:7px
   }
   .home-metrics small {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .home-metrics strong {
-    font-size:1.0625rem
+    font-size:1rem
   }
   .eyebrow {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .section-heading {
     display:block
@@ -1872,19 +1872,19 @@ textarea.txt {
     padding:20px
   }
   .card h3 {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .card .desc {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .meta {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .card-kind {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .start-link {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .selects {
     margin-left:0;
@@ -1892,32 +1892,32 @@ textarea.txt {
     width:100%
   }
   .selects select {
-    font-size:1rem;
+    font-size:0.9375rem;
     max-width:none;
     flex:1;
     min-height:40px
   }
   .chip {
-    font-size:1rem;
+    font-size:0.9375rem;
     min-height:40px
   }
   .toolbar {
     padding-bottom:15px
   }
   .search {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .subject {
-    font-size:1.0625rem
+    font-size:1rem
   }
   .progress {
     top:119px
   }
   .q-head h1 {
-    font-size:1.5rem
+    font-size:1.4375rem
   }
   .q-head p {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .controls .hint {
     line-height:1.7
@@ -1932,17 +1932,17 @@ textarea.txt {
   .q .num {
     width:25px;
     height:25px;
-    font-size:1rem
+    font-size:0.9375rem
   }
   .stem {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .opt {
     padding:11px 10px;
     gap:8px
   }
   .opt .let {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .opt input {
     width:15px;
@@ -1950,11 +1950,11 @@ textarea.txt {
   }
   .math-explanation {
     padding:14px;
-    font-size:1rem
+    font-size:0.9375rem
   }
   .passage {
     padding:20px;
-    font-size:1rem
+    font-size:0.9375rem
   }
   .number-grid {
     grid-template-columns:repeat(6,minmax(0,1fr))
@@ -1973,10 +1973,10 @@ textarea.txt {
     width:100%
   }
   .btn {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .site-foot {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .datatab th,.datatab td {
     padding:6px 10px
@@ -1985,7 +1985,7 @@ textarea.txt {
     padding:15px
   }
   .recap-heading h1 {
-    font-size:1.75rem
+    font-size:1.6875rem
   }
 }
 @media(prefers-reduced-motion:reduce) {
@@ -2053,7 +2053,7 @@ textarea.txt {
     max-width:none
   }
   .hero-feature>p {
-    font-size:1rem
+    font-size:0.9375rem
   }
   .hero-packets {
     padding-top:0
@@ -2068,7 +2068,7 @@ textarea.txt {
     gap:0
   }
   .main-nav a {
-    font-size:1rem;
+    font-size:0.9375rem;
     padding:7px 5px
   }
   .main-nav .recap-nav {
@@ -2078,7 +2078,7 @@ textarea.txt {
     padding:23px 19px
   }
   .hero h1 {
-    font-size:2.0625rem
+    font-size:2rem
   }
   .hero-actions {
     gap:13px
@@ -2088,12 +2088,12 @@ textarea.txt {
 .mobile-hint { display: none; }
 @media (max-width:760px) {
   .panel-title { display: flex; justify-content: space-between; gap: 10px; align-items: center; }
-  .mobile-hint { display: inline; font-size:1rem; font-weight: 400; letter-spacing: 0; text-transform: none; }
+  .mobile-hint { display: inline; font-size:0.9375rem; font-weight: 400; letter-spacing: 0; text-transform: none; }
 }
 
 /* Participant selection and independent practice sessions. */
 .participant-panel {background:#fff;border:1px solid var(--line,#dce4dc);border-radius:18px;padding:22px;margin:20px 0}
-.participant-panel h2 {font-size:1.25rem;margin:0 0 10px}
+.participant-panel h2 {font-size:1.1875rem;margin:0 0 10px}
 .participant-panel select,.participant-add input {font:inherit;border:1px solid #ccd6cd;border-radius:10px;padding:11px;max-width:100%;background:#fff;min-height:44px}
 .participant-panel select {width:min(100%,360px)}
 .participant-add {display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}

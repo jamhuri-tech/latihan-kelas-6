@@ -6,8 +6,8 @@
 <meta name="color-scheme" content="light">
 <meta name="robots" content="noindex">
 <title>Rekap Nilai</title>
-<link rel="stylesheet" href="assets/style.css?v=20261102-type">
-<link rel="stylesheet" href="assets/adventure.css?v=20261102-type">
+<link rel="stylesheet" href="assets/style.css?v=20261102-type-balanced">
+<link rel="stylesheet" href="assets/adventure.css?v=20261102-type-balanced">
 <style>
   .rk-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; margin: 16px 0; }
   .rk-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
@@ -15,27 +15,27 @@
   .rk-row input[type=search] { flex: 1 1 180px; }
   .rk-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 12px 0; }
   .rk-stat { background: var(--blue-soft); border-radius: 10px; padding: 10px 12px; }
-  .rk-stat b { display: block; font-size: 1.5rem; color: var(--blue-dark); font-variant-numeric: tabular-nums; }
-  .rk-stat span { font-size: 1rem; color: var(--muted); }
-  .rk-tbl { width: 100%; border-collapse: collapse; font-size: 1rem; }
+  .rk-stat b { display: block; font-size:1.4375rem; color: var(--blue-dark); font-variant-numeric: tabular-nums; }
+  .rk-stat span { font-size:0.9375rem; color: var(--muted); }
+  .rk-tbl { width: 100%; border-collapse: collapse; font-size:0.9375rem; }
   .rk-tbl th, .rk-tbl td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
-  .rk-tbl th { color: var(--muted); font-weight: 600; font-size: 1rem; }
+  .rk-tbl th { color: var(--muted); font-weight: 600; font-size:0.9375rem; }
   .rk-tbl td.n { font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
   .rk-tbl th.n { text-align: right; }
   .rk-good { color: var(--ok); } .rk-mid { color: #b9770e; } .rk-low { color: var(--bad); }
-  .rk-sub { color: var(--muted); font-size: 1rem; }
+  .rk-sub { color: var(--muted); font-size:0.9375rem; }
   .rk-msg { color: var(--muted); } .rk-err { color: var(--bad); }
   .rk-scroll { overflow-x: auto; }
   .rk-tbl { min-width: 650px; }
   .rk-user-chart h3 { margin: 0 0 6px; }
   .rk-chart-scroll { width: 100%; min-width: 0; }
-  .rk-chart-detail { padding:12px; background:var(--blue-soft); border-radius:10px; font-size:1rem; line-height:1.6; overflow-wrap:anywhere; }
+  .rk-chart-detail { padding:12px; background:var(--blue-soft); border-radius:10px; font-size:0.9375rem; line-height:1.6; overflow-wrap:anywhere; }
   .rk-user-chart { min-width:0; }
   @media(max-width:480px) {
     .rk-user-chart { padding:12px; }
     .rk-row select { flex:1 1 140px; width:100%; }
   }
-  .rk-legend { display: flex; flex-wrap: wrap; gap: 16px; list-style: none; padding: 0; font-size: 1rem; }
+  .rk-legend { display: flex; flex-wrap: wrap; gap: 16px; list-style: none; padding: 0; font-size:0.9375rem; }
   .rk-legend-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
   .rk-user-chart circle:focus { outline: 2px solid #102c4b; }
 </style>
@@ -86,7 +86,7 @@
     </div>
   </section>
 </main>
-<script src="assets/recap-chart.js?v=20261102-type"></script>
+<script src="assets/recap-chart.js?v=20261102-type-balanced"></script>
 <script>
 (function () {
   'use strict';
