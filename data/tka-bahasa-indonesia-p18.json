@@ -2,7 +2,7 @@
  "id": "tka-bahasa-indonesia-p18",
  "subject": "Bahasa Indonesia",
  "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 18)",
- "desc": "Latihan 4 November 2026: 30 pilihan ganda, lima bacaan baru tentang kehidupan sehari-hari. Pemahaman tekstual, inferensial, evaluasi dan apresiasi. Disusun mandiri mengacu kerangka TKA SD; bukan soal resmi.",
+ "desc": "Latihan 4 November 2026: Paket 18 revisi penalaran: 30 pilihan ganda dengan lima bacaan. Pemahaman tekstual, inferensial, evaluasi dan apresiasi. Disusun mandiri mengacu kerangka TKA SD; bukan soal resmi.",
  "sections": [
   {
    "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
@@ -25,14 +25,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Kertas yang dapat dipakai ulang adalah..."
+       "html": "Empat lembar berikut memiliki satu sisi kosong. Lembar mana yang memenuhi seluruh ketentuan sumbangan?"
       }
      ],
      "opts": [
-      "Kertas dengan satu sisi masih kosong.",
-      "Kertas yang kedua sisinya penuh tulisan.",
-      "Kertas berisi alamat pribadi milik teman.",
-      "Kertas basah yang tulisannya mulai menghilang."
+      "Lembar bersih berisi rancangan poster kegiatan.",
+      "Lembar bersih berisi daftar alamat rumah murid.",
+      "Lembar bersih berisi nomor telepon wali murid.",
+      "Lembar bersih berisi nomor kartu pelajar murid."
      ],
      "ans": 0
     },
@@ -43,14 +43,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Makna kata “tercecer” dalam bacaan adalah..."
+       "html": "Setelah memastikan lembar aman dipakai, urutan tindakan petugas yang sesuai bacaan adalah..."
       }
      ],
      "opts": [
-      "Tersusun dan terjepit menurut ukuran.",
-      "Tertutup dan tersimpan dalam lemari.",
-      "Terpisah dan tersebar tidak beraturan.",
-      "Terpotong dan berubah menjadi gambar."
+      "Menjepit lembar, mencampurkan ukuran, lalu menyediakan untuk dipakai.",
+      "Menyediakan lembar, mencatat pemakaian, lalu memeriksa data pribadi.",
+      "Mengelompokkan ukuran, menjepit lembar, lalu menyediakan untuk dipakai.",
+      "Menempel contoh, membagikan lembar, lalu memisahkan data pribadi."
      ],
      "ans": 2
     },
@@ -61,14 +61,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Apa penyebab dibuatnya dua wadah terpisah?"
+       "html": "Contoh ukuran ditempel pada dua wadah. Hubungan tindakan itu dengan masalah sebelumnya adalah..."
       }
      ],
      "opts": [
-      "Persediaan kertas seluruh sekolah sudah habis.",
-      "Ukuran lembar yang tersedia sering tercampur.",
-      "Murid berhenti memakai buku catatan.",
-      "Penjaga perpustakaan tidak menerima kertas lagi."
+      "Membantu petugas menghitung lembar yang telah terpakai.",
+      "Membantu murid memilih kelompok lembar yang sesuai.",
+      "Membantu murid menentukan catatan yang bersifat pribadi.",
+      "Membantu petugas mengetahui asal kelas setiap sumbangan."
      ],
      "ans": 1
     },
@@ -79,14 +79,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Simpulan yang didukung oleh bacaan adalah..."
+       "html": "Petugas mencatat 120 lembar terpakai pada satu pekan. Kesimpulan paling kuat berdasarkan bacaan adalah..."
       }
      ],
      "opts": [
-      "Kertas bekas dapat menggantikan seluruh buku pelajaran.",
-      "Semua kelas telah menghemat kertas dengan jumlah sama.",
-      "Kertas bekas dapat dimanfaatkan untuk kegiatan tertentu.",
-      "Setiap lembar sumbangan aman digunakan tanpa pemeriksaan."
+      "Seluruh sekolah menghemat tepat 120 lembar pada pekan itu.",
+      "Setiap kelas mengurangi pembelian kertas pada pekan itu.",
+      "Dari sudut itu, 120 lembar terpakai pada pekan tersebut.",
+      "Kebutuhan buku catatan berkurang 120 lembar pada pekan itu."
      ],
      "ans": 2
     },
@@ -97,14 +97,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Reno memasukkan lembar berisi nomor telepon temannya ke wadah. Penilaian yang tepat adalah..."
+       "html": "Sari akan membuat sketsa poster dan menulis keputusan rapat kelas yang perlu disimpan. Pilihan yang paling sesuai bacaan adalah..."
       }
      ],
      "opts": [
-      "Sudah tepat, semua tulisan boleh disebarkan.",
-      "Kurang tepat, data pribadi perlu dilindungi.",
-      "Kurang tepat, hanya penjepit yang dibutuhkan.",
-      "Sudah tepat, ukuran kertas menentukan keamanan."
+      "Sketsa pada buku catatan, keputusan pada lembar bekas.",
+      "Sketsa pada lembar bekas, keputusan pada buku catatan.",
+      "Keduanya pada lembar bekas karena ukurannya sudah dipilah.",
+      "Keduanya pada lembar bekas karena sisi kosongnya masih bersih."
      ],
      "ans": 1
     },
@@ -115,14 +115,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Catatan jumlah lembar belum membuktikan penghematan seluruh sekolah karena..."
+       "html": "Manakah pasangan informasi dan penilaian yang paling tepat?"
       }
      ],
      "opts": [
-      "Semua kertas yang terkumpul selalu tidak terpakai.",
-      "Tidak ada murid yang mengambil kertas sumbangan.",
-      "Sebagian kelas masih menggunakan persediaan sendiri.",
-      "Petugas hanya menerima kertas berwarna sangat terang."
+      "Jumlah lembar dicatat setiap pekan; kebutuhan semua kelas sudah terukur.",
+      "Kertas dipilah menurut ukuran; seluruh bahan sudah digunakan secara hemat.",
+      "Sebagian kelas memakai persediaan sendiri; cakupan catatan masih terbatas.",
+      "Kertas disumbangkan murid; penghematan sekolah sama dengan jumlah sumbangan."
      ],
      "ans": 2
     }
@@ -149,14 +149,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Kapan Lala seharusnya mendapat giliran?"
+       "html": "Mengapa pemindahan papan jadwal saja belum cukup mencegah masalah terulang?"
       }
      ],
      "opts": [
-      "Sebelum pengunjung pertama datang.",
-      "Setelah seluruh pameran sekolah selesai.",
-      "Sebelum jadwal ditulis pada papan.",
-      "Setelah waktu istirahat pertama."
+      "Tokoh belum membaca jadwal karena papan berada di belakang.",
+      "Lala membawa bahan berbeda sehingga jadwal perlu dibuat ulang.",
+      "Pengunjung datang terlambat sehingga semua giliran harus digeser.",
+      "Tokoh membaca jadwal, tetapi kemudian lupa pergantian waktu."
      ],
      "ans": 3
     },
@@ -167,14 +167,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Mengapa tokoh aku melewati waktu tugasnya?"
+       "html": "Perubahan pemahaman tokoh ketika Lala menunjuk papan adalah..."
       }
      ],
      "opts": [
-      "Ia terlalu asyik melayani pengunjung.",
-      "Ia tidak pernah membaca jadwal.",
-      "Ia diminta guru menggantikan Lala.",
-      "Ia kehilangan semua bahan percobaan."
+      "Dari mengira Lala ingin melihat menjadi sadar Lala hendak bertugas.",
+      "Dari mengira Lala hendak bertugas menjadi sadar Lala ingin melihat.",
+      "Dari mengira pengunjung ingin mencoba menjadi sadar bahan belum siap.",
+      "Dari mengira waktu istirahat selesai menjadi sadar pengunjung baru datang."
      ],
      "ans": 0
     },
@@ -185,14 +185,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Apa maksud Lala menunjuk papan jadwal?"
+       "html": "Pernyataan yang paling tepat menjelaskan penyelesaian konflik adalah..."
       }
      ],
      "opts": [
-      "Mengingatkan bahwa waktu tugasnya sudah tiba.",
-      "Meminta agar semua pengunjung segera pulang.",
-      "Menawarkan untuk membawa papan ke halaman.",
-      "Menunjukkan bahwa percobaan kincir telah rusak."
+      "Tokoh meminta maaf lalu membantu Lala memakai waktu tersisa.",
+      "Tokoh memindahkan papan lalu memulai kembali giliran dari awal.",
+      "Lala menunggu pengunjung pulang lalu menyimpan bahan percobaannya.",
+      "Lala menyerahkan kotak lalu meminta tokoh memandu percobaannya."
      ],
      "ans": 0
     },
@@ -203,14 +203,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Sifat tokoh aku setelah menyadari kesalahannya adalah..."
+       "html": "Apa perbedaan peran papan jadwal sebelum dan sesudah tokoh menyadari kesalahan?"
       }
      ],
      "opts": [
-      "Menolak mendengar pendapat temannya.",
-      "Sengaja menghindari tanggung jawab kelompok.",
-      "Mau mengakui dan memperbaiki kekeliruan.",
-      "Selalu menyerahkan semua tugas kepada pengunjung."
+      "Mula-mula daftar bahan percobaan, kemudian acuan pembagian tugas.",
+      "Mula-mula pengingat giliran terlewat, kemudian daftar bahan percobaan.",
+      "Mula-mula acuan pembagian tugas, kemudian pengingat giliran yang terlewat.",
+      "Mula-mula petunjuk untuk pengunjung, kemudian pengganti pembagian tugas."
      ],
      "ans": 2
     },
@@ -221,14 +221,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Tindakan Lala yang layak diteladani adalah..."
+       "html": "Seorang pembaca menilai tokoh sengaja mengambil seluruh giliran Lala. Bukti yang paling melemahkan penilaian itu adalah..."
       }
      ],
      "opts": [
-      "Membiarkan teman melewati seluruh waktu tugasnya.",
-      "Mengingatkan jadwal tanpa memperbesar perselisihan.",
-      "Menyimpan keluhan hingga kegiatan berikutnya dimulai.",
-      "Menghentikan percobaan sebelum mendengar penjelasan teman."
+      "Tokoh membaca jadwal, lalu menjelaskan lipatan kepada pengunjung.",
+      "Tokoh lupa waktu, lalu membantu Lala menyiapkan percobaan.",
+      "Tokoh meminta Lala menunggu, lalu melihat papan yang ditunjuk.",
+      "Tokoh melayani pengunjung, lalu mendengar bel di halaman."
      ],
      "ans": 1
     },
@@ -239,14 +239,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Pelajaran yang paling sesuai dengan cerita adalah..."
+       "html": "Tanggapan pembaca yang paling didukung akhir cerita adalah..."
       }
      ],
      "opts": [
-      "Kesibukan membenarkan setiap kesalahan.",
-      "Jadwal sebaiknya dibuat setelah kegiatan selesai.",
-      "Kesepakatan waktu perlu dihormati bersama.",
-      "Perselisihan hanya selesai jika satu pihak mengalah."
+      "Menghargai keberhasilan tokoh memindahkan seluruh tanggung jawab kepada Lala.",
+      "Mengagumi keberanian tokoh menambah waktu tanpa kesepakatan dengan Lala.",
+      "Menghargai kesediaan tokoh memperbaiki sikap sekaligus penataan jadwal.",
+      "Memaklumi kelupaan tokoh karena papan menjadi penyebab tunggal masalah."
      ],
      "ans": 2
     }
@@ -273,14 +273,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Apa fungsi saringan awal pada penampung?"
+       "html": "Apa perbedaan fungsi saringan dan penutup menurut bacaan?"
       }
      ],
      "opts": [
-      "Menghilangkan semua kuman dari air.",
-      "Mengubah air hujan menjadi air minum.",
-      "Menjaga jumlah air selalu tetap penuh.",
-      "Menahan daun serta ranting kecil."
+      "Saringan menahan kuman; penutup membantu mencegah daun masuk.",
+      "Saringan menahan nyamuk; penutup membantu menyalurkan air berlebih.",
+      "Saringan menahan genangan; penutup membantu menjaga jumlah air tetap.",
+      "Saringan menahan daun; penutup membantu mencegah nyamuk masuk."
      ],
      "ans": 3
     },
@@ -291,14 +291,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Pernyataan yang sesuai dengan bacaan adalah..."
+       "html": "Air tampungan terlihat jernih setelah melewati saringan. Kesimpulan yang paling tepat adalah..."
       }
      ],
      "opts": [
-      "Penampung dibiarkan terbuka selama musim kering.",
-      "Kelebihan air dialirkan langsung ke jalan umum.",
-      "Pemeriksaan dihentikan ketika hujan jarang turun.",
-      "Air tampungan digunakan untuk menyiram tanaman."
+      "Dapat dinyatakan aman diminum karena daun telah tertahan.",
+      "Dapat digunakan untuk diminum setelah penutupnya dirapatkan.",
+      "Belum boleh dipakai menyiram sebelum seluruh kuman dibuang.",
+      "Belum dapat dinyatakan aman diminum hanya dari kejernihannya."
      ],
      "ans": 3
     },
@@ -309,14 +309,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Mengapa air tampungan tidak disediakan untuk diminum?"
+       "html": "Kegiatan mana yang menunjukkan bahwa pemeriksaan dilakukan berkala dan juga mengikuti kejadian tertentu?"
       }
      ],
      "opts": [
-      "Air hujan selalu memiliki warna yang pekat.",
-      "Saringan awal belum menjamin air bebas kuman.",
-      "Keran bawah tidak dapat mengalirkan air bersih.",
-      "Daun pada talang harus dibiarkan tetap menumpuk."
+      "Membersihkan halaman setiap pekan dan tanaman sesudah hujan.",
+      "Memeriksa wadah setiap pekan dan saluran sesudah hujan.",
+      "Memeriksa keran setiap pagi dan atap setelah musim kering.",
+      "Membersihkan saringan ketika penuh dan wadah saat air habis."
      ],
      "ans": 1
     },
@@ -327,14 +327,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Gagasan utama bacaan adalah..."
+       "html": "Pasangan fakta mana yang paling membatasi kesimpulan bahwa penampung mencukupi seluruh kebutuhan air warga?"
       }
      ],
      "opts": [
-      "Semua air hujan dapat langsung digunakan untuk diminum.",
-      "Penampung air hanya berguna saat musim kering panjang.",
-      "Pemanfaatan air hujan memerlukan perawatan dan keamanan.",
-      "Pemasangan keran dapat menggantikan seluruh pemeriksaan rutin."
+      "Air melewati talang dan saringan; wadah memiliki keran bagian bawah.",
+      "Tulisan penggunaan dibuat besar; wadah diperiksa petugas setiap pekan.",
+      "Air dipakai menyiram dan membersihkan; persediaan menurun saat kemarau.",
+      "Saringan menahan ranting kecil; pipa diarahkan menuju tanah berkerikil."
      ],
      "ans": 2
     },
@@ -345,14 +345,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Bimo melepas penutup agar air mudah diambil dengan gayung. Penilaian yang tepat adalah..."
+       "html": "Petugas membersihkan saringan, tetapi pipa kelebihan air tersumbat. Masalah mana yang belum tertangani?"
       }
      ],
      "opts": [
-      "Sudah tepat, penutup mengurangi semua manfaat air.",
-      "Kurang tepat, wadah perlu dikosongkan setiap pagi.",
-      "Kurang tepat, wadah terbuka memudahkan nyamuk masuk.",
-      "Sudah tepat, saringan juga menghalangi masuknya nyamuk."
+      "Daun belum dapat ditahan sebelum air masuk ke dalam wadah.",
+      "Tulisan penggunaan belum dapat dibaca oleh pemakai penampung.",
+      "Air berlebih tidak dapat melewati pipa yang telah disiapkan.",
+      "Tutup wadah belum dapat menghalangi masuknya nyamuk dari luar."
      ],
      "ans": 2
     },
@@ -363,14 +363,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Apa akibat yang mungkin terjadi jika saringan penuh daun?"
+       "html": "Usulan mana yang memenuhi dua tujuan: memanfaatkan air dan menjaga jalur pejalan?"
       }
      ],
      "opts": [
-      "Air dalam wadah langsung aman untuk diminum.",
-      "Air selalu tersedia saat kemarau.",
-      "Seluruh nyamuk tidak dapat mendekati penampung lagi.",
-      "Aliran air menuju wadah menjadi terhambat."
+      "Menyiram dari keran sambil mengarahkan pipa berlebih menuju jalan masuk.",
+      "Membuka tutup untuk mengambil air sambil menutup pipa saat wadah penuh.",
+      "Mengalirkan seluruh isi wadah ke jalan sebelum hujan berikutnya turun.",
+      "Menyiram dari keran sambil memastikan pipa berlebih menuju tanah berkerikil."
      ],
      "ans": 3
     }
@@ -397,14 +397,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Apa yang membuat Sinta mengetahui pesan itu sudah lama?"
+       "html": "Kesamaan nama hari dalam pesan belum membuktikan bahwa latihan hari itu batal karena..."
       }
      ],
      "opts": [
-      "Warna map berisi lagu miliknya.",
-      "Jumlah teman yang masih berada di kelas.",
-      "Nama kelompok pada layar telepon tokoh.",
-      "Tanggal yang tercantum pada pesan."
+      "Pesan diterima melalui kelompok berbeda meskipun tanggalnya sama.",
+      "Pesan dibaca saat pulang meskipun kegiatan berlangsung pagi.",
+      "Pesan memakai nama kegiatan berbeda meskipun pengirimnya sama.",
+      "Pesan dibuat pada pekan berbeda meskipun nama harinya sama."
      ],
      "ans": 3
     },
@@ -415,14 +415,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Urutan kejadian yang tepat dalam cerita adalah..."
+       "html": "Manakah rangkaian yang paling tepat menghubungkan penyebab, tindakan, dan akibat?"
       }
      ],
      "opts": [
-      "Meneruskan pesan, memeriksa tanggal, lalu bertanya kepada guru.",
-      "Memeriksa tanggal, meneruskan pesan, lalu membatalkan latihan bersama.",
-      "Bertanya kepada guru, pulang, lalu menerima pesan.",
-      "Membatalkan latihan, meminta map, lalu mengubah jadwal pekan berikutnya."
+      "Tanggal tidak diperiksa, pesan diteruskan, teman hampir pulang.",
+      "Tanggal tidak diperiksa, guru membatalkan, teman kembali bernyanyi.",
+      "Pesan diperiksa Sinta, latihan dibatalkan, teman menemui guru.",
+      "Pesan diperiksa guru, tokoh pulang, Sinta mengubah jadwal."
      ],
      "ans": 0
     },
@@ -433,14 +433,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Mengapa tokoh aku semula mudah mempercayai pesan?"
+       "html": "Mengapa tokoh masih perlu menemui guru setelah Sinta menemukan tanggal lama?"
       }
      ],
      "opts": [
-      "Guru menyuruhnya membagikan pengumuman itu segera.",
-      "Isinya sesuai dengan keinginannya pulang awal.",
-      "Sinta telah memeriksa seluruh isi pesan tersebut.",
-      "Tanggal pada pesan menunjukkan hari itu juga."
+      "Tanggal lama menunjukkan latihan dibatalkan, guru menentukan penggantinya nanti.",
+      "Tanggal lama menunjukkan pesan tidak mutakhir, guru memastikan jadwal sekarang.",
+      "Tanggal lama menunjukkan salah kelompok, guru mencari siapa penerimanya dahulu.",
+      "Tanggal lama menunjukkan perubahan lagu, guru menyiapkan bahan latihan baru."
      ],
      "ans": 1
     },
@@ -451,14 +451,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Ungkapan “wajahku terasa panas” menunjukkan tokoh merasa..."
+       "html": "Jika kalimat tentang keinginan pulang awal dihilangkan, informasi tokoh yang paling berkurang adalah..."
       }
      ],
      "opts": [
-      "Malu setelah menyadari kesalahannya.",
-      "Lelah setelah bernyanyi terlalu keras.",
-      "Marah karena diminta membaca lagu.",
-      "Bangga karena berhasil pulang awal."
+      "Alasan pribadi yang membuat tokoh menerima isi pesan.",
+      "Waktu ketika pesan pembatalan pertama kali dibuat.",
+      "Cara Sinta menemukan kekeliruan tanggal pada pesan.",
+      "Tindakan Dimas setelah guru memastikan jadwal latihan."
      ],
      "ans": 0
     },
@@ -469,14 +469,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Tindakan paling bertanggung jawab setelah informasi terbukti keliru adalah..."
+       "html": "Koreksi mana yang paling lengkap untuk memperbaiki akibat kesalahan tokoh?"
       }
      ],
      "opts": [
-      "Menghapus pesan tanpa menjelaskan kesalahan kepada teman.",
-      "Mengirim koreksi kepada penerima pesan sebelumnya.",
-      "Menunggu teman menemukan tanggal pesan.",
-      "Mengatakan bahwa semua penerima seharusnya sudah tahu."
+      "Menjelaskan pesan lama, meminta teman membaca ulang, dan membiarkan jadwal dicari sendiri.",
+      "Menjelaskan pesan lama, menyebut jadwal benar, dan menghubungi teman yang hendak pulang.",
+      "Menyebut jadwal benar, menghapus pesan lama, dan menunggu teman yang sudah bersiap pulang.",
+      "Menghubungi guru, menyimpan jadwal benar, dan meneruskannya hanya kepada Sinta."
      ],
      "ans": 1
     },
@@ -487,14 +487,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Apa hubungan cerita dengan penggunaan pesan sehari-hari?"
+       "html": "Apa hubungan ungkapan “wajahku terasa panas” dengan tindakan tokoh berikutnya?"
       }
      ],
      "opts": [
-      "Pesan singkat selalu lebih benar daripada pengumuman langsung.",
-      "Informasi lama dapat dibagikan jika nama harinya sama.",
-      "Kabar yang menyenangkan tidak memerlukan pemeriksaan lebih lanjut.",
-      "Tanggal dan sumber perlu diperiksa sebelum membagikan."
+      "Ia merasa marah, lalu meminta guru menegur pengirim pesan lama.",
+      "Ia merasa lelah, lalu meminta Dimas menggantikannya saat latihan.",
+      "Ia merasa kecewa, lalu meminta Sinta mengumumkan pembatalan baru.",
+      "Ia merasa malu, lalu mengambil tanggung jawab memperbaiki informasi."
      ],
      "ans": 3
     }
@@ -521,14 +521,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Buku yang tidak dapat diterima dalam kegiatan adalah..."
+       "html": "Raka membawa dua buku miliknya yang lengkap, satu buku pinjaman yang utuh, dan satu buku miliknya yang kehilangan halaman. Menurut ketentuan, kupon yang diperolehnya adalah..."
       }
      ],
      "opts": [
-      "Buku pinjaman yang dibawa peserta.",
-      "Buku milik sendiri yang masih utuh.",
-      "Buku bacaan dengan halaman lengkap.",
-      "Buku pengetahuan yang sampulnya terawat."
+      "Dua kupon dari buku miliknya yang lengkap.",
+      "Tiga kupon dari buku yang masih utuh.",
+      "Tiga kupon dari buku miliknya sendiri.",
+      "Empat kupon dari semua buku yang dibawa."
      ],
      "ans": 0
     },
@@ -539,14 +539,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Apa yang terjadi pada kupon yang belum ditukar?"
+       "html": "Apa hubungan pemisahan meja berdasarkan jenis bacaan dengan perubahan antrean?"
       }
      ],
      "opts": [
-      "Harus ditukar menjadi uang di panitia.",
-      "Dapat digunakan pada kegiatan berikutnya.",
-      "Hanya berlaku sampai antrean pertama selesai.",
-      "Diberikan kepada pemilik buku paling tebal."
+      "Nilai kupon berbeda pada tiap jenis sehingga peserta memilih antrean termurah.",
+      "Pencarian bacaan tersebar ke meja yang sesuai sehingga kerumunan terbagi.",
+      "Peserta membaca lebih lama pada satu meja sehingga kerumunan menunggu di luar.",
+      "Buku yang tersisa dipindah ke gudang sehingga jumlah meja langsung berkurang."
      ],
      "ans": 1
     },
@@ -557,14 +557,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Mengapa panitia mengelompokkan buku berdasarkan jenis?"
+       "html": "Nisa membaca singkat sebuah buku dan merasa tidak cocok. Ia masih memegang kupon. Tindakan yang sesuai aturan adalah..."
       }
      ],
      "opts": [
-      "Agar peserta lebih mudah menemukan bacaan.",
-      "Agar nilai kupon tiap buku berbeda.",
-      "Agar peserta tidak membaca isi buku dahulu.",
-      "Agar buku tersisa tidak perlu disimpan lagi."
+      "Menaruh buku di meja dan memilih bacaan lain dengan kuponnya.",
+      "Membawa buku ke kelas dan menentukan penukaran setelah selesai membaca.",
+      "Menyerahkan kupon dahulu dan meminta kembali bila menemukan buku lain.",
+      "Mengembalikan buku saat kegiatan berikutnya sambil menyimpan kupon."
      ],
      "ans": 0
     },
@@ -575,14 +575,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Apa keuntungan membaca singkat sebelum menukar kupon?"
+       "html": "Apa persamaan fungsi kupon tersisa dan buku tersisa pada akhir kegiatan?"
       }
      ],
      "opts": [
-      "Peserta dapat membawa buku tanpa menggunakan kupon.",
-      "Peserta dapat menilai kecocokan isi buku.",
-      "Peserta mendapat tambahan kupon.",
-      "Peserta dapat mengganti semua buku pinjaman sekolah."
+      "Keduanya menjadi ukuran pasti minat seluruh murid sekolah.",
+      "Keduanya dapat digunakan dalam kegiatan tukar buku berikutnya.",
+      "Keduanya dapat diganti dengan uang sesuai jumlah peserta hadir.",
+      "Keduanya harus ditukar sebelum kegiatan hari tersebut berakhir."
      ],
      "ans": 1
     },
@@ -593,14 +593,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Dina menyatakan kegiatan itu menunjukkan minat semua murid. Penilaian yang tepat adalah..."
+       "html": "Panitia ingin memilih jenis buku untuk kegiatan mendatang. Penggunaan catatan yang paling tepat adalah..."
       }
      ],
      "opts": [
-      "Sudah tepat, semua buku memiliki sampul.",
-      "Kurang tepat, kupon tidak berbentuk uang.",
-      "Sudah tepat, semua kupon berjumlah sama.",
-      "Kurang tepat, tidak semua murid hadir."
+      "Menetapkan minat semua murid berdasarkan jenis buku yang paling sedikit tersisa.",
+      "Mengabaikannya karena peserta yang hadir tidak mewakili seluruh murid.",
+      "Menyamakan minat murid yang absen dengan minat peserta yang menukar buku.",
+      "Menjadikannya petunjuk awal sambil mencari minat murid yang belum hadir."
      ],
      "ans": 3
     },
@@ -611,14 +611,14 @@
      "stem": [
       {
        "t": "p",
-       "html": "Judul lain yang paling mewakili isi bacaan adalah..."
+       "html": "Ringkasan mana yang mempertahankan hubungan utama antarbagian bacaan?"
       }
      ],
      "opts": [
-      "Bertukar Bacaan melalui Kupon Buku.",
-      "Membeli Semua Buku dengan Uang.",
-      "Meminjam Buku tanpa Pemeriksaan Halaman.",
-      "Menghapus Catatan pada Buku Pelajaran."
+      "Buku diperiksa dan dikelompokkan, ditukar dengan kupon, lalu sisanya disimpan.",
+      "Buku dikelompokkan, dibeli melalui kupon, dipinjam untuk dibaca, lalu semuanya dibagikan.",
+      "Buku diperiksa, dipinjam dengan kupon, dibaca di kelas, lalu dikembalikan saat pertemuan.",
+      "Buku dihargai menurut jenis, dijual melalui kupon, dibaca singkat, lalu hasilnya disimpan."
      ],
      "ans": 0
     }

@@ -121,7 +121,7 @@
     e.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
   }
   function fetchJSON(url) {
-    return fetch(url).then(function (r) {
+    return fetch(url, { cache: 'no-cache' }).then(function (r) {
       if (!r.ok) throw new Error(url + ' ' + r.status);
       return r.json();
     });
