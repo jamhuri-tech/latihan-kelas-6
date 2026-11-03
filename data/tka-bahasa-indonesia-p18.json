@@ -1,0 +1,629 @@
+{
+ "id": "tka-bahasa-indonesia-p18",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 18)",
+ "desc": "Latihan 4 November 2026: 30 pilihan ganda, lima bacaan baru tentang kehidupan sehari-hari. Pemahaman tekstual, inferensial, evaluasi dan apresiasi. Disusun mandiri mengacu kerangka TKA SD; bukan soal resmi.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Teks 1: Dari Kertas Bekas Menjadi Catatan",
+    "paras": [
+     "Sekolah membuka sudut kertas pakai ulang. Letaknya dekat meja penjaga perpustakaan. Murid boleh menyumbangkan kertas bekas. Namun, setiap lembar harus diperiksa dahulu. Kertas perlu memiliki satu sisi kosong. Sisi tersebut akan dipakai untuk mencatat.",
+     "Petugas memisahkan kertas yang masih sesuai. Kertas berisi data pribadi tidak digunakan. Lembar seperti itu dikembalikan kepada pemiliknya. Pemilik diminta menyimpannya di tempat aman. Kertas bersih dikelompokkan menurut ukuran. Penjepit digunakan agar lembar tidak tercecer.",
+     "Pada awalnya, ukuran kertas sering tercampur. Murid kesulitan memilih lembar yang dibutuhkan. Petugas lalu membuat dua wadah terpisah. Wadah besar diberi gambar buku. Wadah kecil diberi gambar kartu. Contoh ukuran ditempel pada setiap wadah.",
+     "Kertas itu digunakan untuk beberapa kegiatan. Murid membuat rancangan gambar sebelum menggambar. Mereka juga menuliskan daftar kebutuhan kelompok. Catatan penting tetap ditulis dalam buku. Lembar bekas tidak menggantikan semua perlengkapan. Pemakaiannya disesuaikan dengan tujuan setiap kegiatan.",
+     "Petugas mencatat jumlah lembar yang terpakai. Catatan dibuat pada akhir setiap pekan. Mereka belum menghitung penghematan seluruh sekolah. Sebagian kelas masih memakai persediaan sendiri. Meski begitu, kebiasaan memilah mulai tumbuh. Murid belajar memanfaatkan bahan secara bertanggung jawab."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kertas yang dapat dipakai ulang adalah..."
+      }
+     ],
+     "opts": [
+      "Kertas dengan satu sisi masih kosong.",
+      "Kertas yang kedua sisinya penuh tulisan.",
+      "Kertas berisi alamat pribadi milik teman.",
+      "Kertas basah yang tulisannya mulai menghilang."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna kata “tercecer” dalam bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Tersusun dan terjepit menurut ukuran.",
+      "Tertutup dan tersimpan dalam lemari.",
+      "Terpisah dan tersebar tidak beraturan.",
+      "Terpotong dan berubah menjadi gambar."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa penyebab dibuatnya dua wadah terpisah?"
+      }
+     ],
+     "opts": [
+      "Persediaan kertas seluruh sekolah sudah habis.",
+      "Ukuran lembar yang tersedia sering tercampur.",
+      "Murid berhenti memakai buku catatan.",
+      "Penjaga perpustakaan tidak menerima kertas lagi."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan yang didukung oleh bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Kertas bekas dapat menggantikan seluruh buku pelajaran.",
+      "Semua kelas telah menghemat kertas dengan jumlah sama.",
+      "Kertas bekas dapat dimanfaatkan untuk kegiatan tertentu.",
+      "Setiap lembar sumbangan aman digunakan tanpa pemeriksaan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Reno memasukkan lembar berisi nomor telepon temannya ke wadah. Penilaian yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Sudah tepat, semua tulisan boleh disebarkan.",
+      "Kurang tepat, data pribadi perlu dilindungi.",
+      "Kurang tepat, hanya penjepit yang dibutuhkan.",
+      "Sudah tepat, ukuran kertas menentukan keamanan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Catatan jumlah lembar belum membuktikan penghematan seluruh sekolah karena..."
+      }
+     ],
+     "opts": [
+      "Semua kertas yang terkumpul selalu tidak terpakai.",
+      "Tidak ada murid yang mengambil kertas sumbangan.",
+      "Sebagian kelas masih menggunakan persediaan sendiri.",
+      "Petugas hanya menerima kertas berwarna sangat terang."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Teks 2: Giliran di Meja Percobaan",
+    "paras": [
+     "Kelasku menyiapkan pameran percobaan sains. Aku bertugas menjelaskan kincir dari kertas. Lala mendapat giliran setelah istirahat pertama. Kami menulis jadwal pada sebuah papan. Papan diletakkan di belakang meja percobaan. Aku membaca jadwal sebelum pengunjung datang.",
+     "Menjelang istirahat, beberapa adik kelas menghampiri. Mereka ingin mencoba memutar kincir. Aku asyik menjelaskan cara melipat kertas. Suara bel terdengar dari halaman sekolah. Aku tetap melanjutkan penjelasan kepada pengunjung. Aku lupa bahwa giliranku sudah selesai.",
+     "Lala datang membawa bahan untuk percobaan berikutnya. Ia berdiri sambil memegang kotak kecil. Aku mengira ia hanya ingin melihat. Aku memintanya menunggu sampai pengunjung pulang. Lala menunjuk papan jadwal tanpa berkata. Saat itulah aku menyadari kesalahanku.",
+     "Aku berhenti dan mengajak Lala berbicara. Aku meminta maaf karena melewati jadwal. Lala masih ingin menjalankan tugasnya. Kami sepakat membagi sisa waktu yang tersedia. Aku merapikan kertas selama ia bersiap. Pengunjung kemudian mencoba percobaan yang dipandunya.",
+     "Setelah pameran, kami menilai pembagian tugas. Papan jadwal ternyata kurang mudah terlihat. Kami sepakat memasangnya di samping meja. Namun, aku tetap perlu memperhatikan waktu. Jadwal yang jelas harus diikuti bersama. Aku bersyukur Lala bersedia menyelesaikannya dengan tenang."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kapan Lala seharusnya mendapat giliran?"
+      }
+     ],
+     "opts": [
+      "Sebelum pengunjung pertama datang.",
+      "Setelah seluruh pameran sekolah selesai.",
+      "Sebelum jadwal ditulis pada papan.",
+      "Setelah waktu istirahat pertama."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tokoh aku melewati waktu tugasnya?"
+      }
+     ],
+     "opts": [
+      "Ia terlalu asyik melayani pengunjung.",
+      "Ia tidak pernah membaca jadwal.",
+      "Ia diminta guru menggantikan Lala.",
+      "Ia kehilangan semua bahan percobaan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa maksud Lala menunjuk papan jadwal?"
+      }
+     ],
+     "opts": [
+      "Mengingatkan bahwa waktu tugasnya sudah tiba.",
+      "Meminta agar semua pengunjung segera pulang.",
+      "Menawarkan untuk membawa papan ke halaman.",
+      "Menunjukkan bahwa percobaan kincir telah rusak."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sifat tokoh aku setelah menyadari kesalahannya adalah..."
+      }
+     ],
+     "opts": [
+      "Menolak mendengar pendapat temannya.",
+      "Sengaja menghindari tanggung jawab kelompok.",
+      "Mau mengakui dan memperbaiki kekeliruan.",
+      "Selalu menyerahkan semua tugas kepada pengunjung."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan Lala yang layak diteladani adalah..."
+      }
+     ],
+     "opts": [
+      "Membiarkan teman melewati seluruh waktu tugasnya.",
+      "Mengingatkan jadwal tanpa memperbesar perselisihan.",
+      "Menyimpan keluhan hingga kegiatan berikutnya dimulai.",
+      "Menghentikan percobaan sebelum mendengar penjelasan teman."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pelajaran yang paling sesuai dengan cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Kesibukan membenarkan setiap kesalahan.",
+      "Jadwal sebaiknya dibuat setelah kegiatan selesai.",
+      "Kesepakatan waktu perlu dihormati bersama.",
+      "Perselisihan hanya selesai jika satu pihak mengalah."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Teks 3: Menampung Air dengan Aman",
+    "paras": [
+     "Warga memasang penampung air hujan bersama. Air dialirkan dari atap melalui talang. Sebelum ditampung, air melewati saringan awal. Saringan menahan daun serta ranting kecil. Penampung diberi penutup yang rapat. Keran dipasang pada bagian bawah wadah.",
+     "Air tersebut digunakan untuk menyiram tanaman. Petugas juga memakainya untuk membersihkan halaman. Air tampungan tidak disediakan untuk diminum. Saringan awal belum menjamin air bebas kuman. Karena itu, wadah diberi tulisan penggunaan. Tulisan dibuat besar agar mudah dibaca.",
+     "Setiap pekan, petugas memeriksa keadaan penampung. Daun yang tersangkut pada saringan dibuang. Talang diperiksa agar aliran tidak terhambat. Tutup yang renggang segera diperbaiki. Pemeriksaan tetap dilakukan meskipun hujan jarang turun. Wadah tertutup membantu mencegah masuknya nyamuk.",
+     "Ketika hujan deras, air dapat memenuhi wadah. Kelebihannya dialirkan melalui pipa khusus. Pipa itu menuju bagian tanah berkerikil. Ujung pipa tidak mengarah ke jalan. Warga ingin mencegah genangan di jalur pejalan. Mereka memeriksa saluran setelah hujan berhenti.",
+     "Persediaan air berubah menurut banyaknya hujan. Pada musim kering, jumlahnya lebih sedikit. Warga tidak menganggap penampung selalu penuh. Mereka tetap mengatur pemakaian air bersama. Kegiatan ini membantu mengurangi penggunaan air bersih. Keamanan dan perawatan tetap menjadi perhatian utama."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi saringan awal pada penampung?"
+      }
+     ],
+     "opts": [
+      "Menghilangkan semua kuman dari air.",
+      "Mengubah air hujan menjadi air minum.",
+      "Menjaga jumlah air selalu tetap penuh.",
+      "Menahan daun serta ranting kecil."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan yang sesuai dengan bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Penampung dibiarkan terbuka selama musim kering.",
+      "Kelebihan air dialirkan langsung ke jalan umum.",
+      "Pemeriksaan dihentikan ketika hujan jarang turun.",
+      "Air tampungan digunakan untuk menyiram tanaman."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa air tampungan tidak disediakan untuk diminum?"
+      }
+     ],
+     "opts": [
+      "Air hujan selalu memiliki warna yang pekat.",
+      "Saringan awal belum menjamin air bebas kuman.",
+      "Keran bawah tidak dapat mengalirkan air bersih.",
+      "Daun pada talang harus dibiarkan tetap menumpuk."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Gagasan utama bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Semua air hujan dapat langsung digunakan untuk diminum.",
+      "Penampung air hanya berguna saat musim kering panjang.",
+      "Pemanfaatan air hujan memerlukan perawatan dan keamanan.",
+      "Pemasangan keran dapat menggantikan seluruh pemeriksaan rutin."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bimo melepas penutup agar air mudah diambil dengan gayung. Penilaian yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Sudah tepat, penutup mengurangi semua manfaat air.",
+      "Kurang tepat, wadah perlu dikosongkan setiap pagi.",
+      "Kurang tepat, wadah terbuka memudahkan nyamuk masuk.",
+      "Sudah tepat, saringan juga menghalangi masuknya nyamuk."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa akibat yang mungkin terjadi jika saringan penuh daun?"
+      }
+     ],
+     "opts": [
+      "Air dalam wadah langsung aman untuk diminum.",
+      "Air selalu tersedia saat kemarau.",
+      "Seluruh nyamuk tidak dapat mendekati penampung lagi.",
+      "Aliran air menuju wadah menjadi terhambat."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Teks 4: Pengumuman yang Terlalu Cepat",
+    "paras": [
+     "Aku melihat pesan di kelompok kelas. Pesan itu menyebut latihan paduan suara dibatalkan. Aku merasa senang karena ingin pulang awal. Tanpa bertanya, pesan itu kuteruskan kepada teman. Dimas membaca pesan saat merapikan tas. Ia segera mengajak beberapa teman pulang.",
+     "Sinta datang membawa map berisi lagu. Ia heran melihat kami bersiap meninggalkan kelas. Menurutnya, latihan tetap berlangsung siang itu. Aku menunjukkan pesan melalui layar telepon. Sinta membaca bagian tanggal di bawahnya. Ternyata pesan tersebut berasal dari pekan lalu.",
+     "Wajahku terasa panas setelah mengetahui kesalahan itu. Aku belum memeriksa tanggal sebelum meneruskannya. Nama hari pada pesan memang sama. Namun, kegiatan itu terjadi pada pekan berbeda. Sinta menyarankan kami memastikan kepada guru. Kami berjalan bersama menuju ruang guru.",
+     "Guru membenarkan bahwa latihan tetap berlangsung. Aku meminta izin memperbaiki informasi di kelompok. Kutulis tanggal dan waktu latihan yang benar. Aku juga menjelaskan kesalahan pesan sebelumnya. Dimas membantu memanggil teman yang hampir pulang. Semua peserta akhirnya berkumpul di ruang musik.",
+     "Sesudah latihan, aku berbicara dengan Sinta. Aku berterima kasih atas ketelitiannya membaca pesan. Ia mengingatkanku untuk memeriksa sumber informasi. Sejak itu, aku membaca tanggal sebelum membagikan. Jika masih ragu, aku bertanya dahulu. Pesan singkat dapat memengaruhi keputusan orang lain."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang membuat Sinta mengetahui pesan itu sudah lama?"
+      }
+     ],
+     "opts": [
+      "Warna map berisi lagu miliknya.",
+      "Jumlah teman yang masih berada di kelas.",
+      "Nama kelompok pada layar telepon tokoh.",
+      "Tanggal yang tercantum pada pesan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Urutan kejadian yang tepat dalam cerita adalah..."
+      }
+     ],
+     "opts": [
+      "Meneruskan pesan, memeriksa tanggal, lalu bertanya kepada guru.",
+      "Memeriksa tanggal, meneruskan pesan, lalu membatalkan latihan bersama.",
+      "Bertanya kepada guru, pulang, lalu menerima pesan.",
+      "Membatalkan latihan, meminta map, lalu mengubah jadwal pekan berikutnya."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tokoh aku semula mudah mempercayai pesan?"
+      }
+     ],
+     "opts": [
+      "Guru menyuruhnya membagikan pengumuman itu segera.",
+      "Isinya sesuai dengan keinginannya pulang awal.",
+      "Sinta telah memeriksa seluruh isi pesan tersebut.",
+      "Tanggal pada pesan menunjukkan hari itu juga."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ungkapan “wajahku terasa panas” menunjukkan tokoh merasa..."
+      }
+     ],
+     "opts": [
+      "Malu setelah menyadari kesalahannya.",
+      "Lelah setelah bernyanyi terlalu keras.",
+      "Marah karena diminta membaca lagu.",
+      "Bangga karena berhasil pulang awal."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan paling bertanggung jawab setelah informasi terbukti keliru adalah..."
+      }
+     ],
+     "opts": [
+      "Menghapus pesan tanpa menjelaskan kesalahan kepada teman.",
+      "Mengirim koreksi kepada penerima pesan sebelumnya.",
+      "Menunggu teman menemukan tanggal pesan.",
+      "Mengatakan bahwa semua penerima seharusnya sudah tahu."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa hubungan cerita dengan penggunaan pesan sehari-hari?"
+      }
+     ],
+     "opts": [
+      "Pesan singkat selalu lebih benar daripada pengumuman langsung.",
+      "Informasi lama dapat dibagikan jika nama harinya sama.",
+      "Kabar yang menyenangkan tidak memerlukan pemeriksaan lebih lanjut.",
+      "Tanggal dan sumber perlu diperiksa sebelum membagikan."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Teks 5: Pasar Tukar Buku",
+    "paras": [
+     "Sekolah mengadakan pasar tukar buku bacaan. Setiap peserta membawa buku miliknya sendiri. Buku harus utuh dan layak dibaca. Petugas memeriksa sampul serta kelengkapan halaman. Buku pinjaman tidak diterima dalam kegiatan. Pemilik juga diminta menghapus catatan pribadi.",
+     "Buku yang lolos pemeriksaan mendapat satu kupon. Setiap buku memperoleh jumlah kupon sama. Kupon dapat ditukar dengan satu buku tersedia. Peserta tidak perlu membayar dengan uang. Mereka boleh membawa pulang kupon yang tersisa. Kupon itu berlaku pada kegiatan berikutnya.",
+     "Pada awal kegiatan, meja tertentu sangat ramai. Buku petualangan diletakkan bersama buku pengetahuan. Beberapa peserta sulit menemukan bacaan yang diinginkan. Petugas lalu memasang tanda jenis bacaan. Buku dipindahkan ke meja yang sesuai. Antrean pun terbagi ke beberapa tempat.",
+     "Panitia menyediakan meja khusus untuk membaca singkat. Peserta dapat melihat isi sebelum menukar kupon. Namun, buku harus tetap berada di meja. Peserta juga diminta menjaga halaman tetap rapi. Jika buku tidak cocok, kupon belum digunakan. Mereka masih dapat memilih buku lain.",
+     "Setelah kegiatan, panitia menghitung buku yang tersisa. Buku itu disimpan untuk pertemuan berikutnya. Catatan jenis buku membantu menyiapkan kegiatan mendatang. Panitia belum mengetahui minat semua murid. Tidak semua murid hadir pada hari tersebut. Hasil kegiatan dipakai sebagai petunjuk awal."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Buku yang tidak dapat diterima dalam kegiatan adalah..."
+      }
+     ],
+     "opts": [
+      "Buku pinjaman yang dibawa peserta.",
+      "Buku milik sendiri yang masih utuh.",
+      "Buku bacaan dengan halaman lengkap.",
+      "Buku pengetahuan yang sampulnya terawat."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang terjadi pada kupon yang belum ditukar?"
+      }
+     ],
+     "opts": [
+      "Harus ditukar menjadi uang di panitia.",
+      "Dapat digunakan pada kegiatan berikutnya.",
+      "Hanya berlaku sampai antrean pertama selesai.",
+      "Diberikan kepada pemilik buku paling tebal."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa panitia mengelompokkan buku berdasarkan jenis?"
+      }
+     ],
+     "opts": [
+      "Agar peserta lebih mudah menemukan bacaan.",
+      "Agar nilai kupon tiap buku berbeda.",
+      "Agar peserta tidak membaca isi buku dahulu.",
+      "Agar buku tersisa tidak perlu disimpan lagi."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa keuntungan membaca singkat sebelum menukar kupon?"
+      }
+     ],
+     "opts": [
+      "Peserta dapat membawa buku tanpa menggunakan kupon.",
+      "Peserta dapat menilai kecocokan isi buku.",
+      "Peserta mendapat tambahan kupon.",
+      "Peserta dapat mengganti semua buku pinjaman sekolah."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dina menyatakan kegiatan itu menunjukkan minat semua murid. Penilaian yang tepat adalah..."
+      }
+     ],
+     "opts": [
+      "Sudah tepat, semua buku memiliki sampul.",
+      "Kurang tepat, kupon tidak berbentuk uang.",
+      "Sudah tepat, semua kupon berjumlah sama.",
+      "Kurang tepat, tidak semua murid hadir."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Judul lain yang paling mewakili isi bacaan adalah..."
+      }
+     ],
+     "opts": [
+      "Bertukar Bacaan melalui Kupon Buku.",
+      "Membeli Semua Buku dengan Uang.",
+      "Meminjam Buku tanpa Pemeriksaan Halaman.",
+      "Menghapus Catatan pada Buku Pelajaran."
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
