@@ -1,0 +1,629 @@
+{
+ "id": "tka-bahasa-indonesia-p19",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 19)",
+ "desc": "Latihan 10 November 2026: 30 pilihan ganda dengan lima bacaan. Pemahaman tekstual, inferensial, evaluasi dan apresiasi. Disusun mandiri mengacu kerangka TKA SD; bukan soal resmi.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Rak Payung di Pintu Timur",
+    "paras": [
+     "Sekolah memasang rak payung dekat gerbang. Rak pertama berada di pintu barat. Setiap lubang diberi nomor yang berbeda. Murid mengambil kartu bernomor sama. Kartu dipakai saat mengambil kembali payung. Petugas mencatat payung yang belum diambil.",
+     "Pada pekan pertama, antrean sering panjang. Banyak murid datang dari pintu timur. Mereka harus memutar melewati halaman. Setelah bel, jalur itu makin ramai. Petugas lalu memasang rak kedua. Rak baru diletakkan dekat pintu timur.",
+     "Kedua rak memiliki nomor yang sama. Murid sempat salah mengambil beberapa payung. Nomor saja ternyata tidak cukup. Petugas memberi warna berbeda pada kartu. Kartu barat diberi warna biru. Kartu timur diberi warna kuning.",
+     "Saat hujan berikutnya, petugas mengamati antrean. Antrean di pintu barat berkurang. Namun, tidak semua murid membawa payung. Jumlah pembawa payung belum dicatat sebelumnya. Kedua hari belum dapat dibandingkan secara adil.",
+     "Pekan berikutnya, pengamatan dilakukan kembali. Petugas mencatat jumlah pembawa payung. Lama menunggu juga mulai diukur. Warna kartu tetap digunakan saat pengamatan. Petugas ingin mengetahui manfaat setiap perubahan. Catatan itu akan dibahas bersama guru."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi warna yang ditambahkan pada kartu?"
+      }
+     ],
+     "opts": [
+      "Membedakan payung yang belum diambil kembali.",
+      "Menandai murid yang datang setelah bel.",
+      "Menunjukkan lama murid menunggu di gerbang.",
+      "Membedakan rak dengan nomor lubang sama."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Urutan perbaikan yang sesuai dengan bacaan adalah ..."
+      }
+     ],
+     "opts": [
+      "Membedakan warna kartu, mengukur waktu tunggu, menambah rak.",
+      "Mengukur waktu tunggu, menambah rak, membedakan warna kartu.",
+      "Menambah rak, membedakan warna kartu, mengukur waktu tunggu.",
+      "Menambah rak, mengukur waktu tunggu, membedakan warna kartu."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa nomor saja tidak cukup setelah rak kedua dipasang?"
+      }
+     ],
+     "opts": [
+      "Nomor kartu berubah setelah payung diambil kembali.",
+      "Nomor payung berbeda dari nomor pada kartu.",
+      "Nomor rak tidak lagi dipakai oleh petugas.",
+      "Nomor tertentu dapat merujuk ke dua tempat."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti apa yang paling membantu menguji apakah rak kedua mempercepat layanan?"
+      }
+     ],
+     "opts": [
+      "Jumlah kartu biru dan kuning yang tersedia di meja petugas.",
+      "Jumlah payung tertinggal pada hari terakhir pengamatan saja.",
+      "Waktu tunggu pada hari dengan jumlah pembawa payung sebanding.",
+      "Waktu pemasangan rak dan jumlah lubang pada setiap rak."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan apa yang sudah didukung pengamatan pertama setelah perubahan?"
+      }
+     ],
+     "opts": [
+      "Antrean barat berkurang pada hari yang diamati.",
+      "Semua murid menunggu lebih singkat setelah perubahan.",
+      "Jumlah pembawa payung tetap sama pada kedua hari.",
+      "Warna kartu membuat antrean timur lebih singkat."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa tujuan utama dua paragraf terakhir?"
+      }
+     ],
+     "opts": [
+      "Menunjukkan aturan pembagian warna kartu kepada murid.",
+      "Menjelaskan batas catatan awal dan rencana mengujinya.",
+      "Menjelaskan alasan murid harus melewati halaman sekolah.",
+      "Menguraikan cara petugas menemukan payung yang tertinggal."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Dua Ketukan di Balik Tirai",
+    "paras": [
+     "Aku mendapat tugas membuka pertunjukan kelas. Aku membawa naskah dengan sampul hijau. Dua ketukan menjadi tanda bagiku. Setelah mendengarnya, aku harus masuk panggung. Rani menunggu di sisi tirai. Ia bertugas memberi tanda untukku.",
+     "Dari belakang tirai terdengar dua bunyi. Aku segera melangkah menuju panggung. Rani menahan lenganku dengan pelan. Ia menunjuk meja dekat pintu. Seorang petugas sedang memindahkan papan kayu. Bunyi tadi berasal dari papan itu.",
+     "Aku kembali berdiri di samping Rani. Tanganku terasa dingin memegang naskah. Aku takut akan keliru lagi. Rani menunjukkan telapak tangannya kepadaku. Kami sepakat menambah satu tanda. Setelah mengetuk, Rani akan mengangkat tangan.",
+     "Lampu panggung kemudian menyala lebih terang. Rani mengetuk bingkai tirai dua kali. Aku menunggu sampai tangannya terangkat. Barulah aku melangkah menuju tengah panggung. Kalimat pertamaku terdengar agak pelan. Aku mengulangnya dengan suara lebih jelas.",
+     "Usai pertunjukan, aku menemui Rani. Ia menunjukkan papan yang tadi dipindahkan. Kami meminta petugas memindahkannya lebih awal. Pertunjukan berikutnya masih memakai dua tanda. Kali ini aku menunggu dengan tenang. Aku tahu cara memeriksa tanda masuk."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dilakukan tokoh setelah Rani menahan lengannya?"
+      }
+     ],
+     "opts": [
+      "Mengulang kalimat pertama di atas panggung.",
+      "Meminta petugas memindahkan papan kayu.",
+      "Kembali menunggu di samping Rani.",
+      "Mengangkat tangan sebagai tanda masuk."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa bunyi pertama mudah disalahartikan?"
+      }
+     ],
+     "opts": [
+      "Asal bunyinya terlihat jelas dari panggung.",
+      "Petugas mengangkat papan setelah Rani mengetuk.",
+      "Tirai dibuka bersamaan dengan bunyi itu.",
+      "Jumlah bunyinya sama dengan tanda masuk."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Fungsi tanda tangan terangkat dalam cerita adalah ..."
+      }
+     ],
+     "opts": [
+      "Menggantikan ketukan ketika lampu mulai menyala.",
+      "Meminta tokoh mengulang kalimat pembuka pertunjukan.",
+      "Memastikan ketukan benar-benar berasal dari Rani.",
+      "Memberi tahu petugas bahwa papan harus dipindah."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat mana paling mendukung perubahan tokoh dari cemas menjadi siap?"
+      }
+     ],
+     "opts": [
+      "Tokoh membawa naskah, lalu menunjukkan papan kepada Rani.",
+      "Tokoh mendengar ketukan, lalu lampu panggung menyala terang.",
+      "Tokoh takut keliru lagi, lalu menunggu tanda dengan tenang.",
+      "Tokoh berbicara pelan, lalu petugas memindahkan papan kayu."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa mereka tetap memakai dua tanda setelah meminta papan dipindahkan lebih awal?"
+      }
+     ],
+     "opts": [
+      "Sumber gangguan berkurang, tetapi tanda masuk tetap perlu dipastikan.",
+      "Sumber gangguan sudah diketahui, sehingga ketukan perlu diganti tepukan.",
+      "Papan dipindahkan, sehingga tanda kedua diperlukan untuk memanggil petugas.",
+      "Papan dipindahkan, tetapi tokoh perlu mengingat kalimat pertamanya."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagian mana menunjukkan tokoh memperbaiki penampilannya setelah memasuki panggung?"
+      }
+     ],
+     "opts": [
+      "Ia menunggu sampai Rani mengangkat tangan.",
+      "Ia mengulang kalimat pertamanya dengan lebih jelas.",
+      "Ia meminta papan dipindah sebelum pertunjukan.",
+      "Ia kembali berdiri di belakang tirai."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Label di Kebun Bibit",
+    "paras": [
+     "Kelompok kebun menanam bibit cabai bersama. Bibit berasal dari dua kantong benih. Semua benih ditanam pada hari Senin. Setiap wadah diisi tanah yang sama. Kelompok menulis asal benih pada label. Label diikat pada sisi setiap wadah.",
+     "Sebagian wadah ditempatkan dekat pagar. Tempat itu mendapat cahaya lebih lama. Wadah lainnya berada di bawah atap. Tempat tersebut terlindung saat hujan. Kedua tempat disiram dengan takaran sama. Murid menghitung kecambah setiap pagi.",
+     "Pada Jumat, kelompok membaca hasil hitungan. Kecambah dekat pagar tumbuh lebih banyak. Dika segera memilih benih kantong pertama. Menurutnya, benih pertama pasti lebih baik. Namun, semua benih pertama dekat pagar. Semua benih kedua berada di bawah atap.",
+     "Naya mengusulkan percobaan berikutnya. Kedua jenis benih ditanam lagi. Setiap jenis dibagi ke dua tempat. Jumlah benih tiap wadah dibuat sama. Tanah dan takaran air tetap sama. Murid juga mencatat lama penyinaran.",
+     "Kelompok belum memilih benih terbaik. Mereka menunggu catatan percobaan yang baru. Label tetap digunakan pada setiap wadah. Label membantu memeriksa asal setiap bibit. Kelompok kini bisa membandingkan hasilnya. Benih dari tempat sama dibandingkan dahulu."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang ditulis pada label wadah?"
+      }
+     ],
+     "opts": [
+      "Lama penyinaran pada hari Jumat.",
+      "Jumlah kecambah yang tumbuh.",
+      "Takaran air yang dipakai.",
+      "Asal benih yang ditanam."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa hasil Jumat belum cukup mendukung pendapat Dika?"
+      }
+     ],
+     "opts": [
+      "Jenis benih berbeda juga mendapat tempat berbeda.",
+      "Takaran air tidak disamakan sejak hari pertama.",
+      "Kecambah hanya dihitung pada kelompok dekat pagar.",
+      "Label kedua jenis benih tertukar saat dihitung."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan mana yang paling penting untuk menguji pengaruh asal benih?"
+      }
+     ],
+     "opts": [
+      "Mencatat hitungan pada hari yang lebih cerah.",
+      "Memakai label lebih besar pada setiap wadah.",
+      "Menambah jumlah benih pertama di dekat pagar.",
+      "Menanam masing-masing jenis di kedua tempat."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dua wadah mana yang sebaiknya dibandingkan untuk melihat perbedaan asal benih?"
+      }
+     ],
+     "opts": [
+      "Benih pertama dekat pagar dan benih pertama di bawah atap.",
+      "Benih pertama di bawah atap dan benih kedua dekat pagar.",
+      "Benih pertama dekat pagar dan benih kedua dekat pagar.",
+      "Benih kedua dekat pagar dan benih kedua di bawah atap."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa keputusan kelompok pada paragraf terakhir masuk akal?"
+      }
+     ],
+     "opts": [
+      "Perbedaan tempat bisa diabaikan jika takaran air sama.",
+      "Perbedaan asal benih perlu dipisahkan dari perbedaan tempat.",
+      "Jumlah kecambah Jumat belum berguna karena labelnya kecil.",
+      "Hasil pertama cukup asalkan dibandingkan dengan catatan hujan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan sementara yang paling sesuai adalah ..."
+      }
+     ],
+     "opts": [
+      "Kantong pertama berisi benih terbaik untuk semua tempat.",
+      "Atap selalu mengurangi jumlah kecambah dari kedua kantong.",
+      "Lebih banyak kecambah muncul dekat pagar dalam pengamatan awal.",
+      "Kedua kantong menghasilkan jumlah kecambah yang sama."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Jalur yang Kupilih",
+    "paras": [
+     "Aku membawa undangan ke balai warga. Kakak memberiku peta kecil kampung. Ada dua jalur menuju balai. Jalur pasar lebih pendek pada peta. Jalur tepi kebun memutar agak jauh. Aku memilih jalan lewat pasar.",
+     "Di depan pasar, orang berbaris panjang. Mereka menunggu giliran membeli minyak. Sebagian antrean menutup jalan sempit. Aku mencoba maju di tepinya. Sebuah gerobak berhenti di depanku. Aku akhirnya menepi dekat warung.",
+     "Bu Sari melihat undangan di tanganku. Ia bertanya kapan rapat akan dimulai. Kukatakan rapat dimulai tidak lama lagi. Ia menunjukkan gang menuju tepi kebun. Gang itu tersambung dengan jalur kedua. Aku memeriksa peta sebelum berbelok.",
+     "Jalur kebun sedikit lebih sepi. Aku dapat berjalan tanpa banyak berhenti. Di ujung kebun, papan balai terlihat. Aku tiba sebelum rapat dibuka. Penjaga menerima undangan dari tanganku. Aku lalu memberi kabar kepada kakak.",
+     "Saat pulang, pasar sudah mulai lengang. Gerobak tadi tidak lagi menghalangi jalan. Aku menggunakan jalur pasar untuk pulang. Kakak bertanya mengapa aku berganti rute. Kutunjukkan antrean yang mulai bubar. Kami memperhatikan keadaan jalan sebelum memilih."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang membuat tokoh tidak segera meneruskan jalur pasar?"
+      }
+     ],
+     "opts": [
+      "Antrean mempersempit jalan dan gerobak menghalangi langkahnya.",
+      "Peta tidak menunjukkan lokasi balai di dekat pasar.",
+      "Bu Sari meminta tokoh menunggu sampai rapat dibuka.",
+      "Undangan harus diserahkan dahulu kepada penjaga pasar."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa peran Bu Sari dalam perubahan pilihan tokoh?"
+      }
+     ],
+     "opts": [
+      "Menjelaskan bahwa peta kampung sudah tidak berlaku.",
+      "Menunjukkan jalan penghubung menuju jalur kebun.",
+      "Meminta penjaga balai menunda waktu mulai rapat.",
+      "Mengosongkan jalan sempit agar tokoh dapat lewat."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa jalur kebun berguna meski lebih panjang pada peta?"
+      }
+     ],
+     "opts": [
+      "Tokoh dapat terus berjalan dengan sedikit hambatan.",
+      "Tokoh dapat menitipkan undangan di warung kebun.",
+      "Jalur itu berakhir lebih dekat ke rumah kakak.",
+      "Jalur itu membuat tokoh tiba setelah rapat selesai."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti mana paling kuat bahwa pilihan rute bergantung pada keadaan?"
+      }
+     ],
+     "opts": [
+      "Tokoh membawa peta saat pergi dan membawa undangan saat sampai di balai.",
+      "Tokoh memakai jalur kebun saat pasar padat dan jalur pasar saat lengang.",
+      "Tokoh melihat gerobak dekat warung dan papan balai di ujung kebun.",
+      "Tokoh bertanya waktu rapat lalu memberi kabar kepada kakak."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang bisa disimpulkan mengenai cara tokoh menggunakan peta?"
+      }
+     ],
+     "opts": [
+      "Ia mengganti peta ketika menemukan jalur yang macet.",
+      "Ia memakai peta dan memeriksa keadaan jalan.",
+      "Ia mengikuti jarak pada peta sepanjang perjalanan.",
+      "Ia melihat peta hanya setelah tiba di balai."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Saran mana yang paling sesuai dengan pengalaman tokoh?"
+      }
+     ],
+     "opts": [
+      "Pilih jalur kebun setiap kali menuju balai warga.",
+      "Ikuti rute terpendek selama papan tujuan terlihat.",
+      "Gunakan satu jalur yang sama saat pergi dan pulang.",
+      "Pertimbangkan jarak dan hambatan saat memilih jalan."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Peminjaman Peralatan Kelas",
+    "paras": [
+     "Sekolah membuka lemari pinjam alat kelas. Penggaris, gunting, dan perekat tersedia bersama. Murid mencatat nama sebelum meminjam alat. Mereka juga menuliskan waktu pengembalian. Petugas memeriksa alat ketika diterima kembali. Alat rusak disimpan di rak terpisah.",
+     "Pada awal bulan, catatan terlihat rapi. Namun, beberapa alat sering sulit ditemukan. Murid sudah mencatat waktu pengembalian. Sebagian alat ternyata masuk laci berbeda. Petugas harus membuka laci satu per satu. Pencarian menjadi lama saat kelas ramai.",
+     "Kelompok piket mengubah tata letak lemari. Setiap laci diberi gambar jenis alat. Petugas juga menambahkan kolom pemeriksaan. Kolom diisi setelah alat ditempatkan kembali. Catatan pengembalian tetap digunakan seperti sebelumnya. Dua catatan itu melayani kebutuhan berbeda.",
+     "Pekan berikutnya, alat lebih cepat ditemukan. Namun, pengamatan hanya berlangsung dua hari. Pada kedua hari itu, peminjam lebih sedikit. Kelompok belum mengetahui pengaruh gambar laci. Mereka ingin membandingkan hari yang setara. Jumlah peminjam akan ikut dicatat.",
+     "Guru meminta usulan dari setiap kelompok. Satu kelompok mengusulkan tambahan banyak laci. Kelompok lain ingin memperjelas gambar laci. Kedua usulan belum langsung dipilih. Guru meminta bukti dari catatan berikutnya. Catatan akan dibaca bersama setelah sepekan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa syarat sebelum petugas mengisi kolom pemeriksaan?"
+      }
+     ],
+     "opts": [
+      "Alat sudah ditempatkan kembali.",
+      "Nama peminjam sudah dihapus.",
+      "Laci yang baru sudah dipasang.",
+      "Jenis alat rusak sudah ditukar."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa perbedaan fungsi kedua catatan itu?"
+      }
+     ],
+     "opts": [
+      "Satu mencatat jumlah laci, satu mencatat jumlah murid.",
+      "Satu mencatat pengembalian, satu memastikan penempatan.",
+      "Satu mencatat alat rusak, satu menghitung lama antrean.",
+      "Satu mencatat jenis gambar, satu menunjukkan alat yang hilang."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa alat sulit ditemukan walau catatan pengembalian terisi?"
+      }
+     ],
+     "opts": [
+      "Waktu pengembalian tidak menunjukkan alat masuk ke laci yang tepat.",
+      "Catatan pengembalian hanya dibuat setelah petugas mencari semua alat.",
+      "Catatan awal mencampurkan jumlah peminjam dan jumlah alat rusak.",
+      "Alat baru boleh dikembalikan ketika semua laci sudah penuh."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Manakah bukti paling tepat untuk memeriksa manfaat gambar laci?"
+      }
+     ],
+     "opts": [
+      "Jumlah gambar laci yang dibuat dan jumlah alat yang tersedia pada akhir bulan.",
+      "Lama pencarian sebelum dan sesudah perubahan saat jumlah peminjam sebanding.",
+      "Jumlah pengembalian pada dua hari sepi setelah lemari diubah.",
+      "Pendapat kelompok yang menawarkan tambahan laci pada hari terakhir."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan yang paling tepat tentang temuan pekan berikutnya adalah ..."
+      }
+     ],
+     "opts": [
+      "Pencarian lebih cepat karena laci sudah ditambah oleh petugas piket.",
+      "Jumlah peminjam menurun karena catatan pengembalian diganti gambar.",
+      "Gambar laci mempercepat pencarian pada semua hari pengamatan berikutnya.",
+      "Pencarian lebih cepat, tetapi pengaruh gambar belum terpisah dari jumlah peminjam."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa guru meminta catatan berikutnya sebelum memilih usulan?"
+      }
+     ],
+     "opts": [
+      "Guru ingin menilai usulan dengan bukti pemakaian lemari.",
+      "Guru ingin menentukan kelompok dengan anggota paling banyak.",
+      "Guru ingin mengganti seluruh aturan pinjam pada pekan itu.",
+      "Guru ingin menghitung biaya tiap gambar sebelum alat dikembalikan."
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
