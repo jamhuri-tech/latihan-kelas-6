@@ -1,0 +1,656 @@
+{
+ "id": "tka-bahasa-indonesia-p20",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 20)",
+ "desc": "Latihan 11 November 2026. Lima bacaan dengan pertanyaan tentang bukti, sudut pandang, dan simpulan.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Peta Bunyi di Sekitar Sekolah",
+    "paras": [
+     "Kelas kami membuat peta bunyi. Kami memilih empat titik pengamatan. Setiap titik diamati selama lima menit. Kami menggambar tanda sesuai sumber bunyi. Satu tanda boleh muncul beberapa kali. Tanda menggambarkan bunyi yang benar-benar terdengar.",
+     "Di dekat gerbang terdengar kendaraan lewat. Di kebun terdengar burung dan air. Riko menyebut gerbang sebagai tempat teramai. Ia melihat tanda kendaraan paling banyak. Mira mengingatkan aturan pembuatan peta kami. Peta mencatat kejadian, bukan kuatnya bunyi.",
+     "Kami sempat lupa mencatat waktu pengamatan. Gerbang diamati saat banyak murid pulang. Kebun diamati setelah halaman mulai lengang. Kami menuliskan perbedaan waktu itu. Peta pertama tetap ditempel di kelas. Kami memberi catatan kecil pada sisinya.",
+     "Pekan berikutnya, pengamatan dilakukan bersamaan. Setiap kelompok mengamati titik berbeda. Semua memakai batas waktu yang sama. Guru mengajak kami membandingkan kedua peta. Ada tanda yang jumlahnya berubah. Ada sumber bunyi yang tetap muncul.",
+     "Kami kemudian menulis dua jenis laporan. Laporan pertama memuat sumber bunyi. Laporan kedua memuat waktu pengamatan. Keduanya dipasang berdampingan di dinding. Pembaca bisa melihat dasar setiap simpulan. Riko memperbaiki kalimat pada laporannya."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa usul Riko perlu diperjelas?"
+      }
+     ],
+     "opts": [
+      "Jumlah kejadian tidak mengukur kuat bunyi.",
+      "Sumber bunyi kendaraan tidak dapat dicatat berulang.",
+      "Tanda peta menunjukkan kuat bunyi setiap kejadian.",
+      "Gerbang dan kebun diamati dengan durasi berbeda."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Informasi mana paling penting agar pembaca tahu alasan dua peta berbeda?"
+      }
+     ],
+     "opts": [
+      "Jumlah anggota yang menggambar setiap jenis tanda.",
+      "Waktu pengamatan yang dipakai pada setiap peta.",
+      "Tempat kedua laporan dipasang di ruang kelas.",
+      "Warna tanda yang dipilih untuk sumber kendaraan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan apa yang masih dapat dibuat dari peta pertama?"
+      }
+     ],
+     "opts": [
+      "Kebun lebih tenang pada setiap jam sekolah.",
+      "Peta mencatat sumber bunyi yang sempat terdengar.",
+      "Gerbang paling bising sepanjang hari pengamatan.",
+      "Waktu pulang menambah semua jenis sumber bunyi."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa tujuan utama pengamatan bersamaan pada pekan kedua?"
+      }
+     ],
+     "opts": [
+      "Mengukur seberapa kuat bunyi kendaraan saat murid pulang.",
+      "Memastikan jumlah tanda semua kelompok menjadi sama.",
+      "Membuat tiap kelompok mengenali semua titik sekaligus.",
+      "Membandingkan titik dengan waktu yang setara."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat pengganti mana paling tepat untuk laporan Riko tentang gerbang pada peta pertama?"
+      }
+     ],
+     "opts": [
+      "Tanda kendaraan paling banyak muncul di gerbang saat diamati.",
+      "Di gerbang terdengar bunyi paling kuat selama sekolah buka.",
+      "Gerbang memiliki lebih banyak jenis bunyi sepanjang pekan.",
+      "Tanda kendaraan membuktikan gerbang selalu paling ramai."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa peta pertama masih layak dipasang bersama catatannya?"
+      }
+     ],
+     "opts": [
+      "Pembaca dapat memakai peta awal untuk menebak kuat bunyi.",
+      "Catatan tambahan membuat waktu dua pengamatan menjadi sama.",
+      "Pembaca tahu hasil awal dan batas penggunaannya.",
+      "Catatan tambahan menggantikan semua hasil pengamatan awal."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Tepi Selimut Biru",
+    "paras": [
+     "Aku menjahit selimut bersama Kakek. Kami memakai potongan kain dari lemari. Aku memilih kain biru paling lebar. Kakek memilih potongan yang lebih tebal. Kami ingin membuat selimut untuk Bibi. Bibi akan berangkat ke dataran tinggi.",
+     "Aku menyusun kain menurut warna. Susunan itu tampak rapi di lantai. Saat kuangkat, salah satu sudut melipat. Kain pada sudut itu terlalu tipis. Aku hendak membuang potongan tersebut. Kakek memintaku memeriksa tumpukan sisa kain.",
+     "Kakek menemukan potongan kecil yang tebal. Ia menaruhnya di bawah kain tipis. Ia lalu menjahit kedua kain bersama. Sudut selimut terasa lebih kuat. Warna biru tetap terlihat dari atas. Aku mencoba cara itu pada sudut lain.",
+     "Esoknya aku menambahkan jahitan pada tepi. Jahitanku tidak selalu lurus. Kakek menarik ujung selimut perlahan. Tidak satu pun jahitan terlepas. Aku berhenti menyembunyikan sisi yang miring. Sisi itu masih kuat ketika ditarik.",
+     "Bibi datang menjelang sore. Ia melipat selimut untuk dibawa. Aku menunjukkan sudut berlapis kepada Bibi. Aku juga menunjukkan jahitan yang miring. Bibi meminta diajari cara memperkuat sudut. Kami duduk kembali dekat lemari kain."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa perubahan cara tokoh menilai kain tipis?"
+      }
+     ],
+     "opts": [
+      "Ia semula menganggapnya tebal lalu menggantinya dengan kain baru.",
+      "Ia semula ingin melapisinya lalu menggunakannya tanpa jahitan.",
+      "Ia semula ingin membuangnya lalu memakainya dengan lapisan.",
+      "Ia semula memilihnya untuk tepi lalu menyimpannya kembali."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti mana paling mendukung bahwa kerapian dan kekuatan dinilai secara berbeda?"
+      }
+     ],
+     "opts": [
+      "Susunan warna terlihat rapi ketika diletakkan di lantai.",
+      "Kain biru terlihat dari atas setelah diberi lapisan.",
+      "Bibi melipat selimut agar mudah dimasukkan ke tas.",
+      "Jahitan tampak miring tetapi bertahan saat ditarik."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi tindakan Kakek menarik ujung selimut?"
+      }
+     ],
+     "opts": [
+      "Memeriksa apakah selimut cukup lebar bagi Bibi.",
+      "Meluruskan jahitan yang semula dibuat miring.",
+      "Menguji apakah jahitan tepi mudah terlepas.",
+      "Menentukan warna yang cocok untuk sudut selimut."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tokoh akhirnya menunjukkan jahitan miring kepada Bibi?"
+      }
+     ],
+     "opts": [
+      "Ia menduga Bibi ingin mengganti seluruh jahitan.",
+      "Ia mengetahui jahitan miring akan tertutup lapisan.",
+      "Ia sudah melihat bahwa jahitan itu tetap kuat.",
+      "Ia ingin menjelaskan cara menata kain menurut warna."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ringkasan mana yang mempertahankan sebab dan akibat utama cerita?"
+      }
+     ],
+     "opts": [
+      "Tokoh menata warna kain dan Bibi memperbaiki semua jahitan.",
+      "Tokoh melapisi kain tipis dan menguji jahitannya.",
+      "Kakek mengganti kain tipis dan tokoh membuat selimut kedua.",
+      "Bibi membawa kain baru dan tokoh mengulang susunannya."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Akhir cerita paling kuat menunjukkan bahwa Bibi ..."
+      }
+     ],
+     "opts": [
+      "tertarik mempelajari cara selimut itu dibuat lebih kuat.",
+      "lebih menyukai warna biru daripada bentuk selimut.",
+      "ingin memperbaiki jahitan miring sebelum berangkat.",
+      "memilih kain tebal untuk mengganti sudut yang lama."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Jalur Masuk Pameran",
+    "paras": [
+     "Pameran kerajinan dibuka di balai. Pengunjung masuk melalui pintu utama. Meja daftar berada dekat pintu itu. Pengunjung kemudian memilih ruang pamer. Ada ruang kain dan ruang kayu. Pintu keluar terletak dekat ruang kayu.",
+     "Hari pertama, petugas memasang papan arah. Papan berada setelah meja daftar. Beberapa pengunjung berhenti untuk membacanya. Orang di belakang sulit maju. Petugas lalu mengamati bagian yang padat. Barisan menumpuk sebelum meja daftar.",
+     "Pada hari kedua, papan dipindahkan. Papan diletakkan sebelum pintu utama. Pengunjung bisa membaca sambil mendekati pintu. Meja daftar tetap pada tempatnya. Petugas juga membuka pintu lebih awal. Barisan terlihat lebih pendek menjelang siang.",
+     "Pengelola belum tahu penyebab perubahan itu. Dua perubahan dilakukan pada hari sama. Jumlah pengunjung juga belum dihitung. Petugas diminta menyusun catatan berikutnya. Mereka akan mencatat kedatangan setiap jam. Mereka juga akan mencatat lama antrean.",
+     "Papan baru masih dipakai pekan berikutnya. Pengunjung dapat memilih ruang lebih awal. Petugas ingin menjaga jalur tetap lapang. Meja daftar masih dibutuhkan untuk pendataan. Pengelola akan menguji perubahan satu per satu. Catatan harian dibaca sebelum keputusan diambil."
+    ]
+   },
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 1. Bagan urutan jalur masuk pada hari kedua.",
+     "head": [
+      "Urutan",
+      "Titik yang dilalui"
+     ],
+     "rows": [
+      [
+       "1",
+       "Papan arah"
+      ],
+      [
+       "2",
+       "Pintu utama"
+      ],
+      [
+       "3",
+       "Meja daftar"
+      ],
+      [
+       "4",
+       "Pilihan ruang pamer"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa masalah yang diamati sebelum perubahan dilakukan?"
+      }
+     ],
+     "opts": [
+      "Pengunjung keluar melalui ruang kain saat ruangan penuh.",
+      "Pengunjung memilih ruang sebelum membaca papan arah.",
+      "Petugas memindahkan meja daftar sebelum pameran dibuka.",
+      "Orang berhenti membaca dan barisan menumpuk dekat daftar."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kesimpulan mana yang tepat dari dua hari pertama?"
+      }
+     ],
+     "opts": [
+      "Papan baru sendiri membuat barisan lebih pendek.",
+      "Pintu dibuka lebih awal karena jumlah pengunjung turun.",
+      "Barisan memendek setelah papan dan jam buka diubah.",
+      "Meja daftar menjadi lebih cepat karena dipindahkan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Data mana paling membantu memeriksa dugaan bahwa barisan pendek karena pengunjung lebih sedikit?"
+      }
+     ],
+     "opts": [
+      "Jumlah ruang pamer dan meja yang tersedia tiap hari.",
+      "Letak papan dan jarak dari papan ke ruang kain.",
+      "Jumlah petugas yang menulis catatan pada akhir hari.",
+      "Jumlah kedatangan dan waktu tunggu pada jam setara."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagaimana rancangan untuk menguji pengaruh lokasi papan secara lebih adil?"
+      }
+     ],
+     "opts": [
+      "Ubah lokasi papan dengan jam buka dan cara daftar tetap.",
+      "Ubah lokasi papan serta jam buka pada hari pengamatan.",
+      "Ubah jam buka dan pindah meja tanpa memindah papan.",
+      "Pindah papan dan bandingkan antrean pada jam berbeda."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa informasi tentang meja daftar yang tetap penting?"
+      }
+     ],
+     "opts": [
+      "Pembaca tahu meja daftar sudah tidak diperlukan untuk pendataan.",
+      "Letak meja dapat dikesampingkan sebagai perubahan.",
+      "Pembaca dapat menyimpulkan papan dan meja ditukar tempatnya.",
+      "Pembaca dapat menghitung jumlah pengunjung dari letak meja."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bagan pendamping menunjukkan susunan jalur pada hari kedua. Di mana pengunjung pertama kali mendapat petunjuk ruang?"
+      }
+     ],
+     "opts": [
+      "Sebelum melewati pintu utama.",
+      "Di antara pintu utama dan meja daftar.",
+      "Setelah melewati meja daftar.",
+      "Di dekat pintu keluar ruang kayu."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Kertas Undangan yang Berpindah",
+    "paras": [
+     "Aku membawa undangan untuk warga. Ayah memberiku daftar nama penerima. Setiap undangan dimasukkan ke amplop. Aku menuliskan nama pada bagian depan. Untuk Bu Ina, aku menambahkan alamat. Ia baru pindah ke ujung gang.",
+     "Di halaman, angin mengangkat beberapa amplop. Aku mengumpulkannya dekat pot bunga. Satu amplop terbuka pada bagian samping. Suratnya jatuh di bawah bangku. Aku memasukkannya ke amplop terdekat. Aku belum memeriksa nama pada surat.",
+     "Bu Ina membuka undangan di depanku. Ia menunjuk nama yang tertulis. Surat itu ditujukan untuk Pak Edi. Amplopnya memang bertuliskan nama Bu Ina. Aku memeriksa amplop untuk Pak Edi. Di dalamnya ada surat Bu Ina.",
+     "Aku kembali ke rumah sebentar. Ayah menyiapkan dua amplop baru. Kali ini aku membaca setiap surat. Aku mencocokkannya dengan nama pada amplop. Alamat Bu Ina tetap kutulis lengkap. Aku menyampaikan kedua undangan sebelum sore.",
+     "Esoknya ayah memberiku tugas serupa. Aku menulis nama setelah memasukkan surat. Aku juga menutup amplop sebelum keluar. Cara itu membuatku bekerja lebih lambat. Namun, aku lebih yakin saat menyerahkan. Aku kini memeriksa surat dan bungkusnya."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa alamat Bu Ina yang benar belum mencegah kekeliruan?"
+      }
+     ],
+     "opts": [
+      "Alamat mengarahkan amplop, tetapi surat di dalamnya tertukar.",
+      "Alamat mengarahkan surat, tetapi nama penerima belum ditulis.",
+      "Alamat hanya dipakai untuk amplop yang sudah dibuka.",
+      "Alamat ditulis setelah undangan diberikan kepada Bu Ina."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Peristiwa mana pertama kali membuktikan isi undangan tidak cocok dengan amplop?"
+      }
+     ],
+     "opts": [
+      "Angin mengangkat amplop dari dekat pot bunga.",
+      "Bu Ina menunjuk nama Pak Edi pada surat.",
+      "Tokoh melihat satu amplop terbuka di samping.",
+      "Ayah menyediakan dua amplop baru di rumah."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan berikutnya yang menangani dua penyebab kesalahan adalah ..."
+      }
+     ],
+     "opts": [
+      "Mencocokkan nama surat dan menutup amplop sebelum berangkat.",
+      "Menyalin alamat lengkap dan membawa semua amplop sekaligus.",
+      "Memakai amplop baru dan mengantar penerima terdekat dahulu.",
+      "Membaca daftar penerima dan menulis alamat setelah pulang."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa perubahan sikap tokoh pada akhir cerita?"
+      }
+     ],
+     "opts": [
+      "Ia mempercepat penyerahan dengan mempercayai alamat saja.",
+      "Ia memilih menyerahkan amplop setelah penerima membacakan nama.",
+      "Ia menerima proses lebih lambat untuk memeriksa kecocokan.",
+      "Ia mengandalkan ayah untuk menentukan isi setiap surat."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti terbaik bahwa kesalahan tidak hanya terjadi pada satu amplop adalah ..."
+      }
+     ],
+     "opts": [
+      "Amplop Bu Ina masih memuat alamat yang lengkap.",
+      "Salah satu surat jatuh di bawah bangku halaman.",
+      "Amplop Pak Edi ternyata berisi surat Bu Ina.",
+      "Ayah membantu menyiapkan dua amplop yang baru."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika bagian tentang angin dihapus, apa yang paling sulit dipahami?"
+      }
+     ],
+     "opts": [
+      "Mengapa Bu Ina membutuhkan alamat yang ditulis lengkap.",
+      "Siapa yang menyiapkan daftar nama penerima undangan.",
+      "Kapan tokoh mendapat tugas mengantar undangan lagi.",
+      "Bagaimana kesempatan surat berpindah amplop terjadi."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Tikar untuk Lantai Balai",
+    "paras": [
+     "Warga akan mengganti tikar di balai. Tikar lama mudah bergeser saat diinjak. Dua jenis tikar dicoba minggu ini. Jenis pertama memiliki permukaan kasar. Jenis kedua memiliki lapisan bawah lentur. Ukuran kedua tikar dibuat sama.",
+     "Petugas menggelar tikar pertama dekat jendela. Lantai di situ biasanya kering. Tikar kedua dipasang dekat pintu samping. Lantai di sana kadang terkena air. Dua petugas mencatat pergeseran setiap tikar. Pengamatan dilakukan pada jam kegiatan warga.",
+     "Tikar kedua tercatat lebih sering bergeser. Seorang warga ingin langsung membeli jenis pertama. Petugas menunjukkan lokasi kedua tikar. Letak lantai mungkin turut berpengaruh. Petugas juga belum mencatat banyaknya pijakan. Ia meminta keputusan ditunda beberapa hari.",
+     "Kedua jenis tikar kemudian bertukar tempat. Petugas mengeringkan lantai sebelum kegiatan dimulai. Jumlah orang yang melintas ikut dicatat. Tikar diperiksa kembali setelah kegiatan. Mereka membandingkan hasil dari kedua lokasi. Semua catatan dibawa ke rapat warga.",
+     "Dalam rapat, warga membaca catatan bersama. Mereka ingin lantai aman untuk berjalan. Mereka juga perlu tikar mudah dibersihkan. Percobaan hanya mengukur pergeseran tikar. Warga menyepakati satu pemeriksaan tambahan. Petugas akan mencoba membersihkan kedua tikar."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa kelemahan utama jika warga memilih tikar dari pengamatan pertama?"
+      }
+     ],
+     "opts": [
+      "Kedua tikar memiliki ukuran dan waktu pengamatan sama.",
+      "Jenis tikar dan keadaan tempatnya berbeda sekaligus.",
+      "Petugas menukar tempat sebelum mencatat pergeseran pertama.",
+      "Hasil pengamatan awal hanya membahas cara membersihkan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa jumlah orang yang melintas mulai dicatat?"
+      }
+     ],
+     "opts": [
+      "Banyak pijakan bisa menambah kejadian tikar bergeser.",
+      "Jumlah orang menentukan jenis lapisan bawah setiap tikar.",
+      "Jumlah pijakan menunjukkan seberapa cepat tikar dibersihkan.",
+      "Jumlah orang membuktikan bahwa lantai selalu dalam keadaan kering."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Manakah pertanyaan yang masih memerlukan pemeriksaan tambahan di akhir bacaan?"
+      }
+     ],
+     "opts": [
+      "Tikar mana yang dipasang dekat jendela pada awal percobaan?",
+      "Apakah kedua tikar memiliki ukuran yang sama saat dicoba?",
+      "Apakah lokasi kedua tikar sudah ditukar selama pengamatan?",
+      "Tikar mana yang lebih mudah dibersihkan setelah dipakai?"
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi paragraf terakhir terhadap pembahasan sebelumnya?"
+      }
+     ],
+     "opts": [
+      "Menyatakan hasil pergeseran sudah menjawab seluruh kebutuhan warga.",
+      "Menambahkan kebersihan sebagai pertimbangan pembelian.",
+      "Menunjukkan warga mengganti tujuan keselamatan dengan tujuan kebersihan.",
+      "Membatalkan pengamatan karena kondisi awal kedua tikar berbeda."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan mana paling kuat tentang pengamatan pertama?"
+      }
+     ],
+     "opts": [
+      "Jenis kedua lebih sering bergeser pada kedua tempat.",
+      "Jenis kedua lebih sering bergeser dalam kondisi awalnya.",
+      "Jenis pertama bergeser karena lantai dekat jendela basah.",
+      "Jenis pertama lebih aman dan lebih mudah dibersihkan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika jenis kedua lebih sering bergeser di kedua lokasi dengan jumlah pijakan sebanding, simpulan yang tepat adalah ..."
+      }
+     ],
+     "opts": [
+      "Jenis pertama mudah dibersihkan setelah banyak diinjak.",
+      "Jenis kedua tidak bergeser jika lantai selalu dikeringkan.",
+      "Jenis kedua hanya bergeser saat berada dekat pintu.",
+      "Jenis pertama lebih stabil dalam kondisi yang diuji."
+     ],
+     "ans": 3
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
