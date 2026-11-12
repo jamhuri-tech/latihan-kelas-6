@@ -1,0 +1,811 @@
+{
+ "id": "tka-matematika-p21",
+ "subject": "Matematika",
+ "title": "Prediksi TKA Matematika SD 2026 (Paket 21)",
+ "desc": "Latihan 12 November 2026. Tiga puluh soal bilangan, geometri dan pengukuran, serta data dengan pembahasan. Tingkat tuntutan bervariasi dari pemahaman hingga penalaran.",
+ "sections": [
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lima loyang kue identik akan dibagi rata untuk 12 anak. Tiga loyang dipotong menjadi 12 bagian per loyang. Dua loyang lainnya dipotong menjadi 6 bagian per loyang. Kombinasi mana dapat diterima setiap anak sehingga semua kue habis?"
+      }
+     ],
+     "opts": [
+      "2 potong kecil dan 2 potong besar",
+      "3 potong kecil dan 1 potong besar",
+      "4 potong kecil dan 1 potong besar",
+      "1 potong kecil dan 2 potong besar"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Ada 36 potong kecil dan 12 potong besar.",
+      "Bagi kedua jenis itu secara terpisah kepada 12 anak. Tiap anak menerima 3 potong kecil dan 1 potong besar."
+     ]
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dua lembar kertas sama luas. Lembar pertama diarsir $\\frac{3}{10}$ bagiannya dan lembar kedua $\\frac12$ bagiannya. Berapa bagian yang diarsir dari luas gabungan kedua lembar?"
+      }
+     ],
+     "opts": [
+      "$\\frac45$",
+      "$\\frac38$",
+      "$\\frac12$",
+      "$\\frac25$"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Jika luas satu lembar 10 satuan, bagian diarsir adalah 3 + 5 = 8 satuan.",
+      "Luas dua lembar 20 satuan, sehingga bagiannya 8/20 = 2/5."
+     ]
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jumlah yang benar dari 348 dan 427 dimasukkan ke catatan. Namun, angka ratusan dan puluhan pada hasil tersebut tertukar. Selisih hasil yang tercatat dengan hasil yang benar adalah ..."
+      }
+     ],
+     "opts": [
+      "9",
+      "90",
+      "0",
+      "99"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Jumlah yang benar adalah 775.",
+      "Kedua angka yang ditukar sama-sama 7, sehingga hasilnya tetap 775 dan selisihnya 0."
+     ]
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tepat 64 gelas harus diangkut dalam baki penuh. Baki besar berisi 10 gelas dan baki kecil 6 gelas. Tersedia paling banyak 4 baki besar. Berapa baki kecil yang diperlukan jika jumlah baki keseluruhan paling sedikit?"
+      }
+     ],
+     "opts": [
+      "4 baki",
+      "6 baki",
+      "8 baki",
+      "9 baki"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Dengan 4 baki besar, sisa 24 gelas dapat dimuat pada 4 baki kecil.",
+      "Tujuh baki atau kurang hanya memuat paling banyak 4 × 10 + 3 × 6 = 58 gelas. Jadi 8 baki adalah minimum."
+     ]
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Setoran kelompok A kurang $\\frac18$ kg dari target bersama per kelompok. Kelompok B melebihi target yang sama sebesar $\\frac3{16}$ kg. Berapa selisih setoran kedua kelompok?"
+      }
+     ],
+     "opts": [
+      "$\\frac1{16}$ kg",
+      "$\\frac3{16}$ kg",
+      "$\\frac5{16}$ kg",
+      "$\\frac38$ kg"
+     ],
+     "ans": 2,
+     "explanation": [
+      "A berada 2/16 kg di bawah target dan B 3/16 kg di atas target.",
+      "Jarak dari A ke B melalui target adalah 2/16 + 3/16 = 5/16 kg."
+     ]
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Harga label sebuah tas Rp80.000. Toko X memberi potongan 15 persen dari harga label. Toko Y memberi potongan Rp10.000 dan kemudian mengurangi 5 persen dari harga setelah potongan itu. Berapa selisih harga akhir di kedua toko?"
+      }
+     ],
+     "opts": [
+      "Rp500",
+      "Rp1.500",
+      "Rp2.000",
+      "Rp3.500"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Toko X menjual seharga 80.000 − 12.000 = Rp68.000.",
+      "Toko Y mengurangi Rp70.000 lagi sebesar Rp3.500, menjadi Rp66.500. Selisihnya Rp1.500."
+     ]
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Seorang murid minum 0,18 liter air tiap kali istirahat. Ia beristirahat tiga kali sehari selama empat hari. Ia membawa 1,5 liter air dari rumah untuk empat hari itu. Berapa liter air tambahan yang ia perlukan?"
+      }
+     ],
+     "opts": [
+      "0,66 liter",
+      "0,54 liter",
+      "0,72 liter",
+      "2,16 liter"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Jumlah waktu istirahat 3 × 4 = 12. Total kebutuhan 12 × 0,18 = 2,16 liter.",
+      "Setelah dikurangi 1,5 liter, kebutuhan tambahan 0,66 liter."
+     ]
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Benang dipotong sepanjang $\\frac58$ m per hiasan. Pada akhir pekerjaan tersisa $\\frac38$ m benang setelah 11 hiasan dibuat. Jika benang awal berasal dari dua gulungan yang sama panjang dan seluruh benang dari keduanya tersedia saat mulai, panjang setiap gulungan adalah ..."
+      }
+     ],
+     "opts": [
+      "$3\\frac14$ m",
+      "$3\\frac12$ m",
+      "$7\\frac14$ m",
+      "$3\\frac58$ m"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Panjang semula = (11 × 5 + 3)/8 = 58/8 m.",
+      "Dua gulungan sama panjang, jadi tiap gulungan 29/8 m atau 3 5/8 m."
+     ]
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pemberitahuan A pertama muncul pukul 08.00 dan berulang setiap 12 menit. Pemberitahuan B pertama muncul pukul 08.06 dan berulang setiap 18 menit. Kapan keduanya pertama kali muncul bersamaan?"
+      }
+     ],
+     "opts": [
+      "08.18",
+      "08.30",
+      "08.36",
+      "08.24"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Waktu A setelah 08.00 adalah 08.12, 08.24, dan seterusnya.",
+      "B mulai 08.06 dan berikutnya 08.24. Kecocokan pertama terjadi pada 08.24."
+     ]
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah papan panjangnya 54 cm dan lebarnya 42 cm. Papan akan dipotong habis menjadi persegi identik dengan sisi sepanjang bilangan bulat sentimeter. Jika potongannya dibuat sebesar mungkin, berapa persegi yang dihasilkan?"
+      }
+     ],
+     "opts": [
+      "63 persegi",
+      "54 persegi",
+      "72 persegi",
+      "96 persegi"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Sisi terbesar yang membagi 54 dan 42 adalah 6 cm.",
+      "Ada 54 : 6 = 9 persegi sepanjang papan dan 42 : 6 = 7 persegi sepanjang lebarnya. Hasil 9 × 7 = 63."
+     ]
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebanyak 103 kartu dibagikan rata kepada 8 meja dan sisanya disimpan. Panitia ingin menambah satu kartu untuk setiap meja sambil mempertahankan jumlah kartu yang disimpan. Berapa kartu tambahan yang dibutuhkan?"
+      }
+     ],
+     "opts": [
+      "3 kartu",
+      "8 kartu",
+      "5 kartu",
+      "11 kartu"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Pembagian awal memberi 12 kartu per meja dan menyimpan 7.",
+      "Karena cadangan tetap 7, penambahan satu di masing-masing 8 meja membutuhkan tepat 8 kartu."
+     ]
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lima poster masing-masing memakai $\\frac34$ lembar kertas. Panitia mengubah rancangan tiga poster berikutnya sehingga masing-masing hanya memakai $\\frac12$ lembar. Berapa lembar utuh paling sedikit perlu disiapkan jika potongan boleh dipakai kembali?"
+      }
+     ],
+     "opts": [
+      "5 lembar",
+      "7 lembar",
+      "6 lembar",
+      "8 lembar"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Kebutuhan 5 × 3/4 + 3 × 1/2 = 21/4 = 5 1/4 lembar.",
+      "Enam lembar diperlukan. Gabungkan dua sisa seperempat untuk satu poster, lalu bagi lembar keenam menjadi dua untuk dua poster lainnya."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 1
+    }
+   ],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lebar bingkai pada Gambar 1 adalah 2 cm. Pita dipasang sepanjang seluruh tepi luar dan seluruh tepi bagian terbuka. Berapa panjang pita yang dibutuhkan?"
+      }
+     ],
+     "opts": [
+      "112 cm",
+      "96 cm",
+      "104 cm",
+      "128 cm"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Tepi luar panjangnya 2 × (18 + 14) = 64 cm.",
+      "Bagian terbuka berukuran 14 cm × 10 cm sehingga tepinya 48 cm. Jumlah keduanya 112 cm."
+     ]
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bingkai pada Gambar 1 selebar 2 cm. Tersedia 120 cm² kertas untuk menutupi daerah bingkai yang berwarna, dengan potongan yang dapat disusun tanpa limbah. Berapa luas kertas yang tersisa?"
+      }
+     ],
+     "opts": [
+      "12 cm²",
+      "16 cm²",
+      "20 cm²",
+      "8 cm²"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Luas luar 18 × 14 = 252 cm². Lubang berukuran 14 × 10 = 140 cm².",
+      "Bingkai memakai 112 cm². Kertas tersisa 120 − 112 = 8 cm²."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 1. Dari samping terlihat tinggi maksimum baris depan 2 kubus dan baris belakang 3 kubus.",
+     "head": [
+      "Kolom dari kiri",
+      "1",
+      "2",
+      "3"
+     ],
+     "rows": [
+      [
+       "Tinggi dari depan",
+       "2",
+       "3",
+       "2"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Susunan kubus memiliki tiga kolom dan dua baris. Setiap posisi berisi sedikitnya satu kubus. Berdasarkan kedua tampak pada Tabel 1, berapa kubus paling sedikit untuk membentuk susunan itu?"
+      }
+     ],
+     "opts": [
+      "8 kubus",
+      "9 kubus",
+      "10 kubus",
+      "11 kubus"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Enam posisi yang terisi mula-mula membutuhkan 6 kubus. Untuk tinggi depan 2, 3, 2 perlu tambahan sedikitnya 1 + 2 + 1 = 4.",
+      "Susunan minimal dapat memakai tinggi baris depan 2, 1, 1 dan baris belakang 1, 3, 2. Maksimum tiap baris sesuai catatan, sehingga 10 dapat dicapai."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah segi empat memiliki empat sisi sama panjang dan tepat dua sudut lancip. Bangun tersebut adalah ..."
+      }
+     ],
+     "opts": [
+      "Persegi",
+      "Persegi panjang",
+      "Trapesium sama kaki",
+      "Belah ketupat"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Empat sisi sama panjang sesuai ciri belah ketupat.",
+      "Dua sudut lancip membedakannya dari persegi yang memiliki empat sudut siku-siku."
+     ]
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah persegi panjang 14 cm × 6 cm dan sebuah segitiga mempunyai luas sama. Alas segitiga 12 cm. Berapa selisih tinggi segitiga dan lebar persegi panjang?"
+      }
+     ],
+     "opts": [
+      "6 cm",
+      "8 cm",
+      "7 cm",
+      "14 cm"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Luas persegi panjang 84 cm². Tinggi segitiga 2 × 84 : 12 = 14 cm.",
+      "Lebar persegi panjang 6 cm, sehingga selisihnya 8 cm."
+     ]
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pagar mengelilingi taman persegi panjang 12 m × 7 m tanpa celah. Pagar yang sama kemudian membentuk persegi panjang yang panjangnya 14 m. Luas bentuk baru berkurang berapa meter persegi?"
+      }
+     ],
+     "opts": [
+      "14 m²",
+      "10 m²",
+      "12 m²",
+      "16 m²"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Setengah keliling tetap 12 + 7 = 19 m, jadi lebar baru 19 − 14 = 5 m.",
+      "Luas semula 84 m² dan luas baru 70 m². Luas berkurang 14 m²."
+     ]
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah kotak bagian dalam berukuran 30 cm × 20 cm × 10 cm. Dua balok padat, masing-masing bervolume 750 cm³, dimasukkan tanpa tumpang tindih. Berapa volume ruang kosong dalam kotak?"
+      }
+     ],
+     "opts": [
+      "4.500 cm³",
+      "5.250 cm³",
+      "4.000 cm³",
+      "6.000 cm³"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Volume bagian dalam 30 × 20 × 10 = 6.000 cm³.",
+      "Dua balok mengisi 1.500 cm³. Ruang kosong 4.500 cm³."
+     ]
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah benda padat dicelupkan seluruhnya ke wadah beralas 25 cm × 20 cm. Air naik 3 cm tanpa tumpah. Benda kemudian dipindahkan ke wadah beralas 30 cm × 25 cm. Jika benda juga terendam seluruhnya, berapa kenaikan air di wadah kedua?"
+      }
+     ],
+     "opts": [
+      "1 cm",
+      "2 cm",
+      "3 cm",
+      "4 cm"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Benda memindahkan volume air 25 × 20 × 3 = 1.500 cm³.",
+      "Pada wadah kedua, volume itu tersebar di alas 750 cm². Air naik 1.500 : 750 = 2 cm."
+     ]
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Beras 8,4 kg akan dimasukkan rata ke enam kotak kosong. Setiap kotak kosong bermassa 125 gram. Berapa massa tiga kotak yang sudah diisi?"
+      }
+     ],
+     "opts": [
+      "4.575 gram",
+      "4.200 gram",
+      "4.325 gram",
+      "4.950 gram"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Setengah beras masuk tiga dari enam kotak, yaitu 4,2 kg atau 4.200 gram.",
+      "Tiga kotak kosong bermassa 3 × 125 = 375 gram. Total 4.575 gram."
+     ]
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Empat papan masing-masing panjangnya 1,2 m disambung lurus. Pada setiap sambungan, ujung kedua papan bertumpuk sepanjang 8 cm. Berapa panjang susunan akhir?"
+      }
+     ],
+     "opts": [
+      "448 cm",
+      "456 cm",
+      "464 cm",
+      "472 cm"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Jumlah panjang awal 4 × 120 = 480 cm.",
+      "Ada tiga sambungan yang masing-masing mengurangi 8 cm. Panjang akhir 480 − 24 = 456 cm."
+     ]
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Satu ruas sepanjang 12 km ditempuh dengan kecepatan 24 km/jam. Ruas berikutnya sepanjang 12 km ditempuh dengan kecepatan 12 km/jam. Berapa kecepatan rata-rata untuk seluruh perjalanan tanpa berhenti?"
+      }
+     ],
+     "opts": [
+      "16 km/jam",
+      "18 km/jam",
+      "20 km/jam",
+      "24 km/jam"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Ruas pertama memerlukan 1/2 jam dan ruas kedua satu jam.",
+      "Seluruh jarak 24 km ditempuh dalam 1 1/2 jam. Kecepatan rata-rata 24 : 1,5 = 16 km/jam."
+     ]
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Empat sudut bertemu di satu titik dan mengisi satu putaran penuh tanpa tumpang tindih. Dua sudut masing-masing 65° dan 95°. Dua sudut lainnya sama besar. Berapa besar salah satunya?"
+      }
+     ],
+     "opts": [
+      "80°",
+      "90°",
+      "110°",
+      "100°"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Satu putaran penuh 360°. Kurangi 65° dan 95°, tersisa 200°.",
+      "Karena kedua sudut sama besar, masing-masing 100°."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 2. Catatan hasil pemeriksaan kotak.",
+     "head": [
+      "Hari",
+      "Layak",
+      "Perlu perbaikan"
+     ],
+     "rows": [
+      [
+       "Senin",
+       "18",
+       "6"
+      ],
+      [
+       "Selasa",
+       "22",
+       "2"
+      ],
+      [
+       "Rabu",
+       "16",
+       "4"
+      ],
+      [
+       "Kamis",
+       "19",
+       "1"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurut Tabel 2, pada hari apa bagian kotak yang perlu perbaikan dari jumlah kotak yang diperiksa hari itu paling besar?"
+      }
+     ],
+     "opts": [
+      "Selasa",
+      "Senin",
+      "Rabu",
+      "Kamis"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Hitung jumlah kotak tiap hari dengan menjumlahkan kedua kategori.",
+      "Bagian yang perlu perbaikan adalah 6/24, 2/24, 4/20, dan 1/20. Yang terbesar adalah 6/24 = 1/4 pada Senin."
+     ]
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sesudah catatan pada Tabel 2 dibuat, semua kotak yang perlu perbaikan pada Senin dan Rabu berhasil diperbaiki dan masuk kategori layak. Berapa bagian kotak layak dari seluruh kotak setelah perubahan?"
+      }
+     ],
+     "opts": [
+      "$\\frac{75}{88}$",
+      "$\\frac{85}{88}$",
+      "$\\frac{83}{88}$",
+      "$\\frac{87}{88}$"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Seluruh kotak 24 + 24 + 20 + 20 = 88. Setelah perbaikan, yang belum layak tinggal 2 dari Selasa dan 1 dari Kamis.",
+      "Kotak layak berjumlah 88 − 3 = 85, sehingga bagiannya 85/88."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 2
+    }
+   ],
+   "items": [
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kelompok B memberikan tepat 4 gulung kepada A, lalu kelompok D memberikan tepat 1 gulung kepada C. Berdasarkan Gambar 2, bagaimana hubungan jumlah gulung keempat kelompok setelah pemindahan?"
+      }
+     ],
+     "opts": [
+      "A sama dengan B, dan C sama dengan D.",
+      "A sama dengan D, dan B sama dengan C.",
+      "A sama dengan C, dan B sama dengan D.",
+      "A, B, C, dan D memiliki jumlah yang sama."
+     ],
+     "ans": 2,
+     "explanation": [
+      "A menjadi 9 + 4 = 13 dan B menjadi 18 − 4 = 14.",
+      "C menjadi 12 + 1 = 13 dan D menjadi 15 − 1 = 14. Jadi A = C dan B = D."
+     ]
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Setiap kelompok pada Gambar 2 mempunyai ruang untuk menyimpan paling banyak 13 gulung. Semua kelebihan digabung dalam peti pusat yang memuat paling banyak 4 gulung per peti. Berapa peti paling sedikit yang diperlukan?"
+      }
+     ],
+     "opts": [
+      "1 peti",
+      "3 peti",
+      "4 peti",
+      "2 peti"
+     ],
+     "ans": 3,
+     "explanation": [
+      "A dan C tidak melebihi batas. B berlebih 5 gulung dan D berlebih 2 gulung.",
+      "Total kelebihan 7. Satu peti hanya menampung 4, jadi diperlukan 2 peti."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 3. ● mewakili 12 kartu. ◐ mewakili 6 kartu.",
+     "head": [
+      "Tim",
+      "Tanda"
+     ],
+     "rows": [
+      [
+       "P",
+       "● ●"
+      ],
+      [
+       "Q",
+       "● ● ● ◐"
+      ],
+      [
+       "R",
+       "● ◐"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurut Tabel 3, setiap tim harus menyimpan seperenam dari kartunya untuk cadangan. Semua kartu lain digabung. Berapa kartu yang dapat digunakan?"
+      }
+     ],
+     "opts": [
+      "66 kartu",
+      "72 kartu",
+      "70 kartu",
+      "84 kartu"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Jumlah kartu P, Q, dan R berturut-turut 24, 42, dan 18.",
+      "Cadangan 4 + 7 + 3 = 14 kartu. Dari 84 kartu, 70 dapat digunakan."
+     ]
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah tim baru ditambahkan pada Tabel 3. Jumlah empat tim harus tepat 108 kartu. Berapa tanda ● penuh dan ◐ setengah yang diperlukan untuk menunjukkan jumlah tim baru dengan tanda sesedikit mungkin?"
+      }
+     ],
+     "opts": [
+      "1 tanda penuh dan 2 tanda setengah",
+      "4 tanda setengah tanpa tanda penuh",
+      "2 tanda penuh tanpa tanda setengah",
+      "2 tanda penuh dan 1 tanda setengah"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Tiga tim berjumlah 24 + 42 + 18 = 84. Tim baru memiliki 108 − 84 = 24 kartu.",
+      "Dua tanda penuh menunjukkan 24 dengan hanya dua tanda. Pilihan lain yang juga bernilai 24 memakai lebih banyak tanda."
+     ]
+    }
+   ]
+  }
+ ],
+ "figures": {
+  "1": {
+   "src": "fig/8769888f4e.svg",
+   "caption": "Bingkai dengan bagian tengah terbuka. Lebar bingkai sama pada keempat sisi."
+  },
+  "2": {
+   "src": "fig/f63988f75b.svg",
+   "caption": "Jumlah gulung kain yang diterima oleh empat kelompok."
+  }
+ }
+}

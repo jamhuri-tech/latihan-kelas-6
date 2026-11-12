@@ -1,0 +1,629 @@
+{
+ "id": "tka-bahasa-indonesia-p21",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 21)",
+ "desc": "Latihan 12 November 2026. Lima bacaan dengan pertanyaan tentang bukti, sudut pandang, dan simpulan.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Bekal dengan Wadah Kembali",
+    "paras": [
+     "Kantin menyiapkan wadah untuk bekal murid. Setiap wadah boleh dipinjam sehari. Peminjam menerima kartu kecil saat mengambilnya. Kartu diberikan kembali ketika wadah dikembalikan. Petugas mencuci wadah sebelum dipakai lagi. Wadah rusak diletakkan pada rak berbeda.",
+     "Awalnya kartu dibuat dari kertas tipis. Beberapa kartu basah terkena air minum. Nama pada kartu sulit dibaca. Petugas lalu mengganti bahan kartunya. Kartu baru dibuat dari bahan tahan air. Cara peminjaman tetap seperti semula.",
+     "Pada hari ketiga, ada masalah lain. Wadah kembali menjelang kantin tutup. Petugas tidak sempat mencuci semuanya. Sebagian wadah belum siap esok pagi. Kantin mulai menerima pengembalian sebelum istirahat. Murid tetap boleh membawa bekal sendiri.",
+     "Pengurus menempelkan catatan di dekat rak. Catatan pertama berisi langkah meminjam wadah. Catatan kedua menjelaskan waktu pengembalian awal. Beberapa murid hanya membaca catatan pertama. Mereka tahu cara meminjam wadah. Namun, mereka belum tahu perubahan waktunya.",
+     "Petugas kemudian menggabungkan kedua catatan itu. Langkah peminjaman tetap dicetak lengkap. Waktu pengembalian ditulis dengan huruf tebal. Petugas membacanya bersama murid baru. Murid diminta menunjukkan bagian yang penting. Catatan akan diperbaiki setelah mereka mencoba."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang tetap berlaku setelah bahan kartu diganti?"
+      }
+     ],
+     "opts": [
+      "Wadah yang kembali diletakkan pada rak rusak.",
+      "Nama peminjam hanya dicatat setelah wadah dicuci.",
+      "Peminjam membawa kartu pulang setelah mengembalikan wadah.",
+      "Kartu dipakai saat meminjam dan mengembalikan wadah."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa perubahan bahan kartu belum menyelesaikan masalah hari ketiga?"
+      }
+     ],
+     "opts": [
+      "Masalah hari ketiga berkaitan dengan waktu mencuci.",
+      "Kartu baru sulit dibaca setelah terkena air.",
+      "Kantin tidak lagi mempunyai rak untuk wadah.",
+      "Petugas harus membuat kartu baru setiap pagi."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Petunjuk singkat mana memuat tindakan yang sebelumnya terlewat oleh sebagian murid?"
+      }
+     ],
+     "opts": [
+      "Bawa wadah kembali ke kantin sebelum waktu istirahat.",
+      "Ambil kartu saat menerima wadah dari petugas.",
+      "Pisahkan wadah rusak ke rak yang berbeda.",
+      "Bawa bekal sendiri jika tidak meminjam wadah."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa hubungan antara dua paragraf terakhir?"
+      }
+     ],
+     "opts": [
+      "Kesalahan mencuci memicu penggantian kartu.",
+      "Pengembalian lebih awal membuat langkah peminjaman perlu dihapus.",
+      "Perubahan bahan wadah membuat petugas menambah rak.",
+      "Petunjuk digabung agar perubahan waktu terbaca."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Langkah mana paling langsung menguji apakah huruf tebal membantu murid memahami perubahan?"
+      }
+     ],
+     "opts": [
+      "Hitung wadah yang rusak setelah petugas mencucinya.",
+      "Bandingkan ketepatan jawaban dengan dan tanpa huruf tebal.",
+      "Tanyakan bahan kartu yang lebih disukai murid baru.",
+      "Bandingkan ukuran kartu lama dengan ukuran kartu baru."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ringkasan mana membedakan kedua masalah dengan tepat?"
+      }
+     ],
+     "opts": [
+      "Kartu basah sulit dibaca dan waktu mencuci wadah terlalu singkat.",
+      "Wadah terlambat siap karena kartu baru sulit dibaca oleh petugas kantin.",
+      "Petugas mengganti kartu supaya dapat mencuci lebih banyak wadah setiap hari.",
+      "Kantin membuka pengembalian lebih awal karena wadah rusak mengisi rak utama."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Satu Kursi untuk Nenek",
+    "paras": [
+     "Aku membantu menyiapkan pertemuan keluarga. Kakak meminta semua kursi disusun melingkar. Aku mendorong kursi sampai hampir bersentuhan. Lingkaran itu terlihat rapi dari pintu. Di tengahnya kami meletakkan meja rendah. Di atas meja ada baki teh.",
+     "Nenek datang dengan tongkat kayunya. Ia berdiri di luar lingkaran kursi. Aku menawarkan kursi yang paling dekat. Nenek melihat ruang di antara sandaran. Tongkatnya tersangkut saat ia hendak lewat. Aku segera menarik kursi ke belakang.",
+     "Kursi bergeser, tetapi jalannya masih sempit. Aku melihat meja di tengah lingkaran. Salah satu ujungnya menutup ruang masuk. Kakak mengangkat baki teh dari meja. Aku dan kakak menggeser meja itu. Kami juga mengatur dua kursi berjauhan.",
+     "Nenek berjalan melewati celah yang baru. Ia dapat menaruh tongkat di samping. Kami duduk setelah Nenek duduk dulu. Lingkarannya tidak serapi susunan pertama. Namun, semua wajah masih bisa terlihat. Nenek mulai bercerita tentang masa kecil.",
+     "Sebelum pulang, aku menggambar susunan kursi. Aku memberi tanda pada celah masuk. Kakak menyimpan gambar di lemari keluarga. Kami akan memakainya saat pertemuan berikutnya. Aku memandang kembali lingkaran kursi itu. Kini jarak kosong terlihat berguna bagiku."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa menarik satu kursi belum cukup membuka jalan?"
+      }
+     ],
+     "opts": [
+      "Tongkat Nenek tertinggal di luar pintu rumah.",
+      "Baki teh harus diletakkan di kursi terdekat.",
+      "Kakak masih meminta kursi saling bersentuhan.",
+      "Ujung meja masih menutup sebagian ruang masuk."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa arti jarak kosong bagi tokoh pada akhir cerita?"
+      }
+     ],
+     "opts": [
+      "Ruang yang membuat orang lebih mudah masuk.",
+      "Bagian lingkaran yang perlu diisi kursi lagi.",
+      "Tempat untuk menyimpan baki teh setelah acara.",
+      "Tanda bahwa kursi keluarga belum cukup banyak."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti mana menunjukkan tujuan duduk melingkar masih tercapai?"
+      }
+     ],
+     "opts": [
+      "Nenek menaruh tongkatnya di sebelah kursi yang dipakai.",
+      "Kakak memindahkan baki teh sebelum meja digeser.",
+      "Gambar susunan kursi disimpan di lemari keluarga.",
+      "Semua wajah masih terlihat setelah kursi digeser."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan mana menunjukkan tokoh menyiapkan solusi agar dapat dipakai lagi?"
+      }
+     ],
+     "opts": [
+      "Menawarkan kursi terdekat ketika Nenek tiba.",
+      "Menarik kursi setelah tongkat Nenek tersangkut.",
+      "Menggambar susunan dengan menandai celah masuk.",
+      "Menunggu Nenek duduk sebelum mulai berbicara."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa hubungan makna kata rapi pada awal cerita dengan pandangan tokoh di akhir?"
+      }
+     ],
+     "opts": [
+      "Ia mula-mula menilai bentuk lalu memperhatikan kegunaan ruang.",
+      "Ia mula-mula menilai keamanan lalu memilih bentuk lingkaran paling rapi.",
+      "Ia mula-mula mengutamakan celah lalu ingin semua kursi dirapatkan.",
+      "Ia mula-mula ingin menggambar susunan lalu menganggap gambar tidak berguna."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika meja tetap pada posisi awal, perubahan apa paling mungkin masih diperlukan?"
+      }
+     ],
+     "opts": [
+      "Menambahkan satu kursi pada celah yang sempit.",
+      "Memindahkan tongkat Nenek ke bawah baki teh.",
+      "Membuat celah masuk di bagian yang bebas meja.",
+      "Mendekatkan dua kursi agar lingkaran kembali rapi."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Dua Catatan dari Dermaga",
+    "paras": [
+     "Petugas dermaga mencatat kedatangan perahu barang. Catatan pertama memuat waktu perahu tiba. Catatan kedua memuat waktu barang turun. Kedua catatan disimpan pada map berbeda. Nama perahu dicantumkan pada setiap lembar. Nama itu membantu petugas memasangkan catatan.",
+     "Suatu pagi, dua perahu bernama Bintang. Keduanya datang dengan selang beberapa menit. Petugas memasangkan lembar berdasarkan nama saja. Ia keliru mengaitkan waktu barang turun. Pemilik perahu pertama melihat kekeliruan itu. Ia menunjukkan nomor lambung perahu miliknya.",
+     "Setiap perahu memiliki nomor lambung berbeda. Petugas lalu menambah kolom nomor lambung. Kolom itu ada pada kedua catatan. Nama perahu masih ditulis seperti sebelumnya. Petugas juga memeriksa urutan waktunya kembali. Barang tidak mungkin turun sebelum kedatangan.",
+     "Pada siang hari, catatan lain diperiksa. Nama dan nomor lambung sudah cocok. Namun, waktu barang turun tertulis lebih awal. Petugas melihat jam dinding di gudang. Jam itu ternyata terlambat beberapa menit. Petugas lalu menyamakan kedua jam dinding.",
+     "Di akhir hari, petugas membuat panduan. Ia menuliskan cara memasangkan dua lembar. Ia juga menuliskan cara memeriksa waktu. Panduan ditempel dekat kedua tempat pencatatan. Petugas baru mencoba mengikuti panduan itu. Ia menemukan kesalahan sebelum laporan disimpan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa nama perahu tetap ditulis setelah kolom nomor ditambah?"
+      }
+     ],
+     "opts": [
+      "Nama dipakai untuk mengganti nomor yang belum dicatat.",
+      "Nama membantu mengatur ulang jam dinding di gudang.",
+      "Nama memastikan waktu turun selalu sesudah waktu tiba.",
+      "Nama tetap tercatat sebagai pelengkap nomor lambung."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pemeriksaan apa yang menemukan kesalahan siang hari?"
+      }
+     ],
+     "opts": [
+      "Mencocokkan nomor lambung pada kedua lembar.",
+      "Membandingkan urutan waktu tiba dan waktu turun.",
+      "Mengelompokkan lembar sesuai nama perahu.",
+      "Memisahkan map tiba dari map barang turun."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti mana menunjukkan kedua kesalahan memiliki penyebab berbeda?"
+      }
+     ],
+     "opts": [
+      "Pagi map terpisah, siang map digabung.",
+      "Pagi barang turun dahulu, siang perahu memiliki dua nomor.",
+      "Pagi pemilik melihat jam, siang nama perahu belum dicatat.",
+      "Pagi nama sama, siang jam gudang terlambat."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Aturan mana akan mencegah kekeliruan pemasangan seperti yang terjadi pada pagi hari?"
+      }
+     ],
+     "opts": [
+      "Pasangkan perahu yang tiba paling dekat waktunya.",
+      "Pasangkan lembar berdasarkan nomor lambung yang sama.",
+      "Pasangkan setiap nama dengan lembar yang tersimpan terakhir.",
+      "Pasangkan lembar menurut jam dinding yang dipakai."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi petugas baru pada bagian akhir bacaan?"
+      }
+     ],
+     "opts": [
+      "Memperlihatkan cara panduan membantu menemukan kesalahan.",
+      "Menggantikan pemilik perahu sebagai pemberi nomor lambung.",
+      "Menjelaskan alasan dua perahu bisa memiliki nama sama.",
+      "Membuktikan catatan pagi sudah benar sebelum diperiksa."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika dua lembar punya nomor berbeda tetapi urutan waktu masuk akal, apa tindakan yang didukung panduan?"
+      }
+     ],
+     "opts": [
+      "Terima pasangan karena waktu turun sesudah waktu tiba.",
+      "Periksa pasangan lembar sebelum menerima urutan waktunya.",
+      "Ganti nomor pada salah satu lembar agar keduanya sama.",
+      "Samakan kedua jam tanpa memeriksa identitas perahu."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Panggung Boneka di Teras",
+    "paras": [
+     "Aku membuat panggung boneka dari kardus. Adik membantu menggambar latar rumah. Kami mengikat gambar pada batang kayu. Lampu teras menerangi bagian depan panggung. Kursi penonton ditata menghadap ke pintu. Tetangga mulai duduk menjelang petang.",
+     "Dari belakang panggung, gambarnya terlihat jelas. Aku segera menggerakkan boneka pertama. Adik menunjuk kursi paling kiri. Dari sana rumah tertutup batang kayu. Ia mencoba duduk pada kursi lain. Sebagian gambar juga tertutup dari kanan.",
+     "Aku hendak menambah terang lampu teras. Adik memintaku duduk di kursinya. Aku melihat batang menutupi jendela gambar. Lampu yang lebih terang tidak membantu. Kami lalu memindah batang ke tepi. Gambar disangga dari bagian yang kosong.",
+     "Adik kembali memeriksa ketiga posisi penonton. Kini rumah terlihat dari tiap sisi. Kami melanjutkan cerita setelah jeda singkat. Boneka berjalan menuju pintu gambar rumah. Penonton dapat mengikuti gerak boneka itu. Aku tidak perlu menjelaskan posisi pintunya.",
+     "Setelah pertunjukan, kami melipat panggung bersama. Aku menandai posisi batang pada kardus. Adik menggambar tiga kursi kecil. Kami menempel gambar kursi dekat tanda. Aku ingin mengingat cara memeriksa panggung. Panggung akan dipakai pada pekan depan."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa usul menambah terang lampu kurang tepat untuk masalah utama?"
+      }
+     ],
+     "opts": [
+      "Lampu menghalangi gerak boneka.",
+      "Batang menghalangi pandangan penonton.",
+      "Gambar terlalu kecil untuk kursi di tengah teras.",
+      "Warna rumah menyatu dengan lampu di bagian depan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang berubah setelah tokoh duduk di kursi penonton?"
+      }
+     ],
+     "opts": [
+      "Ia mengetahui bahwa adik belum menggambar pintu.",
+      "Ia memutuskan memindahkan seluruh kursi ke teras.",
+      "Ia melihat batang menutupi jendela dari kursi penonton.",
+      "Ia melihat lampu mati saat boneka pertama bergerak."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi tiga kursi kecil yang digambar pada akhir cerita?"
+      }
+     ],
+     "opts": [
+      "Menentukan jumlah penonton yang boleh duduk pekan depan.",
+      "Mengingatkan untuk memeriksa panggung dari tiga posisi.",
+      "Menggantikan tanda tempat batang kayu pada kardus.",
+      "Menunjukkan urutan boneka memasuki rumah dari kiri."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti apa yang paling kuat bahwa perbaikan berhasil?"
+      }
+     ],
+     "opts": [
+      "Panggung dapat dilipat kembali setelah acara berakhir.",
+      "Lampu teras tetap menyala ketika boneka bergerak.",
+      "Rumah terlihat dari semua posisi yang diuji.",
+      "Adik membantu menggambar rumah sebelum pertunjukan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kalimat mana merangkum hubungan masalah dan penyelesaian cerita?"
+      }
+     ],
+     "opts": [
+      "Lampu redup lalu dibuat terang.",
+      "Penonton tidak paham pintu rumah lalu kursinya dipindahkan.",
+      "Latar rumah terlalu besar lalu tokoh membuat gambar baru.",
+      "Penyangga menghalangi latar lalu digeser ke tepi."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang paling mungkin terjadi jika pemeriksaan hanya dari belakang panggung?"
+      }
+     ],
+     "opts": [
+      "Bagian latar yang tertutup bisa luput.",
+      "Letak batang sulit ditandai.",
+      "Tokoh dapat mengetahui pandangan dari seluruh kursi.",
+      "Boneka akan selalu menutupi pintu ketika bergerak."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Petunjuk Saat Air Naik",
+    "paras": [
+     "Warga memasang penanda dekat jembatan kecil. Tiang memiliki tiga garis berwarna berbeda. Garis bawah berarti jalan masih terbuka. Garis tengah meminta pejalan menunggu petugas. Garis atas berarti jembatan ditutup sementara. Arti setiap garis dicetak pada papan.",
+     "Papan pertama dipasang tepat di jembatan. Saat air naik, petugas menutup jalan. Beberapa warga baru melihat papan itu. Mereka harus kembali ke persimpangan jauh. Pengurus lalu menambah papan di persimpangan. Papan tambahan menunjukkan jalan yang lebih tinggi.",
+     "Kedua papan memiliki tugas yang berbeda. Papan jembatan menjelaskan keadaan air. Papan persimpangan membantu memilih rute lebih awal. Petugas memperbarui pesan ketika jalan berubah. Ia menggunakan kata yang sama pada keduanya. Warga dapat mengikuti petunjuk dengan urut.",
+     "Suatu pagi, air mencapai garis tengah. Papan persimpangan masih menunjukkan jembatan terbuka. Seorang warga meminta petugas memeriksa pesan. Petugas segera memperbarui papan persimpangan itu. Ia mencatat waktu setiap perubahan pesan. Catatan membantu petugas berikutnya memeriksa kecocokan.",
+     "Dalam rapat, warga menilai dua papan. Mereka ingin peringatan terlihat sebelum persimpangan. Mereka juga ingin pesan tetap sesuai. Petugas mengusulkan jadwal pemeriksaan setiap pagi. Saat air berubah, pemeriksaan dilakukan lagi. Pengurus menerima usul itu untuk dicoba."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurut petunjuk, tindakan apa saat air mencapai garis tengah?"
+      }
+     ],
+     "opts": [
+      "Berjalan terus melewati jembatan.",
+      "Menutup jembatan tanpa menunggu pemeriksaan petugas.",
+      "Menunggu petugas sebelum menggunakan jembatan.",
+      "Kembali melalui jembatan sebelum papan diperbarui."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa manfaat papan tambahan yang tidak diberikan papan di jembatan?"
+      }
+     ],
+     "opts": [
+      "Warga bisa memilih rute sebelum mencapai jembatan.",
+      "Warga dapat melihat garis air langsung dari jembatan.",
+      "Petugas dapat mengetahui waktu air mulai berubah.",
+      "Petugas dapat mengukur tinggi air di persimpangan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa pesan perlu diperbarui pada pagi yang diceritakan?"
+      }
+     ],
+     "opts": [
+      "Kedua papan tidak bisa dibaca setelah air naik.",
+      "Pesan di persimpangan berbeda dengan keadaan air.",
+      "Petugas baru mengganti arti warna garis tengah.",
+      "Jalan yang lebih tinggi sudah tertutup sejak pagi."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan mana menjaga manfaat kedua papan sekaligus?"
+      }
+     ],
+     "opts": [
+      "Pindah kedua papan ke jembatan agar mudah diperiksa.",
+      "Perbarui pesan di kedua tempat setiap keadaan berubah.",
+      "Biarkan papan persimpangan memakai pesan tetap setiap hari.",
+      "Tunggu laporan warga sebelum menuliskan arti tiap garis."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa kegunaan catatan waktu bagi petugas berikutnya?"
+      }
+     ],
+     "opts": [
+      "Membantu menentukan warna yang disukai pejalan kaki.",
+      "Menggantikan pengukuran air saat jembatan masih terbuka.",
+      "Membantu melihat kapan tiap pesan terakhir diperbarui.",
+      "Menunjukkan berapa banyak warga memakai jalan tinggi."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kesimpulan apa yang paling tepat dari seluruh bacaan?"
+      }
+     ],
+     "opts": [
+      "Pesan paling berguna jika hanya dipasang di dekat air.",
+      "Jumlah papan menentukan ketinggian air yang aman.",
+      "Letak papan dan kecocokan pesannya sama-sama penting.",
+      "Jadwal pagi cukup untuk semua perubahan setelahnya."
+     ],
+     "ans": 2
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
