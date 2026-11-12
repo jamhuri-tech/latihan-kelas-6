@@ -27,6 +27,13 @@
   .rk-msg { color: var(--muted); } .rk-err { color: var(--bad); }
   .rk-scroll { overflow-x: auto; }
   .rk-tbl { min-width: 650px; }
+  .rk-coverage-table { min-width: 0; table-layout: fixed; }
+  .rk-coverage-table th:last-child { width: 7.5rem; }
+  .rk-coverage-table td { overflow-wrap: anywhere; }
+  .rk-coverage-group { margin-top: 10px; padding: 8px 0; border-top: 1px solid var(--line); }
+  .rk-coverage-group summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+  .rk-coverage-jump { display: inline-block; margin-top: 8px; }
+  #coverage-heading { scroll-margin-top: 140px; }
   .rk-user-chart h3 { margin: 0 0 6px; }
   .rk-chart-scroll { width: 100%; min-width: 0; }
   .rk-chart-detail { padding:12px; background:var(--blue-soft); border-radius:10px; font-size:0.9375rem; line-height:1.6; overflow-wrap:anywhere; }
@@ -66,12 +73,29 @@
     <div class="rk-card">
       <div class="rk-row">
         <input id="q" type="search" placeholder="Cari nama atau latihan…" aria-label="Cari">
-        <select id="user" aria-label="Username"><option value="">Semua username</option></select>
+        <select id="user" aria-label="Pilih peserta"><option value="">Semua peserta</option></select>
         <select id="subj" aria-label="Pelajaran"><option value="">Semua pelajaran</option></select>
         <button id="reload" class="btn small ghost" type="button">Muat ulang</button>
       </div>
       <div class="rk-stats" id="stats"></div>
+      <a href="#coverage-heading" class="rk-coverage-jump">Lihat paket per peserta ↓</a>
     </div>
+    <section aria-labelledby="coverage-heading">
+      <h2 id="coverage-heading" class="recap-title" tabindex="-1">Paket per peserta</h2>
+      <div class="rk-card">
+        <p class="rk-sub">Pilih nama di filter peserta. Satu percobaan berarti satu hasil yang tercatat di rekap.</p>
+        <div class="rk-row">
+          <label for="coverage-status">Status paket</label>
+          <select id="coverage-status">
+            <option value="">Semua status</option>
+            <option value="done">Sudah dikerjakan</option>
+            <option value="pending">Belum tercatat</option>
+          </select>
+        </div>
+        <p id="coverage-summary" aria-live="polite"></p>
+        <div id="coverage-list"></div>
+      </div>
+    </section>
     <section aria-labelledby="chart-heading">
       <h2 id="chart-heading" class="recap-title">Grafik nilai per username</h2>
       <p class="rk-sub">Seluruh riwayat tampil sekaligus mengikuti lebar layar. Skala nilai 0–100; nomor menunjukkan urutan pengerjaan dari lama ke baru. Label nomor diringkas otomatis agar tetap terbaca. Ketuk titik untuk rincian nilai; warna membedakan pelajaran.</p>
@@ -87,44 +111,148 @@
   </section>
 </main>
 <script src="assets/recap-chart.js?v=20261102-type-balanced"></script>
+<script src="assets/recap-coverage.js?v=1"></script>
 <script>
 (function () {
   'use strict';
   var rows = [];
+  var catalog = null;
+  var catalogError = false;
+  var loadNumber = 0;
   var $ = function (id) { return document.getElementById(id); };
 
   // Membaca Sheet langsung (dibagikan "siapa saja yang memiliki link: pelihat") lewat Google Visualization JSONP.
   var SHEET = 'https://docs.google.com/spreadsheets/d/1jDvNMN1faPWE8idGf1FRpAxMQlSSGBQ5FbKverPTtw4/gviz/tq';
   function fail(text) { $('loginMsg').className = 'rk-err'; $('loginMsg').textContent = text; $('retry').hidden = false; }
   function load() {
+    var request = ++loadNumber;
+    catalog = null;
+    catalogError = false;
+    $('view').hidden = true;
     $('retry').hidden = true;
+    fetch('data/index.json', { cache: 'no-cache' }).then(function (response) {
+      if (!response.ok) throw new Error('Katalog gagal dimuat');
+      return response.json();
+    }).then(function (data) {
+      if (!Array.isArray(data) || !data.length) throw new Error('Katalog kosong');
+      if (request !== loadNumber) return;
+      catalog = data;
+      updateSubjects();
+      renderCoverage();
+    }).catch(function () {
+      if (request !== loadNumber) return;
+      catalogError = true;
+      renderCoverage();
+    });
     $('loginMsg').className = 'rk-msg';
     $('loginMsg').textContent = 'Memuat…';
-    var cb = 'rk' + Date.now(), tag = document.createElement('script');
-    var timer = setTimeout(function () { cleanup(); fail('Tidak bisa membaca rekap. Periksa internet, atau pastikan Sheet dibagikan ke "Siapa saja yang memiliki link".'); }, 15000);
+    var cb = 'rk' + request + '_' + Date.now(), tag = document.createElement('script');
+    var timer = setTimeout(function () { cleanup(); if (request !== loadNumber) return; fail('Tidak bisa membaca rekap. Periksa internet, atau pastikan Sheet dibagikan ke "Siapa saja yang memiliki link".'); }, 15000);
     function cleanup() { clearTimeout(timer); delete window[cb]; tag.remove(); }
     window[cb] = function (res) {
       cleanup();
+      if (request !== loadNumber) return;
       if (!res || res.status !== 'ok') { fail('Gagal memuat nilai.'); return; }
       rows = res.table.rows.map(function (r, order) {
         var c = r.c.map(function (x) { return x ? String(x.f != null ? x.f : (x.v != null ? x.v : '')) : ''; });
-        return { time: RecapChart.timestamp(r.c[0] && r.c[0].v) ?? RecapChart.timestamp(c[0]), order: order, waktu: c[0], nama: c[1].trim(), subj: c[2], lat: c[3], nilai: c[4].trim() ? Number(c[4].replace(',', '.')) : NaN, benar: c[5], salah: c[6], lama: c[7] };
+        return { time: RecapChart.timestamp(r.c[0] && r.c[0].v) ?? RecapChart.timestamp(c[0]), order: order, waktu: c[0], nama: (c[1] || '').trim(), subj: (c[2] || '').trim(), lat: (c[3] || '').trim(), nilai: (c[4] || '').trim() ? Number(c[4].replace(',', '.')) : NaN, benar: c[5], salah: c[6], lama: c[7] };
       }).filter(function (r) { return r.nama && r.nama.indexOf('UJI COBA') !== 0; }).reverse();
       $('loginMsg').textContent = ''; $('view').hidden = false;
-      var subs = Array.from(new Set(rows.map(function (r) { return r.subj; }))).sort();
-      var sel = $('subj'), cur = sel.value;
-      sel.length = 1;
-      subs.forEach(function (x) { sel.add(new Option(x, x)); });
-      sel.value = subs.indexOf(cur) >= 0 ? cur : '';
+      updateSubjects();
       var names = Array.from(new Set(rows.map(function(r) { return r.nama; }))).sort(function(a,b) { return a.localeCompare(b, 'id'); });
       var user = $('user'), currentUser = user.value; user.length = 1;
       names.forEach(function(name) { user.add(new Option(name, name)); });
       user.value = names.indexOf(currentUser) >= 0 ? currentUser : '';
       render();
+      renderCoverage();
     };
-    tag.onerror = function () { cleanup(); fail('Tidak bisa membaca rekap. Periksa internet, lalu coba lagi.'); };
+    tag.onerror = function () { cleanup(); if (request !== loadNumber) return; fail('Tidak bisa membaca rekap. Periksa internet, lalu coba lagi.'); };
     tag.src = SHEET + '?headers=1&tqx=out:json;responseHandler:' + cb + '&t=' + Date.now();
     document.body.append(tag);
+  }
+
+  function updateSubjects() {
+    var subjects = new Set(rows.map(function (r) { return r.subj; }));
+    (catalog || []).forEach(function (item) { subjects.add(item.subject); });
+    subjects.delete('');
+    var select = $('subj'), current = select.value;
+    if (!catalog && current) subjects.add(current);
+    select.length = 1;
+    Array.from(subjects).sort(function (a, b) { return a.localeCompare(b, 'id'); })
+      .forEach(function (name) { select.add(new Option(name, name)); });
+    select.value = subjects.has(current) ? current : '';
+  }
+
+  function coverageTable(items) {
+    var table = document.createElement('table');
+    table.className = 'rk-tbl rk-coverage-table';
+    var header = table.createTHead().insertRow();
+    ['Paket latihan', 'Percobaan'].forEach(function (label) {
+      var th = document.createElement('th');
+      th.scope = 'col';
+      th.textContent = label;
+      header.append(th);
+    });
+    var body = table.createTBody();
+    items.forEach(function (item) {
+      var row = body.insertRow();
+      var title = td(item.title);
+      if (item.id) {
+        var link = document.createElement('a');
+        link.href = './#/quiz/' + encodeURIComponent(item.id);
+        link.textContent = item.title;
+        title.replaceChildren(link);
+      }
+      row.append(title, td(item.attempts ? item.attempts + ' kali' : 'Belum tercatat'));
+    });
+    return table;
+  }
+
+  function renderCoverage() {
+    var list = $('coverage-list'), summary = $('coverage-summary');
+    list.replaceChildren();
+    var name = $('user').value, subject = $('subj').value, status = $('coverage-status').value;
+    if (!name) { summary.textContent = 'Pilih satu nama untuk melihat riwayat paketnya.'; return; }
+    if (!catalog) {
+      summary.textContent = catalogError ? 'Katalog gagal dimuat. Klik Muat ulang untuk mencoba lagi.' : 'Memuat katalog paket…';
+      return;
+    }
+    var result = RecapCoverage.summarize(catalog, rows, name);
+    var packages = result.packages.filter(function (item) { return !subject || item.subject === subject; });
+    var done = packages.filter(function (item) { return item.attempts > 0; }).length;
+    summary.textContent = name + ' · ' + done + ' dari ' + packages.length + ' paket sudah dikerjakan · ' +
+      (packages.length - done) + ' belum tercatat';
+    var groups = new Map();
+    packages.forEach(function (item) {
+      if (!groups.has(item.subject)) groups.set(item.subject, []);
+      groups.get(item.subject).push(item);
+    });
+    groups.forEach(function (items, label) {
+      var completed = items.filter(function (item) { return item.attempts > 0; }).length;
+      var visible = items.filter(function (item) {
+        return !status || (status === 'done' ? item.attempts > 0 : item.attempts === 0);
+      });
+      if (!visible.length) return;
+      var group = document.createElement('details');
+      group.className = 'rk-coverage-group';
+      group.open = Boolean(subject);
+      var heading = document.createElement('summary');
+      heading.textContent = label + ' · ' + completed + '/' + items.length + ' paket dikerjakan';
+      group.append(heading, coverageTable(visible));
+      list.append(group);
+    });
+    var historical = result.historical.filter(function (item) { return !subject || item.subject === subject; });
+    if (historical.length && status !== 'pending') {
+      var group = document.createElement('details');
+      group.className = 'rk-coverage-group';
+      var heading = document.createElement('summary');
+      heading.textContent = 'Riwayat dengan judul di luar katalog · ' + historical.length;
+      group.append(heading, coverageTable(historical.map(function (item) {
+        return Object.assign({}, item, { title: item.title + ' · ' + item.subject });
+      })));
+      list.append(group);
+    }
+    if (!list.childElementCount) list.textContent = 'Tidak ada paket untuk pilihan ini.';
   }
 
   function cls(n) { return n >= 80 ? 'rk-good' : n >= 60 ? 'rk-mid' : 'rk-low'; }
@@ -153,8 +281,9 @@
   }
 
   $('q').addEventListener('input', render);
-  $('user').addEventListener('change', render);
-  $('subj').addEventListener('change', render);
+  $('user').addEventListener('change', function () { render(); renderCoverage(); });
+  $('subj').addEventListener('change', function () { render(); renderCoverage(); });
+  $('coverage-status').addEventListener('change', renderCoverage);
   $('reload').addEventListener('click', load);
   $('retry').addEventListener('click', load);
   load();
