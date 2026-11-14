@@ -1,0 +1,816 @@
+{
+ "id": "tka-matematika-p22",
+ "subject": "Matematika",
+ "title": "Prediksi TKA Matematika SD 2026 (Paket 22)",
+ "desc": "Latihan 15 November 2026. Tiga puluh soal bilangan, geometri dan pengukuran, serta data dengan pembahasan. Tingkat tuntutan bervariasi dari pemahaman hingga penalaran.",
+ "sections": [
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tiga label untuk bagian yang sama berbunyi 0,375, 37,5 persen, dan satu pecahan. Pecahan mana yang melengkapi label?"
+      }
+     ],
+     "opts": [
+      "$\\frac35$",
+      "$\\frac3{80}$",
+      "$\\frac{37}{50}$",
+      "$\\frac38$"
+     ],
+     "ans": 3,
+     "explanation": [
+      "0,375 = 375/1.000.",
+      "Bagi pembilang dan penyebut dengan 125 untuk memperoleh 3/8."
+     ]
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Rak memuat 96 buku. Seperempatnya komik. Dua belas buku bukan komik diganti dengan komik sehingga jumlah buku tetap. Bagian komik sekarang adalah ..."
+      }
+     ],
+     "opts": [
+      "$\\frac38$",
+      "$\\frac14$",
+      "$\\frac13$",
+      "$\\frac12$"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Semula ada 96 : 4 = 24 komik.",
+      "Setelah penggantian menjadi 36 dari 96 buku, yaitu 3/8."
+     ]
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Satu tiket rombongan seharga Rp56.000 berlaku untuk paling banyak empat orang. Tiket satuan Rp16.000. Untuk 10 orang, panitia dapat mencampur kedua jenis tiket. Biaya minimum adalah ..."
+      }
+     ],
+     "opts": [
+      "Rp152.000",
+      "Rp160.000",
+      "Rp144.000",
+      "Rp168.000"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Tanpa tiket rombongan biayanya Rp160.000. Satu tiket rombongan dan enam satuan berharga Rp152.000.",
+      "Dua tiket rombongan dan dua satuan berharga Rp144.000. Tiga rombongan berharga Rp168.000. Biaya terkecil Rp144.000."
+     ]
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Lina memakai 2/5 uangnya untuk buku. Ia memakai 1/3 dari uang yang tersisa untuk alat tulis. Setelah itu masih ada Rp24.000. Berapa uang Lina mula-mula?"
+      }
+     ],
+     "opts": [
+      "Rp48.000",
+      "Rp54.000",
+      "Rp60.000",
+      "Rp72.000"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Sesudah membeli buku tersisa 3/5 uang awal.",
+      "Sesudah membeli alat tulis tersisa 2/3 × 3/5 = 2/5 uang awal. Jika 2/5 sama dengan Rp24.000, uang awal Rp60.000."
+     ]
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pita merah panjangnya $1\\frac34$ m. Pita biru lebih pendek $\\frac58$ m daripada pita merah. Jika keduanya disambung tanpa tumpang tindih, berapa panjangnya?"
+      }
+     ],
+     "opts": [
+      "$2\\frac38$ m",
+      "$3\\frac18$ m",
+      "$3\\frac12$ m",
+      "$2\\frac78$ m"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Pita biru panjangnya 14/8 − 5/8 = 9/8 m.",
+      "Panjang gabungan 14/8 + 9/8 = 23/8 m atau 2 7/8 m."
+     ]
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dari 80 peserta, 55 persen membawa topi. Beberapa peserta tanpa topi kemudian diberi topi. Berapa topi tambahan diperlukan agar tepat tiga perempat peserta memakai topi?"
+      }
+     ],
+     "opts": [
+      "12 topi",
+      "20 topi",
+      "16 topi",
+      "24 topi"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Awalnya 55/100 × 80 = 44 peserta bertopi.",
+      "Target 3/4 × 80 = 60 peserta, jadi perlu 16 topi."
+     ]
+    },
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dua wadah menyimpan 2 1/4 liter dan 3 3/4 liter susu. Setengah liter dicadangkan. Susu lain dibagi rata ke 11 gelas. Berapa isi setiap gelas?"
+      }
+     ],
+     "opts": [
+      "450 mL",
+      "500 mL",
+      "550 mL",
+      "600 mL"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Total susu 6 liter. Setelah cadangan tersisa 5,5 liter.",
+      "Bagi 11 menjadi 0,5 liter atau 500 mL per gelas."
+     ]
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pengrajin mengisi kantong dengan tujuh manik per kantong dan menyisakan lima manik. Jumlah manik lebih dari 63 dan kurang dari 70. Jika manik yang sama dikemas enam per kantong, berapa sisanya?"
+      }
+     ],
+     "opts": [
+      "2 manik",
+      "1 manik",
+      "3 manik",
+      "5 manik"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Bilangan yang lebih dari 63 dan kurang dari 70 serta bersisa 5 saat dibagi 7 adalah 68 = 9 × 7 + 5.",
+      "Bagi 68 dengan 6, hasilnya 11 sisa 2."
+     ]
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Penyiram A menyala setiap 15 menit dan penyiram B setiap 20 menit. Keduanya menyala pada 09.10. Berapa kali A menyala sendirian sebelum keduanya menyala bersama lagi, dengan 09.10 tidak dihitung?"
+      }
+     ],
+     "opts": [
+      "2 kali",
+      "4 kali",
+      "5 kali",
+      "3 kali"
+     ],
+     "ans": 3,
+     "explanation": [
+      "KPK 15 dan 20 adalah 60 menit. Keduanya bertemu lagi pada 10.10.",
+      "A menyala sendiri pada 09.25, 09.40 dan 09.55. Ada tiga kali."
+     ]
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ada 60 kartu merah dan 84 kartu biru. Semua dibagi ke sejumlah kelompok dengan komposisi sama. Setiap kelompok harus menerima sedikitnya delapan kartu merah. Berapa kelompok paling banyak?"
+      }
+     ],
+     "opts": [
+      "5 kelompok",
+      "7 kelompok",
+      "6 kelompok",
+      "12 kelompok"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Jumlah kelompok harus membagi 60 dan 84. FPB keduanya 12.",
+      "Faktor persekutuan yang tidak melebihi 60 : 8 = 7,5 adalah 1, 2, 3, 4, dan 6. Pilih 6."
+     ]
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Empat kelompok menyetor jumlah botol sama. Gudang menambah 18 botol. Setelah 14 botol dikeluarkan, jumlah akhir 100 botol. Berapa setoran tiap kelompok?"
+      }
+     ],
+     "opts": [
+      "20 botol",
+      "23 botol",
+      "26 botol",
+      "24 botol"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Balik urutan perubahan. Jumlah setelah tambahan sebelum pengeluaran adalah 100 + 14 = 114.",
+      "Setoran kelompok berjumlah 114 − 18 = 96. Bagi 4 menjadi 24."
+     ]
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tiga lampion besar memakai $\\frac56$ lembar kertas per buah. Empat lampion kecil memakai $\\frac38$ lembar per buah. Jika semua lembar sama besar, kertas yang dipakai setara dengan berapa lembar utuh?"
+      }
+     ],
+     "opts": [
+      "3 1/2 lembar",
+      "4 1/2 lembar",
+      "4 lembar",
+      "5 lembar"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Lampion besar memakai 3 × 5/6 = 5/2 lembar.",
+      "Lampion kecil memakai 4 × 3/8 = 3/2 lembar. Jumlahnya 8/2 = 4 lembar."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 1
+    }
+   ],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada Gambar 1, satu petak berukuran 40 cm × 40 cm. Hanya daerah tanpa arsiran yang perlu dilapisi. Berapa luas lapisan yang diperlukan?"
+      }
+     ],
+     "opts": [
+      "70.400 cm²",
+      "64.000 cm²",
+      "76.800 cm²",
+      "86.400 cm²"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Ada 54 petak dan bagian rak menutupi 6 + 4 = 10 petak.",
+      "Empat puluh empat petak perlu dilapisi. Luasnya 44 × 1.600 = 70.400 cm²."
+     ]
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pita dipasang pada seluruh batas daerah tanpa arsiran pada Gambar 1, termasuk sisi yang berbatasan dengan rak. Jika satu sisi petak 40 cm, berapa panjang pita?"
+      }
+     ],
+     "opts": [
+      "1.040 cm",
+      "1.200 cm",
+      "1.360 cm",
+      "1.600 cm"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Keliling luar awal 2 × (9 + 6) = 30 sisi petak.",
+      "Pada tiap rak sudut, panjang sisi tepi luar yang hilang sama dengan panjang lekukan yang menggantikannya. Jadi keliling tetap 30 × 40 = 1.200 cm."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 1. Angka menunjukkan banyak kubus pada tiap tumpukan. Angka 0 berarti kosong.",
+     "head": [
+      "Baris",
+      "Kiri",
+      "Tengah",
+      "Kanan"
+     ],
+     "rows": [
+      [
+       "Depan",
+       "3",
+       "0",
+       "1"
+      ],
+      [
+       "Belakang",
+       "1",
+       "2",
+       "2"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Satu kubus dipindah dari tumpukan kiri depan ke posisi tengah depan pada Tabel 1. Berapa tinggi tampak depan untuk kolom kiri, tengah, dan kanan setelah pemindahan?"
+      }
+     ],
+     "opts": [
+      "2, 1, 1",
+      "2, 2, 2",
+      "3, 2, 2",
+      "2, 3, 2"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Baris depan menjadi 2, 1, 1 dan baris belakang tetap 1, 2, 2.",
+      "Ambil tinggi terbesar tiap kolom sehingga tampak depan 2, 2, 2."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [],
+   "items": [
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah bangun memiliki dua pasang sisi berhadapan sejajar. Tidak ada sudut siku-siku dan sisi yang berdekatan berbeda panjang. Sebutan paling tepat adalah ..."
+      }
+     ],
+     "opts": [
+      "Persegi panjang",
+      "Belah ketupat",
+      "Jajar genjang",
+      "Trapesium sama kaki"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Dua pasang sisi berhadapan sejajar memenuhi ciri jajar genjang.",
+      "Sudutnya bukan siku-siku dan panjang sisi berdekatan berbeda, sehingga bukan persegi panjang atau belah ketupat."
+     ]
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sebuah alas 20 cm × 12 cm akan diperpanjang 4 cm. Agar luasnya tetap sama, lebarnya harus dikurangi berapa sentimeter?"
+      }
+     ],
+     "opts": [
+      "3 cm",
+      "2 cm",
+      "4 cm",
+      "5 cm"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Luas awal 20 × 12 = 240 cm².",
+      "Panjang baru 24 cm, jadi lebar baru 240 : 24 = 10 cm. Lebar berkurang 2 cm."
+     ]
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Papan persegi panjang 24 cm × 16 cm dipotong menjadi dua persegi panjang sama besar. Garis potong sejajar sisi 16 cm. Berapa jumlah keliling kedua potongan?"
+      }
+     ],
+     "opts": [
+      "112 cm",
+      "80 cm",
+      "96 cm",
+      "128 cm"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Setiap potongan berukuran 12 × 16 cm dengan keliling 56 cm.",
+      "Dua keliling berjumlah 112 cm. Garis potong menambah dua tepi baru, masing-masing 16 cm."
+     ]
+    },
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kotak beralas 25 cm × 16 cm berisi pasir setinggi 9 cm. Setelah 800 cm³ pasir diambil, berapa tinggi pasir jika permukaannya diratakan?"
+      }
+     ],
+     "opts": [
+      "6 cm",
+      "7 cm",
+      "8 cm",
+      "11 cm"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Luas alas 400 cm². Volume awal 3.600 cm³ dan volume sisa 2.800 cm³.",
+      "Tinggi baru 2.800 : 400 = 7 cm."
+     ]
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ruang berbentuk balok 36 cm × 24 cm × 18 cm. Balok kecil berukuran 12 cm × 8 cm × 6 cm disusun sejajar sisi dengan orientasi panjang, lebar, dan tinggi yang sama. Jika lapisan paling atas dibiarkan kosong, berapa balok kecil yang masuk?"
+      }
+     ],
+     "opts": [
+      "9 balok",
+      "24 balok",
+      "27 balok",
+      "18 balok"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Setiap lapisan memuat 3 × 3 = 9 balok kecil.",
+      "Ada ruang untuk tiga lapisan, tetapi lapisan teratas kosong. Dua lapisan memuat 18 balok."
+     ]
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pukul 10.20, pertunjukan kedua selesai. Pertunjukan kedua berlangsung 46 menit. Sebelum itu ada jeda 12 menit setelah pertunjukan pertama yang berlangsung 38 menit. Kapan pertunjukan pertama dimulai?"
+      }
+     ],
+     "opts": [
+      "08.56",
+      "09.02",
+      "09.34",
+      "08.44"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Seluruh urutan berlangsung 46 + 12 + 38 = 96 menit.",
+      "Kurangi 1 jam 36 menit dari 10.20 sehingga mulai pukul 08.44."
+     ]
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Paket berisi lima benda dengan massa 0,72 kg per benda. Dua benda dikeluarkan dan ditambah wadah 240 gram. Berapa massa paket sekarang?"
+      }
+     ],
+     "opts": [
+      "2,4 kg",
+      "2,16 kg",
+      "2,64 kg",
+      "3,84 kg"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Tersisa tiga benda dengan massa 3 × 0,72 = 2,16 kg.",
+      "Wadah 240 gram = 0,24 kg. Total 2,4 kg."
+     ]
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sepeda menempuh 9 km dengan kecepatan 18 km/jam, berhenti 15 menit, lalu menempuh 12 km dengan kecepatan 24 km/jam. Jika sepeda berangkat pukul 07.50, pukul berapa tiba?"
+      }
+     ],
+     "opts": [
+      "08.50",
+      "09.00",
+      "09.20",
+      "09.05"
+     ],
+     "ans": 3,
+     "explanation": [
+      "Tiap ruas ditempuh dalam 30 menit.",
+      "Dengan berhenti 15 menit, waktu total 75 menit. Tambahkan pada 07.50 untuk mendapat 09.05."
+     ]
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pada suatu sudut lurus, satu bagian 30° lebih besar daripada bagian lain. Berapa besar bagian yang lebih kecil?"
+      }
+     ],
+     "opts": [
+      "75°",
+      "60°",
+      "80°",
+      "105°"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Kurangi kelebihan 30° dari 180° sehingga tersisa 150°.",
+      "Dua bagian yang sekarang sama besar masing-masing 75°. Bagian kecil tetap 75°."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 2. Gerakan buku pada satu hari. Pengembalian masuk ke rak pada baris yang sama.",
+     "head": [
+      "Rak",
+      "Buku awal",
+      "Dipinjam",
+      "Dikembalikan"
+     ],
+     "rows": [
+      [
+       "A",
+       "24",
+       "9",
+       "4"
+      ],
+      [
+       "B",
+       "20",
+       "5",
+       "8"
+      ],
+      [
+       "C",
+       "18",
+       "4",
+       "6"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurut Tabel 2, rak mana memiliki buku paling banyak pada akhir hari?"
+      }
+     ],
+     "opts": [
+      "Rak A",
+      "Rak C",
+      "Rak B",
+      "Rak A dan C"
+     ],
+     "ans": 2,
+     "explanation": [
+      "Hitung stok akhir dengan menambah pengembalian dan mengurangi peminjaman.",
+      "A menjadi 19, B menjadi 23, C menjadi 20. Rak B terbanyak."
+     ]
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Dari keadaan akhir pada Tabel 2, buku dipindah antarrak agar semua rak berisi jumlah sama, jika mungkin. Pernyataan mana yang benar?"
+      }
+     ],
+     "opts": [
+      "Bisa sama jika 2 buku dipindah dari rak B ke rak A.",
+      "Tidak bisa sama karena jumlahnya 62 buku.",
+      "Bisa sama jika 1 buku dipindah dari rak C ke rak A.",
+      "Tidak bisa sama karena rak A paling sedikit sejak awal."
+     ],
+     "ans": 1,
+     "explanation": [
+      "Jumlah akhir 19 + 23 + 20 = 62.",
+      "Karena 62 tidak habis dibagi 3, tiga jumlah bulat yang sama tidak dapat diperoleh hanya dengan pemindahan."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "fig",
+     "n": 2
+    }
+   ],
+   "items": [
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Berdasarkan Gambar 2, bagian kantong yang disiapkan pada Selasa dan Rabu dari jumlah empat hari adalah ..."
+      }
+     ],
+     "opts": [
+      "Setengah",
+      "Sepertiga",
+      "Seperempat",
+      "Tiga perempat"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Selasa dan Rabu berjumlah 16 + 12 = 28.",
+      "Totalnya 8 + 16 + 12 + 20 = 56, sehingga bagiannya 28/56 = 1/2."
+     ]
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kantong pada Gambar 2 dikirim tiap hari. Satu kotak hanya boleh berisi paling banyak lima kantong dan sisa kantong pada suatu hari tidak boleh digabung dengan hari lain. Berapa kotak minimum untuk keempat hari?"
+      }
+     ],
+     "opts": [
+      "13 kotak",
+      "11 kotak",
+      "12 kotak",
+      "14 kotak"
+     ],
+     "ans": 0,
+     "explanation": [
+      "Bulatkan jumlah kotak ke atas untuk tiap hari.",
+      "Senin 2, Selasa 4, Rabu 3, Kamis 4. Total 13 kotak."
+     ]
+    }
+   ]
+  },
+  {
+   "title": "",
+   "passage": null,
+   "blocks": [
+    {
+     "t": "table",
+     "caption": "Tabel 3. ● berarti 8 pot bibit dan ◐ berarti 4 pot bibit.",
+     "head": [
+      "Kelompok",
+      "Tanda"
+     ],
+     "rows": [
+      [
+       "L",
+       "● ◐"
+      ],
+      [
+       "M",
+       "● ● ◐"
+      ],
+      [
+       "N",
+       "● ● ●"
+      ]
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Menurut Tabel 3, kelompok N memberi 8 pot kepada kelompok L. Berapa selisih jumlah pot kelompok L setelah menerima dan kelompok M?"
+      }
+     ],
+     "opts": [
+      "4 pot",
+      "0 pot",
+      "8 pot",
+      "12 pot"
+     ],
+     "ans": 1,
+     "explanation": [
+      "L awalnya 12 pot dan M 20 pot. L menerima 8 sehingga menjadi 20.",
+      "L dan M memiliki jumlah sama, dengan selisih nol."
+     ]
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Satu kebun membutuhkan enam pot. Semua pot pada Tabel 3 boleh digabung, tetapi empat pot harus disimpan sebagai cadangan. Berapa kebun paling banyak yang bisa dilayani penuh?"
+      }
+     ],
+     "opts": [
+      "7 kebun",
+      "8 kebun",
+      "9 kebun",
+      "10 kebun"
+     ],
+     "ans": 1,
+     "explanation": [
+      "Jumlah pot 12 + 20 + 24 = 56. Setelah cadangan tersedia 52.",
+      "Delapan kebun memakai 48 pot. Sembilan kebun membutuhkan 54 pot, jadi maksimum delapan."
+     ]
+    }
+   ]
+  }
+ ],
+ "figures": {
+  "1": {
+   "src": "fig/36b1221283.svg",
+   "caption": "Denah lantai. Bagian berarsir dipakai untuk rak tetap."
+  },
+  "2": {
+   "src": "fig/5198ab3619.svg",
+   "caption": "Jumlah kantong benih yang disiapkan selama empat hari."
+  }
+ }
+}

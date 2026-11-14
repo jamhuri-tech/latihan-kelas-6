@@ -1,0 +1,629 @@
+{
+ "id": "tka-bahasa-indonesia-p22",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 22)",
+ "desc": "Latihan 15 November 2026. Lima bacaan dengan pertanyaan tentang bukti, sudut pandang, dan simpulan.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Suara dari Lemari Piring",
+    "paras": [
+     "Aku mendengar ketukan dari lemari piring. Ketukan muncul ketika truk lewat. Ayah sedang menyapu dekat pintu. Aku menunjuk kaca pada lemari. Kaca itu terlihat agak longgar. Ayah mengajak aku mendengarkan lagi.",
+     "Truk berikutnya lewat menjelang siang. Ketukan muncul dua kali. Aku memegang bingkai kaca perlahan. Kaca berhenti bergetar saat kupegang. Namun, ketukan kecil masih terdengar. Ayah membuka pintu lemari dengan hati-hati.",
+     "Di dalamnya ada empat piring. Dua piring berdiri terlalu dekat. Ayah menyelipkan kain di antaranya. Aku melepaskan tangan dari bingkai. Kami menunggu kendaraan lewat lagi. Kali ini tidak terdengar ketukan piring.",
+     "Kaca masih sedikit bergetar sesudahnya. Ayah memeriksa tepi bingkai kayu. Aku mengambil kertas untuk mencatat. Kami membedakan ketukan dan getaran. Ayah memperbaiki bingkai setelah lemari dikosongkan. Aku membantu membawa piring ke meja.",
+     "Malamnya aku membaca catatan itu. Dugaan pertamaku ternyata belum lengkap. Kaca memang bergerak saat truk lewat. Namun, piring juga saling bersentuhan. Aku menulis keduanya pada baris berbeda. Besok aku ingin menunjukkan catatan kepada Kakak. Ia pernah mendengar bunyi serupa. Kami akan memeriksa lemarinya bersama."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti apa yang membuat dugaan pertama perlu diperiksa lagi?"
+      }
+     ],
+     "opts": [
+      "Kaca bergerak ketika truk lewat dekat rumah.",
+      "Ayah melihat tepi bingkai yang agak longgar.",
+      "Piring dipindahkan sebelum bingkai diperbaiki.",
+      "Ketukan masih terdengar ketika kaca ditahan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang diperiksa lewat pemberian kain?"
+      }
+     ],
+     "opts": [
+      "Apakah bingkai berhenti bergerak saat kaca dipegang.",
+      "Apakah lemari dapat menahan lebih banyak piring.",
+      "Apakah pintu lemari bisa ditutup lebih rapat.",
+      "Apakah piring masih berbenturan saat truk lewat."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa piring dipindah menjelang perbaikan bingkai?"
+      }
+     ],
+     "opts": [
+      "Ayah ingin menguji kain dengan menambah piring.",
+      "Ayah akan bekerja pada lemari yang kosong.",
+      "Tokoh perlu mencatat bunyi tanpa melihat kaca.",
+      "Tokoh ingin menata ulang posisi meja makan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa beda ketukan piring dan getaran kaca setelah kain dipasang?"
+      }
+     ],
+     "opts": [
+      "Ketukan melemah dan kaca langsung berhenti bergetar.",
+      "Ketukan berlanjut dan kaca berhenti bergerak.",
+      "Ketukan dan getaran sama-sama langsung menghilang.",
+      "Ketukan berhenti dan kaca masih bergetar sedikit."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Catatan mana paling sesuai untuk Kakak?"
+      }
+     ],
+     "opts": [
+      "Perbaiki bingkai dulu sebelum mendengarkan bunyi.",
+      "Ganti semua piring yang berada dalam lemari.",
+      "Pisahkan gejala yang terlihat dari bunyi yang terdengar.",
+      "Amati kaca saja jika kendaraan lewat di depan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa perubahan sikap tokoh terhadap dugaannya?"
+      }
+     ],
+     "opts": [
+      "Ia bersedia memperbaiki dugaan setelah mendapat bukti.",
+      "Ia mempertahankan dugaan karena kaca masih terlihat bergerak.",
+      "Ia menolak mendengarkan bunyi setelah kain dipasang.",
+      "Ia lebih percaya dugaan Kakak daripada pengamatan sendiri."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Cap pada Kemasan Roti",
+    "paras": [
+     "Toko sekolah menjual roti setiap pagi. Roti dibuat oleh dua kelompok. Setiap kelompok memakai kemasan serupa. Petugas memberi cap pada tiap bungkus. Cap memuat waktu roti selesai dibuat. Nama kelompok ditulis pada sisi lain.",
+     "Pada suatu Jumat, pesanan datang terlambat. Dua keranjang tiba hampir bersamaan. Petugas menaruh keranjang dekat pintu. Pembeli mengambil roti dari keranjang depan. Keranjang belakang baru dibuka setelah istirahat. Beberapa bungkus di belakang dibuat lebih awal.",
+     "Petugas ingin mendahulukan roti yang lebih lama. Ia semula melihat letak keranjangnya. Letak itu ternyata mengikuti waktu kedatangan. Waktu kedatangan berbeda dari waktu pembuatan. Ia lalu membaca cap setiap bungkus. Roti disusun kembali menurut cap waktunya.",
+     "Seorang murid menemukan cap yang pudar. Petugas tidak menebak waktu roti itu. Ia memeriksa catatan kelompok pembuatnya. Ketika waktu ditemukan, cap diperjelas kembali. Bungkus kemudian masuk barisan yang sesuai. Pembeli mengambil roti dari ujung barisan.",
+     "Toko memakai cara ini selama sepekan. Petugas mencatat jumlah bungkus tersisa. Ia juga mencatat roti bercap pudar. Kedua catatan dipakai untuk tujuan berbeda. Catatan pertama membantu menentukan jumlah produksi. Catatan kedua membantu menilai kualitas cap."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa keranjang depan tidak selalu berisi roti tertua?"
+      }
+     ],
+     "opts": [
+      "Letaknya berubah karena pembeli memilih ukuran bungkus.",
+      "Keranjang depan berisi roti dari kelompok yang sama.",
+      "Letaknya mengikuti waktu kedatangan, bukan waktu pembuatan.",
+      "Keranjang depan dibuka lebih lambat daripada keranjang belakang."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Petugas menemukan waktu 06.20 dan 06.05. Apa langkah tepat?"
+      }
+     ],
+     "opts": [
+      "Dahulukan bungkus bercap 06.05 dalam barisan.",
+      "Dahulukan bungkus yang tiba di keranjang depan.",
+      "Gabungkan kedua bungkus tanpa membaca waktu lagi.",
+      "Dahulukan bungkus dari kelompok yang datang terakhir."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa peran nama kelompok ketika cap pudar?"
+      }
+     ],
+     "opts": [
+      "Menentukan posisi bungkus pada antrean pembeli.",
+      "Menunjukkan ukuran roti yang masih tersedia.",
+      "Membantu menemukan catatan pembuatnya.",
+      "Menggantikan waktu pembuatan pada semua bungkus."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan mana tepat tentang kaitan cap dan sisa produksi?"
+      }
+     ],
+     "opts": [
+      "Cap menunjukkan langsung berapa bungkus yang akan tersisa.",
+      "Catatan sisa menggantikan cap ketika roti disusun menurut waktu.",
+      "Jumlah roti tersisa menentukan waktu setiap bungkus dibuat.",
+      "Cap mengatur urutan, sedangkan data sisa membantu merencanakan produksi."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa risiko jika petugas menebak cap pudar?"
+      }
+     ],
+     "opts": [
+      "Identitas kelompok pada bungkus pasti ikut berubah.",
+      "Keranjang belakang harus selalu dibuka lebih dahulu.",
+      "Jumlah roti yang dibuat langsung menjadi lebih banyak.",
+      "Bungkus bisa ditempatkan pada urutan waktu yang keliru."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti apa yang akan dipakai untuk menilai kualitas cap?"
+      }
+     ],
+     "opts": [
+      "Jumlah bungkus yang capnya pudar selama sepekan.",
+      "Jumlah roti yang masih tersisa setelah toko tutup.",
+      "Urutan kedatangan dua kelompok pada hari Jumat.",
+      "Letak keranjang ketika barang diletakkan dekat pintu."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Sepasang Kunci Kecil",
+    "paras": [
+     "Aku menjaga laci alat gambar kelas. Guru memberiku dua kunci kecil. Satu kunci membuka laci atas. Kunci lain membuka laci bawah. Aku menggantung keduanya pada tali merah. Tali kusimpan di saku seragam.",
+     "Saat pelajaran berakhir, Nisa meminjam penggaris. Aku segera menarik tali dari saku. Kunci pertama tidak bisa diputar. Kunci kedua hampir masuk seluruhnya. Aku mencoba menariknya dengan pelan. Aku takut kunci itu akan bengkok.",
+     "Nisa menunjuk dua tanda pada kunci. Tanda garis berada di ujung pertama. Tanda titik berada di ujung kedua. Kami memeriksa tanda pada lubang laci. Laci atas juga memiliki tanda titik. Aku memilih kunci berdasarkan tanda itu.",
+     "Kunci bisa diputar tanpa tenaga besar. Penggaris ditemukan di laci atas. Aku menyerahkannya kepada Nisa. Kami lalu membuat dua label besar. Label dipasang di sebelah lubang kunci. Tanda lama tetap mudah terlihat.",
+     "Keesokan hari, aku mendampingi petugas baru. Ia mula-mula meraih tali merah. Aku tidak langsung menunjukkan kuncinya. Aku memintanya membaca tanda pada laci. Ia memilih kunci yang sesuai sendiri. Kini tali hanya membantu menyimpan keduanya. Tanda membantu memilih kunci yang tepat."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kesalahan awal tokoh terutama terjadi karena apa?"
+      }
+     ],
+     "opts": [
+      "Ia menyimpan penggaris pada laci yang salah.",
+      "Ia mencoba kunci sebelum mencocokkan tanda.",
+      "Ia lupa tali merah berada di saku.",
+      "Ia membaca tanda pada laci bawah dengan benar."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa tanda titik lebih berguna daripada warna tali saat memilih kunci?"
+      }
+     ],
+     "opts": [
+      "Titik membedakan kunci, sedangkan tali dipakai bersama.",
+      "Titik menunjukkan warna tali yang dipakai petugas.",
+      "Tali merah menunjukkan letak penggaris di dalam laci.",
+      "Titik hanya digunakan setelah kunci diputar penuh."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi label besar setelah masalah selesai?"
+      }
+     ],
+     "opts": [
+      "Mengubah tanda bawaan pada ujung kedua kunci.",
+      "Membuat petunjuk pemilihan lebih mudah terlihat.",
+      "Memberi tahu jumlah alat dalam setiap laci.",
+      "Menentukan siapa yang boleh meminjam penggaris."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti mana menunjukkan aturan itu dapat dipakai orang lain?"
+      }
+     ],
+     "opts": [
+      "Petugas baru memilih kunci sendiri setelah membaca tanda.",
+      "Nisa menunjukkan tanda yang ada pada kunci kecil.",
+      "Tokoh menyimpan dua kunci pada tali yang sama.",
+      "Guru memberi dua kunci sebelum pelajaran dimulai."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika label besar lepas, apa yang dapat dilakukan petugas?"
+      }
+     ],
+     "opts": [
+      "Pilih kunci menurut warna tali merah.",
+      "Gunakan kunci yang lebih sulit diputar.",
+      "Cocokkan tanda kecil yang masih ada.",
+      "Anggap kedua kunci membuka laci atas."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa pelajaran yang paling dekat dengan pengalaman tokoh?"
+      }
+     ],
+     "opts": [
+      "Cermati tanda pembeda sebelum mencoba alat.",
+      "Simpan setiap kunci pada tali yang berbeda.",
+      "Pilih alat yang paling cepat diraih.",
+      "Mintalah peminjam membuka laci kelas sendiri."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Kain Penutup Bibit",
+    "paras": [
+     "Kelompok kebun menutup nampan bibit muda. Penutup dipasang saat matahari sangat terik. Ada kain rapat dan kain renggang. Keduanya digantung di atas nampan. Udara tetap dapat lewat dari samping. Nampan diberi kartu warna berbeda.",
+     "Pada hari pertama, daun terlihat layu. Nampan merah memakai kain renggang. Nampan putih memakai kain rapat. Nampan merah juga berada dekat tembok. Tembok terasa hangat sampai sore. Kelompok belum memilih kain yang lebih baik.",
+     "Pada hari kedua, letak nampan ditukar. Kelompok tetap memakai kain yang sama. Takaran air dicatat untuk setiap nampan. Nampan putih kini dekat tembok hangat. Murid memeriksa kedua nampan menjelang sore. Daun pada nampan putih mulai layu.",
+     "Guru meminta mereka membaca dua catatan. Letak dekat tembok muncul pada keduanya. Jenis kain pada nampan layu berbeda. Kelompok menduga tempat turut berpengaruh. Mereka ingin menguji kain lebih lanjut. Kedua nampan akan ditaruh berjauhan dari tembok.",
+     "Warga sekolah membaca laporan di kebun. Laporan memuat catatan setiap hari. Dugaan disimpan pada bagian akhir. Pembaca dapat melihat alasan kelompok. Mereka juga dapat mengusulkan pemeriksaan tambahan. Kelompok menerima usul secara tertulis."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Faktor apa yang sama pada dua kejadian layu?"
+      }
+     ],
+     "opts": [
+      "Nampan yang layu berada dekat tembok.",
+      "Nampan yang layu selalu memakai kain renggang.",
+      "Kedua nampan berada dekat tembok setiap hari.",
+      "Kartu yang menempel pada nampan layu selalu merah."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa laporan perlu membedakan catatan dan dugaan?"
+      }
+     ],
+     "opts": [
+      "Pembaca dapat mengubah catatan yang tidak cocok dengan dugaan.",
+      "Kelompok dapat memakai dugaan sebagai pengganti semua pengukuran.",
+      "Pembaca dapat mengenali hasil pengamatan dan tafsir kelompok.",
+      "Kelompok dapat memilih kain hanya dari catatan hari pertama."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pemeriksaan mana paling membantu membandingkan jenis kain?"
+      }
+     ],
+     "opts": [
+      "Uji kain rapat dekat tembok dan kain renggang jauh darinya.",
+      "Uji kedua kain pada tempat dengan kondisi serupa.",
+      "Pilih kain dari warna kartu yang paling mudah dikenali.",
+      "Tukar kain dan tambah air hanya pada nampan merah."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pernyataan apa didukung oleh dua hari pengamatan?"
+      }
+     ],
+     "opts": [
+      "Layu tercatat pada dua jenis kain.",
+      "Kain rapat selalu mencegah daun layu.",
+      "Nampan merah layu pada kedua hari.",
+      "Daun layu hanya ketika kain diganti."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa akibat jika posisi nampan tidak dicatat?"
+      }
+     ],
+     "opts": [
+      "Warna kartu tidak dapat dipakai lagi pada nampan.",
+      "Peran tempat bisa terlewat saat membaca hasil.",
+      "Jenis kain pasti tertukar setelah hari kedua.",
+      "Pembaca akan mengetahui takaran air dari warna kartu."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa kesimpulan tentang kain masih perlu diuji?"
+      }
+     ],
+     "opts": [
+      "Warga belum menentukan jenis kartu yang akan digunakan.",
+      "Laporan tidak memuat dugaan tentang pengaruh tempat.",
+      "Kedua nampan tidak pernah diperiksa menjelang sore.",
+      "Tempat dan kain belum dibandingkan dalam kondisi setara."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Tanda Hening di Ruang Baca",
+    "paras": [
+     "Perpustakaan memiliki dua ruang kecil. Ruang depan dipakai untuk membaca sendiri. Ruang belakang dipakai untuk kerja kelompok. Keduanya dihubungkan pintu geser kayu. Pintu sering dibiarkan terbuka saat ramai. Suara diskusi terdengar sampai ruang depan.",
+     "Petugas memasang tulisan dekat pintu masuk. Tulisan meminta pengunjung menjaga suara. Beberapa murid membaca tanpa berbicara. Kelompok di belakang tetap perlu berdiskusi. Petugas mengamati kapan suara paling terdengar. Suara menguat saat pintu geser terbuka.",
+     "Hari berikutnya, petugas menambah dua petunjuk. Petunjuk depan meminta pengunjung membaca hening. Petunjuk belakang mengizinkan diskusi suara pelan. Petugas juga meminta pintu dirapatkan kembali. Murid yang bergerak antar ruang mencobanya. Kelompok masih dapat menyelesaikan tugasnya bersama.",
+     "Seorang pengunjung menemukan pintu sulit digeser. Petugas memeriksa rel di bagian bawah. Ada sobekan kertas yang mengganjal. Rel dibersihkan sebelum jam kunjungan berikutnya. Petunjuk tetap dipasang pada kedua sisi. Petugas mencatat perbaikan pintu dalam laporan.",
+     "Pada akhir pekan, petugas bertanya kepada murid. Pembaca depan merasa lebih mudah berkonsentrasi. Kelompok belakang masih bisa bertukar pendapat. Petugas belum mengukur kerasnya suara. Ia melaporkan pengalaman kedua kelompok dahulu. Pengukuran suara dijadwalkan pada pekan berikutnya."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa satu petunjuk umum kurang memadai?"
+      }
+     ],
+     "opts": [
+      "Kedua ruang memiliki jumlah kursi yang sama.",
+      "Kedua ruang dipakai untuk kegiatan yang berbeda.",
+      "Tulisan hanya bisa dibaca oleh petugas perpustakaan.",
+      "Kelompok belakang harus menyelesaikan tugas tanpa berbicara."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa hubungan rel yang bersih dengan aturan baru?"
+      }
+     ],
+     "opts": [
+      "Pengunjung bisa mengabaikan petunjuk diskusi pelan.",
+      "Ruang depan dapat dipakai untuk diskusi kelompok.",
+      "Pintu lebih mudah dirapatkan kembali.",
+      "Pintu tidak lagi memisahkan ruang depan dan belakang."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Temuan mana berasal dari pengalaman pengguna?"
+      }
+     ],
+     "opts": [
+      "Rel pintu mengandung kertas yang mengganjal.",
+      "Suara menguat ketika pintu geser terbuka.",
+      "Pembaca depan merasa lebih mudah berkonsentrasi.",
+      "Petunjuk dipasang pada kedua sisi pintu."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang belum boleh disimpulkan dari laporan akhir pekan?"
+      }
+     ],
+     "opts": [
+      "Kelompok belakang tetap dapat bertukar pendapat.",
+      "Keras suara turun dengan jumlah yang terukur.",
+      "Petugas bermaksud mengukur suara pekan depan.",
+      "Pembaca depan menyampaikan perubahan konsentrasinya."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi dua petunjuk yang berbeda?"
+      }
+     ],
+     "opts": [
+      "Memindahkan semua pengunjung ke ruang depan saat ramai.",
+      "Menentukan kapan petugas harus mengganti rel pintu.",
+      "Memberi tugas diskusi kepada pembaca di ruang depan.",
+      "Menjelaskan cara menjaga suara sesuai kegiatan ruang."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan mana mencerminkan penerapan seluruh petunjuk?"
+      }
+     ],
+     "opts": [
+      "Berdiskusi di depan lalu membaca hening di ruang belakang.",
+      "Berdiskusi pelan di belakang lalu merapatkan pintu saat keluar.",
+      "Membuka pintu lebar agar suara diskusi terdengar petugas.",
+      "Merapatkan pintu tetapi memindahkan diskusi ke ruang depan."
+     ],
+     "ans": 1
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
