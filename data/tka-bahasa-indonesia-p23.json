@@ -1,0 +1,629 @@
+{
+ "id": "tka-bahasa-indonesia-p23",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 23)",
+ "desc": "Latihan 16 November 2026. Lima bacaan dengan pertanyaan tentang bukti, sudut pandang, dan simpulan.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Bendera untuk Lapangan",
+    "paras": [
+     "Aku membuat bendera untuk permainan kelas. Warna hijau menandai pintu masuk. Warna kuning menandai tempat berhenti. Aku menulis kata pada kedua bendera. Tulisan itu kubuat dengan spidol kecil. Dari dekat, kedua tulisan mudah terbaca.",
+     "Ketika permainan dimulai, langit mulai mendung. Dian berdiri jauh di ujung lapangan. Ia berjalan menuju bendera yang keliru. Aku menyangka ia tidak membaca aturan. Dian menunjuk kedua bendera dari tempatnya. Tulisan pada kain terlihat sangat kecil.",
+     "Aku membawa bendera mendekati tempat Dian. Dari sana kedua bendera tampak serupa. Mira mengusulkan bentuk yang berbeda. Kami memotong ujung bendera kuning bercabang. Bendera hijau tetap berbentuk persegi panjang. Tulisan lama masih kami biarkan.",
+     "Kami kembali ke ujung lapangan. Dian dapat menunjuk bendera berhenti dengan benar. Namun, murid baru belum memahami bentuknya. Mira menjelaskan arti bentuk kepada mereka. Kami menempel petunjuk sebelum garis awal. Anak dapat membacanya sebelum mulai bermain.",
+     "Setelah permainan berakhir, aku menyimpan bendera. Aku juga menyimpan lembar petunjuknya. Bentuk membantu ketika tulisan sulit terlihat. Petunjuk membantu orang mengenali arti bentuk. Minggu depan kami akan bermain kembali. Aku akan menyiapkan keduanya sejak awal."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti mana yang paling melemahkan dugaan awal tokoh tentang Dian?"
+      }
+     ],
+     "opts": [
+      "Dian berjalan ke ujung lapangan saat mendung.",
+      "Aturan ditulis sebelum permainan kelas dimulai.",
+      "Tulisan tampak kecil dari tempat Dian berdiri.",
+      "Mira menyimpan kedua bendera setelah permainan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa bentuk bendera kuning diubah?"
+      }
+     ],
+     "opts": [
+      "Agar kata pada kain dapat dicetak ulang.",
+      "Agar warna hijau terlihat jelas saat mendung.",
+      "Agar tandanya mudah dibedakan dari jauh.",
+      "Agar kedua bendera lebih mudah disimpan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang sudah berhasil sebelum petunjuk dipasang?"
+      }
+     ],
+     "opts": [
+      "Murid baru sudah mengetahui arti semua bentuk.",
+      "Dian dapat mengenali bendera berhenti dari jauh.",
+      "Kata pada bendera dapat dibaca dari ujung.",
+      "Dian dapat memulai permainan tanpa melihat bendera."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa petunjuk ditempatkan sebelum garis awal?"
+      }
+     ],
+     "opts": [
+      "Pemain bisa memperbaiki tulisan pada akhir permainan.",
+      "Murid baru dapat langsung berjalan ke tempat berhenti.",
+      "Murid lama dapat memilih bentuk yang paling disukai.",
+      "Pemain bisa mempelajari arti bentuk sebelum bergerak."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Ringkasan mana menjelaskan peran dua perbaikan?"
+      }
+     ],
+     "opts": [
+      "Bentuk membedakan tanda dan petunjuk menjelaskan artinya.",
+      "Bentuk menggantikan aturan dan petunjuk memperjelas warna.",
+      "Bentuk menjelaskan aturan dan petunjuk mengganti bendera.",
+      "Bentuk memperbesar tulisan dan petunjuk mengubah arah lapangan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika petunjuk hilang, kelompok mana paling mungkin perlu bantuan?"
+      }
+     ],
+     "opts": [
+      "Murid lama yang sudah mengenal bentuk bendera.",
+      "Dian setelah berhasil memilih tanda berhenti.",
+      "Mira setelah mengajarkan arti bentuk kepada pemain.",
+      "Murid baru yang belum mempelajari arti bentuk."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Jejak Air di Halaman",
+    "paras": [
+     "Sekolah mempunyai halaman berbatu kecil. Setelah hujan, beberapa bagian masih tergenang. Petugas memberi tanda pada genangan. Ia menandai batasnya dengan kapur. Garis dibuat setelah hujan berhenti. Murid mengamati garis itu dari selasar.",
+     "Keesokan harinya, dua tanda sudah hilang. Air pada bagian itu telah surut. Namun, garis kapur juga terhapus. Beberapa murid berjalan melintasi bagian tersebut. Guru meminta murid mencatat keadaan awal. Catatan itu diperlukan sebelum membuat perbandingan.",
+     "Pada hujan berikutnya, kelompok membawa tali. Tali diletakkan di luar tempat berjalan. Mereka mencatat lebar genangan dengan penggaris. Satu anggota mencatat jam pengukuran. Murid mengulang catatan setiap setengah jam. Tali tetap pada tempat hingga selesai.",
+     "Genangan dekat pintu menyusut paling cepat. Namun, ukurannya paling kecil sejak awal. Genangan dekat lapangan lebih lama terlihat. Bagian itu juga lebih lebar semula. Kelompok tidak langsung menilai jenis lantai. Mereka ingin membandingkan genangan berukuran serupa.",
+     "Laporan mereka memuat tabel waktu. Tabel menunjukkan ukuran pada setiap pengamatan. Foto halaman disimpan bersama tabel. Guru meminta kelompok menuliskan batas kesimpulan. Murid lain membaca laporan itu bersama. Mereka mengusulkan pengamatan pada hujan berikutnya."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa pengamatan dengan garis kapur saja sulit dibandingkan?"
+      }
+     ],
+     "opts": [
+      "Garis selalu meluas ketika hujan sudah berhenti.",
+      "Kapur bisa terhapus saat diinjak.",
+      "Kapur mengubah ukuran penggaris yang dipakai.",
+      "Murid membuat garis hanya dekat lapangan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Informasi apa paling penting untuk menilai perubahan ukuran?"
+      }
+     ],
+     "opts": [
+      "Ukuran awal dan ukuran berikutnya.",
+      "Jumlah anggota dan letak foto pada laporan.",
+      "Lebar selasar dan jumlah huruf pada catatan.",
+      "Banyak penggaris serta panjang tali cadangan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa yang dapat dikatakan tentang genangan dekat pintu?"
+      }
+     ],
+     "opts": [
+      "Genangan itu cepat menyusut karena bebatuan berbeda.",
+      "Genangan itu tidak pernah dilewati anggota kelompok.",
+      "Genangan itu lebih besar daripada genangan dekat lapangan.",
+      "Genangan itu kecil sejak awal dan cepat menyusut."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa kesimpulan tentang jenis lantai ditunda?"
+      }
+     ],
+     "opts": [
+      "Semua genangan diukur pada jam yang berbeda.",
+      "Ukuran awal kedua genangan tidak sebanding.",
+      "Foto halaman dibuat sebelum terjadi hujan.",
+      "Jenis lantai sudah pasti sama di setiap bagian."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi foto ketika dibaca bersama tabel?"
+      }
+     ],
+     "opts": [
+      "Memberi gambaran letak yang melengkapi catatan ukur.",
+      "Menggantikan catatan jam pada semua pengamatan.",
+      "Menunjukkan jenis lantai pasti menentukan laju surut.",
+      "Menentukan jumlah hujan yang turun sepanjang hari."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Usulan mana paling sesuai dengan tujuan kelompok?"
+      }
+     ],
+     "opts": [
+      "Bandingkan genangan terbesar dengan yang paling kecil saja.",
+      "Ukur satu genangan setelah seluruh air hilang.",
+      "Ukur genangan berukuran awal serupa pada waktu setara.",
+      "Ganti tali dengan kapur dan hapus catatan waktunya."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Bunyi Bel dari Dua Arah",
+    "paras": [
+     "Aku mengantar nenek ke gedung pertemuan. Gedung itu memiliki dua ruang utama. Satu ruang dipakai untuk pertunjukan. Ruang lainnya dipakai untuk latihan tari. Dari lorong terdengar satu bunyi bel. Aku mengajak nenek menuju ruang pertunjukan.",
+     "Petugas meminta kami menunggu dekat pintu. Bel tadi ternyata berasal dari latihan. Bunyi bel kedua terdengar tidak lama. Dari lorong, bunyinya hampir sama. Nenek menyarankan aku mencari papan acara. Papan dipasang dekat tangga pintu masuk.",
+     "Pada papan ada jadwal kedua ruang. Pertunjukan dimulai setelah lampu lorong menyala. Bel tidak tercantum sebagai tanda masuk. Aku mencari lampu di atas pintu. Lampu itu masih terlihat padam. Kami lalu duduk di kursi tunggu.",
+     "Seorang anak mendengar bel berikutnya. Ia segera berdiri sambil membawa tiket. Aku menunjukkan jadwal yang baru kubaca. Kami memeriksa lampu dari tempat duduk. Lampu menyala beberapa menit kemudian. Petugas membuka pintu pertunjukan setelah itu.",
+     "Sesudah masuk, nenek melihat tiketku. Ia memintaku membaca petunjuk di belakangnya. Petunjuk itu juga menyebut lampu lorong. Aku baru menyadari tulisan kecil tersebut. Aku menyimpannya di sisi yang mudah dibaca. Nenek tersenyum ketika aku menunjukkannya lagi."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa bunyi bel pertama menyebabkan salah tafsir?"
+      }
+     ],
+     "opts": [
+      "Tokoh mendengar bunyi bel setelah lampu sudah menyala.",
+      "Nenek meminta tokoh segera mengikuti petugas gedung.",
+      "Bel pertama merupakan satu-satunya tanda pada tiket.",
+      "Tokoh mengira bel dari ruang latihan berasal dari ruang pertunjukan."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti mana menunjukkan bel bukan tanda masuk pertunjukan?"
+      }
+     ],
+     "opts": [
+      "Bel terdengar dua kali saat mereka di lorong.",
+      "Jadwal menyebut lampu dan pintu dibuka sesudahnya.",
+      "Anak lain membawa tiket ketika berdiri dari kursi.",
+      "Petugas meminta mereka menunggu dekat ruang latihan."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi tindakan tokoh menunjukkan jadwal kepada anak lain?"
+      }
+     ],
+     "opts": [
+      "Membantu anak memeriksa tanda masuk yang benar.",
+      "Menjelaskan alasan tiket pertunjukan perlu disimpan.",
+      "Mendorong anak pindah ke ruang latihan tari.",
+      "Membuat anak membunyikan bel ketiga."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa persamaan informasi dari jadwal dan tiket?"
+      }
+     ],
+     "opts": [
+      "Keduanya menampilkan waktu latihan tari.",
+      "Keduanya menyebut lokasi tangga dan kursi.",
+      "Keduanya meminta pengunjung mengikuti bunyi bel.",
+      "Keduanya menyebut lampu lorong sebagai tanda."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa perubahan yang tampak pada cara tokoh bertindak?"
+      }
+     ],
+     "opts": [
+      "Awalnya membaca tiket lalu memilih mengikuti bunyi.",
+      "Awalnya menunggu lampu lalu mendahului petugas.",
+      "Awalnya bertanya kepada petugas lalu mengabaikan jadwal.",
+      "Dari mengikuti bunyi ke membaca petunjuk."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika papan sulit dijangkau, sumber apa dapat menggantikannya?"
+      }
+     ],
+     "opts": [
+      "Bunyi bel dari ruangan yang terdengar dekat.",
+      "Petunjuk masuk yang tercetak di belakang tiket.",
+      "Arah langkah orang lain di dalam lorong.",
+      "Jumlah kursi tunggu yang masih kosong."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Sampel Kertas Warna",
+    "paras": [
+     "Kelompok seni memilih kertas untuk poster. Ada dua merek dengan warna serupa. Mereka ingin mengetahui warna yang awet. Tiap merek dipotong menjadi dua lembar. Ukuran semua potongan dibuat sama. Nama merek ditulis pada bagian belakang.",
+     "Satu potongan dari tiap merek dijemur. Potongan lain disimpan di dalam laci. Kelompok menempel keduanya pada papan berbeda. Hari pertama, warna tampak hampir sama. Pada hari ketiga, ada perubahan jelas. Salah satu potongan jemur tampak pucat.",
+     "Bima membandingkan kedua potongan yang dijemur. Ia menunjuk potongan paling terang. Rina meminta ia membuka laci terlebih dahulu. Warna awal kedua merek berbeda sedikit. Merek yang lebih terang mungkin sudah demikian. Kelompok membandingkan potongan dengan pasangannya sendiri.",
+     "Setelah dibandingkan, hasilnya terlihat berbeda. Merek A memang lebih terang semula. Namun, merek B mengalami perubahan kecil. Mereka memilih B untuk bagian utama. Potongan A masih dipakai di dalam ruangan. Laporan mencatat tempat pemakaian setiap merek.",
+     "Kelompok meminta kelas lain mengulangi pemeriksaan. Cuaca mungkin berbeda pada hari berikutnya. Mereka tidak menghapus hasil pertama. Foto setiap pasangan tetap ditempel. Murid lain dapat melihat perbandingan tersebut. Kesimpulan akan diperbarui jika bukti bertambah."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa kegunaan potongan yang disimpan dalam laci?"
+      }
+     ],
+     "opts": [
+      "Sebagai pembanding warna awal tiap merek.",
+      "Menunjukkan warna paling terang setelah penjemuran.",
+      "Menggantikan potongan yang dipakai di luar ruangan.",
+      "Membuat jumlah potongan kedua merek berbeda."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa pilihan awal Bima berpotensi keliru?"
+      }
+     ],
+     "opts": [
+      "Ia membandingkan warna akhir kedua merek tanpa melihat potongan di laci.",
+      "Ia memeriksa potongan dari laci sebelum menjemur.",
+      "Ia memilih warna paling pucat setelah mengamati laci.",
+      "Ia menjemur potongan yang ukurannya tidak sama."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pasangan mana paling tepat untuk memeriksa perubahan merek B?"
+      }
+     ],
+     "opts": [
+      "Potongan A yang dijemur dan B yang dijemur.",
+      "Potongan A di laci dan B di laci.",
+      "Potongan B yang dijemur dan B yang disimpan.",
+      "Dua potongan A yang diperlakukan berbeda."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa alasan memilih merek B untuk bagian utama?"
+      }
+     ],
+     "opts": [
+      "Warnanya paling terang sejak pemeriksaan hari pertama.",
+      "Potongannya lebih besar daripada potongan merek A.",
+      "Warnanya tetap sama dalam semua kondisi cuaca.",
+      "Warnanya berubah lebih sedikit."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan mana melampaui bukti pada bacaan?"
+      }
+     ],
+     "opts": [
+      "Kedua merek memiliki sedikit perbedaan warna awal.",
+      "Salah satu potongan jemur terlihat lebih pucat.",
+      "Merek B selalu paling awet pada semua jenis cuaca.",
+      "Merek A tetap dipakai untuk bagian dalam ruangan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa kelompok menyimpan foto awal saat pemeriksaan diulang?"
+      }
+     ],
+     "opts": [
+      "Foto awal dapat menggantikan pemeriksaan selanjutnya.",
+      "Agar hasil baru dapat dibandingkan.",
+      "Semua perubahan hanya bisa dinilai dari satu foto.",
+      "Cuaca pada hari berbeda dapat dibuat sama dengan foto."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Kuitansi dari Meja Kas",
+    "paras": [
+     "Kelompok kelas mengadakan penjualan buku bekas. Uangnya disimpan dalam satu kotak kayu. Setiap penjualan dicatat pada lembar kas. Pembeli menerima satu lembar kuitansi. Salinan kuitansi disimpan oleh penjaga meja. Semua catatan dibaca bersama setelah penjualan.",
+     "Menjelang pulang, jumlah uang berbeda. Lembar kas menunjukkan jumlah lebih kecil. Putri ingin langsung mengubah jumlah akhir. Raka meminta salinan kuitansi dihitung dahulu. Ada tiga salinan untuk buku cerita. Namun, daftar kas hanya memuat dua.",
+     "Penjaga meja mengingat satu pembeli terakhir. Pembeli datang ketika kotak sedang ditutup. Kuitansi dibuat sebelum uang dimasukkan. Penjaga lupa menyalin transaksi ke daftar. Raka mencocokkan harga dan nomor kuitansi. Jumlah uang kini sesuai dengan catatan.",
+     "Putri kemudian menambahkan tanda pada salinan. Tanda diberikan setelah transaksi masuk daftar. Salinan tanpa tanda diletakkan di depan. Penjaga bisa menemukannya ketika meja ramai. Pada hari kedua, satu salinan tertinggal. Petugas melihatnya sebelum menghitung uang kembali.",
+     "Setelah kegiatan, catatan disimpan dalam map. Daftar kas ditempatkan di bagian depan. Kuitansi disusun mengikuti urutan nomor. Guru membaca perbaikan bersama penjaga meja. Mereka menuliskan alasan perubahan jumlah. Catatan itu berguna bagi kelompok berikutnya."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa bukti awal bahwa satu penjualan belum tercatat?"
+      }
+     ],
+     "opts": [
+      "Kotak kayu sudah ditutup saat pembeli datang.",
+      "Ada tiga kuitansi untuk dua catatan penjualan buku cerita.",
+      "Jumlah uang dihitung sebelum guru membaca laporan.",
+      "Putri meminta penjaga menyusun kuitansi berdasarkan nomor."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa Raka memeriksa harga dan nomor sebelum mengubah daftar?"
+      }
+     ],
+     "opts": [
+      "Untuk mengenali transaksi yang terlewat.",
+      "Ia ingin menentukan harga buku baru untuk esok.",
+      "Ia perlu menghitung jumlah kuitansi yang akan dicetak.",
+      "Ia ingin memastikan kotak kayu masih dapat ditutup."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa arti salinan tanpa tanda dalam aturan baru?"
+      }
+     ],
+     "opts": [
+      "Pembeli buku belum menerima kuitansi dari penjaga.",
+      "Harga buku itu telah berubah sejak meja ditutup.",
+      "Transaksi itu masih perlu diperiksa.",
+      "Kuitansi itu tidak boleh dimasukkan ke dalam map."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa perbaikan terlihat berhasil pada hari kedua?"
+      }
+     ],
+     "opts": [
+      "Jumlah pembeli pada hari kedua lebih banyak.",
+      "Salinan tertinggal terlihat sebelum hitung ulang.",
+      "Semua kuitansi sudah ditandatangani oleh guru.",
+      "Kotak uang dibuka lebih awal oleh penjaga."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa tujuan menyusun kuitansi sesuai nomor setelah kegiatan?"
+      }
+     ],
+     "opts": [
+      "Memudahkan pemeriksaan transaksi setelah kegiatan.",
+      "Mengubah harga penjualan sesuai urutan pembelian.",
+      "Membuat kotak kayu memuat lebih banyak uang.",
+      "Menggantikan daftar kas dengan ingatan penjaga."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Prinsip mana paling sesuai dengan cara Putri dan Raka memperbaiki catatan?"
+      }
+     ],
+     "opts": [
+      "Samakan jumlah akhir tanpa memeriksa rinciannya.",
+      "Catat hanya transaksi yang diingat penjaga meja.",
+      "Cari bukti transaksi sebelum mengubah jumlah akhir.",
+      "Tulis kuitansi setelah seluruh uang selesai dihitung."
+     ],
+     "ans": 2
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}
