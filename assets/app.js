@@ -10,6 +10,7 @@
   var manifest = null;
   var cache = {};
   var stopActivity = function () {};
+  var stopCamera = function () {};
 
   var STORE = {
     get: function (k, d) {
@@ -85,7 +86,7 @@
   }
 
   function launchQuiz(data) {
-    stopActivity();
+    stopActivity(); stopCamera();
     document.title = data.title + ' – Ruang Latihan';
     app.className = 'wrap quiz-page s-' + subjSlug(data.subject);
     var root = h('div', { class: 'session-launch' }, h('a', { href: '#/latihan' }, '← Daftar latihan'), h('h1', null, data.title));
@@ -329,7 +330,7 @@
   }
 
   function Quiz(sourceData, profile, fresh) {
-    stopActivity();
+    stopActivity(); stopCamera();
     var pointerKey = stateKey(profile, sourceData.id);
     var st = fresh ? {} : (savedFor(profile, sourceData.id) || {});
     ['ans', 'marks', 'order'].forEach(function (k) { if (!st[k]) st[k] = {}; });
@@ -349,6 +350,7 @@
     var cards = {}, navButtons = {};
     var stage, resultBox, barFill, barText, nextButton, navEndButton;
     var activityPaused = false;
+    var camera = null, requiresCamera = sourceData.id.indexOf('tka-') === 0 && !st.checked && !st.completedAt;
     if (!st.checked && !st.completedAt && !st.activity) {
       st.activity = { version: 1, departures: 0 };
     }
@@ -430,7 +432,7 @@
         var input = h('input', {
           type: 'radio', name: q.id, checked: chosen, disabled: show,
           onchange: function () {
-            if (A(q) !== undefined) return;
+            if (A(q) !== undefined || (requiresCamera && (!camera || !camera.ready()))) return;
             st.ans[q.id] = oi; save(); refresh(q);
           }
         });
@@ -716,6 +718,7 @@
     });
 
     function sendAll() {
+      if (requiresCamera && (!camera || !camera.ready())) { window.alert("Aktifkan kamera sebelum mengirim jawaban."); return; }
       if (!profile.name) {
         window.alert('Tulis namamu dulu di kolom Nama, ya. Nilai baru muncul setelah nama diisi dan tombol Kirim ditekan.');
         nameInput.focus();
@@ -723,7 +726,8 @@
       }
       var left = gradable.length - gradable.filter(answered).length;
       if (left > 0 && !confirmAction('Masih ada ' + left + ' soal yang belum dijawab. Tetap kirim sekarang?')) return;
-      st.checked = true; stopActivity(); save();
+      if (requiresCamera && (!camera || !camera.ready())) return;
+      st.checked = true; stopActivity(); stopCamera(); save();
       renderStage();
       window.scrollTo(0, 0);
     }
@@ -824,6 +828,15 @@
     save();
     app.replaceChildren(root);
     renderStage();
+    if (requiresCamera) {
+      var cameraContainer = h('div');
+      root.insertBefore(cameraContainer, root.querySelector('.controls'));
+      camera = QuizCamera.mount({container:cameraContainer, url:SHEET_URL, state:st, save:save,
+        onPermission:function(value){activityPaused = value;},
+        onReady:function(value){stage.inert = !value && !st.checked; stage.hidden = !value && !st.checked; stage.setAttribute('aria-disabled',String(!value && !st.checked));}
+      });
+      stopCamera = function(){camera.stop(); stopCamera = function(){};};
+    }
     window.scrollTo(0, 0);
     if (st.activity && !st.checked && !st.completedAt) {
       stopActivity = QuizActivity.watch(window, document, {
@@ -843,7 +856,7 @@
 
   /* ---------- router ---------- */
   function route() {
-    stopActivity();
+    stopActivity(); stopCamera();
     var hash = location.hash || '#/';
     var m = hash.match(/^#\/quiz\/([\w-]+)$/);
     document.querySelectorAll('.main-nav a').forEach(function (link) {

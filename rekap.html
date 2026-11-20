@@ -103,7 +103,7 @@
     </section>
     <div class="rk-card rk-scroll">
       <table class="rk-tbl">
-        <thead><tr><th>Waktu</th><th>Nama</th><th>Latihan</th><th class="n">Nilai</th><th class="rk-opt">Soal yang salah</th><th class="rk-opt">Lama</th><th>Pindah tab/window</th></tr></thead>
+        <thead><tr><th>Waktu</th><th>Nama</th><th>Latihan</th><th class="n">Nilai</th><th class="rk-opt">Soal yang salah</th><th class="rk-opt">Lama</th><th>Pindah tab/window</th><th>Foto privat</th></tr></thead>
         <tbody id="rows"></tbody>
       </table>
       <p id="empty" class="rk-msg" hidden>Belum ada nilai yang cocok.</p>
@@ -112,7 +112,8 @@
 </main>
 <script src="assets/recap-chart.js?v=20261102-type-balanced"></script>
 <script src="assets/recap-coverage.js?v=1"></script>
-<script src="assets/quiz-activity.js?v=20261121-activity"></script>
+<script src="assets/quiz-camera.js?v=20261121-camera"></script>
+<script src="assets/quiz-activity.js?v=20261121-camera"></script>
 <script>
 (function () {
   'use strict';
@@ -157,7 +158,7 @@
       rows = res.table.rows.map(function (r, order) {
         var c = r.c.map(function (x) { return x ? String(x.f != null ? x.f : (x.v != null ? x.v : '')) : ''; });
         var activity = QuizActivity.parseDuration(c[7]);
-        return { time: RecapChart.timestamp(r.c[0] && r.c[0].v) ?? RecapChart.timestamp(c[0]), order: order, waktu: c[0], nama: (c[1] || '').trim(), subj: (c[2] || '').trim(), lat: (c[3] || '').trim(), nilai: (c[4] || '').trim() ? Number(c[4].replace(',', '.')) : NaN, benar: c[5], salah: c[6], lama: activity.duration, departures: activity.departures };
+        return { time: RecapChart.timestamp(r.c[0] && r.c[0].v) ?? RecapChart.timestamp(c[0]), order: order, waktu: c[0], nama: (c[1] || '').trim(), subj: (c[2] || '').trim(), lat: (c[3] || '').trim(), nilai: (c[4] || '').trim() ? Number(c[4].replace(',', '.')) : NaN, benar: c[5], salah: c[6], lama: activity.duration, departures: activity.departures, attempt: c[8] || '' };
       }).filter(function (r) { return r.nama && r.nama.indexOf('UJI COBA') !== 0; }).reverse();
       $('loginMsg').textContent = ''; $('view').hidden = false;
       updateSubjects();
@@ -258,6 +259,27 @@
   }
 
   function cls(n) { return n >= 80 ? 'rk-good' : n >= 60 ? 'rk-mid' : 'rk-low'; }
+  function photoCell(attempt) {
+    var cell = document.createElement('td');
+    if (!/^[\w-]{8,100}$/.test(attempt || '')) { cell.textContent = 'Belum dipantau'; return cell; }
+    var button = document.createElement('button'); button.type = 'button'; button.className = 'btn small ghost'; button.textContent = 'Lihat foto';
+    cell.append(button);
+    button.onclick = async function () {
+      button.disabled = true; button.textContent = 'Memuat…';
+      try {
+        var result = await QuizCamera.request('https://script.google.com/macros/s/AKfycbyhI-46Ltlen5Cuw_QKjCMzPhdXApNTm4NdEEYoHirM94W0KlaAnTXk9awfiB6vdL_Lxg/exec',{action:'photos',attempt:attempt},window,document);
+        cell.replaceChildren();
+        if (!result.photos.length) { cell.textContent = 'Tidak ada foto tersimpan (pengambilan setiap 5 menit).'; return; }
+        var note = document.createElement('p'); note.textContent = 'Masuk dengan akun Google pemilik rekap untuk membuka foto privat.'; cell.append(note);
+        result.photos.sort(function(a,b){return a.sequence-b.sequence;}).forEach(function(p){
+          if (!/^https:\/\/drive\.google\.com\/file\/d\/[\w-]+\/view/.test(p.url)) return;
+          var link = document.createElement('a'); link.href = p.url; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.style.display = 'block';
+          link.textContent = 'Foto ' + p.sequence + ' · ' + new Date(p.time).toLocaleString('id-ID',{timeZone:'Asia/Jakarta'}); cell.append(link);
+        });
+      } catch(err) { button.disabled = false; button.textContent = 'Coba muat foto lagi'; }
+    };
+    return cell;
+  }
   function td(text, c) { var e = document.createElement('td'); e.textContent = text; if (c) e.className = c; return e; }
 
   function render() {
@@ -272,6 +294,7 @@
       tr.append(td(r.waktu.replace(' WIB', '')), td(r.nama));
       var l = td(r.lat); var sub = document.createElement('div'); sub.className = 'rk-sub'; sub.textContent = r.subj + ' · ' + r.benar; l.append(sub);
       tr.append(l, td(r.nilai, 'n ' + cls(r.nilai)), td(r.salah, 'rk-opt'), td(r.lama, 'rk-opt'), td(r.departures == null ? 'Belum dipantau' : r.departures + ' kali'));
+      tr.append(photoCell(r.attempt));
       body.append(tr);
     });
     $('empty').hidden = list.length > 0;

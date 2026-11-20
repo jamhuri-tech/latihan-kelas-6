@@ -224,3 +224,5 @@ body {font-size:1.0625rem;line-height:1.7}
   line-height: 1.6;
   overflow-wrap: anywhere;
 }
+
+.camera-panel{margin:1rem 0;padding:1rem;border:2px solid #7c69b3;border-radius:18px;background:#f8f5ff}.camera-panel h2{margin-top:0}.camera-panel label{display:flex;gap:.6rem;align-items:flex-start;margin:1rem 0}.camera-panel input{width:22px;height:22px;flex-shrink:0}.camera-panel video{display:block;width:min(100%,280px);aspect-ratio:4/3;object-fit:cover;border-radius:12px;background:#201a31;margin-top:1rem}.stage[aria-disabled="true"]{opacity:.45;pointer-events:none;user-select:none}
