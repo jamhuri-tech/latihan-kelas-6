@@ -214,3 +214,13 @@ body {font-size:1.0625rem;line-height:1.7}
   font-size: 1.0625rem;
   line-height: 1.6;
 }
+
+.quiz-activity {
+  padding: 12px 14px;
+  border: 1px solid #c7cbd6;
+  border-radius: 10px;
+  background: #f6f7fb;
+  font-size: .9375rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}

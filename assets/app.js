@@ -9,6 +9,7 @@
   var SHEET_URL = 'https://script.google.com/macros/s/AKfycbyhI-46Ltlen5Cuw_QKjCMzPhdXApNTm4NdEEYoHirM94W0KlaAnTXk9awfiB6vdL_Lxg/exec';
   var manifest = null;
   var cache = {};
+  var stopActivity = function () {};
 
   var STORE = {
     get: function (k, d) {
@@ -84,6 +85,7 @@
   }
 
   function launchQuiz(data) {
+    stopActivity();
     document.title = data.title + ' – Ruang Latihan';
     app.className = 'wrap quiz-page s-' + subjSlug(data.subject);
     var root = h('div', { class: 'session-launch' }, h('a', { href: '#/latihan' }, '← Daftar latihan'), h('h1', null, data.title));
@@ -327,6 +329,7 @@
   }
 
   function Quiz(sourceData, profile, fresh) {
+    stopActivity();
     var pointerKey = stateKey(profile, sourceData.id);
     var st = fresh ? {} : (savedFor(profile, sourceData.id) || {});
     ['ans', 'marks', 'order'].forEach(function (k) { if (!st[k]) st[k] = {}; });
@@ -345,6 +348,22 @@
     var gradable = items.filter(function (q) { return q.type !== 'uraian'; });
     var cards = {}, navButtons = {};
     var stage, resultBox, barFill, barText, nextButton, navEndButton;
+    var activityPaused = false;
+    if (!st.checked && !st.completedAt && !st.activity) {
+      st.activity = { version: 1, departures: 0 };
+    }
+    var activityStatus = h('p', { class: 'quiz-activity', role: 'status', 'aria-live': 'polite' });
+
+    function activityText() {
+      return st.activity ? st.activity.departures + ' kali' : 'Belum dipantau';
+    }
+
+    function confirmAction(message) {
+      activityPaused = true;
+      try { return window.confirm(message); }
+      finally { activityPaused = false; }
+    }
+
 
     function save() {
       if (!st.started && Object.keys(st.ans).length) st.started = Date.now();
@@ -619,7 +638,8 @@
         Nilai: String(score),
         Benar: good + ' dari ' + gradable.length + ' soal',
         'Soal yang salah': wrongList,
-        'Lama mengerjakan': mins ? mins + ' menit' : '-',
+        'Lama mengerjakan': QuizActivity.formatDuration(mins ? mins + ' menit' : '-', st.activity),
+        'Perpindahan tab/window': st.activity ? String(st.activity.departures) : 'Belum dipantau',
         Waktu: new Date().toLocaleString('id-ID', { timeZone: 'Asia/Jakarta' }) + ' WIB'
       };
       sendInfo = { text: 'Mencatat nilai…', cls: '' };
@@ -668,6 +688,7 @@
         h('h2', null, pending ? 'Nilai sementara' : 'Hasil latihan'),
         h('div', { class: 'big' }, score),
         h('p', null, good + ' dari ' + gradable.length + ' soal benar. ' + msg + (best != null ? ' (Nilai terbaikmu: ' + best + ')' : '')));
+      box.append(h('p', { class: 'quiz-activity' }, 'Pindah tab/window terdeteksi: ' + activityText()));
       if (pending) box.append(h('p', { class: 'hint' }, 'Beberapa soal isian bebas belum kamu nilai. Cocokkan jawabanmu dengan contoh jawaban, lalu tekan "Sudah sesuai" atau "Belum sesuai" agar nilai akhirnya lengkap.'));
       if (wrong.length) {
         var line = h('p', null, 'Soal yang perlu dicek lagi: ');
@@ -701,13 +722,13 @@
         return;
       }
       var left = gradable.length - gradable.filter(answered).length;
-      if (left > 0 && !window.confirm('Masih ada ' + left + ' soal yang belum dijawab. Tetap kirim sekarang?')) return;
-      st.checked = true; save();
+      if (left > 0 && !confirmAction('Masih ada ' + left + ' soal yang belum dijawab. Tetap kirim sekarang?')) return;
+      st.checked = true; stopActivity(); save();
       renderStage();
       window.scrollTo(0, 0);
     }
     function reset() {
-      if (!st.checked && Object.keys(st.ans).length && !window.confirm('Mulai sesi baru dengan urutan baru? Sesi terakhir akan diganti. Nilai terbaik tetap disimpan.')) return;
+      if (!st.checked && Object.keys(st.ans).length && !confirmAction('Mulai sesi baru dengan urutan baru? Sesi terakhir akan diganti. Nilai terbaik tetap disimpan.')) return;
       Quiz(sourceData, profile, true);
     }
 
@@ -782,6 +803,9 @@
     root.append(h('div', { class: 'progress' },
       h('div', { class: 'row' }, barText, nextButton),
       h('div', { class: 'track', role: 'progressbar', 'aria-label': 'Progres pengerjaan', 'aria-valuemin': '0', 'aria-valuemax': String(gradable.length) }, barFill)));
+    activityStatus.textContent = 'Pindah tab/window terdeteksi: ' + activityText() +
+      '. Perpindahan selama pengerjaan ikut dicatat bersama hasil.';
+    root.append(activityStatus);
     var grid = h('div', { class: 'number-grid' });
     items.forEach(function (q) {
       var label = q.type === 'isian' ? 'I' + q.num : String(q.num);
@@ -801,10 +825,25 @@
     app.replaceChildren(root);
     renderStage();
     window.scrollTo(0, 0);
+    if (st.activity && !st.checked && !st.completedAt) {
+      stopActivity = QuizActivity.watch(window, document, {
+        initial: st.activity.departures,
+        isActive: function () {
+          return root.isConnected && !st.checked && !st.completedAt && !activityPaused;
+        },
+        onChange: function (count) {
+          st.activity.departures = count;
+          activityStatus.textContent = 'Pindah tab/window terdeteksi: ' + activityText() +
+            '. Perpindahan selama pengerjaan ikut dicatat bersama hasil.';
+          save();
+        }
+      });
+    }
   }
 
   /* ---------- router ---------- */
   function route() {
+    stopActivity();
     var hash = location.hash || '#/';
     var m = hash.match(/^#\/quiz\/([\w-]+)$/);
     document.querySelectorAll('.main-nav a').forEach(function (link) {

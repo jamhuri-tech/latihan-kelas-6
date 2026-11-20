@@ -103,7 +103,7 @@
     </section>
     <div class="rk-card rk-scroll">
       <table class="rk-tbl">
-        <thead><tr><th>Waktu</th><th>Nama</th><th>Latihan</th><th class="n">Nilai</th><th class="rk-opt">Soal yang salah</th><th class="rk-opt">Lama</th></tr></thead>
+        <thead><tr><th>Waktu</th><th>Nama</th><th>Latihan</th><th class="n">Nilai</th><th class="rk-opt">Soal yang salah</th><th class="rk-opt">Lama</th><th>Pindah tab/window</th></tr></thead>
         <tbody id="rows"></tbody>
       </table>
       <p id="empty" class="rk-msg" hidden>Belum ada nilai yang cocok.</p>
@@ -112,6 +112,7 @@
 </main>
 <script src="assets/recap-chart.js?v=20261102-type-balanced"></script>
 <script src="assets/recap-coverage.js?v=1"></script>
+<script src="assets/quiz-activity.js?v=20261121-activity"></script>
 <script>
 (function () {
   'use strict';
@@ -155,7 +156,8 @@
       if (!res || res.status !== 'ok') { fail('Gagal memuat nilai.'); return; }
       rows = res.table.rows.map(function (r, order) {
         var c = r.c.map(function (x) { return x ? String(x.f != null ? x.f : (x.v != null ? x.v : '')) : ''; });
-        return { time: RecapChart.timestamp(r.c[0] && r.c[0].v) ?? RecapChart.timestamp(c[0]), order: order, waktu: c[0], nama: (c[1] || '').trim(), subj: (c[2] || '').trim(), lat: (c[3] || '').trim(), nilai: (c[4] || '').trim() ? Number(c[4].replace(',', '.')) : NaN, benar: c[5], salah: c[6], lama: c[7] };
+        var activity = QuizActivity.parseDuration(c[7]);
+        return { time: RecapChart.timestamp(r.c[0] && r.c[0].v) ?? RecapChart.timestamp(c[0]), order: order, waktu: c[0], nama: (c[1] || '').trim(), subj: (c[2] || '').trim(), lat: (c[3] || '').trim(), nilai: (c[4] || '').trim() ? Number(c[4].replace(',', '.')) : NaN, benar: c[5], salah: c[6], lama: activity.duration, departures: activity.departures };
       }).filter(function (r) { return r.nama && r.nama.indexOf('UJI COBA') !== 0; }).reverse();
       $('loginMsg').textContent = ''; $('view').hidden = false;
       updateSubjects();
@@ -269,7 +271,7 @@
       var tr = document.createElement('tr');
       tr.append(td(r.waktu.replace(' WIB', '')), td(r.nama));
       var l = td(r.lat); var sub = document.createElement('div'); sub.className = 'rk-sub'; sub.textContent = r.subj + ' · ' + r.benar; l.append(sub);
-      tr.append(l, td(r.nilai, 'n ' + cls(r.nilai)), td(r.salah, 'rk-opt'), td(r.lama, 'rk-opt'));
+      tr.append(l, td(r.nilai, 'n ' + cls(r.nilai)), td(r.salah, 'rk-opt'), td(r.lama, 'rk-opt'), td(r.departures == null ? 'Belum dipantau' : r.departures + ' kali'));
       body.append(tr);
     });
     $('empty').hidden = list.length > 0;
