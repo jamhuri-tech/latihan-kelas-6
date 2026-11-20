@@ -31,6 +31,8 @@ Drive/OAuth telah disetujui pemilik dan setupCameraStorage selesai. Deployment v
 
 ## Kompatibilitas kamera ponsel
 
-Permintaan kamera dimulai dari klik pengguna tanpa menunggu jaringan. Video memakai atribut muted, playsinline, dan webkit-playsinline; penolakan atau penundaan play() tidak mengunci tombol aktivasi. Tombol Tampilkan pratinjau kamera memulai ulang pemutaran dengan klik langsung tanpa meminta aliran kamera kedua. Jika preferensi kamera tidak didukung, permintaan diulang dengan video:true tanpa audio. Stream lama dilepas sebelum aktivasi ulang agar kamera ponsel tidak tetap terkunci. Soal tetap dijeda sampai gambar dan penyimpanan siap.
+Permintaan kamera dimulai dari klik pengguna tanpa menunggu jaringan. Video memakai atribut muted, playsinline, dan webkit-playsinline; penolakan atau penundaan play() tidak mengunci tombol aktivasi. Tombol Tampilkan pratinjau kamera memulai ulang pemutaran dengan klik langsung tanpa meminta aliran kamera kedua. Jika preferensi kamera tidak didukung, permintaan diulang dengan video:true tanpa audio. Stream lama dilepas sebelum aktivasi ulang agar kamera ponsel tidak tetap terkunci. Soal tetap dijeda sampai gambar dan penyimpanan siap. Kegagalan koneksi penyimpanan tidak mematikan kamera yang telah diizinkan; peserta dapat mencoba ulang koneksi melalui tombol terpisah tanpa membuka kamera kedua. Kamera tetap dimatikan saat persetujuan dicabut, halaman ujian ditinggalkan, atau jawaban dikirim.
 
 Regresi ponsel diuji dengan simulasi autoplay ditolak/tertunda, metadata terlambat, batasan kamera, serta pelepasan stream setelah kegagalan jaringan. Hasil ini bukan pengujian pada perangkat Android/iPhone fisik.
+
+Koneksi baca foto memprioritaskan GET CORS dengan credentials:omit (tanpa cookie akun Google), lalu menggunakan JSONP jika CORS gagal atau belum menjawab setelah lima detik. Tidak ada perubahan akses foto privat.

@@ -5,7 +5,7 @@
 })(typeof window !== 'undefined' ? window : this, function () {
   'use strict';
   var INTERVAL = 60 * 1000;
-  function request(url, params, win, doc) {
+  function jsonp(url, params, win, doc) {
     return new Promise(function (resolve, reject) {
       var cb = 'camera_' + Date.now() + '_' + Math.random().toString(36).slice(2), tag = doc.createElement('script');
       var timer = win.setTimeout(function () { finish(new Error('Layanan foto tidak merespons')); }, 15000);
@@ -17,12 +17,37 @@
       doc.head.appendChild(tag);
     });
   }
+  function request(url, params, win, doc) {
+    // GET แบบไม่ส่งคุกกี้ช่วยหลีกเลี่ยงหน้าลงชื่อเข้าใช้ของ Google ในเบราว์เซอร์หลายบัญชี.
+    // บริการที่ไม่รองรับ CORS ยังคงใช้ JSONP ได้เช่นเดิม.
+    if (!win.fetch) return jsonp(url, params, win, doc);
+    var query = Object.keys(params).map(function(k){return encodeURIComponent(k)+'='+encodeURIComponent(params[k]);}).join('&');
+    return new Promise(function(resolve,reject){
+      var settled = false, controller = win.AbortController ? new win.AbortController() : null;
+      var timer = win.setTimeout(fallback,5000);
+      function fallback() {
+        if (settled) return;
+        settled = true; win.clearTimeout(timer); if (controller) controller.abort();
+        jsonp(url,params,win,doc).then(resolve,reject);
+      }
+      Promise.resolve().then(function(){
+        return win.fetch(url+'?'+query,{method:'GET',mode:'cors',credentials:'omit',signal:controller ? controller.signal : undefined});
+      }).then(function(response){
+        if (!response.ok) throw new Error('Layanan foto tidak merespons');
+        return response.json();
+      }).then(function(data){
+        if (settled) return;
+        if (!data || !data.ok) { fallback(); return; }
+        settled = true; win.clearTimeout(timer); resolve(data);
+      },fallback);
+    });
+  }
   function live(stream) {
     return !!stream && stream.getVideoTracks().some(function (t) { return t.readyState === 'live' && t.enabled && !t.muted; });
   }
   function mount(options) {
     var win = options.window || window, doc = options.document || document;
-    var stream, disposed = false, generation = 0, ready = false, storageReady = false, busy = false, playbackBlocked = false, uploading = false, pending = null;
+    var stream, disposed = false, generation = 0, ready = false, storageReady = false, storageBusy = false, storageError = false, busy = false, playbackBlocked = false, uploading = false, pending = null;
     var state = options.state, box = doc.createElement('section'); box.className = 'camera-panel';
     box.setAttribute('aria-label', 'Kamera ujian');
     var heading = doc.createElement('h2'); heading.textContent = 'Persetujuan kamera ujian';
@@ -35,9 +60,10 @@
     ['autoplay','muted','playsinline','webkit-playsinline'].forEach(function(attr){video.setAttribute(attr,'');});
     video.setAttribute('aria-label', 'Pratinjau kamera');
     var previewButton = doc.createElement('button'); previewButton.type = 'button'; previewButton.className = 'btn ghost'; previewButton.textContent = 'Tampilkan pratinjau kamera'; previewButton.hidden = true;
+    var storageButton = doc.createElement('button'); storageButton.type = 'button'; storageButton.className = 'btn ghost'; storageButton.textContent = 'Coba koneksi penyimpanan foto'; storageButton.hidden = true;
     var status = doc.createElement('p'); status.setAttribute('role','status'); status.textContent = 'Soal dijeda sampai kamera aktif dan persetujuan diberikan.';
     var upload = doc.createElement('p'); upload.className = 'hint';
-    box.append(heading,note,label,button,video,previewButton,status,upload); options.container.appendChild(box);
+    box.append(heading,note,label,button,video,previewButton,storageButton,status,upload); options.container.appendChild(box);
     function setReady(value) { ready = value; options.onReady(value); }
     function check() {
       if (disposed) return;
@@ -50,17 +76,20 @@
       } else if (stream && playbackBlocked) {
         status.textContent = 'Izin kamera sudah diterima. Ketuk “Tampilkan pratinjau kamera” untuk memulai video di ponsel.';
       } else if (stream && !live(stream)) {
-        status.textContent = 'Kamera terhenti. Tutup aplikasi lain yang memakai kamera, lalu aktifkan kembali.';
+        var ended = stream.getVideoTracks().some(function(track){return track.readyState === 'ended';});
+        status.textContent = ended ? 'Aliran kamera dihentikan oleh browser atau perangkat. Tutup aplikasi lain yang memakai kamera, lalu tekan aktifkan kamera kembali.' : 'Gambar kamera sedang dijeda oleh ponsel. Kembali ke halaman ini; jika belum pulih, aktifkan kamera kembali.';
       } else if (stream && !storageReady) {
-        status.textContent = 'Kamera tersambung. Memeriksa penyimpanan foto privat…';
+        status.textContent = storageError ? 'Kamera tetap tersambung. Penyimpanan foto belum terhubung. Ketuk “Coba koneksi penyimpanan foto”. Soal masih dijeda.' : 'Kamera tersambung. Memeriksa penyimpanan foto privat…';
       } else if (stream) {
         status.textContent = 'Menunggu gambar kamera. Jika tetap hitam, ketuk “Tampilkan pratinjau kamera” atau aktifkan kamera kembali.';
       } else {
         status.textContent = 'Pengerjaan dijeda. Aktifkan kamera untuk melanjutkan.';
       }
+      storageButton.hidden = !consent.checked || !stream || storageReady;
+      storageButton.disabled = storageBusy;
       button.disabled = busy || !consent.checked;
     }
-    function stopTracks() { if (stream) stream.getTracks().forEach(function (t) { t.stop(); }); stream = null; video.srcObject = null; previewButton.hidden = true; }
+    function stopTracks() { if (stream) stream.getTracks().forEach(function (t) { t.stop(); }); stream = null; video.srcObject = null; previewButton.hidden = true; storageButton.hidden = true; }
     function playPreview(token) {
       if (disposed || token !== generation || !stream || !consent.checked) return;
       playbackBlocked = false;
@@ -79,9 +108,29 @@
     video.onloadedmetadata = function(){playPreview(generation);};
     video.onplaying = check;
     video.onpause = video.onended = function(){if (stream) check();};
+    async function connectStorage(token) {
+      if (storageBusy || disposed || !consent.checked) return;
+      storageBusy = true; storageError = false; storageButton.disabled = true; if (stream) check();
+      try {
+        var capabilities = await request(options.url,{action:'capabilities'},win,doc);
+        if (!capabilities.camera) throw new Error('Penyimpanan foto belum diaktifkan');
+        if (!disposed && token === generation && consent.checked) {
+          storageReady = true;
+          if (!state.camera) state.camera = {sequence:0,lastAt:Date.now()};
+          options.save();
+        }
+      } catch(err) {
+        if (!disposed && token === generation) { storageReady = false; storageError = true; }
+      } finally {
+        storageBusy = false;
+        if (!disposed && token === generation) check();
+        else if (!disposed && consent.checked && stream && !storageReady) connectStorage(generation);
+      }
+    }
+    storageButton.onclick = function(){return connectStorage(generation);};
     button.onclick = async function () {
       if (disposed || busy || !consent.checked) return;
-      busy = true; storageReady = false; playbackBlocked = false; setReady(false); stopTracks();
+      busy = true; playbackBlocked = false; setReady(false); stopTracks();
       button.disabled = true; options.onPermission(true); var token = ++generation;
       async function acquire() {
         if (!win.navigator.mediaDevices || !win.navigator.mediaDevices.getUserMedia) throw new Error('Kamera tidak tersedia di browser ini. Buka tautan HTTPS langsung di Chrome atau Safari, bukan browser di dalam aplikasi chat.');
@@ -102,14 +151,10 @@
       try {
         status.textContent = 'Meminta izin kamera dan memeriksa penyimpanan foto privat…';
         var media = acquire();
-        var storage = request(options.url,{action:'capabilities'},win,doc).then(function(capabilities){
-          if (!capabilities.camera) throw new Error('Penyimpanan foto belum diaktifkan oleh pengelola.');
-        });
-        await Promise.all([media,storage]);
+        if (!storageReady) connectStorage(token);
+        await media;
         if (disposed || token !== generation || !consent.checked) return;
-        storageReady = true;
-        if (!state.camera) state.camera = {sequence:0,lastAt:Date.now()};
-        options.save(); check();
+        check();
       } catch(err) {
         if (!disposed && token === generation) {
           generation++; storageReady = false; stopTracks(); setReady(false);
