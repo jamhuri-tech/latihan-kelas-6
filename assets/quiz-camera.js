@@ -22,7 +22,7 @@
   }
   function mount(options) {
     var win = options.window || window, doc = options.document || document;
-    var stream, disposed = false, generation = 0, ready = false, busy = false, uploading = false, pending = null;
+    var stream, disposed = false, generation = 0, ready = false, storageReady = false, busy = false, playbackBlocked = false, uploading = false, pending = null;
     var state = options.state, box = doc.createElement('section'); box.className = 'camera-panel';
     box.setAttribute('aria-label', 'Kamera ujian');
     var heading = doc.createElement('h2'); heading.textContent = 'Persetujuan kamera ujian';
@@ -31,38 +31,94 @@
     var label = doc.createElement('label'), consent = doc.createElement('input'); consent.type = 'checkbox';
     label.append(consent, doc.createTextNode(' Saya dan orang tua menyetujui penggunaan kamera serta penyimpanan foto berkala.'));
     var button = doc.createElement('button'); button.type = 'button'; button.className = 'btn ghost'; button.textContent = 'Setujui dan aktifkan kamera'; button.disabled = true;
-    var video = doc.createElement('video'); video.autoplay = true; video.muted = true; video.playsInline = true; video.setAttribute('aria-label', 'Pratinjau kamera');
+    var video = doc.createElement('video'); video.autoplay = true; video.muted = true; video.defaultMuted = true; video.playsInline = true;
+    ['autoplay','muted','playsinline','webkit-playsinline'].forEach(function(attr){video.setAttribute(attr,'');});
+    video.setAttribute('aria-label', 'Pratinjau kamera');
+    var previewButton = doc.createElement('button'); previewButton.type = 'button'; previewButton.className = 'btn ghost'; previewButton.textContent = 'Tampilkan pratinjau kamera'; previewButton.hidden = true;
     var status = doc.createElement('p'); status.setAttribute('role','status'); status.textContent = 'Soal dijeda sampai kamera aktif dan persetujuan diberikan.';
     var upload = doc.createElement('p'); upload.className = 'hint';
-    box.append(heading,note,label,button,video,status,upload); options.container.appendChild(box);
+    box.append(heading,note,label,button,video,previewButton,status,upload); options.container.appendChild(box);
     function setReady(value) { ready = value; options.onReady(value); }
     function check() {
-      var value = !disposed && consent.checked && live(stream) && video.readyState >= 2;
+      if (disposed) return;
+      var value = consent.checked && storageReady && live(stream) && video.readyState >= 2 && video.videoWidth > 0 && !video.paused && !video.ended;
       setReady(value);
-      status.textContent = value ? 'Kamera aktif. Foto berkala setiap 1 menit. Mikrofon tidak digunakan.' : 'Pengerjaan dijeda. Aktifkan kamera untuk melanjutkan.';
+      previewButton.hidden = !stream || value || !consent.checked;
+      if (value) {
+        playbackBlocked = false;
+        status.textContent = 'Kamera aktif. Foto berkala setiap 1 menit. Mikrofon tidak digunakan.';
+      } else if (stream && playbackBlocked) {
+        status.textContent = 'Izin kamera sudah diterima. Ketuk “Tampilkan pratinjau kamera” untuk memulai video di ponsel.';
+      } else if (stream && !live(stream)) {
+        status.textContent = 'Kamera terhenti. Tutup aplikasi lain yang memakai kamera, lalu aktifkan kembali.';
+      } else if (stream && !storageReady) {
+        status.textContent = 'Kamera tersambung. Memeriksa penyimpanan foto privat…';
+      } else if (stream) {
+        status.textContent = 'Menunggu gambar kamera. Jika tetap hitam, ketuk “Tampilkan pratinjau kamera” atau aktifkan kamera kembali.';
+      } else {
+        status.textContent = 'Pengerjaan dijeda. Aktifkan kamera untuk melanjutkan.';
+      }
       button.disabled = busy || !consent.checked;
     }
-    function stopTracks() { if (stream) stream.getTracks().forEach(function (t) { t.stop(); }); stream = null; video.srcObject = null; }
-    consent.onchange = function () { if (!consent.checked) { generation++; stopTracks(); } check(); };
-    video.onloadeddata = check; video.onplaying = check;
+    function stopTracks() { if (stream) stream.getTracks().forEach(function (t) { t.stop(); }); stream = null; video.srcObject = null; previewButton.hidden = true; }
+    function playPreview(token) {
+      if (disposed || token !== generation || !stream || !consent.checked) return;
+      playbackBlocked = false;
+      // Safari/ponsel dapat menolak atau menunda play(). Jangan biarkan tombol aktivasi terkunci karenanya.
+      try {
+        var result = video.play();
+        if (result && result.then) result.then(function(){if (!disposed && token === generation) check();},function(){
+          if (!disposed && token === generation) { playbackBlocked = true; check(); }
+        });
+      } catch(err) { playbackBlocked = true; }
+      check();
+    }
+    previewButton.onclick = function(){playPreview(generation);};
+    consent.onchange = function () { if (!consent.checked) { generation++; storageReady = false; stopTracks(); } check(); };
+    video.onloadeddata = check;
+    video.onloadedmetadata = function(){playPreview(generation);};
+    video.onplaying = check;
+    video.onpause = video.onended = function(){if (stream) check();};
     button.onclick = async function () {
       if (disposed || busy || !consent.checked) return;
-      busy = true; button.disabled = true; options.onPermission(true); var token = ++generation;
-      try {
-        status.textContent = 'Memeriksa penyimpanan foto privat…';
-        var capabilities = await request(options.url,{action:'capabilities'},win,doc);
-        if (!capabilities.camera) throw new Error('Penyimpanan foto belum diaktifkan oleh pengelola.');
-        if (disposed || token !== generation) return;
-        if (!win.navigator.mediaDevices || !win.navigator.mediaDevices.getUserMedia) throw new Error('Kamera memerlukan HTTPS dan browser yang mendukung izin kamera.');
-        var next = await win.navigator.mediaDevices.getUserMedia({video:{facingMode:'user',width:{ideal:640},height:{ideal:480}},audio:false});
+      busy = true; storageReady = false; playbackBlocked = false; setReady(false); stopTracks();
+      button.disabled = true; options.onPermission(true); var token = ++generation;
+      async function acquire() {
+        if (!win.navigator.mediaDevices || !win.navigator.mediaDevices.getUserMedia) throw new Error('Kamera tidak tersedia di browser ini. Buka tautan HTTPS langsung di Chrome atau Safari, bukan browser di dalam aplikasi chat.');
+        var next;
+        try {
+          // Panggil dari klik pengguna, sebelum menunggu jaringan, agar izin kamera ponsel tetap terkait tindakan pengguna.
+          next = await win.navigator.mediaDevices.getUserMedia({video:{facingMode:{ideal:'user'},width:{ideal:640},height:{ideal:480}},audio:false});
+        } catch(err) {
+          if (disposed || token !== generation || !consent.checked) return;
+          if (err.name !== 'OverconstrainedError' && err.name !== 'NotFoundError') throw err;
+          next = await win.navigator.mediaDevices.getUserMedia({video:true,audio:false});
+        }
         if (disposed || token !== generation || !consent.checked) { next.getTracks().forEach(function(t){t.stop();}); return; }
-        stopTracks(); stream = next; video.srcObject = stream;
+        stream = next; video.srcObject = stream;
         stream.getVideoTracks().forEach(function(t){ t.addEventListener('ended',check); t.addEventListener('mute',check); t.addEventListener('unmute',check); });
-        await video.play();
+        playPreview(token);
+      }
+      try {
+        status.textContent = 'Meminta izin kamera dan memeriksa penyimpanan foto privat…';
+        var media = acquire();
+        var storage = request(options.url,{action:'capabilities'},win,doc).then(function(capabilities){
+          if (!capabilities.camera) throw new Error('Penyimpanan foto belum diaktifkan oleh pengelola.');
+        });
+        await Promise.all([media,storage]);
+        if (disposed || token !== generation || !consent.checked) return;
+        storageReady = true;
         if (!state.camera) state.camera = {sequence:0,lastAt:Date.now()};
         options.save(); check();
       } catch(err) {
-        if (!disposed && token === generation) { setReady(false); status.textContent = 'Kamera belum aktif: ' + (err.name === 'NotAllowedError' ? 'izin ditolak. Izinkan kamera di pengaturan browser, lalu coba lagi.' : err.message); }
+        if (!disposed && token === generation) {
+          generation++; storageReady = false; stopTracks(); setReady(false);
+          var message = err.message;
+          if (err.name === 'NotAllowedError' || err.name === 'SecurityError') message = 'izin kamera belum tersedia. Izinkan kamera untuk situs ini dan untuk browser pada pengaturan ponsel. Jika dibuka dari aplikasi chat, buka tautan langsung di Chrome atau Safari.';
+          else if (err.name === 'NotReadableError' || err.name === 'AbortError') message = 'kamera belum dapat digunakan. Tutup aplikasi lain yang memakai kamera, lalu coba lagi.';
+          else if (err.name === 'NotFoundError') message = 'kamera tidak ditemukan. Coba browser utama ponsel dan periksa izin kameranya.';
+          status.textContent = 'Kamera belum aktif: ' + message;
+        }
       } finally { busy = false; options.onPermission(false); if (!disposed) button.disabled = !consent.checked; }
     };
     async function uploadPending() {

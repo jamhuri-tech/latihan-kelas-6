@@ -28,3 +28,9 @@ Drive/OAuth telah disetujui pemilik dan setupCameraStorage selesai. Deployment v
 `node tests/quiz-camera.test.cjs`: izin, penolakan, aliran terputus, interval, tanda terima, identitas sesi, penghentian dan izin yang terlambat.
 
 `node tests/camera-backend.test.cjs` (dari direktori induk proyek): validasi JPEG/ukuran/nomor, deduplikasi, pemisahan sesi, JSONP, dan kolom nilai lama. Pengujian menggunakan tiruan Drive/Sheet dan tidak memotret pengguna.
+
+## Kompatibilitas kamera ponsel
+
+Permintaan kamera dimulai dari klik pengguna tanpa menunggu jaringan. Video memakai atribut muted, playsinline, dan webkit-playsinline; penolakan atau penundaan play() tidak mengunci tombol aktivasi. Tombol Tampilkan pratinjau kamera memulai ulang pemutaran dengan klik langsung tanpa meminta aliran kamera kedua. Jika preferensi kamera tidak didukung, permintaan diulang dengan video:true tanpa audio. Stream lama dilepas sebelum aktivasi ulang agar kamera ponsel tidak tetap terkunci. Soal tetap dijeda sampai gambar dan penyimpanan siap.
+
+Regresi ponsel diuji dengan simulasi autoplay ditolak/tertunda, metadata terlambat, batasan kamera, serta pelepasan stream setelah kegagalan jaringan. Hasil ini bukan pengujian pada perangkat Android/iPhone fisik.
