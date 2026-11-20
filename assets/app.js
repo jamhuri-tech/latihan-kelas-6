@@ -24,7 +24,11 @@
     }
   };
   var header = document.querySelector('.site-head');
-  function measureHeader() { if (header) document.documentElement.style.setProperty('--header-height', header.offsetHeight + 'px'); }
+  function measureHeader() {
+    if (!header) return;
+    var position = window.getComputedStyle(header).position;
+    document.documentElement.style.setProperty('--header-height', (position === 'sticky' || position === 'fixed' ? header.offsetHeight : 0) + 'px');
+  }
   if (window.ResizeObserver && header) new ResizeObserver(measureHeader).observe(header);
   else window.addEventListener('resize', measureHeader);
   measureHeader();

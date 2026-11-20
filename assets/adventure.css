@@ -226,3 +226,19 @@ body {font-size:1.0625rem;line-height:1.7}
 }
 
 .camera-panel{margin:1rem 0;padding:1rem;border:2px solid #7c69b3;border-radius:18px;background:#f8f5ff}.camera-panel h2{margin-top:0}.camera-panel label{display:flex;gap:.6rem;align-items:flex-start;margin:1rem 0}.camera-panel input{width:22px;height:22px;flex-shrink:0}.camera-panel video{display:block;width:min(100%,280px);aspect-ratio:4/3;object-fit:cover;border-radius:12px;background:#201a31;margin-top:1rem}.stage[aria-disabled="true"]{opacity:.45;pointer-events:none;user-select:none}
+
+/* Menu tetap tersedia; pada ponsel tidak ada panel yang menutupi bacaan. */
+.menu-toggle {display:none}
+@media(max-width:760px) {
+ .site-head {position:static;top:auto;backdrop-filter:none}
+ .header-inner {display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;min-height:64px;gap:10px;padding-top:10px;padding-bottom:10px}
+ .brand {font-size:1.0625rem;gap:8px}
+ .brand small {font-size:.75rem;letter-spacing:1.6px;margin-top:2px}
+ .brand-mark {width:36px;height:36px;border-radius:11px}
+ .brand-mark svg {width:28px;height:28px}
+ .collapsible-header .menu-toggle {display:block;min-height:44px;padding:8px 12px;border:1px solid #ddd2eb;border-radius:12px;background:#f0eafb;color:#51357b;font:inherit;font-size:.9375rem;font-weight:650;cursor:pointer;margin-left:auto}
+ .collapsible-header:not(.menu-open) .main-nav {display:none}
+ .collapsible-header.menu-open .main-nav {display:grid;margin-top:0}
+ .progress {position:static;top:auto;padding:10px;margin-bottom:14px}
+ .q,.finish,.catalog {scroll-margin-top:16px}
+}
