@@ -192,3 +192,25 @@ body {font-size:1.0625rem;line-height:1.7}
 .opts>li {min-width:0;max-width:100%}
 .opt>span:last-child {min-width:0;max-width:100%;flex:1;overflow-x:auto;padding-block:.15em}
 .stem .katex,.math-explanation .katex {display:inline-block;max-width:100%;overflow-x:auto;vertical-align:middle;padding-block:.15em}
+
+/* Aturan pengerjaan dibaca sebelum memilih sesi dan sebelum soal. */
+.tka-rules {
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid #b42318;
+  border-radius: 16px;
+  background: #fff1f0;
+  color: #7a1b14;
+  overflow-wrap: anywhere;
+}
+.tka-rules strong {
+  display: block;
+  font-size: clamp(1.375rem, 4vw, 1.875rem);
+  font-weight: 900;
+  line-height: 1.35;
+}
+.tka-rules p {
+  margin: 10px 0 0;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}

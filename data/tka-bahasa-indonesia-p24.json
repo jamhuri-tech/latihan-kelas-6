@@ -1,0 +1,629 @@
+{
+ "id": "tka-bahasa-indonesia-p24",
+ "subject": "Bahasa Indonesia",
+ "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 24)",
+ "desc": "Latihan 21 November 2026. Lima bacaan dengan pertanyaan tentang bukti, sudut pandang, dan simpulan.",
+ "sections": [
+  {
+   "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
+   "passage": {
+    "title": "Halaman yang Tertukar",
+    "paras": [
+     "Aku menyusun majalah dinding kelas. Dita membawa tiga lembar tulisan. Setiap lembar berisi bagian cerita. Aku meletakkannya sesuai urutan kedatangan. Lembar yang tiba pertama kupasang paling atas. Judul kutempel di sebelah gambar kapal.",
+     "Saat istirahat, Bayu membaca ceritanya. Ia bertanya mengapa kapal tiba dahulu. Pada bagian bawah, kapal baru berangkat. Aku mengira Bayu melewatkan sebuah kalimat. Aku mengajaknya membaca dari atas. Kami menemukan peristiwa yang berulang.",
+     "Dita datang membawa catatan aslinya. Setiap bagian mempunyai nomor kecil. Nomor itu kututupi dengan pita hias. Kami melepas pita secara perlahan. Angka dua ternyata berada paling atas. Bagian pertama masih di dekat meja.",
+     "Kami mengurutkan kembali ketiga lembar. Aku membaca sambungan pada setiap bagian. Kata sesudah itu kini terasa cocok. Cerita dimulai ketika kapal meninggalkan pelabuhan. Cerita berakhir ketika penumpang tiba. Bayu dapat menceritakan perjalanan tanpa bingung.",
+     "Aku tetap ingin memakai pita hias. Dita menyarankan pita di tepi kosong. Nomor bagian dibiarkan terlihat. Sebelum memasang gambar, kami membaca ulang. Aku meminta Bayu mencoba sekali lagi. Ia mengikuti cerita sampai selesai."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q1",
+     "num": 1,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa urutan kedatangan lembar menghasilkan cerita membingungkan?"
+      }
+     ],
+     "opts": [
+      "Urutan datang berbeda dari urutan peristiwa.",
+      "Cerita sengaja dimulai dari akhir perjalanan.",
+      "Bayu membaca bagian bawah sebelum judul.",
+      "Setiap lembar menceritakan kapal yang berbeda."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q2",
+     "num": 2,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Informasi apa yang semula terhalang pita hias?"
+      }
+     ],
+     "opts": [
+      "Nomor yang menunjukkan urutan bagian cerita.",
+      "Nama penulis yang membawa lembar ke kelas.",
+      "Gambar kapal yang ditempel di sebelah judul.",
+      "Waktu ketika lembar cerita diterima tokoh."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q3",
+     "num": 3,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa bukti awal bahwa masalah terletak pada urutan lembar?"
+      }
+     ],
+     "opts": [
+      "Bayu berhenti membaca ketika waktu istirahat.",
+      "Dita membawa catatan asli untuk diperiksa.",
+      "Judul cerita ditempel dekat gambar kapal.",
+      "Kapal sudah tiba sebelum diceritakan berangkat."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q4",
+     "num": 4,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Fungsi ungkapan sesudah itu dalam cerita yang sudah dibenahi adalah ..."
+      }
+     ],
+     "opts": [
+      "Menghubungkan peristiwa berikutnya dengan peristiwa sebelumnya.",
+      "Menjelaskan siapa yang mengantarkan setiap lembar cerita.",
+      "Mengganti nomor bagian yang tidak dapat dibaca lagi.",
+      "Menunjukkan tempat semua gambar perlu ditempelkan."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q5",
+     "num": 5,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Tindakan mana mempertemukan keinginan tokoh dan kebutuhan pembaca?"
+      }
+     ],
+     "opts": [
+      "Memasang hiasan di tepi dan membiarkan nomor terlihat.",
+      "Menghapus nomor lalu meminta pembaca menghafal susunannya.",
+      "Menambah pita pada nomor agar pembaca memperhatikan gambar.",
+      "Membiarkan urutan awal sambil menambah satu gambar kapal."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q6",
+     "num": 6,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa perubahan pada sikap tokoh terhadap komentar Bayu?"
+      }
+     ],
+     "opts": [
+      "Ia meminta Dita mengganti semua isi cerita Bayu.",
+      "Ia menganggap komentar tidak penting setelah melihat nomor.",
+      "Ia memilih menghentikan cerita pada bagian keberangkatan.",
+      "Ia memeriksa komentar itu dan menguji susunan baru."
+     ],
+     "ans": 3
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 2 untuk soal nomor 7 sampai 12.",
+   "passage": {
+    "title": "Membaca Jejak di Pasir",
+    "paras": [
+     "Murid mengamati pasir di tepi sungai. Mereka menemukan beberapa jejak kecil. Ada jejak memanjang menuju air. Ada pula jejak berputar dekat batu. Guru meminta murid menggambar bentuknya. Mereka belum menamai hewan pembuat jejak.",
+     "Tono melihat gambar burung dalam buku. Ia menemukan bentuk yang tampak serupa. Ia ingin menulis nama burung tersebut. Sela meminta melihat ukuran pada buku. Gambar tidak disertai penjelasan ukuran asli. Besar gambar belum menunjukkan besar jejak.",
+     "Kelompok mengukur jejak dengan penggaris. Mereka juga mencatat jumlah ujung jari. Jejak yang kabur digambar terpisah. Hujan ringan sempat membasahi sebagian pasir. Bentuk beberapa jejak menjadi kurang jelas. Murid tidak melengkapi bagian hilang dengan tebakan.",
+     "Guru membawa daftar ciri beberapa hewan. Kelompok membandingkan bentuk dan ukuran sekaligus. Dua jenis hewan memiliki ciri mirip. Mereka menulis dua kemungkinan dalam laporan. Murid belum melihat hewan melintas. Mereka ingin mengamati tempat itu kembali.",
+     "Catatan disimpan bersama tanggal pengamatan. Foto diberi penggaris sebagai pembanding. Pembaca dapat memeriksa perkiraan ukuran. Kelompok lain boleh membandingkan catatannya. Nama hewan tetap ditulis sebagai kemungkinan. Mereka menunggu bukti yang lebih jelas."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q7",
+     "num": 7,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Makna jejak dalam bacaan paling tepat adalah ..."
+      }
+     ],
+     "opts": [
+      "Gambar hewan yang tercetak dalam buku.",
+      "Arah sungai yang ditandai pada penggaris.",
+      "Batu yang bergerak setelah hujan ringan.",
+      "Bekas pijakan yang tertinggal di pasir."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q8",
+     "num": 8,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa kemiripan gambar belum cukup menentukan hewan?"
+      }
+     ],
+     "opts": [
+      "Besar gambar selalu sama dengan ukuran hewan asli.",
+      "Bentuk dapat mirip sementara ukuran belum diperiksa.",
+      "Nama hewan sudah diketahui dari arah menuju air.",
+      "Jejak dekat batu pasti berasal dari hewan berbeda."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q9",
+     "num": 9,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi penggaris yang ikut difoto?"
+      }
+     ],
+     "opts": [
+      "Menunjukkan arah hewan bergerak di tepi sungai.",
+      "Memperbaiki bagian jejak yang sudah terkena hujan.",
+      "Memberi acuan untuk memperkirakan ukuran jejak.",
+      "Menggantikan tanggal pada catatan hasil pengamatan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q10",
+     "num": 10,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa jejak kabur dicatat terpisah?"
+      }
+     ],
+     "opts": [
+      "Jejak kabur tidak pernah berasal dari burung.",
+      "Kelompok telah mengetahui semua pembuat jejak jelas.",
+      "Ketidakjelasan bentuk perlu terlihat dalam laporan.",
+      "Foto kabur memiliki ukuran yang selalu lebih besar."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q11",
+     "num": 11,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan mana sesuai dengan bukti yang tersedia?"
+      }
+     ],
+     "opts": [
+      "Hewan pada gambar buku pasti membuat seluruh jejak.",
+      "Ada dua kemungkinan hewan dengan ciri jejak serupa.",
+      "Jejak memanjang dan berputar dibuat hewan yang sama.",
+      "Hujan membuat semua hewan meninggalkan sungai bersama."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q12",
+     "num": 12,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Pemeriksaan tambahan mana paling langsung mengurangi ketidakpastian?"
+      }
+     ],
+     "opts": [
+      "Mengamati hewan melintas dan jejak yang ditinggalkannya.",
+      "Memperbesar gambar buku sampai sama dengan foto.",
+      "Memberi nama hewan berbeda pada tiap jejak kabur.",
+      "Menghapus satu kemungkinan agar laporan lebih singkat."
+     ],
+     "ans": 0
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 3 untuk soal nomor 13 sampai 18.",
+   "passage": {
+    "title": "Gantungan Merah Milik Siapa",
+    "paras": [
+     "Aku mengikuti kegiatan menggambar di taman. Semua peserta menaruh tas dekat bangku. Rafi mengikat gantungan merah pada tasku. Ia ingin tasku mudah dikenali. Dua anak lain memakai gantungan serupa. Aku tidak memperhatikannya saat mulai menggambar.",
+     "Ketika hujan turun, kami berlari berteduh. Aku meraih tas bergantungan merah. Tas itu terasa lebih berat. Aku mengira botolku masih penuh. Di bawah atap aku membuka kantong. Buku sketsanya ternyata bukan milikku.",
+     "Aku segera menutup tas kembali. Aku meminta petugas menemani mencari pemiliknya. Rafi datang membawa tasku yang sebenarnya. Ia mengenali tambalan pada tali bahu. Gantungan merah saja belum cukup. Aku menunjukkan tas yang keliru kuambil.",
+     "Petugas mengajak pemilik memeriksa barangnya. Aku menjelaskan kejadian dan meminta maaf. Ia menerima tas setelah memeriksanya. Aku lalu mengecek buku dalam tasku. Buku sketsa masih berada di tempatnya. Kami dapat melanjutkan kegiatan di bawah atap.",
+     "Sebelum pulang, Rafi menanyakan gantungan merah. Aku tetap ingin memakainya. Namun, aku mengingat tambalan tali bahu. Aku juga menulis nama pada label. Esok hari, aku memeriksa beberapa ciri. Aku tidak langsung menarik tas dari bangku."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q13",
+     "num": 13,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa penyebab utama gantungan merah belum cukup mengenali tas?"
+      }
+     ],
+     "opts": [
+      "Beberapa peserta memakai gantungan yang serupa.",
+      "Gantungan merah dilepas Rafi ketika hujan turun.",
+      "Tas tokoh tidak lagi berada di dekat bangku.",
+      "Gantungan yang dipakai tokoh berubah warna setelah basah."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q14",
+     "num": 14,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Peristiwa mana pertama kali memastikan tas itu milik orang lain?"
+      }
+     ],
+     "opts": [
+      "Tokoh merasa tas yang diangkatnya lebih berat.",
+      "Rafi bertanya apakah gantungan merah tetap dipakai.",
+      "Petugas meminta pemilik memeriksa semua barangnya.",
+      "Tokoh menemukan buku sketsa yang bukan miliknya."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q15",
+     "num": 15,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa petugas dilibatkan setelah tas keliru dibuka?"
+      }
+     ],
+     "opts": [
+      "Agar petugas memilih buku sketsa yang boleh dibawa tokoh.",
+      "Agar gantungan merah pada semua tas segera diganti.",
+      "Agar pemilik menyerahkan label baru kepada peserta.",
+      "Agar pencarian pemilik dan pengembalian dilakukan dengan jelas."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q16",
+     "num": 16,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Sikap tokoh yang paling didukung bagian penyelesaian adalah ..."
+      }
+     ],
+     "opts": [
+      "Berusaha menyembunyikan buku sampai kegiatan selesai.",
+      "Lebih suka menunggu pemilik menuduh peserta lain.",
+      "Bersedia menjelaskan kesalahan dan memperbaikinya.",
+      "Menganggap tas berat boleh dibawa selama hujan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q17",
+     "num": 17,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa hubungan tambalan tali dengan label nama pada akhir cerita?"
+      }
+     ],
+     "opts": [
+      "Keduanya menggantikan semua tanda yang dipasang Rafi.",
+      "Keduanya menambah ciri pembeda di luar gantungan.",
+      "Keduanya menunjukkan jumlah buku di dalam tas.",
+      "Keduanya dipakai petugas menentukan kelompok gambar."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q18",
+     "num": 18,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Jika hanya melihat satu tanda yang juga dipakai orang lain, risiko yang sesuai cerita adalah ..."
+      }
+     ],
+     "opts": [
+      "Barang pasti lebih berat daripada barang milik sendiri.",
+      "Barang yang tampak cocok bisa tetap milik orang lain.",
+      "Nama pemilik di label akan berubah setelah barang dibuka.",
+      "Petugas tidak dapat mengembalikan barang meskipun pemilik hadir."
+     ],
+     "ans": 1
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 4 untuk soal nomor 19 sampai 24.",
+   "passage": {
+    "title": "Mengirim Pesan melalui Pengeras Suara",
+    "paras": [
+     "Sekolah mengumumkan jadwal melalui pengeras suara. Pengumuman dibacakan dari ruang petugas. Suara terdengar di halaman dan koridor. Murid diminta mendengarkan sebelum masuk kelas. Informasi juga ditempel pada papan dekat kantor. Papan memuat tanggal serta tempat kegiatan.",
+     "Pada pagi tertentu, beberapa kata terputus. Murid mendengar nama kegiatan dengan jelas. Namun, tempat berkumpul kurang terdengar. Beberapa anak mengikuti teman ke aula. Kelompok lain menuju lapangan olahraga. Mereka belum memeriksa papan pengumuman.",
+     "Lina membaca papan di dekat kantor. Kegiatan itu tercantum untuk ruang perpustakaan. Ia melihat tanggal yang sesuai hari. Ia kemudian meminta guru memastikannya. Guru membaca ulang tempat melalui pengeras suara. Murid berkumpul di ruang yang benar.",
+     "Petugas memeriksa sambungan kabel setelah kegiatan. Satu sambungan ternyata kurang rapat. Suara kembali jelas setelah diperbaiki. Petugas tidak langsung menghapus papan informasi. Murid masih bisa membacanya saat ragu. Kedua sarana tetap digunakan bersama.",
+     "Pada pengumuman berikutnya, tempat disebut dua kali. Petugas berhenti sejenak setelah nama ruang. Seorang murid membantu mendengar dari halaman. Ia menunjukkan bagian yang masih kurang jelas. Petugas menyesuaikan cara membacanya lagi. Papan tetap diperbarui sesuai jadwal."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q19",
+     "num": 19,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa murid menuju dua tempat yang berbeda?"
+      }
+     ],
+     "opts": [
+      "Papan memuat dua tanggal untuk kegiatan yang sama.",
+      "Guru meminta sebagian murid masuk ke aula.",
+      "Nama kegiatan terdengar tetapi tempatnya kurang jelas.",
+      "Pengeras suara menyebut dua tempat secara bergiliran."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q20",
+     "num": 20,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Informasi mana membuat Lina yakin papan berkaitan dengan kegiatan hari itu?"
+      }
+     ],
+     "opts": [
+      "Letak papan yang paling dekat dengan aula.",
+      "Jumlah anak yang telah menuju lapangan.",
+      "Warna kabel yang dipasang sesudah kegiatan.",
+      "Nama kegiatan dan tanggal yang sesuai."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q21",
+     "num": 21,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Mengapa papan tetap dipakai setelah kabel diperbaiki?"
+      }
+     ],
+     "opts": [
+      "Perbaikan kabel membuat nama kegiatan tidak bisa dibacakan.",
+      "Pengumuman suara hanya boleh menyampaikan tanggal kegiatan.",
+      "Papan menentukan keras suara yang terdengar di halaman.",
+      "Papan memberi sumber informasi lain ketika pendengar ragu."
+     ],
+     "ans": 3
+    },
+    {
+     "id": "q22",
+     "num": 22,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi murid yang mendengar dari halaman?"
+      }
+     ],
+     "opts": [
+      "Menggantikan guru saat memilih tempat kegiatan.",
+      "Memastikan kabel yang longgar sudah diikat.",
+      "Memeriksa kejelasan pesan di tempat penerima.",
+      "Mengatur urutan siswa yang masuk perpustakaan."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q23",
+     "num": 23,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Perubahan mana menangani cara penyampaian, bukan sambungan alat?"
+      }
+     ],
+     "opts": [
+      "Merapatkan sambungan kabel setelah kegiatan selesai.",
+      "Mengulangi nama tempat dan memberi jeda saat membaca.",
+      "Memeriksa kabel antara ruang petugas dan halaman.",
+      "Mengganti letak sambungan dekat ruang petugas."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q24",
+     "num": 24,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Simpulan apa paling sesuai dengan pengalaman itu?"
+      }
+     ],
+     "opts": [
+      "Informasi tertulis boleh dihapus setelah suara menjadi jelas.",
+      "Pendengar cukup mengikuti kelompok yang paling banyak.",
+      "Pesan perlu diperiksa dari sisi isi dan penerimanya.",
+      "Nama kegiatan yang jelas sudah memastikan tempat tujuan."
+     ],
+     "ans": 2
+    }
+   ]
+  },
+  {
+   "title": "Bacalah Teks 5 untuk soal nomor 25 sampai 30.",
+   "passage": {
+    "title": "Buku yang Terlihat Baru",
+    "paras": [
+     "Perpustakaan menerima sumbangan buku cerita. Sampul sebagian buku tampak sangat baru. Buku lain memiliki sampul terlipat. Petugas memeriksa halaman satu per satu. Ia menandai bagian yang lepas. Setiap buku diberi catatan keadaan.",
+     "Dua murid membantu memilih buku pajangan. Adit memilih sampul yang paling mengilap. Ia menduga buku itu lengkap. Nia membuka halaman di bagian tengah. Ada dua halaman yang terlepas. Sampul baru belum menjelaskan keadaan dalam.",
+     "Mereka lalu memeriksa buku bersampul kusam. Halamannya lengkap dan terikat kuat. Petugas memisahkan keadaan sampul dan halaman. Catatan tidak hanya berisi satu penilaian. Buku lengkap dapat dipinjam setelah dibersihkan. Buku kurang lengkap diperbaiki sebelum digunakan.",
+     "Adit membuat kartu untuk setiap buku. Kartu menyebut bagian yang perlu ditangani. Nia menempel kartu pada rak kerja. Buku diperiksa kembali setelah perbaikan selesai. Kartu disimpan sebagai riwayat singkat. Petugas dapat melihat tindakan yang pernah dilakukan.",
+     "Pekan berikutnya, kelompok menerima sumbangan lagi. Adit tidak hanya melihat sampul. Ia membaca halaman dan memeriksa ikatan. Buku yang meragukan ditunjukkan kepada petugas. Nia mencatat bagian yang belum jelas. Mereka bekerja mengikuti pemeriksaan yang sama."
+    ]
+   },
+   "blocks": [],
+   "items": [
+    {
+     "id": "q25",
+     "num": 25,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa kekeliruan pada dugaan awal Adit?"
+      }
+     ],
+     "opts": [
+      "Ia menganggap halaman terlepas dapat dibersihkan kembali.",
+      "Ia memeriksa halaman sebelum memilih buku pajangan.",
+      "Ia menyamakan sampul baru dengan kelengkapan halaman.",
+      "Ia menyebut semua buku kusam harus segera diperbaiki."
+     ],
+     "ans": 2
+    },
+    {
+     "id": "q26",
+     "num": 26,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti mana memperlihatkan sampul dan isi perlu dinilai terpisah?"
+      }
+     ],
+     "opts": [
+      "Petugas menerima beberapa buku cerita dari penyumbang.",
+      "Buku kusam memiliki halaman lengkap dan ikatan kuat.",
+      "Nia membantu Adit memilih rak untuk buku pajangan.",
+      "Kartu buku ditempel pada rak kerja setelah dibuat."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q27",
+     "num": 27,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa perbedaan penanganan kedua kelompok buku?"
+      }
+     ],
+     "opts": [
+      "Buku sampul baru dipinjamkan, buku sampul kusam dibuang.",
+      "Buku lengkap dibersihkan, buku kurang lengkap diperbaiki.",
+      "Buku sampul kusam diperbaiki meskipun halamannya lengkap.",
+      "Buku bersih disimpan tanpa memeriksa jumlah halaman."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q28",
+     "num": 28,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Apa fungsi kartu setelah tindakan perbaikan selesai?"
+      }
+     ],
+     "opts": [
+      "Menyimpan riwayat penanganan yang pernah dilakukan.",
+      "Menggantikan pemeriksaan ulang terhadap halaman buku.",
+      "Menentukan siapa penyumbang buku yang sampulnya kusam.",
+      "Memilih sampul yang perlu dipajang pada pekan berikutnya."
+     ],
+     "ans": 0
+    },
+    {
+     "id": "q29",
+     "num": 29,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Bukti perubahan cara Adit bekerja terlihat ketika ..."
+      }
+     ],
+     "opts": [
+      "ia kembali memilih buku berdasarkan kilap sampul baru.",
+      "ia memeriksa halaman dan ikatan pada sumbangan berikutnya.",
+      "ia meminta Nia membuat seluruh kartu tanpa pemeriksaan.",
+      "ia memindahkan buku kusam agar tidak terlihat petugas."
+     ],
+     "ans": 1
+    },
+    {
+     "id": "q30",
+     "num": 30,
+     "type": "pg",
+     "stem": [
+      {
+       "t": "p",
+       "html": "Kesimpulan mana dapat diterapkan pada kasus serupa?"
+      }
+     ],
+     "opts": [
+      "Tampilan luar perlu dilengkapi pemeriksaan bagian yang digunakan.",
+      "Sampul baru menunjukkan buku tidak pernah dipakai sebelumnya.",
+      "Buku lengkap selalu mempunyai sampul yang paling bersih.",
+      "Buku kusam tidak perlu diperiksa ulang setelah dipajang."
+     ],
+     "ans": 0
+    }
+   ]
+  }
+ ],
+ "figures": {}
+}

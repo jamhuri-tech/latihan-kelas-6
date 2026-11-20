@@ -76,10 +76,18 @@
       select, form, error,
       h('p', { class: 'hint' }, 'Profil tersimpan di browser ini, tanpa akun atau kata sandi. Di perangkat lain, masukkan nama yang sama saat mulai.'));
   }
+  function appendTkaRules(container, data) {
+    if (data.id.indexOf('tka-') !== 0) return;
+    container.append(h('aside', { class: 'tka-rules', 'aria-label': 'Aturan latihan TKA' },
+      h('strong', null, 'DILARANG KERAS MENGGUNAKAN AI'),
+      h('p', null, 'Kerjakan dengan kemampuan sendiri. Jangan gunakan aplikasi AI untuk mencari atau menyusun jawaban.')));
+  }
+
   function launchQuiz(data) {
     document.title = data.title + ' – Ruang Latihan';
     app.className = 'wrap quiz-page s-' + subjSlug(data.subject);
     var root = h('div', { class: 'session-launch' }, h('a', { href: '#/latihan' }, '← Daftar latihan'), h('h1', null, data.title));
+    appendTkaRules(root, data);
     root.append(participantPanel(function () { launchQuiz(data); }));
     var profile = activeProfile();
     if (profile) {
@@ -754,6 +762,7 @@
       h('a', { class: 'back', href: '#/latihan' }, '← Kembali ke daftar latihan'),
       h('span', { class: 'eyebrow' }, data.subject.toUpperCase() + ' · KELAS 6 SD'),
       h('h1', null, data.title), h('p', null, data.desc)));
+    appendTkaRules(root, sourceData);
     root.append(h('div', { class: 'controls session-controls' },
       h('strong', null, 'Peserta: ' + profile.name),
       h('span', { class: 'hint' }, 'Soal dan opsi diacak otomatis pada sesi baru. Jawaban yang dipilih langsung diperiksa dan terkunci.'),
