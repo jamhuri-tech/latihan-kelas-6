@@ -4,7 +4,7 @@
   else root.QuizCamera = api;
 })(typeof window !== 'undefined' ? window : this, function () {
   'use strict';
-  var INTERVAL = 5 * 60 * 1000;
+  var INTERVAL = 60 * 1000;
   function request(url, params, win, doc) {
     return new Promise(function (resolve, reject) {
       var cb = 'camera_' + Date.now() + '_' + Math.random().toString(36).slice(2), tag = doc.createElement('script');
@@ -27,7 +27,7 @@
     box.setAttribute('aria-label', 'Kamera ujian');
     var heading = doc.createElement('h2'); heading.textContent = 'Persetujuan kamera ujian';
     var note = doc.createElement('p');
-    note.textContent = 'Dengan pendampingan dan persetujuan orang tua, kamera wajib aktif selama ujian TKA. Foto diambil setiap 5 menit, tanpa suara atau rekaman video. Foto disimpan privat di Google Drive pemilik rekap dan dapat dibuka melalui rekap setelah masuk ke akun pemilik tersebut. Peserta lain tidak mendapat akses foto.';
+    note.textContent = 'Dengan pendampingan dan persetujuan orang tua, kamera wajib aktif selama ujian TKA. Foto diambil setiap 1 menit, tanpa suara atau rekaman video. Foto disimpan privat di Google Drive pemilik rekap dan dapat dibuka melalui rekap setelah masuk ke akun pemilik tersebut. Peserta lain tidak mendapat akses foto.';
     var label = doc.createElement('label'), consent = doc.createElement('input'); consent.type = 'checkbox';
     label.append(consent, doc.createTextNode(' Saya dan orang tua menyetujui penggunaan kamera serta penyimpanan foto berkala.'));
     var button = doc.createElement('button'); button.type = 'button'; button.className = 'btn ghost'; button.textContent = 'Setujui dan aktifkan kamera'; button.disabled = true;
@@ -39,7 +39,7 @@
     function check() {
       var value = !disposed && consent.checked && live(stream) && video.readyState >= 2;
       setReady(value);
-      status.textContent = value ? 'Kamera aktif. Foto berkala setiap 5 menit. Mikrofon tidak digunakan.' : 'Pengerjaan dijeda. Aktifkan kamera untuk melanjutkan.';
+      status.textContent = value ? 'Kamera aktif. Foto berkala setiap 1 menit. Mikrofon tidak digunakan.' : 'Pengerjaan dijeda. Aktifkan kamera untuk melanjutkan.';
       button.disabled = busy || !consent.checked;
     }
     function stopTracks() { if (stream) stream.getTracks().forEach(function (t) { t.stop(); }); stream = null; video.srcObject = null; }
@@ -84,7 +84,7 @@
       // Jangan menimpa pesan kesalahan perizinan saat belum ada stream.
       if (stream) check();
       if (pending) { uploadPending(); return; }
-      if (!ready || !state.camera || state.camera.sequence >= 36 || Date.now() - state.camera.lastAt < INTERVAL) return;
+      if (!ready || !state.camera || state.camera.sequence >= 180 || Date.now() - state.camera.lastAt < INTERVAL) return;
       try {
         var canvas = doc.createElement('canvas'), ratio = Math.min(1,480 / video.videoWidth);
         if (!video.videoWidth || !video.videoHeight) return;

@@ -24,6 +24,7 @@ function fixture() {
     consent:elements.find(e=>e.tag==='input'),button:elements.find(e=>e.tag==='button'),flush:()=>new Promise(r=>setImmediate(r))};
 }
 (async()=>{
+  assert.equal(Camera.interval,60000);
   const f=fixture();assert.equal(f.controller.ready(),false);assert.equal(f.gum,0);
   await f.button.onclick();assert.equal(f.gum,0,'consent required');
   f.consent.checked=true;f.consent.onchange();await f.button.onclick();assert.equal(f.controller.ready(),true);
@@ -40,5 +41,5 @@ function fixture() {
   const late=fixture();let resolve;late.win.navigator.mediaDevices.getUserMedia=()=>new Promise(r=>{resolve=r;});
   late.consent.checked=true;const starting=late.button.onclick();await late.flush();late.controller.stop();
   let lateStops=0;resolve({getTracks:()=>[{stop(){lateStops++;}}]});await starting;assert.equal(lateStops,1,'stop late permission stream');
-  console.log('Camera: consent, permission denial, mute/pause, 5-minute capture, receipt, session association, cleanup and late permission passed');
+  console.log('Camera: consent, permission denial, mute/pause, 1-minute capture, receipt, session association, cleanup and late permission passed');
 })();

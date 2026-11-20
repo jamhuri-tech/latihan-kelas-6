@@ -2,7 +2,7 @@
  "id": "tka-matematika-p24",
  "subject": "Matematika",
  "title": "Prediksi TKA Matematika SD 2026 (Paket 24)",
- "desc": "Latihan 21 November 2026. Tiga puluh soal bilangan, geometri dan pengukuran, serta data dengan pembahasan. Tingkat tuntutan bervariasi dari pemahaman hingga penalaran.",
+ "desc": "Latihan 21 November 2026. Tiga puluh soal bilangan, geometri dan pengukuran, serta data dengan pembahasan. Tingkat tuntutan bervariasi dari pemahaman hingga penalaran. Lima opsi A–E dengan satu jawaban benar.",
  "sections": [
   {
    "title": "",
@@ -23,7 +23,8 @@
       "9 liter",
       "6 liter",
       "12 liter",
-      "18 liter"
+      "18 liter",
+      "27 liter"
      ],
      "ans": 0,
      "explanation": [
@@ -42,12 +43,13 @@
       }
      ],
      "opts": [
-      "$\\frac1{36}$",
       "$\\frac1{12}$",
       "$\\frac1{18}$",
-      "$\\frac7{36}$"
+      "$\\frac1{36}$",
+      "$\\frac7{36}$",
+      "$\\frac1{21}$"
      ],
-     "ans": 0,
+     "ans": 2,
      "explanation": [
       "Samakan penyebut menjadi 36.",
       "Potongan pertama 16/36 dan kedua 15/36, sehingga selisihnya 1/36 gulungan."
@@ -65,11 +67,12 @@
      ],
      "opts": [
       "1 kotak",
-      "2 kotak",
       "3 kotak",
-      "4 kotak"
+      "2 kotak",
+      "4 kotak",
+      "5 kotak"
      ],
-     "ans": 1,
+     "ans": 2,
      "explanation": [
       "Kebutuhan seluruhnya 36 × 5 + 14 = 194 kartu.",
       "Persediaan 160 sehingga kurang 34. Dua kotak menambah 40 dan satu kotak belum cukup."
@@ -88,10 +91,11 @@
      "opts": [
       "90 karung",
       "120 karung",
-      "105 karung",
-      "140 karung"
+      "140 karung",
+      "150 karung",
+      "105 karung"
      ],
-     "ans": 2,
+     "ans": 4,
      "explanation": [
       "Sesudah pagi tersisa 5/7 bagian awal. Sesudah siang tersisa 2/3 dari sisa itu, yaitu 10/21 bagian awal.",
       "Sepuluh bagian bernilai 50 karung, jadi satu bagian 5 karung. Semula ada 21 × 5 = 105."
@@ -108,12 +112,13 @@
       }
      ],
      "opts": [
-      "$2\\frac18$ meter",
       "$1\\frac78$ meter",
       "$2\\frac38$ meter",
-      "$2\\frac58$ meter"
+      "$2\\frac58$ meter",
+      "$2\\frac18$ meter",
+      "$2\\frac14$ meter"
      ],
-     "ans": 0,
+     "ans": 3,
      "explanation": [
       "Penyebut bersama adalah 24. Panjang awal 80/24 dan terpakai 15/24 + 14/24 = 29/24.",
       "Sisa 51/24 = 17/8 = 2 1/8 meter."
@@ -133,7 +138,8 @@
       "Rp7.000",
       "Rp24.000",
       "Rp32.000",
-      "Rp21.000"
+      "Rp21.000",
+      "Rp96.000"
      ],
      "ans": 3,
      "explanation": [
@@ -152,12 +158,13 @@
       }
      ],
      "opts": [
-      "2,5 liter",
       "2,3 liter",
+      "2,5 liter",
       "2,4 liter",
-      "2,8 liter"
+      "2,8 liter",
+      "2,6 liter"
      ],
-     "ans": 0,
+     "ans": 1,
      "explanation": [
       "Jumlah 7.200 mL dibagi 12 menghasilkan 600 mL per botol.",
       "Empat botol berisi 2.400 mL, ditambah 100 menjadi 2.500 mL atau 2,5 liter."
@@ -174,12 +181,13 @@
       }
      ],
      "opts": [
-      "61 kancing",
       "53 kancing",
       "57 kancing",
-      "59 kancing"
+      "59 kancing",
+      "63 kancing",
+      "61 kancing"
      ],
-     "ans": 0,
+     "ans": 4,
      "explanation": [
       "Bilangan yang bersisa lima saat dibagi delapan dalam rentang itu adalah 53 dan 61.",
       "Hanya 61 yang bersisa satu saat dibagi tiga."
@@ -197,11 +205,12 @@
      ],
      "opts": [
       "1 kali",
-      "2 kali",
       "3 kali",
-      "4 kali"
+      "4 kali",
+      "0 kali",
+      "2 kali"
      ],
-     "ans": 1,
+     "ans": 4,
      "explanation": [
       "KPK dari 6, 10, 15 adalah 30 menit.",
       "Ketiganya menyala bersama pada 08.30 dan 09.00 dalam rentang tersebut. Kejadian 08.00 tidak dihitung."
@@ -218,12 +227,13 @@
       }
      ],
      "opts": [
+      "14 kartu",
       "7 kartu",
       "11 kartu",
       "18 kartu",
-      "14 kartu"
+      "28 kartu"
      ],
-     "ans": 3,
+     "ans": 0,
      "explanation": [
       "FPB 56 dan 98 adalah 14, sehingga ada 14 kantong.",
       "Tiap kantong berisi 7 kartu gambar. Dua kantong berisi 14 kartu gambar."
@@ -243,7 +253,8 @@
       "17 pensil",
       "14 pensil",
       "16 pensil",
-      "18 pensil"
+      "18 pensil",
+      "15 pensil"
      ],
      "ans": 0,
      "explanation": [
@@ -264,10 +275,11 @@
      "opts": [
       "$\\frac34$ meter",
       "$1\\frac1{12}$ meter",
+      "$1\\frac14$ meter",
       "$1\\frac34$ meter",
-      "$1\\frac14$ meter"
+      "$5\\frac14$ meter"
      ],
-     "ans": 3,
+     "ans": 2,
      "explanation": [
       "Kebutuhan 9 × 7/12 = 63/12 = 5 1/4 meter.",
       "Dikurangi persediaan 4 meter, kekurangan 1 1/4 meter."
@@ -299,7 +311,8 @@
       "18 liter",
       "24 liter",
       "21 liter",
-      "27 liter"
+      "27 liter",
+      "30 liter"
      ],
      "ans": 2,
      "explanation": [
@@ -319,11 +332,12 @@
      ],
      "opts": [
       "40 m",
-      "46 m",
       "43 m",
-      "52 m"
+      "52 m",
+      "34 m",
+      "46 m"
      ],
-     "ans": 1,
+     "ans": 4,
      "explanation": [
       "Keliling persegi panjang luar 2 × (12 + 8) = 40 m.",
       "Bagian mendatar 4 m di atas digantikan 4 m di dasar ceruk, sementara dua sisi ceruk menambah 3 + 3 m. Total 46 m."
@@ -355,9 +369,10 @@
       "1, 2, 2",
       "2, 1, 2",
       "3, 2, 3",
+      "3, 3, 3",
       "2, 2, 2"
      ],
-     "ans": 3,
+     "ans": 4,
      "explanation": [
       "Tumpukan belakang kiri turun menjadi 2 dan depan kanan menjadi 2.",
       "Tinggi terbesar tiap kolom kemudian 2, 2, dan 2. Jangan menjumlahkan tumpukan yang saling membelakangi."
@@ -384,12 +399,13 @@
       "Jajar genjang",
       "Trapesium",
       "Persegi panjang",
-      "Belah ketupat"
+      "Belah ketupat",
+      "Layang-layang"
      ],
      "ans": 1,
      "explanation": [
       "Trapesium mempunyai tepat satu pasang sisi sejajar.",
-      "Ketiga pilihan lain memiliki dua pasang sisi sejajar sehingga tidak sesuai dengan keterangan tepat satu pasang."
+      "Jajar genjang, persegi panjang, dan belah ketupat memiliki dua pasang sisi sejajar. Layang-layang tidak memiliki tepat satu pasang sisi sejajar."
      ]
     },
     {
@@ -406,7 +422,8 @@
       "120 cm²",
       "96 cm²",
       "144 cm²",
-      "216 cm²"
+      "216 cm²",
+      "72 cm²"
      ],
      "ans": 1,
      "explanation": [
@@ -428,7 +445,8 @@
       "2 cm",
       "6 cm",
       "4 cm",
-      "8 cm"
+      "8 cm",
+      "12 cm"
      ],
      "ans": 2,
      "explanation": [
@@ -448,11 +466,12 @@
      ],
      "opts": [
       "10 cm",
-      "14 cm",
       "12 cm",
-      "16 cm"
+      "14 cm",
+      "16 cm",
+      "1,2 cm"
      ],
-     "ans": 2,
+     "ans": 1,
      "explanation": [
       "Volume air 8,4 liter = 8.400 cm³.",
       "Luas alas 700 cm², sehingga tinggi air 8.400 : 700 = 12 cm."
@@ -470,11 +489,12 @@
      ],
      "opts": [
       "1 kubus",
+      "3 kubus",
       "6 kubus",
       "9 kubus",
-      "3 kubus"
+      "18 kubus"
      ],
-     "ans": 3,
+     "ans": 1,
      "explanation": [
       "Kotak muat 4 × 3 × 2 = 24 kubus.",
       "Tiga perempat kapasitas adalah 18 kubus, sehingga perlu 18 − 15 = 3 kubus lagi."
@@ -491,12 +511,13 @@
       }
      ],
      "opts": [
-      "400 gram",
       "350 gram",
       "450 gram",
-      "550 gram"
+      "550 gram",
+      "520 gram",
+      "400 gram"
      ],
-     "ans": 0,
+     "ans": 4,
      "explanation": [
       "Massa kotor 2.750 gram. Lima kaleng kosong bermassa 750 gram, jadi biskuit seluruhnya 2.000 gram.",
       "Bagi lima, isi per kaleng 400 gram."
@@ -513,12 +534,13 @@
       }
      ],
      "opts": [
-      "09.12",
       "09.19",
+      "09.12",
       "09.26",
-      "09.40"
+      "09.40",
+      "09.33"
      ],
-     "ans": 1,
+     "ans": 0,
      "explanation": [
       "Empat penampilan memakan 140 menit. Ada tiga jeda dengan total 21 menit.",
       "Acara berlangsung 161 menit atau 2 jam 41 menit. Mulainya 12.00 − 2 jam 41 menit = 09.19."
@@ -535,12 +557,13 @@
       }
      ],
      "opts": [
+      "28,8 km",
       "27 km",
       "30 km",
-      "28,8 km",
-      "36 km"
+      "36 km",
+      "24 km"
      ],
-     "ans": 2,
+     "ans": 0,
      "explanation": [
       "Jarak total 36 km. Waktu total 75 menit = 1 1/4 jam.",
       "Jarak rata-rata per jam = 36 : 1,25 = 28,8 km. Jangan merata-ratakan dua kecepatan tanpa memperhitungkan waktunya."
@@ -560,7 +583,8 @@
       "75°",
       "95°",
       "105°",
-      "85°"
+      "85°",
+      "25°"
      ],
      "ans": 3,
      "explanation": [
@@ -615,10 +639,11 @@
      "opts": [
       "5 lencana",
       "7 lencana",
+      "12 lencana",
       "6 lencana",
-      "12 lencana"
+      "24 lencana"
      ],
-     "ans": 2,
+     "ans": 3,
      "explanation": [
       "Pendaftar berjumlah 84 dan yang hadir 72. Sisa lencana 12.",
       "Separuh untuk disimpan 6, sehingga petugas mendapat 6."
@@ -635,12 +660,13 @@
       }
      ],
      "opts": [
-      "4 murid",
       "5 murid",
+      "4 murid",
       "6 murid",
-      "8 murid"
+      "8 murid",
+      "12 murid"
      ],
-     "ans": 1,
+     "ans": 0,
      "explanation": [
       "Target minimum VI A adalah 90/100 × 28 = 25,2, sehingga perlu 26 hadir. Tambah 2 murid.",
       "Target VI B 27 hadir, sehingga tambah 2. Target VI C 23,4 berarti minimal 24 hadir, sehingga tambah 1.",
@@ -672,10 +698,11 @@
      "opts": [
       "35 kg",
       "45 kg",
+      "40 kg",
       "50 kg",
-      "40 kg"
+      "30 kg"
      ],
-     "ans": 3,
+     "ans": 2,
      "explanation": [
       "Sebelum koreksi total tomat 25 + 15 = 40 kg.",
       "Memindahkan catatan 5 kg mengubah pembagian menjadi 20 dan 20, tetapi total tetap 40 kg."
@@ -693,11 +720,12 @@
      ],
      "opts": [
       "Sawi, naik 10 kg",
-      "Tomat, naik 10 kg",
       "Cabai, naik 10 kg",
-      "Cabai, naik 5 kg"
+      "Tomat, naik 10 kg",
+      "Cabai, naik 5 kg",
+      "Sawi, naik 5 kg"
      ],
-     "ans": 2,
+     "ans": 1,
      "explanation": [
       "Sawi naik 25 − 20 = 5 kg. Tomat turun 10 kg.",
       "Cabai naik 25 − 15 = 10 kg, paling besar."
@@ -745,11 +773,12 @@
      ],
      "opts": [
       "24 paket",
-      "28 paket",
       "30 paket",
-      "32 paket"
+      "32 paket",
+      "28 paket",
+      "14 paket"
      ],
-     "ans": 1,
+     "ans": 3,
      "explanation": [
       "Jumlah awal P 15, Q 18, R 9, total 42.",
       "Sepertiga disumbangkan 14, sehingga sisa 42 − 14 = 28 paket."
@@ -766,12 +795,13 @@
       }
      ],
      "opts": [
-      "Rp70.000",
       "Rp60.000",
       "Rp80.000",
-      "Rp90.000"
+      "Rp90.000",
+      "Rp70.000",
+      "Rp168.000"
      ],
-     "ans": 0,
+     "ans": 3,
      "explanation": [
       "Paket awal 42 memerlukan 42 × 4 = 168 kartu.",
       "Enam pak hanya 150 kartu, sedangkan tujuh pak 175 kartu. Minimal biaya 7 × Rp10.000 = Rp70.000."

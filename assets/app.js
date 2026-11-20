@@ -102,6 +102,7 @@
         root.append(h('p', null, 'Sesi terakhir ' + profile.name + ': ' + (saved.checked ? 'sudah selesai.' : count + ' soal sudah dijawab.')),
           h('button', { class: 'btn ghost', type: 'button', onclick: function () { Quiz(data, profile, false); } }, saved.checked ? 'Lihat hasil sesi terakhir' : 'Lanjutkan sesi terakhir'));
       }
+      if (saved && saved.layout && !Sessions.valid(data, saved.layout)) root.append(h('p', {class:'hint'}, 'Isi paket telah diperbarui. Mulai sesi baru untuk memakai versi terbaru; nilai yang sudah tercatat tetap ada di rekap.'));
       var best = bestFor(profile, data.id);
       if (best != null) root.append(h('p', null, 'Nilai terbaik ' + profile.name + ': ' + best));
     }
@@ -437,7 +438,7 @@
           }
         });
         ul.append(h('li', null, h('label', { class: cls },
-          input, h('span', { class: 'let' }, 'ABCD'.charAt(pos) + '.'), h('span', { html: q.opts[oi] }))));
+          input, h('span', { class: 'let' }, 'ABCDE'.charAt(pos) + '.'), h('span', { html: q.opts[oi] }))));
       });
       return ul;
     }
@@ -508,7 +509,7 @@
         var pos = orderOf(q).indexOf(q.ans);
         return h('div', { class: 'fb no' },
           A(q) === undefined ? h('strong', null, 'Belum dijawab. ') : h('strong', null, 'Belum tepat. '),
-          'Jawaban yang benar: ' + 'ABCD'.charAt(pos) + '. ', h('span', { html: q.opts[q.ans] }));
+          'Jawaban yang benar: ' + 'ABCDE'.charAt(pos) + '. ', h('span', { html: q.opts[q.ans] }));
       }
       if (q.type === 'bs' || q.type === 'ms') {
         return h('div', { class: 'fb ' + (ok ? 'ok' : 'no') },
@@ -682,6 +683,7 @@
       var score = Math.round(100 * good / gradable.length);
       var pending = gradable.some(function (q) { return q.type === 'self' && st.marks[q.id] === undefined; });
       if (!pending) { st.score = score; if (!st.completedAt) st.completedAt = Date.now(); save(); }
+      if (saved && saved.layout && !Sessions.valid(data, saved.layout)) root.append(h('p', {class:'hint'}, 'Isi paket telah diperbarui. Mulai sesi baru untuk memakai versi terbaru; nilai yang sudah tercatat tetap ada di rekap.'));
       var best = bestFor(profile, data.id);
       if (!pending && (best == null || score > best)) { STORE.set(bestKey(profile, data.id), score); best = score; }
       var msg = score >= 90 ? 'Luar biasa! Pertahankan ya.' : score >= 75 ? 'Bagus sekali! Sedikit lagi sempurna.' :

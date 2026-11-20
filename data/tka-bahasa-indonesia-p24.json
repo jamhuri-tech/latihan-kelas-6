@@ -2,7 +2,7 @@
  "id": "tka-bahasa-indonesia-p24",
  "subject": "Bahasa Indonesia",
  "title": "Prediksi TKA Bahasa Indonesia SD 2026 (Paket 24)",
- "desc": "Latihan 21 November 2026. Lima bacaan dengan pertanyaan tentang bukti, sudut pandang, dan simpulan.",
+ "desc": "Latihan 21 November 2026. Lima bacaan dengan pertanyaan tentang bukti, sudut pandang, dan simpulan. Lima opsi A–E dengan satu jawaban benar.",
  "sections": [
   {
    "title": "Bacalah Teks 1 untuk soal nomor 1 sampai 6.",
@@ -29,12 +29,13 @@
       }
      ],
      "opts": [
-      "Urutan datang berbeda dari urutan peristiwa.",
       "Cerita sengaja dimulai dari akhir perjalanan.",
       "Bayu membaca bagian bawah sebelum judul.",
-      "Setiap lembar menceritakan kapal yang berbeda."
+      "Urutan datang berbeda dari urutan peristiwa.",
+      "Setiap lembar menceritakan kapal yang berbeda.",
+      "Lembar tengah memuat judul yang berbeda."
      ],
-     "ans": 0
+     "ans": 2
     },
     {
      "id": "q2",
@@ -47,12 +48,13 @@
       }
      ],
      "opts": [
-      "Nomor yang menunjukkan urutan bagian cerita.",
       "Nama penulis yang membawa lembar ke kelas.",
       "Gambar kapal yang ditempel di sebelah judul.",
-      "Waktu ketika lembar cerita diterima tokoh."
+      "Waktu ketika lembar cerita diterima tokoh.",
+      "Nomor yang menunjukkan urutan bagian cerita.",
+      "Jumlah penumpang yang tiba di pelabuhan."
      ],
-     "ans": 0
+     "ans": 3
     },
     {
      "id": "q3",
@@ -65,12 +67,13 @@
       }
      ],
      "opts": [
+      "Kapal sudah tiba sebelum diceritakan berangkat.",
       "Bayu berhenti membaca ketika waktu istirahat.",
       "Dita membawa catatan asli untuk diperiksa.",
       "Judul cerita ditempel dekat gambar kapal.",
-      "Kapal sudah tiba sebelum diceritakan berangkat."
+      "Nomor bagian tertutup pita di tepi tulisan."
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q4",
@@ -86,7 +89,8 @@
       "Menghubungkan peristiwa berikutnya dengan peristiwa sebelumnya.",
       "Menjelaskan siapa yang mengantarkan setiap lembar cerita.",
       "Mengganti nomor bagian yang tidak dapat dibaca lagi.",
-      "Menunjukkan tempat semua gambar perlu ditempelkan."
+      "Menunjukkan tempat semua gambar perlu ditempelkan.",
+      "Membandingkan dua tempat yang dikunjungi kapal."
      ],
      "ans": 0
     },
@@ -101,12 +105,13 @@
       }
      ],
      "opts": [
-      "Memasang hiasan di tepi dan membiarkan nomor terlihat.",
       "Menghapus nomor lalu meminta pembaca menghafal susunannya.",
       "Menambah pita pada nomor agar pembaca memperhatikan gambar.",
-      "Membiarkan urutan awal sambil menambah satu gambar kapal."
+      "Membiarkan urutan awal sambil menambah satu gambar kapal.",
+      "Memasang hiasan di tepi dan membiarkan nomor terlihat.",
+      "Memasang nomor baru mengikuti urutan lembar yang keliru."
      ],
-     "ans": 0
+     "ans": 3
     },
     {
      "id": "q6",
@@ -121,10 +126,11 @@
      "opts": [
       "Ia meminta Dita mengganti semua isi cerita Bayu.",
       "Ia menganggap komentar tidak penting setelah melihat nomor.",
+      "Ia memeriksa komentar itu dan menguji susunan baru.",
       "Ia memilih menghentikan cerita pada bagian keberangkatan.",
-      "Ia memeriksa komentar itu dan menguji susunan baru."
+      "Ia menyerahkan pemeriksaan hanya kepada pembawa tulisan."
      ],
-     "ans": 3
+     "ans": 2
     }
    ]
   },
@@ -154,11 +160,12 @@
      ],
      "opts": [
       "Gambar hewan yang tercetak dalam buku.",
+      "Bekas pijakan yang tertinggal di pasir.",
       "Arah sungai yang ditandai pada penggaris.",
       "Batu yang bergerak setelah hujan ringan.",
-      "Bekas pijakan yang tertinggal di pasir."
+      "Tanda aliran air yang tergambar pada buku."
      ],
-     "ans": 3
+     "ans": 1
     },
     {
      "id": "q8",
@@ -171,12 +178,13 @@
       }
      ],
      "opts": [
-      "Besar gambar selalu sama dengan ukuran hewan asli.",
       "Bentuk dapat mirip sementara ukuran belum diperiksa.",
+      "Besar gambar selalu sama dengan ukuran hewan asli.",
       "Nama hewan sudah diketahui dari arah menuju air.",
-      "Jejak dekat batu pasti berasal dari hewan berbeda."
+      "Jejak dekat batu pasti berasal dari hewan berbeda.",
+      "Arah jejak sudah memastikan jenis hewan pembuatnya."
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q9",
@@ -191,10 +199,11 @@
      "opts": [
       "Menunjukkan arah hewan bergerak di tepi sungai.",
       "Memperbaiki bagian jejak yang sudah terkena hujan.",
+      "Menggantikan tanggal pada catatan hasil pengamatan.",
       "Memberi acuan untuk memperkirakan ukuran jejak.",
-      "Menggantikan tanggal pada catatan hasil pengamatan."
+      "Membuktikan kapan hewan itu melewati pasir."
      ],
-     "ans": 2
+     "ans": 3
     },
     {
      "id": "q10",
@@ -208,11 +217,12 @@
      ],
      "opts": [
       "Jejak kabur tidak pernah berasal dari burung.",
-      "Kelompok telah mengetahui semua pembuat jejak jelas.",
       "Ketidakjelasan bentuk perlu terlihat dalam laporan.",
-      "Foto kabur memiliki ukuran yang selalu lebih besar."
+      "Kelompok telah mengetahui semua pembuat jejak jelas.",
+      "Foto kabur memiliki ukuran yang selalu lebih besar.",
+      "Jejak yang kabur menunjukkan hewan berukuran kecil."
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q11",
@@ -226,11 +236,12 @@
      ],
      "opts": [
       "Hewan pada gambar buku pasti membuat seluruh jejak.",
-      "Ada dua kemungkinan hewan dengan ciri jejak serupa.",
       "Jejak memanjang dan berputar dibuat hewan yang sama.",
-      "Hujan membuat semua hewan meninggalkan sungai bersama."
+      "Hujan membuat semua hewan meninggalkan sungai bersama.",
+      "Ukuran jejak saja cukup untuk memastikan jenis hewan.",
+      "Ada dua kemungkinan hewan dengan ciri jejak serupa."
      ],
-     "ans": 1
+     "ans": 4
     },
     {
      "id": "q12",
@@ -243,12 +254,13 @@
       }
      ],
      "opts": [
-      "Mengamati hewan melintas dan jejak yang ditinggalkannya.",
       "Memperbesar gambar buku sampai sama dengan foto.",
       "Memberi nama hewan berbeda pada tiap jejak kabur.",
-      "Menghapus satu kemungkinan agar laporan lebih singkat."
+      "Mengamati hewan melintas dan jejak yang ditinggalkannya.",
+      "Menghapus satu kemungkinan agar laporan lebih singkat.",
+      "Membandingkan warna pasir dengan warna gambar hewan."
      ],
-     "ans": 0
+     "ans": 2
     }
    ]
   },
@@ -280,7 +292,8 @@
       "Beberapa peserta memakai gantungan yang serupa.",
       "Gantungan merah dilepas Rafi ketika hujan turun.",
       "Tas tokoh tidak lagi berada di dekat bangku.",
-      "Gantungan yang dipakai tokoh berubah warna setelah basah."
+      "Gantungan yang dipakai tokoh berubah warna setelah basah.",
+      "Rafi memasang gantungan pada tas yang salah."
      ],
      "ans": 0
     },
@@ -295,12 +308,13 @@
       }
      ],
      "opts": [
+      "Tokoh menemukan buku sketsa yang bukan miliknya.",
       "Tokoh merasa tas yang diangkatnya lebih berat.",
       "Rafi bertanya apakah gantungan merah tetap dipakai.",
       "Petugas meminta pemilik memeriksa semua barangnya.",
-      "Tokoh menemukan buku sketsa yang bukan miliknya."
+      "Tokoh melihat tambalan pada tali tas Rafi."
      ],
-     "ans": 3
+     "ans": 0
     },
     {
      "id": "q15",
@@ -316,9 +330,10 @@
       "Agar petugas memilih buku sketsa yang boleh dibawa tokoh.",
       "Agar gantungan merah pada semua tas segera diganti.",
       "Agar pemilik menyerahkan label baru kepada peserta.",
+      "Agar petugas menyimpan tas sampai pemilik mengganti gantungan.",
       "Agar pencarian pemilik dan pengembalian dilakukan dengan jelas."
      ],
-     "ans": 3
+     "ans": 4
     },
     {
      "id": "q16",
@@ -333,10 +348,11 @@
      "opts": [
       "Berusaha menyembunyikan buku sampai kegiatan selesai.",
       "Lebih suka menunggu pemilik menuduh peserta lain.",
-      "Bersedia menjelaskan kesalahan dan memperbaikinya.",
-      "Menganggap tas berat boleh dibawa selama hujan."
+      "Menganggap tas berat boleh dibawa selama hujan.",
+      "Mengembalikan tas tanpa memberitahukan kekeliruan yang terjadi.",
+      "Bersedia menjelaskan kesalahan dan memperbaikinya."
      ],
-     "ans": 2
+     "ans": 4
     },
     {
      "id": "q17",
@@ -350,11 +366,12 @@
      ],
      "opts": [
       "Keduanya menggantikan semua tanda yang dipasang Rafi.",
-      "Keduanya menambah ciri pembeda di luar gantungan.",
       "Keduanya menunjukkan jumlah buku di dalam tas.",
-      "Keduanya dipakai petugas menentukan kelompok gambar."
+      "Keduanya menambah ciri pembeda di luar gantungan.",
+      "Keduanya dipakai petugas menentukan kelompok gambar.",
+      "Keduanya dipasang agar tas tampak lebih baru."
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q18",
@@ -370,7 +387,8 @@
       "Barang pasti lebih berat daripada barang milik sendiri.",
       "Barang yang tampak cocok bisa tetap milik orang lain.",
       "Nama pemilik di label akan berubah setelah barang dibuka.",
-      "Petugas tidak dapat mengembalikan barang meskipun pemilik hadir."
+      "Petugas tidak dapat mengembalikan barang meskipun pemilik hadir.",
+      "Barang dengan tanda serupa pasti memiliki isi sama."
      ],
      "ans": 1
     }
@@ -402,11 +420,12 @@
      ],
      "opts": [
       "Papan memuat dua tanggal untuk kegiatan yang sama.",
-      "Guru meminta sebagian murid masuk ke aula.",
       "Nama kegiatan terdengar tetapi tempatnya kurang jelas.",
-      "Pengeras suara menyebut dua tempat secara bergiliran."
+      "Guru meminta sebagian murid masuk ke aula.",
+      "Pengeras suara menyebut dua tempat secara bergiliran.",
+      "Lina meminta teman-temannya menguji dua tempat berkumpul."
      ],
-     "ans": 2
+     "ans": 1
     },
     {
      "id": "q20",
@@ -422,7 +441,8 @@
       "Letak papan yang paling dekat dengan aula.",
       "Jumlah anak yang telah menuju lapangan.",
       "Warna kabel yang dipasang sesudah kegiatan.",
-      "Nama kegiatan dan tanggal yang sesuai."
+      "Nama kegiatan dan tanggal yang sesuai.",
+      "Letak perpustakaan yang berdekatan dengan kantor."
      ],
      "ans": 3
     },
@@ -438,11 +458,12 @@
      ],
      "opts": [
       "Perbaikan kabel membuat nama kegiatan tidak bisa dibacakan.",
+      "Papan memberi sumber informasi lain ketika pendengar ragu.",
       "Pengumuman suara hanya boleh menyampaikan tanggal kegiatan.",
       "Papan menentukan keras suara yang terdengar di halaman.",
-      "Papan memberi sumber informasi lain ketika pendengar ragu."
+      "Papan menggantikan semua tugas petugas pembaca pengumuman."
      ],
-     "ans": 3
+     "ans": 1
     },
     {
      "id": "q22",
@@ -457,10 +478,11 @@
      "opts": [
       "Menggantikan guru saat memilih tempat kegiatan.",
       "Memastikan kabel yang longgar sudah diikat.",
-      "Memeriksa kejelasan pesan di tempat penerima.",
-      "Mengatur urutan siswa yang masuk perpustakaan."
+      "Mengatur urutan siswa yang masuk perpustakaan.",
+      "Membandingkan jumlah siswa di halaman dan koridor.",
+      "Memeriksa kejelasan pesan di tempat penerima."
      ],
-     "ans": 2
+     "ans": 4
     },
     {
      "id": "q23",
@@ -474,11 +496,12 @@
      ],
      "opts": [
       "Merapatkan sambungan kabel setelah kegiatan selesai.",
-      "Mengulangi nama tempat dan memberi jeda saat membaca.",
       "Memeriksa kabel antara ruang petugas dan halaman.",
-      "Mengganti letak sambungan dekat ruang petugas."
+      "Mengganti letak sambungan dekat ruang petugas.",
+      "Mengulangi nama tempat dan memberi jeda saat membaca.",
+      "Memindahkan posisi kabel agar lebih dekat dengan pembaca."
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q24",
@@ -492,11 +515,12 @@
      ],
      "opts": [
       "Informasi tertulis boleh dihapus setelah suara menjadi jelas.",
-      "Pendengar cukup mengikuti kelompok yang paling banyak.",
       "Pesan perlu diperiksa dari sisi isi dan penerimanya.",
-      "Nama kegiatan yang jelas sudah memastikan tempat tujuan."
+      "Pendengar cukup mengikuti kelompok yang paling banyak.",
+      "Nama kegiatan yang jelas sudah memastikan tempat tujuan.",
+      "Pesan cukup dibacakan sekali jika semua siswa hadir."
      ],
-     "ans": 2
+     "ans": 1
     }
    ]
   },
@@ -527,10 +551,11 @@
      "opts": [
       "Ia menganggap halaman terlepas dapat dibersihkan kembali.",
       "Ia memeriksa halaman sebelum memilih buku pajangan.",
-      "Ia menyamakan sampul baru dengan kelengkapan halaman.",
-      "Ia menyebut semua buku kusam harus segera diperbaiki."
+      "Ia menyebut semua buku kusam harus segera diperbaiki.",
+      "Ia mengira buku lengkap harus diberi sampul baru.",
+      "Ia menyamakan sampul baru dengan kelengkapan halaman."
      ],
-     "ans": 2
+     "ans": 4
     },
     {
      "id": "q26",
@@ -544,11 +569,12 @@
      ],
      "opts": [
       "Petugas menerima beberapa buku cerita dari penyumbang.",
-      "Buku kusam memiliki halaman lengkap dan ikatan kuat.",
       "Nia membantu Adit memilih rak untuk buku pajangan.",
-      "Kartu buku ditempel pada rak kerja setelah dibuat."
+      "Buku kusam memiliki halaman lengkap dan ikatan kuat.",
+      "Kartu buku ditempel pada rak kerja setelah dibuat.",
+      "Rak pajangan dipilih berdasarkan asal sumbangan buku."
      ],
-     "ans": 1
+     "ans": 2
     },
     {
      "id": "q27",
@@ -562,11 +588,12 @@
      ],
      "opts": [
       "Buku sampul baru dipinjamkan, buku sampul kusam dibuang.",
-      "Buku lengkap dibersihkan, buku kurang lengkap diperbaiki.",
       "Buku sampul kusam diperbaiki meskipun halamannya lengkap.",
-      "Buku bersih disimpan tanpa memeriksa jumlah halaman."
+      "Buku bersih disimpan tanpa memeriksa jumlah halaman.",
+      "Buku lengkap dibersihkan, buku kurang lengkap diperbaiki.",
+      "Buku lengkap diperbaiki, buku tak lengkap langsung dipajang."
      ],
-     "ans": 1
+     "ans": 3
     },
     {
      "id": "q28",
@@ -579,12 +606,13 @@
       }
      ],
      "opts": [
-      "Menyimpan riwayat penanganan yang pernah dilakukan.",
       "Menggantikan pemeriksaan ulang terhadap halaman buku.",
       "Menentukan siapa penyumbang buku yang sampulnya kusam.",
-      "Memilih sampul yang perlu dipajang pada pekan berikutnya."
+      "Menyimpan riwayat penanganan yang pernah dilakukan.",
+      "Memilih sampul yang perlu dipajang pada pekan berikutnya.",
+      "Mencatat harga sampul yang baru dibeli petugas."
      ],
-     "ans": 0
+     "ans": 2
     },
     {
      "id": "q29",
@@ -597,12 +625,13 @@
       }
      ],
      "opts": [
-      "ia kembali memilih buku berdasarkan kilap sampul baru.",
       "ia memeriksa halaman dan ikatan pada sumbangan berikutnya.",
+      "ia kembali memilih buku berdasarkan kilap sampul baru.",
       "ia meminta Nia membuat seluruh kartu tanpa pemeriksaan.",
-      "ia memindahkan buku kusam agar tidak terlihat petugas."
+      "ia memindahkan buku kusam agar tidak terlihat petugas.",
+      "ia memilih buku yang datang lebih awal untuk dipajang."
      ],
-     "ans": 1
+     "ans": 0
     },
     {
      "id": "q30",
@@ -615,12 +644,13 @@
       }
      ],
      "opts": [
-      "Tampilan luar perlu dilengkapi pemeriksaan bagian yang digunakan.",
       "Sampul baru menunjukkan buku tidak pernah dipakai sebelumnya.",
       "Buku lengkap selalu mempunyai sampul yang paling bersih.",
-      "Buku kusam tidak perlu diperiksa ulang setelah dipajang."
+      "Buku kusam tidak perlu diperiksa ulang setelah dipajang.",
+      "Usia barang dapat ditentukan hanya dari warna luarnya.",
+      "Tampilan luar perlu dilengkapi pemeriksaan bagian yang digunakan."
      ],
-     "ans": 0
+     "ans": 4
     }
    ]
   }

@@ -47,7 +47,7 @@ function doPost(e) {
     var lock = LockService.getScriptLock(); lock.waitLock(20000);
     try {
       if (d.action === 'photo') {
-        if (!/^[\w-]{8,100}$/.test(d.attempt || '') || !Number.isInteger(d.sequence) || d.sequence < 1 || d.sequence > 36) throw new Error('Identitas foto');
+        if (!/^[\w-]{8,100}$/.test(d.attempt || '') || !Number.isInteger(d.sequence) || d.sequence < 1 || d.sequence > 180) throw new Error('Identitas foto');
         if (typeof d.jpeg !== 'string' || !/^[A-Za-z0-9+/=]+$/.test(d.jpeg) || d.jpeg.length > 190000) throw new Error('JPEG tidak valid');
         var bytes = Utilities.base64Decode(d.jpeg);
         if (bytes.length < 4 || (bytes[0]&255)!==255 || (bytes[1]&255)!==216 || (bytes[bytes.length-2]&255)!==255 || (bytes[bytes.length-1]&255)!==217) throw new Error('Bukan JPEG');

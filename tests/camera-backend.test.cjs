@@ -16,7 +16,7 @@ context.setupCameraStorage();assert.equal(props.CAMERA_FOLDER_ID,'private-folder
 let d={action:'photo',attempt:'attempt-1234',sequence:1,time:new Date().toISOString(),jpeg:'/9j/2Q=='};
 assert.equal(post(d).ok,true);assert.equal(post(d).ok,true);assert.equal(files.length,1);assert.equal(sheets[1].rows.length,2,'idempotent retry');
 assert.equal(post({...d,jpeg:'bm90IGEganBlZw==',sequence:2}).ok,false);
-assert.equal(post({...d,sequence:37}).ok,false);
+assert.equal(post({...d,sequence:181}).ok,false);
 let p=JSON.parse(context.doGet({parameter:{action:'photos',attempt:'attempt-1234'}}).text);assert.equal(p.photos.length,1);assert.ok(p.photos[0].url.includes('/private-id/'));
 assert.equal(JSON.parse(context.doGet({parameter:{action:'photos',attempt:'another-1234'}}).text).photos.length,0,'session isolation');
 assert.equal(context.doGet({parameter:{callback:'alert(1)',action:'capabilities'}}).text,'{"ok":false}');

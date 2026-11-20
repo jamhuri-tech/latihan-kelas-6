@@ -112,8 +112,8 @@
 </main>
 <script src="assets/recap-chart.js?v=20261102-type-balanced"></script>
 <script src="assets/recap-coverage.js?v=1"></script>
-<script src="assets/quiz-camera.js?v=20261121-camera"></script>
-<script src="assets/quiz-activity.js?v=20261121-camera"></script>
+<script src="assets/quiz-camera.js?v=20261121-minute-five"></script>
+<script src="assets/quiz-activity.js?v=20261121-minute-five"></script>
 <script>
 (function () {
   'use strict';
@@ -269,7 +269,7 @@
       try {
         var result = await QuizCamera.request('https://script.google.com/macros/s/AKfycbyhI-46Ltlen5Cuw_QKjCMzPhdXApNTm4NdEEYoHirM94W0KlaAnTXk9awfiB6vdL_Lxg/exec',{action:'photos',attempt:attempt},window,document);
         cell.replaceChildren();
-        if (!result.photos.length) { cell.textContent = 'Tidak ada foto tersimpan (pengambilan setiap 5 menit).'; return; }
+        if (!result.photos.length) { cell.textContent = 'Tidak ada foto tersimpan (pengambilan setiap 1 menit).'; return; }
         var note = document.createElement('p'); note.textContent = 'Masuk dengan akun Google pemilik rekap untuk membuka foto privat.'; cell.append(note);
         result.photos.sort(function(a,b){return a.sequence-b.sequence;}).forEach(function(p){
           if (!/^https:\/\/drive\.google\.com\/file\/d\/[\w-]+\/view/.test(p.url)) return;

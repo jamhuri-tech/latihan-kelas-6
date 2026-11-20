@@ -1,6 +1,6 @@
 # Kamera ujian dan foto privat
 
-Drive/OAuth telah disetujui pemilik dan setupCameraStorage selesai. Deployment versi 3 aktif pada 21 November 2026. Endpoint capabilities telah diperiksa: ok=true, camera=true, version=3. Folder penyimpanan telah diperiksa dengan metadata Drive: shared=false. Sesi TKA memerlukan kamera dan penyimpanan yang berfungsi.
+Drive/OAuth telah disetujui pemilik dan setupCameraStorage selesai. Deployment versi 4 aktif pada 21 November 2026 dengan batas 180 foto per sesi untuk interval satu menit. Endpoint capabilities telah diperiksa: ok=true, camera=true, version=3. Folder penyimpanan telah diperiksa dengan metadata Drive: shared=false. Sesi TKA memerlukan kamera dan penyimpanan yang berfungsi.
 
 ## Aktivasi pemilik
 
@@ -14,7 +14,7 @@ Drive/OAuth telah disetujui pemilik dan setupCameraStorage selesai. Deployment v
 - Berlaku untuk sesi TKA yang belum selesai; sesi non-TKA dan tinjauan hasil lama tidak meminta kamera.
 - Peserta dan orang tua menyetujui pemberitahuan di halaman, kemudian browser meminta video saja, tanpa mikrofon.
 - Soal dan jawaban tidak tersedia selama kamera belum aktif atau alirannya terputus. Jawaban lama tetap tersimpan.
-- Foto JPEG maksimal lebar 480 piksel, diambil setelah 5 menit dan setiap 5 menit selanjutnya ketika kamera aktif. Batas 36 foto per sesi. Tidak ada foto awal atau rekaman video.
+- Foto JPEG maksimal lebar 480 piksel, diambil setelah 1 menit dan setiap 1 menit selanjutnya ketika kamera aktif. Batas 180 foto per sesi. Tidak ada foto awal atau rekaman video.
 - Foto diasosiasikan dengan ID sesi, bukan nama saja. Nomor foto dan nama file deterministik mencegah duplikasi saat kirim ulang.
 - POST no-cors diikuti pemeriksaan tanda terima; respons jaringan saja tidak dianggap sebagai bukti tersimpan. Unggahan gagal dicoba kembali selama halaman ujian masih aktif. Menutup halaman dapat menghilangkan unggahan yang belum selesai; foto tidak disimpan ke localStorage.
 - Jawaban dikirim atau peserta berganti: kamera dan timer pengambilan foto dimatikan. Unggahan yang sudah berjalan dapat menyelesaikan prosesnya.
